@@ -74,14 +74,14 @@ Check out documentation source
 
 Since write acecss to the main documentation repository is restricted you may want
 to work on your personal `fork <https://help.github.com/articles/fork-a-repo/>`_.
-Login on Github with your account, navigate to the `documentation reposiroty <https://github.com/geosolutions-it/doc-cread>`_
+Login on Github with your account, navigate to the `documentation reposiroty <https://github.com/geosolutions-it/doc-geonode>`_
 and click on `fork`. You will be redirected to your own fork of the documentation.
 
 Make sure you already `configured your Git username and email address <https://help.github.com/articles/set-up-git/#setting-up-git>`_
 
 Now clone your repository locally:
 ::
-    git clone https://github.com/your-user/doc-cread.git
+    git clone https://github.com/your-user/doc-geonode.git
 
 where `your-user` is your username on GitHub.
 
