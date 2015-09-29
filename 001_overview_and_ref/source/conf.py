@@ -20,51 +20,7 @@ import sys, os
 
 # General configuration
 # ---------------------
-rst_epilog = '''
 
-.. |virtualenv_parent_dir| replace:: /usr/lib/ckan
-.. |virtualenv| replace:: |virtualenv_parent_dir|/default
-.. |activate| replace:: . |virtualenv|/bin/activate
-.. |config_parent_dir| replace:: /etc/ckan
-.. |config_dir| replace:: |config_parent_dir|/default
-.. |production.ini| replace:: |config_dir|/production.ini
-.. |development.ini| replace:: |config_dir|/development.ini
-.. |git_url| replace:: \https://github.com/ckan/ckan.git
-.. |postgres| replace:: PostgreSQL
-.. |database| replace:: ckan_default
-.. |database_user| replace:: ckan_default
-.. |datastore| replace:: datastore_default
-.. |datastore_user| replace:: datastore_default
-.. |test_database| replace:: ckan_test
-.. |test_datastore| replace:: datastore_test
-.. |apache_config_file| replace:: /etc/apache2/sites-available/ckan_default
-.. |apache.wsgi| replace:: |config_dir|/apache.wsgi
-.. |data_dir| replace:: |config_dir|/data
-.. |sstore| replace:: |config_dir|/sstore
-.. |storage_parent_dir| replace:: /var/lib/ckan
-.. |storage_dir| replace:: |storage_parent_dir|/default
-.. |storage_path| replace:: |storage_parent_dir|/default
-.. |reload_apache| replace:: sudo service apache2 reload
-.. |restart_apache| replace:: sudo service apache2 restart
-.. |restart_solr| replace:: sudo service jetty restart
-.. |solr| replace:: Solr
-.. |restructuredtext| replace:: reStructuredText
-.. |nginx| replace:: Nginx
-.. |sqlite| replace:: SQLite
-.. |python| replace:: Python
-.. |sqlalchemy| replace:: SQLAlchemy
-.. |javascript| replace:: JavaScript
-.. |apache| replace:: Apache
-.. |nginx_config_file| replace:: /etc/nginx/sites-available/ckan_default
-.. |reload_nginx| replace:: sudo service nginx reload
-.. |jquery| replace:: jQuery
-
-.. _Jinja2: http://jinja.pocoo.org/
-.. _CKAN front page: http://127.0.0.1:5000
-.. _bootstrap: http://getbootstrap.com/2.3.2/
-.. _CKAN issue tracker: https://github.com/ckan/ckan/issues
-
-'''
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = ['sphinx.ext.todo']
@@ -80,7 +36,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General substitutions.
-project = u'GeoNode Training Documentation'
+project = u'Overview & Reference'
 manual = u'doc'
 copyright = u'2015 GeoSolutions'
 
@@ -141,7 +97,7 @@ if os.environ.get('HTML_THEME_PATH'):
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 #html_title = project + " v" + release + " " + manual
-html_title = project
+html_title = project + " doc"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 # html_short_title = manual + " v" + release
@@ -197,7 +153,7 @@ html_use_index = True
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'drdsidoc'
+htmlhelp_basename = 'creaddoc'
 
 
 # Options for LaTeX output
@@ -238,3 +194,5 @@ latex_logo = 'geosolutions.png'
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [('index', 'doc-geonode', u'GeoNode Training Documentation', [u'afabiani (GeoSolutions)'], 1)]
+
+
