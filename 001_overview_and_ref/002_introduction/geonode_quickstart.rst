@@ -14,7 +14,7 @@ In this Quickstart guide you will learn the following:
     #. create a map using your new layer
     #. share your map with others
 
-Start GeoNode on your Live DVD or local VM and redirect your browser at http://localhost:8000/ (this is the default port). 
+Start GeoNode on your Live DVD or local VM and redirect your browser at `http://localhost:8000/ <http://localhost:8000/>`_ (this is the default port). 
 The page will look like shown in the image below.
 
     .. image:: img/welcome.png
