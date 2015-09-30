@@ -1,7 +1,8 @@
 .. _overview_and_ref.rst:
 
+****************************
 GeoNode Overview & Reference
-============================
+****************************
 
 Welcome to the GeoNode Training `Overview & Reference` documentation v\ |release|.
 
@@ -12,7 +13,7 @@ You will be able also to use the GeoNode main functionalities and understand som
 the basic concepts of the system infrastructure.
 
 Users' Features
----------------
+===============
 
 Open Source Geospatial Content Management System
 
@@ -28,21 +29,32 @@ What GeoNode can be used for…
     001_user_features/index.rst
 
 Introduction
-------------
+============
 
-TODO.. toctree::
+This section introduces the GeoNode GUI and functionalities through a step-by-step workshop.
+
+At the end of this module the users will be familiar with the GeoNode default GUI and objects.
+
+.. toctree::
     :maxdepth: 2
 
     002_introduction/index.rst
 
 Reference Doc
--------------
+=============
 
 TODO.. toctree::
     :maxdepth: 2
 
     003_reference_doc/index.rst
 
+Django Overview
+===============
+
+TODO.. toctree::
+    :maxdepth: 2
+
+    004_django_overview/index.rst
 
 Indices and tables
 ==================

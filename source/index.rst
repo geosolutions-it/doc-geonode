@@ -1,7 +1,8 @@
 .. _mainindex.rst:
 
+##############################
 GeoNode Training Documentation
-==============================
+##############################
 
 Welcome to the GeoNode Training Documentation.
 
@@ -9,8 +10,9 @@ From here you can browse the documentation relative to the GeoNode Training Docu
 
 The Documentation is divided in six main sections:
 
+********************
 Overview & Reference
---------------------
+********************
 
 The `Overview & Reference <./001_overview_and_ref/index.html>`_
 
@@ -20,36 +22,41 @@ At the end of this section you will have a clear view of what GeoNode is and can
 You will be able also to use the GeoNode main functionalities and understand some of
 the basic concepts of the system infrastructure.
 
+********************
 Installation & Admin
---------------------
+********************
 
 The `Installation & Admin <./002_install_and_admin/index.html>`_
 
 section where <<TODO>>.
 
+**************
 Users Workshop
---------------
+**************
 
 The `Users Workshop <./003_users_workshop/index.html>`_
 
 section where <<TODO>>.
 
+***********************
 Administrators Workshop
------------------------
+***********************
 
 The `Administrators Workshop <./004_admin_workshop/index.html>`_
 
 section where <<TODO>>.
 
+*******************
 Developers Workshop
--------------------
+*******************
 
 The `Developers Workshop <./005_dev_workshop/index.html>`_
 
 section where <<TODO>>.
 
+*****************
 Advanced Workshop
------------------
+*****************
 
 The `Advanced Workshop <./006_adv_workshop/index.html>`_
 
@@ -69,11 +76,10 @@ To edit the documentation you'll need the following tools:
 For installation and basic usage of the tools follow `these <./install-doc-tools.html>`_ instructions
 
 License Information
--------------------
-
+===================
 
 Documentation
-`````````````
+^^^^^^^^^^^^^
 
 Documentation is released under a :term:`Creative Commons` license with the following conditions.
 
@@ -104,7 +110,7 @@ You may obtain a copy of the License at `Creative Commons Attribution-ShareAlike
 The document is written in reStructuredText format for consistency and portability.
 
 Author Information
-------------------
+^^^^^^^^^^^^^^^^^^
 
 This documentation was written by GeoSolutions.
 
