@@ -1,6 +1,6 @@
 .. _user_features_index:
 
-
+===============
 Users' Features
 ===============
 

@@ -1,7 +1,8 @@
 .. _geonode_quickstart:
 
+==================
 GeoNode Quickstart
-------------------
+==================
 
 Open Source Geospatial Content Management System
 
@@ -23,7 +24,7 @@ The page will look like shown in the image below.
     *Welcome page*
 
 1. Register a new account
-^^^^^^^^^^^^^^^^^^^^^^^^^
+=========================
 
 From the interface shown above, one can view and modify existing spatial layers and maps, as well as find information on other GeoNode users. 
 But, without being logged in, you are limited to read-only access of public layers. 
@@ -54,7 +55,7 @@ In order to create a map and add layers to it, you have to have create an accoun
 
 
 2. Add a new layer
-^^^^^^^^^^^^^^^^^^
+==================
 
 Layers are a published resource representing a raster or vector spatial data source. Layers also can be associated with metadata, ratings, and comments.
 
@@ -98,7 +99,7 @@ Layers are a published resource representing a raster or vector spatial data sou
     #. To upload data, click the *Upload* button at the bottom.
 
 3. Create a new map
-^^^^^^^^^^^^^^^^^^^
+===================
 
 The next step for you is to create a map and add the newly created layers to this map.
 
@@ -156,7 +157,7 @@ The next step for you is to create a map and add the newly created layers to thi
         This link contains a permalink to your map. If you open this link in a new window, your map will appear exactly as it was saved.
 
 4. Share your map
-^^^^^^^^^^^^^^^^^
+====================
 
 Now let’s finish our map.
 
@@ -186,7 +187,7 @@ Now let’s finish our map.
 Your map can now be shared!
 
 To be continued
-^^^^^^^^^^^^^^^
+===============
 
 Now you’ve gotten a quick insight in the possibilities of GeoNode. To learn more about GeoNode and its features, visit the official webpage `www.geonode.org <www.geonode.org>`_. 
 

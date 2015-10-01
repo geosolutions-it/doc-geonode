@@ -1,8 +1,8 @@
 .. _overview_and_ref.rst:
 
-****************************
+============================
 GeoNode Overview & Reference
-****************************
+============================
 
 Welcome to the GeoNode Training `Overview & Reference` documentation v\ |release|.
 
@@ -67,7 +67,7 @@ Django also provides an optional administrative create, read, update and delete 
     004_django_overview/index.rst
 
 Indices and tables
-==================
+------------------
 
 * :ref:`maintoc`
 * :ref:`genindex`

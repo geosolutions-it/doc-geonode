@@ -1,10 +1,11 @@
 .. _geonode_architecture:
 
+===============
 The Big Picture
----------------
+===============
 
 Architecture
-^^^^^^^^^^^^
+============
 
 .. image:: img/geonode_component_architecture.png
    :width: 600px
@@ -26,7 +27,7 @@ interact and share security and permissions rules.
 In the advanced sections of this documentation we will go through GeoNode commands allowing administrators to re-sync the catalogs and keep them consistently aligned.
 
 Django Architecture
-^^^^^^^^^^^^^^^^^^^
+===================
 
 GeoNode is based on `Django <www.djangoproject.com>`_ which is a high level Python web development framework that encourages rapid development and clean pragmatic design. 
 Django is based on the Model View Controller (`MVC <http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller>`_) architecture pattern, and as such, 
@@ -35,16 +36,17 @@ Django’s `ORM <http://en.wikipedia.org/wiki/Object-relational_mapping>`_ in vi
 HTML templates to display the web pages within the application.
 
 Django explained with model/view/controller (`MVC <http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-explanation.html>`_)
-...............................................................................................................................
+-------------------------------------------------------------------------------------------------------------------------------
 
 * Model represents application data and provides rich ORM functionality.
 * Views are a rendering of a Model most often using the Django template engine.
 * In Django, the controller part of this commonly discussed, layered architecture is a subject of discussion. According to the standard definition, the controller is the layer or component through which the user interacts and model changes occur.
 
 MVP/MVC
-+++++++
+.......
 
-**MVP**
+MVP
++++
     *Model, View, Presenter*
 
     In MVP, the *Presenter* contains the UI business logic for the *View*. All invocations from the *View* delegate directly to the *Presenter*. 
@@ -67,7 +69,8 @@ MVP/MVC
         * *Pro:* by leveraging databinding the amount of code is reduced.
         * *Con:* there's less testable surface (because of data binding), and there's less encapsulation in the View since it talks directly to the Model.
 
-**MVC**
+MVC
++++
     *Model, View, Controller*
     
     In the MVC, the Controller is responsible for determining which View is displayed in response to any action including when the application loads. 
@@ -86,8 +89,8 @@ MVP/MVC
 
     One other big difference about MVC is that the View does not directly bind to the Model. The view simply renders, and is completely stateless. In implementations of MVC the View usually will not have any logic in the code behind. This is contrary to MVP where it is absolutely necessary as if the View does not delegate to the Presenter, it will never get called.
 
-**Presentation Model**
-
+Presentation Model
+++++++++++++++++++
     One other pattern to look at is the Presentation Model pattern. In this pattern there is no Presenter. Instead the View binds directly to a **Presentation Model**. 
     The Presentation Model is a Model crafted specifically for the View. This means this Model can expose properties that one would never put on a domain model as it would be a violation of separation-of-concerns. 
     In this case, the Presentation Model binds to the domain model, and may subscribe to events coming from that Model. 
@@ -100,9 +103,7 @@ MVP/MVC
 More: `http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-explanation.html <http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-explanation.html>`_
 
 WSGI
-^^^^
-
-**WSGI**
+====
     *Web Server Gateway Interface (whis-gey)*
 
     * This is a python specification for supporting a common interface between all of the various web frameworks and an application (Apache, for example) that is ‘serving’.
@@ -112,7 +113,7 @@ WSGI
 More: `http://en.wikipedia.org/wiki/Wsgi <http://en.wikipedia.org/wiki/Wsgi>`_
 
 GeoNode and GeoServer
-^^^^^^^^^^^^^^^^^^^^^
+=====================
 
 GeoNode uses GeoServer for providing OGC services.
 
@@ -127,6 +128,7 @@ At its core, GeoNode provides a standards-based platform to enable integrated, p
     * Data uploaded to GeoNode is first processed in GeoNode and finally published to GeoServer (or ingested into the spatial database).
 
 OGC Web Services:
+-----------------
 
 - operate over HTTP (GET, POST)
 - provide a formalized, accepted API
@@ -145,28 +147,34 @@ Your GeoNode lists OGC Web Services and their URLs at ``http://localhost:8000/de
 
 The following sections briefly describe the OGC Web Services provided by GeoNode.
 
-**Web Map Service (WMS)**
+Web Map Service (WMS)
+.....................
     WMS provides an API to retrieve map images (PNG, JPEG, etc.) of geospatial data.  WMS is suitable for visualization and when access to raw data is not a requirement.
 
-**WFS**
+WFS
+...
     WFS provides provides an API to retrieve raw geospatial vector data directly.  WFS is suitable for direct query and access to geographic features.
 
-**WCS**
+WCS
+...
     WCS provides provides an API to retrieve raw geospatial raster data directly.  WCS is suitable for direct access to satellite imagery, DEMs, etc.
 
-**CSW**
+CSW
+...
     CSW provides an interface to publish and search metadata (data about data).  CSW is suitable for cataloguing geospatial data and making it discoverable to enable visualization and access.
 
-**WMTS**
+WMTS
+....
     WMTS provides an API to retrive pre-rendered map tiles of geospatial data.
 
-**WMC**
+WMC
+...
     WMC provides a format to save and load map views and application state via XML.  This allows, for example, a user to save their web mapping application in WMC and share it with others, viewing the same content.
 
 More: `http://geoserver.org <http://geoserver.org>`_
 
 GeoNode and PostgreSQL/PostGIS
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==============================
 
 In production, GeoNode is configured to use PostgreSQL/PostGIS for it’s persistent store. In development and testing mode, often an embedded sqlite database is used. The latter is not suggested for production.
 
@@ -174,22 +182,22 @@ In production, GeoNode is configured to use PostgreSQL/PostGIS for it’s persis
     * It is recommended that GeoNode be configured to use PostgresSQL/PostGIS for storing vector data as well. While serving layers directly from shapefile allows for adequate performance in many cases, storing features in the database allows for better performance especially when using complex style rules based on attributes.
 
 GeoNode and pycsw
-^^^^^^^^^^^^^^^^^
+=================
 
 GeoNode is built with pycsw embedded as the default CSW server component.
 
 Publishing
-^^^^^^^^^^
+==========
 
 Since pycsw is embedded in GeoNode, layers published within GeoNode are automatically published to pycsw and discoverable via CSW. No additional configuration or actions are required to publish layers, maps or documents to pycsw.
 
 Discovery
-^^^^^^^^^
+=========
 
 GeoNode’s CSW endpoint is deployed available at ``http://localhost:8000/catalogue/csw`` and is available for clients to use for standards-based discovery. See http://docs.pycsw.org/en/latest/tools.html for a list of CSW clients and tools.
 
 Javascript in GeoNode
-^^^^^^^^^^^^^^^^^^^^^
+=====================
 
     GeoNode provides a number of facilities for interactivity in the web browser built on top of several high-quality JavaScript frameworks:
 
