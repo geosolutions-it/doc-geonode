@@ -13,3 +13,4 @@ At the end of this module the users will be familiar with the GeoNode default GU
 
    geonode_tour.rst
    geonode_quickstart.rst
+

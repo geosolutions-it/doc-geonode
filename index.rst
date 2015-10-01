@@ -26,7 +26,22 @@ Installation & Admin
 
 The `Installation & Admin <./002_install_and_admin/index.html>`_
 
-section where <<TODO>>.
+This module is more oriented to users having some System Administrator background.
+
+At the end of this section you will be able to setup from scratch the whole GeoNode infrastructure and understand how to the different pieces are interconnected and which are their dependencies.
+
+Prerequisites
+-------------
+
+Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
+
+1. GeoNode and Django framework basic concepts
+2. What is Python
+3. What is a DBMS
+4. What is a Java Virtual Machine and the JDK
+5. Linux OS basic shell and maintenance commands
+6. Basic TCP/IP and networking concepts
+7. Apache HTTPD Server and WSGI Python bindings
 
 Users Workshop
 ==============

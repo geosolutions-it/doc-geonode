@@ -17,3 +17,4 @@ Django also provides an optional administrative create, read, update and delete 
    :maxdepth: 2
 
    getting_started_w_django.rst
+

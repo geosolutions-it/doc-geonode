@@ -18,3 +18,4 @@ What GeoNode can be used for…
    spatial_data_discovery.rst
    import_and_manage.rst
    interactive_mapping.rst
+
