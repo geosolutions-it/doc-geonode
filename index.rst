@@ -123,7 +123,7 @@ Author Information
 
 This documentation was written by GeoSolutions.
 
-The layout for the reStructuredText based documentation is based on the work done by the `GeoServer <http://geoserver.org>`_ project and the `Sphinx <http://sphinx.pocoo.org/>`_ framework.
+The layout for the reStructuredText based documentation is based on the work done by the `GeoNode <http://geonode.org/>`_ project and the `Sphinx <http://sphinx.pocoo.org/>`_ framework.
 
 If you have questions, found a bug or have enhancements, please contact us through info@geosolutions.it
 
