@@ -226,21 +226,24 @@ Javascript in GeoNode
     The following concepts are particularly important for developing on top of the
     GeoNode's JavaScript framework.
 
-    * Components - Ext components handle most interactive functionality in
-      "regular" web pages.  For example, the scrollable/sortable/filterable table
-      on the default Search page is a Grid component.  While GeoNode does use some
-      custom components, familiarity with the idea of Components used by ExtJS is
-      applicable in GeoNode development.
+    * Components
+        Ext components handle most interactive functionality in
+        "regular" web pages.  For example, the scrollable/sortable/filterable table
+        on the default Search page is a Grid component.  While GeoNode does use some
+        custom components, familiarity with the idea of Components used by ExtJS is
+        applicable in GeoNode development.
 
-    * Viewers - Viewers display interactive maps in web pages, optionally decorated
-      with Ext controls for toolbars, layer selection, etc.  Viewers in GeoNode use
-      the GeoExplorer base class, which builds on top of GXP's Viewer to provide
-      some common functionality such as respecting site-wide settings for
-      background layers. Viewers can be used as components embedded in pages, or
-      they can be full-page JavaScript applications.
+    * Viewers
+        Viewers display interactive maps in web pages, optionally decorated
+        with Ext controls for toolbars, layer selection, etc.  Viewers in GeoNode use
+        the GeoExplorer base class, which builds on top of GXP's Viewer to provide
+        some common functionality such as respecting site-wide settings for
+        background layers. Viewers can be used as components embedded in pages, or
+        they can be full-page JavaScript applications.
 
-    * Controls - Controls are tools for use in OpenLayers maps (such as a freehand
-      control for drawing new geometries onto a map, or an identify control for
-      getting information about individual features on a map.)  GeoExt provides
-      tools for using these controls as ExtJS "Actions" - operations that can be
-      invoked as buttons or menu options or associated with other events.
+    * Controls
+        Controls are tools for use in OpenLayers maps (such as a freehand
+        control for drawing new geometries onto a map, or an identify control for
+        getting information about individual features on a map.)  GeoExt provides
+        tools for using these controls as ExtJS "Actions" - operations that can be
+        invoked as buttons or menu options or associated with other events.
