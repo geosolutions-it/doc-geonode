@@ -3,7 +3,6 @@
 ============
 Introduction
 ============
-
 This section introduces the GeoNode GUI and functionalities through a step-by-step workshop.
 
 At the end of this module the users will be familiar with the GeoNode default GUI and objects.

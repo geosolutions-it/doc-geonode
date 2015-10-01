@@ -1,4 +1,4 @@
-.. _install_geonode_application.rst:
+.. _install_geonode_application:
 
 ===========================
 Install GeoNode Application

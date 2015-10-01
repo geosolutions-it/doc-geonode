@@ -1,4 +1,4 @@
-.. _geonode_install.rst:
+.. _geonode_install:
 
 ==============================
 GeoNode install (v\ |release|)

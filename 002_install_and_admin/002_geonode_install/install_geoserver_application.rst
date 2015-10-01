@@ -1,4 +1,4 @@
-.. _install_geoserver_application.rst:
+.. _install_geoserver_application:
 
 =============================
 Install GeoServer Application

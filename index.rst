@@ -1,4 +1,4 @@
-.. _mainindex.rst:
+.. _mainindex:
 
 ==============================
 GeoNode Training Documentation
@@ -10,104 +10,84 @@ From here you can browse the documentation relative to the GeoNode Training Docu
 
 The Documentation is divided in six main sections:
 
-Overview & Reference
-====================
+.. toctree::
+    :hidden:
+    
+    001_overview_and_ref/index
+    002_install_and_admin/index
+    003_users_workshop/index
+    004_admin_workshop/index
+    005_dev_workshop/index
+    006_adv_workshop/index
 
-The `Overview & Reference <./001_overview_and_ref/index.html>`_
+:ref:`overview_and_ref`
+    This module guides the user to an overview of GeoNode and its main components.
 
-This module guides the user to an overview of GeoNode and its main components.
+    At the end of this section you will have a clear view of what GeoNode is and can do.
+    You will be able also to use the GeoNode main functionalities and understand some of
+    the basic concepts of the system infrastructure.
 
-At the end of this section you will have a clear view of what GeoNode is and can do.
-You will be able also to use the GeoNode main functionalities and understand some of
-the basic concepts of the system infrastructure.
+:ref:`installation_and_admin`
+    This module is more oriented to users having some System Administrator background.
 
-Installation & Admin
-====================
+    At the end of this section you will be able to setup from scratch the whole GeoNode infrastructure and understand how to the different pieces are interconnected and which are their dependencies.
 
-The `Installation & Admin <./002_install_and_admin/index.html>`_
+    *Prerequisites*
+        Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
 
-This module is more oriented to users having some System Administrator background.
+        1. GeoNode and Django framework basic concepts
+        2. What is Python
+        3. What is a DBMS
+        4. What is a Java Virtual Machine and the JDK
+        5. Linux OS basic shell and maintenance commands
+        6. Basic TCP/IP and networking concepts
+        7. Apache HTTPD Server and WSGI Python bindings
 
-At the end of this section you will be able to setup from scratch the whole GeoNode infrastructure and understand how to the different pieces are interconnected and which are their dependencies.
+:ref:`users_workshop`
+    This workshop will teach how to use the GeoNode going in depth into what we can do with software application.
+    At the end of this section you will master all the GeoNode sections and entities from a user perspective. 
 
-Prerequisites
--------------
+    You will know how to:
 
-Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
+    1. Manage users accounts and how to modify them.
+    2. Use and manage the different GeoNode basic resouces.
+    3. Use the GeoNode searching tools to find your resources.
+    4. Manage Layers and Maps, update the styles and publish them.
+    5. Load datasets into GeoNode and keep them synchronized with GeoServer.
 
-1. GeoNode and Django framework basic concepts
-2. What is Python
-3. What is a DBMS
-4. What is a Java Virtual Machine and the JDK
-5. Linux OS basic shell and maintenance commands
-6. Basic TCP/IP and networking concepts
-7. Apache HTTPD Server and WSGI Python bindings
+    *Prerequisites*
+        Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
 
-Users Workshop
-==============
+        1. GeoNode and Django framework basic concepts
+        2. What is Python
+        3. What is a geospatial server and a basic knowledge of the geospatial web services.
+        4. What is a metadata and a catalog.
+        5. What is a map and a legend.
 
-The `Users Workshop <./003_users_workshop/index.html>`_
+:ref:`admin_workshop`
+    This workshop will teach how to install and manage a deployment of the `GeoNode <http://geonode.org/>`_ software application.
+    At the end of this section you will master all the GeoNode sections and entities from an administrator perspective. 
 
-This workshop will teach how to use the GeoNode going in depth into what we can do with software application.
-At the end of this section you will master all the GeoNode sections and entities from a user perspective. 
+    You will know how to:
 
-You will know how to:
+    1. Use the GeoNode’s Django Administration Panel.
+    2. Use the console Management Commands for GeoNode.
+    3. Configure and customize your GeoNode installation.
 
-1. Manage users accounts and how to modify them.
-2. Use and manage the different GeoNode basic resouces.
-3. Use the GeoNode searching tools to find your resources.
-4. Manage Layers and Maps, update the styles and publish them.
-5. Load datasets into GeoNode and keep them synchronized with GeoServer.
+    *Prerequisites*
+        Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
 
-Prerequisites
--------------
+        1. GeoNode and Django framework concepts
+        2. Good knowledge of Python
+        3. Good knowledge of what is a geospatial server and geospatial web services.
+        4. Good knowledge of what is metadata and catalog.
+        5. Good knowledge of HTML and CSS.
 
-Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
+:ref:`dev_workshop`
+    section where <<TODO>>.
 
-1. GeoNode and Django framework basic concepts
-2. What is Python
-3. What is a geospatial server and a basic knowledge of the geospatial web services.
-4. What is a metadata and a catalog.
-5. What is a map and a legend.
-
-Administrators Workshop
-=======================
-
-The `Administrators Workshop <./004_admin_workshop/index.html>`_
-
-This workshop will teach how to install and manage a deployment of the `GeoNode <http://geonode.org/>`_ software application.
-At the end of this section you will master all the GeoNode sections and entities from an administrator perspective. 
-
-You will know how to:
-
-1. Use the GeoNode’s Django Administration Panel.
-2. Use the console Management Commands for GeoNode.
-3. Configure and customize your GeoNode installation.
-
-Prerequisites
--------------
-
-Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
-
-1. GeoNode and Django framework concepts
-2. Good knowledge of Python
-3. Good knowledge of what is a geospatial server and geospatial web services.
-4. Good knowledge of what is metadata and catalog.
-5. Good knowledge of HTML and CSS.
-
-Developers Workshop
-===================
-
-The `Developers Workshop <./005_dev_workshop/index.html>`_
-
-section where <<TODO>>.
-
-Advanced Workshop
-=================
-
-The `Advanced Workshop <./006_adv_workshop/index.html>`_
-
-section where <<TODO>>.
+:ref:`adv_workshop`
+    section where <<TODO>>.
 
 Editing the documentation
 -------------------------

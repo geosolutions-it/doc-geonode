@@ -1,4 +1,4 @@
-.. _linux_admin_intro.rst:
+.. _linux_admin_intro:
 
 =================
 Linux Admin Intro

@@ -1,4 +1,4 @@
-.. _system_preparation_prerequisites.rst:
+.. _system_preparation_prerequisites:
 
 ==================================
 System Preparation & Prerequisites

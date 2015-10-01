@@ -3,7 +3,6 @@
 ===============
 Django Overview
 ===============
-
 This section introduces some basic concepts of DJango, the Python based web framework on top of which GeoNode has been developed.
 
 Django's primary goal is to ease the creation of complex, database-driven websites. Django emphasizes reusability and "pluggability" of components,

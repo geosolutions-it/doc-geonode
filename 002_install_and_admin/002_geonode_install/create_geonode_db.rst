@@ -1,4 +1,4 @@
-.. _create_geonode_db.rst:
+.. _create_geonode_db:
 
 =================
 Create GeoNode DB

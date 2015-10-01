@@ -1,4 +1,4 @@
-.. _admin_workshop.rst:
+.. _admin_workshop:
 
 =======================
 Administrators Workshop
@@ -15,16 +15,15 @@ You will know how to:
 2. Use the console Management Commands for GeoNode.
 3. Configure and customize your GeoNode installation.
 
-Prerequisites
--------------
+*Prerequisites*
 
-Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
+    Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
 
-1. GeoNode and Django framework concepts
-2. Good knowledge of Python
-3. Good knowledge of what is a geospatial server and geospatial web services.
-4. Good knowledge of what is metadata and catalog.
-5. Good knowledge of HTML and CSS.
+    1. GeoNode and Django framework concepts
+    2. Good knowledge of Python
+    3. Good knowledge of what is a geospatial server and geospatial web services.
+    4. Good knowledge of what is metadata and catalog.
+    5. Good knowledge of HTML and CSS.
 
 TODO
 ====
@@ -49,10 +48,3 @@ TODO
     - Theming your GeoNode project"
 - Debugging GeoNode Installations
 - Changing the Default Language
-
-Indices and tables
-------------------
-
-* :ref:`maintoc`
-* :ref:`genindex`
-* :ref:`search`

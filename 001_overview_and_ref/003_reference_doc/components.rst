@@ -3,7 +3,6 @@
 ==========
 Components
 ==========
-
 :ref:`architecture` is based on a set of core tools and libraries that provide the building blocks on which the application is built. Having a basic understanding of each of these components is critical to your success as a developer working with GeoNode.
 
 Lets look at each of these components and discuss how they are used within the GeoNode application.

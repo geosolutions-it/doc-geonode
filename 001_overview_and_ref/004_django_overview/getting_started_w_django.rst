@@ -6,7 +6,6 @@ Getting Started With Django
 
 Object-relational mapper
 ========================
-
 Deﬁne your data models entirely in Python. You get a rich, dynamic database-access API for free — but you can still write SQL if needed.
 
 .. code-block:: python
@@ -39,7 +38,7 @@ The basics:
 
 * Each model is a Python class that subclasses ``django.db.models.Model``.
 * Each attribute of the model represents a database field.
-* With all of this, Django gives you an automatically-generated database-access API; see :ref:`Making queries`.
+* With all of this, Django gives you an automatically-generated database-access API; see :ref:`making_queries`.
 
 Quick example
 .............
@@ -178,8 +177,10 @@ There are three styles of inheritance that are possible in Django.
 
 More: `Model Inheritance <https://docs.djangoproject.com/en/1.8/topics/db/models/#model-inheritance>`_
 
-Making queries
---------------
+.. _making_queries:
+
+`Making queries`_
+-----------------
 
 Once you’ve created your data models, Django automatically gives you a database-abstraction API that lets you create, retrieve, update and delete objects.
 
@@ -341,7 +342,7 @@ For example:
 This takes the initial **QuerySet** of all entries in the database, adds a filter, then an exclusion, then another filter. 
 The final result is a **QuerySet** containing all entries with a headline that starts with “What”, that were published between January 30, 2005, and the current day.
 
-More: `Making Queries <https://docs.djangoproject.com/en/1.8/topics/db/queries/#making-queries>`_
+More: `Making queries <https://docs.djangoproject.com/en/1.8/topics/db/queries/#making-queries>`_
 
 URLs and views
 ==============

@@ -3,7 +3,6 @@
 ==================
 GeoNode Quickstart
 ==================
-
 Open Source Geospatial Content Management System
 
 GeoNode is a web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI).

@@ -1,4 +1,4 @@
-.. _setup_configure_httpd.rst:
+.. _setup_configure_httpd:
 
 =======================
 Setup & Configure HTTPD

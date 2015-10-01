@@ -1,4 +1,4 @@
-.. _setup_prepare_dbms_backend.rst:
+.. _setup_prepare_dbms_backend:
 
 ============================
 Setup & Prepare DBMS Backend

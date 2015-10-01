@@ -1,9 +1,8 @@
-.. _users_workshop.rst:
+.. _users_workshop:
 
 ==============
 Users Workshop
 ==============
-
 Welcome to the GeoNode Training `Users Workshop` documentation v\ |release|.
 
 This workshop will teach how to use the `GeoNode <http://geonode.org/>`_ going in depth into what we can do with software application.
@@ -17,16 +16,15 @@ You will know how to:
 4. Manage Layers and Maps, update the styles and publish them.
 5. Load datasets into GeoNode and keep them synchronized with GeoServer.
 
-Prerequisites
--------------
+*Prerequisites*
 
-Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
+    Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
 
-1. GeoNode and Django framework basic concepts
-2. What is Python
-3. What is a geospatial server and a basic knowledge of the geospatial web services.
-4. What is a metadata and a catalog.
-5. What is a map and a legend.
+    1. GeoNode and Django framework basic concepts
+    2. What is Python
+    3. What is a geospatial server and a basic knowledge of the geospatial web services.
+    4. What is a metadata and a catalog.
+    5. What is a map and a legend.
 
 TODO
 ====
@@ -70,11 +68,3 @@ TODO
         - OGR (Vector Data)
         - GDAL (Raster Data)
 - (?) Loading OSM Data into GeoNode"
-
-
-Indices and tables
-------------------
-
-* :ref:`maintoc`
-* :ref:`genindex`
-* :ref:`search`
