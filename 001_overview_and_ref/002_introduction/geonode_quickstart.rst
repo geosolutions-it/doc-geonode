@@ -14,7 +14,7 @@ In this Quickstart guide you will learn the following:
     #. create a map using your new layer
     #. share your map with others
 
-Start GeoNode on your Live DVD or local VM and redirect your browser at `http://localhost:8000/ <http://localhost:8000/>`_ (this is the default port). 
+Start GeoNode on your Live DVD or local VM and redirect your browser at `http://localhost:8000/ <http://localhost:8000/>`_ (this is the default port).
 The page will look like shown in the image below.
 
     .. image:: img/welcome.png
@@ -25,8 +25,8 @@ The page will look like shown in the image below.
 1. Register a new account
 =========================
 
-From the interface shown above, one can view and modify existing spatial layers and maps, as well as find information on other GeoNode users. 
-But, without being logged in, you are limited to read-only access of public layers. 
+From the interface shown above, one can view and modify existing spatial layers and maps, as well as find information on other GeoNode users.
+But, without being logged in, you are limited to read-only access of public layers.
 In order to create a map and add layers to it, you have to have create an account first.
 
     #. From any page in the web interface, you will see a *Sign in* link. Click that link, and in the dialog that displays, click the *Register now* link.
@@ -80,14 +80,14 @@ Layers are a published resource representing a raster or vector spatial data sou
         *Upload Form*
 
     #. You have two possibilities to add your files. You can either do that by using *drag & drop* or you choose to *browse* them. Be aware that you have to upload a complete set of files, consisting of a **shp**, a **prj**, a **dbf** and a **shx** file. If one of them is missing, GeoNode will warn you before you upload them.
-    
+
     #. You shold now be able to see all the files you want to upload.
 
         .. image:: img/files_to_be_uploaded.png
            :width: 500px
            :alt: Files to be Uploaded
         *Files to be Uploaded*
-    
+
     #. GeoNode has the ability to restrict who can view, edit, and manage layers. On the right side of the page you can see the *Permission* section, where you can limit the access on your layer. Under **Who can view and download this data**, select **Any registered user**. This will ensure that *Anonymous* view access is disabled. In the same area, under **Who can edit this data**, select **your username**. This will ensure that *Only You* are able to edit the data in the layer.
 
         .. image:: img/permission.png
@@ -115,8 +115,8 @@ The next step for you is to create a map and add the newly created layers to thi
            :width: 500px
            :alt: Maps Editor
         *Maps Editor*
-        
-        In this interface there is a toolbar, layer list, and map window. The map window contains the MapQuest OpenStreetMap layer by default. 
+
+        In this interface there is a toolbar, layer list, and map window. The map window contains the MapQuest OpenStreetMap layer by default.
         There are other service layers available here as well: Blue Marble, Bing Aerial With Labels, MapQuest, and OpenStreetMap.
 
     #. Click on the *New Layers* button and select *Add Layers*.
@@ -126,33 +126,33 @@ The next step for you is to create a map and add the newly created layers to thi
         *Add Layers*
 
     #. Now you should be able to see all the availabel layers. In your case, this should only be the ones you’ve added before (San Andreas?).
-    
+
     #. Select all of the layers by clicking the top entry and **Shift-clicking** the bottom one. Click *Add Layers* to add them all to the map.
-    
+
         .. image:: img/addlayersselect_quickstart.png
            :alt: Add Layers
         *Add Layers*
 
     #. The layers will be added to the map. Click *Done* (right next to *Add Layers* at the bottom) to return to the main layers list.
-    
+
     #. To save the map click on the Map button in the toolbar, and select *Save Map*.
-    
+
         .. image:: img/savemaplink1.png
            :alt: Save Map
         *Save Map*
 
     #. Enter a title and abstract for your map.
-    
+
         .. image:: img/savemapdialog1.png
            :alt: Edit Map Metadata
         *Edit Map Metadata*
 
     #. Click *Save*. Notice that the link on the top right of the page changed to reflect the map’s name.
-    
+
         .. image:: img/mapname1.png
            :alt: Save Map
         *Save Map*
-        
+
         This link contains a permalink to your map. If you open this link in a new window, your map will appear exactly as it was saved.
 
 4. Share your map
@@ -168,17 +168,17 @@ Now let’s finish our map.
         *Activate Layers on Map*
 
     #. Make any final adjustments to the map composition as desired, including zoom and pan settings.
-    
+
     #. Click the *Map* button in the toolbar, and then click *Publish Map*.
-    
+
         .. image:: img/publishmaplink1.png
            :alt: Publish Map button
         *Publish Map button*
 
     #. The title and abstract as previously created should still be there. Make any adjustments as necessary, and click *Save*.
-    
+
     #. A new dialog will appear with instructions on how to embed this map in a web page, including a code snippet. You can adjust the parameters as necessary.
-    
+
         .. image:: img/publishmap1.png
            :alt: Publish the Map
         *Publish the Map*
@@ -188,6 +188,6 @@ Your map can now be shared!
 To be continued
 ===============
 
-Now you’ve gotten a quick insight in the possibilities of GeoNode. To learn more about GeoNode and its features, visit the official webpage `www.geonode.org <www.geonode.org>`_. 
+Now you’ve gotten a quick insight in the possibilities of GeoNode. To learn more about GeoNode and its features, visit the official webpage `www.geonode.org <www.geonode.org>`_.
 
 Stay in touch with the GeoNode community through the #geonode IRC channel using `http://webchat.freenode.net/ <http://webchat.freenode.net/>`_ or by asking your question in our `google group <https://groups.google.com/forum/#!forum/geonode-users>`_!

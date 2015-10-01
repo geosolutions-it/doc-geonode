@@ -4,5 +4,6 @@
 Setup & Configure HTTPD
 =======================
 
-TODO
+In this section we are going to setup Apache HTTP to serve GeoNode.
 
+Apache
