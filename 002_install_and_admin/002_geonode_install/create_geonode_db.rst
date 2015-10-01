@@ -6,6 +6,9 @@ Create GeoNode DB
 
 In this section we are going to setup users and databases for GeoNode in PostgreSQL.
 
+Users and Permissions
+=====================
+
 First create the `geonode` user. GeoNode is going to use this user to access the
 database::
 
@@ -39,7 +42,7 @@ Now we are going to change user access policy for local connections in file `pg_
 
     sudo gedit /etc/postgresql/9.3/main/pg_hba.conf
 
-Scroll down to the bottom of the document. We only need to change one line. Change
+Scroll down to the bottom of the document. We only need to edit one line. Change
 ::
     # "local" is for Unix domain socket connections only
     local   all             all                                     peer
@@ -49,7 +52,11 @@ Into:
     # "local" is for Unix domain socket connections only
     local   all             all                                     trust
 
+Then restart `PostgreSQL` to make the change effective:
+::
+    service postgresql restart
 
-.. image:: img/add_geonode_user.png
-   :width: 600px
-   :alt: Add geonode user
+PostgreSQL is now ready. To test the configuration try to connect to the `geonode`
+database as `geonode`:
+::
+    psql -U geonode geonode

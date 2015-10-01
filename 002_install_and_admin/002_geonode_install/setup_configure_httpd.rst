@@ -6,4 +6,114 @@ Setup & Configure HTTPD
 
 In this section we are going to setup Apache HTTP to serve GeoNode.
 
-Apache
+Apache Configuration
+====================
+
+Navigate to Apache configurations folder:
+::
+    cd /etc/apache2/sites-available
+
+And create a new configuration file for GeoNode:
+::
+    sudo gedit geonode.conf
+
+Place the following content inside the file:
+::
+    WSGIDaemonProcess geonode python-path=/home/geonode/geonode:/home/geonode/.venvs/geonode/lib/python2.7/site-packages user=www-data threads=15 processes=2
+
+    WSGIDaemonProcess geonode python-path=/home/geonode/geonode:/home/geonode/.venvs/geonode/lib/python2.7/site-packages user=www-data threads=15 processes=2
+
+    <VirtualHost *:80>
+        ServerName http://localhost
+        ServerAdmin webmaster@localhost
+        DocumentRoot /home/geonode/geonode/geonode
+
+        ErrorLog /var/log/apache2/error.log
+        LogLevel warn
+        CustomLog /var/log/apache2/access.log combined
+
+        WSGIProcessGroup geonode
+        WSGIPassAuthorization On
+        WSGIScriptAlias / /home/geonode/geonode/geonode/wsgi.py
+
+        <Directory "/home/geonode/geonode/geonode/">
+             <Files wsgi.py>
+                 Order deny,allow
+                 Allow from all
+                 Require all granted
+             </Files>
+
+            Order allow,deny
+            Options Indexes FollowSymLinks
+            Allow from all
+            IndexOptions FancyIndexing
+        </Directory>
+
+        <Directory "/home/geonode/geonode/geonode/static/">
+            Order allow,deny
+            Options Indexes FollowSymLinks
+            Allow from all
+            Require all granted
+            IndexOptions FancyIndexing
+        </Directory>
+
+        <Directory "/home/geonode/geonode/geonode/static_root/">
+            Order allow,deny
+            Options Indexes FollowSymLinks
+            Allow from all
+            Require all granted
+            IndexOptions FancyIndexing
+        </Directory>
+
+        <Directory "/home/geonode/geonode/geonode/uploaded/thumbs/">
+            Order allow,deny
+            Options Indexes FollowSymLinks
+            Allow from all
+            Require all granted
+            IndexOptions FancyIndexing
+        </Directory>
+
+        Alias /static/ /home/geonode/geonode/geonode/static/
+        Alias /uploaded/ /home/geonode/geonode/geonode/uploaded/
+
+        <Proxy *>
+            Order allow,deny
+            Allow from all
+        </Proxy>
+
+        ProxyPreserveHost On
+        ProxyPass /geoserver http://localhost:8080/geoserver
+        ProxyPassReverse /geoserver http://localhost:8080/geoserver
+
+    </VirtualHost>
+
+Now load apache `poxy` module
+::
+    sudo a2enmod proxy_http
+
+And enable geonode configuration file
+::
+    sudo a2ensite geonode
+
+Change permissions on GeoNode files and folders to allow Apache to read and edit
+them:
+::
+    sudo chown -R geonode /home/geonode/geonode/
+    sudo chown www-data:www-data /home/geonode/geonode/geonode/static/
+    sudo chown www-data:www-data /home/geonode/geonode/geonode/uploaded/
+    sudo chown www-data:www-data /home/geonode/geonode/geonode/static_root/
+
+Finally restart Apache to load the new configuration
+::
+    sudo service apache2 restart
+
+Open a web browser and navigate to http://localhost/ GeoNode user interface will
+show up
+
+.. image:: img/test_geonode.png
+   :width: 600px
+   :alt: Connect to GeoNode
+
+.. image:: img/test_geonode2.png
+   :width: 600px
+   :alt: Connect to GeoNode

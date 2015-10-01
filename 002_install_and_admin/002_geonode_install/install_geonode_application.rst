@@ -25,6 +25,9 @@ emulator.
    :width: 600px
    :alt: Launch terminal emulator
 
+Packages Installation
+=====================
+
 First we are going to install all the software packages we are going to need
 for the GeoNode setup. Among others `Tomcat 7`, `PostgreSQL`, `PostGIS`,
 `Apache HTTP server` and `Git`. Run the following command to install all the
@@ -76,9 +79,14 @@ You will be prompted for confirmation twice
    :width: 600px
    :alt: Confirm Installation
 
-The installation process is going to take a few minutes. At this point
-we have all the packages we need on the system. Let's download GeoNode
-from the main GeoNode repository on GitHub:
+The installation process is going to take a few minutes.
+
+At this point we have all the packages we need on the system.
+
+GeoNode Setup
+=============
+
+Let's download GeoNode from the main GeoNode repository on GitHub:
 
 .. note::
     For the purpose of this training the GeoNode repository repository has
