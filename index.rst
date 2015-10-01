@@ -48,14 +48,52 @@ Users Workshop
 
 The `Users Workshop <./003_users_workshop/index.html>`_
 
-section where <<TODO>>.
+This workshop will teach how to use the GeoNode going in depth into what we can do with software application.
+At the end of this section you will master all the GeoNode sections and entities from a user perspective. 
+
+You will know how to:
+
+1. Manage users accounts and how to modify them.
+2. Use and manage the different GeoNode basic resouces.
+3. Use the GeoNode searching tools to find your resources.
+4. Manage Layers and Maps, update the styles and publish them.
+5. Load datasets into GeoNode and keep them synchronized with GeoServer.
+
+Prerequisites
+-------------
+
+Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
+
+1. GeoNode and Django framework basic concepts
+2. What is Python
+3. What is a geospatial server and a basic knowledge of the geospatial web services.
+4. What is a metadata and a catalog.
+5. What is a map and a legend.
 
 Administrators Workshop
 =======================
 
 The `Administrators Workshop <./004_admin_workshop/index.html>`_
 
-section where <<TODO>>.
+This workshop will teach how to install and manage a deployment of the `GeoNode <http://geonode.org/>`_ software application.
+At the end of this section you will master all the GeoNode sections and entities from an administrator perspective. 
+
+You will know how to:
+
+1. Use the GeoNode’s Django Administration Panel.
+2. Use the console Management Commands for GeoNode.
+3. Configure and customize your GeoNode installation.
+
+Prerequisites
+-------------
+
+Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
+
+1. GeoNode and Django framework concepts
+2. Good knowledge of Python
+3. Good knowledge of what is a geospatial server and geospatial web services.
+4. Good knowledge of what is metadata and catalog.
+5. Good knowledge of HTML and CSS.
 
 Developers Workshop
 ===================
