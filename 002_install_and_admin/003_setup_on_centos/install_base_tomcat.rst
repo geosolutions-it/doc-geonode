@@ -20,26 +20,12 @@ Check and see if Java is already installed::
    # javac -version
    javac 1.7.0_51
 
-If it is not, check for available versions::
-
-   yum list *openjdk*
-
-You'll get a list like this one, probably with versions 1.6.0, 1.7.0, 1.8.0::
-
-   [...]
-   java-1.6.0-openjdk.x86_64                                                                                                   1:1.6.0.0-3.1.13.1.el6_5                                                                                           @rhel-x86_64-server-6
-   java-1.6.0-openjdk-devel.x86_64                                                                                             1:1.6.0.0-3.1.13.1.el6_5                                                                                           @rhel-x86_64-server-6
-   java-1.6.0-openjdk-javadoc.x86_64                                                                                           1:1.6.0.0-3.1.13.1.el6_5                                                                                           @rhel-x86_64-server-6
-   java-1.7.0-openjdk.x86_64                                                                                                   1:1.7.0.51-2.4.4.1.el6_5                                                                                           @rhel-x86_64-server-6
-   java-1.7.0-openjdk-devel.x86_64                                                                                             1:1.7.0.51-2.4.4.1.el6_5                                                                                           @rhel-x86_64-server-6
-   [...]
-
-Go for the version 1.7.0::
+Otherwise install it running:
+::
 
    yum install java-1.7.0-openjdk-devel
 
 Once done, the command ``java -version`` should return info about the installed version.
-
 
 Oracle JDK
 ----------

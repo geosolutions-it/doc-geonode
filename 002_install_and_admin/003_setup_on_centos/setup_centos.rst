@@ -7,8 +7,8 @@ Installing the Operating System
 CentOS Setup
 ============
 
-We are re going to install a minimal CentOS 7 distribution. 
-You can get a copy of the .iso the image used for the installation 
+We are re going to install a minimal CentOS 7 distribution.
+You can get a copy of the .iso the image used for the installation
 `here <http://mi.mirror.garr.it/mirrors/CentOS/7/isos/x86_64/CentOS-7-x86_64-Minimal-1503-01.iso>`_.
 
 Boot up the installation DVD and start the `CentOS 7` Installation wizard.
@@ -16,10 +16,10 @@ Boot up the installation DVD and start the `CentOS 7` Installation wizard.
     - Under `Select Date & Time` an set appropriate Date and Time settings
     - Under `Keyboard` and choose the keyboard layout
     - Under `Installation Destination` select the hard disk where CentOS will
-      be installed. 
-      
+      be installed.
+
       Create a custom partitioning scheme as follows:
-      
+
       +-----------------+----------------+-----------+-------------+
       | Partition Label | Partition Type | Size      | Mount Point |
       +=================+================+===========+=============+
@@ -36,21 +36,21 @@ Boot up the installation DVD and start the `CentOS 7` Installation wizard.
       NTP synchronization periodically get date and time settings from CentOS servers
     - Click on `Begin Installation`
     - Now set the password for the `root` user. Also click on `User Creation` to
-      create the `geosolutions` user.
+      create the `geo` user.
     -  Wait for the installation process to finish, then reboot your machine
 
 
 Network configuration
 =====================
 
-The network configuration should already be set, since it was set during CentOS 
-setup stage. 
+The network configuration should already be set, since it was set during CentOS
+setup stage.
 
 You may want to review the configuration files
 
    ``/etc/sysconfig/network-scripts/ifcfg-DEVICE``
 
-You may also want to review the file ``/etc/resolv.conf`` 
+You may also want to review the file ``/etc/resolv.conf``
 to check the nameservers.
 
 Check that the connection is up by pinging and external server::
@@ -61,12 +61,12 @@ Check that the DNS are properly configuring by pinging a host by its name::
 
    ping google.com
 
-.. attention:: 
-   Please note that in CentOS only ssh incoming connections are allowed; 
+.. attention::
+   Please note that in CentOS only ssh incoming connections are allowed;
    all other incoming connections are disabled by default.
-          
+
    In the paragraph related to the httpd service you can find details about
-   how to enable incoming traffic. 
+   how to enable incoming traffic.
 
 Note that after configuring the network, you may continue installing the system setup using a ssh connection.
 
@@ -74,10 +74,10 @@ Note that after configuring the network, you may continue installing the system 
 User access configuration
 =========================
 
-Login as ``root'` user and give the ``geosolutions`` user administrative privileges
+Login as ``root'` user and give the ``geo`` user administrative privileges
 by adding him to the ``wheel`` group: ::
 
-   usermod -aG wheel geosolutions
+   usermod -aG wheel geo
 
 SSH access
 ----------
@@ -96,7 +96,7 @@ Disable SSH login for the `root` user
 '''''''''''''''''''''''''''''''''''''
 .. warning::
     Before you disable root login make sure you are able to login via SSH with
-    `geosolutions` user account and you have the privileges to run `sudo su` to
+    `geo` user account and you have the privileges to run `sudo su` to
     switch to the `root` user account.
 
 Edit file `/etc/ssh/sshd_config` to disable `root` login via SSH::
@@ -117,16 +117,16 @@ First generate a public/private key pair using `ssh-keygen`::
 
 Folllow the procedure, you will end up with your newly generated key under ``~/.ssh``
 Now copy your `public` (by default it is called id_rsa.pub) key over the CentOS
-machine in ``/home/geosolutions/.ssh/authorized_keys``. There are several ways to do
+machine in ``/home/geo/.ssh/authorized_keys``. There are several ways to do
 it, we are going to use the `ssh-copy-id` tool::
 
-        ssh-copy-id -i ~/.ssh/id_rsa.pub geosolutions@<server-ip-address>
+        ssh-copy-id -i ~/.ssh/id_rsa.pub geo@<server-ip-address>
 
-You should now be able to login via SSH as `geosolutions` without been asked for
+You should now be able to login via SSH as `geo` without been asked for
 the password::
 
 
-    ssh geosolutions@<server-ip-address>
+    ssh geo@<server-ip-address>
 
 You can now disable password based login over SSH
 
@@ -162,10 +162,10 @@ Replace ``tempo.ien.it`` with your nearest ntp server.
 
 Sync with the server by issuing::
 
-   systemctl start ntpd 
- 
+   systemctl start ntpd
+
 Set the time synchronization as an autostarting daemon::
- 
+
    systemctl enable ntpd
 
 Installing base packages
@@ -173,13 +173,4 @@ Installing base packages
 
 Install::
 
-  yum install man
-  yum install vim
-  yum install openssh-clients    # also needed for incoming scp connections
-  yum install mc                 # mc (along with zip) can be used to navigate inside .war files
-  yum install zip unzip
-  yum install wget
-  yum install git
-  
-  
-  
+    sudo yum install -y man vim openssh-clients zip unzip wget
