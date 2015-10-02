@@ -10,22 +10,22 @@ Installing Java
 We'll need a JDK to run GeoServer.
 
 You may already have the OpenJDK package (``java-1.7.0-openjdk-devel.x86_64``) installed.
-Check and see if Java is already installed:: 
+Check and see if Java is already installed::
 
    # java -version
    java version "1.7.0_51"
    OpenJDK Runtime Environment (rhel-2.4.4.1.el6_5-x86_64 u51-b02)
    OpenJDK 64-Bit Server VM (build 24.45-b08, mixed mode)
-   
+
    # javac -version
-   javac 1.7.0_51       
+   javac 1.7.0_51
 
 If it is not, check for available versions::
 
    yum list *openjdk*
-   
+
 You'll get a list like this one, probably with versions 1.6.0, 1.7.0, 1.8.0::
-   
+
    [...]
    java-1.6.0-openjdk.x86_64                                                                                                   1:1.6.0.0-3.1.13.1.el6_5                                                                                           @rhel-x86_64-server-6
    java-1.6.0-openjdk-devel.x86_64                                                                                             1:1.6.0.0-3.1.13.1.el6_5                                                                                           @rhel-x86_64-server-6
@@ -33,12 +33,12 @@ You'll get a list like this one, probably with versions 1.6.0, 1.7.0, 1.8.0::
    java-1.7.0-openjdk.x86_64                                                                                                   1:1.7.0.51-2.4.4.1.el6_5                                                                                           @rhel-x86_64-server-6
    java-1.7.0-openjdk-devel.x86_64                                                                                             1:1.7.0.51-2.4.4.1.el6_5                                                                                           @rhel-x86_64-server-6
    [...]
-   
+
 Go for the version 1.7.0::
 
    yum install java-1.7.0-openjdk-devel
-   
-Once done, the command ``java -version`` should return info about the installed version. 
+
+Once done, the command ``java -version`` should return info about the installed version.
 
 
 Oracle JDK
@@ -52,18 +52,18 @@ You can download the Oracle JDK RPM from this page:
 
   http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-Oracle does not expose a URL to automatically dowload the JDK because an interactive licence acceptance is requested.  
+Oracle does not expose a URL to automatically dowload the JDK because an interactive licence acceptance is requested.
 You may start downloading the JDK RPM from a browser, and then either:
 
 * stop the download from the browser and use on the server the dynamic download URL your browser has been assigned, or
-* finish the download and transfer the JDK RPM to the server using ``scp``.   
+* finish the download and transfer the JDK RPM to the server using ``scp``.
 
 Once you have the ``.rpm`` file, you can install it by::
 
   rpm -ivh jdk-7u51-linux-x64.rpm
 
 
-Once installed, you still see that the default ``java`` and ``javac`` commands 
+Once installed, you still see that the default ``java`` and ``javac`` commands
 are still the ones from OpenJDK.
 In order to switch JDK version you have to set the proper system `alternatives`.
 
@@ -92,9 +92,9 @@ Issue the command::
    --slave /usr/share/man/man1/unpack200.1 unpack200.1 /usr/java/latest/man/man1/unpack200.1
 
 Then run ::
-  
+
    alternatives --config java
-   
+
 and select the number related to ``/usr/java/latest/bin/java``.
 
 Now the default java version should be the Oracle one.
@@ -103,7 +103,7 @@ Verify the proper installation on the JDK::
   # java -version
   java version "1.7.0_51"
   Java(TM) SE Runtime Environment (build 1.7.0_51-b13)
-  Java HotSpot(TM) 64-Bit Server VM (build 24.51-b03, mixed mode) 
+  Java HotSpot(TM) 64-Bit Server VM (build 24.51-b03, mixed mode)
   # javac -version
   javac 1.7.0_51
 
@@ -115,7 +115,7 @@ Installing Tomcat
 
 Create tomcat user
 ------------------
-:: 
+::
 
   adduser -m -s /bin/bash tomcat
   passwd tomcat
@@ -124,53 +124,79 @@ Create tomcat user
 Tomcat
 ------
 
-Let's download and install `Tomcat` first::
+Let's install `Tomcat` first::
 
-    wget http://it.apache.contactlab.it/tomcat/tomcat-7/v7.0.63/bin/apache-tomcat-7.0.63.tar.gz
-    tar xvf /apache-tomcat-7.0.63.tar.gz
-    mv apache-tomcat-7.0.63 /opt
-    ln -s /opt/apache-tomcat-7.0.63 /opt/tomcat
+    yum install -y tomcat
 
-Then prepare a clean instance called ``base`` to be used as a template 
+Then prepare a clean instance called ``base`` to be used as a template
 for all tomcat instances::
 
-    mkdir -p /var/lib/tomcat/base/{bin,conf,logs,temp,webapps,work}\
-    cp -r /opt/tomcat/conf/* /var/lib/tomcat/base/conf/*
+    mkdir /var/lib/tomcats/base
+    cp -a /usr/share/tomcat/* /var/lib/tomcats/base/
 
 And fix the permissions on the files::
 
-    chown -R tomcat:tomcat /opt/apache*
-    chown -R tomcat:tomcat /var/lib/tomcat
+    chown -R tomcat:tomcat /var/lib/tomcats*
 
 
 Instance manager script
 -----------------------
 
-To manage our Tomcat instances create the file ``/etc/systemd/system/tomcat\@.service``
-with the following content::
+Copy the existing management script
+::
+
+    cp /usr/lib/systemd/system/tomcat.service \
+    /usr/lib/systemd/system/tomcat\@geoserver.service
+
+Edit the service management file as follows
+::
+    # Systemd unit file for default tomcat
+    #
+    # To create clones of this service:
+    # DO NOTHING, use tomcat@.service instead.
 
     [Unit]
-    Description=Tomcat %I
-    After=network.target
+    Description=Apache Tomcat Web Application Container
+    After=syslog.target network.target
 
     [Service]
-    Type=forking
+    Type=simple
+    EnvironmentFile=/etc/tomcat/tomcat.conf
+    Environment="NAME="
+    EnvironmentFile=-/etc/sysconfig/tomcat@geoserver
+    ExecStart=/usr/libexec/tomcat/server start
+    ExecStop=/usr/libexec/tomcat/server stop
+    SuccessExitStatus=143
     User=tomcat
     Group=tomcat
 
-    Environment=CATALINA_PID=/var/run/tomcat/%i.pid
-    #Environment=TOMCAT_JAVA_HOME=/usr/java/default
-    Environment=CATALINA_HOME=/opt/tomcat
-    Environment=CATALINA_BASE=/var/lib/tomcat/%i
-    Environment=CATALINA_OPTS=
-
-    ExecStart=/opt/tomcat/bin/startup.sh
-    ExecStop=/opt/tomcat/bin/shutdown.sh
-    #ExecStop=/bin/kill -15 $MAINPID
 
     [Install]
     WantedBy=multi-user.target
 
-Then make it executable::
+Create the associated configuration file from template
+::
 
-   chmod +x /etc/systemd/system/tomcat\@.service
+    cp /etc/sysconfig/tomcat /etc/sysconfig/tomcat\@geoserver
+
+Edit the configuration file and customize the `CATALINA_HOME` and `CATALINA_BASE`
+variables
+::
+
+    ...
+    CATALINA_BASE="/var/lib/tomcats/geoserver"
+    CATALINA_HOME="/usr/share/tomcat"
+    ...
+
+Now copy GeoServer web archive inside the webapps folder. Tomcat will extract the
+war file and run GeoServer
+::
+    cp geoserver.war /var/lib/tomcats/geoserver/webapps/
+
+Finally start GeoServer
+::
+    systemctl start tomcat@geoserver
+
+And enable it to automatically start at boot time
+::
+    systemctl enable tomcat@geoserver
