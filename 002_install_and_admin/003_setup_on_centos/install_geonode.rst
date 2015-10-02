@@ -32,6 +32,7 @@ Move the sources in `geonode` user home folder
     mv geonode /home/geonode
 
 Navigate to sources folder and install required packages
+::
 
    cd /home/geonode/geonode
    pip install -e .

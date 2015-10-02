@@ -21,20 +21,50 @@ Allow requests on port 80 through the firewall::
     firewall-cmd --zone=public --add-service=http --permanent
     firewall-cmd --reload
 
-Apache start and stop
----------------------
+Security issues
+---------------
 
-To start and stop Apache, run::
+There are a couple of security issues to fix when dealing with GeoNode.
 
-    systemctl start httpd
-    systemctl stop httpd
+GeoNode will run inside httpd through WSGI. This means that httpd will try to perform external connection toward the DB.
+This is usually blocked by default by strict security policies, so we need to relax them::
+
+   setsebool -P httpd_can_network_connect_db 1
+
+The other issue is about SELinux itself: it is not WSGI friendly, so we'll have to disable it.
+Edit the file ``/etc/sysconfig/selinux`` and  change the line::
+
+   SELINUX=enforcing
+
+into ::
+
+   SELINUX=permissive
+
+and reboot the machine.
+
+
+httpd configuration
+-------------------
+
+As ``root`, create the file ``/etc/httpd/conf.d/geonode.conf`` 
+and insert into it :download:`this content <resources/geonode.conf>`.
+
+httpd may need access to some otherwise hidden files in ``geonode``'s home dir, so let's add
+``apache`` to the ``geonode`` group::
+
+   usermod -a -G geonode apache
+
+Then restart httpd to make it reload the new configurations::
+
+   systemctl restart httpd
+
 
 To automatically start Apache at boot, run::
 
     systemctl enable httpd
 
 Log Rotation
-''''''''''''
+------------
 
 Edit the configuration file for logrotate to rotate Apache log files
 ( /etc/logrotate.d/httpd ) as follows::
@@ -57,6 +87,5 @@ Edit the configuration file for logrotate to rotate Apache log files
 And add the following line to the crontab::
 
     crontab -e
-    
+
     0 * * * * /usr/sbin/logrotate /etc/logrotate.d/httpd
-    

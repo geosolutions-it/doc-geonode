@@ -23,7 +23,7 @@ At the end of this section you will be able to setup from scratch the whole GeoN
 
 .. toctree::
     :hidden:
-    
+
     001_linux_admin_intro/index
     002_geonode_install/index
     003_setup_on_centos/index
