@@ -1,8 +1,8 @@
 .. _setup_on_centos:
 
-============================
-Preparation of a CentOS 7 VM
-============================
+===============================================
+GeoNode (v\ |release|) installation on CentOS 7
+===============================================
 
 This section will guide the user through the steps necessary to install GeoNode.
 
