@@ -5,7 +5,20 @@ REM Command file for Sphinx documentation
 if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=sphinx-build
 )
-set BUILDDIR=_build
+
+set LANG=
+if NOT "%2" == "" (
+	set LANG=%2
+)
+
+if NOT "%LANG%" == "" (
+	set ALLSPHINXOPTS=-D language=%LANG% %ALLSPHINXOPTS%
+    set BUILDDIR=_build/%LANG%
+)
+if "%LANG%" == "" (
+    set BUILDDIR=_build
+)
+
 set ALLSPHINXOPTS=-d %BUILDDIR%/doctrees %SPHINXOPTS% .
 if NOT "%PAPER%" == "" (
 	set ALLSPHINXOPTS=-D latex_paper_size=%PAPER% %ALLSPHINXOPTS%
