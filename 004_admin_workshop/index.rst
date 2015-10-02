@@ -25,26 +25,11 @@ You will know how to:
     4. Good knowledge of what is metadata and catalog.
     5. Good knowledge of HTML and CSS.
 
-TODO
-====
-
-- Usage of the GeoNode’s Django Administration Panel
-    - Manage users and groups through the admin panel
-    - Users
-    - Groups
-    - Manage profiles using the admin panel
-    - Manage the metadata categories using the admin panel
-    - Manage layers using the admin panel
-    - Manage the maps using the admin panel
-    - Manage the documents using the admin panel"
-- Management Commands for GeoNode
-    - importlayers
-    - updatelayers
-    - emit_notices
-    - fixsitename"
-- Configuring Alternate CSW Backends
-- Customize the look and feel
-    - Customize Setup Admin
-    - Theming your GeoNode project"
-- Debugging GeoNode Installations
-- Changing the Default Language
+.. toctree::
+    :hidden:
+    
+    001_admin_panel/index
+    
+:ref:`admin_panel`
+    GeoNode has an administration panel based on the Django admin which can be used to do some database operations.
+    Although most of the operations can and should be done through the normal GeoNode interface, the admin panel provides a quick overview and management tool over the database.
