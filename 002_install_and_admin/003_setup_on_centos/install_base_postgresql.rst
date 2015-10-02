@@ -5,35 +5,19 @@ Installing PostgreSQL and PostGIS
 Install PostgreSQL
 ------------------
 
-Update the packages list::
-
-   yum check-update
-
 Install the package for configuring the PGDG repository::
 
-   yum install http://yum.postgresql.org/9.4/redhat/rhel-7-x86_64/pgdg-centos94-9.4-1.noarch.rpm
+   sudo yum install http://yum.postgresql.org/9.4/redhat/rhel-7-x86_64/pgdg-centos94-9.4-1.noarch.rpm
 
 EPEL repository will provide GDAL packages::
 
-   yum install http://mirror.sfo12.us.leaseweb.net/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+   sudo yum install http://mirror.sfo12.us.leaseweb.net/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
 
 Install PostgreSQL, PostGIS and related libs::
 
-   yum install postgis2_94 postgresql94 postgresql94-server postgresql94-libs postgresql94-contrib postgresql94-devel
-   yum install gdal gdal-python geos python-pip python-imaging  python-virtualenv python-devel gcc-c++ python-psycopg2
-   yum install libxml2 libxml2-devel libxml2-python libxslt libxslt-devel libxslt-python
-
-
-Verify::
-
-   rpm -qa | grep postg
-
-   postgis2_94-2.1.7-1.rhel7.x86_64
-   postgresql94-contrib-9.4.1-1PGDG.rhel7.x86_64
-   postgresql94-libs-9.4.1-1PGDG.rhel7.x86_64
-   postgresql94-devel-9.4.1-1PGDG.rhel7.x86_64
-   postgresql94-9.4.1-1PGDG.rhel7.x86_64
-   postgresql94-server-9.4.1-1PGDG.rhel7.x86_64
+    sudo yum install -y postgis2_94 postgresql94 postgresql94-server postgresql94-libs postgresql94-contrib \
+    postgresql94-devel gdal gdal-python geos python-pip python-imaging  python-virtualenv python-devel gcc-c++  \
+    python-psycopg2 libxml2 libxml2-devel libxml2-python libxslt libxslt-devel libxslt-python
 
 Init the DB::
 
@@ -41,16 +25,16 @@ Init the DB::
 
 Enable start on boot::
 
-   systemctl enable postgresql-9.4.service
+   systemctl enable postgresql-9.4
 
 Start postgres service by hand::
 
-   systemctl start postgresql-9.4.service
+   systemctl start postgresql-9.4
 
 To restart or reload the instance, you can use the following commands::
 
-   systemctl restart postgresql-9.4.service
-   systemctl reload postgresql-9.4.service
+   systemctl restart postgresql-9.4
+   systemctl reload postgresql-9.4
 
 
 Setting PostgreSQL access
@@ -58,7 +42,7 @@ Setting PostgreSQL access
 
 Now we are going to change user access policy for local connections in file pg_hba.conf:
 ::
-    sudo vim /etc/postgresql/9.3/main/pg_hba.conf
+    sudo vim /var/lib/pgsql/9.4/data/pg_hba.conf
 
 Scroll down to the bottom of the document. We only need to edit one line. Change
 ::
@@ -79,4 +63,41 @@ effective
 
 ::
 
-   systemctl restart postgresql-9.4.service
+   systemctl restart postgresql-9.4
+
+Create GeoNode Users Databases
+------------------------------
+Switch to postgres user
+::
+    su postgres
+
+First create the geonode user. GeoNode is going to use this user to access the database:
+::
+
+    createuser -P geonode
+
+You will be prompted asked to set a password for the user. Enter geonode as password
+
+Create geonode database with owner geonode
+::
+
+    createdb -O geonode geonode
+
+And database geonode_data with owner geonode
+::
+    createdb -O geonode geonode_data
+
+Create PostGIS extension:
+::
+
+    psql -d geonode_data -c 'CREATE EXTENSION postgis;'
+
+Then adjust permissions
+::
+
+    psql -d geonode_data -c 'GRANT ALL ON geometry_columns TO PUBLIC;'
+    psql -d geonode_data -c 'GRANT ALL ON spatial_ref_sys TO PUBLIC;'
+
+And exit `postgres` user
+::
+    exit

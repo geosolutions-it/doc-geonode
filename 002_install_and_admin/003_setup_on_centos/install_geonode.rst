@@ -9,16 +9,16 @@ Install required libs
 
 Make sure all the needed libraries are installed::
 
-   yum install git gdal gdal-python geos python-pip python-imaging  python-virtualenv python-devel gcc-c++ python-psycopg2
-   yum install libxml2 libxml2-devel libxml2-python libxslt libxslt-devel libxslt-python
+    sudo yum install -y git gdal gdal-python geos python-pip python-imaging \
+    python-virtualenv python-devel gcc-c++ python-psycopg2 libxml2 \
+    libxml2-devel libxml2-python libxslt libxslt-devel libxslt-python
 
 Create geonode user
 ===================
 
 Create the user::
 
-  adduser -m -s /bin/bash geonode
-  passwd geonode
+    adduser -m geonode
 
 Install GeoNode
 ---------------
@@ -59,13 +59,17 @@ Copy the `local_settings.py` sample file called `local_settings.py.sample`
 
 Then edit the configuration file
 ::
-    gedit local_settings.py
+    vim local_settings.py
 
 Add the `ALLOWED_HOST` and `PROXY_ALLOWED_HOSTS` variables at the top with the
 following values:
 ::
     ALLOWED_HOST = ['127.0.0.1', 'localhost', '::1']
     PROXY_ALLOWED_HOSTS = ("127.0.0.1", 'localhost', '::1']
+
+Add the `POSTGIS_VERSION` variable matching your PostGIS version:
+::
+    POSTGIS_VERSION = (2, 1, 8)
 
 This will instruct GeoNode to listen on connections from your local machine.
 
@@ -111,6 +115,7 @@ The resulting configuration file should look like this:
 
     ALLOWED_HOST = ['127.0.0.1', 'localhost', '::1']
     PROXY_ALLOWED_HOSTS = ("127.0.0.1", 'localhost', '::1')
+    POSTGIS_VERSION = (2, 1, 8)
 
     DATABASES = {
         'default': {
@@ -197,9 +202,14 @@ Dowload GeoNode data to be served by Apache. You will be prompted for confirmati
 ::
     python manage.py collectstatic
 
+Create `uploaded` folder
+::
+    mkdir /home/geonode/geonode/geonode/uploaded/
+
 Change permissions on GeoNode files and folders to allow Apache to read and edit them:
 ::
-    sudo chown -R geonode /home/geonode/geonode/
-    sudo chown apache:apache /home/geonode/geonode/geonode/static/
-    sudo chown apache:apache /home/geonode/geonode/geonode/uploaded/
-    sudo chown apache:apache /home/geonode/geonode/geonode/static_root/
+    chmod +x /home/geonode/
+    chown -R geonode /home/geonode/geonode/
+    chown apache:apache /home/geonode/geonode/geonode/static/
+    chown apache:apache /home/geonode/geonode/geonode/uploaded/
+    chown apache:apache /home/geonode/geonode/geonode/static_root/
