@@ -67,6 +67,7 @@ Edit `web.xml` with a text editor
 
  And add the following:
 ::
+
     <context-param>
         <param-name>GEONODE_BASE_URL</param-name>
         <param-value>http://localhost/</param-value>
@@ -75,6 +76,7 @@ Edit `web.xml` with a text editor
 The resulting file should look like this:
 
 ::
+
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
     <web-app>
