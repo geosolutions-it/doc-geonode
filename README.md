@@ -5,6 +5,26 @@ GeoNode Training Documentation Portal http://training.geonode.geo-solutions.it/
 #GeoNode Training Documentation
 
 Welcome to the GeoNode Training Documentation.
+
+#Translate The Documentation
+1. Dump pot file into i18n folder
+
+    $ sphinx-build -b gettext . i18n/pot
+  
+2. Translate pot file using Transifex or Poedit
+
+3. Save .po and .mo files into
+
+    $ i18n/$(LANG)/LC_MESSAGES
+    
+4. Build the doc
+
+    # Windows
+    $ make html en
+    
+    #Linux
+    $ make html LANG=en
+
 ##License Information
 Documentation
 Documentation is released under a [Creative Commons](http://training.geonode.geo-solutions.it/#term-creative-commons) license with the following conditions.
