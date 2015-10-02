@@ -26,6 +26,7 @@ At the end of this section you will be able to setup from scratch the whole GeoN
     
     001_linux_admin_intro/index
     002_geonode_install/index
+    003_setup_on_centos/index
 
 
 :ref:`linux_admin_intro`
@@ -33,3 +34,8 @@ At the end of this section you will be able to setup from scratch the whole GeoN
 
 :ref:`geonode_install`
     TODO
+
+:ref:`setup_on_centos`
+    This section will guide the user through the steps necessary to install GeoNode.
+
+    Packaging for automatic installation are provided for Ubuntu, so, the only option for installing GeoNode on a CentOS platform is installing it from source.
