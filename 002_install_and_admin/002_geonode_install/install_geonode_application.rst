@@ -89,7 +89,7 @@ GeoNode Setup
 Let's download GeoNode from the main GeoNode repository on GitHub:
 
 .. note::
-    For the purpose of this training the GeoNode repository repository has
+    For the purpose of this training the GeoNode repository has
     been downloaded and placed in the `geo` user `home folder` (/home/geo/geonode).
     *Skip* the following command.
 
@@ -103,6 +103,11 @@ Now create the 'geonode' user and move the cloned folder in the user's home fold
     sudo mv ~/geonode /home/geonode/
 
 Move into the project folder and install GeoNode::
+.. note::
+    For the purpose of this training GeoNode python packages has
+    been downloaded and placed in the `geo` user `home folder` (/home/geo/packages).
+    Run this command instead:
+        pip install -e /home/geo/packages/*.vhl
 
     cd /home/geonode/geonode
     sudo pip install -e .
