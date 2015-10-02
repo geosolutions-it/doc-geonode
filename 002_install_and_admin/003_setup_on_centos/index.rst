@@ -11,8 +11,8 @@ Packaging for automatic installation are provided for Ubuntu, so, the only optio
 .. toctree::
    :maxdepth: 2
    
-   setup_vm.rst
-   setup_centos.rst
+   setup_vm
+   setup_centos
    install_base_tomcat
    install_base_httpd
    install_base_postgresql

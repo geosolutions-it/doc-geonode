@@ -26,45 +26,19 @@ You will know how to:
     4. What is a metadata and a catalog.
     5. What is a map and a legend.
 
-TODO
-====
+.. toctree::
+    :hidden:
+    
+    001_accounts_and_users/index
+    002_document_types/index
+    003_searching/index
+    004_managing_layers/index
+    005_edit_style/index
+    006_managing_maps/index
+    007_using_geonode_w_other_applications/index
+    008_managing_geonode_installation/index
+    009_loading_data_into_geonode/index
 
-- Accounts and users
-    - Creating a new account
-    - Managing your profile
-    - Setting notification preferences
-    - Viewing other user accounts"
-- Document Types
-- Searching
-- Managing layers
-    - Uploading a layer
-    - Layer information
-        - Downloads
-        - Layer Detail Tabs
-    - Sharing layers
-        - Anonymous access
-        - Sharing with social media
-    - Adding more layers"
-- Edit style
-- Managing maps
-    - Creating a map
-        - Adding layers
-        - Adding external layers
-        - Saving the map
-    - Styling layers
-    - Share your map"
-- Using GeoNode with other applications
-    - OGC Services
-        - ArcGIS
-        - QGIS
-        - Google Earth
-        - CSW"
-- Managing a GeoNode Installation
-    - Security and Permissions"
-- Loading Data into GeoNode
-    - Using importlayers to import Data into GeoNode
-    - GeoServer Data Configuration
-    - Using GDAL and OGR to convert your Data for use in GeoNode
-        - OGR (Vector Data)
-        - GDAL (Raster Data)
-- (?) Loading OSM Data into GeoNode"
+:ref:`accounts_and_users`
+    GeoNode is primarily a *social* platform, and thus a primary component of any GeoNode instance is the user account. This section will guide you through account registration, updating your account information, and viewing other user accounts.
+
