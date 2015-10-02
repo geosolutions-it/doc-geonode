@@ -67,7 +67,7 @@ Scroll down to the bottom of the document. We only need to edit one line. Change
 into
 ::
     # "local" is for Unix domain socket connections only
-local   all             all                                     trust
+    local   all             all                                     trust
 
 .. note::
     If your PostgreSQL database resides on a separate machine, you have to allow

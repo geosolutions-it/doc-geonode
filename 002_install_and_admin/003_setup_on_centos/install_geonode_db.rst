@@ -4,38 +4,34 @@
 Create GeoNode DB
 #################
 
-As user ``root``, switch to user ``postgres``::
+First create the geonode user. GeoNode is going to use this user to access the database:
+::
 
-   su - postgres
+    sudo -u postgres createuser -P geonode
 
-As user ``postgres`` create the ``geonode`` DB user, and set a password for it::
+You will be prompted asked to set a password for the user. Enter geonode as password
 
-   createuser -P geonode 
+Create geonode database with owner geonode
+::
 
-Then create the DB that will be used by GeoNode::
-    
-   createdb -O geonode geonode
+    createdb -O geonode geonode
 
-Now we need a *PostGIS* database where GeoServer will store the geographic data.    
+And database geonode_data with owner geonode
+::
+    sudo -u postgres createdb -O geonode geonode_data
 
-A new table for every new vector layer will be created, so the pg user should be able to create tables::
+Switch to user postgres and create PostGIS extension:
+::
 
-   createuser -P --createdb geonode-imports
-   
-Then create the DB::
+    sudo su postgres
+    psql -d geonode_data -c 'CREATE EXTENSION postgis;'
 
-   createdb -O geonode-imports geonode-imports
+Then adjust permissions
+::
 
-Now add the GIS extensions.
-As user ``postgres``:: 
-   
-   psql geonode-imports
-   
-   create extension "postgis";
-   create extension "postgis_topology";
+    psql -d geonode_data -c 'GRANT ALL ON geometry_columns TO PUBLIC;'
+    psql -d geonode_data -c 'GRANT ALL ON spatial_ref_sys TO PUBLIC;'
 
-   GRANT ALL ON geometry_columns TO PUBLIC;
-   GRANT ALL ON spatial_ref_sys TO PUBLIC;
-   GRANT ALL ON SCHEMA topology TO PUBLIC;
-    
-
+And exit `postgres` user
+::
+    exit
