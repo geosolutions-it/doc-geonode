@@ -87,6 +87,13 @@ Place the following content inside the file:
 
     </VirtualHost>
 
+This sets up a VirtualHost in Apache HTTP server for GeoNode and a reverse proxy
+for GeoServer.
+
+.. note::
+    In the case that GeoServer is running on a separate machine change the `ProxyPass`
+    and `ProxyPassReverse` accordingly
+
 Now load apache `poxy` module
 ::
     sudo a2enmod proxy_http

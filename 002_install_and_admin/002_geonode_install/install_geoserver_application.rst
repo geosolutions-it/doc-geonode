@@ -73,6 +73,11 @@ Edit `web.xml` with a text editor
         <param-value>http://localhost/</param-value>
     </context-param>
 
+.. note::
+
+    If GeoServer is installed on machine that is separate from the one running
+    GeoNode, change the `GEONODE_BASE_URL` value accordingly
+
 The resulting file should look like this:
 
 ::
@@ -96,6 +101,25 @@ The resulting file should look like this:
                result is streamed to the user. This will allow for most errors to be caught
                early.
         ...
+
+.. note::
+    If GeoServer is installed on machine that is separate from the one running GeoNode
+    there is one more step to follow. Edit config.xml file as follows:
+    ::
+
+        cd /var/lib/tomcat7/webapps/geoserver/data/security/auth/geonodeAuthProvider
+        sudo gedit config.xml
+
+    Set the `baseUrl` to GeoNode IP or hostname
+    ::
+
+    <org.geonode.security.GeoNodeAuthProviderConfig>
+    <id>-54fbcd7b:1402c24f6bc:-7fe9</id>
+    <name>geonodeAuthProvider</name>
+    <className>org.geonode.security.GeoNodeAuthenticationProvider</className>
+    <baseUrl>http://localhost/</baseUrl>
+    </org.geonode.security.GeoNodeAuthProviderConfig>
+
 
 Restart GeoServer to make the changes effective
 ::

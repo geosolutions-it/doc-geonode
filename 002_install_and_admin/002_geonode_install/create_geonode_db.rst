@@ -52,6 +52,11 @@ Into:
     # "local" is for Unix domain socket connections only
     local   all             all                                     trust
 
+.. note::
+    If your PostgreSQL database resides on a separate machine, you have to allow
+    remote access to the databases in the pg_hba.conf for the `geonode` user and
+    tell PostgreSQL to accept non local connections in your `postgresql.conf` file
+
 Then restart `PostgreSQL` to make the change effective:
 ::
     service postgresql restart
