@@ -95,6 +95,10 @@ And enable geonode configuration file
 ::
     sudo a2ensite geonode
 
+Dowload GeoNode data to be served by Apache. You will be prompted for confirmation
+::
+    python manage.py collectstatic
+
 Change permissions on GeoNode files and folders to allow Apache to read and edit
 them:
 ::
