@@ -20,116 +20,186 @@ Create the user::
   adduser -m -s /bin/bash geonode
   passwd geonode
 
-Install sources
-===============
-
-Log in as geonode.
-Create the ``/home/geonode/prj`` directory::
-
-   cd
-   mkdir prj
-   cd prj
-
-
 Install GeoNode
 ---------------
 
 Install GeoNode sources from official repository::
 
    git clone https://github.com/GeoNode/geonode.git
-   
-.. important::
-   The new features added to GeoNode for handling time series have not yet been added to the official repository.
-   We have to use the following commands in place of the previous ``git clone``:: 
-   
-     git clone https://github.com/geosolutions-it/geonode.git
-     cd geonode
-     git checkout mosaics_cread
-     
-Then, as ``root``, install the required libraries::
 
-   cd ~geonode/geonode
-   pip install -e . --log jnp-install.log
+Move the sources in `geonode` user home folder
+::
+    mv geonode /home/geonode
 
-Updated GeoNode libraries
-`````````````````````````
+Navigate to sources folder and install required packages
+::
 
-.. important::
-   The new features added to GeoNode for handling time series needs some ancillary libraries 
-   which have been updated, but have not yet been merged into the related official repositories.
-   We have perform these extra steps to upgrade the needed libraries.
-   
-   Once this code will be merged into the official repos, these steps will no longer be needed.
+   cd /home/geonode/geonode
+   pip install -e .
 
-As ``root`` user::
-
-   mkdir /root/updates
-   
-Install the updated *gsconfig* library::
-
-   cd /root/updates   
-   git clone https://github.com/afabiani/gsconfig.git
-   cd gsconfig 
-   python setup.py install
-  
-Install the updated *gsimporter* library::  
-
-   cd /root/updates   
-   git clone https://github.com/geosolutions-it/gsimporter.git
-   cd gsimporter
-   git checkout imagemosaic_support
-   python setup.py install
-       
 .. _geonode_install_settings:
 
 Edit settings
 -------------
 
-As ``geonode`` user create the file ``/home/geonode/project/geonode/geonode/local_settings.py``
-and insert :download:`this content <resources/local_settings.py.txt>`.
+GeoNode Configuration
+=====================
 
-Then edit the file ``local_settings.py`` and replace passwords and constants:
+Now that all applications have been configured we are going to instruct GeoNode on
+how to connect to `PostgreSQL` and `GeoServer`. Also we are going to instruct GeoNode
+on who is allowed to connect to it.
 
-- ``SITEURL`` 
-- ``ALLOWED_HOSTS``
-- ``DATABASES / default / PASSWORD``: this is the password for the DB user ``geonode``
-- ``DATABASES / datastore / PASSWORD``: this is the password for the DB user ``geonode-import``
-- ``OGC_SERVER / PUBLIC_LOCATION``
-- ``OGC_SERVER / PASSWORD`` : this is the password we will set into GeoServer (see :ref:`geonode_install_geoserver_pw`)
+First navigate to geonode configuration folder
+::
+    cd /home/geonode/geonode/geonode/
 
+Copy the `local_settings.py` sample file called `local_settings.py.sample`
+::
+    cp local_settings.py.sample local_settings.py
 
-Install C-READ code
--------------------
+Then edit the configuration file
+::
+    gedit local_settings.py
 
-As user ``geonode`` download the sources::
+Add the `ALLOWED_HOST` and `PROXY_ALLOWED_HOSTS` variables at the top with the
+following values:
+::
+    ALLOWED_HOST = ['127.0.0.1', 'localhost', '::1']
+    PROXY_ALLOWED_HOSTS = ("127.0.0.1", 'localhost', '::1']
 
-   cd
-   cd prj
-   git clone https://github.com/geosolutions-it/geonode-cread.git cread
+This will instruct GeoNode to listen on connections from your local machine.
 
-Init GeoNode
-------------
+Change the value of the `SITEURL`
+::
+    SITEURL = "http://localhost/"
+
+Now configure database access:
+Uncomment the `ENGINE': 'django.contrib.gis.db.backends.postgis` line
+and comment the one with empty `ENGINE` variable. Also set the `NAME` variable to
+`geonode_data`
+::
+    DATABASES = {
+    'default': {
+    ...
+    },
+    'datastore' : {
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        #'ENGINE': '', # Empty ENGINE name disables,
+        'NAME': 'geonode_data',
+        ...
+    }
+
+Then configure GeoServer location:
+Change the value of the `LOCATION` and `PUBLIC_LOCATION` variables as follows:
+::
+    OGC_SERVER = {
+        'default' : {
+        ...
+        'LOCATION' : 'http://localhost/geoserver/',
+        'PUBLIC_LOCATION' : 'http://localhost/geoserver/',
+        ...
+    }
+
+The resulting configuration file should look like this:
+::
+
+    import os
+
+    PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+
+    SITEURL = "http://localhost/"
+
+    ALLOWED_HOST = ['127.0.0.1', 'localhost', '::1']
+    PROXY_ALLOWED_HOSTS = ("127.0.0.1", 'localhost', '::1')
+
+    DATABASES = {
+        'default': {
+             'ENGINE': 'django.db.backends.postgresql_psycopg2',
+             'NAME': 'geonode',
+             'USER': 'geonode',
+             'PASSWORD': 'geonode',
+         },
+        # vector datastore for uploads
+        'datastore' : {
+            'ENGINE': 'django.contrib.gis.db.backends.postgis',
+            #'ENGINE': '', # Empty ENGINE name disables
+            'NAME': 'geonode_data',
+            'USER' : 'geonode',
+            'PASSWORD' : 'geonode',
+            'HOST' : 'localhost',
+            'PORT' : '5432',
+        }
+    }
+
+    # OGC (WMS/WFS/WCS) Server Settings
+    OGC_SERVER = {
+        'default' : {
+            'BACKEND' : 'geonode.geoserver',
+            'LOCATION' : 'http://localhost/geoserver/',
+            'PUBLIC_LOCATION' : 'http://localhost/geoserver/',
+            'USER' : 'admin',
+            'PASSWORD' : 'geoserver',
+            'MAPFISH_PRINT_ENABLED' : True,
+            'PRINT_NG_ENABLED' : True,
+            'GEONODE_SECURITY_ENABLED' : True,
+            'GEOGIG_ENABLED' : False,
+            'WMST_ENABLED' : False,
+            'BACKEND_WRITE_ENABLED': True,
+            'WPS_ENABLED' : False,
+            'LOG_FILE': '%s/geoserver/data/logs/geoserver.log' % os.path.abspath(os.path.join(PROJECT_ROOT, os.pardir)),
+            # Set to name of database in DATABASES dictionary to enable
+            'DATASTORE': '', #'datastore',
+        }
+    }
+
+    CATALOGUE = {
+        'default': {
+            # The underlying CSW implementation
+            # default is pycsw in local mode (tied directly to GeoNode Django DB)
+            'ENGINE': 'geonode.catalogue.backends.pycsw_local',
+            # pycsw in non-local mode
+            # 'ENGINE': 'geonode.catalogue.backends.pycsw_http',
+            # GeoNetwork opensource
+            # 'ENGINE': 'geonode.catalogue.backends.geonetwork',
+            # deegree and others
+            # 'ENGINE': 'geonode.catalogue.backends.generic',
+
+            # The FULLY QUALIFIED base url to the CSW instance for this GeoNode
+            'URL': '%scatalogue/csw' % SITEURL,
+            # 'URL': 'http://localhost:8080/geonetwork/srv/en/csw',
+            # 'URL': 'http://localhost:8080/deegree-csw-demo-3.0.4/services',
+
+            # login credentials (for GeoNetwork)
+            'USER': 'admin',
+            'PASSWORD': 'admin',
+        }
+    }
+
+    # Default preview library
+    #LAYER_PREVIEW_LIBRARY = 'geoext'
+
+Initialize GeoNode
+------------------
 
 As user ``geonode``, init the db, by creating the schema tables and populating the static data::
+::
+    cd /home/geonode/geonode/geonode/
+    python manage.py syncdb --noinput
 
-   cd
-   cd prj/cread
-   python manage.py syncdb --noinput
-
-Create the superuser::
+Now create the admin user for GeoNode running the following:
+::
 
    python manage.py createsuperuser
-   
-Then move all the static data on its own, so that they will be served by the httpd server.
 
-As ``root`` create the directories used for static data and for the user uploads:: 
+You will be prompted for the username, email address and passoword for the user
 
-   mkdir -vp /var/lib/geonode/{uploaded,static}
-   chown geonode: -R /var/lib/geonode
+Dowload GeoNode data to be served by Apache. You will be prompted for confirmation
+::
+    python manage.py collectstatic
 
-As ``geonode``, from inside ``/home/geonode/prj/cread``, run ::
- 
-   python manage.py collectstatic
-
-   
-      
+Change permissions on GeoNode files and folders to allow Apache to read and edit them:
+::
+    sudo chown -R geonode /home/geonode/geonode/
+    sudo chown apache:apache /home/geonode/geonode/geonode/static/
+    sudo chown apache:apache /home/geonode/geonode/geonode/uploaded/
+    sudo chown apache:apache /home/geonode/geonode/geonode/static_root/

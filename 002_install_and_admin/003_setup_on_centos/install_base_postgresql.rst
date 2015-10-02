@@ -8,14 +8,14 @@ Install PostgreSQL
 Update the packages list::
 
    yum check-update
-   
+
 Install the package for configuring the PGDG repository::
 
    yum install http://yum.postgresql.org/9.4/redhat/rhel-7-x86_64/pgdg-centos94-9.4-1.noarch.rpm
- 
+
 EPEL repository will provide GDAL packages::
 
-   yum install http://mirror.sfo12.us.leaseweb.net/epel/7/x86_64/e/epel-release-7-5.noarch.rpm 
+   yum install http://mirror.sfo12.us.leaseweb.net/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
 
 Install PostgreSQL, PostGIS and related libs::
 
@@ -27,7 +27,7 @@ Install PostgreSQL, PostGIS and related libs::
 Verify::
 
    rpm -qa | grep postg
-  
+
    postgis2_94-2.1.7-1.rhel7.x86_64
    postgresql94-contrib-9.4.1-1PGDG.rhel7.x86_64
    postgresql94-libs-9.4.1-1PGDG.rhel7.x86_64
@@ -38,44 +38,45 @@ Verify::
 Init the DB::
 
    /usr/pgsql-9.4/bin/postgresql94-setup initdb
-   
+
 Enable start on boot::
 
    systemctl enable postgresql-9.4.service
-   
+
 Start postgres service by hand::
 
    systemctl start postgresql-9.4.service
-      
+
 To restart or reload the instance, you can use the following commands::
 
    systemctl restart postgresql-9.4.service
    systemctl reload postgresql-9.4.service
-  
+
 
 Setting PostgreSQL access
 -------------------------
 
-Edit the file ``/var/lib/pgsql/9.4/data/pg_hba.conf`` so that the local connection entries 
-will change to::
+Now we are going to change user access policy for local connections in file pg_hba.conf:
+::
+    sudo vim /etc/postgresql/9.3/main/pg_hba.conf
 
-  # "local" is for Unix domain socket connections only
+Scroll down to the bottom of the document. We only need to edit one line. Change
+::
+    # "local" is for Unix domain socket connections only
+    local   all             all                                 peer
+into
+::
+    # "local" is for Unix domain socket connections only
+    local   all             all                                     trust
 
-  local   all             postgres                                peer
-  local   all             all                                     md5
+.. note::
+    If your PostgreSQL database resides on a separate machine, you have to allow
+    remote access to the databases in the pg_hba.conf for the `geonode` user and
+    tell PostgreSQL to accept non local connections in your `postgresql.conf` file
 
-  # IPv4 local connections:
+Once the configuration file has been edited, restart PostgreSQL to make these changes
+effective
 
-  host    all             postgres        127.0.0.1/32            ident
-  host    all             all             127.0.0.1/32            md5
-
-  # IPv6 local connections:
-  host    all             postgres        ::1/128                 ident
-  host    all             all             ::1/128                 md5
-
-
-Once the configuration file has been edited, restart postgres::
+::
 
    systemctl restart postgresql-9.4.service
-
-   
