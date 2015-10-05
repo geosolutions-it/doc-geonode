@@ -1,3 +1,5 @@
+.. _install_base_postgresql:
+
 =================================
 Installing PostgreSQL and PostGIS
 =================================

@@ -1,3 +1,4 @@
+.. _install_base_httpd:
 
 ===============================
 Apache HTTP Server Installation

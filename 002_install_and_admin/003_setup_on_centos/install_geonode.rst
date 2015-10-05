@@ -1,4 +1,4 @@
-.. _geonode_install_on_centos:
+.. _install_geonode:
 
 ###########################
 Install GeoNode application
