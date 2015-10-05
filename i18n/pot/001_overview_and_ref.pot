@@ -1,0 +1,1555 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013, GeoNode Development Team
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-05 13:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:5
+msgid "Import and Manage"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:6
+msgid "GeoNode allows users to upload and share geospatial data, securely. GeoNode makes it easy to upload and manage geospatial data on the web. Any user can upload and make content available via standard OGC protocols such as Web Map Service (WMS) and Web Feature Service (WFS). Data is available for browsing, searching, styling, and processing to generate maps which can be shared publicly or restricted to specific users only. Supported upload formats include ShapeFile, GeoTIFF, KML and CSV. In addition, it is possible to connect to existing external spatial databases and services."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:10
+#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:11
+#: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:11
+msgid "Features include:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:12
+msgid "Publish raster, vector, and tabular data"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:14
+msgid "Manage metadata and associated documents"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:16
+msgid "Securely or publicly share data"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:18
+msgid "Versioned geospatial data editor"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\index.rst:5
+msgid "Users' Features"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\index.rst:6
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:6
+#: ..\..\001_overview_and_ref\index.rst:23
+msgid "Open Source Geospatial Content Management System"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\index.rst:8
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:8
+#: ..\..\001_overview_and_ref\index.rst:25
+msgid "GeoNode is a web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI)."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\index.rst:10
+#: ..\..\001_overview_and_ref\index.rst:27
+msgid "What GeoNode can be used for… `GeoNode Demo <http://demo.geonode.org/>`_ (admin/admin)"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:5
+msgid "Interactive Mapping"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:7
+msgid "GeoNode allows users to create and share interactive web maps. GeoNode comes with helpful cartography tools for styling and composing maps graphically. These tools make it easy for anyone to assemble a web-based mapping application with functionality traditionally found in desktop GIS applications. Users can gain enhanced interactivity with GIS-specific tools such as querying and measuring."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:13
+msgid "GeoExplorer GIS client"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:15
+msgid "Graphical style editor"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:17
+msgid "Create multi-layer interactive maps"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:19
+msgid "Share and embed maps in web pages"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:5
+msgid "Spatial Data Discovery"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:7
+msgid "GeoNode allows users to browse and search for geospatial data. By combining collaboration found in social networks with specialized geospatial tools, GeoNode makes it easy to explore, process, style, and share maps and geospatial data. Spatial datasets can be imported and shared, all through a non-technical user interface."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:13
+msgid "Powerful spatial search engine"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:15
+msgid "Federated OGC services"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:17
+msgid "Metadata catalogue"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:5
+msgid "GeoNode Quickstart"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:10
+msgid "In this Quickstart guide you will learn the following:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:12
+msgid "to register a new account to get started"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:13
+msgid "add a new layer"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:14
+msgid "create a map using your new layer"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:15
+msgid "share your map with others"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:17
+msgid "Start GeoNode on your Live DVD or local VM and redirect your browser at `http://localhost:8000/ <http://localhost:8000/>`_ (this is the default port). The page will look like shown in the image below."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:23
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:18
+msgid "*Welcome page*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:26
+msgid "1. Register a new account"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:28
+msgid "From the interface shown above, one can view and modify existing spatial layers and maps, as well as find information on other GeoNode users. But, without being logged in, you are limited to read-only access of public layers. In order to create a map and add layers to it, you have to have create an account first."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:32
+msgid "From any page in the web interface, you will see a *Sign in* link. Click that link, and in the dialog that displays, click the *Register now* link."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:37
+msgid "*Sign in Form*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:39
+msgid "On the next page, fill out the form. Enter a user name and password in the fields. Also, enter your email address for verification."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:44
+msgid "*Register Form*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:46
+msgid "You will be returned to the welcome page. An email will be sent confirming that you have signed up. While you are now logged in, you will need to confirm your account. Navigate to the link that was sent in the email."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:51
+msgid "*Confirm*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:53
+msgid "By clicking *Confirm* you will be returned to the homepage. Now you’ve registered an account, you are able to add layers to it as well as create maps and share those with other users."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:57
+msgid "2. Add a new layer"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:59
+msgid "Layers are a published resource representing a raster or vector spatial data source. Layers also can be associated with metadata, ratings, and comments."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:61
+msgid "To add a layer to your account, navigate to the welcome page. There the following toolbar can be seen:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:66
+msgid "*Toolbar*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:68
+msgid "By clicking the *Layers* link you will be brought to the *Layers* menu where a new subtoolbar can be seen. This toolbar allows you to *Explore*, *Search* and *Upload* layers."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:73
+msgid "*Upload Button*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:75
+msgid "Now click *Upload Layers* and you’ll see the upload form."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:80
+msgid "*Upload Form*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:82
+msgid "You have two possibilities to add your files. You can either do that by using *drag & drop* or you choose to *browse* them. Be aware that you have to upload a complete set of files, consisting of a **shp**, a **prj**, a **dbf** and a **shx** file. If one of them is missing, GeoNode will warn you before you upload them."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:84
+msgid "You shold now be able to see all the files you want to upload."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:89
+msgid "*Files to be Uploaded*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:91
+msgid "GeoNode has the ability to restrict who can view, edit, and manage layers. On the right side of the page you can see the *Permission* section, where you can limit the access on your layer. Under **Who can view and download this data**, select **Any registered user**. This will ensure that *Anonymous* view access is disabled. In the same area, under **Who can edit this data**, select **your username**. This will ensure that *Only You* are able to edit the data in the layer."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:96
+msgid "*Permissions*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:98
+msgid "To upload data, click the *Upload* button at the bottom."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:101
+msgid "3. Create a new map"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:103
+msgid "The next step for you is to create a map and add the newly created layers to this map."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:105
+msgid "Click the *Maps* link on the top toolbar. This will bring up the list of maps."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:110
+msgid "*Create new Map Button*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:112
+msgid "Currently, there aren’t any maps here. To add one click the *Create a New Map* button and a map composition interface will display."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:117
+msgid "*Maps Editor*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:119
+msgid "In this interface there is a toolbar, layer list, and map window. The map window contains the MapQuest OpenStreetMap layer by default. There are other service layers available here as well: Blue Marble, Bing Aerial With Labels, MapQuest, and OpenStreetMap."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:122
+msgid "Click on the *New Layers* button and select *Add Layers*."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:126
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:134
+msgid "*Add Layers*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:128
+msgid "Now you should be able to see all the availabel layers. In your case, this should only be the ones you’ve added before (San Andreas?)."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:130
+msgid "Select all of the layers by clicking the top entry and **Shift-clicking** the bottom one. Click *Add Layers* to add them all to the map."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:136
+msgid "The layers will be added to the map. Click *Done* (right next to *Add Layers* at the bottom) to return to the main layers list."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:138
+msgid "To save the map click on the Map button in the toolbar, and select *Save Map*."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:142
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:154
+msgid "*Save Map*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:144
+msgid "Enter a title and abstract for your map."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:148
+msgid "*Edit Map Metadata*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:150
+msgid "Click *Save*. Notice that the link on the top right of the page changed to reflect the map’s name."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:156
+msgid "This link contains a permalink to your map. If you open this link in a new window, your map will appear exactly as it was saved."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:159
+msgid "4. Share your map"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:161
+msgid "Now let’s finish our map."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:163
+msgid "Check the box next to the **highway** layer to activate it. If it is not below the **POI** layer in the list, click and drag it down."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:168
+msgid "*Activate Layers on Map*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:170
+msgid "Make any final adjustments to the map composition as desired, including zoom and pan settings."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:172
+msgid "Click the *Map* button in the toolbar, and then click *Publish Map*."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:176
+msgid "*Publish Map button*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:178
+msgid "The title and abstract as previously created should still be there. Make any adjustments as necessary, and click *Save*."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:180
+msgid "A new dialog will appear with instructions on how to embed this map in a web page, including a code snippet. You can adjust the parameters as necessary."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:184
+msgid "*Publish the Map*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:186
+msgid "Your map can now be shared!"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:189
+msgid "To be continued"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:191
+msgid "Now you’ve gotten a quick insight in the possibilities of GeoNode. To learn more about GeoNode and its features, visit the official webpage `www.geonode.org <www.geonode.org>`_."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:193
+msgid "Stay in touch with the GeoNode community through the #geonode IRC channel using `http://webchat.freenode.net/ <http://webchat.freenode.net/>`_ or by asking your question in our `google group <https://groups.google.com/forum/#!forum/geonode-users>`_!"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:5
+msgid "A Tour Of GeoNode"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:6
+msgid "In order to get started, let’s look at the GeoNode interface and get a feel for how to navigate around it."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:8
+msgid "The GeoNode web interface is the primary method of interacting with GeoNode as a user. From this interface, one can view and modify existing spatial layers and maps, as well as find information on other GeoNode users."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:11
+msgid "Without being logged in, you are limited to read-only access of public layers."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:13
+msgid "Navigate to your GeoNode instance (online demo available `here <http://demo.geonode.org/>`_):"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:20
+msgid "This page shows a variety of information about the current GeoNode instance. At the top of the page is a toolbar showing quick links to view `layers <http://docs.geonode.org/en/latest/tutorials/users/layers/index.html#layers>`_, `maps <http://docs.geonode.org/en/latest/tutorials/users/maps/index.html#maps>`_, documents (metadata), `people <http://docs.geonode.org/en/latest/tutorials/users/accounts/index.html#accounts>`_, and a search field. Below this is a listing of recently updated layers, including abstract, owner, rating, and download button (if available)."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:26
+msgid "Click Explore button and choose Preview. Table data could be visualized as: Grid, Graph or Map."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:31
+msgid "*Explore Layers page*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:33
+msgid "This page shows all layers known to GeoNode, available in either List or Grid viewing. Layers can be sorted by Most Recent, Most Popular, or Most Shared. Also available are a list of categories, with which layers can be connected with."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:37
+msgid "Find a layer and click on its name."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:42
+msgid "*Viewing a layer*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:44
+msgid "A layer viewing page will display, with the layer itself superimposed on a hosted base layer (in this case `MapQuest OpenStreetMap <http://open.mapquest.com/>`_). Explore this page, noting the various options available to you."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:46
+msgid "Now click the Maps link in the tool bar to go to the Explore Maps page."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:51
+msgid "*Explore Maps page*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:53
+msgid "This page shows all maps known to GeoNode, available with similar viewing options as with the layers. Currently, there are no maps here, but we will create one later on in the workshop."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:56
+msgid "Click the Search link in the toolbar to bring up the Search page."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:61
+msgid "*Search page*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:63
+msgid "This page contains a wealth of options for customizing a search for various information on this GeoNode instance. While a simple search box is available at the top of every page, this search form allows for much more fine-tuned searches."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:66
+msgid "Now that you are familiar with the basic interface, the next step is to create your own account so you manage some GeoNode resources of your own."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\index.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\index.rst:6
+#: ..\..\001_overview_and_ref\index.rst:32
+msgid "This section introduces the GeoNode GUI and functionalities through a step-by-step workshop."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\002_introduction\index.rst:8
+#: ..\..\001_overview_and_ref\index.rst:34
+msgid "At the end of this module the users will be familiar with the GeoNode default GUI and objects."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:5
+msgid "The Big Picture"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:8
+msgid "Architecture"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:12
+msgid "*GeoNode Component Architecture*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:14
+msgid "GeoNode core is based on DJango web framework with few more dependencies necessary for the communication with the geospatial servers (GeoServer, pyCSW)"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:16
+msgid "On the left side you can see the list of *Entities* defined in GeoNode and managed by the DJango ORM framework. Those objects will be detailed in a future section."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:18
+msgid "On the right side the list of *Services* available allowing GeoNode to communicate with the *social* world."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:20
+msgid "The GeoNode catalog is strictly connected to the GeoServer one (see the bottom of the figure). The geospatial dataset and the OGC Services are implemented and managed by GeoServer. GeoNode acts as a broker for the geospatial layers, adding metdata information and tools that make easier the management, cataloging, mapping and searching of the datasets."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:23
+msgid "Thanks to the ORM framework and the auxiliary Python libraries, GeoNode is constantly aligned with the GeoServer catalog. An ad-hoc security module allows the two modules to strictly interact and share security and permissions rules."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:26
+msgid "In the advanced sections of this documentation we will go through GeoNode commands allowing administrators to re-sync the catalogs and keep them consistently aligned."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:29
+msgid "Django Architecture"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:31
+msgid "GeoNode is based on `Django <www.djangoproject.com>`_ which is a high level Python web development framework that encourages rapid development and clean pragmatic design. Django is based on the Model View Controller (`MVC <http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller>`_) architecture pattern, and as such, GeoNode models layers, maps and other modules with Django’s `Model <https://docs.djangoproject.com/en/1.4/topics/db/models/>`_ module and and these models are used via Django’s `ORM <http://en.wikipedia.org/wiki/Object-relational_mapping>`_ in views which contain the business logic of the GeoNode application and are used to drive HTML templates to display the web pages within the application."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:38
+msgid "Django explained with model/view/controller (`MVC <http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-explanation.html>`_)"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:40
+msgid "Model represents application data and provides rich ORM functionality."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:41
+msgid "Views are a rendering of a Model most often using the Django template engine."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:42
+msgid "In Django, the controller part of this commonly discussed, layered architecture is a subject of discussion. According to the standard definition, the controller is the layer or component through which the user interacts and model changes occur."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:45
+msgid "MVP/MVC"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:48
+msgid "MVP"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:49
+msgid "*Model, View, Presenter*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:51
+msgid "In MVP, the *Presenter* contains the UI business logic for the *View*. All invocations from the *View* delegate directly to the *Presenter*. The *Presenter* is also decoupled directly from the *View* and talks to it through an interface. This is to allow mocking of the *View* in a unit test. One common attribute of MVP is that there has to be a lot of two-way dispatching. For example, when someone clicks the *Save* button, the event handler delegates to the *Presenter*'s *OnSave* method. Once the save is completed, the *Presenter* will then call back the *View* through its interface so that the *View* can display that the save has completed."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:57
+msgid "MVP tends to be a very natural pattern for achieving separated presentation in Web Forms."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:59
+msgid "**Two primary variations** (You can `find out more about both variants <http://www.codeplex.com/websf/Wiki/View.aspx?title=MVPDocumentation&referringTitle=bundles>`_.)"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:61
+msgid "**Passive View:** The View is as dumb as possible and contains almost zero logic. The Presenter is a middle man that talks to the View and the Model. The View and Model are completely shielded from one another. The Model may raise events, but the Presenter subscribes to them for updating the View. In Passive View there is no direct data binding, instead the View exposes setter properties which the Presenter uses to set the data. All state is managed in the Presenter and not the View."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:63
+msgid "*Pro:* maximum testability surface; clean separation of the View and Model"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:64
+msgid "*Con:* more work (for example all the setter properties) as you are doing all the data binding yourself."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:66
+msgid "**Supervising Controller:** The Presenter handles user gestures. The View binds to the Model directly through data binding. In this case it's the Presenter's job to pass off the Model to the View so that it can bind to it. The Presenter will also contain logic for gestures like pressing a button, navigation, etc."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:68
+msgid "*Pro:* by leveraging databinding the amount of code is reduced."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:69
+msgid "*Con:* there's less testable surface (because of data binding), and there's less encapsulation in the View since it talks directly to the Model."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:72
+msgid "MVC"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:73
+msgid "*Model, View, Controller*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:75
+msgid "In the MVC, the Controller is responsible for determining which View is displayed in response to any action including when the application loads."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:77
+msgid "This differs from MVP where actions route through the View to the Presenter. In MVC, every action in the View correlates with a call to a Controller along with an action. In the web each action involves a call to a URL on the other side of which there is a Controller who responds. Once that Controller has completed its processing, it will return the correct View. The sequence continues in that manner throughout the life of the application:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:89
+msgid "One other big difference about MVC is that the View does not directly bind to the Model. The view simply renders, and is completely stateless. In implementations of MVC the View usually will not have any logic in the code behind. This is contrary to MVP where it is absolutely necessary as if the View does not delegate to the Presenter, it will never get called."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:92
+msgid "Presentation Model"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:93
+msgid "One other pattern to look at is the Presentation Model pattern. In this pattern there is no Presenter. Instead the View binds directly to a **Presentation Model**. The Presentation Model is a Model crafted specifically for the View. This means this Model can expose properties that one would never put on a domain model as it would be a violation of separation-of-concerns. In this case, the Presentation Model binds to the domain model, and may subscribe to events coming from that Model. The View then subscribes to events coming from the Presentation Model and updates itself accordingly. The Presentation Model can expose commands which the view uses for invoking actions. The advantage of this approach is that you can essentially remove the code-behind altogether as the PM completely encapsulates all of the behaviour for the view."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:100
+msgid "This pattern is a very strong candidate for use in WPF applications and is also called `Model-View-ViewModel <http://msdn.microsoft.com/en-us/magazine/dd419663.aspx>`_."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:102
+msgid "More: `http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-explanation.html <http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-explanation.html>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:105
+msgid "WSGI"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:106
+msgid "*Web Server Gateway Interface (whis-gey)*"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:108
+msgid "This is a python specification for supporting a common interface between all of the various web frameworks and an application (Apache, for example) that is ‘serving’."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:109
+msgid "This allows any WSGI compliant framework to be hosted in any WSGI compliant server."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:110
+msgid "For most GeoNode development, the details of this specification may be ignored."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:112
+msgid "More: `http://en.wikipedia.org/wiki/Wsgi <http://en.wikipedia.org/wiki/Wsgi>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:115
+msgid "GeoNode and GeoServer"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:117
+msgid "GeoNode uses GeoServer for providing OGC services."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:119
+msgid "At its core, GeoNode provides a standards-based platform to enable integrated, programmatic access to your data via OGC Web Services, which are essential building blocks required to deploy an OGC-compliant spatial data infrastructure (SDI).  These Web Services enable discovery, visualization and access your data, all without necessarily having to interact directly with your GeoNode website, look and feel/UI, etc."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:121
+msgid "GeoNode configures GeoServer via the REST API"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:122
+msgid "GeoNode retrieves and caches spatial information from GeoServer. This includes relevant OGC service links, spatial metadata, and attribute information."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:124
+msgid "In summary, GeoServer contains the layer data, and GeoNode’s layer model extends the metadata present in GeoServer with its own."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:125
+msgid "GeoNode can discover existing layers published in a GeoServer via the WMS capabilities document."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:126
+msgid "GeoServer delegates authentication and authorization to GeoNode."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:127
+msgid "Data uploaded to GeoNode is first processed in GeoNode and finally published to GeoServer (or ingested into the spatial database)."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:130
+msgid "OGC Web Services:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:132
+msgid "operate over HTTP (GET, POST)"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:133
+msgid "provide a formalized, accepted API"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:134
+msgid "provide formalized, accepted formats"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:136
+msgid "The OGC Web Services provided by GeoNode have a mature implementation base and provide an multi-application approach to integration.  This means, as a developer, there are already numerous off-the-shelf GIS packages, tools and webapps (proprietary, free, open source) that natively support OGC Web Services."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:138
+msgid "There are numerous ways to leverage OGC Web Services from GeoNode:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:140
+msgid "desktop GIS"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:141
+msgid "web-based application"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:142
+msgid "client libraries / toolkits"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:143
+msgid "custom development"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:145
+msgid "Your GeoNode lists OGC Web Services and their URLs at ``http://localhost:8000/developer``.  You can use these APIs directly to interact with your GeoNode."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:147
+msgid "The following sections briefly describe the OGC Web Services provided by GeoNode."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:150
+msgid "Web Map Service (WMS)"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:151
+msgid "WMS provides an API to retrieve map images (PNG, JPEG, etc.) of geospatial data.  WMS is suitable for visualization and when access to raw data is not a requirement."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:154
+msgid "WFS"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:155
+msgid "WFS provides provides an API to retrieve raw geospatial vector data directly.  WFS is suitable for direct query and access to geographic features."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:158
+msgid "WCS"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:159
+msgid "WCS provides provides an API to retrieve raw geospatial raster data directly.  WCS is suitable for direct access to satellite imagery, DEMs, etc."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:162
+msgid "CSW"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:163
+msgid "CSW provides an interface to publish and search metadata (data about data).  CSW is suitable for cataloguing geospatial data and making it discoverable to enable visualization and access."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:166
+msgid "WMTS"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:167
+msgid "WMTS provides an API to retrive pre-rendered map tiles of geospatial data."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:170
+msgid "WMC"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:171
+msgid "WMC provides a format to save and load map views and application state via XML.  This allows, for example, a user to save their web mapping application in WMC and share it with others, viewing the same content."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:173
+msgid "More: `http://geoserver.org <http://geoserver.org>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:176
+msgid "GeoNode and PostgreSQL/PostGIS"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:178
+msgid "In production, GeoNode is configured to use PostgreSQL/PostGIS for it’s persistent store. In development and testing mode, often an embedded sqlite database is used. The latter is not suggested for production."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:180
+msgid "The database stores configuration and application information. This includes users, layers, maps, etc."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:181
+msgid "It is recommended that GeoNode be configured to use PostgresSQL/PostGIS for storing vector data as well. While serving layers directly from shapefile allows for adequate performance in many cases, storing features in the database allows for better performance especially when using complex style rules based on attributes."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:184
+msgid "GeoNode and pycsw"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:186
+msgid "GeoNode is built with pycsw embedded as the default CSW server component."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:189
+msgid "Publishing"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:191
+msgid "Since pycsw is embedded in GeoNode, layers published within GeoNode are automatically published to pycsw and discoverable via CSW. No additional configuration or actions are required to publish layers, maps or documents to pycsw."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:194
+msgid "Discovery"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:196
+msgid "GeoNode’s CSW endpoint is deployed available at ``http://localhost:8000/catalogue/csw`` and is available for clients to use for standards-based discovery. See http://docs.pycsw.org/en/latest/tools.html for a list of CSW clients and tools."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:199
+msgid "Javascript in GeoNode"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:201
+msgid "GeoNode provides a number of facilities for interactivity in the web browser built on top of several high-quality JavaScript frameworks:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:203
+msgid "`Bootstrap <http://getbootstrap.com/>`_ for GeoNode's front-end user interface and common user interaction."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:204
+msgid "`Bower <http://bower.io/>`_ for GeoNode's front-end package management."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:205
+msgid "`ExtJS <http://extjs.com/>`_ for component-based UI construction and data access"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:206
+msgid "`OpenLayers <http://openlayers.org/>`_ for interactive mapping and other geospatial operations"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:207
+msgid "`GeoExt <http://geoext.org/>`_ for integrating ExtJS with OpenLayers"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:208
+msgid "`Grunt <http://gruntjs.com/>`_ for front-end task automation."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:209
+msgid "`GXP <http://projects.opengeo.org/gxp>`_ for providing some higher-level application building facilities on top of GeoExt, as well as improving integration with GeoServer."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:211
+msgid "`jQuery <http://jquery.com>`_ to abstract javascript manipulation, event handling, animation and Ajax."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:213
+msgid "GeoNode uses application-specific modules to handle pages and services that are unique to GeoNode.  This framework includes:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:215
+msgid "A `GeoNode mixin <https://github.com/GeoNode/geonode/blob/master/geonode/static/geonode/js/extjs/GeoNode-mixin.js>`_  class that provides GeoExplorer with the methods needed to properly function in GeoNode.  The class is responsible for checking permissions, retrieving and submitting the `CSRF token <https://docs.djangoproject.com/en/dev/ref/contrib/csrf/>`_, and user authentication."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:220
+msgid "A `search module <https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/search>`_ responsible for the GeoNode's site-wide search functionality."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:221
+msgid "An `upload and status module <https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/upload>`_ to support file uploads."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:222
+msgid "`Template files <https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/templates>`_ for generating commonly used html sections."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:223
+msgid "A `front-end testing module <https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/tests>`_ to test GeoNode javascript."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:225
+msgid "The following concepts are particularly important for developing on top of the GeoNode's JavaScript framework."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:233
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:5
+msgid "Components"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:229
+msgid "Ext components handle most interactive functionality in \"regular\" web pages.  For example, the scrollable/sortable/filterable table on the default Search page is a Grid component.  While GeoNode does use some custom components, familiarity with the idea of Components used by ExtJS is applicable in GeoNode development."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:241
+msgid "Viewers"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:236
+msgid "Viewers display interactive maps in web pages, optionally decorated with Ext controls for toolbars, layer selection, etc.  Viewers in GeoNode use the GeoExplorer base class, which builds on top of GXP's Viewer to provide some common functionality such as respecting site-wide settings for background layers. Viewers can be used as components embedded in pages, or they can be full-page JavaScript applications."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:247
+msgid "Controls"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:244
+msgid "Controls are tools for use in OpenLayers maps (such as a freehand control for drawing new geometries onto a map, or an identify control for getting information about individual features on a map.)  GeoExt provides tools for using these controls as ExtJS \"Actions\" - operations that can be invoked as buttons or menu options or associated with other events."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:6
+msgid ":ref:`architecture` is based on a set of core tools and libraries that provide the building blocks on which the application is built. Having a basic understanding of each of these components is critical to your success as a developer working with GeoNode."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:8
+msgid "Lets look at each of these components and discuss how they are used within the GeoNode application."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:11
+msgid "Django"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:13
+msgid "GeoNode is based on Django_ which is a high level Python web development framework that encourages rapid development and clean pragmatic design. Django is based on the Model View Controller (MVC_) architecture pattern, and as such, GeoNode models layers, maps and other modules with Django's Model_ module and and these models are used via Django's ORM_ in views which contain the business logic of the GeoNode application and are used to drive HTML templates to display the web pages within the application."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:21
+msgid "GeoServer"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:23
+msgid "GeoServer_ is a an open source software server written in Java that provides OGC compliant services which publish data from many spatial data sources. GeoServer is used as the core GIS component inside GeoNode and is used to render the layers in a GeoNode instance, create map tiles from the layers, provide for downloading those layers in various formats and to allow for transactional editing of those layers."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:28
+msgid "GeoExplorer"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:30
+msgid "GeoExplorer_ is a web application, based on the GeoExt_ framework, for composing and publishing web maps with OGC and other web based GIS Services. GeoExplorer is used inside GeoNode to provide many of the GIS and cartography functions that are a core part of the application."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:36
+msgid "PostgreSQL and PostGIS"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:38
+msgid "PostgreSQL_ and PostGIS_ are the database components that store and manage spatial data and information for GeoNode and the django modules that it is composed of, pycsw and GeoServer. All of these tables and data are stored within a geonode database in PostgreSQL. GeoServer uses PostGIS to store and manage spatial vector data for each layer which are stored as a separate table in the database."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:44
+msgid "pycsw"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:46
+msgid "pycsw_ is an OGC CSW server implementation written in Python.  GeoNode uses pycsw to provide an OGC compliant standards-based CSW metadata and catalogue component of spatial data infrastructures, supporting popular geospatial metadata standards such as Dublin Core, ISO 19115, FGDC and DIF."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:51
+msgid "Geospatial Python Libraries"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:53
+msgid "GeoNode leverages several geospatial python libraries including gsconfig_ and OWSLib_. gsconfig is used to communicates with GeoServer's REST Configuration API to configure GeoNode layers in GeoServer. OWSLib is used to communicate with GeoServer's OGC services and can be used to communicate with other OGC services."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:59
+msgid "Django Pluggables"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:61
+msgid "GeoNode uses a set of Django plugins which are usually referred to as pluggables. Each of these pluggables provides a particular set of functionality inside the application from things like Registration and Profiles to interactivity with external sites. Being based on Django enables GeoNode to take advantage of the large ecosystem of these pluggables out there, and while a specific set is included in GeoNode itself, many more are available for use in applications based on GeoNode."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:64
+msgid "jQuery"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:66
+msgid "jQuery_ is a feature-rich javascript library that is used within GeoNode to provide an interactive and responsive user interface as part of the application. GeoNode uses several jQuery plugins to provide specific pieces of functionality, and the GeoNode development team often adds new features to the interface by adding additional plugins."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:71
+msgid "Bootstrap"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:73
+msgid "Bootstrap_ is a front-end framework for laying out and styling the pages that make up the GeoNode application. It is designed to ensure that the pages render and look and behave the same across all browsers. GeoNode customizes bootstraps default style and its relatively easy for developers to customize their own GeoNode based site using existing Boostrap themes or by customizing the styles directly."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\index.rst:5
+msgid "Reference Doc"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\003_reference_doc\index.rst:6
+#: ..\..\001_overview_and_ref\index.rst:37
+msgid "In this section, you will find information about each and every component of GeoNode, for example *GeoServer*, *GeoNode Settings*, *Security*, etc."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:5
+msgid "Getting Started With Django"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:8
+msgid "Object-relational mapper"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:9
+msgid "Deﬁne your data models entirely in Python. You get a rich, dynamic database-access API for free — but you can still write SQL if needed."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:33
+msgid "Models"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:35
+msgid "A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you’re storing. Generally, each model maps to a single database table."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:37
+msgid "The basics:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:39
+msgid "Each model is a Python class that subclasses ``django.db.models.Model``."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:40
+msgid "Each attribute of the model represents a database field."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:41
+msgid "With all of this, Django gives you an automatically-generated database-access API; see :ref:`making_queries`."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:44
+msgid "Quick example"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:46
+msgid "This example model defines a ``Person``, which has a **first_name** and **last_name**:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:57
+msgid "**first_name** and **last_name** are fields of the model. Each field is specified as a class attribute, and each attribute maps to a database column."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:59
+msgid "The above ``Person`` model would create a database table like this:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:70
+msgid "Some technical notes:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:72
+msgid "The name of the table, **myapp_person**, is automatically derived from some model metadata but can be overridden."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:73
+msgid "An **id** field is added automatically, but this behavior can be overridden."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:74
+msgid "The **CREATE TABLE** SQL in this example is formatted using PostgreSQL syntax, but it’s worth noting Django uses SQL tailored to the database backend specified in your settings file."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:77
+msgid "Using models"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:79
+msgid "Once you have defined your models, you need to tell Django you’re going to use those models. Do this by editing your settings file and changing the **INSTALLED_APPS** setting to add the name of the module that contains your **models.py**."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:81
+msgid "For example, if the models for your application live in the module **myapp.models** (the package structure that is created for an application by the **manage.py startapp** script), **INSTALLED_APPS** should read, in part:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:92
+msgid "When you add new apps to **INSTALLED_APPS**, be sure to run **manage.py migrate**, optionally making migrations for them first with **manage.py makemigrations**."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:94
+msgid "GeoNode has specific commands and shortcuts wich can be called through the **manage.py** class"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:97
+msgid "Fields"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:99
+msgid "The most important part of a model – and the only required part of a model – is the list of database fields it defines. Fields are specified by class attributes. Be careful not to choose field names that conflict with the models API like **clean**, **save**, or **delete**."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:102
+msgid "Example:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:120
+msgid "More: `Field Types <https://docs.djangoproject.com/en/1.8/topics/db/models/#field-types>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:123
+msgid "Model methods"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:125
+msgid "Define custom methods on a model to add custom “row-level” functionality to your objects. Whereas **Manager** methods are intended to do “table-wide” things, model methods should act on a particular model instance."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:128
+msgid "This is a valuable technique for keeping business logic in one place – the model."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:130
+msgid "For example, this model has a few custom methods:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:157
+msgid "The last method in this example is a `property <https://docs.djangoproject.com/en/1.8/glossary/#term-property>`_."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:159
+msgid "The `model instance reference <https://docs.djangoproject.com/en/1.8/ref/models/instances/>`_ has a complete list of `methods automatically given to each model <https://docs.djangoproject.com/en/1.8/ref/models/instances/#model-instance-methods>`_. You can override most of these – see `overriding predefined model methods <https://docs.djangoproject.com/en/1.8/topics/db/models/#overriding-predefined-model-methods>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:162
+msgid "More: `Models Methods <https://docs.djangoproject.com/en/1.8/topics/db/models/#model-methods>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:165
+msgid "Model inheritance"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:167
+msgid "Model inheritance in Django works almost identically to the way normal class inheritance works in Python, but the basics at the beginning of the page should still be followed. That means the base class should subclass ``django.db.models.Model``."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:170
+msgid "The only decision you have to make is whether you want the parent models to be models in their own right (with their own database tables), or if the parents are just holders of common information that will only be visible through the child models."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:172
+msgid "There are three styles of inheritance that are possible in Django."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:174
+msgid "Often, you will just want to use the parent class to hold information that you don’t want to have to type out for each child model. This class isn’t going to ever be used in isolation, so `Abstract base classes <https://docs.djangoproject.com/en/1.8/topics/db/models/#abstract-base-classes>`_ are what you’re after."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:175
+msgid "If you’re subclassing an existing model (perhaps something from another application entirely) and want each model to have its own database table, `Multi-table inheritance <https://docs.djangoproject.com/en/1.8/topics/db/models/#multi-table-inheritance>`_ is the way to go."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:176
+msgid "Finally, if you only want to modify the Python-level behavior of a model, without changing the models fields in any way, you can use `Proxy models <https://docs.djangoproject.com/en/1.8/topics/db/models/#proxy-models>`_."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:178
+msgid "More: `Model Inheritance <https://docs.djangoproject.com/en/1.8/topics/db/models/#model-inheritance>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:183
+msgid "`Making queries`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:185
+msgid "Once you’ve created your data models, Django automatically gives you a database-abstraction API that lets you create, retrieve, update and delete objects."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:187
+msgid "Throughout this guide (and in the reference), we’ll refer to the following models, which comprise a Weblog application:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:223
+msgid "Creating objects"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:225
+msgid "To represent database-table data in Python objects, Django uses an intuitive system: A model class represents a database table, and an instance of that class represents a particular record in the database table."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:228
+msgid "To create an object, instantiate it using keyword arguments to the model class, then call **save()** to save it to the database."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:230
+msgid "Assuming models live in a file **mysite/blog/models.py**, here’s an example:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:239
+msgid "This performs an **INSERT SQL** statement behind the scenes. Django doesn’t hit the database until you explicitly call **save()**."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:241
+msgid "The **save()** method has no return value."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:244
+msgid "Saving changes to objects"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:246
+msgid "To save changes to an object that’s already in the database, use **save()**."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:248
+msgid "Given a Blog instance b5 that has already been saved to the database, this example changes its name and updates its record in the database:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:256
+msgid "This performs an **UPDATE SQL** statement behind the scenes. Django doesn’t hit the database until you explicitly call **save()**."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:259
+msgid "Retrieving objects"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:261
+msgid "To retrieve objects from your database, construct a **QuerySet** via a **Manager** on your model class."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:263
+msgid "A **QuerySet** represents a collection of objects from your database. It can have zero, one or many filters. Filters narrow down the query results based on the given parameters. In SQL terms, a **QuerySet** equates to a **SELECT** statement, and a filter is a limiting clause such as **WHERE** or **LIMIT**."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:266
+msgid "You get a **QuerySet** by using your model’s **Manager**. Each model has at least one **Manager**, and it’s called ``objects`` by default. Access it directly via the model class, like so:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:280
+msgid "**Managers** are accessible only via model classes, rather than from model instances, to *enforce a separation* between “table-level” operations and “record-level” operations. The **Manager** is the main source of **QuerySets** for a model. For example, ``Blog.objects.all()`` returns a **QuerySet** that contains all Blog objects in the database."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:284
+msgid "Retrieving all objects"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:286
+msgid "The simplest way to retrieve objects from a table is to get all of them. To do this, use the **all()** method on a **Manager**:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:293
+msgid "The **all()** method returns a **QuerySet** of all the objects in the database."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:296
+msgid "Retrieving specific objects with filters"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:298
+msgid "The **QuerySet** returned by **all()** describes all objects in the database table. Usually, though, you’ll need to select only a subset of the complete set of objects."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:300
+msgid "To create such a subset, you refine the initial **QuerySet**, adding filter conditions. The two most common ways to refine a **QuerySet** are:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:302
+msgid "**filter(**kwargs)**"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:304
+msgid "Returns a new **QuerySet** containing objects that match the given lookup parameters."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:306
+msgid "**exclude(**kwargs)**"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:308
+msgid "Returns a new **QuerySet** containing objects that do not match the given lookup parameters. The lookup parameters (****kwargs** in the above function definitions) should be in the format described in **Field** lookups below."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:311
+msgid "For example, to get a **QuerySet** of blog entries from the year 2006, use **filter()** like so:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:318
+msgid "With the default manager class, it is the same as:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:326
+msgid "Chaining filters"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:328
+msgid "The result of refining a **QuerySet** is itself a **QuerySet**, so it’s possible to chain refinements together. For example:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:342
+msgid "This takes the initial **QuerySet** of all entries in the database, adds a filter, then an exclusion, then another filter. The final result is a **QuerySet** containing all entries with a headline that starts with “What”, that were published between January 30, 2005, and the current day."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:345
+msgid "More: `Making queries <https://docs.djangoproject.com/en/1.8/topics/db/queries/#making-queries>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:348
+msgid "URLs and views"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:350
+msgid "A clean, elegant URL scheme is an important detail in a high-quality Web application. Django encourages beautiful URL design and doesn’t put any cruft in URLs, like .php or .asp."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:352
+msgid "To design URLs for an application, you create a Python module called a URLconf. Like a table of contents for your app, it contains a simple mapping between URL patterns and your views."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:376
+msgid "More: `URL dispatcher <https://docs.djangoproject.com/en/1.8/topics/http/urls/>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:379
+msgid "Templates"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:381
+msgid "Django’s template language is designed to strike a balance between power and ease. It’s designed to feel comfortable and easy-to-learn to those used to working with HTML, like designers and front-end developers. But it is also flexible and highly extensible, allowing developers to augment the template language as needed."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:403
+msgid "More: `Templates <https://docs.djangoproject.com/en/1.8/topics/templates/>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:406
+msgid "Forms"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:408
+msgid "Django provides a powerful form library that handles rendering forms as HTML, validating user-submitted data, and converting that data to native Python types. Django also provides a way to generate forms from your existing models and use those forms to create and update data."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:422
+msgid "GET and POST"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:424
+msgid "**GET** and **POST** are the only HTTP methods to use when dealing with forms."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:426
+msgid "Django’s login form is returned using the **POST** method, in which the browser bundles up the form data, encodes it for transmission, sends it to the server, and then receives back its response."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:428
+msgid "**GET**, by contrast, bundles the submitted data into a string, and uses this to compose a URL. The URL contains the address where the data must be sent, as well as the data keys and values. You can see this in action if you do a search in the Django documentation, which will produce a URL of the form ``https://docs.djangoproject.com/search/?q=forms&release=1``."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:431
+msgid "**GET** and **POST** are typically used for different purposes."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:433
+msgid "Any request that could be used to change the state of the system - for example, a request that makes changes in the database - should use **POST**. **GET** should be used only for requests that do not affect the state of the system."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:435
+msgid "**GET** would also be unsuitable for a password form, because the password would appear in the URL, and thus, also in browser history and server logs, all in plain text. Neither would it be suitable for large quantities of data, or for binary data, such as an image. A Web application that uses **GET** requests for admin forms is a security risk: it can be easy for an attacker to mimic a form’s request to gain access to sensitive parts of the system. **POST**, coupled with other protections like Django’s CSRF protection offers more control over access."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:437
+msgid "On the other hand, **GET** is suitable for things like a web search form, because the URLs that represent a **GET** request can easily be bookmarked, shared, or resubmitted."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:439
+msgid "More: `Working With Forms <https://docs.djangoproject.com/en/1.8/topics/forms/#working-with-forms>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:442
+msgid "Authentication"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:444
+msgid "Django comes with a full-featured and secure authentication system. It handles user accounts, groups, permissions and cookie-based user sessions. This lets you easily build sites that let users to create accounts and safely log in/out."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:458
+msgid "More: `User authentication in Django <https://docs.djangoproject.com/en/stable/topics/auth/>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:461
+msgid "Admin"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:463
+msgid "One of the most powerful parts of Django is its automatic admin interface. It reads metadata in your models to provide a powerful and production-ready interface that content producers can immediately use to start managing content on your site. It’s easy to set up and provides many hooks for customization."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:481
+msgid "The advanced workshop for Developers will provide more details on GeoNode specific models and admin interface"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:483
+msgid "More: `The Django admin site <https://docs.djangoproject.com/en/stable/ref/contrib/admin/>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:486
+msgid "Internationalization"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:488
+msgid "Django offers full support for translating text into different languages, plus locale-specific formatting of dates, times, numbers and time zones. It lets developers and template authors specify which parts of their apps should be translated or formatted for local languages and cultures, and it uses these hooks to localize Web applications for particular users according to their preferences."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:535
+msgid "The advanced workshop for Developers will provide more details on how to create languages and translations on GeoNode using `Transifex <https://www.transifex.com/>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:537
+msgid "More: `Internationalization and localization <https://docs.djangoproject.com/en/stable/topics/i18n/>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:540
+msgid "Security"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:542
+msgid "Django provides multiple protections against:"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:547
+msgid "Clickjacking"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:545
+msgid "Clickjacking is a type of attack where a malicious site wraps another site in a frame. This attack can result in an unsuspecting user being tricked into performing unintended actions on the target site."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:547
+msgid "The **X-Frame-Options middleware** contained in a form allow a supporting browser to prevent a site from being rendered inside a frame"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:550
+msgid "Cross site scripting (XSS)"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:550
+msgid "XSS attacks allow a user to inject client side scripts into the browsers of other users. This is usually achieved by storing the malicious scripts in the database where it will be retrieved and displayed to other users, or by getting users to click a link which will cause the attacker’s JavaScript to be executed by the user’s browser. However, XSS attacks can originate from any untrusted source of data, such as cookies or Web services, whenever the data is not sufficiently sanitized before including in a page."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:555
+msgid "Cross site request forgery (CSRF)"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:553
+msgid "CSRF attacks allow a malicious user to execute actions using the credentials of another user without that user’s knowledge or consent."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:555
+msgid "CSRF protection works by checking for a nonce in each POST request. This ensures that a malicious user cannot simply “replay” a form POST to your Web site and have another logged in user unwittingly submit that form. The malicious user would have to know the nonce, which is user specific (using a cookie)."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:558
+msgid "SQL injection"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:558
+msgid "SQL injection is a type of attack where a malicious user is able to execute arbitrary SQL code on a database. This can result in records being deleted or data leakage."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:566
+msgid "Host header validation"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:561
+msgid "Django uses the **Host** header provided by the client to construct URLs in certain cases. While these values are sanitized to prevent Cross Site Scripting attacks, a fake **Host** value can be used for Cross-Site Request Forgery, cache poisoning attacks, and poisoning links in emails."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:564
+msgid "Because even seemingly-secure web server configurations are susceptible to fake **Host** headers, Django validates **Host** headers against the **ALLOWED_HOSTS** setting in the ``django.http.HttpRequest.get_host()`` method."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:566
+msgid "This validation only applies via **get_host()**; if your code accesses the Host header directly from **request.META** you are bypassing this security protection."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:571
+msgid "SSL/HTTPS"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:569
+msgid "It is always better for security, though not always practical in all cases, to deploy your site behind HTTPS. Without this, it is possible for malicious network users to sniff authentication credentials or any other information transferred between client and server, and in some cases – active network attackers – to alter data that is sent in either direction."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:571
+msgid "Django provides some settings to secure your site unser SSL/HTTPS."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:574
+msgid "While Django provides good security protection out of the box, it is still important to properly deploy your application and take advantage of the security protection of the Web server, operating system and other components."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:576
+msgid "Make sure that your Python code is outside of the Web server’s root. This will ensure that your Python code is not accidentally served as plain text (or accidentally executed)."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:577
+msgid "Take care with any user uploaded files."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:578
+msgid "Django does not throttle requests to authenticate users. To protect against brute-force attacks against the authentication system, you may consider deploying a Django plugin or Web server module to throttle these requests."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:579
+msgid "Keep your **SECRET_KEY** a secret."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:580
+msgid "It is a good idea to limit the accessibility of your caching system and database using a firewall."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:582
+msgid "More: `Security in Django <https://docs.djangoproject.com/en/stable/topics/security/>`_"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\index.rst:5
+msgid "Django Overview"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\index.rst:6
+#: ..\..\001_overview_and_ref\index.rst:40
+msgid "This section introduces some basic concepts of DJango, the Python based web framework on top of which GeoNode has been developed."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\index.rst:8
+#: ..\..\001_overview_and_ref\index.rst:42
+msgid "Django's primary goal is to ease the creation of complex, database-driven websites. Django emphasizes reusability and \"pluggability\" of components, rapid development, and the principle of *don't repeat yourself*. Python is used throughout, even for settings, files, and data models."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\004_django_overview\index.rst:12
+#: ..\..\001_overview_and_ref\index.rst:46
+msgid "Django also provides an optional administrative create, read, update and delete interface that is generated dynamically through introspection and configured via admin models."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\index.rst:5
+msgid "GeoNode Overview & Reference"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\index.rst:6
+msgid "Welcome to the GeoNode Training `Overview & Reference` documentation v\\ |release|."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\index.rst:8
+msgid "This module guides the user to an overview of GeoNode and its main components."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\index.rst:10
+msgid "At the end of this section you will have a clear view of what GeoNode is and can do. You will be able also to use the GeoNode main functionalities and understand some of the basic concepts of the system infrastructure."
+msgstr ""
+
+#: ..\..\001_overview_and_ref\index.rst:29
+msgid ":ref:`user_features_index`"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\index.rst:34
+msgid ":ref:`introduction_index`"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\index.rst:37
+msgid ":ref:`reference_doc_index`"
+msgstr ""
+
+#: ..\..\001_overview_and_ref\index.rst:45
+msgid ":ref:`django_overview_index`"
+msgstr ""
+
