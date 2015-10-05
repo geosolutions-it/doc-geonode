@@ -68,6 +68,14 @@ Place the following content inside the file:
             IndexOptions FancyIndexing
         </Directory>
 
+        <Directory "/home/geonode/geonode/geonode/uploaded/layers/">
+            Order allow,deny
+            Options Indexes FollowSymLinks
+            Allow from all
+            Require all granted
+            IndexOptions FancyIndexing
+        </Directory>
+
         <Proxy *>
             Order allow,deny
             Allow from all
@@ -98,12 +106,19 @@ Dowload GeoNode data to be served by Apache. You will be prompted for confirmati
 ::
     python manage.py collectstatic
 
+Add `thumbs` and `layers` folders
+::
+    sudo mkdir -p /home/geonode/geonode/geonode/uploaded/thumbs
+    sudo mkdir -p /home/geonode/geonode/geonode/uploaded/layers
+
 Change permissions on GeoNode files and folders to allow Apache to read and edit
 them:
 ::
     sudo chown -R geonode /home/geonode/geonode/
-    sudo chown www-data:www-data /home/geonode/geonode/geonode/static/
-    sudo chown www-data:www-data /home/geonode/geonode/geonode/uploaded/
+    sudo chown geonode:www-data /home/geonode/geonode/geonode/static/
+    sudo chown geonode:www-data /home/geonode/geonode/geonode/uploaded/
+    chmod -Rf 777 /home/geonode/geonode/geonode/uploaded/thumbs
+    chmod -Rf 777 /home/geonode/geonode/geonode/uploaded/layers
     sudo chown www-data:www-data /home/geonode/geonode/geonode/static_root/
 
 Finally restart Apache to load the new configuration

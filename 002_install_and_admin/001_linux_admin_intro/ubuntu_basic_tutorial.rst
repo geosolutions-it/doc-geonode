@@ -1,8 +1,8 @@
 .. _user_access_and_base_packages:
 
-=============================
-User Access and Base Packages
-=============================
+=====================
+Ubuntu Basic Tutorial
+=====================
 
 `Ubuntu <https://en.wikipedia.org/wiki/Ubuntu_(operating_system)>`_ is one of the most
 widespread `Linux <https://en.wikipedia.org/wiki/Linux>`_ `Distributions <https://en.wikipedia.org/wiki/Linux_distribution>`_
