@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-05 13:03+0200\n"
+"POT-Creation-Date: 2015-10-05 15:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgid "Usage of the GeoNode's Django Administration Panel"
 msgstr ""
 
 #: ..\..\004_admin_workshop\001_admin_panel\index.rst:7
-#: ..\..\004_admin_workshop\index.rst:35
+#: ..\..\004_admin_workshop\index.rst:39
 msgid "GeoNode has an administration panel based on the Django admin which can be used to do some database operations. Although most of the operations can and should be done through the normal GeoNode interface, the admin panel provides a quick overview and management tool over the database."
 msgstr ""
 
@@ -229,6 +229,151 @@ msgstr ""
 msgid "The creation and management of a Group is done in a very similar way that the user one."
 msgstr ""
 
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:5
+msgid "Management Commands for GeoNode"
+msgstr ""
+
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:7
+msgid "GeoNode comes with administrative commands to help with day to day tasks."
+msgstr ""
+
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:9
+msgid "Below is the list of the ones that come from the GeoNode application, the full list can be obtained by doing::"
+msgstr ""
+
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:15
+msgid "importlayers"
+msgstr ""
+
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:17
+msgid "Imports a file or folder with geospatial files to GeoNode."
+msgstr ""
+
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:19
+msgid "It supports data in Shapefile and GeoTiff format. It also picks up the styles if a ``.sld`` file is present."
+msgstr ""
+
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:21
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:78
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:128
+msgid "Usage::"
+msgstr ""
+
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:25
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:82
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:132
+msgid "Additional options::"
+msgstr ""
+
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:72
+msgid "updatelayers"
+msgstr ""
+
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:74
+msgid "Update the GeoNode application with data from GeoServer."
+msgstr ""
+
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:76
+msgid "This is useful to add data in formats that are not supported in GeoNode by default, and for example to link it it to ArcSDE datastores.  The updatelayers command provides several options that can be used to control how layer information is read from GeoServer and updated in GeoNode.  Refer to 'Additional Options'."
+msgstr ""
+
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:122
+msgid "fixsitename"
+msgstr ""
+
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:124
+msgid "Uses SITENAME and SITEURL to set the values of the default site object."
+msgstr ""
+
+#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:126
+msgid "This information is used in the page titles and when sending emails from GeoNode, for example, new registrations."
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:5
+msgid "Configuring Alternate CSW Backends"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:7
+#: ..\..\004_admin_workshop\index.rst:45
+msgid "`pycsw <http://pycsw.org/>`_ is the default CSW server implementation provided with GeoNode. This section will explain how to configure GeoNode to operate against alternate CSW server implementations."
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:10
+msgid "Supported CSW server implementations"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:12
+msgid "GeoNode additionally supports the following CSW server implementations:"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:14
+msgid "`GeoNetwork opensource <http://geonetwork-opensource.org/>`_"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:15
+msgid "`deegree <http://deegree.org/>`_"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:17
+msgid "Since GeoNode communicates with alternate CSW configurations via HTTP, the CSW server can be installed and deployed independent of GeoNode if desired."
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:20
+msgid "Installing the CSW"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:23
+msgid "GeoNetwork opensource Installation"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:25
+msgid "Deploy GeoNetwork opensource by downloading geonetwork.war (see http://geonetwork-opensource.org/downloads.html) and deploying into your servlet container"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:26
+msgid "Follow the instructions at http://geonetwork-opensource.org/manuals/2.6.4/eng/users/quickstartguide/installing/index.html to complete the installation"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:27
+msgid "test the server with a GetCapabilities request (http://localhost:8080/geonetwork/srv/en/csw?service=CSW&version=2.0.2&request=GetCapabilities)"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:29
+msgid "See http://geonetwork-opensource.org/docs.html for further documentation."
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:32
+msgid "deegree Installation"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:34
+msgid "Deploy deegree by downloading the deegree3 cswDemo .war (see http://wiki.deegree.org/deegreeWiki/DownloadPage) and deploying into your servlet container"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:35
+msgid "Create a PostGIS-enabled PostgreSQL database"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:36
+msgid "Follow the instructions at http://wiki.deegree.org/deegreeWiki/deegree3/CatalogueService#Run_your_own_installation to complete the installation"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:37
+msgid "test the server with a GetCapabilities request (http://localhost:8080/deegree-csw-demo-3.0.4/services?service=CSW&version=2.0.2&request=GetCapabilities)"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:39
+msgid "See http://wiki.deegree.org/deegreeWiki/deegree3/CatalogueService for further documentation."
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:42
+msgid "Customizing GeoNode CSW configuration"
+msgstr ""
+
+#: ..\..\004_admin_workshop\003_csw_settings\index.rst:44
+msgid "At this point, the CSW alternate backend is ready for GeoNode integration.  GeoNode's CSW configuration (in ``geonode/settings.py``) must be updated to point to the correct CSW.  The example below exemplifies GeoNetwork as an alternate CSW backend:"
+msgstr ""
+
 #: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:5
 msgid "Customize the look and feel"
 msgstr ""
@@ -240,7 +385,7 @@ msgid "These instructions are only valid if you've installed GeoNode following t
 msgstr ""
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:9
-#: ..\..\004_admin_workshop\index.rst:39
+#: ..\..\004_admin_workshop\index.rst:48
 msgid "You might want to change the look of GeoNode, editing the colors and the logo of the website and adjust the templates for your needs. To do so, you first have to set up your own geonode project from a template. If you've successfully done this, you can go further and start theming your geonode project."
 msgstr ""
 
@@ -715,6 +860,195 @@ msgstr ""
 msgid "Your GeoNode project site is now using the Sandstone theme in addition to the changes you have made."
 msgstr ""
 
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:5
+msgid "Debugging GeoNode Installations"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:7
+msgid "There are several mechanisms to debug GeoNode installations, the most common ones are discussed in the following sections."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:10
+msgid "Viewing the logs"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:12
+msgid "There are many kinds of logs in GeoNode, most of them are located in :file:`/var/log/geonode/` and will be explained below in order of relevance:"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:14
+msgid "**GeoNode main log**: This is the output of the Django application generated by Apache, it may contain detailed information about uploads and high level problems."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:16
+msgid "The default location is :file:`/var/log/geonode/apache.log` or :file:`/var/log/apache2/error.log`."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:18
+msgid "It is set to a very low level (not very much information is logged) by default, but it's output can be increased by setting the logging level to ``DEBUG`` in :file:`/etc/geonode/local_settings.py`."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:20
+msgid "**GeoServer log**: It contains most of the information related to problems with data, rendering and styling errors."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:22
+msgid "This one can be accessed at ``GEOSERVER_DATA_DIR/logs/geoserver.log``, which is usually :file:`/var/lib/tomcat7/webapps/geoserver/data/logs/geoserver.log` or :file:`/var/lib/geoserver/geonode-data/logs/geoserver.log`."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:24
+msgid "It may also be symlinked in :file:`/var/log/geonode/geoserver.log`."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:26
+msgid "**Tomcat logs**: Tomcat logs could indicate problems loading GeoServer."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:28
+msgid "They can be found at :file:`/var/lib/tomcat7/logs/catalina.out` or :file:`/var/lib/tomcat/geoserver/logs/catalina.out`."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:30
+msgid "**PostgreSQL logs**: PostgreSQL is accessed by GeoServer and Django, therefore information about errors which are very hard to debug may be found by looking at PostgreSQL's logs."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:32
+msgid "They are located at :file:`/var/log/postgresql/postgresql-$(psql_version)-main.log` where **$(psql_version)** depends on your local installation."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:36
+msgid "Enabling DEBUG mode"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:38
+msgid "Django can be set to return nicely formatted exceptions which are useful for debugging instead of generic ``500 errors``."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:40
+msgid "This is enabled by setting ``DEBUG=True`` in :file:`/etc/geonode/local_settings.py`."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:42
+msgid "After enabling DEBUG, the Apache server has to be restarted for the changes to be picked up. In Ubuntu::"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:48
+msgid "Other tips and tricks"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:51
+msgid "Modifying GeoServer's output strategy"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:53
+msgid "Up to version 1.1, GeoNode used by default the ``SPEED`` output strategy of GeoServer, this meant that proper error messages were being sacrificed for performance. Unfortunately, this caused many errors to be masked as XML parsing errors when layers were not properly configured."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:56
+msgid "It is recommended to verify the output strategy is set at least to ``PARTIAL_BUFFER2`` **(or a safer one, e.g. ``FILE``)** with a high value for the buffer size. More information about the different strategies and the performance vs correctness trade off is available at GeoServer's web.xml file."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:59
+msgid "The typical location of the file that needs to be modified is ``/var/lib/tomcat7/webapps/geoserver/WEB-INF/web.xml`` as shown below::"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:67
+msgid "Add the Django debug toolbar"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:69
+msgid "The Debug Toolbar module **must** be disabled whe running the server in production (with Apache2 HTTPD Server WSGI)"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:71
+msgid "The django debug toolbar offers a lot of information on about how the page you are seeing is created and used. From the database hits to the views involved. It is a configurable set of panels that display various debug information about the current request/response and when clicked, display more details about the panel's content."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:77
+msgid "To install it::"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:81
+msgid "Then edit your settings (:file:`/home/geonode/geonode/geonode/settings.py`) and add the following to the bottom of the file::"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:113
+msgid "Stop Apache and start the server in **Development Mode**::"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:118
+msgid "Redirect the browser to **http://localhost:8000**. You should be able to see the Debug Panel on the right of the screen."
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:122
+msgid "*DJango Debug Toolbar Enabled In Devel Mode*"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:127
+msgid "More:"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:126
+msgid "For more set up and customize the panels read the official docs here"
+msgstr ""
+
+#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:128
+msgid "http://django-debug-toolbar.readthedocs.org/en/latest/"
+msgstr ""
+
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:5
+msgid "Changing the Default Language"
+msgstr ""
+
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:7
+#: ..\..\004_admin_workshop\index.rst:54
+msgid "GeoNode's default language is English, but GeoNode users can change the interface language with the pulldown menu at the top-right of most GeoNode pages.  Once a user selects a language GeoNode remembers that language for subsequent pages."
+msgstr ""
+
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:10
+msgid "GeoNode Configuration"
+msgstr ""
+
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:12
+msgid "As root edit the geonode config file :file:`/etc/geonode/local_settings.py` and change ``LANGUAGE_CODE`` to the desired default language.  Note a list of language codes can be found in the global django config file :file:`/var/lib/geonode/lib/python2.6/site-packages/django/conf/global_settings.py`.  For example, to make French the default language use::"
+msgstr ""
+
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:16
+msgid "Unfortunately  Django overrides this setting, giving the language setting of a user's browser priority.  For example, if ``LANGUAGE_CODE`` is set to French, but the user has configured their operating system for Spanish they may see the Spanish version when they first visit GeoNode."
+msgstr ""
+
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:20
+msgid "Additional Steps"
+msgstr ""
+
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:22
+msgid "If this is not the desired behaviour, and all users should initially see the default ``LANGUAGE_CODE``, regardless of their browser's settings, do the following steps to ensure Django ignores the browser language settings.  (Users can always use the pulldown language menu to change the language at any time.)"
+msgstr ""
+
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:24
+msgid "As create a new directory within GeoNode's site packages::"
+msgstr ""
+
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:28
+msgid "As root create and edit a new file :file:`/var/lib/geonode/lib/python2.6/site-packages/setmydefaultlanguage/__init__.py` and add the following lines::"
+msgstr ""
+
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:44
+msgid "At the end of the GeoNode configuration file :file:`/etc/geonode/local_settings.py` add the following lines to ensure the above class is executed::"
+msgstr ""
+
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:58
+msgid "Restart"
+msgstr ""
+
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:60
+msgid "Finally restart Apache with::"
+msgstr ""
+
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:65
+msgid "Please refer to Translating GeoNode for information on editing GeoNode pages in different languages and create new GeoNode Translations."
+msgstr ""
+
 #: ..\..\004_admin_workshop\index.rst:5
 msgid "Administrators Workshop"
 msgstr ""
@@ -771,11 +1105,35 @@ msgstr ""
 msgid "Good knowledge of HTML and CSS."
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:36
+#: ..\..\004_admin_workshop\index.rst:39
 msgid ":ref:`admin_panel`"
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:38
+#: ..\..\004_admin_workshop\index.rst:42
+msgid ":ref:`admin_mgmt_commands`"
+msgstr ""
+
+#: ..\..\004_admin_workshop\index.rst:42
+msgid "GeoNode comes with administrative commands to help with day to day tasks. This section shows the list of the ones that come from the GeoNode application."
+msgstr ""
+
+#: ..\..\004_admin_workshop\index.rst:45
+msgid ":ref:`admin_csw_settings`"
+msgstr ""
+
+#: ..\..\004_admin_workshop\index.rst:48
 msgid ":ref:`customize_admin`"
+msgstr ""
+
+#: ..\..\004_admin_workshop\index.rst:51
+msgid ":ref:`debug_geonode`"
+msgstr ""
+
+#: ..\..\004_admin_workshop\index.rst:51
+msgid "There are several mechanisms to debug GeoNode installations, the most common ones are discussed in this section."
+msgstr ""
+
+#: ..\..\004_admin_workshop\index.rst:54
+msgid ":ref:`default_language`"
 msgstr ""
 

@@ -33,6 +33,7 @@ You will know how to:
     003_csw_settings/index
     004_customize_lookfeel/index
     005_debug_geonode/index
+    006_default_lang/index
     
 :ref:`admin_panel`
     GeoNode has an administration panel based on the Django admin which can be used to do some database operations. Although most of the operations can and should be done through the normal GeoNode interface, the admin panel provides a quick overview and management tool over the database.
@@ -48,4 +49,7 @@ You will know how to:
 
 :ref:`debug_geonode`
     There are several mechanisms to debug GeoNode installations, the most common ones are discussed in this section.
+
+:ref:`default_language`
+    GeoNode's default language is English, but GeoNode users can change the interface language with the pulldown menu at the top-right of most GeoNode pages.  Once a user selects a language GeoNode remembers that language for subsequent pages.
 
