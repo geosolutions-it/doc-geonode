@@ -31,19 +31,23 @@ Let's walk through an example of the steps necessary to change the default logo.
 
    .. code-block:: css
 
-      .nav-logo {
+      .navbar-brand {
           width: 373px;
           height: 79px;
-          background: url(../img/UWI-logo.JPG) no-repeat;
+          background: transparent url("../img/UWI-logo.JPG") no-repeat scroll 15px 0px;
       }
 
 #. Restart your GeoNode project and look at the page in your browser:
 
    .. code-block:: console
 
-      $ python manage.py runserver
+      $ rm -Rf /home/geonode/geonode/geonode/static_root/*
+      $ python manage.py collectstatic
+      $ service apache2 restart
 
-Visit your site at http://localhost:8000/ or the remote URL for your site.
+.. note:: It is a good practice to cleanup the **static_folder** and the Browser Cache before reloading in order to be sure that the changes have been correctly taken and displayed on the screen.
+
+Visit your site at http://localhost/ or the remote URL for your site.
 
 .. figure:: img/logo_override.png
 
@@ -64,7 +68,7 @@ First, we'll walk through the steps necessary to displace it downward so it is n
 
    .. code-block:: css
 
-      .content-wrap {
+      #wrap {
           margin: 75px 75px;
       }
 
@@ -72,7 +76,7 @@ First, we'll walk through the steps necessary to displace it downward so it is n
 
    .. code-block:: css
 
-      .navbar .navbar-inner {
+      .navbar-inverse {
           background: #0e60c3;
       }
 
@@ -80,17 +84,17 @@ First, we'll walk through the steps necessary to displace it downward so it is n
 
    .. code-block:: css
 
-      .nav-logo {
+      .navbar-brand {
           width: 373px;
           height: 79px;
           background: url(../img/UWI-logo.JPG) no-repeat;
       }
 
-      .content-wrap {
+      #wrap {
           margin: 75px 75px;
       }
 
-      .navbar .navbar-inner {
+      .navbar-inverse {
           background: #0e60c3;
       }
 
@@ -98,7 +102,7 @@ First, we'll walk through the steps necessary to displace it downward so it is n
 
    .. code-block:: console
 
-      $ python manage.py runserver
+      $ python manage.py collectstatic
 
    .. figure:: img/css_overrides.png
 
@@ -127,7 +131,7 @@ Open :file:`<my_geonode>/templates/site_base.html` in your editor:
        <link href="{{ STATIC_URL }}css/site_base.css" rel="stylesheet"/>
    {% endblock %}
 
-You will see that it extends from :file:`base.html`, which is the GeoNode template referenced above and it currently only overrides the ``extra_head`` block to include our project's :file:`site_base.css` which we modified in the previous section. You can see on `line 14 of the GeoNode base.html template <https://github.com/GeoNode/geonode/blob/master/geonode/templates/base.html#L14>`_ that this block is included in an empty state and is set up specifically for you to include extra CSS files as your project is already set up to do.  
+You will see that it extends from :file:`base.html`, which is the GeoNode template referenced above and it currently only overrides the ``extra_head`` block to include our project's :file:`site_base.css` which we modified in the previous section. You can see on `line 22 of the GeoNode base.html template <https://github.com/GeoNode/geonode/blob/master/geonode/templates/base.html#L22>`_ that this block is included in an empty state and is set up specifically for you to include extra CSS files as your project is already set up to do.  
 
 Now that we have looked at :file:`site_base.html`, let's actually override a different template.
 
@@ -137,7 +141,7 @@ The file :file:`site_index.html` is the template used to define your GeoNode pro
 
 #. Open :file:`<my_geonode>/templates/site_index.html` in your editor.
 
-#. Edit the ``<h1>`` element on line 13 to say something other than "Welcome":
+#. Edit the ``<h1>`` element on line 9 to say something other than "Welcome":
 
    .. code-block:: html
 
@@ -174,50 +178,38 @@ The file :file:`site_index.html` is the template used to define your GeoNode pro
 
    .. code-block:: html
 
-      {% extends 'index.html' %}
-      {% load i18n %}
-      {% load maps_tags %}
-      {% load layers_tags %}
-      {% load pagination_tags %}
-      {% load staticfiles %}
-      {% load url from future %}
-      {% comment %}
-      This is where you can override the hero area block. You can simply modify the content below or replace it wholesale to meet your own needs. 
-      {% endcomment %}
+    {% extends 'index.html' %}
+    {% load i18n %}
+    {% comment %}
+    This is where you can override the hero area block. You can simply modify the content below or replace it wholesale to meet your own needs. 
+    {% endcomment %}
       {% block hero %}
-          <div class="hero-unit">
-              <h1>{% trans "UWI GeoNode" %}</h1>
-              <div class="hero-unit-content">
-              <div class="intro">
-                  <img src = 'http://uwigsmona.weebly.com/uploads/1/3/2/4/13241997/1345164334.png'>
-              <p>
-                  {% blocktrans %}
-                  UWI's GeoNode is setup for students and faculty to collaboratively
-                  create and share maps for their class projects. It is maintained by the
-                  UWI Geographical Society.
-                  {% endblocktrans %}
-              </p>
-              <span>
-                  For more information about the UWI Geographical society,
-                  <a href="http://uwigsmona.weebly.com/">visit our website</a>
-              </span>
-          </div>
-          <div class="btns">
-              <a class="btn btn-large" href="{% url "layer_browse" %}">
-              {% trans "Explore Layers" %}
-              </a>
-              <a class="btn btn-large" href="{% url "maps_browse" %}">
-              {% trans "Explore Maps" %}
-              </a>
-          </div>
+      <div class="jumbotron">
+        <div class="container">
+            <h1>{% trans "UWI GeoNode" %}</h1>
+            <div class="hero-unit-content">
+            <div class="intro">
+                <img src = 'http://uwigsmona.weebly.com/uploads/1/3/2/4/13241997/1345164334.png'>
+            <p>
+                {% blocktrans %}
+                UWI's GeoNode is setup for students and faculty to collaboratively
+                create and share maps for their class projects. It is maintained by the
+                UWI Geographical Society.
+                {% endblocktrans %}
+            </p>
+            <span>
+                For more information about the UWI Geographical society,
+                <a href="http://uwigsmona.weebly.com/">visit our website</a>
+            </span>    
+        </div>
       </div>
       {% endblock %}
 
-#. Restart your GeoNode project and view the changes in your browser at http://localhost:8000/ or the remote URL for your site:
+#. Refresh your GeoNode project and view the changes in your browser at http://localhost/ or the remote URL for your site:
 
    .. code-block:: html
 
-      $ python manage.py runserver
+      $ python manage.py collectstatic
 
    .. figure:: img/homepage.png
 
@@ -234,7 +226,7 @@ Bootswatch
 
 `Bootswatch <http://bootswatch.com>`_ is a site where you can download ready-to-use themes for your GeoNode project site. The following steps will show you how to use a theme from Bootswatch in your own GeoNode site.
 
-#. Visit http://bootswatch.com and select a theme (we will use Amelia for this example). Select the :guilabel:`download bootstrap.css option` in the menu:
+#. Visit http://bootswatch.com and select a theme (we will use Sandstone for this example). Select the :guilabel:`download bootstrap.css option` in the menu:
 
    .. figure:: img/bootswatch.png
 
@@ -250,11 +242,15 @@ Bootswatch
           <link href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet"/>
       {% endblock %}
 
-#. Restart the development server and visit your site:
+#. Refresh the development server and visit your site:
+
+   .. code-block:: html
+
+      $ python manage.py collectstatic
 
    .. figure:: img/bootswatch_geonode.png
 
-Your GeoNode project site is now using the Amelia theme in addition to the changes you have made.
+Your GeoNode project site is now using the Sandstone theme in addition to the changes you have made.
 
 .. todo:: Squeeze up the header and update this doc!
 

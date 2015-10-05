@@ -29,6 +29,7 @@ You will know how to:
     :hidden:
     
     001_admin_panel/index
+    004_customize_lookfeel/index
     
 :ref:`admin_panel`
     GeoNode has an administration panel based on the Django admin which can be used to do some database operations.
