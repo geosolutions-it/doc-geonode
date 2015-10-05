@@ -1,4 +1,4 @@
-.. _geonode_tomcat_install:
+.. _install_base_tomcat:
 
 ###################
 Tomcat Installation

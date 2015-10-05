@@ -6,7 +6,7 @@ Users Workshop
 Welcome to the GeoNode Training `Users Workshop` documentation v\ |release|.
 
 This workshop will teach how to use the `GeoNode <http://geonode.org/>`_ going in depth into what we can do with software application.
-At the end of this section you will master all the GeoNode sections and entities from a user perspective. 
+At the end of this section you will master all the GeoNode sections and entities from a user perspective.
 
 You will know how to:
 
@@ -28,7 +28,7 @@ You will know how to:
 
 .. toctree::
     :hidden:
-    
+
     001_accounts_and_users/index
     002_document_types/index
     003_searching/index
@@ -47,7 +47,7 @@ You will know how to:
 
 :ref:`searching_docs`
     GeoNode advanced Search tool.
-    
+
 :ref:`layers`
     Create, delete, manage and share Layers on GeoNode.
 
@@ -59,12 +59,11 @@ You will know how to:
 
 :ref:`integration`
     Your GeoNode project is based on core components which are interoperable and as such, it is straightforward for you to integrate with external applications and services. This section will walk you through how to connect to your GeoNode instance from other applications and how to integrate other services into your GeoNode project. When complete, you should have a good idea about the possibilities for integration, and have basic knowledge about how to accomplish it. You may find it necessary to dive deeper into how to do more complex integration in order to accomplish your goals, but you should feel comfortable with the basics, and feel confident reaching out to the wider GeoNode community for help.
-    
+
 :ref:`manage`
     This tutorial will guide you through the steps that can be done in order to restrict the access on your data uploaded to geonode.
 
     First of all it will be shown how a user can be created and what permissions he can have. Secondly we will take a closer look on to layers, maps and documents and the different opportunities you have in order to ban certain users from viewing or editing your data.
-    
+
 :ref:`data`
     This module will walk you through the various options available to load data into your GeoNode from GeoServer, on the command-line or programatically. You can choose from among these techniques depending on what kind of data you have and how you have your geonode setup.
-    

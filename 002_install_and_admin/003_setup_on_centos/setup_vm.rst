@@ -1,16 +1,16 @@
-.. _geonode_setup_vm:
+.. _setup_vm:
 
-################
+================
 VM configuration
-################
+================
 
 
-=======================
+
 VM Configuration params
 =======================
 
 
-------------------------------
+
 Suggested system configuration
 ------------------------------
 
@@ -32,24 +32,24 @@ Provided VM is configured this way:
 - Disk space: 30GB
 
 This configuration is not enough for a minimal production environment,
-adding more CPUs or cores is required.  
+adding more CPUs or cores is required.
 
 
 VM setup
 --------
 
-When creating a VM, you may not want to give VMWare all the information about the system. 
+When creating a VM, you may not want to give VMWare all the information about the system.
 The reason behind this is because VMWare is smart enough to automatically handle some SO installation stages; this stages
 will be skipped on the UI, and this will make the deployment procedure different than one performed on a real machine.
-   
+
 
 Setting up VMWare
-'''''''''''''''''
+-----------------
 
 Sample settings for creating a new VM:
 
 - VM configuration: Custom
-- HW compatibility: workstation 8 
+- HW compatibility: workstation 8
 - Install OS from: I will install the the operationg system later
 - Guest OS: Linux Centos 64-bit
 - VM name: *setup the name*
@@ -67,14 +67,14 @@ This is a sample configuration:
 - Mode: Independent, persistent
 - Max disk size: 30G, store virtual disk as a single file.
 
-Then configure the DVD reader setting the ISO image of the OSinstaller, and start the VM. 
+Then configure the DVD reader setting the ISO image of the OSinstaller, and start the VM.
 
 
 System Info recap
 =================
 
-Here a list of the information you are going to set up in your systems. 
-You will need them when configuring the various applications.  
+Here a list of the information you are going to set up in your systems.
+You will need them when configuring the various applications.
 
 
 Host info
@@ -92,7 +92,7 @@ System users
 +==========+==========+=============================================+
 | root     |          | Set during OS installation                  |
 +----------+----------+---------------------------------------------+
-| tomcat   |          | Set up in section :ref:`create_user_tomcat` |
+| tomcat   |          |                                             |
 +----------+----------+---------------------------------------------+
 | geonode  |          |                                             |
 +----------+----------+---------------------------------------------+
@@ -101,7 +101,7 @@ System users
 |          |          |                                             |
 +----------+----------+---------------------------------------------+
 
-   
+
 PostgreSQL users
 ----------------
 
@@ -114,9 +114,9 @@ PostgreSQL users
 +----------+--------------------------+--------------------------+
 |          |                          |                          |
 +----------+--------------------------+--------------------------+
-   
-.. _geonode_application_ports:   
-   
+
+.. _geonode_application_ports:
+
 Installed applications
 ----------------------
 
@@ -130,4 +130,3 @@ Installed applications
 +-----------+---------+------+------+------------+------+
 |           |         |      |      |            |      |
 +-----------+---------+------+------+------------+------+
-

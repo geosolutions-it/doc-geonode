@@ -1,4 +1,4 @@
-.. _geonode_setup_centos:
+.. _setup_centos:
 
 ###############################
 Installing the Operating System
