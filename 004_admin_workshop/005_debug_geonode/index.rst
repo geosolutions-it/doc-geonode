@@ -37,7 +37,7 @@ Enabling DEBUG mode
 
 Django can be set to return nicely formatted exceptions which are useful for debugging instead of generic ``500 errors``.
 
-This is enabled by setting ``DEBUG=True`` in :file:`/etc/geonode/local_settings.py`.
+This is enabled by setting ``DEBUG=True`` in :file:`/home/geonode/geonode/geonode/local_settings.py` (or :file:`/etc/geonode/local_settings.py` if GeoNode has been installed using **apt-get**).
 
 After enabling DEBUG, the Apache server has to be restarted for the changes to be picked up. In Ubuntu::
 
@@ -78,7 +78,7 @@ To install it::
 
   $ pip install django-debug-toolbar
 
-1. Then edit your settings (:file:`/home/geonode/geonode/geonode/settings.py`) and add the following to the bottom of the file::
+1. Then edit your settings :file:`/home/geonode/geonode/geonode/settings.py` (or :file:`/etc/geonode/settings.py` if GeoNode has been installed using **apt-get**) and add the following to the bottom of the file::
 
       #debug_toolbar settings
       if DEBUG:
