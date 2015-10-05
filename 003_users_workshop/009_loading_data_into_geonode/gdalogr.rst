@@ -141,11 +141,11 @@ Now that we have seen how to convert vector layers into shapefiles using ogr2ogr
 
 First, you need to download the sample data to work with it. You can do this by executing the following command::
 
-    $ wget http://dev.opengeo.org/~jjohnson/sample_asc.tgz
+    $ wget http://84.33.2.26/geonode/sample_asc.tar
 
 You will need to uncompress this file by executing this command::
 
-    $ tar -xvzf sample_asc.tgz
+    $ tar -xvf sample_asc.tar
 
 You will be left with the following files on your filesystem::
 
