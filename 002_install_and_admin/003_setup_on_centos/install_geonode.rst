@@ -61,10 +61,10 @@ Then edit the configuration file
 ::
     vim local_settings.py
 
-Add the `ALLOWED_HOST` and `PROXY_ALLOWED_HOSTS` variables at the top with the
+Add the `ALLOWED_HOSTS` and `PROXY_ALLOWED_HOSTS` variables at the top with the
 following values:
 ::
-    ALLOWED_HOST = ['127.0.0.1', 'localhost', '::1']
+    ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '::1']
     PROXY_ALLOWED_HOSTS = ("127.0.0.1", 'localhost', '::1']
 
 Add the `POSTGIS_VERSION` variable matching your PostGIS version:
@@ -113,7 +113,7 @@ The resulting configuration file should look like this:
 
     SITEURL = "http://localhost/"
 
-    ALLOWED_HOST = ['127.0.0.1', 'localhost', '::1']
+    ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '::1']
     PROXY_ALLOWED_HOSTS = ("127.0.0.1", 'localhost', '::1')
     POSTGIS_VERSION = (2, 1, 8)
 

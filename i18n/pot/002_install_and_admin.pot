@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-05 15:45+0200\n"
+"POT-Creation-Date: 2015-10-05 16:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -290,7 +290,7 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:31
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:64
-msgid "Add the `ALLOWED_HOST` and `PROXY_ALLOWED_HOSTS` variables at the top with the following values: ::"
+msgid "Add the `ALLOWED_HOSTS` and `PROXY_ALLOWED_HOSTS` variables at the top with the following values: ::"
 msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:37

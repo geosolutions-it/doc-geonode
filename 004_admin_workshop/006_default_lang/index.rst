@@ -9,7 +9,11 @@ GeoNode's default language is English, but GeoNode users can change the interfac
 GeoNode Configuration
 =====================
 
-As root edit the geonode config file :file:`/etc/geonode/local_settings.py` and change ``LANGUAGE_CODE`` to the desired default language.  Note a list of language codes can be found in the global django config file :file:`/var/lib/geonode/lib/python2.6/site-packages/django/conf/global_settings.py`.  For example, to make French the default language use::
+As root edit the geonode config file :file:`/home/geonode/geonode/geonode/settings.py` (or :file:`/etc/geonode/settings.py` if GeoNode has been installed using **apt-get**) and change ``LANGUAGE_CODE`` to the desired default language.
+
+.. note:: A list of language codes can be found in the global django config file :file:`/usr/local/lib/python2.7/dist-packages/django/conf/global_settings.py` (or :file:`/var/lib/geonode/lib/python2.7/site-packages/django/conf/global_settings.py` if GeoNode has been installed using **apt-get**).
+
+For example, to make French the default language use::
 
     LANGUAGE_CODE = 'fr'
 
@@ -21,11 +25,16 @@ Additional Steps
 
 If this is not the desired behaviour, and all users should initially see the default ``LANGUAGE_CODE``, regardless of their browser's settings, do the following steps to ensure Django ignores the browser language settings.  (Users can always use the pulldown language menu to change the language at any time.)
 
-As create a new directory within GeoNode's site packages::
+As **root** create a new directory within GeoNode's site packages::
 
-    sudo mkdir /var/lib/geonode/lib/python2.6/site-packages/setmydefaultlanguage
+    mkdir /usr/lib/python2.7/dist-packages/setmydefaultlanguage
 
-As root create and edit a new file :file:`/var/lib/geonode/lib/python2.6/site-packages/setmydefaultlanguage/__init__.py` and add the following lines::
+or::
+    mkdir /var/lib/geonode/lib/python2.7/site-packages/setmydefaultlanguage
+
+if GeoNode has been installed using **apt-get**
+    
+As root create and edit a new file :file:`/usr/lib/python2.7/dist-packages/setmydefaultlanguage/__init__.py` and add the following lines::
 
     class ForceDefaultLanguageMiddleware(object):
         """
@@ -41,25 +50,18 @@ As root create and edit a new file :file:`/var/lib/geonode/lib/python2.6/site-pa
             if request.META.has_key('HTTP_ACCEPT_LANGUAGE'):
                 del request.META['HTTP_ACCEPT_LANGUAGE']
 
-At the end of the GeoNode configuration file :file:`/etc/geonode/local_settings.py` add the following lines to ensure the above class is executed::
+At the end of the GeoNode configuration file :file:`/home/geonode/geonode/geonode/settings.py` (or :file:`/etc/geonode/settings.py` if GeoNode has been installed using **apt-get**) add the following lines to ensure the above class is executed::
 
-    MIDDLEWARE_CLASSES = (
-        'django.middleware.common.CommonMiddleware',
-        'django.contrib.sessions.middleware.SessionMiddleware',
+    MIDDLEWARE_CLASSES += (
         'setmydefaultlanguage.ForceDefaultLanguageMiddleware',
-        'django.middleware.locale.LocaleMiddleware',
-        'django.middleware.csrf.CsrfViewMiddleware',
-        'django.contrib.auth.middleware.AuthenticationMiddleware',
     )
-
-
 
 Restart
 =======
 
-Finally restart Apache with::
+Finally restart Apache2 as root with::
 
-    sudo /etc/init.d/apache2 restart
+    service apache2 restart
 
 
 Please refer to Translating GeoNode for information on editing GeoNode pages in different languages and create new GeoNode Translations. 
