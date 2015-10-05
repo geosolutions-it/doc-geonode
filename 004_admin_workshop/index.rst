@@ -33,3 +33,6 @@ You will know how to:
 :ref:`admin_panel`
     GeoNode has an administration panel based on the Django admin which can be used to do some database operations.
     Although most of the operations can and should be done through the normal GeoNode interface, the admin panel provides a quick overview and management tool over the database.
+    
+:ref:`customize_admin`
+    You might want to change the look of GeoNode, editing the colors and the logo of the website and adjust the templates for your needs. To do so, you first have to set up your own geonode project from a template. If you've successfully done this, you can go further and start theming your geonode project.
