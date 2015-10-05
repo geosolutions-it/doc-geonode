@@ -19,17 +19,17 @@ There are many kinds of logs in GeoNode, most of them are located in :file:`/var
 
  * **GeoServer log**: It contains most of the information related to problems with data, rendering and styling errors.
 
-   This one can be accessed at ``GEOSERVER_DATA_DIR/logs/geoserver.log``, which is usually :file:`/var/lib/geoserver/geonode-data/logs/geoserver.log``.
+   This one can be accessed at ``GEOSERVER_DATA_DIR/logs/geoserver.log``, which is usually :file:`/var/lib/tomcat7/webapps/geoserver/data/logs/geoserver.log` or :file:`/var/lib/geoserver/geonode-data/logs/geoserver.log`.
 
    It may also be symlinked in :file:`/var/log/geonode/geoserver.log`.
 
  * **Tomcat logs**: Tomcat logs could indicate problems loading GeoServer.
 
-   They can be found at :file:`/var/lib/tomcat6/logs/catalina.out`.
+   They can be found at :file:`/var/lib/tomcat7/logs/catalina.out` or :file:`/var/lib/tomcat/geoserver/logs/catalina.out`.
 
  * **PostgreSQL logs**: PostgreSQL is accessed by GeoServer and Django, therefore information about errors which are very hard to debug may be found by looking at PostgreSQL's logs.
 
-   They are located at :file:`/var/log/postgresql/postgresql-8.4-main.log`.
+   They are located at :file:`/var/log/postgresql/postgresql-$(psql_version)-main.log` where **$(psql_version)** depends on your local installation.
 
 
 Enabling DEBUG mode
@@ -41,7 +41,7 @@ This is enabled by setting ``DEBUG=True`` in :file:`/etc/geonode/local_settings.
 
 After enabling DEBUG, the Apache server has to be restarted for the changes to be picked up. In Ubuntu::
 
-    sudo service apache2 restart
+    service apache2 restart
 
 
 Other tips and tricks
@@ -50,19 +50,23 @@ Other tips and tricks
 Modifying GeoServer's output strategy
 -------------------------------------
 
-Up to version 1.1, GeoNode used by default the ``SPEED`` output strategy of GeoServer, this meant that proper error messages were being sacrificed for performance. Unfortunately, this caused many errors to be masked as XML parsing errors when layers were not properly configured.
+Up to version 1.1, GeoNode used by default the ``SPEED`` output strategy of GeoServer, this meant that proper error messages were being sacrificed for performance. 
+Unfortunately, this caused many errors to be masked as XML parsing errors when layers were not properly configured.
 
-It is recommended to verify the output strategy is set to ``PARTIAL_BUFFER2`` (or a safer one, e.g. ``FILE``) with a high value for the buffer size. More information about the different strategies and the performance vs correctness trade off is available at GeoServer's web.xml file.
+It is recommended to verify the output strategy is set at least to ``PARTIAL_BUFFER2`` **(or a safer one, e.g. ``FILE``)** with a high value for the buffer size. 
+More information about the different strategies and the performance vs correctness trade off is available at GeoServer's web.xml file.
 
-The typical location of the file that needs to be modified is ``/var/lib/tomcat6/webapps/geoserver/WEB-INF/web.xml`` as shown below::
+The typical location of the file that needs to be modified is ``/var/lib/tomcat7/webapps/geoserver/WEB-INF/web.xml`` as shown below::
 
   <context-param>
     <param-name>serviceStrategy</param-name>
-    <param-value>PARTIAL_BUFFER2</param-value>
+    <param-value>FILE</param-value>
   </context-param>
 
 Add the Django debug toolbar
 ----------------------------
+
+.. warning:: The Debug Toolbar module **must** be disabled whe running the server in production (with Apache2 HTTPD Server WSGI)
 
 The django debug toolbar offers a lot of information on about how the page you 
 are seeing is created and used. From the database hits to the views involved.
@@ -74,29 +78,51 @@ To install it::
 
   $ pip install django-debug-toolbar
 
-Then edit your settings and add the following to the MIDDLEWARE_CLASSES::
+1. Then edit your settings (:file:`/home/geonode/geonode/geonode/settings.py`) and add the following to the bottom of the file::
 
-  MIDDLEWARE_CLASSES = (
-      # ...
-      'debug_toolbar.middleware.DebugToolbarMiddleware',
-      # ...
-  )
+      #debug_toolbar settings
+      if DEBUG:
+          INTERNAL_IPS = ('127.0.0.1',)
+          MIDDLEWARE_CLASSES += (
+              'debug_toolbar.middleware.DebugToolbarMiddleware',
+          )
+      
+          INSTALLED_APPS += (
+              'debug_toolbar',
+          )
+      
+          DEBUG_TOOLBAR_PANELS = [
+              'debug_toolbar.panels.versions.VersionsPanel',
+              'debug_toolbar.panels.timer.TimerPanel',
+              'debug_toolbar.panels.settings.SettingsPanel',
+              'debug_toolbar.panels.headers.HeadersPanel',
+              'debug_toolbar.panels.request.RequestPanel',
+              'debug_toolbar.panels.sql.SQLPanel',
+              'debug_toolbar.panels.staticfiles.StaticFilesPanel',
+              'debug_toolbar.panels.templates.TemplatesPanel',
+              'debug_toolbar.panels.cache.CachePanel',
+              'debug_toolbar.panels.signals.SignalsPanel',
+              'debug_toolbar.panels.logging.LoggingPanel',
+              'debug_toolbar.panels.redirects.RedirectsPanel',
+          ]
+      
+          DEBUG_TOOLBAR_CONFIG = {
+              'INTERCEPT_REDIRECTS': False,
+          }
 
-Add the following to your INSTALLED_APPS::
+2. Stop Apache and start the server in **Development Mode**::
 
-  INSTALLED_APPS = (
-    # ...
-    'debug_toolbar',
-  )
+      $ service apache2 stop
+      $ python manage.py runserver
 
-Add also the following settings::
+3. Redirect the browser to **http://localhost:8000**. You should be able to see the Debug Panel on the right of the screen.
 
-  INTERNAL_IPS = ('127.0.0.1',)
+   .. figure:: img/django_debug_toolbar.png
 
-  DEBUG_TOOLBAR_CONFIG = {
-      'INTERCEPT_REDIRECTS': False,
-  }
+      *DJango Debug Toolbar Enabled In Devel Mode*
 
-For more set up and customize the panels read the official docs here:
 
-http://django-debug-toolbar.readthedocs.org/en/latest/
+More:
+    For more set up and customize the panels read the official docs here
+    
+    http://django-debug-toolbar.readthedocs.org/en/latest/
