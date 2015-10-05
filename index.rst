@@ -84,10 +84,19 @@ The Documentation is divided in six main sections:
         5. Good knowledge of HTML and CSS.
 
 :ref:`dev_workshop`
-    section where <<TODO>>.
+    This workshop will teach how to develop with and for the `GeoNode <http://geonode.org>`_ software application.
+    This module will introduce you to the components that GeoNode is built with, the standards that it supports and the services it provides based on those standards, and an overview its architecture.
+
+    *Prerequisites*
+        GeoNode is a web based GIS tool, and as such, in order to do development on GeoNode itself or to integrate it into your own application, you should be familiar with basic web development concepts as well as with general GIS concepts.
 
 :ref:`adv_workshop`
-    section where <<TODO>>.
+    This module introduces advanced tecquinques and metodologies for the management of the geospatial data and the maintenance and tuning of the servers on *Production Environments*.
+    
+    The last sections of the module will teach also you how to add brand new classes and functionalities to your GeoNode installation.
+    
+    *Prerequisites*
+        You should be familiar with GeoNode, GeoServer, Python framework and development concepts other than with system administrator and caching concepts and tecnquiques.
 
 Editing the documentation
 -------------------------
