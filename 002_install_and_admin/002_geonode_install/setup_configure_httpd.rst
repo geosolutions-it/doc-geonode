@@ -36,6 +36,9 @@ Place the following content inside the file:
         WSGIPassAuthorization On
         WSGIScriptAlias / /home/geonode/geonode/geonode/wsgi.py
 
+        Alias /static/ /home/geonode/geonode/geonode/static_root/
+        Alias /uploaded/ /home/geonode/geonode/geonode/uploaded/
+
         <Directory "/home/geonode/geonode/geonode/">
              <Files wsgi.py>
                  Order deny,allow
@@ -46,14 +49,6 @@ Place the following content inside the file:
             Order allow,deny
             Options Indexes FollowSymLinks
             Allow from all
-            IndexOptions FancyIndexing
-        </Directory>
-
-        <Directory "/home/geonode/geonode/geonode/static/">
-            Order allow,deny
-            Options Indexes FollowSymLinks
-            Allow from all
-            Require all granted
             IndexOptions FancyIndexing
         </Directory>
 
@@ -72,9 +67,6 @@ Place the following content inside the file:
             Require all granted
             IndexOptions FancyIndexing
         </Directory>
-
-        Alias /static/ /home/geonode/geonode/geonode/static/
-        Alias /uploaded/ /home/geonode/geonode/geonode/uploaded/
 
         <Proxy *>
             Order allow,deny

@@ -285,6 +285,8 @@ One of the primary reasons to set up your own GeoNode project using this method 
 
 .. warning:: These instructions are only valid if you've installed GeoNode following the guide at :ref:`setup_configure_httpd` !!
 
+Upgrading from source code repo:
+
     Upgrade GeoNode::
 
     	$ cd /home/geonode/geonode

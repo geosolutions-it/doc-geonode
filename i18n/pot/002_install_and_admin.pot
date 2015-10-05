@@ -1,0 +1,1333 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013, GeoNode Development Team
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-05 15:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\index.rst:5
+msgid "Linux Admin Intro"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\index.rst:7
+#: ..\..\002_install_and_admin\001_linux_admin_intro\setup_prepare_dbms_backend.rst:7
+#: ..\..\002_install_and_admin\001_linux_admin_intro\setup_prepare_jvm_and_tomcat.rst:7
+#: ..\..\002_install_and_admin\001_linux_admin_intro\user_access_and_base_packages.rst:7
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:7
+#: ..\..\002_install_and_admin\002_geonode_install\index.rst:7
+#: ..\..\002_install_and_admin\index.rst:33
+#: ..\..\002_install_and_admin\index.rst:36
+msgid "TODO"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:5
+msgid "Running Ansible scripts"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\setup_prepare_dbms_backend.rst:5
+msgid "Setup & Prepare DBMS Backend"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\setup_prepare_jvm_and_tomcat.rst:5
+msgid "Setup & Prepare JVM And Tomcat"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:5
+msgid "System Preparation & Prerequisites"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:11
+msgid "VM configuration"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:14
+msgid "Reccomended VM parameters"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:16
+msgid "Listed below you will find the recommended parameters for the GeoNode Virtual Machine for both development and production environments."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:20
+msgid "Recommended minimal config"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:20
+msgid "Prod (recommended config)"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:23
+msgid "CPU"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:23
+msgid "4 CPU / core"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:23
+msgid "4-8 CPU / core"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:25
+msgid "RAM"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:25
+msgid "6 GB"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:25
+msgid "16 GB"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:27
+msgid "Hard disk"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:27
+msgid "30GB"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:27
+msgid "100GB - 1TB"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:30
+msgid "For testing purposes: - 1 CPU with 2 cores - RAM: 4GB - Disk space: 30GB"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:35
+msgid "This configuration is not enough for a minimal production environment, adding more CPUs or cores is required."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\user_access_and_base_packages.rst:5
+msgid "User Access and Base Packages"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:5
+msgid "Running a VM with Vagrant"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:5
+msgid "VM Setup with VirtualBox"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:7
+msgid "In this section you will find instructions on how to setup an Ubuntu 14.04 VM in `VirtualBox`_"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:13
+msgid "VirtualBox Setup"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:15
+msgid "Download Virtualbox from `official <https://www.virtualbox.org/wiki/Downloads>`_ web site. Choose the installer matching your operating system and architecture."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:18
+msgid "Installation process is straightforward, refer to VirtualBox `official documentation <https://www.virtualbox.org/manual/ch01.html#intro-installing>`_ if you encounter any problem."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:23
+msgid "Windows"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:25
+msgid "After you downloaded executable, double click on it to launch the installer."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:31
+msgid "Customize VirtualBox features an paths if you need to or leave default ones"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:37
+msgid "And start the installation process"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:47
+msgid "Click on \"Finish\""
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:53
+msgid "VirtualBox is now installed. And will automatically be launched"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:56
+msgid "Ubuntu"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:58
+msgid "After you downloaded the package,  double click on it. The \"Ubuntu Software Center\" will pop up, click on \"Install\" to start the installation process"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:65
+msgid "You will be prompted for administrator password."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:67
+msgid "At the end of the installation process, launch VirtualBox."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:74
+msgid "Virtual Machine Setup"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:76
+msgid "Now that VirtualBox is installed on the system it is time to setup our Ubuntu VM."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:78
+msgid "Click the light blue `New` button in VirtualBox user interface."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:80
+msgid "Choose a name for the Virtual Machine and select the appropriate VM type and version"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:86
+msgid "Then select the amount of memory you want to assign to the VM, `Ubuntu recommends <https://help.ubuntu.com/community/Installation/SystemRequirements>`_ at least 512 MB of memory but we are going to need more than that to run GeoNode refer to `System Preparation & Prerequisites` sections for details."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:95
+msgid "Create a new `virtual disk` for the VM. Againg, refer to `System Preparation & Prerequisites` section for details about disk size, for testing purposes 30 GB will be enought."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:98
+msgid "Now edit the Virtual Machine settigs"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:104
+msgid "Under \"Storage\" select the empty DVD drive, click on `Live CD/DVD` as shown below"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:110
+msgid "Click on the DVD icon next to the `Optical Drive` drop down menu and select the Ubuntu 14.04 `.iso` file from your file system"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:117
+msgid "Edit other VM setting if you need to, then click `OK`."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:119
+msgid "We are ready to start our Ubuntu VM for the first time. Select it from the main menu and click on `Start`"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:126
+msgid "Ubuntu will start the boot process"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:132
+msgid "At the end of the boot process you will be asked if you want to `Try Ubuntu` or `Install Ubuntu`. Select the language in the left panel and click on `Install Ubuntu`"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:139
+msgid "The installer will check your internet connection and available disk space. If you are connected to the internet check the `Download updates while installing` checkbox."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:146
+msgid "Click on `continue`. In the page you will configure the partitioning of the disks. If you recall we have created a new `virtual disk` during the VM configuration process for Ubuntu. We are going to assign the entire disk to it. Select `Erase disk and install Ubuntu`, then `Install Now`"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:155
+msgid "You will be prompted for confirmation."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:157
+msgid "Now select the correct time zone for your location, then select the language for the VM and enter the details for the administrator user."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:172
+msgid "The installation will continue automatically. At the end of the installation process a pop up window will ask you to restart the system to start using Ubuntu. Click on `Restart Now`"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:5
+msgid "Finish installation"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:7
+msgid "In previous sections you' ve setup all the applications we need to run GeoNode."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:9
+msgid "In this section we are going to `glue` all the pieces together and finalize GeoNode setup."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:13
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:46
+msgid "GeoNode Configuration"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:15
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:48
+msgid "Now that all applications have been configured we are going to instruct GeoNode on how to connect to `PostgreSQL` and `GeoServer`. Also we are going to instruct GeoNode on who is allowed to connect to it."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:19
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:52
+msgid "First navigate to geonode configuration folder ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:23
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:56
+msgid "Copy the `local_settings.py` sample file called `local_settings.py.sample` ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:27
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:60
+msgid "Then edit the configuration file ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:31
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:64
+msgid "Add the `ALLOWED_HOST` and `PROXY_ALLOWED_HOSTS` variables at the top with the following values: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:37
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:74
+msgid "This will instruct GeoNode to listen on connections from your local machine."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:39
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:76
+msgid "Change the value of the `SITEURL` ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:43
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:80
+msgid "Now configure database access: Uncomment the `ENGINE': 'django.contrib.gis.db.backends.postgis` line and comment the one with empty `ENGINE` variable. Also set the `NAME` variable to `geonode_data` ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:59
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:96
+msgid "Then configure GeoServer location: Change the value of the `LOCATION` and `PUBLIC_LOCATION` variables as follows: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:70
+msgid "The resulting configuration file should look like this:"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:150
+msgid "Initialize the Database"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:152
+msgid "We' we already setup GeoNode databases and user permissions for PostgreSQL. And instruct GeoNode on how to access the database. Now let's get the database ready running the following: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:158
+msgid "If you get an error message it is likely that database access is not set properly. Check you pg_hba.conf file and GeoNode `local_settings.py` file. Remember to restart PostgreSQL to make any changes to pg_hba.conf effective."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:162
+msgid "Test that you are able to connect to the database as follows: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:166
+msgid "and ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:171
+msgid "Create GeoNode Superuser"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:173
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:194
+msgid "Now create the admin user for GeoNode running the following: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:177
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:199
+msgid "You will be prompted for the username, email address and passoword for the user"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:180
+msgid "Test the installation"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:182
+msgid "We are ready to restart GeoNode (Apache) and test the installation. Restart Apache: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:187
+msgid "Open the browser and navigate to http://localhost/"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:189
+msgid "GeoNode User interface will show up. Login with admin username and password you just set."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:200
+msgid "Now open the main menu and click on `GeoServer`"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:206
+msgid "You will be redirected to GeoServer user interface. You will automatically be logged in as administrator in GeoServer."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:5
+msgid "Create GeoNode DB"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:7
+msgid "In this section we are going to setup users and databases for GeoNode in PostgreSQL."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:10
+msgid "Users and Permissions"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:12
+msgid "First create the `geonode` user. GeoNode is going to use this user to access the database::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:17
+msgid "You will be prompted asked to set a password for the user. Enter `geonode` as password"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:19
+msgid "Create `geonode` database with owner `geonode`::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:23
+msgid "And database `geonode_data` with owner `geonode`::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:27
+msgid "Switch to user `postgres` and create PostGIS extension::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:32
+msgid "Then adjust permissions::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:37
+msgid "And switch back to the 'geo' user::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:41
+msgid "Now we are going to change user access policy for local connections in file `pg_hba.conf`::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:45
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:49
+msgid "Scroll down to the bottom of the document. We only need to edit one line. Change ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:50
+msgid "Into: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:56
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:59
+msgid "If your PostgreSQL database resides on a separate machine, you have to allow remote access to the databases in the pg_hba.conf for the `geonode` user and tell PostgreSQL to accept non local connections in your `postgresql.conf` file"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:60
+msgid "Then restart `PostgreSQL` to make the change effective: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:64
+msgid "PostgreSQL is now ready. To test the configuration try to connect to the `geonode` database as `geonode`: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\index.rst:5
+msgid "GeoNode (v\\ |release|) installation on Ubuntu 14.04"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:5
+msgid "Install GeoNode Application"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:7
+msgid "This section describes the setup of a custom GeoNode installation."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:10
+msgid "Login"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:12
+msgid "When you first start the Virtual Machine at the end of the boot process you will be prompted for the user password to login. Enter `geo` as user password and press `Enter`."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:20
+msgid "You are now logged in as user 'geo'. On the left side of the screen there is a panel with shortcuts to common applications, launch a the terminal emulator."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:29
+msgid "Packages Installation"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:31
+msgid "First we are going to install all the software packages we are going to need for the GeoNode setup. Among others `Tomcat 7`, `PostgreSQL`, `PostGIS`, `Apache HTTP server` and `Git`. Run the following command to install all the packages::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:76
+msgid "You will be prompted for confirmation twice"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:82
+msgid "The installation process is going to take a few minutes."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:84
+msgid "At this point we have all the packages we need on the system."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:87
+msgid "GeoNode Setup"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:89
+msgid "Let's download GeoNode from the main GeoNode repository on GitHub:"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:92
+msgid "For the purpose of this training the GeoNode repository has been downloaded and placed in the `geo` user `home folder` (/home/geo/geonode). *Skip* the following command."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:100
+msgid "Now create the 'geonode' user and move the cloned folder in the user's home folder::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:105
+msgid "Move into the project folder and install GeoNode:: .. note::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:115
+msgid "We are almost done. The following command will download a GeoServer web archive that we are going to use in GeoServer setup:"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:119
+msgid "Again, for the purpose of this training the GeoServer web archive has been downloaded and placed in the `geo` user `home folder` (/home/geo/geoserver.war). *Skip* the following command."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:127
+msgid "In the next section we are going to setup PostgreSQL Databases for GeoNode"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:5
+msgid "Install GeoServer Application"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:7
+msgid "In this section we are going to setup GeoServer for GeoNode. GeoServer will run inside `Tomcat` sevrlet container."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:11
+msgid "Setup GeoServer"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:13
+msgid "You' ve already installed `Tomcat 7` in the system in the first section of the training. Before you deploy GeoServer stop the running Tomcat instance: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:18
+msgid "Now copy the downloaded GeoServer archive inside Tomcat's webapps folder:"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:21
+msgid "As said previously in the training VM the actual path of GeoServer web archive is /home/geo/geoserver.war. If you are following the training you sould run this command instead::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:27
+msgid "::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:27
+msgid "sudo cp /home/geonode/geonode/downloaded/geoserver.war /var/lib/tomcat7/webapps/"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:30
+msgid "Test GeoServer"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:32
+msgid "Now start Tomcat to deploy GeoServer ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:36
+msgid "Tomcat will extract GeoServer web archive and start GeoServer. This may take some time"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:38
+msgid "Open a web browser (in this example `Firefox`) and navigate to http://localhost/geoserver"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:44
+msgid "In a few seconds GeoServer web interface will show up:"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:51
+msgid "GeoNode authentication integration"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:53
+msgid "All we need to do now is to integrate GeoNode authentication so that GeoNode administrator will b able to access and administer GeoServer as well."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:56
+msgid "Stop GeoServer ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:60
+msgid "And navigate to `/var/lib/tomcat7/webapps/geoserver/WEB-INF/` ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:64
+msgid "Edit `web.xml` with a text editor ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:78
+msgid "If GeoServer is installed on machine that is separate from the one running GeoNode, change the `GEONODE_BASE_URL` value accordingly"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:81
+msgid "The resulting file should look like this:"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:106
+msgid "If GeoServer is installed on machine that is separate from the one running GeoNode there is one more step to follow. Edit config.xml file as follows: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:113
+msgid "Set the `baseUrl` to GeoNode IP or hostname ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:124
+msgid "Restart GeoServer to make the changes effective ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:5
+msgid "Setup & Configure HTTPD"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:7
+msgid "In this section we are going to setup Apache HTTP to serve GeoNode."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:10
+msgid "Apache Configuration"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:12
+msgid "Navigate to Apache configurations folder: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:16
+msgid "And create a new configuration file for GeoNode: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:20
+msgid "Place the following content inside the file: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:82
+msgid "This sets up a VirtualHost in Apache HTTP server for GeoNode and a reverse proxy for GeoServer."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:86
+msgid "In the case that GeoServer is running on a separate machine change the `ProxyPass` and `ProxyPassReverse` accordingly"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:89
+msgid "Now load apache `poxy` module ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:93
+msgid "And enable geonode configuration file ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:97
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:201
+msgid "Dowload GeoNode data to be served by Apache. You will be prompted for confirmation ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:101
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:209
+msgid "Change permissions on GeoNode files and folders to allow Apache to read and edit them: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:109
+msgid "Finally restart Apache to load the new configuration ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:113
+msgid "Open a web browser and navigate to http://localhost/ GeoNode user interface will show up"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\index.rst:5
+msgid "GeoNode (v\\ |release|) installation on CentOS 7"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\index.rst:7
+#: ..\..\002_install_and_admin\index.rst:39
+msgid "This section will guide the user through the steps necessary to install GeoNode."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\index.rst:9
+#: ..\..\002_install_and_admin\index.rst:41
+msgid "Packaging for automatic installation are provided for Ubuntu, so, the only option for installing GeoNode on a CentOS platform is installing it from source."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:5
+msgid "Apache HTTP Server Installation"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:8
+msgid "Install Apache::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:12
+msgid "And additional modules::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:17
+msgid "Firewall configuration"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:19
+msgid "Allow requests on port 80 through the firewall::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:25
+msgid "Security issues"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:27
+msgid "There are a couple of security issues to fix when dealing with GeoNode."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:29
+msgid "GeoNode will run inside httpd through WSGI. This means that httpd will try to perform external connection toward the DB. This is usually blocked by default by strict security policies, so we need to relax them::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:34
+msgid "The other issue is about SELinux itself: it is not WSGI friendly, so we'll have to disable it. Edit the file ``/etc/sysconfig/selinux`` and  change the line::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:39
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:53
+msgid "into ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:43
+msgid "and reboot the machine."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:47
+msgid "httpd configuration"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:49
+msgid "As ``root`, create the file ``/etc/httpd/conf.d/geonode.conf`` and insert into it :download:`this content <resources/geonode.conf>`."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:52
+msgid "Then restart httpd to make it reload the new configurations::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:57
+msgid "To automatically start Apache at boot, run::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:5
+msgid "Installing PostgreSQL and PostGIS"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:8
+msgid "Install PostgreSQL"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:10
+msgid "Install the package for configuring the PGDG repository::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:14
+msgid "EPEL repository will provide GDAL packages::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:18
+msgid "Install PostgreSQL, PostGIS and related libs::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:24
+msgid "Init the DB::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:28
+msgid "Enable start on boot::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:32
+msgid "Start postgres service by hand::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:36
+msgid "To restart or reload the instance, you can use the following commands::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:43
+msgid "Setting PostgreSQL access"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:45
+msgid "Now we are going to change user access policy for local connections in file pg_hba.conf: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:63
+msgid "Once the configuration file has been edited, restart PostgreSQL to make these changes effective"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:71
+msgid "Create GeoNode Users Databases"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:72
+msgid "Switch to postgres user ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:76
+msgid "First create the geonode user. GeoNode is going to use this user to access the database: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:81
+msgid "You will be prompted asked to set a password for the user. Enter geonode as password"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:83
+msgid "Create geonode database with owner geonode ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:88
+msgid "And database geonode_data with owner geonode ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:92
+msgid "Create PostGIS extension: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:97
+msgid "Then adjust permissions ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:103
+msgid "And exit `postgres` user ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:5
+msgid "Tomcat Installation"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:8
+msgid "Installing Java"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:10
+msgid "We'll need a JDK to run GeoServer."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:12
+msgid "You may already have the OpenJDK package (``java-1.7.0-openjdk-devel.x86_64``) installed. Check and see if Java is already installed::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:23
+msgid "Otherwise install it running: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:28
+msgid "Once done, the command ``java -version`` should return info about the installed version."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:30
+msgid "If java version does not match the  one just installed, run the following command ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:35
+msgid "Oracle JDK"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:37
+msgid "Until recently, the Oracle JDK was a better performer than the OpenJDK, so it was the preferred choice. This is no longer true, anyway in the following paragraph you can find instruction about how to install the Oracle JDK."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:41
+msgid "You can download the Oracle JDK RPM from this page:"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:43
+msgid "http://www.oracle.com/technetwork/java/javase/downloads/index.html"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:45
+msgid "Oracle does not expose a URL to automatically dowload the JDK because an interactive licence acceptance is requested. You may start downloading the JDK RPM from a browser, and then either:"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:48
+msgid "stop the download from the browser and use on the server the dynamic download URL your browser has been assigned, or"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:49
+msgid "finish the download and transfer the JDK RPM to the server using ``scp``."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:51
+msgid "Once you have the ``.rpm`` file, you can install it by::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:56
+msgid "Once installed, you still see that the default ``java`` and ``javac`` commands are still the ones from OpenJDK. In order to switch JDK version you have to set the proper system `alternatives`."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:60
+msgid "You may want to refer to `this page <http://www.rackspace.com/knowledge_center/article/how-to-install-the-oracle-jdk-on-fedora-15-16>`_ . Issue the command::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:84
+msgid "Then run ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:88
+msgid "and select the number related to ``/usr/java/latest/bin/java``."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:90
+msgid "Now the default java version should be the Oracle one. Verify the proper installation on the JDK::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:102
+msgid "Installing Tomcat"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:107
+msgid "Tomcat"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:109
+msgid "Let's install `Tomcat` first::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:113
+msgid "Then prepare a clean instance called ``base`` to be used as a template for all tomcat instances ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:120
+msgid "Then create GeoServer's instance directory structure ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:127
+msgid "Instance manager script"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:129
+msgid "Copy the existing management script ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:135
+msgid "Edit the `EnvironmentFile` variable in service management file as follows ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:166
+msgid "Create the associated configuration file from template ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:171
+msgid "Edit the configuration file and customize the `CATALINA_HOME` and `CATALINA_BASE` variables ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:180
+msgid "Now copy GeoServer web archive inside the webapps folder. Tomcat will extract the war file and run GeoServer ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:185
+msgid "And fix the permissions on the files ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:190
+msgid "Finally start GeoServer ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:194
+msgid "And enable it to automatically start at boot time ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:5
+msgid "Install GeoNode application"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:8
+msgid "Install required libs"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:10
+msgid "Make sure all the needed libraries are installed::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:17
+msgid "Create geonode user"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:19
+msgid "Create the user::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:24
+msgid "Install GeoNode"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:26
+msgid "Install GeoNode sources from official repository::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:30
+msgid "Move the sources in `geonode` user home folder ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:34
+msgid "Navigate to sources folder and install required packages ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:43
+msgid "Edit settings"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:70
+msgid "Add the `POSTGIS_VERSION` variable matching your PostGIS version: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:107
+msgid "The resulting configuration file should look like this: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:187
+msgid "Initialize GeoNode"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:189
+msgid "As user ``geonode``, init the db, by creating the schema tables and populating the static data:: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:205
+msgid "Create `uploaded` folder ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:5
+msgid "Installing the Operating System"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:8
+msgid "CentOS Setup"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:10
+msgid "We are re going to install a minimal CentOS 7 distribution. You can get a copy of the .iso the image used for the installation `here <http://mi.mirror.garr.it/mirrors/CentOS/7/isos/x86_64/CentOS-7-x86_64-Minimal-1503-01.iso>`_."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:14
+msgid "Boot up the installation DVD and start the `CentOS 7` Installation wizard."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:16
+msgid "Under `Select Date & Time` an set appropriate Date and Time settings"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:17
+msgid "Under `Keyboard` and choose the keyboard layout"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:18
+msgid "Under `Installation Destination` select the hard disk where CentOS will be installed."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:21
+msgid "Create a custom partitioning scheme as follows:"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:24
+msgid "Partition Label"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:24
+msgid "Partition Type"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:24
+msgid "Size"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:24
+msgid "Mount Point"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:26
+msgid "boot"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:26
+msgid "ext3"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:26
+msgid "700 MB"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:26
+msgid "/boot"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:28
+msgid "root"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:28
+msgid "ext4"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:28
+msgid "35 GB"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:28
+msgid "/"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:30
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:30
+msgid "swap"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:30
+msgid "4 GB"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:32
+msgid "Under `Networking` configure your network interface according to your infrastructure you can either set it to `DHCP` to automatically get all the settings from a local DHCP server or configure it by hand."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:35
+msgid "Enable the network interface, then go back to `Select Date & Time` and enable NTP synchronization periodically get date and time settings from CentOS servers"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:37
+msgid "Click on `Begin Installation`"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:38
+msgid "Now set the password for the `root` user. Also click on `User Creation` to create the `geo` user."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:40
+msgid "Wait for the installation process to finish, then reboot your machine"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:44
+msgid "Network configuration"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:46
+msgid "The network configuration should already be set, since it was set during CentOS setup stage."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:49
+msgid "You may want to review the configuration files"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:51
+msgid "``/etc/sysconfig/network-scripts/ifcfg-DEVICE``"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:53
+msgid "You may also want to review the file ``/etc/resolv.conf`` to check the nameservers."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:56
+msgid "Check that the connection is up by pinging and external server::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:60
+msgid "Check that the DNS are properly configuring by pinging a host by its name::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:65
+msgid "Please note that in CentOS only ssh incoming connections are allowed; all other incoming connections are disabled by default."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:68
+msgid "In the paragraph related to the httpd service you can find details about how to enable incoming traffic."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:71
+msgid "Note that after configuring the network, you may continue installing the system setup using a ssh connection."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:75
+msgid "User access configuration"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:77
+msgid "Login as ``root'` user and give the ``geo`` user administrative privileges by adding him to the ``wheel`` group: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:83
+msgid "SSH access"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:86
+msgid "Allow SSH connections through the firewall"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:88
+msgid "On CentOS 7 the firewall is enabled by default. To allow SSH clients to connect to the machine allow incoming connections on port 22::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:96
+msgid "Disable SSH login for the `root` user"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:98
+msgid "Before you disable root login make sure you are able to login via SSH with `geo` user account and you have the privileges to run `sudo su` to switch to the `root` user account."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:102
+msgid "Edit file `/etc/ssh/sshd_config` to disable `root` login via SSH::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:107
+msgid "Public key authentication"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:109
+msgid "`Public key authentication`_ is generally considered a safer way to authenticate users for SSH access. Let's set it up and disable password based authentication"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:114
+msgid "First generate a public/private key pair using `ssh-keygen`::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:118
+msgid "Folllow the procedure, you will end up with your newly generated key under ``~/.ssh`` Now copy your `public` (by default it is called id_rsa.pub) key over the CentOS machine in ``/home/geo/.ssh/authorized_keys``. There are several ways to do it, we are going to use the `ssh-copy-id` tool::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:125
+msgid "You should now be able to login via SSH as `geo` without been asked for the password::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:131
+msgid "You can now disable password based login over SSH"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:134
+msgid "Before disabling password authentication make sure you' ve installed your public key on the server and you are able to login without password"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:137
+msgid "Edit ``/etc/ssh/sshd_config`` as follows::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:151
+msgid "Installing ntp"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:153
+msgid "Install the program for ntp server synchronization::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:157
+msgid "Edit ``/etc/ntp.conf`` and add the following line before the first ``server`` directive::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:161
+msgid "Replace ``tempo.ien.it`` with your nearest ntp server."
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:163
+msgid "Sync with the server by issuing::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:167
+msgid "Set the time synchronization as an autostarting daemon::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:172
+msgid "Installing base packages"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:174
+msgid "Install::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:5
+msgid "Installation & Admin"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:6
+msgid "Welcome to the GeoNode Training `Installation & Admin` documentation v\\ |release|."
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:8
+msgid "This module is more oriented to users having some System Administrator background."
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:10
+msgid "At the end of this section you will be able to setup from scratch the whole GeoNode infrastructure and understand how to the different pieces are interconnected and which are their dependencies."
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:12
+msgid "*Prerequisites*"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:14
+msgid "Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:16
+msgid "GeoNode and Django framework basic concepts"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:17
+msgid "What is Python"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:18
+msgid "What is a DBMS"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:19
+msgid "What is a Java Virtual Machine and the JDK"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:20
+msgid "Linux OS basic shell and maintenance commands"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:21
+msgid "Basic TCP/IP and networking concepts"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:22
+msgid "Apache HTTPD Server and WSGI Python bindings"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:33
+msgid ":ref:`linux_admin_intro`"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:36
+msgid ":ref:`geonode_install`"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:40
+msgid ":ref:`setup_on_centos`"
+msgstr ""
+
