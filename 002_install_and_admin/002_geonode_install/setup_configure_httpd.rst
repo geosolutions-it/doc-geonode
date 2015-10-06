@@ -80,8 +80,8 @@ Place the following content inside the file:
         </Proxy>
 
         ProxyPreserveHost On
-        ProxyPass /geoserver http://localhost:8080/geoserver
-        ProxyPassReverse /geoserver http://localhost:8080/geoserver
+        ProxyPass /geoserver http://127.0.0.1:8080/geoserver
+        ProxyPassReverse /geoserver http://127.0.0.1:8080/geoserver
 
     </VirtualHost>
 
@@ -104,9 +104,6 @@ Dowload GeoNode data to be served by Apache. You will be prompted for confirmati
 ::
     cd /home/geonode/geonode/
 
-.. note:
-    If you are following the GeoNode tutorial *Skip* the following command
-
 ::
     sudo -u geonode python manage.py collectstatic
 
@@ -128,11 +125,3 @@ them:
 Finally restart Apache to load the new configuration
 ::
     sudo service apache2 restart
-
-.. image:: img/test_geonode.png
-   :width: 600px
-   :alt: Connect to GeoNode
-
-.. image:: img/test_geonode2.png
-   :width: 600px
-   :alt: Connect to GeoNode

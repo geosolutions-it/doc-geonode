@@ -59,7 +59,7 @@ Into:
 
 Then restart `PostgreSQL` to make the change effective:
 ::
-    service postgresql restart
+    sudo service postgresql restart
 
 PostgreSQL is now ready. To test the configuration try to connect to the `geonode`
 database as `geonode`:

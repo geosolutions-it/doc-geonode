@@ -22,7 +22,7 @@ First navigate to geonode configuration folder
 
 Copy the `local_settings.py` sample file called `local_settings.py.sample`
 ::
-    cp local_settings.py.sample local_settings.py
+    sudo cp local_settings.py.sample local_settings.py
 
 Then edit the configuration file
 ::
@@ -33,6 +33,10 @@ following values:
 ::
     ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '::1']
     PROXY_ALLOWED_HOSTS = ("127.0.0.1", 'localhost', '::1')
+
+Add the `POSTGIS_VERSION` variable matching your PostGIS version:
+::
+    POSTGIS_VERSION = (2, 1, 2)
 
 This will instruct GeoNode to listen on connections from your local machine.
 
@@ -146,6 +150,15 @@ The resulting configuration file should look like this:
     # Default preview library
     #LAYER_PREVIEW_LIBRARY = 'geoext'
 
+Create GeoNode Superuser
+========================
+
+Now create the admin user for GeoNode running the following:
+::
+    python manage.py createsuperuser
+
+You will be prompted for the username, email address and passoword for the user
+
 Initialize the Database
 =======================
 
@@ -168,14 +181,6 @@ and
 ::
     psql -U geonode geonode_data
 
-Create GeoNode Superuser
-========================
-
-Now create the admin user for GeoNode running the following:
-::
-    python manage.py createsuperuser
-
-You will be prompted for the username, email address and passoword for the user
 
 Test the installation
 =====================

@@ -59,6 +59,7 @@ packages::
         python                 \
         python-dev             \
         python-gdal            \
+        python-pycurl          \
         python-imaging         \
         python-pastescript     \
         python-psycopg2        \
@@ -73,7 +74,7 @@ packages::
    :width: 600px
    :alt: Install Packages
 
-You will be prompted for confirmation twice
+You will be prompted for `geo` user's password (`geo`) and for confirmation twice
 
 .. image:: img/confirm_Install.png
    :width: 600px
