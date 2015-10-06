@@ -90,34 +90,37 @@ Let's download GeoNode from the main GeoNode repository on GitHub:
 
 .. note::
     For the purpose of this training the GeoNode repository has
-    been downloaded and placed in the `geo` user `home folder` (/home/geo/geonode).
-    *Skip* the following command.
+    been downloaded and placed in the `geonode` user `home folder` (/home/geo/geonode).
+    *Skip* the following command group.
 
 ::
 
     git clone https://github.com/GeoNode/geonode.git
-
-Now create the 'geonode' user and move the cloned folder in the user's home folder::
-
     sudo useradd -m geonode
     sudo mv ~/geonode /home/geonode/
 
-Move into the project folder and install GeoNode::
-.. note::
-    For the purpose of this training GeoNode python packages has
-    been downloaded and placed in the `geo` user `home folder` (/home/geo/packages).
-    Run this command instead:
-        pip install -e /home/geo/packages/*.vhl
+
+Move into the project folder
+::
 
     cd /home/geonode/geonode
+
+And install GeoNode
+
+.. note::
+    For the purpose of this training GeoNode python packages has
+    been downloaded and installed, *Skip* the following command:
+
+::
+
     sudo pip install -e .
 
-We are almost done. The following command will download a GeoServer web archive
+The following command will download a GeoServer web archive
 that we are going to use in GeoServer setup:
 
 .. note::
     Again, for the purpose of this training the GeoServer web archive has been
-    downloaded and placed in the `geo` user `home folder` (/home/geo/geoserver.war).
+    downloaded.
     *Skip* the following command.
 
 ::

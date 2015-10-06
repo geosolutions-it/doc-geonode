@@ -26,13 +26,13 @@ Copy the `local_settings.py` sample file called `local_settings.py.sample`
 
 Then edit the configuration file
 ::
-    gedit local_settings.py
+    sudo gedit local_settings.py
 
 Add the `ALLOWED_HOSTS` and `PROXY_ALLOWED_HOSTS` variables at the top with the
 following values:
 ::
     ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '::1']
-    PROXY_ALLOWED_HOSTS = ("127.0.0.1", 'localhost', '::1']
+    PROXY_ALLOWED_HOSTS = ("127.0.0.1", 'localhost', '::1')
 
 This will instruct GeoNode to listen on connections from your local machine.
 
@@ -153,6 +153,7 @@ We' we already setup GeoNode databases and user permissions for PostgreSQL. And
 instruct GeoNode on how to access the database. Now let's get the database ready
 running the following:
 ::
+    cd /home/geonode/geonode
     python manage.py syncdb --noinput
 
 If you get an error message it is likely that database access is not set properly.
