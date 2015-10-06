@@ -21,8 +21,6 @@ Place the following content inside the file:
 ::
     WSGIDaemonProcess geonode python-path=/home/geonode/geonode:/home/geonode/.venvs/geonode/lib/python2.7/site-packages user=www-data threads=15 processes=2
 
-    WSGIDaemonProcess geonode python-path=/home/geonode/geonode:/home/geonode/.venvs/geonode/lib/python2.7/site-packages user=www-data threads=15 processes=2
-
     <VirtualHost *:80>
         ServerName http://localhost
         ServerAdmin webmaster@localhost
@@ -104,7 +102,13 @@ And enable geonode configuration file
 
 Dowload GeoNode data to be served by Apache. You will be prompted for confirmation
 ::
-    python manage.py collectstatic
+    cd /home/geonode/geonode/
+
+.. note:
+    If you are following the GeoNode tutorial *Skip* the following command
+
+::
+    sudo -u geonode python manage.py collectstatic
 
 Add `thumbs` and `layers` folders
 ::
@@ -124,9 +128,6 @@ them:
 Finally restart Apache to load the new configuration
 ::
     sudo service apache2 restart
-
-Open a web browser and navigate to http://localhost/ GeoNode user interface will
-show up
 
 .. image:: img/test_geonode.png
    :width: 600px
