@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-06 10:09+0200\n"
-"PO-Revision-Date: 2015-10-06 10:08+0000\n"
+"PO-Revision-Date: 2015-10-06 11:26+0000\n"
 "Last-Translator: simboss <simone.giannecchini@geo-solutions.it>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-documentation/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -299,7 +299,7 @@ msgstr "La documentation est publié sous une :term:`Creative Commons` license a
 msgid ""
 "You are free to Share (to copy, distribute and transmit) and to Remix (to "
 "adapt) the documentation under the following conditions:"
-msgstr ""
+msgstr "Vous êtes libre de partager (copier , distribuer et communiquer) et de remix (d'adapter) la documentation dans les conditions suivantes:"
 
 #: ..\..\index.rst:124
 msgid "Attribution. You must attribute the documentation to the author."
@@ -310,7 +310,7 @@ msgid ""
 "Share Alike. If you alter, transform, or build upon this work, you may "
 "distribute the resulting work only under the same or similar license to this"
 " one."
-msgstr ""
+msgstr "hare Alike . Si vous modifiez, transformez ou adaptez cette création, vous devez distribuer l' œuvre résultante sous la même licence ou similaire à celui-ci."
 
 #: ..\..\index.rst:128
 msgid "With the understanding that:"
@@ -320,13 +320,13 @@ msgstr "Étant entendu que:"
 msgid ""
 "Any of the above conditions can be waived if you get permission from the "
 "copyright holder."
-msgstr ""
+msgstr "Chacune de ces conditions peut être levée si vous obtenez l'autorisation du titulaire du droit d'auteur."
 
 #: ..\..\index.rst:132
 msgid ""
 "Public Domain. Where the work or any of its elements is in the public domain"
 " under applicable law, that status is in no way affected by the license."
-msgstr ""
+msgstr "Domaine public. Lorsque le travail ou l'un de ses éléments est dans le domaine public en vertu du droit applicable, ce statut est en aucune façon affectées par la licence."
 
 #: ..\..\index.rst:134
 msgid ""
@@ -338,31 +338,31 @@ msgstr "Autres droits. En aucun cas, sont l'un des droits suivants touchés par 
 msgid ""
 "Your fair dealing or fair use rights, or other applicable copyright "
 "exceptions and limitations;"
-msgstr ""
+msgstr "Votre utilisation équitable ou fair use l'homme, ou d'autres exceptions et limitations au droit d'auteur applicable;"
 
 #: ..\..\index.rst:138
 msgid "The author's moral rights;"
-msgstr ""
+msgstr "Les droits moraux de l'auteur;"
 
 #: ..\..\index.rst:140
 msgid ""
 "Rights other persons may have either in the work itself or in how the work "
 "is used, such as publicity or privacy rights."
-msgstr ""
+msgstr "Droits d'autres personnes peuvent avoir soit dans le travail lui-même ou dans la façon dont le travail est utilisé , tels que les droits à la vie privée ou de publicité."
 
 #: ..\..\index.rst:142
 msgid ""
 "Notice: For any reuse or distribution, you must make clear to others the "
 "license terms of this work. The best way to do this is with a link to this "
 "web page."
-msgstr ""
+msgstr "Avis : Pour toute réutilisation ou distribution, vous devez faire apparaître clairement au public les conditions de ce travail de licence . La meilleure façon de le faire est avec un lien vers cette page web."
 
 #: ..\..\index.rst:144
 msgid ""
 "You may obtain a copy of the License at `Creative Commons Attribution-"
 "ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-"
 "sa/3.0/>`_"
-msgstr ""
+msgstr "Vous pouvez obtenir une copie de la licence au `Creative Commons Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0/>`_"
 
 #: ..\..\index.rst:146
 msgid ""
@@ -383,7 +383,7 @@ msgid ""
 "The layout for the reStructuredText based documentation is based on the work"
 " done by the `GeoNode <http://geonode.org/>`_ project and the `Sphinx "
 "<http://sphinx.pocoo.org/>`_ framework."
-msgstr ""
+msgstr "The layout for the reStructuredText based documentation is based on the work done by the `GeoNode <http://geonode.org/>`_ project and the `Sphinx <http://sphinx.pocoo.org/>`_ framework."
 
 #: ..\..\index.rst:155
 msgid ""
@@ -393,7 +393,7 @@ msgstr "Si vous avez des questions , trouvé un bug ou vous avez fait des améli
 
 #: ..\..\index.rst:158
 msgid "Creative Commons"
-msgstr ""
+msgstr "Creative Commons"
 
 #: ..\..\index.rst:160
 msgid ""
