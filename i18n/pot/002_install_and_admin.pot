@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-05 16:41+0200\n"
+"POT-Creation-Date: 2015-10-06 10:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,10 +21,6 @@ msgid "Linux Admin Intro"
 msgstr ""
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\index.rst:7
-#: ..\..\002_install_and_admin\001_linux_admin_intro\setup_prepare_dbms_backend.rst:7
-#: ..\..\002_install_and_admin\001_linux_admin_intro\setup_prepare_jvm_and_tomcat.rst:7
-#: ..\..\002_install_and_admin\001_linux_admin_intro\user_access_and_base_packages.rst:7
-#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:7
 #: ..\..\002_install_and_admin\002_geonode_install\index.rst:7
 #: ..\..\002_install_and_admin\index.rst:33
 #: ..\..\002_install_and_admin\index.rst:36
@@ -35,12 +31,311 @@ msgstr ""
 msgid "Running Ansible scripts"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\setup_prepare_dbms_backend.rst:5
-msgid "Setup & Prepare DBMS Backend"
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:7
+msgid "`Ansible <http://www.ansible.com/>`_ is a free software platform used for configuring and managing computers. It is written in `Python <https://www.python.org/>`_ and allows users to manage `nodes` (computers) over SSH."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\setup_prepare_jvm_and_tomcat.rst:5
-msgid "Setup & Prepare JVM And Tomcat"
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:11
+msgid "Configuration files are written in `YAML <https://en.wikipedia.org/wiki/YAML>`_ , a simple, human-readable, data serialization format."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:15
+msgid "Installing Ansible"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:17
+msgid "Before you install `Ansible` make sure you have Python 2.6 or Python 2.7 on the controlling machine, you will also need an SSH client. Most Linux distributions come with an SSH client preinstalled."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:21
+msgid "If you encounter any problems during the installation, refer to the `official documentation <http://docs.ansible.com/ansible/intro_installation.html>`_"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:25
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:23
+msgid "Windows"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:27
+msgid "Windows is not supported as a controlling machine."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:30
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:56
+msgid "Ubuntu"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:32
+msgid "Fist configure Ansible `PPA <https://en.wikipedia.org/wiki/Personal_Package_Archive>`_ ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:38
+msgid "Then update your available software index and install ansible ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:44
+msgid "Running Ansible"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:46
+msgid "To test your ansible installation, run the following command"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:49
+msgid "you need a running SSH server on your machine for this to work"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:54
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:68
+msgid "You should get the following output ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:62
+msgid "To test your ansible installation, run the following command (you need a running SSH server on your machine for this to work) ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:77
+msgid "Ansible Hosts file"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:79
+msgid "Ansible keeps information about the managed nodes in the `inventory` or `hosts file`. Edit or create the hosts file ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:85
+msgid "This file contains a list of nodes for Ansible to manage. Nodes can be referred either with IP or hostname. The syntax is the following: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:93
+msgid "You can also arrange hosts in groups ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:108
+msgid "Public Key access"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:110
+msgid "To avoid having to type users password to connect to the nodes over and over, using SSH keys is recommended."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:113
+msgid "To setup Public Key SSH access to the nodes. First create a key pair: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:118
+msgid "And follow the instructions on the screen. A new key pair will be generated and placed inside the `.ssh` folder in your user's home directory."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:121
+msgid "All you need to do now is copy the public key (id_rsa.pub) in the `authorized_keys` file on the node you want to manage, inside the user's home directory. For example if you want to be able to connect to training.geonode1.com as user `geo` edit the /home/geo/.ssh/authorized_keys file on the remote machine and add the content of your public key inside the file."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:127
+msgid "For more information on how to setup SSH keys in Ubuntu refere to `this <https://help.ubuntu.com/community/SSH/OpenSSH/Keys>`_ document"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:131
+msgid "Connect to managed nodes"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:133
+msgid "Now that SSH access to the managed nodes is in place for all the nodes inside Ansible `inventory` (hosts file) we can run our first command ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:141
+msgid "change `geo` with the username to use for SSH login"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:143
+msgid "The output will be similar to this: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:152
+msgid "We asked ansible to connect to all the machine in our `Inventory` as user `geo` and run the `module` (modules are Ansible's units of work, more on that later..) ping. As you can see by the output, Ansible successfully connected to the remote machine and executed the module `ping`"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:159
+msgid "Ad hoc commands"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:161
+msgid "An ad-hoc command is something that you might type in to do something really quick, but don’t want to save for later."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:164
+msgid "Later you are going to write so called `Playbooks` with the commands to run on the controlled node but for learning purposes ad-hoc commands can be used to do quick things."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:168
+msgid "One example of ad-hoc command is the ping command we just run. We typed in in the command line and run it interactively."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:171
+msgid "Another example: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:181
+msgid "In this example we ran the `free` command on the remote hosts to get memory usage stats. Note that we used the `shell` module (-m flag) with the command as the argument (-a flag)"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:186
+msgid "File Transfer"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:188
+msgid "Another use case for the Ansible command is transfer files over SCP ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:205
+msgid "We used the `ansible` command to transfer the local file /home/geo/test to the remote node in user's home directory ('~/')"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:209
+msgid "Managing Packages"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:211
+msgid "Another use case is installing or upgrading packages on the remote nodes. You can use the `apt` module to achive this on Debian based systems or the `yum` module on Red Hat based systems ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:218
+msgid "For example the previous command will install apache web server on the remote system (if not present)."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:221
+msgid "You can use the same module to make sure a package is at the latest version ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:227
+msgid "Managing Services"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:229
+msgid "Use the `service` module to ensure a given service is started on all webservers:"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:235
+msgid "(where `webserver` is a group defined in Ansible Inventory)"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:237
+msgid "Restart the service: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:242
+msgid "Or stop it ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:247
+msgid "For more information on ad-hoc command refer to the `official documentation <https://docs.ansible.com/ansible/intro_adhoc.html>`_"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:249
+msgid "These were just a few of the modules avilable for ansible. See the `complete list <http://docs.ansible.com/ansible/list_of_all_modules.html>`_ available at Ansible web site"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:254
+msgid "Ansible Playbooks"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:256
+msgid "Playbooks are Ansible’s configuration, deployment, and orchestration language."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:258
+msgid "Playbooks are a completely different way to use ansible than in adhoc task execution mode, and are particularly powerful."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:261
+msgid "Playbooks can declare configurations, but they can also orchestrate steps of any manual ordered process."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:264
+msgid "While you might run the main /usr/bin/ansible program for ad-hoc tasks, playbooks are more likely to be kept in source control and used to push out your configuration or assure the configurations of your remote systems are in spec."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:269
+msgid "Playbooks languuage example"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:271
+msgid "Playbooks are expressed in `YAML <https://en.wikipedia.org/wiki/YAML>`_ format"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:273
+msgid "Here is an example of a Playbook: ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:295
+msgid "Every Playbook begins with three dashes `---` at the very top of the file to indicate that this is a YAML file."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:298
+msgid "This example Playbook contains only one Play. the play is composed of three parts"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:300
+msgid "hosts"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:301
+msgid "tasks"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:302
+msgid "handlers"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:304
+msgid "The hosts part specifies to wich hosts in the Inventory this playbook applies and how to connect to them"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:307
+msgid "The tasks part describes the desired state or actions to perform on the hosts"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:309
+msgid "The handlers part describes the handlers for this playbook (more on handlers later)"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:311
+msgid "In the example above there are three tasks. Each task has a name, a module and zero or more arguments for the module."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:314
+msgid "The first task specifies that we want apache at the latest version installed on the system. This is accomplished by the `yum` module"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:317
+msgid "The second task specifies a configuration file for apache using a `template`. Template files for are written in `Jinja2 template language <http://jinja.pocoo.org/>`_"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:320
+msgid "The third task make sure apache web server is running using the `service` module."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:322
+msgid "When you run a Playbook, using the ansible-playbook command. Ansible will connect to the hosts specified in the hosts section and run the tasks one by one, in order."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:325
+msgid "One or more tasks may have a `notify` section (just like the second task in our example). The `notify` actions are triggered at the end of each block of tasks in a playbook, and will only be triggered once even if notified by multiple different tasks. When triggered, the corresponding handler will be executed. In the example above the handler will restart Apache because we changed a config file"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:333
+msgid "Run a Playbook"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:335
+msgid "Now that we have created a sample playbook save it on the file system and execute it:"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:352
+msgid "This concludes our brief tutorial on Ansible. For a more thorough introduction refer the `official documentation <https://docs.ansible.com/>`_"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:355
+msgid "Alse, take a look at the `Ansible examples repository <https://github.com/ansible/ansible-examples>`_ for a set of Playbooks showing common techniques."
 msgstr ""
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:5
@@ -111,12 +406,254 @@ msgstr ""
 msgid "This configuration is not enough for a minimal production environment, adding more CPUs or cores is required."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\user_access_and_base_packages.rst:5
-msgid "User Access and Base Packages"
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:5
+msgid "Ubuntu Basic Tutorial"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:7
+msgid "`Ubuntu <https://en.wikipedia.org/wiki/Ubuntu_(operating_system)>`_ is one of the most widespread `Linux <https://en.wikipedia.org/wiki/Linux>`_ `Distributions <https://en.wikipedia.org/wiki/Linux_distribution>`_ ."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:11
+msgid "In this section of the documentation you will learn how to do basic operations in Ubuntu such as Log inand Log out, Launch applications and Install new software."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:15
+msgid "User Login"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:17
+msgid "When you first start Ubuntu, at the end of the boot process you see the Ubuntu login screen"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:24
+msgid "Select the user you want to login as, enter the password and press `Enter`. In a few second the user's desktop will appear."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:32
+msgid "User Interface Walkthrough"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:34
+msgid "The panel on the left side of the screen contains shortcuts to frequently used application. From dark grey bar at the top you can reach network settings (the icon with two arrows pointing in opposite directions) system language (the icon with `En` written inside it), audio volume, system date and time and power menu (top right corner with an icon half way between a gear and power buttom)."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:40
+msgid "From the power menu you can switch to a different user, logout, power off the system or access system settings."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:43
+msgid "In `system setting ` menu you can set several different parameters for the system"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:50
+msgid "Launch an application"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:52
+msgid "You  can launch the applications listed in the `Favourites` panel simply by clicking on them."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:54
+msgid "If the application you want to launch is not in the favourites panel, use the Ubuntu Launcher. Click on the Ubuntu Launcher icon in the top left corner of the screen"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:61
+msgid "Write down the name of the application. A list of applications matching the name you are searching will show up, for and press `Enter` or click on the icon of the application."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:66
+msgid "Install new software"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:68
+msgid "To install new software, open the `Ubuntu software Center` (you will find it in the favourite applications panel)."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:71
+msgid "Enter the name of the application you are looking for in the search bar"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:77
+msgid "A list of candidate applications will appear. Click on the one you want to install, then click `install` to install it. You will be prompted for administrative password"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:84
+msgid "And your application will be installed in the system."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:87
+msgid "Launch the terminal emulator"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:89
+msgid "Click on the `Ubuntu Launcher` icon in the top left corner of the screen, and type gnome-terminal in the search box"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:96
+msgid "And launch the terminal emulator."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:102
+msgid "Terminal emulator will open and will be ready for your commands."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:106
+msgid "Basic commands"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:109
+msgid "Current working directory"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:116
+msgid "The `pwd` command will show you your `working directory`, that is the directory you are inside of and running your commands in."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:120
+msgid "Create a directory"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:126
+msgid "To create a new directory inside your working directory use the `mkdir` command followed by the folder name argument"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:130
+msgid "Delete a directory"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:136
+msgid "To delete an empty directory type `rmdir` followed by the folder name argument"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:139
+msgid "Create an empty file"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:145
+msgid "To create an empty file in your current working directory use the `touch` command followed by the name of the file"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:149
+msgid "Delete a file"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:155
+msgid "To delete a file use the `rm` command followed by the file name"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:158
+msgid "Change working directory"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:164
+msgid "To change your current working directory use the `cd` command followed by the `path` (location) you want to change to"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:168
+msgid "List content of a folder"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:174
+msgid "The `ls` command will list the content of your current working directory. You can optionally provide a path to a directory as argument, in that case `ls` will show you the content of that directory."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:180
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:27
+msgid "::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:179
+msgid "$ ls /home geo  geonode"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:183
+msgid "Home folder"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:185
+msgid "A user's home folder is the folder where he or she will do most of the operations in. Inside your home folder you can freely create or delete file and folders."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:188
+msgid "To switch to your home folder you can use the tilde `~` character as a shortcut ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:196
+msgid "For more information on Ubuntu refer to the `Ubuntu user manual <http://ubuntu-manual.org/?lang=en>`_"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:198
+msgid "For more terminal commands read the `Using the terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_ guide"
 msgstr ""
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:5
 msgid "Running a VM with Vagrant"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:7
+msgid "In this section you will find instructions on how to setup an Ubuntu 14.04 VM using `Vagrant`_"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:13
+msgid "Vagrant Setup"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:15
+msgid "Download Vagrant from the `official <https://www.vagrantup.com/downloads>`_ web site. Choose the installer matching your operating system and architecture."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:18
+msgid "Installation process is straightforward, refer to Vagrant `official documentation <https://docs.vagrantup.com/v2/installation/index.html>`_ if you encounter any problem."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:21
+msgid "At the end of the installation process log out your system and log back in."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:24
+msgid "Vagrant is going to need a `provider <https://docs.vagrantup.com/v2/providers/>`_ in order to setup the Virtual Machines. `VirtualBox` is supported out of the box. Just make sure you install `one of the supported versions of VirtualBox <https://docs.vagrantup.com/v2/virtualbox>`_"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:28
+msgid "Open a terminal and type `vagrant version`. A message containing the installed version of Vagrant will be printed on the terminal ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:37
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:74
+msgid "Virtual Machine Setup"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:39
+msgid "Now that Vagrant is installed let's create our Ubuntu Virtual Machine. Open the terminal and create a new folder called `vagrand`. enter the folder and run ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:51
+msgid "This will create a configuration file called `Vagrantfile` containing the settings for the virtual machine, notably the `config.vm.box` variable set to \"ubuntu/trusty32\" will tell Vagrant the specific VM we want to run (Ubuntu 14.04 \"Trusty Tahr\", 32 bit version)"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:55
+msgid "To start the VM, run ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:60
+msgid "The first time you run the command it is going to take some since you do not have a locally available image of the VM. Vagrant will download the VM from the `Vagrant Could <https://vagrantcloud.com/>`_ to your local system. ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:76
+msgid "At the end of the download process Vagrant will start the VM."
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:78
+msgid "To access the Virtual machine, run ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:85
+msgid "You need an SSH client for the previous command to work. Most Linux distributions come with an SSH installed. If you are using Windows as the guest operating system install MinGW or Cygwin or Git to obtain a command line SSH client. More information available `here <http://docs-v1.vagrantup.com/v1/docs/getting-started/ssh.html>`_"
+msgstr ""
+
+#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:90
+msgid "You will be connected to the guest Virtual Machine over SSH as user `vagrant`."
 msgstr ""
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:5
@@ -139,10 +676,6 @@ msgstr ""
 msgid "Installation process is straightforward, refer to VirtualBox `official documentation <https://www.virtualbox.org/manual/ch01.html#intro-installing>`_ if you encounter any problem."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:23
-msgid "Windows"
-msgstr ""
-
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:25
 msgid "After you downloaded executable, double click on it to launch the installer."
 msgstr ""
@@ -163,10 +696,6 @@ msgstr ""
 msgid "VirtualBox is now installed. And will automatically be launched"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:56
-msgid "Ubuntu"
-msgstr ""
-
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:58
 msgid "After you downloaded the package,  double click on it. The \"Ubuntu Software Center\" will pop up, click on \"Install\" to start the installation process"
 msgstr ""
@@ -177,10 +706,6 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:67
 msgid "At the end of the installation process, launch VirtualBox."
-msgstr ""
-
-#: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:74
-msgid "Virtual Machine Setup"
 msgstr ""
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:76
@@ -542,10 +1067,6 @@ msgid "As said previously in the training VM the actual path of GeoServer web ar
 msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:27
-msgid "::"
-msgstr ""
-
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:27
 msgid "sudo cp /home/geonode/geonode/downloaded/geoserver.war /var/lib/tomcat7/webapps/"
 msgstr ""
 
@@ -633,37 +1154,42 @@ msgstr ""
 msgid "Place the following content inside the file: ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:82
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:90
 msgid "This sets up a VirtualHost in Apache HTTP server for GeoNode and a reverse proxy for GeoServer."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:86
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:94
 msgid "In the case that GeoServer is running on a separate machine change the `ProxyPass` and `ProxyPassReverse` accordingly"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:89
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:97
 msgid "Now load apache `poxy` module ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:93
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:101
 msgid "And enable geonode configuration file ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:97
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:105
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:201
 msgid "Dowload GeoNode data to be served by Apache. You will be prompted for confirmation ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:101
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:109
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:52
+msgid "Add `thumbs` and `layers` folders ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:114
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:209
 msgid "Change permissions on GeoNode files and folders to allow Apache to read and edit them: ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:109
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:124
 msgid "Finally restart Apache to load the new configuration ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:113
+#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:128
 msgid "Open a web browser and navigate to http://localhost/ GeoNode user interface will show up"
 msgstr ""
 
@@ -734,11 +1260,15 @@ msgstr ""
 msgid "As ``root`, create the file ``/etc/httpd/conf.d/geonode.conf`` and insert into it :download:`this content <resources/geonode.conf>`."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:52
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:57
+msgid "Set appropriate permissions on the folders ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:67
 msgid "Then restart httpd to make it reload the new configurations::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:57
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:72
 msgid "To automatically start Apache at boot, run::"
 msgstr ""
 

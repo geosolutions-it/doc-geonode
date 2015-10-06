@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-05 16:41+0200\n"
+"POT-Creation-Date: 2015-10-06 10:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1042,7 +1042,7 @@ msgid "or::"
 msgstr ""
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:33
-msgid "mkdir /var/lib/geonode/lib/python2.6/site-packages/setmydefaultlanguage"
+msgid "mkdir /var/lib/geonode/lib/python2.7/site-packages/setmydefaultlanguage"
 msgstr ""
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:35
@@ -1057,15 +1057,15 @@ msgstr ""
 msgid "At the end of the GeoNode configuration file :file:`/home/geonode/geonode/geonode/settings.py` (or :file:`/etc/geonode/settings.py` if GeoNode has been installed using **apt-get**) add the following lines to ensure the above class is executed::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:62
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:60
 msgid "Restart"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:64
-msgid "Finally restart Apache with::"
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:62
+msgid "Finally restart Apache2 as root with::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:69
+#: ..\..\004_admin_workshop\006_default_lang\index.rst:67
 msgid "Please refer to Translating GeoNode for information on editing GeoNode pages in different languages and create new GeoNode Translations."
 msgstr ""
 

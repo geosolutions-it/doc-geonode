@@ -1,0 +1,254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013, GeoNode Development Team
+# This file is distributed under the same license as the GeoNode package.
+# 
+# Translators:
+# Alessio Fabiani <alessio.fabiani@geo-solutions.it>, 2015
+# matteo cima <matteocima@hotmail.com>, 2015
+# simboss <simone.giannecchini@geo-solutions.it>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode -Documentation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-05 15:45+0200\n"
+"PO-Revision-Date: 2015-10-06 08:05+0000\n"
+"Last-Translator: Alessio Fabiani <alessio.fabiani@geo-solutions.it>\n"
+"Language-Team: French (http://www.transifex.com/geosolutions/geonode-documentation/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ..\..\install-doc-tools.rst:3
+msgid ""
+"This section of the guide cover the installation process and basic usage of "
+"the tools needed in order to make changes to the documentation."
+msgstr "Cette section du guide couvre le processus d'installation et l'usage basique des outils necessaire pour changer la documentation"
+
+#: ..\..\install-doc-tools.rst:6
+msgid "You are going to need the following tools:"
+msgstr "Vous allez avoir besoin des outils suivants:"
+
+#: ..\..\install-doc-tools.rst:8
+msgid "`Git <http://en.wikipedia.org/wiki/Git_(software)>`_"
+msgstr "`Git <http://en.wikipedia.org/wiki/Git_(software)>`_"
+
+#: ..\..\install-doc-tools.rst:9
+msgid ""
+"`Python <https://www.python.org/>`_ and `pip "
+"<https://en.wikipedia.org/wiki/Pip_(package_manager)>`_ (recent versions of "
+"Python come bundled with pip)"
+msgstr "`Python <https://www.python.org/>`_ et `pip <https://en.wikipedia.org/wiki/Pip_(package_manager)>`_ (récente version de Python fournie avec pip)"
+
+#: ..\..\install-doc-tools.rst:10
+msgid "`Sphinx <http://sphinx-doc.org/index.html>`_"
+msgstr "`Sphinx <http://sphinx-doc.org/index.html>`_"
+
+#: ..\..\install-doc-tools.rst:13
+msgid "Install Git"
+msgstr "Installez Git"
+
+#: ..\..\install-doc-tools.rst:15
+msgid ""
+"To install Git on your machine refer to `this <https://git-"
+"scm.com/book/en/v2/Getting-Started-Installing-Git>`_ guide."
+msgstr "Pour installer Git sur votre machine faites référence a `ce  <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>`_ guide."
+
+#: ..\..\install-doc-tools.rst:18
+msgid ""
+"For a brief introduction to Git usage refer to `this <https://git-"
+"scm.com/book/en/v2/Getting-Started-Git-Basics>`_ guide"
+msgstr "Pour une brève introduction à l'usage de Git, faites référence à `ce <https://git-scm.com/book/en/v2/Getting-Started-Git-Basics>`_ guide."
+
+#: ..\..\install-doc-tools.rst:21
+msgid "Install Python"
+msgstr "Installez Python"
+
+#: ..\..\install-doc-tools.rst:23
+msgid ""
+"Python installation is pretty straight forward, refer to the `official "
+"download page <https://www.python.org/downloads/>`_ and follow the "
+"instruction for your Operating System. As stated above from Python 2.7.9 "
+"onward pip comes bundled with Python."
+msgstr "L'installation de Python est assez simple , faites référence au download de la `page officielle <https://www.python.org/downloads/>`_ et suivez les instructions pour votre système d'exploitation. Comme cité ci-dessus par Python 2.7.9 , onward pip est fourni avec Python."
+
+#: ..\..\install-doc-tools.rst:27
+msgid ""
+"Open the terminal on your machine and type  `python`, the output should "
+"resemble the following: ::"
+msgstr "Ouvrez le terminal de votre machine et tapez \"python\" , le résultat devrait être le suivant: ::"
+
+#: ..\..\install-doc-tools.rst:35
+msgid "Type `exit()` to exit the Python interpreter"
+msgstr "Tapez `exit()` pour sortir de l'interpréte Python."
+
+#: ..\..\install-doc-tools.rst:37
+msgid ""
+"If you get and error back make sure the Python executable is in your `PATH`."
+msgstr "Si vous obtenez une erreur , soyez sur que l'execution de Python est dans votre `PATH`."
+
+#: ..\..\install-doc-tools.rst:39
+msgid ""
+"If you are on Windows follow `theese instructions "
+"<https://docs.python.org/2/using/windows.html#excursus-setting-environment-"
+"variables>`_"
+msgstr "Si vous etes sur Windows suivez ses `instructions <https://docs.python.org/2/using/windows.html#excursus-setting-environment-variables>`_"
+
+#: ..\..\install-doc-tools.rst:41
+msgid ""
+"If you are on Linux locate the Python binary and add it to your PATH, edit "
+"your `~/.bashrc` and add the following at the end of the file: ::"
+msgstr "Si vous etes sur Linux , localisez le binaire de Python et ajoutez le à votre PATH , éditez votre `~/.bashrc` et ajoutez le à la fin du file: ::"
+
+#: ..\..\install-doc-tools.rst:46
+msgid "restart your terminal to make the change effective"
+msgstr "Redémarrez votre terminal pour rendre les changements efficaces."
+
+#: ..\..\install-doc-tools.rst:48
+msgid ""
+"Now check that you can invoke pip typing `pip --version`. The output should "
+"resemble the following: ::"
+msgstr "Maintenant vérifiez que vous pouvez faire référence à pip en tapant `pip --version`. Le résultat devrait etre comme cela: ::"
+
+#: ..\..\install-doc-tools.rst:52
+msgid ""
+"If you get and error back make sure the pip executable is in your `PATH`."
+msgstr "Si vous obtenez une erreur, soyez sur que le pip executable est dans votre `PATH`."
+
+#: ..\..\install-doc-tools.rst:55
+msgid "Install Sphinx"
+msgstr "Installez Sphinx"
+
+#: ..\..\install-doc-tools.rst:57
+msgid ""
+"To install Sphinx on your machine, type the following in your terminal: ::"
+msgstr "Pour installer sphinx sur votre machine, tapez cela dans votre terminal: ::"
+
+#: ..\..\install-doc-tools.rst:63
+msgid "If you are on Linux you may need to prefix the command with `sudo`"
+msgstr "Si vous etes sur Linux , vous pourrez avoir besoin de préfixer les commandes avec `sudo`."
+
+#: ..\..\install-doc-tools.rst:65
+msgid "Now test your installation: ::"
+msgstr "Maintenant , testez votre installation: ::"
+
+#: ..\..\install-doc-tools.rst:70
+msgid ""
+"For a more detailed installation guide refer to `this document "
+"<http://docs.geoserver.org/latest/en/docguide/install.html>`_"
+msgstr "Pour un guide d' installation plus détaillé , faites référence à `ce document  <http://docs.geoserver.org/latest/en/docguide/install.html>`_"
+
+#: ..\..\install-doc-tools.rst:73
+msgid "Check out documentation source"
+msgstr "Vérifiez la source de la documentation."
+
+#: ..\..\install-doc-tools.rst:75
+msgid ""
+"Since write acecss to the main documentation repository is restricted you "
+"may want to work on your personal `fork "
+"<https://help.github.com/articles/fork-a-repo/>`_. Login on Github with your"
+" account, navigate to the `documentation reposiroty <https://github.com"
+"/geosolutions-it/doc-geonode>`_ and click on `fork`. You will be redirected "
+"to your own fork of the documentation."
+msgstr "Vu que l'accés de l'écriture du dépot du document principal est limité , vous voulez peut être travailler avec votre `fork  <https://help.github.com/articles/fork-a-repo/>`_. Login  Github avec votre compte , naviguez dans le `dépot de la documentation <https://github.com/geosolutions-it/doc-geonode>`_ et cliquez sur `fork` . Vous serez redirigés sur votre propre fork de la documentation."
+
+#: ..\..\install-doc-tools.rst:80
+msgid ""
+"Make sure you already `configured your Git username and email address "
+"<https://help.github.com/articles/set-up-git/#setting-up-git>`_"
+msgstr "Soyez sur d'avoir déjà configuré votre `Git username et adresse email <https://help.github.com/articles/set-up-git/#setting-up-git>`_ "
+
+#: ..\..\install-doc-tools.rst:82
+msgid "Now clone your repository locally: ::"
+msgstr "Maintenant clonez votre dépot localement: ::"
+
+#: ..\..\install-doc-tools.rst:86
+msgid "where `your-user` is your username on GitHub."
+msgstr "Où `your-user` est votre username sur GitHub."
+
+#: ..\..\install-doc-tools.rst:88
+msgid "Now make the changes you want to the documentation."
+msgstr "Maintenant , faites les changements que vous voulez à la documentation."
+
+#: ..\..\install-doc-tools.rst:91
+msgid "Build the documentation"
+msgstr "Construisez la documentation."
+
+#: ..\..\install-doc-tools.rst:93
+msgid ""
+"To build the documentation locally on your machine, open the terminal and "
+"move to the project root directory, then run the following: ::"
+msgstr "Pour construire la documentation localement sur votre machine, ouvrez le terminal et allez au projet \" répertoire racine\" ,puis exécutez la commande suivante: ::"
+
+#: ..\..\install-doc-tools.rst:98
+msgid ""
+"The html version of the documentation will be build under the `build` "
+"subfolder. Use your favorite web browser to open the index file called "
+"`index.html`."
+msgstr "La version html du document sera construite dans le sous-dossier `build`. Utilisez votre web browser favori pour ouvrir l'index filed appelé `index.html`."
+
+#: ..\..\install-doc-tools.rst:101
+msgid ""
+"When you make changes to the documentation re-build it periodically to make "
+"sure the end result matches what you expect."
+msgstr "Quand vous faites des changements à la documentation , reconstruisez la périodiquement pour être sur que le résultat final reflette ce que vous attendiez."
+
+#: ..\..\install-doc-tools.rst:105
+msgid "Edit the documentation"
+msgstr "Editez la documentation."
+
+#: ..\..\install-doc-tools.rst:107
+msgid ""
+"The documentation is kept in reStructuredText format. For a quick reference "
+"refer to `this <http://docs.geoserver.org/latest/en/docguide/sphinx.html>`_ "
+"document. For a more in-depth document refer to the `official documentation "
+"<http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_."
+msgstr "La documentation est gardée dans un format de texte restructuré . Pour une rapide référence , référez vous à `cela <http://docs.geoserver.org/latest/en/docguide/sphinx.html>`_ document. Pour un document plus précis , faites référence à cette `documentation officielle  <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_."
+
+#: ..\..\install-doc-tools.rst:114
+msgid "Submit your changes to the main repository"
+msgstr "Référez vos changements au dépot principal."
+
+#: ..\..\install-doc-tools.rst:116
+msgid ""
+"You are done making changes to the documentation and you are ready to submit"
+" your changes. If you are new to Git make sure you grasped the basics of it "
+"before moving on. There are many sources of information online, you can "
+"Google for it or read `this <https://git-scm.com/book/en/v2/Getting-Started-"
+"Git-Basics>`_ introduction."
+msgstr "Vous avez terminés les modifications de la documentation et vous êtes prêt à soumettre vos changements . Si vous êtes nouveau à Git , assurez vous d'en avoir saisi les bases avant d'aller plus loin. Il y a plusieurs sources d'informations online , vous pouvez Google cela ou lire `ceci <https://git-scm.com/book/en/v2/Getting-Started-Git-Basics>` _ introduction."
+
+#: ..\..\install-doc-tools.rst:122
+msgid ""
+"Run `git status` and `git diff` to review the changes you made and re-build "
+"the documentation locally as explained above."
+msgstr "Exécute git status et git diff pour revoir les changements que vous avez fait et reconstruisez la documentation localement comme expliqué ci-dessus. "
+
+#: ..\..\install-doc-tools.rst:125
+msgid ""
+"Add the files with the changes you want to submit to the staging area ::"
+msgstr "Ajoutez les files avec les changements que vous voulez soumettre aux zones de transit ::"
+
+#: ..\..\install-doc-tools.rst:129
+msgid "And commit the changes ::"
+msgstr "Faites les modifications ::"
+
+#: ..\..\install-doc-tools.rst:133
+msgid "Then push them to your personal GitHub repository ::"
+msgstr "Puis poussez-les dans votre personel dépot GitHub ::"
+
+#: ..\..\install-doc-tools.rst:137
+msgid ""
+"Open your favorite browser and navigate to your GitHub repository. You will "
+"be able to see your latest commit along with a message stating that your "
+"branch is ahead of the main repository. Click on the 'pull request' button "
+"to make a pull request against the official documentation repository."
+msgstr "Ouvrez votre browser favori and naviguez sur votre dépot GitHub. Vous serez capable de voir le long votre dernièr commit avec un message déclarant que votre branch est devant le dépot principal. Cliquez sur le bouton 'pull request' pour faire une pull request contre le dépot officiel de la documentation."
+
+#: ..\..\install-doc-tools.rst:142
+msgid ""
+"Create a pull request with a brief description of what you did. The pull "
+"request will be reviewed and eventually merged into the official "
+"documentation repository."
+msgstr "Créez une pull request avec une brève description de ce que vous avez fait. La pull request revue et eventuellement fusionné dans le dépot de la documentation officielle."

@@ -14,15 +14,23 @@ Welcome to the GeoNode Training Documentation.
 2. Translate pot file using Transifex or Poedit
 
 3. Save .po and .mo files into
-
+    
     $ i18n/$(LANG)/LC_MESSAGES
+    
+    Note: Transifex allows to download .po file. Once the translation is ready, select "Download for use" in order to get the .po translated version.
+          Put the .po tranlsated file into 'i18n/$(LANG)/LC_MESSAGES' and rename it as the original .pot file maintaining the .po extension.
+          Use the command 'sphinx-intl build' in order to generate the .mo compiled translation for Sphinx.
+          
+          The 'sphinx-intl' can be installed with 'pip install sphinx-intl'
+    
+    More: http://sphinx-doc.org/latest/intl.html
     
 4. Build the doc
 
     # Windows
     $ make html en
     
-    #Linux
+    # Linux
     $ make html LANG=en
 
 ##License Information

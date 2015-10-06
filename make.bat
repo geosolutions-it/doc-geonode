@@ -6,6 +6,7 @@ if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=sphinx-build
 )
 
+set ALLSPHINXOPTS=-d %BUILDDIR%/doctrees %SPHINXOPTS% .
 set LANG=
 if NOT "%2" == "" (
 	set LANG=%2
@@ -19,7 +20,6 @@ if "%LANG%" == "" (
     set BUILDDIR=_build
 )
 
-set ALLSPHINXOPTS=-d %BUILDDIR%/doctrees %SPHINXOPTS% .
 if NOT "%PAPER%" == "" (
 	set ALLSPHINXOPTS=-D latex_paper_size=%PAPER% %ALLSPHINXOPTS%
 )
@@ -54,6 +54,7 @@ if "%1" == "clean" (
 )
 
 if "%1" == "html" (
+    rem echo %SPHINXBUILD% -b html %ALLSPHINXOPTS% %BUILDDIR%/html
 	%SPHINXBUILD% -b html %ALLSPHINXOPTS% %BUILDDIR%/html
 	if errorlevel 1 exit /b 1
 	echo.

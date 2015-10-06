@@ -45,10 +45,6 @@ nosetests.xml
 coverage.xml
 *,cover
 
-# Translations
-*.mo
-*.po
-
 # Django stuff:
 *.log
 

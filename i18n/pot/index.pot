@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-05 16:41+0200\n"
+"POT-Creation-Date: 2015-10-06 10:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,6 +59,8 @@ msgstr ""
 #: ..\..\index.rst:44
 #: ..\..\index.rst:65
 #: ..\..\index.rst:84
+#: ..\..\index.rst:91
+#: ..\..\index.rst:99
 msgid "*Prerequisites*"
 msgstr ""
 
@@ -183,128 +185,143 @@ msgstr ""
 msgid "Good knowledge of HTML and CSS."
 msgstr ""
 
-#: ..\..\index.rst:87
+#: ..\..\index.rst:91
 msgid ":ref:`dev_workshop`"
 msgstr ""
 
 #: ..\..\index.rst:87
-#: ..\..\index.rst:90
-msgid "section where <<TODO>>."
+msgid "This workshop will teach how to develop with and for the `GeoNode <http://geonode.org>`_ software application. This module will introduce you to the components that GeoNode is built with, the standards that it supports and the services it provides based on those standards, and an overview its architecture."
 msgstr ""
 
-#: ..\..\index.rst:90
-msgid ":ref:`adv_workshop`"
-msgstr ""
-
-#: ..\..\index.rst:93
-msgid "Editing the documentation"
-msgstr ""
-
-#: ..\..\index.rst:95
-msgid "This documentation is written in `reStructuredText <https://en.wikipedia.org/wiki/ReStructuredText>`_ format and automatically build from `this GitHub repository <https://github.com/geosolutions-it/doc-geonode>`_ To edit the documentation you'll need the following tools:"
+#: ..\..\index.rst:91
+msgid "GeoNode is a web based GIS tool, and as such, in order to do development on GeoNode itself or to integrate it into your own application, you should be familiar with basic web development concepts as well as with general GIS concepts."
 msgstr ""
 
 #: ..\..\index.rst:99
+msgid ":ref:`adv_workshop`"
+msgstr ""
+
+#: ..\..\index.rst:94
+msgid "This module introduces advanced tecquinques and metodologies for the management of the geospatial data and the maintenance and tuning of the servers on *Production Environments*."
+msgstr ""
+
+#: ..\..\index.rst:96
+msgid "The last sections of the module will teach also you how to add brand new classes and functionalities to your GeoNode installation."
+msgstr ""
+
+#: ..\..\index.rst:99
+msgid "You should be familiar with GeoNode, GeoServer, Python framework and development concepts other than with system administrator and caching concepts and tecnquiques."
+msgstr ""
+
+#: ..\..\index.rst:102
+msgid "Editing the documentation"
+msgstr ""
+
+#: ..\..\index.rst:104
+msgid "This documentation is written in `reStructuredText <https://en.wikipedia.org/wiki/ReStructuredText>`_ format and automatically build from `this GitHub repository <https://github.com/geosolutions-it/doc-geonode>`_ To edit the documentation you'll need the following tools:"
+msgstr ""
+
+#: ..\..\index.rst:108
 msgid "`Git <http://en.wikipedia.org/wiki/Git_(software)>`_"
 msgstr ""
 
-#: ..\..\index.rst:100
+#: ..\..\index.rst:109
 msgid "`Python <https://www.python.org/>`_ and `pip <https://en.wikipedia.org/wiki/Pip_(package_manager)>`_ (recent versions of Python come bundled with pip)"
 msgstr ""
 
-#: ..\..\index.rst:101
+#: ..\..\index.rst:110
 msgid "`Sphinx <http://sphinx-doc.org/index.html>`_"
 msgstr ""
 
-#: ..\..\index.rst:103
+#: ..\..\index.rst:112
 msgid "For installation and basic usage of the tools follow `these <./install-doc-tools.html>`_ instructions"
 msgstr ""
 
-#: ..\..\index.rst:106
+#: ..\..\index.rst:115
 msgid "License Information"
 msgstr ""
 
-#: ..\..\index.rst:109
+#: ..\..\index.rst:118
 msgid "Documentation"
 msgstr ""
 
-#: ..\..\index.rst:111
+#: ..\..\index.rst:120
 msgid "Documentation is released under a :term:`Creative Commons` license with the following conditions."
 msgstr ""
 
-#: ..\..\index.rst:113
+#: ..\..\index.rst:122
 msgid "You are free to Share (to copy, distribute and transmit) and to Remix (to adapt) the documentation under the following conditions:"
 msgstr ""
 
-#: ..\..\index.rst:115
+#: ..\..\index.rst:124
 msgid "Attribution. You must attribute the documentation to the author."
 msgstr ""
 
-#: ..\..\index.rst:117
+#: ..\..\index.rst:126
 msgid "Share Alike. If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one."
 msgstr ""
 
-#: ..\..\index.rst:119
+#: ..\..\index.rst:128
 msgid "With the understanding that:"
 msgstr ""
 
-#: ..\..\index.rst:121
+#: ..\..\index.rst:130
 msgid "Any of the above conditions can be waived if you get permission from the copyright holder."
 msgstr ""
 
-#: ..\..\index.rst:123
+#: ..\..\index.rst:132
 msgid "Public Domain. Where the work or any of its elements is in the public domain under applicable law, that status is in no way affected by the license."
 msgstr ""
 
-#: ..\..\index.rst:125
+#: ..\..\index.rst:134
 msgid "Other Rights. In no way are any of the following rights affected by the license:"
 msgstr ""
 
-#: ..\..\index.rst:127
+#: ..\..\index.rst:136
 msgid "Your fair dealing or fair use rights, or other applicable copyright exceptions and limitations;"
 msgstr ""
 
-#: ..\..\index.rst:129
+#: ..\..\index.rst:138
 msgid "The author's moral rights;"
 msgstr ""
 
-#: ..\..\index.rst:131
+#: ..\..\index.rst:140
 msgid "Rights other persons may have either in the work itself or in how the work is used, such as publicity or privacy rights."
 msgstr ""
 
-#: ..\..\index.rst:133
+#: ..\..\index.rst:142
 msgid "Notice: For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page."
 msgstr ""
 
-#: ..\..\index.rst:135
+#: ..\..\index.rst:144
 msgid "You may obtain a copy of the License at `Creative Commons Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0/>`_"
 msgstr ""
 
-#: ..\..\index.rst:137
+#: ..\..\index.rst:146
 msgid "The document is written in reStructuredText format for consistency and portability."
 msgstr ""
 
-#: ..\..\index.rst:140
+#: ..\..\index.rst:149
 msgid "Author Information"
 msgstr ""
 
-#: ..\..\index.rst:142
+#: ..\..\index.rst:151
 msgid "This documentation was written by GeoSolutions."
 msgstr ""
 
-#: ..\..\index.rst:144
+#: ..\..\index.rst:153
 msgid "The layout for the reStructuredText based documentation is based on the work done by the `GeoNode <http://geonode.org/>`_ project and the `Sphinx <http://sphinx.pocoo.org/>`_ framework."
 msgstr ""
 
-#: ..\..\index.rst:146
+#: ..\..\index.rst:155
 msgid "If you have questions, found a bug or have enhancements, please contact us through info@geosolutions.it"
 msgstr ""
 
-#: ..\..\index.rst:149
+#: ..\..\index.rst:158
 msgid "Creative Commons"
 msgstr ""
 
-#: ..\..\index.rst:151
+#: ..\..\index.rst:160
 msgid "`Creative Commons Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0/>`_ Creative Commons (CC) is a non-profit organization devoted to expanding the range of creative works available for others to build upon legally and to share. The organization has released several copyright-licenses known as Creative Commons licenses free of charge to the public. These licenses allow creators to communicate which rights they reserve, and which rights they waive for the benefit of recipients or other creators. An easy-to-understand one-page explanation of rights, with associated visual symbols, explains the specifics of each Creative Commons license. Creative Commons licenses do not replace copyright, but are based upon it. They replace individual negotiations for specific rights between copyright owne (licensor) and licensee, which are necessary under an \"all rights reserved\" copyright management, with a \"some rights reserved\" management employing standardized licenses for re-use cases where no commercial compensation is sought by the copyright owner. The result is an agile, low-overhead and low-cost copyright-management regime, profiting both copyright owners and licensees."
 msgstr ""
 
