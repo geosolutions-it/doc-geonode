@@ -83,6 +83,7 @@ The resulting configuration file should look like this:
 
     ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '::1']
     PROXY_ALLOWED_HOSTS = ("127.0.0.1", 'localhost', '::1')
+    POSTGIS_VERSION = (2, 1, 2)
 
     DATABASES = {
         'default': {
