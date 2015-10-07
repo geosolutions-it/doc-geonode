@@ -17,10 +17,14 @@ The last sections of the module will teach also you how to add brand new classes
     :hidden:
     
     001_adv_data_mgmt/index
-    002_geonode_production/index
+    002_geonode_settings/index
+    003_geonode_production/index
 
 :ref:`adv_data_mgmt`
-    TODO
+    Advanced Data Management and Processing tecquiques.
+
+:ref:`geonode_settings`
+    Learn how to deal with advanced GeoNode configuration settings and external DJango Apps.
 
 :ref:`geonode_production`
-    TODO
+    Concepts and tecquinques for the deployment af GeoNode and GeoServer on a Production system.
