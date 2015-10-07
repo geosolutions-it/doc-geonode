@@ -10,6 +10,12 @@ Once installed on a system, ``rest-client`` can be included in a Ruby script by 
 GET and PUT Settings
 --------------------
 
+.. note:: In order to execute the example just copy the script content into a ``test.ruby`` file and execute the following command:
+
+    .. code-block:: console
+        
+        $ ruby test.ruby
+
 This example shows how to read the settings using GET, make a change and then use PUT to write the change to the server.
 
 .. code-block:: ruby

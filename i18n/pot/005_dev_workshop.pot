@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-06 18:58+0200\n"
+"POT-Creation-Date: 2015-10-07 13:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,7 +84,7 @@ msgid "Introduction to GeoNode development"
 msgstr ""
 
 #: ..\..\005_dev_workshop\001_devel_intro\index.rst:7
-#: ..\..\005_dev_workshop\index.rst:24
+#: ..\..\005_dev_workshop\index.rst:26
 msgid "This module will introduce you to the components that GeoNode is built with, the standards that it supports and the services it provides based on those standards, and an overview its architecture."
 msgstr ""
 
@@ -628,6 +628,7 @@ msgid "install the *httpie* utility via pip"
 msgstr ""
 
 #: ..\..\005_dev_workshop\002_devel_core\exercises.rst:46
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\python.rst:4
 msgid "Python"
 msgstr ""
 
@@ -644,7 +645,7 @@ msgid "Development Prerequsites and Core Modules"
 msgstr ""
 
 #: ..\..\005_dev_workshop\002_devel_core\index.rst:6
-#: ..\..\005_dev_workshop\index.rst:27
+#: ..\..\005_dev_workshop\index.rst:29
 msgid "This module will introduce you to the basic tools and skills required to start actively developing GeoNode."
 msgstr ""
 
@@ -910,7 +911,7 @@ msgid "In order to install Geonode 2.0 in developing mode on Ubuntu 12.04 the fo
 msgstr ""
 
 #: ..\..\005_dev_workshop\003_devel_env\index.rst:9
-#: ..\..\005_dev_workshop\index.rst:34
+#: ..\..\005_dev_workshop\index.rst:36
 msgid "For Windows: (:ref:`install_win_devmode`)"
 msgstr ""
 
@@ -1146,6 +1147,7 @@ msgid "To activate your virtualenv you just need to type"
 msgstr ""
 
 #: ..\..\005_dev_workshop\003_devel_env\index.rst:356
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:14
 msgid "or"
 msgstr ""
 
@@ -1588,6 +1590,17 @@ msgid "Logging is controlled by the contents of the logging data structure defin
 msgstr ""
 
 #: ..\..\005_dev_workshop\004_devel_debug\python.rst:21
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:64
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:211
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:288
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:391
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:445
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:488
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:565
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:621
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:653
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:735
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:803
 msgid "Output"
 msgstr ""
 
@@ -1671,16 +1684,2831 @@ msgstr ""
 msgid "To set a breakpoint, insert the following code before the code to debug."
 msgstr ""
 
-#: ..\..\005_dev_workshop\004_devel_debug\python.rst:82
-msgid "..code-block:: python"
-msgstr ""
-
-#: ..\..\005_dev_workshop\004_devel_debug\python.rst:84
-msgid "import pdb; pdb.set_strace()"
-msgstr ""
-
 #: ..\..\005_dev_workshop\004_devel_debug\python.rst:86
 msgid "When execution reaches this statement, the debugger will activate. The commands are noted in the link above. In addition to those debugger specific commands, general python statements are supported. For example, typing the name of a variable in scope will yield the value via string coersion. Typing \"n\" will execute the next line, \"c\" wil continue the execution of the program, \"q\" will quit."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:5
+msgid "gsconfig"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:7
+msgid "gsconfig is a python library for manipulating a GeoServer instance via the GeoServer RESTConfig API."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:9
+msgid "The project is distributed under a `MIT License <LICENSE.txt>`_ ."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:12
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:10
+msgid "Installing"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:18
+msgid "For developers:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:27
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:21
+msgid "Getting Help"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:28
+msgid "There is a brief manual at http://boundlessgeo.github.io/gsconfig/ . If you have questions, please ask them on the GeoServer Users mailing list: http://geoserver.org/comm/ ."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:31
+msgid "Please use the Github project at http://github.com/boundlessgeo/gsconfig for any bug reports (and pull requests are welcome, but please include tests where possible.)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:34
+msgid "Sample Layer Creation Code"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:58
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:26
+msgid "Running Tests"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:60
+msgid "Since the entire purpose of this module is to interact with GeoServer, the test suite is mostly composed of `integration tests <http://en.wikipedia.org/wiki/Integration_testing>`_. These tests necessarily rely on a running copy of GeoServer, and expect that this GeoServer instance will be using the default data directory that is included with GeoServer. This data is also included in the GeoServer source repository as ``/data/release/``. In addition, it is expected that there will be a postgres database available at ``postgres:password@localhost:5432/db``. You can test connecting to this database with the ``psql`` command line client by running ``$ psql -d db -Upostgres -h localhost -p 5432`` (you will be prompted interactively for the password.)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:66
+msgid "To override the assumed database connection parameters, the following environment variables are supported:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:68
+msgid "DATABASE"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:69
+msgid "DBUSER"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:70
+msgid "DBPASS"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:72
+msgid "If present, psycopg will be used to verify the database connection prior to running the tests."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:74
+msgid "If provided, the following environment variables will be used to reset the data directory:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:77
+msgid "GEOSERVER_HOME"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:77
+msgid "Location of git repository to read the clean data from. If only this option is provided `git clean` will be used to reset the data."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:80
+msgid "GEOSERVER_DATA_DIR"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:80
+msgid "Optional location of the data dir geoserver will be running with. If provided, `rsync` will be used to reset the data."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:85
+msgid "GS_VERSION"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:83
+msgid "Optional environment variable allowing the catalog test cases to automatically download and start a vanilla GeoServer WAR form the web. Be sure that there are no running services on HTTP port 8080."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:87
+msgid "Here are the commands that I use to reset before running the gsconfig tests:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:100
+msgid "At this point, GeoServer will be running foregrounded, but it will take a few seconds to actually begin listening for http requests. You can stop it with ``CTRL-C`` (but don't do that until you've run the tests!) You can run the gsconfig tests with the following command:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:108
+msgid "Instead of restarting GeoServer after each run to reset the data, the following should allow re-running the tests:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:116
+msgid "More Examples - Updated for GeoServer 2.4+"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:118
+msgid "Loading the GeoServer ``catalog`` using ``gsconfig`` is quite easy. The example below allows you to connect to GeoServer by specifying custom credentials."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:125
+msgid "The code below allows you to create a FeatureType from a Shapefile"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:146
+msgid "It is possible to create JDBC Virtual Layers too. The code below allow to create a new SQL View called ``my_jdbc_vt_test`` defined by a custom ``sql``."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:165
+msgid "This example shows how to easily update a ``layer`` property. The same approach may be used with every ``catalog`` resource"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:174
+msgid "Deleting a ``store`` from the ``catalog`` requires to purge all the associated ``layers`` first. This can be done by doing something like this:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:184
+msgid "There are some functionalities allowing to manage the ``ImageMosaic`` coverages. It is possible to create new ImageMosaics, add granules to them, and also read the coverages metadata, modify the mosaic ``Dimensions`` and finally query the mosaic ``granules`` and list their properties."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:187
+msgid "The gsconfig methods map the `REST APIs for ImageMosaic <http://docs.geoserver.org/stable/en/user/rest/examples/curl.html#uploading-and-modifying-a-image-mosaic>`_"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:189
+msgid "In order to create a new ImageMosaic layer, you can prepare a zip file containing the properties files for the mosaic configuration. Refer to the GeoTools ImageMosaic Plugin guide in order to get details on the mosaic configuration. The package contains an already configured zip file with two granules. You need to update or remove the ``datastore.properties`` file before creating the mosaic otherwise you will get an exception."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:199
+msgid "By defualt the ``cat.create_imagemosaic`` tries to configure the layer too. If you want to create the store only, you can specify the following parameter"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:205
+msgid "In order to retrieve from the catalog the ImageMosaic coverage store you can do this"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:211
+msgid "It is possible to add more granules to the mosaic at runtime. With the following method you can add granules already present on the machine local path."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:218
+msgid "The method below allows to send granules remotely via POST to the ImageMosaic. The granules will be uploaded and stored on the ImageMosaic index folder."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:225
+msgid "To delete an ImageMosaic store, you can follow the standard approach, by deleting the layers first. *ATTENTION*: at this time you need to manually cleanup the data dir from the mosaic granules and, in case you used a DB datastore, you must also drop the mosaic tables."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:236
+msgid "The method below allows you the load and update the coverage metadata of the ImageMosaic. You need to do this for every coverage of the ImageMosaic of course."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:245
+msgid "By default the ImageMosaic layer has not the coverage dimensions configured. It is possible using the coverage metadata to update and manage the coverage dimensions. *ATTENTION*: notice that the ``presentation`` parameters accepts only one among the following values {'LIST', 'DISCRETE_INTERVAL', 'CONTINUOUS_INTERVAL'}"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:255
+msgid "One the ImageMosaic has been configures, it is possible to read the coverages along with their granule schema and granule info."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:266
+msgid "The granules details can be easily read by doing something like this:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:276
+msgid "When the mosaic grows up and starts having a huge set of granules, you may need to filter the granules query through a CQL filter on the coverage schema attributes."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:5
+msgid "gsimporter"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:7
+msgid "gsimporter is a python library for using GeoServer's importer API."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:12
+msgid "pip install gsconfig"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:16
+msgid "git clone https://github.com/boundlessgeo/gsimporter.git cd gsimporter pip install ."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:23
+msgid "Please use the Github project at http://github.com/boundlessgeo/gsimporter for any bug reports (and pull requests are welcome, but please include tests where possible.)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:28
+msgid "The tests are integration tests. These require having a running GeoServer instance with the community/importer modules installed. Because some of the tests use a postgres database, a data base is required to run. **It is strongly advised to run with a data directory you don't care about.**"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:30
+msgid "The test suite will first attempt to verify a connection to GeoServer and a connection to the database. If the default values are not appropriate, provide them via environment variables on the command line or via `export`. For example::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:34
+msgid "A convenient way to deal with connection or other settings (besides setting things up to use the defaults) is to put them all in a bash (or other shell) script."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:36
+msgid "The tests are designed to create a workspace named `importer` and `importer2` for use in testing. `importer` will be set to the default workspace. As much as possible, things are cleaned up after test execution."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:38
+msgid "To run all of the tests, one way is via `setup.py`. `python setup.py test` should do the trick."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:40
+msgid "If developing and finer grained control is desired, specific tests and other flags can be provided using `python test/uploadtests.py`. Supported arguments are:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:42
+msgid "**--clean** delete layers and stores in the test workspaces. useful for cleanup."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:43
+msgid "**--skip-teardown** don't delete things after running. may cause errors but useful for a single test."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:45
+msgid "To run a single case (or drop the method name to run the whole class)::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geonode\index.rst:4
+msgid "GeoNode's Ad-Hoc API"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:4
+msgid "cURL"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:6
+msgid "The examples in this section use `cURL <http://curl.haxx.se/>`_, a command line tool for executing HTTP requests and transferring files, to generate requests to GeoServer's REST interface. Although the examples are based on cURL, they could be adapted for any HTTP-capable tool or library. Please be aware, that cURL acts not entirely the same as a web-browser. In contrast to Mozilla Firefox or Google Chrome cURL will not escape special characters in your request-string automatically. To make sure, that your requests can be processed correctly, make sure, that characters like paranthesis, commas and the like are escaped before sending them via cURL. If you use libcurl in PHP 5.5 or newer you can prepare the url-string using the function curl_escape. In older versions of PHP hmlspecialchars should do the job also."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:19
+msgid "Adding a new workspace"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:21
+msgid "The following creates a new workspace named \"acme\" with a POST request:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:23
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:84
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:213
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:244
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:331
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:385
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:436
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:486
+msgid "Each code block below contains a single command that may be extended over multiple lines."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:29
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:92
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:168
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:195
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:219
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:229
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:283
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:337
+msgid "If executed correctly, the response should contain the following::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:35
+msgid "Note the ``Location`` response header, which specifies the location (URI) of the newly created workspace."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:37
+msgid "The workspace information can be retrieved as XML with a GET request:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:43
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:102
+msgid "The response should look like this:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:66
+msgid "This shows that the workspace can contain \"``dataStores``\" (for :ref:`vector data <data_vector>`), \"``coverageStores``\" (for :ref:`raster data <data_raster>`), and \"``wmsStores``\" (for :ref:`cascaded WMS servers <data_external_wms>`)."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:70
+msgid "The ``Accept`` header is optional. The following request omits the ``Accept`` header, but will return the same response as above."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:78
+msgid "Uploading a shapefile"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:80
+msgid "In this example a new store will be created by uploading a shapefile."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:82
+msgid "The following request uploads a zipped shapefile named :download:`roads.zip <resources/shapefiles/roads.zip>` and creates a new store named ``roads``."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:90
+msgid "The ``roads`` identifier in the URI refers to the name of the store to be created. To create a store named ``somethingelse``, the URI would be  ``http://localhost/geoserver/rest/workspaces/acme/datastores/somethingelse/file.shp``"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:96
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:341
+msgid "The store information can be retrieved as XML with a GET request:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:127
+msgid "By default when a shapefile is uploaded, a feature type is automatically created. The feature type information can be retrieved as XML with a GET request:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:133
+msgid "If executed correctly, the response will be:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:148
+msgid "The remainder of the response consists of layer metadata and configuration information."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:150
+msgid "Notice that the name of the Layer (and of the FeatureType) corresponds to the physical name of the ShapeFile contained into the archive."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:154
+msgid "Adding an existing shapefile"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:156
+msgid "In the previous example a shapefile was uploaded directly to GeoServer by sending a zip file in the body of a PUT request. This example shows how to publish a shapefile that already exists on the server."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:158
+msgid "Consider a directory on the server ``/data/shapefiles`` that contains the shapefile ``rivers.shp``. The following adds a new store for the shapefile:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:160
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:187
+msgid "In order to execute the exercise, create a folder ``shapefiles`` somewhere on the server and extract there the :download:`shapefiles.zip <resources/shapefiles/shapefiles.zip>`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:166
+msgid "The ``external.shp`` part of the request URI indicates that the file is coming from outside the catalog."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:172
+msgid "The shapefile will be added to the existing store and published as a layer."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:174
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:199
+msgid "To verify the contents of the store, execute a GET request. Since the XML response only provides details about the store itself without showing its contents, execute a GET request for HTML:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:181
+msgid "Adding a directory of existing shapefiles"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:183
+msgid "This example shows how to load and create a store that contains a number of shapefiles, all with a single operation. This example is very similar to the example above of adding a single shapefile."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:185
+msgid "Consider a directory on the server ``/data/shapefiles`` that contains multiple shapefiles. The following adds a new store for the directory."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:193
+msgid "Note the ``configure=all`` query string parameter, which sets each shapefile in the directory to be loaded and published."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:207
+msgid "Creating a layer style"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:209
+msgid "This example will create a new style on the server and populate it the contents of a local SLD file."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:211
+msgid "The following creates a new style named ``roads_style``:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:223
+msgid "This request uploads a file called :download:`roads.sld <resources/roads.sld>` file and populates the ``roads_style`` with its contents:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:233
+msgid "The SLD itself can be downloaded through a a GET request:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:240
+msgid "Changing a layer style"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:242
+msgid "This example will alter a layer style. Prior to making any changes, it is helpful to view the existing configuration for a given layer."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:246
+msgid "The following retrieves the \"acme:roads\" layer information as XML:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:252
+msgid "The response in this case would be:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:273
+msgid "When the layer is created, GeoServer assigns a default style to the layer that matches the geometry of the layer. In this case a style named ``line`` is assigned to the layer. This style can viewed with a WMS request::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:277
+msgid "In this next example a new style will be created called ``roads_style`` and assigned to the \"acme:roads\" layer:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:287
+msgid "The new style can be viewed with the same WMS request as above::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:291
+msgid "Note that if you want to upload the style in a workspace (ie, not making it a global style), and then assign this style to a layer in that workspace, you need first to create the style in the given workspace::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:296
+msgid "Upload the file within the workspace::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:300
+msgid "And finally apply that style to the layer. Note the use of the ``<workspace>`` tag in the XML::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:305
+msgid "Adding a PostGIS database"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:307
+msgid "In this example a PostGIS database named ``nyc`` will be added as a new store."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:309
+msgid "This section assumes that a PostGIS database named ``nyc`` is present on the local system and is accessible by the user ``bob``."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:311
+msgid "In order to create and setup the database locally, follow the instructions at :ref:`setup_nyc_db`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:313
+msgid "Create a new text file and add the following content to it. This will represent the new store. Save the file as :file:`nycDataStore.xml`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:329
+msgid "The following will add the new PostGIS store to the GeoServer catalog:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:347
+msgid "The response should look like the following:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:377
+msgid "Adding a PostGIS table"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:379
+msgid "In this example a table from the PostGIS database created in the previous example will be added as a featuretypes."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:381
+msgid "This example assumes the table has already been created and the ``tiger_roads`` Layer deleted in case you have executed the previous steps."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:383
+msgid "The following adds the table ``tiger_roads`` as a new feature type:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:393
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:444
+msgid "The featuretype information can be retrieved as XML with a GET request:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:399
+msgid "This layer can viewed with a WMS GetMap request::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:405
+msgid "Creating a PostGIS table"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:407
+msgid "In the previous example, a new feature type was added based on a PostGIS table that already existed in the database. The following example will not only create a new feature type in GeoServer, but will also create the PostGIS table itself."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:409
+msgid "Create a new text file and add the following content to it. This will represent the definition of the new feature type and table. Save the file as :file:`annotations.xml`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:434
+msgid "This request will perform the feature type creation and add the new table:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:442
+msgid "The result is a new, empty table named \"annotations\" in the \"nyc\" database, fully configured as a feature type."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:451
+msgid "Creating a layer group"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:453
+msgid "This example assumes the tables has already been created and the ``tiger_roads``, ``poly_landmarks``, ``poi``, ``giant_polygon`` Layers have been created."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:463
+msgid "In this example a layer group will be created, based on layers that already exist on the server."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:465
+msgid "Create a new text file and add the following content to it. This file will represent the definition of the new layer group. Save the file as :file:`nycLayerGroup.xml`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:484
+msgid "The following request creates the new layer group:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:492
+msgid "The argument ``-d@filename.xml`` in this example is used to send a file as the body of an HTTP request with a POST method. The argument ``-T filename.xml`` used in the previous example was used to send a file as the body of an HTTP request with a PUT method."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:494
+msgid "This layer group can be viewed with a WMS GetMap request::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:500
+msgid "Retrieving component versions"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:502
+msgid "This example shows how to retrieve the versions of the main components: GeoServer, GeoTools, and GeoWebCache:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:504
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:537
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:550
+msgid "The code block below contains a single command that is extended over multiple lines."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:510
+msgid "The response will look something like this:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:532
+msgid "Retrieving manifests"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:534
+msgid "This collection of examples shows how to retrieve the full manifest and subsets of the manifest as known to the ClassLoader."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:543
+msgid "The result will be a very long list of manifest information. While this can be useful, it is often desirable to filter this list."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:546
+msgid "Filtering over resource name"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:548
+msgid "It is possible to filter over resource names using regular expressions. This example will retrieve only resources where the ``name`` attribute matches ``gwc-.*``:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:556
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:610
+msgid "The result will look something like this (edited for brevity):"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:600
+msgid "Filtering over resource properties"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:602
+msgid "Filtering is also available over resulting resource properties. This example will retrieve only resources with a property equal to ``GeoServerModule``."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:604
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:637
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:803
+msgid "The code blocks below contain a single command that is extended over multiple lines."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:626
+msgid "It is also possible to filter against both property and value. To retrieve only resources where a property named ``GeoServerModule`` has a value equal to ``extension``, append the above request with ``&value=extension``:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:633
+msgid "Uploading and modifying a image mosaic"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:635
+msgid "The following command uploads a :download:`polyphemus.zip` file containing the definition of a mosaic (along with at least one granule of the mosaic to initialize the resolutions, overviews and the like) and will configure all the coverages in it as new layers."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:643
+msgid "The following instead instructs the mosaic to harvest (or re-harvest) a single file into the mosaic, collecting its properties and updating the mosaic index:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:649
+msgid "Harvesting can also be directed towards a whole directory, as follows:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:655
+msgid "The image mosaic index structure can be retrieved using something like:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:661
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:822
+msgid "which will result in the following:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:721
+msgid "Listing the existing granules can be performed as follows:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:727
+msgid "This will result in a GML description of the granules, as follows:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:786
+msgid "Removing all the granules originating from a particular file (a NetCDF file can contain many) can be done as follows:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:793
+msgid "Creating an empty mosaic and harvest granules"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:795
+msgid "The next command uploads an :download:`empty.zip` file. This archive contains the definition of an empty mosaic (no granules in this case) through the following files::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:802
+msgid "**Make sure to update the datastore.properties file** with your connection params and refresh the zip when done, before uploading it."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:804
+msgid "The configure=none parameter allows for future configuration after harvesting"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:810
+msgid "The following instead instructs the mosaic to harvest a single :download:`polyphemus_20120401.nc` file into the mosaic, collecting its properties and updating the mosaic index:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:816
+msgid "Once done you can get the list of coverages/granules available on that store."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:831
+msgid "Next step is configuring ONCE for coverage (as an instance NO2), an available coverage."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:837
+msgid "Where coverageconfig.xml may look like this"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:845
+msgid "When specifying only the coverage name, the coverage will be automatically configured"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:849
+msgid "Master Password Change"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:851
+msgid "The master password can be fetched wit a GET request."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:857
+msgid "A generated master password may be **-\"}3a^Kh**. Next step is creating an XML file."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:859
+msgid "File changes.xml"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:868
+msgid "Changing the master password using the file:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\index.rst:4
+msgid "REST configuration examples"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\index.rst:6
+msgid "This section contains a number of examples which illustrate various uses of the :ref:`REST configuration API <rest_api>`. The examples are grouped by the language or environment used."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\java.rst:4
+msgid "Java"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\java.rst:6
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\python.rst:6
+msgid "We are looking for volunteers to flesh out this section with examples."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\java.rst:8
+msgid "In the meantime, anyone looking to do Java scripting of the GeoServer REST API should use `GeoServer Manager <https://github.com/geosolutions-it/geoserver-manager/wiki/>`_, a REST client library with minimal dependencies on external libraries."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\java.rst:10
+msgid "Another option is `gsrcj <http://code.google.com/p/gsrcj/>`_.  This project is a GeoServer REST client written in Java with no extra dependencies on GeoServer/GeoTools, unlike the standard GeoServer REST module.  The project has minimal documentation, but does include a `Quickstart <http://code.google.com/p/gsrcj/wiki/Quickstart>`_."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:4
+msgid "PHP"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:6
+msgid "The examples in this section use the server-side scripting language `PHP <http://php.net/index.php/>`_, a popular language for dynamic webpages. PHP has `cURL functions <http://php.net/manual/en/ref.curl.php/>`_ , as well as `XML functions <http://www.php.net/manual/en/refs.xml.php/>`_, making it a convenient method for performing batch processing through the Geoserver REST interface. The following scripts execute single requests, but can be easily modified with looping structures to perform batch processing."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:9
+msgid "In order to execute the examples just copy the script content into a ``test.php`` file and execute the following command:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:16
+msgid "POST with PHP/cURL"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:18
+msgid "The following script attempts to add a new workspace."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:70
+msgid "The logfile should look something like::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:95
+msgid "If the cURL request fails, a code other than 201 will be returned. Here are some possible values:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:99
+msgid "Code"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:99
+msgid "Meaning"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:101
+msgid "0"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:101
+msgid "Couldn't resolve host; possibly a typo in host name"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:103
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:743
+msgid "201"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:103
+msgid "Successful POST"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:105
+msgid "30x"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:105
+msgid "Redirect; possibly a typo in the URL"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:107
+msgid "401"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:107
+msgid "Invalid username or password"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:109
+msgid "405"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:109
+msgid "Method not Allowed: check request syntax"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:111
+msgid "500"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:111
+msgid "Geoserver is unable to process the request, e.g. the workspace already exists, the xml is malformed, ..."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:115
+msgid "For other codes see `cURL Error Codes <http://curl.haxx.se/libcurl/c/libcurl-errors.html>`_ and `HTTP Codes <http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html>`_."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:118
+msgid "GET with PHP/cURL"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:120
+msgid "The script above can be modified to perform a GET request to obtain the names of all workspaces by replacing the code blocks for required settings, data and return code with the following:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:137
+msgid "The logfile should now include lines like::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:144
+msgid "DELETE with PHP/cURL"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:146
+msgid "To delete the (empty) workspace we just created, the script is modified as follows:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:170
+msgid "The log file will include lines like::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\python.rst:8
+msgid "In the meantime, anyone looking to do python scripting of the GeoServer REST config API should use `gsconfig.py <https://github.com/dwins/gsconfig.py/wiki>`_. It is quite capable, and is used in production as part of `GeoNode <http://geonode.org>`_, so examples can be found in that codebase. Documentation and examples can be found at the section :ref:`geonode_lib_apis`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\ruby.rst:4
+msgid "Ruby"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\ruby.rst:6
+msgid "The examples in this section use `rest-client <http://github.com/archiloque/rest-client>`_, a REST client for Ruby. There is also a project to create a GeoServer-specific REST client in Ruby: `RGeoServer <https://github.com/rnz0/rgeoserver>`_."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\ruby.rst:8
+msgid "Once installed on a system, ``rest-client`` can be included in a Ruby script by adding ``require 'rest-client'``."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\ruby.rst:11
+msgid "GET and PUT Settings"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\ruby.rst:13
+msgid "In order to execute the example just copy the script content into a ``test.ruby`` file and execute the following command:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\ruby.rst:19
+msgid "This example shows how to read the settings using GET, make a change and then use PUT to write the change to the server."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\setup_nyc_db.rst:4
+msgid "Create and Prepare the *nyc* Example DataBase"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\setup_nyc_db.rst:6
+msgid "This small section contains a step-by-step guide for the creation and population of an database containing few geospatial tables of New York City:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\setup_nyc_db.rst:8
+msgid "giant_polygon"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\setup_nyc_db.rst:9
+msgid "poi"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\setup_nyc_db.rst:10
+msgid "poly_landmarks"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\setup_nyc_db.rst:11
+msgid "tiger_roads"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\setup_nyc_db.rst:13
+msgid "Log as *postgres* system user"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\setup_nyc_db.rst:19
+msgid "Create the role **bob** with password *postgres*"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\setup_nyc_db.rst:25
+msgid "Create the database **nyc** with the geospatial extensions"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\setup_nyc_db.rst:34
+msgid "Restore the tables into the database from the :download:`dump <resources/nyc.dump>`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\setup_nyc_db.rst:40
+msgid "Test that everything is ok by connecting to the database and listing the tables"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:7
+msgid "Introducing REST concepts"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:9
+msgid "REST (REpresentational State Transfer) is a simple approach to web services strongly based on the basic HTTP infrastructure, such as URLs, HTTP methods and HTTP response codes."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:12
+msgid "The basic elements of a REST service are:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:14
+msgid "**Resource**: each business entity is linked to a unique URL that represents it, and allows for its retrieval and eventual modification. In GeoServer such resources are layers, stores, styles and so on"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:17
+msgid "**Connectedness**: the various resources are linked to one another following significant relationships. For example, in GeoServer a store contains a list of feature types or coverages, a layer is linked to a style and a feature type/coverage, and so on (in other terms, the set of resources is supposed to be crawable just like a web site)."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:21
+msgid "**Representation**: each resource can be represented in one or more way. For example in GeoServer resources are normally represented as HTML, XML and JSON."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:23
+msgid "**Stateless-ness**: each communication with the server is atomic and not related to the communications happened before or after it. Whatever state needs to be managed needs to be stored as a publicly accessible resource."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:26
+msgid "**HTTP methods reuse**: each resource is manipulated via the common HTTP methods each having a common meaning, summarized by the following table"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:33
+msgid "**Method**"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:34
+msgid "**Description**"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:35
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:66
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:213
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:289
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:392
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:446
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:489
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:566
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:622
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:654
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:736
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:804
+msgid "GET"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:36
+msgid "Retrieves the resource in the specified representation. Query parameters are often used to filter the contents of the returned resource, and sometimes to specify the desired representation format."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:37
+msgid "HEAD"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:38
+msgid "Similar to GET, but instead of returning the full response it returns only the HTTP headers, which might contain information such as the last modification date of the resource"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:39
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:225
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:397
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:659
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:809
+msgid "PUT"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:40
+msgid "Stores the representation of a resource at a given URL. Used when the client already knows what the final URL of the resource will be"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:41
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:72
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:219
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:294
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:741
+msgid "POST"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:42
+msgid "Creates a new resource by either getting its contents in the request, or having some parameters to compute it. The main different is that the final URL of the created resource is not known to the client, and is returned by the server after creation via a redirect. It is also used to have the server perform certain actions that cannot be encoded as another method, for example, have it send a SMS (assuming creating a resource representing the SMS is not desirable)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:43
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:234
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:402
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:494
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:814
+msgid "DELETE"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:44
+msgid "Destroys the specified resource."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:46
+msgid "The above results in a web services protocols that is easy to understand, implement and connect to from various languages, and with good scalability characteristics."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:49
+msgid "The GeoServer rest interface is located at ``http://localhost:8083/geoserver/rest``, by default a browser will show resources in HTML format allowing for a simple browsable interface to the GeoServer configuration."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:51
+msgid "http://localhost:8083/geoserver/rest"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:55
+msgid "Browsing the REST interface with HTML format"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:57
+msgid "Follow the links into ``workspaces`` and then ``geosolutions`` and switch the format from ``.html`` to ``xml`` to see the XML representation:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:59
+msgid "http://localhost:8083/geoserver/rest/workspaces/geosolutions.xml"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:63
+msgid "The GeoSolutions workspace represented as XML"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\rest.rst:5
+msgid "GeoServer REST interface"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\rest.rst:7
+msgid "This module is a walkthrough the GeoServer REST capabilities and APIs. Here also will be presented and deeply inspected several methods and frameworks to handle with REST APIs and functions."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\rest.rst:10
+msgid "**What you will learn**"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\rest.rst:12
+msgid "In this section you will learn:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:5
+msgid "Using REST module"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:7
+msgid "This section contains a number of examples which illustrate various uses of the REST data configuration api."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:9
+msgid "The GeoServer REST configuration module uses the REST principles to expose services allowing to edit the catalog, in particular to manage workspaces, stores, layers, styles and groups."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:13
+msgid "The REST configuration extension has normally to be installed separately, it is not come out of the box."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:15
+msgid "The examples in this section use the `cURL <http://curl.haxx.se/>`_ utility, which is a handy command line tool for executing HTTP requests and transferring files."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:18
+msgid "Open the Terminal and enter the following command::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:22
+msgid "the response should contains the following:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:26
+msgid "Create a new workspace via REST"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:28
+msgid "Go to the ``Workspaces`` section via Web interface to show the new workspace created"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:32
+msgid "GET request to abtain new workspace details"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:34
+msgid "Get the new created workspace details entering the following::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:40
+msgid "GET request to obtain new workspace details"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:42
+msgid "Publish the shapefile :download:`pointlands <resources/pointlands.zip>` using the ``myworkspace`` workspace entering the following"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:44
+msgid "Linux::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:48
+msgid "Windows::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:52
+msgid "Go to the **Layer Preview** to show the layers in a OpenLayers Map."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:56
+msgid "Showing the new layer created"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:60
+msgid "The new layers created"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:62
+msgid "If you previously followed the security portion of the workshop the layer won't be accessible because the administrator does not have the required roles. Go back in the service security section and remove the rule limiting the GetMap requests."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:64
+msgid "Retrieves the created data store as XML entering the following::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:90
+msgid "By default when a shapefile is uploaded a feature type resource and the associated layer are automatically created."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:92
+msgid "Retrieve the layer as XML entering the following::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:117
+msgid "When the layer is created a default style named ``point`` is assigned to it."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:119
+msgid "Create a new style named ``landmarks`` with the following SLD (using the GeoServer Admin UI):"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:165
+msgid "Apply the existing ``landmarks`` style to the layer created ``myworkspace:pointlands`` (this operation does not overwrite the entire layer definition, updates it instead)::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:169
+msgid "Go to the **Layer Preview** to show the layers with the new ``landmarks`` style."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:173
+msgid "Viewing the layers with the new created style ``landmarks``"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:4
+msgid "Supported data formats"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:6
+msgid "The importer supports any format that GeoServer can use a data store or coverage store. These include the most commonly used formats:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:9
+msgid "Shapefile"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:10
+msgid "GeoTIFF"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:12
+msgid "And a few additional formats:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:14
+msgid "CSV"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:15
+msgid "KML"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:17
+msgid "The following databases are supported:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:19
+msgid "PostGIS"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:20
+msgid "Oracle"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:21
+msgid "Microsoft SQL Server"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:25
+msgid "Oracle and SQL Server require extra drivers to be installed."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:27
+msgid ":ref:`Install instructions for Oracle <data_oracle>`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:28
+msgid ":ref:`Install instructions for SQL Server <data_sqlserver>`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:4
+msgid "Importer interface reference"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:6
+msgid "The Layer Importer user interface is a component of the GeoServer web interface. You can access it from the GeoServer web interface by clicking the :guilabel:`Import Data` link, found on the left side of the screen after logging in."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:9
+msgid "Data sources page"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:11
+msgid "The front page of the Layer Importer is where the data source and format are set. The following options are displayed:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:14
+msgid "Choose a data source to import from"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:16
+msgid "Select one of the following data sources to use for the import:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:18
+msgid ":guilabel:`Spatial Files` (see :ref:`extensions_importer_formats` for more details)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:19
+msgid ":guilabel:`PostGIS` database"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:20
+msgid ":guilabel:`Oracle` database"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:21
+msgid ":guilabel:`SQL Server` database"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:25
+msgid "Choose a data source"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:27
+msgid "The contents of the next section is dependent on the data source chosen here."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:30
+msgid "Configure the data source: Spatial Files"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:32
+msgid "There is a single box for selecting a file or directory. Click the :guilabel:`Browse` link to bring up a file chooser. To select a file, click on it. To select a directory, click on a directory name to open it and then click :guilabel:`OK`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:36
+msgid "Spatial file data source"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:40
+msgid "File chooser for selecting spatial files"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:43
+msgid "Configure the data source: PostGIS"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:45
+msgid "Fill out fields for :guilabel:`Connection type` (Default or JNDI) :guilabel:`Host`, :guilabel:`Port`, :guilabel:`Database` name, :guilabel:`Schema`, :guilabel:`Username` to connect with, and :guilabel:`Password`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:47
+msgid "There are also advanced connection options, which are common to the standard PostGIS store loading procedure. (See the `PostGIS data store <../../geoserver/data/database/>`_ page in the GeoServer reference documentation.)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:51
+msgid "PostGIS data source connection"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:54
+msgid "Configure the data source: Oracle"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:56
+msgid "The parameter fields for the Oracle import are identical to that of PostGIS. The fields aren't populated with default credentials with the exception of the port, which is set to **1521** by default."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:58
+msgid "This option is only enabled if the :ref:`Oracle <data_oracle>` extension is installed."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:62
+msgid "Oracle data source connection"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:65
+msgid "Configure the data source: SQL Server"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:67
+msgid "The parameter fields for the SQL Server import are identical to that of PostGIS. The fields aren't populated with default credentials with the exception of the port, which is set to **4866** by default."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:69
+msgid "This option is only enabled if the :ref:`SQL Server <data_sqlserver>` extension is installed."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:73
+msgid "SQL Server data source connection"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:76
+msgid "Specify the target for the import"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:78
+msgid "This area specifies where in the GeoServer catalog the new data source will be stored. This does not affect file placement."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:80
+msgid "Select the name of an existing workspace and store."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:84
+msgid "Target workspace and store in GeoServer"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:86
+msgid "Alternately, select :guilabel:`Create New` and type in a names for a new workspace or store. During the import process, these will be created."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:90
+msgid "Creating a new workspace and store"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:93
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:99
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:72
+msgid "Recent imports"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:95
+msgid "This section will list previous imports, and whether they were successful or not. Items can be removed from this list with the :guilabel:`Remove` button, but otherwise cannot be edited."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:101
+msgid "When ready to continue to the next page, click :guilabel:`Next`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:104
+msgid "Layer listing page"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:106
+msgid "On the next page will be a list of layers found by the Layer Importer. The layers will be named according to the source content's name (file name of database table name). For each entry there will be a :guilabel:`Status` showing if the source is ready to be imported."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:108
+msgid "All layers will be selected for import by default, but can be deselected here by unchecking the box next to each entry."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:112
+msgid "List of layers to be imported"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:114
+msgid "A common issue during the import process is when a CRS cannot be determined for a given layer. In this case, a dialog box will display where the CRS can be declared explicitly. Enter the CRS and Click :guilabel:`Apply`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:118
+msgid "Declaring a CRS"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:120
+msgid "When ready to perform the import, click :guilabel:`Import`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:122
+msgid "Each selected layer will be added to the GeoServer catalog inside a new or existing store, and published as a layer."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:124
+msgid "After the import is complete the status area will refresh showing if the import was successful for each layer. If successful, a dialog box for previewing the layer will be displayed, with options for :guilabel:`Layer Preview` (OpenLayers), :guilabel:`Google Earth`, and :guilabel:`GeoExplorer`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:128
+msgid "Layers successfully imported"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:131
+msgid "Advanced import settings page"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:133
+msgid "The :guilabel:`Advanced` link next to each layer will lead to the Advanced import settings page."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:135
+msgid "On this page, data can be set to be reprojected from one CRS to another during the import process. To enable reprojection, select the :guilabel:`Reprojection` box, and enter the source and target CRS."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:137
+msgid "In addition, on this page attributes can be renamed and their type changed. Click on the :guilabel:`Add` link under :guilabel:`Attribute Remapping` to select the attribute to alter, its type, and its new name. Click :guilabel:`Apply` when done."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:139
+msgid "Click :guilabel:`Save` when finished."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:143
+msgid "Advanced layer list page"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\index.rst:4
+msgid "GeoServer Importer"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\index.rst:6
+msgid "The Importer extension gives a GeoServer administrator an alternate, more-streamlined method for uploading and configuring new layers."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\index.rst:8
+msgid "There are two primary advantages to using the Importer over the standard GeoServer data-loading workflow:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\index.rst:10
+msgid "**Supports batch operations** (loading and publishing multiple spatial files or database tables in one operation)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\index.rst:12
+msgid "**Creates unique styles** for each layer, rather than linking to the same (existing) styles."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\index.rst:14
+msgid "This section will discuss the Importer extension."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:4
+msgid "Installing the Importer extension"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:6
+msgid "The Importer extension is an official extension, available on the `GeoServer download <http://geoserver.org/download>`_ page."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:8
+msgid "Download the extension for your version of GeoServer. (If you see an option, select :guilabel:`Core`.)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:10
+msgid "Make sure to match the version of the extension to the version of GeoServer."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:12
+msgid "Extract the archive and copy the contents into the GeoServer :file:`WEB-INF/lib` directory."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:14
+msgid "Restart GeoServer."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:16
+msgid "To verify that the extension was installed successfully, open the :ref:`web_admin` and look for an :guilabel:`Import Data` option in the :guilabel:`Data` section on the left-side menu."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:20
+msgid "Importer extension successfully installed."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:22
+msgid "For additional information please see the section on :ref:`extensions_importer_using`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:4
+msgid "Importer REST API examples"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:7
+msgid "Mass configuring a directory of shapefiles"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:9
+msgid "In order to initiate an import of the ``c:\\data\\tasmania`` directory into the existing ``tasmania`` workspace the following JSON will be POSTed to GeoServer::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:25
+msgid "This curl command can be used for the purpose::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:29
+msgid "The importer will locate the files to be imported, and automatically prepare the tasks, returning the following response::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:73
+msgid "After checking every task is ready, the import can be initiated by executing a POST on the import resource::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:77
+msgid "The resource can then be monitored for progress, and eventually final results::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:81
+msgid "Which in case of successful import will look like::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:126
+msgid "Configuring a shapefile with no projection information"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:128
+msgid "In this case, let's assume we have a single shapefile, tasmania_cities.shp, that does not have the .prj anciliary file (the example is equally good for any case where the prj file contents cannot be matched to an official EPSG code)."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:131
+msgid "We are going to post the following import definition::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:147
+msgid "With the usual curl command::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:151
+msgid "The response in case the CRS is missing will be::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:179
+msgid "Drilling into the task layer we can see the srs information is missing::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:227
+msgid "The following PUT request will update the SRS::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:231
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:376
+msgid "Where ``layerUpdate.json`` is::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:239
+msgid "Getting the import definition again, we'll find it ready to execute::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:267
+msgid "A POST request will make it execute::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:271
+msgid "And eventually succeed::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:300
+msgid "Uploading a CSV file to PostGIS while transforming it"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:302
+msgid "A remote sensing tool is generating CSV files with some locations and measurements, that we want to upload into PostGIS as a new spatial table. The CSV file looks as follows::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:313
+msgid "First, we are going to create a empty import with an existing postgis store as the target::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:317
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:417
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:484
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:543
+msgid "Where import.json is::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:334
+msgid "Then, we are going to POST the csv file to the tasks list, in order to create an import task for it::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:338
+msgid "And we are going to get back a new task definition, with a notification that the CRS is missing::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:372
+msgid "As before, we are going to force the CRS by updating the layer::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:384
+msgid "Then, we are going to create a transformation mapping the Lat/Lon columns to a point::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:392
+msgid "The above will be uploaded to GeoServer as follows::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:396
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:464
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:526
+msgid "Now the import is ready to run, and we'll execute it using::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:400
+msgid "If all goes well the new layer is created in PostGIS and registered in GeoServer as a new layer."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:402
+msgid "In case the features in the CSV need to be appended to an existing layer a PUT request against the task might be performed, changing its updateMode from \"CREATE\" to \"APPEND\". Changing it to \"REPLACE\" instead will preserve the layer, but remove the old conents and replace them with the newly uploaded ones."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:407
+msgid "Uploading and optimizing a GeoTiff with ground control points"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:409
+msgid "A data supplier is periodically providing GeoTiffs that we need to configure in GeoServer. The GeoTIFF is referenced via Ground Control Points, is organized by stripes, and has no overviews. The objective is to rectify, optimize and publish it via the importer."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:413
+msgid "First, we are going to create a empty import with no store as the target::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:429
+msgid "Then, we are going to POST the GeoTiff file to the tasks list, in order to create an import task for it::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:433
+msgid "We are then going to append the transformations to rectify (gdalwarp), retile (gdal_translate) and add overviews (gdaladdo) to it::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:440
+msgid "``warp.json`` is::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:448
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:510
+msgid "``gtx.json`` is::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:455
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:517
+msgid "``gad.json`` is::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:468
+msgid "A new layer ``box_gcp_fixed`` layer will appear in GeoServer, with an underlying GeoTiff file ready for web serving."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:472
+msgid "Adding a new granule into an existing mosaic"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:474
+msgid "A data supplier is periodically providing new time based imagery that we need to add into an existing mosaic in GeoServer. The imagery is in GeoTiff format, and lacks a good internal structure, which needs to be aligned with the one into the other images."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:479
+msgid "First, we are going to create a import with an indication of where the granule is located, and the target store:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:482
+msgid "curl -u admin:geoserver -XPOST -H \"Content-type: application/json\" -d @import.json \"http://localhost:8080/geoserver/rest/imports\""
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:505
+msgid "We are then going to append the transformations to harmonize the file with the rest of the mosaic::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:530
+msgid "The new granule will be ingested into the mosaic, and will thus be available for time based requests."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:533
+msgid "Asynchronously fetching and importing data from a remote server"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:535
+msgid "We assume a remote FTP server contains multiple shapefiles that we need to import in GeoServer as new layers. The files are large, and the server has much better bandwith than the client, so it's best if GeoServer performs the data fetching on its own."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:539
+msgid "In this case a asynchronous request using ``remote`` data will be the best fit::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:561
+msgid "The request will return immediately with an import context in \"INIT\" state, and it will remain in such state until the data is fetched and the tasks created. Once the state switches to \"PENDING\" the import will be ready for execution. Since there is a lot of shapefiles to process, also the import run will be done in asynchronous mode::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:568
+msgid "The response will return immediately in this case as well, and the progress can be followed as the tasks in the import switch state."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:4
+msgid "REST API"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:7
+msgid "Importer concepts"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:9
+msgid "The importer REST api is built around a tree of objects representing a single import, structured as follows:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:17
+msgid "import"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:12
+msgid "target workspace"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:13
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:15
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:145
+msgid "data"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:17
+msgid "task (one or more)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:16
+msgid "layer"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:17
+msgid "transformation (one or more)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:19
+msgid "An **import** refers to the top level object and is a \"session\" like entity the state of the entire import. It maintains information relevant to the import as a whole such as user infromation, timestamps along with optional information that is uniform along all tasks, such as a target workspace, the shared input data (e.g., a directory, a database). An import is made of any number of task objects."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:23
+msgid "A **data** is the description of the source data of a import (overall) or a task. In case the import has a global data definition, this normally refers to an aggregate store such as a directory or a database, and the data associated to the tasks refers to a single element inside such aggregation, such as a single file or table."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:26
+msgid "A **task** represents a unit of work to the importer needed to register one new layer, or alter an existing one, and contains the following information:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:28
+msgid "The data being imported"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:29
+msgid "The target store that is the destination of the import"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:30
+msgid "The target layer"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:31
+msgid "The data of a task, referred to as its source, is the data to be processed as part of the task."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:32
+msgid "The transformations that we need to apply to the data before it gets imported"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:34
+msgid "This data comes in a variety of forms including:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:36
+msgid "A spatial file (Shapefile, GeoTiff, KML, etc...)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:37
+msgid "A directory of spatial files"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:38
+msgid "A table in a spatial database"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:39
+msgid "A remote location that the server will download data from"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:41
+msgid "A task is classified as either \"direct\" or \"indirect\". A *direct task* is one in which the data being imported requires no transformation to be imported. It is imported directly. An example of such a task is one that involves simply importing an existing Shapefile as is. An *indirect task* is one that does require a **transformation** to the original import data. An example of an indirect task is one that involves importing a Shapefile into an existing PostGIS database. Another example of indirect task might involve taking a CSV file as an input, turning a x and y column into a Point, remapping a string column into a timestamp, and finally import the result into a PostGIS."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:47
+msgid "REST API Reference"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:52
+msgid "All the imports"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:55
+msgid "/imports"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:60
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:207
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:284
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:387
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:441
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:484
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:561
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:617
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:649
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:731
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:799
+msgid "Method"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:61
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:208
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:285
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:388
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:442
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:485
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:562
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:618
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:650
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:732
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:800
+msgid "Action"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:62
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:209
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:286
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:389
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:443
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:486
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:563
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:619
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:651
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:733
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:801
+msgid "Status Code/Headers"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:63
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:210
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:287
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:390
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:444
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:487
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:564
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:620
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:652
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:734
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:802
+msgid "Input"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:65
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:212
+msgid "Parameters"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:67
+msgid "Retrieve all imports"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:68
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:215
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:236
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:291
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:394
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:399
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:404
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:448
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:491
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:496
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:568
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:624
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:656
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:661
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:738
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:806
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:811
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:816
+msgid "200"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:69
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:71
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:75
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:216
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:218
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:222
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:223
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:231
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:233
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:237
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:238
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:239
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:292
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:395
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:405
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:406
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:449
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:492
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:497
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:498
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:569
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:625
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:657
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:739
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:807
+msgid "n/a"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:70
+msgid ":ref:`Import Collection <import_collection>`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:73
+msgid "Create a new import"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:74
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:230
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:296
+msgid "201 with Location header"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:76
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:217
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:232
+msgid ":ref:`Imports <import>`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:77
+msgid "async=false/true"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:80
+msgid "Retrieving the list of all imports"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:86
+msgid "results in::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:105
+msgid "Creating a new import"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:107
+msgid "Posting to the /imports path a import json object creates a new import session::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:130
+msgid "The parameters are:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:136
+msgid "Name"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:137
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:870
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:889
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:907
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:922
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:940
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:955
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:974
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:990
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:1006
+msgid "Optional"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:138
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:871
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:890
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:908
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:923
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:941
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:956
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:975
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:991
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:1007
+msgid "Description"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:139
+msgid "targetWorkspace"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:140
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:143
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:146
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:928
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:958
+msgid "Y"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:141
+msgid "The target workspace to import to"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:142
+msgid "targetStore"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:144
+msgid "The target store to import to"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:147
+msgid "The data to be imported"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:149
+msgid "The mere creation does not start the import, but it may automatically populate its tasks depending on the target. For example, by referring a directory of shapefiles to be importer, the creation will automatically fill in a task to import each of the shapefiles as a new layer."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:152
+msgid "The response to the above POST request will be::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:190
+msgid "The operation of populating the tasks can require time, especially if done against a large set of files, or against a \"remote\" data (more on this later), in this case the POST request can include ``?async=true`` at the end of the URL to make the importer run it asynchronously. In this case the import will be created in INIT state and will remain in such state until all the data transfer and task creation operations are completed. In case of failure to fetch data the import will immediately stop, the state will switch to the ``INIT_ERROR`` state, and a error message will appear in the import context \"message\" field."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:199
+msgid "Import object"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:202
+msgid "/imports/<importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:214
+msgid "Retrieve import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:220
+msgid "Execute import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:221
+msgid "204"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:224
+msgid "async=true/false"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:226
+msgid "Create import with proposed id <importId>. If the proposed id is ahead of the current (next) id, the current id will be advanced. If the proposed id is less than or equal to the current id, the current will be used. This allows an external system to dictate the id management."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:235
+msgid "Remove import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:241
+msgid "The representation of a import is the same as the one contained in the import creation response. The execution of a import can be a long task, as such, it's possible to add ``async=true`` to the request to make it run in a asynchronous fashion, the client will have to poll the import representation and check when it reaches the \"COMPLETE\" state."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:247
+msgid "Data"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:249
+msgid "A import can have a \"data\" representing the source of the data to be imported. The data can be of different types, in particular, \"file\", \"directory\", \"mosaic\", \"database\" and \"remote\". During the import initialization the importer will scan the contents of said resource, and generate import tasks for each data found in it."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:254
+msgid "Most data types are discussed in the task section, the only type that's specific to the whole import context is the \"remote\" one, that is used to ask the importer to fetch the data from a remote location autonomusly, without asking the client to perform an upload."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:258
+msgid "The representation of a remote resource looks as follows::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:268
+msgid "The location can be `any URI supported by Commons VFS <http://commons.apache.org/proper/commons-vfs/filesystems.html>`_, including HTTP and FTP servers. The ``username``, ``password`` and ``domain`` elements are all optional, and required only if the remote server demands an authentication of sorts. In case the referred file is compressed, it will be unpacked as the download completes, and the tasks will be created over the result of unpacking."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:274
+msgid ">>>>>>> 296f581... [GEOS-7049] Allow autonomous and asynchonous data fetching in importer REST api Tasks ^^^^^"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:279
+msgid "/imports/<importId>/tasks"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:290
+msgid "Retrieve all tasks for import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:293
+msgid ":ref:`Task Collection <importer_rest_reference_tasks>`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:295
+msgid "Create a new task"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:297
+msgid ":ref:`Multipart form data <importer_rest_reference_fileupload>`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:298
+msgid ":ref:`Tasks <importer_rest_reference_tasks>`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:303
+msgid "Getting the list of tasks"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:309
+msgid "Results in::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:325
+msgid "Creating a new task as a file upload"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:327
+msgid "A new task can be created by issuing a POST to ``imports/<importId>/tasks`` as a \"Content-type: multipart/form-data\" multipart encoded data as defined by `RFC 2388 <https://www.ietf.org/rfc/rfc2388.txt>`_. One or more file can be uploaded this way, and a task will be created for importing them. In case the file being uploaded is a zip file, it will be unzipped on the server side and treated as a directory of files."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:330
+msgid "The response to the upload will be the creation of a new task, for example::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:368
+msgid "Creating a new task from form upload"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:370
+msgid "This creation mode assumes the POST to ``imports/<importId>/tasks`` of form url encoded data containing a ``url`` parameter::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:376
+msgid "The creation response will be the same as the multipart upload."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:379
+msgid "Single task resource"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:382
+msgid "/imports/<importId>/task/<taskId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:393
+msgid "Retrieve task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:396
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:400
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:401
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:450
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:493
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:662
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:663
+msgid ":ref:`Task <importer_rest_reference_tasks>`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:398
+msgid "Modify task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:403
+msgid "Remove task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:408
+msgid "The representation of a task resource is the same one reported in the task creation response."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:411
+msgid "Updating a task"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:413
+msgid "A PUT request over an existing task can be used to update its representation. The representation can be partial, and just contains the elements that need to be updated."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:416
+msgid "The updateMode of a task normally starts as \"CREATE\", that is, create the target resource if missing. Other possible values are \"REPLACE\", that is, delete the existing features in the target layer and replace them with the task source ones, or \"APPEND\", to just add the features from the task source into an existing layer."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:420
+msgid "The following PUT request updates a task from \"CREATE\" to \"APPEND\" mode::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:431
+msgid "Directory files representation"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:433
+msgid "The following operations are specific to data objects of type ``directory``."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:436
+msgid "/imports/<importId>/task/<taskId>/data/files"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:447
+msgid "Retrieve the list of files for a task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:452
+msgid "The response to a GET request will be::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:479
+msgid "/imports/<importId>/task/<taskId>/data/files/<fileId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:490
+msgid "Retrieve the file with id <fileId> from the data of a task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:495
+msgid "Remove a specific file from the task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:501
+msgid "Following the links we'll get to the representation of a single file, notice how in this case a main file can be associate to sidecar files::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:520
+msgid "Mosaic extensions"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:522
+msgid "In case the input data is of ``mosaic`` type, we have all the attributes typical of a directory, plus support for directly specifying the timestamp of a particular granule."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:525
+msgid "In order to specify the timestamp a PUT request can be issued against the granule::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:533
+msgid "and the response will be::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:550
+msgid "Database data"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:552
+msgid "The following operations are specific to data objects of type ``database``. At the time or writing, the REST API does not allow the creation of a database data source, but it can provide a read only description of one that has been created using the GUI."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:556
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:612
+msgid "/imports/<importId>/tasks/<taskId>/data"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:567
+msgid "Retrieve the database connection parameters for a task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:570
+msgid "List of database connection parameters and available tables"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:572
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:628
+msgid "Performing a GET on a database type data will result in the following response::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:605
+msgid "Database table"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:607
+msgid "The following operations are specific to data objects of type ``table``. At the time or writing, the REST API does not allow the creation of a database data source, but it can provide a read only description of one that has been created using the GUI. A table description is normally linked to task, and refers to a database data linked to the overall import."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:623
+msgid "Retrieve the table description for a task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:626
+msgid "A table representation"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:639
+msgid "Task target layer"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:642
+msgid "/imports/<importId>/tasks/<taskId>/layer"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:644
+msgid "The layer defines how the target layer will be created"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:655
+msgid "Retrieve the layer of a task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:658
+msgid "A layer JSON representation"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:660
+msgid "Modify the target layer for a task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:666
+msgid "Requesting the task layer will result in the following::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:719
+msgid "All the above attributes can be updated using a PUT request. Even if the above representation is similar to the REST config API, it should not be confused with it, as it does not support all the same properties, in particular the supported properties are all the ones listed above."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:723
+msgid "Task transformations"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:726
+msgid "/imports/<importId>/tasks/<taskId>/transforms"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:737
+msgid "Retrieve the list of transformations of a task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:740
+msgid "A list of transfromations in JSON format"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:742
+msgid "Create a new transormation and append it inside a task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:744
+msgid "A JSON transformation representation"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:745
+msgid "The transform location"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:748
+msgid "Retrieving the transformation list"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:750
+msgid "A GET request for the list of transformations will result in the following response::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:773
+msgid "Appending a new transformation"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:775
+msgid "Creating a new transformation requires posting a JSON document with a ``type`` property identifying the class of the transformation, plus any extra attribute required by the transformation itself (this is transformation specific, each one will use a different set of attributes)."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:778
+msgid "The following POST request creates an attribute type remapping::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:788
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:846
+msgid "The response will be::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:794
+msgid "/imports/<importId>/tasks/<taskId>/transforms/<transformId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:805
+msgid "Retrieve a transformation identified by <transformId> inside a task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:808
+msgid "A single transformation in JSON format"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:810
+msgid "Modifies the definition of a transformation identified by <transformId> inside a task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:812
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:817
+msgid "A JSON transformation representation (eventually just the portion of it that needs to be modified)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:813
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:818
+msgid "The full transformation representation"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:815
+msgid "Removes the transformation identified by <transformId> inside a task with id <taskId> within import with id <importId>"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:821
+msgid "Retrieve a single transformation"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:823
+msgid "Requesting a single transformation by identifier will result in the following response::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:836
+msgid "Modify an existing transformation"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:838
+msgid "Assuming we have a reprojection transformation, and that we need to change the target SRS type, the following PUT request will do the job::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:859
+msgid "Transformation reference"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:862
+msgid "AttributeRemapTransform"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:864
+msgid "Remaps a certain field to a given target data type"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:869
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:888
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:906
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:921
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:939
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:954
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:973
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:989
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:1005
+msgid "Parameter"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:872
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:909
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:924
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:942
+msgid "field"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:873
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:876
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:892
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:895
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:910
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:925
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:943
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:961
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:977
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:993
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:1009
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:1012
+msgid "N"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:874
+msgid "The name of the field to be remapped"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:875
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:960
+msgid "target"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:877
+msgid "The \"target\" field type, as a fully qualified Java class name"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:881
+msgid "AttributesToPointGeometryTransform"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:883
+msgid "Transforms two numeric fields ``latField`` and ``lngField`` into a point geometry representation ``POINT(lngField,latField)``, the source fields will be removed."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:891
+msgid "latField"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:893
+msgid "The \"latitude\" field"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:894
+msgid "lngField"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:896
+msgid "The \"longitude\" field"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:899
+msgid "CreateIndexTransform"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:901
+msgid "For database targets only, creates an index on a given column after importing the data into the database"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:911
+msgid "The field to be indexed"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:914
+msgid "DateFormatTransform"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:916
+msgid "Parses a string representation of a date into a Date/Timestamp object"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:926
+msgid "The field to be parsed"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:927
+msgid "format"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:929
+msgid "A date parsing pattern, setup using the Java `SimpleDateFormat syntax <http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html>`_. In case it's missing, a number of built-in formats will be tried instead (short and full ISO date formats, dates without any separators)."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:932
+msgid "IntegerFieldToDateTransform"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:934
+msgid "Takes a integer field and transforms it to a date, interpreting the intereger field as a date"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:944
+msgid "The field containing the year information"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:947
+msgid "ReprojectTransform"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:949
+msgid "Reprojects a vector layer from a source CRS to a target CRS"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:957
+msgid "source"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:959
+msgid "Identifier of the source coordinate reference system (the native one will be used if missing)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:962
+msgid "Identifier of the target coordinate reference system"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:965
+msgid "GdalTranslateTransform"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:967
+msgid "Applies ``gdal_translate`` to a single file raster input. Requires ``gdal_translate`` to be inside the PATH used by the web container running GeoServer."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:976
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:992
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:1008
+msgid "options"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:978
+msgid "Array of options that will be passed to ``gdal_translate`` (beside the input and output names, which are internally managed)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:981
+msgid "GdalWarpTransform"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:983
+msgid "Applies ``gdalwarp`` to a single file raster input. Requires ``gdalwarp`` to be inside the PATH used by the web container running GeoServer."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:994
+msgid "Array of options that will be passed to ``gdalwarp`` (beside the input and output names, which are internally managed)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:997
+msgid "GdalAddoTransform"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:999
+msgid "Applies ``gdaladdo`` to a single file raster input. Requires ``gdaladdo`` to be inside the PATH used by the web container running GeoServer."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:1010
+msgid "Array of options that will be passed to ``gdaladdo`` (beside the input file name, which is internally managed)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:1011
+msgid "levels"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:1013
+msgid "Array of integers with the overview levels that will be passed to ``gdaladdo``"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:4
+msgid "Using the Importer extension"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:6
+msgid "Here are step-by-step instructions to import multiple shapefiles in one operation. For more details on different types of operations, please see the :ref:`extensions_importer_guireference`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:8
+msgid "Find a directory of shapefiles and copy into your :ref:`data_directory`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:10
+msgid "You can always use the `Natural Earth Quickstart <http://www.naturalearthdata.com/downloads/>`_ data for this task."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:12
+msgid "Log in as an administrator and navigate to the :guilabel:`Data --> Import Data` page."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:14
+msgid "For select :guilabel:`Spatial Files` as the data source."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:18
+msgid "Data source"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:20
+msgid "Click :guilabel:`Browse` to navigate to the directory of shapefiles to be imported."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:22
+msgid "The web-based file browser will show as options your home directory, data directory, and the root of your file system (or drive). In this case, select :guilabel:`Data directory`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:26
+msgid "Directory"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:28
+msgid "Back on the main form, select :guilabel:`Create new` next to :guilabel:`Workspace`, and enter :kbd:`ne` to denote the workspace."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:30
+msgid "Make sure the :guilabel:`Store` field reads :guilabel:`Create new` as well."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:34
+msgid "Import target workspace"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:36
+msgid "Click :guilabel:`Next` to start the import process."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:38
+msgid "On the next screen, any layers available for import will be shown."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:40
+msgid "Non-spatial files will be ignored."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:44
+msgid "Import layer list"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:46
+msgid "In most cases, all files will be ready for import, but if the the spatial reference system (SRS) is not recognized, you will need to manually input this but clicking :guilabel:`Advanced`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:48
+msgid "You will need to manually input the SRS if you used the Natural Earth data above. For each layer click on :guilabel:`Advanced` and set reprojection to :kbd:`EPSG:4326`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:52
+msgid "Advanced import settings"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:54
+msgid "Check the box next to each layer you wish to import."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:58
+msgid "Setting the layers to import"
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:60
+msgid "When ready, click :guilabel:`Import`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:62
+msgid "Don't click :guilabel:`Done` at this point, otherwise the import will be canceled."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:64
+msgid "The results of the import process will be shown next to each layer."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:66
+msgid "When finished, click :guilabel:`Done`."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:68
+msgid "Recent import processes are listed at the bottom of the page. You may wish to visit these pages to check if any difficulties were encountered during the import process or import additional layers."
+msgstr ""
+
+#: ..\..\005_dev_workshop\005_geonode_apis\index.rst:4
+msgid "GeoNode APIs"
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:4
+msgid "Testing in GeoNode"
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:6
+msgid "The community encourages the Test Driven Development (TDD) and the contribution to write new tests to extend the coverage. Ideally every model, view, and utility should becovered by tests."
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:8
+msgid "GeoNode has Unit, Integration and Javascript tests. The Unit tests are located in the tests file of every django app (Maps, Layers, Documents, Catalogue, Search, Security etc)."
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:10
+msgid "The Integration, CSW and smoke tests are located under the tests folder)."
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:12
+msgid "The tests are meant to be ran using the SQLite database, some of them may fail using PostgreSQL or others. Therefore **remove or rename your local_settings.py file before running the tests**."
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:15
+msgid "If running them in development mode make sure to have the jetty server"
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:15
+msgid "shut down otherwise the test could get stuck. To make sure it is run:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:22
+msgid "Unit Tests"
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:24
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:55
+msgid "To run the unit tests make sure you have the virtualenv active (if running GeoNode under virtualenv) then run:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:30
+msgid "This will produce a detailed test report."
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:32
+msgid "It's possible to run just specific apps tests by using the django command:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:38
+msgid "For example:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:44
+msgid "To run a single testcase or method (omit the method name to run the whole class), for example:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:50
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:79
+msgid "These tests are based on the Python/django unit test suite."
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:53
+msgid "Integration Tests"
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:61
+msgid "To run the csw integration test run:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:67
+msgid "Like the unit tests above, it is also possible to test specific modules, for example:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:73
+msgid "To test with with coverage:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:82
+msgid "Javascript Tests"
+msgstr ""
+
+#: ..\..\005_dev_workshop\006_geonode_testing\index.rst:84
+msgid "Javascript tests has been currently disabled in GeoNode. There is a plan to improve and re-enable them in the future."
 msgstr ""
 
 #: ..\..\005_dev_workshop\index.rst:5
@@ -1699,31 +4527,47 @@ msgstr ""
 msgid "*Prerequisites*"
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:24
+#: ..\..\005_dev_workshop\index.rst:26
 msgid ":ref:`intro_devel`"
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:27
+#: ..\..\005_dev_workshop\index.rst:29
 msgid ":ref:`dev_core`"
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:34
+#: ..\..\005_dev_workshop\index.rst:36
 msgid ":ref:`install_devmode`"
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:30
+#: ..\..\005_dev_workshop\index.rst:32
 msgid "This module shows a step-by-step guide for the setup of a GeoNode Develeopment Environent on an Ubuntu system."
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:32
+#: ..\..\005_dev_workshop\index.rst:34
 msgid "For other Linux distributions the commands are similar, the difference is mainly on the packages names."
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:36
+#: ..\..\005_dev_workshop\index.rst:39
 msgid ":ref:`dev_debug`"
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:37
+#: ..\..\005_dev_workshop\index.rst:39
 msgid "GeoNode can be difficult to debug as there are several different components involved. This module shows some tecniques to debug the different parts of GeoNode."
+msgstr ""
+
+#: ..\..\005_dev_workshop\index.rst:42
+msgid ":ref:`geonode_apis`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\index.rst:42
+msgid "This module provides an overview of the core modules and libraries used by GeoNode and teach to the user how to use them through some guided examples."
+msgstr ""
+
+#: ..\..\005_dev_workshop\index.rst:44
+msgid ":ref:`geonode_testing`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\index.rst:45
+msgid "This section explain how to run the tests on GeoNode."
 msgstr ""
 
