@@ -79,9 +79,9 @@ is only possible when running in a shell via ``manage.py runserver`` or
 
 To set a breakpoint, insert the following code before the code to debug.
 
-  ..code-block:: python
+    .. code-block:: python
 
-    import pdb; pdb.set_strace()
+        import pdb; pdb.set_strace()
 
 When execution reaches this statement, the debugger will activate. The commands
 are noted in the link above. In addition to those debugger specific commands,

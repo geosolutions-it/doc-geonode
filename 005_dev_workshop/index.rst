@@ -19,6 +19,7 @@ This module will introduce you to the components that GeoNode is built with, the
     002_devel_core/index
     003_devel_env/index
     004_devel_debug/index
+    005_geonode_apis/index
 
 :ref:`intro_devel`
     This module will introduce you to the components that GeoNode is built with, the standards that it supports and the services it provides based on those standards, and an overview its architecture.
@@ -35,3 +36,6 @@ This module will introduce you to the components that GeoNode is built with, the
     
 :ref:`dev_debug`
     GeoNode can be difficult to debug as there are several different components involved. This module shows some tecniques to debug the different parts of GeoNode.
+    
+:ref:`geonode_apis`
+    G
