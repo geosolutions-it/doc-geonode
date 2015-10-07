@@ -1,4 +1,4 @@
-.. _customize.theme_admin:
+.. _theme_admin:
 
 Theming your GeoNode project
 ============================

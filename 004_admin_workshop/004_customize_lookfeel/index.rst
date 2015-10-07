@@ -11,12 +11,12 @@ You might want to change the look of GeoNode, editing the colors and the logo of
 .. toctree::
    :hidden:
 
-   customize.setup_admin
-   customize.theme_admin	
+   customize/setup_admin
+   customize/theme_admin	
 
-:ref:`customize.setup_admin`
+:ref:`setup_admin`
   Setup your own geonode project
 
-:ref:`customize.theme_admin`
+:ref:`theme_admin`
   Theme your geonode project
 
