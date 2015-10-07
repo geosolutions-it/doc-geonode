@@ -24,15 +24,13 @@ The following creates a new workspace named "acme" with a POST request:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPOST -H "Content-type: text/xml" 
-     -d "<workspace><name>acme</name></workspace>" 
-     http://localhost:8080/geoserver/rest/workspaces
+   curl -v -u admin:geoserver -XPOST -H "Content-type: text/xml" -d "<workspace><name>acme</name></workspace>" http://localhost/geoserver/rest/workspaces
 
 If executed correctly, the response should contain the following::
  
   < HTTP/1.1 201 Created
   ...
-  < Location: http://localhost:8080/geoserver/rest/workspaces/acme
+  < Location: http://localhost/geoserver/rest/workspaces/acme
 
 Note the ``Location`` response header, which specifies the location (URI) of the newly created workspace.
 
@@ -40,8 +38,7 @@ The workspace information can be retrieved as XML with a GET request:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET -H "Accept: text/xml" 
-     http://localhost:8080/geoserver/rest/workspaces/acme
+   curl -v -u admin:geoserver -XGET -H "Accept: text/xml" http://localhost/geoserver/rest/workspaces/acme
 
 The response should look like this:
 
@@ -51,17 +48,17 @@ The response should look like this:
      <name>acme</name>
      <dataStores>
        <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" 
-        href="http://localhost:8080/geoserver/rest/workspaces/acme/datastores.xml" 
+        href="http://localhost/geoserver/rest/workspaces/acme/datastores.xml" 
         type="application/xml"/>
      </dataStores>
      <coverageStores>
        <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" 
-        href="http://localhost:8080/geoserver/rest/workspaces/acme/coveragestores.xml" 
+        href="http://localhost/geoserver/rest/workspaces/acme/coveragestores.xml" 
         type="application/xml"/>
      </coverageStores>
      <wmsStores>
        <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" 
-        href="http://localhost:8080/geoserver/rest/workspaces/acme/wmsstores.xml" 
+        href="http://localhost/geoserver/rest/workspaces/acme/wmsstores.xml" 
         type="application/xml"/>
      </wmsStores>
    </workspace>
@@ -74,7 +71,7 @@ This shows that the workspace can contain "``dataStores``" (for :ref:`vector dat
 
    .. code-block:: console
 
-      curl -v -u admin:geoserver -XGET http://localhost:8080/geoserver/rest/workspaces/acme.xml
+      curl -v -u admin:geoserver -XGET http://localhost/geoserver/rest/workspaces/acme.xml
 
 
 Uploading a shapefile
@@ -82,17 +79,15 @@ Uploading a shapefile
 
 In this example a new store will be created by uploading a shapefile.
 
-The following request uploads a zipped shapefile named ``roads.zip`` and creates a new store named ``roads``.
+The following request uploads a zipped shapefile named :download:`roads.zip <resources/shapefiles/roads.zip>` and creates a new store named ``roads``.
 
 .. note:: Each code block below contains a single command that may be extended over multiple lines.
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPUT -H "Content-type: application/zip" 
-     --data-binary @roads.zip 
-     http://localhost:8080/geoserver/rest/workspaces/acme/datastores/roads/file.shp
+   curl -v -u admin:geoserver -XPUT -H "Content-type: application/zip" --data-binary @roads.zip http://localhost/geoserver/rest/workspaces/acme/datastores/roads/file.shp
 
-The ``roads`` identifier in the URI refers to the name of the store to be created. To create a store named ``somethingelse``, the URI would be  ``http://localhost:8080/geoserver/rest/workspaces/acme/datastores/somethingelse/file.shp``
+The ``roads`` identifier in the URI refers to the name of the store to be created. To create a store named ``somethingelse``, the URI would be  ``http://localhost/geoserver/rest/workspaces/acme/datastores/somethingelse/file.shp``
 
 If executed correctly, the response should contain the following::
  
@@ -102,8 +97,7 @@ The store information can be retrieved as XML with a GET request:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET
-     http://localhost:8080/geoserver/rest/workspaces/acme/datastores/roads.xml
+   curl -v -u admin:geoserver -XGET http://localhost/geoserver/rest/workspaces/acme/datastores/roads.xml
 
 The response should look like this:
 
@@ -116,7 +110,7 @@ The response should look like this:
      <workspace>
        <name>acme</name>
        <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" 
-        href="http://localhost:8080/geoserver/rest/workspaces/acme.xml" type="application/xml"/>
+        href="http://localhost/geoserver/rest/workspaces/acme.xml" type="application/xml"/>
      </workspace>
      <connectionParameters>
        <entry key="url">file:/C:/path/to/data_dir/data/acme/roads/</entry>
@@ -125,7 +119,7 @@ The response should look like this:
      <__default>false</__default>
      <featureTypes>
        <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" 
-        href="http://localhost:8080/geoserver/rest/workspaces/acme/datastores/roads/featuretypes.xml" 
+        href="http://localhost/geoserver/rest/workspaces/acme/datastores/roads/featuretypes.xml" 
         type="application/xml"/>
      </featureTypes>
    </dataStore>
@@ -134,8 +128,7 @@ By default when a shapefile is uploaded, a feature type is automatically created
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET 
-     http://localhost:8080/geoserver/rest/workspaces/acme/datastores/roads/featuretypes/roads.xml
+   curl -v -u admin:geoserver -XGET http://localhost/geoserver/rest/workspaces/acme/datastores/roads/featuretypes/tiger_roads.xml
 
 If executed correctly, the response will be:
 
@@ -147,12 +140,14 @@ If executed correctly, the response will be:
      <namespace>
        <name>acme</name>
        <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" 
-        href="http://localhost:8080/geoserver/rest/namespaces/acme.xml" type="application/xml"/>
+        href="http://localhost/geoserver/rest/namespaces/acme.xml" type="application/xml"/>
      </namespace>
      ...
    </featureType>
 
 The remainder of the response consists of layer metadata and configuration information.
+
+.. note:: Notice that the name of the Layer (and of the FeatureType) corresponds to the physical name of the ShapeFile contained into the archive.
 
 
 Adding an existing shapefile
@@ -160,15 +155,13 @@ Adding an existing shapefile
 
 In the previous example a shapefile was uploaded directly to GeoServer by sending a zip file in the body of a PUT request. This example shows how to publish a shapefile that already exists on the server.
 
-Consider a directory on the server ``/data/shapefiles/rivers`` that contains the shapefile ``rivers.shp``. The following adds a new store for the shapefile:
+Consider a directory on the server ``/data/shapefiles`` that contains the shapefile ``rivers.shp``. The following adds a new store for the shapefile:
 
-.. note:: Each code block below contains a single command that may be extended over multiple lines.
+.. note:: In order to execute the exercise, create a folder ``shapefiles`` somewhere on the server and extract there the :download:`shapefiles.zip <resources/shapefiles/shapefiles.zip>`.
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPUT -H "Content-type: text/plain" 
-     -d "file:///data/shapefiles/rivers/rivers.shp" 
-     http://localhost:8080/geoserver/rest/workspaces/acme/datastores/rivers/external.shp
+   curl -v -u admin:geoserver -XPUT -H "Content-type: text/plain" -d "file:///home/geonode/data/shapefiles/rivers.shp" http://localhost/geoserver/rest/workspaces/acme/datastores/rivers/external.shp
 
 The ``external.shp`` part of the request URI indicates that the file is coming from outside the catalog.
 
@@ -182,9 +175,7 @@ To verify the contents of the store, execute a GET request. Since the XML respon
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET 
-     http://localhost:8080/geoserver/rest/workspaces/acme/datastores/rivers.html
-
+   curl -v -u admin:geoserver -XGET http://localhost/geoserver/rest/workspaces/acme/datastores/rivers.html
 
 Adding a directory of existing shapefiles
 -----------------------------------------
@@ -193,13 +184,11 @@ This example shows how to load and create a store that contains a number of shap
 
 Consider a directory on the server ``/data/shapefiles`` that contains multiple shapefiles. The following adds a new store for the directory.
 
-.. note:: Each code block below contains a single command that may be extended over multiple lines.
+.. note:: In order to execute the exercise, create a folder ``shapefiles`` somewhere on the server and extract there the :download:`shapefiles.zip <resources/shapefiles/shapefiles.zip>`.
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPUT -H "Content-type: text/plain" 
-     -d "file:///data/shapefiles/" 
-     "http://localhost:8080/geoserver/rest/workspaces/acme/datastores/shapefiles/external.shp?configure=all"
+   curl -v -u admin:geoserver -XPUT -H "Content-type: text/plain" -d "file:///home/geonode/data/shapefiles/" "http://localhost/geoserver/rest/workspaces/acme/datastores/shapefiles/external.shp?configure=all"
 
 Note the ``configure=all`` query string parameter, which sets each shapefile in the directory to be loaded and published.
 
@@ -211,8 +200,7 @@ To verify the contents of the store, execute a GET request. Since the XML respon
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET 
-   http://localhost:8080/geoserver/rest/workspaces/acme/datastores/shapefiles.html
+   curl -v -u admin:geoserver -XGET http://localhost/geoserver/rest/workspaces/acme/datastores/shapefiles.html
 
 
 Creating a layer style
@@ -226,20 +214,17 @@ The following creates a new style named ``roads_style``:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPOST -H "Content-type: text/xml" 
-     -d "<style><name>roads_style</name><filename>roads.sld</filename></style>" 
-     http://localhost:8080/geoserver/rest/styles
+   curl -v -u admin:geoserver -XPOST -H "Content-type: text/xml" -d "<style><name>roads_style</name><filename>roads.sld</filename></style>" http://localhost/geoserver/rest/styles
 
 If executed correctly, the response should contain the following::
 
   < HTTP/1.1 201 Created
 
-This request uploads a file called :file:`roads.sld` file and populates the ``roads_style`` with its contents:
+This request uploads a file called :download:`roads.sld <resources/roads.sld>` file and populates the ``roads_style`` with its contents:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPUT -H "Content-type: application/vnd.ogc.sld+xml" 
-     -d @roads.sld http://localhost:8080/geoserver/rest/styles/roads_style
+   curl -v -u admin:geoserver -XPUT -H "Content-type: application/vnd.ogc.sld+xml" -d @roads.sld http://localhost/geoserver/rest/styles/roads_style
 
 If executed correctly, the response should contain the following::
 
@@ -249,9 +234,7 @@ The SLD itself can be downloaded through a a GET request:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET
-     http://localhost:8080/geoserver/rest/styles/roads_style.sld
-
+   curl -v -u admin:geoserver -XGET http://localhost/geoserver/rest/styles/roads_style.sld
 
 Changing a layer style
 ----------------------
@@ -264,44 +247,38 @@ The following retrieves the "acme:roads" layer information as XML:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET "http://localhost:8080/geoserver/rest/layers/acme:roads.xml"
+   curl -v -u admin:geoserver -XGET "http://localhost/geoserver/rest/layers/acme:tiger_roads.xml"
 
 The response in this case would be: 
 
 .. code-block:: xml
 
-   <layer>
-     <name>roads</name>
-     <type>VECTOR</type>
-     <defaultStyle>
-       <name>line</name>
-       <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" 
-        href="http://localhost:8080/geoserver/rest/styles/line.xml" type="application/xml"/>
-     </defaultStyle>
-     <resource class="featureType">
-       <name>roads</name>
-       <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" 
-        href="http://localhost:8080/geoserver/rest/workpaces/acme/datastores/roads/featuretypes/roads.xml" 
-        type="application/xml"/>
-     </resource>
-     <enabled>true</enabled>
-     <attribution>
-       <logoWidth>0</logoWidth>
-       <logoHeight>0</logoHeight>
-     </attribution>
-   </layer>
+    <layer>
+      <name>tiger_roads</name>
+      <type>VECTOR</type>
+      <defaultStyle>
+        <name>line</name>
+        <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://localhost/geoserver/rest/styles/line.xml" type="application/xml"/>
+      </defaultStyle>
+      <resource class="featureType">
+        <name>tiger_roads</name>
+        <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://localhost/geoserver/rest/workspaces/acme/datastores/roads/featuretypes/tiger_roads.xml" type="application/xml"/>
+      </resource>
+      <attribution>
+        <logoWidth>0</logoWidth>
+        <logoHeight>0</logoHeight>
+      </attribution>
+    </layer>
 
 When the layer is created, GeoServer assigns a default style to the layer that matches the geometry of the layer. In this case a style named ``line`` is assigned to the layer. This style can viewed with a WMS request::
 
-  http://localhost:8080/geoserver/wms/reflect?layers=acme:roads
+  http://localhost/geoserver/wms/reflect?layers=acme:tiger_roads
 
 In this next example a new style will be created called ``roads_style`` and assigned to the "acme:roads" layer:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPUT -H "Content-type: text/xml" 
-     -d "<layer><defaultStyle><name>roads_style</name></defaultStyle></layer>" 
-     http://localhost:8080/geoserver/rest/layers/acme:roads
+   curl -v -u admin:geoserver -XPUT -H "Content-type: text/xml" -d "<layer><defaultStyle><name>roads_style</name></defaultStyle></layer>" http://localhost/geoserver/rest/layers/acme:tiger_roads
 
 If executed correctly, the response should contain the following::
 
@@ -309,33 +286,29 @@ If executed correctly, the response should contain the following::
 
 The new style can be viewed with the same WMS request as above::
 
-  http://localhost:8080/geoserver/wms/reflect?layers=acme:roads
+  http://localhost/geoserver/wms/reflect?layers=acme:tiger_roads
 
 Note that if you want to upload the style in a workspace (ie, not making it a global style),
 and then assign this style to a layer in that workspace, you need first to create the style in the given workspace::
 
-  curl -u admin:geoserver -XPOST -H 'Content-type: text/xml' \
-    -d '<style><name>roads_style</name><filename>roads.sld</filename></style>' 
-    http://localhost:8080/geoserver/rest/workspaces/acme/styles
+  curl -u admin:geoserver -XPOST -H 'Content-type: text/xml' -d '<style><name>roads_style</name><filename>roads.sld</filename></style>' http://localhost/geoserver/rest/workspaces/acme/styles
 
 Upload the file within the workspace::
 
-  curl -u admin:geoserver -XPUT -H 'Content-type: application/vnd.ogc.sld+xml' \
-    -d @roads.sld http://localhost:8080/geoserver/rest/workspaces/acme/styles/roads_style
+  curl -u admin:geoserver -XPUT -H 'Content-type: application/vnd.ogc.sld+xml' -d @roads.sld http://localhost/geoserver/rest/workspaces/acme/styles/roads_style
 
 And finally apply that style to the layer. Note the use of the ``<workspace>`` tag in the XML::
 
-  curl -u admin:geoserver -XPUT -H 'Content-type: text/xml' \
-    -d '<layer><defaultStyle><name>roads_style</name><workspace>acme</workspace></defaultStyle></layer>' \
-    http://localhost:8080/geoserver/rest/layers/acme:roads
-
-.. todo:: The WMS request above results in an "Internal error featureType: acme:roads does not have a properly configured datastore"  Tested on 2.2.2.
-
+  curl -u admin:geoserver -XPUT -H 'Content-type: text/xml' -d '<layer><defaultStyle><name>roads_style</name><workspace>acme</workspace></defaultStyle></layer>' http://localhost/geoserver/rest/layers/acme:tiger_roads
 
 Adding a PostGIS database
 -------------------------
 
-In this example a PostGIS database named ``nyc`` will be added as a new store. This section assumes that a PostGIS database named ``nyc`` is present on the local system and is accessible by the user ``bob``.
+In this example a PostGIS database named ``nyc`` will be added as a new store.
+
+.. warning:: This section assumes that a PostGIS database named ``nyc`` is present on the local system and is accessible by the user ``bob``.
+
+.. note:: In order to create and setup the database locally, follow the instructions at :ref:`setup_nyc_db`
 
 Create a new text file and add the following content to it. This will represent the new store. Save the file as :file:`nycDataStore.xml`.
 
@@ -359,8 +332,7 @@ The following will add the new PostGIS store to the GeoServer catalog:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPOST -T nycDataStore.xml -H "Content-type: text/xml" 
-     http://localhost:8080/geoserver/rest/workspaces/acme/datastores
+   curl -v -u admin:geoserver -XPOST -T nycDataStore.xml -H "Content-type: text/xml" http://localhost/geoserver/rest/workspaces/acme/datastores
 
 If executed correctly, the response should contain the following::
 
@@ -370,7 +342,7 @@ The store information can be retrieved as XML with a GET request:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET http://localhost:8080/geoserver/rest/workspaces/acme/datastores/nyc.xml
+   curl -v -u admin:geoserver -XGET http://localhost/geoserver/rest/workspaces/acme/datastores/nyc.xml
 
 The response should look like the following:
 
@@ -383,7 +355,7 @@ The response should look like the following:
      <workspace>
        <name>acme</name>
        <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" 
-        href="http://localhost:8080/geoserver/rest/workspaces/acme.xml" type="application/xml"/>
+        href="http://localhost/geoserver/rest/workspaces/acme.xml" type="application/xml"/>
      </workspace>
      <connectionParameters>
        <entry key="port">5432</entry>
@@ -396,7 +368,7 @@ The response should look like the following:
      <__default>false</__default>
      <featureTypes>
        <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" 
-        href="http://localhost:8080/geoserver/rest/workspaces/acme/datastores/nyc/featuretypes.xml" 
+        href="http://localhost/geoserver/rest/workspaces/acme/datastores/nyc/featuretypes.xml" 
         type="application/xml"/>
      </featureTypes>
    </dataStore>
@@ -404,9 +376,11 @@ The response should look like the following:
 Adding a PostGIS table
 ----------------------
 
-In this example a table from the PostGIS database created in the previous example will be added as a featuretypes. This example assumes the table has already been created.
+In this example a table from the PostGIS database created in the previous example will be added as a featuretypes.
 
-The following adds the table ``buildings`` as a new feature type:
+.. warning:: This example assumes the table has already been created and the ``tiger_roads`` Layer deleted in case you have executed the previous steps.
+
+The following adds the table ``tiger_roads`` as a new feature type:
 
 .. note:: Each code block below contains a single command that may be extended over multiple lines.
 
@@ -414,20 +388,17 @@ The following adds the table ``buildings`` as a new feature type:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPOST -H "Content-type: text/xml" 
-     -d "<featureType><name>buildings</name></featureType>" 
-     http://localhost:8080/geoserver/rest/workspaces/acme/datastores/nyc/featuretypes
+   curl -v -u admin:geoserver -XPOST -H "Content-type: text/xml" -d "<featureType><name>tiger_roads</name></featureType>" http://localhost/geoserver/rest/workspaces/acme/datastores/nyc/featuretypes
 
 The featuretype information can be retrieved as XML with a GET request:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET 
-     http://localhost:8080/geoserver/rest/workspaces/acme/datastores/nyc/featuretypes/buildings.xml
+   curl -v -u admin:geoserver -XGET http://localhost/geoserver/rest/workspaces/acme/datastores/nyc/featuretypes/tiger_roads.xml
 
 This layer can viewed with a WMS GetMap request::
 
-  http://localhost:8080/geoserver/wms/reflect?layers=acme:buildings
+  http://localhost/geoserver/wms/reflect?layers=acme:tiger_roads
 
 
 Creating a PostGIS table
@@ -466,8 +437,7 @@ This request will perform the feature type creation and add the new table:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPOST -T annotations.xml -H "Content-type: text/xml" 
-     http://localhost:8080/geoserver/rest/workspaces/acme/datastores/nyc/featuretypes
+   curl -v -u admin:geoserver -XPOST -T annotations.xml -H "Content-type: text/xml" http://localhost/geoserver/rest/workspaces/acme/datastores/nyc/featuretypes
     
 The result is a new, empty table named "annotations" in the "nyc" database, fully configured as a feature type.
 
@@ -475,12 +445,20 @@ The featuretype information can be retrieved as XML with a GET request:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET 
-     http://localhost:8080/geoserver/rest/workspaces/acme/datastores/nyc/featuretypes/annotations.xml
-
+   curl -v -u admin:geoserver -XGET http://localhost/geoserver/rest/workspaces/acme/datastores/nyc/featuretypes/annotations.xml
 
 Creating a layer group
 ----------------------
+
+.. warning:: This example assumes the tables has already been created and the ``tiger_roads``, ``poly_landmarks``, ``poi``, ``giant_polygon`` Layers have been created.
+
+    .. code-block:: console
+    
+        $ curl -v -u admin:geoserver -XPOST -H "Content-type: text/xml" -d "<featureType><name>giant_polygon</name></featureType>" http://localhost/geoserver/rest/workspaces/acme/datastores/nyc/featuretypes
+        
+        $ curl -v -u admin:geoserver -XPOST -H "Content-type: text/xml" -d "<featureType><name>poi</name></featureType>" http://localhost/geoserver/rest/workspaces/acme/datastores/nyc/featuretypes
+        
+        $ curl -v -u admin:geoserver -XPOST -H "Content-type: text/xml" -d "<featureType><name>poly_landmarks</name></featureType>" http://localhost/geoserver/rest/workspaces/acme/datastores/nyc/featuretypes
 
 In this example a layer group will be created, based on layers that already exist on the server.
 
@@ -491,14 +469,14 @@ Create a new text file and add the following content to it. This file will repre
    <layerGroup>
      <name>nyc</name>
      <layers>
-       <layer>roads</layer>
-       <layer>parks</layer>
-       <layer>buildings</layer>
+       <layer>poi</layer>
+       <layer>poly_landmarks</layer>
+       <layer>tiger_roads</layer>
      </layers>
      <styles>
+       <style>point</style>
+       <style>polygon</style>
        <style>roads_style</style>
-       <style>polygon</style>
-       <style>polygon</style>
      </styles>
    </layerGroup>
 
@@ -509,14 +487,13 @@ The following request creates the new layer group:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPOST -d @nycLayerGroup.xml -H "Content-type: text/xml" 
-     http://localhost:8080/geoserver/rest/layergroups
+   curl -v -u admin:geoserver -XPOST -d @nycLayerGroup.xml -H "Content-type: text/xml" http://localhost/geoserver/rest/layergroups
 
 .. note:: The argument ``-d@filename.xml`` in this example is used to send a file as the body of an HTTP request with a POST method. The argument ``-T filename.xml`` used in the previous example was used to send a file as the body of an HTTP request with a PUT method.
 
 This layer group can be viewed with a WMS GetMap request::
 
-  http://localhost:8080/geoserver/wms/reflect?layers=nyc
+  http://localhost/geoserver/wms/reflect?layers=nyc&format=openlayers
 
 
 Retrieving component versions
@@ -528,29 +505,28 @@ This example shows how to retrieve the versions of the main components: GeoServe
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET -H "Accept: text/xml" 
-     http://localhost:8080/geoserver/rest/about/version.xml
+   curl -v -u admin:geoserver -XGET -H "Accept: text/xml" http://localhost/geoserver/rest/about/version.xml
 
 The response will look something like this:
 
 .. code-block:: xml
 
-  <about>
-   <resource name="GeoServer">
-    <Build-Timestamp>11-Dec-2012 17:55</Build-Timestamp>
-    <Git-Revision>e66f8da85521f73d0fd00b71331069a5f49f7865</Git-Revision>
-    <Version>2.3-SNAPSHOT</Version>
-   </resource>
-   <resource name="GeoTools">
-    <Build-Timestamp>04-Dec-2012 02:31</Build-Timestamp>
-    <Git-Revision>380a2b8545ee9221f1f2d38a4f10ef77a23bccae</Git-Revision>
-    <Version>9-SNAPSHOT</Version>
-   </resource>
-   <resource name="GeoWebCache">
-    <Git-Revision>2a534f91f6b99e5120a9eaa5db62df771dd01688</Git-Revision>
-    <Version>1.3-SNAPSHOT</Version>
-   </resource>
-  </about>
+    <about>
+      <resource name="GeoServer">
+        <Build-Timestamp>04-Aug-2015 11:00</Build-Timestamp>
+        <Git-Revision>bca94d09e2e18839814a4b663ba8b0fca2130e47</Git-Revision>
+        <Version>2.7-SNAPSHOT</Version>
+      </resource>
+      <resource name="GeoTools">
+        <Build-Timestamp>29-Jul-2015 10:13</Build-Timestamp>
+        <Git-Revision>f50be97a039cd06d43a87ec3cc101626f0ac9fd2</Git-Revision>
+        <Version>13-SNAPSHOT</Version>
+      </resource>
+      <resource name="GeoWebCache">
+        <Git-Revision>f6e0d39c29c2317d2839c52a84676935e5b046cf/f6e0d39c29c2317d2839c52a84676935e5b046cf</Git-Revision>
+        <Version>1.7-SNAPSHOT</Version>
+      </resource>
+    </about>
 
 Retrieving manifests
 --------------------
@@ -562,8 +538,7 @@ This collection of examples shows how to retrieve the full manifest and subsets 
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET -H "Accept: text/xml"
-     http://localhost:8080/geoserver/rest/about/manifest.xml
+   curl -v -u admin:geoserver -XGET -H "Accept: text/xml" http://localhost/geoserver/rest/about/manifest.xml
 
 The result will be a very long list of manifest information. While this can be useful, it is often desirable to filter this list.
 
@@ -576,8 +551,7 @@ It is possible to filter over resource names using regular expressions. This exa
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET -H "Accept: text/xml"
-     http://localhost:8080/geoserver/rest/about/manifest.xml?manifest=gwc-.*
+   curl -v -u admin:geoserver -XGET -H "Accept: text/xml" http://localhost/geoserver/rest/about/manifest.xml?manifest=gwc-.*
 
 The result will look something like this (edited for brevity):
 
@@ -631,8 +605,7 @@ Filtering is also available over resulting resource properties. This example wil
 
 .. code-block:: console
 
-  curl -u admin:geoserver -XGET -H "Accept: text/xml"
-    http://localhost:8080/geoserver/rest/about/manifest.xml?key=GeoServerModule
+  curl -u admin:geoserver -XGET -H "Accept: text/xml" http://localhost/geoserver/rest/about/manifest.xml?key=GeoServerModule
 
 The result will look something like this (edited for brevity):
 
@@ -654,8 +627,7 @@ It is also possible to filter against both property and value. To retrieve only 
 
 .. code-block:: console
 
-   curl -u admin:geoserver -XGET -H "Accept: text/xml"
-     http://localhost:8080/geoserver/rest/about/manifest.xml?key=GeoServerModule&value=extension
+   curl -u admin:geoserver -XGET -H "Accept: text/xml" http://localhost/geoserver/rest/about/manifest.xml?key=GeoServerModule&value=extension
 
 Uploading and modifying a image mosaic
 --------------------------------------
@@ -667,28 +639,25 @@ The following command uploads a zip file containing the definition of a mosaic (
 
 .. code-block:: console
 
-   curl -u admin:geoserver -XPUT -H "Content-type:application/zip" --data-binary @polyphemus.zip
-      http://localhost:8080/geoserver/rest/workspaces/topp/coveragestores/polyphemus/file.imagemosaic
+   curl -u admin:geoserver -XPUT -H "Content-type:application/zip" --data-binary @polyphemus.zip http://localhost/geoserver/rest/workspaces/topp/coveragestores/polyphemus/file.imagemosaic
 
 The following instead instructs the mosaic to harvest (or re-harvest) a single file into the mosaic, collecting its properties and updating the mosaic index:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPOST -H "Content-type: text/plain" -d "file:///path/to/the/file/polyphemus_20130302.nc" 
-      "http://localhost:8080/geoserver/rest/workspaces/topp/coveragestores/poly-incremental/external.imagemosaic"
+   curl -v -u admin:geoserver -XPOST -H "Content-type: text/plain" -d "file:///path/to/the/file/polyphemus_20130302.nc" "http://localhost/geoserver/rest/workspaces/topp/coveragestores/poly-incremental/external.imagemosaic"
 
 Harvesting can also be directed towards a whole directory, as follows:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPOST -H "Content-type: text/plain" -d "file:///path/to/the/mosaic/folder" 
-       "http://localhost:8080/geoserver/rest/workspaces/topp/coveragestores/poly-incremental/external.imagemosaic"
+   curl -v -u admin:geoserver -XPOST -H "Content-type: text/plain" -d "file:///path/to/the/mosaic/folder" "http://localhost/geoserver/rest/workspaces/topp/coveragestores/poly-incremental/external.imagemosaic"
 
 The image mosaic index structure can be retrieved using something like:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET "http://localhost:8080/geoserver/rest/workspaces/topp/coveragestores/polyphemus-v1/coverages/NO2/index.xml"
+   curl -v -u admin:geoserver -XGET "http://localhost/geoserver/rest/workspaces/topp/coveragestores/polyphemus-v1/coverages/NO2/index.xml"
 
 which will result in the following:
 
@@ -746,7 +715,7 @@ which will result in the following:
           <binding>java.sql.Timestamp</binding>
         </Attribute>
       </attributes>
-      <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://localhost:8080/geoserver/rest/workspaces/topp/coveragestores/polyphemus-v1/coverages/NO2/index/granules.xml" type="application/xml"/>
+      <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="alternate" href="http://localhost/geoserver/rest/workspaces/topp/coveragestores/polyphemus-v1/coverages/NO2/index/granules.xml" type="application/xml"/>
     </Schema>
 
 
@@ -754,7 +723,7 @@ Listing the existing granules can be performed as follows:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET "http://localhost:8080/geoserver/rest/workspaces/topp/coveragestores/polyphemus-v1/coverages/NO2/index/granules.xml?limit=2"
+   curl -v -u admin:geoserver -XGET "http://localhost/geoserver/rest/workspaces/topp/coveragestores/polyphemus-v1/coverages/NO2/index/granules.xml?limit=2"
 
 This will result in a GML description of the granules, as follows:
 
@@ -819,7 +788,7 @@ Removing all the granules originating from a particular file (a NetCDF file can 
 
 .. code-block:: console
    
-   curl -v -u admin:geoserver -XDELETE "http://localhost:8080/geoserver/rest/workspaces/topp/coveragestores/polyphemus-v1/coverages/NO2/index/granules.xml?filter=location='polyphemus_20130301.nc'"
+   curl -v -u admin:geoserver -XDELETE "http://localhost/geoserver/rest/workspaces/topp/coveragestores/polyphemus-v1/coverages/NO2/index/granules.xml?filter=location='polyphemus_20130301.nc'"
    
 Creating an empty mosaic and harvest granules
 ---------------------------------------------
@@ -837,22 +806,19 @@ This archive contains the definition of an empty mosaic (no granules in this cas
 
 .. code-block:: console
 
-   curl -u admin:geoserver -XPUT -H "Content-type:application/zip" --data-binary @empty.zip
-      http://localhost:8080/geoserver/rest/workspaces/topp/coveragestores/empty/file.imagemosaic?configure=none
+   curl -u admin:geoserver -XPUT -H "Content-type:application/zip" --data-binary @empty.zip http://localhost/geoserver/rest/workspaces/topp/coveragestores/empty/file.imagemosaic?configure=none
 
 The following instead instructs the mosaic to harvest a single :download:`polyphemus_20120401.nc` file into the mosaic, collecting its properties and updating the mosaic index:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPOST -H "Content-type: text/plain" -d "file:///path/to/the/file/polyphemus_20120401.nc" 
-      "http://localhost:8080/geoserver/rest/workspaces/topp/coveragestores/empty/external.imagemosaic"
+   curl -v -u admin:geoserver -XPOST -H "Content-type: text/plain" -d "file:///path/to/the/file/polyphemus_20120401.nc" "http://localhost/geoserver/rest/workspaces/topp/coveragestores/empty/external.imagemosaic"
 
 Once done you can get the list of coverages/granules available on that store.
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET 
-       "http://localhost:8080/geoserver/rest/workspaces/topp/coveragestores/empty/coverages.xml?list=all"
+   curl -v -u admin:geoserver -XGET "http://localhost/geoserver/rest/workspaces/topp/coveragestores/empty/coverages.xml?list=all"
 
 which will result in the following:
 
@@ -867,7 +833,7 @@ Next step is configuring ONCE for coverage (as an instance NO2), an available co
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPOST -H "Content-type: text/xm" -d @"/path/to/coverageconfig.xml" "http://localhost:8080/geoserver/rest/workspaces/topp/coveragestores/empty/coverages"
+   curl -v -u admin:geoserver -XPOST -H "Content-type: text/xm" -d @"/path/to/coverageconfig.xml" "http://localhost/geoserver/rest/workspaces/topp/coveragestores/empty/coverages"
 
 Where coverageconfig.xml may look like this
 
@@ -887,7 +853,7 @@ The master password can be fetched wit a GET request.
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XGET   http://localhost:8080/geoserver/rest/security/masterpw.xml
+   curl -v -u admin:geoserver -XGET   http://localhost/geoserver/rest/security/masterpw.xml
 
 A generated master password may be **-"}3a^Kh**. Next step is creating an XML file.
 
@@ -904,7 +870,7 @@ Changing the master password using the file:
 
 .. code-block:: console
 
-   curl -v -u admin:geoserver -XPUT -H "Content-type: text/xml" -d @change.xml http://localhost:8080/geoserver/rest/security/masterpw.xml
+   curl -v -u admin:geoserver -XPUT -H "Content-type: text/xml" -d @change.xml http://localhost/geoserver/rest/security/masterpw.xml
    
    
    

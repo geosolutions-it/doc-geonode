@@ -4,7 +4,7 @@ GeoNode APIs
 ============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    geoserver_rest/rest
    importer/index
