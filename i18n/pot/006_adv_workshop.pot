@@ -8,13 +8,82 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-07 14:16+0200\n"
+"POT-Creation-Date: 2015-10-07 16:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:4
+msgid "Advanced Data Management and Processing"
+msgstr ""
+
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:6
+msgid "Adding Data to GeoServer"
+msgstr ""
+
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:7
+msgid "Cite mosaics as an example"
+msgstr ""
+
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:8
+msgid "Pretty maps with GeoServer"
+msgstr ""
+
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:9
+msgid "Advanced Raster Data Management"
+msgstr ""
+
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:10
+msgid "Delivering Vector Data"
+msgstr ""
+
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:11
+msgid "Modifying Feature Types With GeoNode"
+msgstr ""
+
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:12
+msgid "Spatial Processing with GeoNode"
+msgstr ""
+
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:13
+msgid "GeoNode Settings"
+msgstr ""
+
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:14
+msgid "GeoNode Django Apps"
+msgstr ""
+
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:15
+msgid "Customizing GeoNode: MapTemplates and i18N Customizations"
+msgstr ""
+
+#: ..\..\006_adv_workshop\002_geonode_production\index.rst:4
+#: ..\..\006_adv_workshop\002_geonode_production\index.rst:9
+msgid "GeoNode on Production"
+msgstr ""
+
+#: ..\..\006_adv_workshop\002_geonode_production\index.rst:6
+msgid "GeoNode Maintenance and Update"
+msgstr ""
+
+#: ..\..\006_adv_workshop\002_geonode_production\index.rst:7
+msgid "Running GeoNode under SSL"
+msgstr ""
+
+#: ..\..\006_adv_workshop\002_geonode_production\index.rst:8
+msgid "Advanced GeoServer Configuration"
+msgstr ""
+
+#: ..\..\006_adv_workshop\002_geonode_production\index.rst:10
+msgid "GeoSites: GeoNode Multi-Tenancy"
+msgstr ""
+
+#: ..\..\006_adv_workshop\002_geonode_production\index.rst:11
+msgid "Making a GeoNode Release"
+msgstr ""
 
 #: ..\..\006_adv_workshop\index.rst:5
 msgid "Advanced Workshop"
@@ -25,6 +94,31 @@ msgid "Welcome to the GeoNode Training `Advanced Workshop` documentation v\\ |re
 msgstr ""
 
 #: ..\..\006_adv_workshop\index.rst:9
+msgid "This module introduces advanced tecquinques and metodologies for the management of the geospatial data and the maintenance and tuning of the servers on *Production Environments*."
+msgstr ""
+
+#: ..\..\006_adv_workshop\index.rst:11
+msgid "The last sections of the module will teach also you how to add brand new classes and functionalities to your GeoNode installation."
+msgstr ""
+
+#: ..\..\006_adv_workshop\index.rst:14
+msgid "*Prerequisites*"
+msgstr ""
+
+#: ..\..\006_adv_workshop\index.rst:14
+msgid "You should be familiar with GeoNode, GeoServer, Python framework and development concepts other than with system administrator and caching concepts and tecnquiques."
+msgstr ""
+
+#: ..\..\006_adv_workshop\index.rst:23
+msgid ":ref:`adv_data_mgmt`"
+msgstr ""
+
+#: ..\..\006_adv_workshop\index.rst:23
+#: ..\..\006_adv_workshop\index.rst:26
 msgid "TODO"
+msgstr ""
+
+#: ..\..\006_adv_workshop\index.rst:25
+msgid ":ref:`geonode_production`"
 msgstr ""
 

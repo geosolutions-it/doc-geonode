@@ -1,7 +1,7 @@
-.. _customize.setup_admin:
+.. _setup_admin:
 
 Setup steps
------------
+===========
 
 .. warning:: These instructions are only valid if you've installed GeoNode following the guide at :ref:`setup_configure_httpd` !!
 
