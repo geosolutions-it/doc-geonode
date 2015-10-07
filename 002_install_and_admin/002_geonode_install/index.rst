@@ -17,3 +17,4 @@ describes how to automate the installation and comfiguration of GeoNode using
     setup_configure_httpd.rst
     install_geoserver_application.rst
     all_together.rst
+    using_ansible.rst
