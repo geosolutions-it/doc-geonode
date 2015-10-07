@@ -632,8 +632,7 @@ It is also possible to filter against both property and value. To retrieve only 
 Uploading and modifying a image mosaic
 --------------------------------------
 
-The following command uploads a zip file containing the definition of a mosaic (along with at least one granule of the mosaic to initialize the resolutions, overviews and the like) and will configure all the coverages in it as new layers.
-
+The following command uploads a :download:`polyphemus.zip` file containing the definition of a mosaic (along with at least one granule of the mosaic to initialize the resolutions, overviews and the like) and will configure all the coverages in it as new layers.
 
 .. note:: The code blocks below contain a single command that is extended over multiple lines.
 

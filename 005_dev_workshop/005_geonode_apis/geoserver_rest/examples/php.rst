@@ -6,6 +6,12 @@ PHP
 The examples in this section use the server-side scripting language `PHP <http://php.net/index.php/>`_, a popular language for dynamic webpages. PHP has `cURL functions <http://php.net/manual/en/ref.curl.php/>`_ , as well as 
 `XML functions <http://www.php.net/manual/en/refs.xml.php/>`_, making it a convenient method for performing batch processing through the Geoserver REST interface. The following scripts execute single requests, but can be easily modified with looping structures to perform batch processing.
 
+.. note:: In order to execute the examples just copy the script content into a ``test.php`` file and execute the following command:
+
+    .. code-block:: console
+        
+        $ php test.php
+
 POST with PHP/cURL
 ------------------
 
