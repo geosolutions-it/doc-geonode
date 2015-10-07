@@ -4,7 +4,8 @@
 Install GeoNode Application
 ===========================
 
-This section describes the setup of a custom GeoNode installation.
+In this section you are going to install all the basic packages and tools needed
+for a complete GeoNode installation.
 
 Login
 =====

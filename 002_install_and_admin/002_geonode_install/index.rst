@@ -4,7 +4,10 @@
 GeoNode (v\ |release|) installation on Ubuntu 14.04
 ===================================================
 
-TODO
+This part of the documentation describes the complete setup process for GeoNode
+on an Ubuntu 14.04 machine. The end of this section of the documentation also
+describes how to automate the installation and comfiguration of GeoNode using
+`Ansible <http://www.ansible.com/>`_.
 
 .. toctree::
     :maxdepth: 2

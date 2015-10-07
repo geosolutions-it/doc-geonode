@@ -4,7 +4,8 @@
 Linux Admin Intro
 =================
 
-TODO
+This part of the documentation contains basic instruction on how to setup
+and manages Virtual Machine.
 
 .. toctree::
     :maxdepth: 2
