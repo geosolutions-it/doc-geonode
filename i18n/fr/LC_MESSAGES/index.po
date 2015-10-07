@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the GeoNode package.
 # 
 # Translators:
+# Alessio Fabiani <alessio.fabiani@geo-solutions.it>, 2015
 # simboss <simone.giannecchini@geo-solutions.it>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-06 10:09+0200\n"
-"PO-Revision-Date: 2015-10-06 11:26+0000\n"
-"Last-Translator: simboss <simone.giannecchini@geo-solutions.it>\n"
+"PO-Revision-Date: 2015-10-07 15:06+0000\n"
+"Last-Translator: Alessio Fabiani <alessio.fabiani@geo-solutions.it>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-documentation/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -168,7 +169,7 @@ msgid ""
 "`GeoNode <http://geonode.org/>`_ software application. At the end of this "
 "section you will master all the GeoNode sections and entities from an "
 "administrator perspective."
-msgstr "Ce vous vous apprendra comment installer et gérer une installation de ` GeoNode < http://geonode.org/ >` _ . À la fin de cette section, vous serez maître de toutes les sections sur GeoNode du point de vue de l'administrateur."
+msgstr "Ce vous vous apprendra comment installer et gérer une installation de ` GeoNode < http://geonode.org/ >`_ . À la fin de cette section, vous serez maître de toutes les sections sur GeoNode du point de vue de l'administrateur."
 
 #: ..\..\index.rst:73
 msgid "Use the GeoNode’s Django Administration Panel."
@@ -214,7 +215,7 @@ msgid ""
 "to the components that GeoNode is built with, the standards that it supports"
 " and the services it provides based on those standards, and an overview its "
 "architecture."
-msgstr "Cet atelier vous apprendra comment développer avec  ` GeoNode < http://geonode.org > ` _ . Cette section vous fera découvrir les composants qui compose GeoNode meme et les normes , qu'il soutien et les services qu'il fournit sur ​​la base de ces normes. A la fin on va voir un aperçu de son architecture."
+msgstr "Cet atelier vous apprendra comment développer avec  `GeoNode < http://geonode.org >`_ . Cette section vous fera découvrir les composants qui compose GeoNode meme et les normes , qu'il soutien et les services qu'il fournit sur ​​la base de ces normes. A la fin on va voir un aperçu de son architecture."
 
 #: ..\..\index.rst:91
 msgid ""
