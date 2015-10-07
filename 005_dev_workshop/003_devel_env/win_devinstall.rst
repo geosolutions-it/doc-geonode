@@ -1,7 +1,7 @@
 .. _install_win_devmode:
 
 Install GeoNode for Development (Windows)
-===============================
+=========================================
 
 In order to install Geonode 2.0 in developing mode on Windows 2008r2 the following steps are required:
 

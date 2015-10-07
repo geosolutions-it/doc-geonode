@@ -39,15 +39,15 @@ The examples in this section use the `cURL <http://curl.haxx.se/>`_ utility, whi
 
       GET request to obtain new workspace details
 
-#. Publish a shapefile using the ``myworkspace`` workspace entering the following
+#. Publish the shapefile :download:`pointlands <resources/pointlands.zip>` using the ``myworkspace`` workspace entering the following
 
    * Linux::
 
-       curl -u admin:geoserver -H "Content-type: application/zip" -T ${TRAINING_ROOT}/data/user_data/pointlands.zip http://localhost:8083/geoserver/rest/workspaces/myworkspace/datastores/pointlands/file.shp
+       curl -u admin:geoserver -H "Content-type: application/zip" -T /.../pointlands.zip http://localhost:8083/geoserver/rest/workspaces/myworkspace/datastores/pointlands/file.shp
 
    * Windows::
 
-       curl -u admin:geoserver -H "Content-type: application/zip" -T %TRAINING_ROOT%/data/user_data/pointlands.zip http://localhost:8083/geoserver/rest/workspaces/myworkspace/datastores/pointlands/file.shp
+       curl -u admin:geoserver -H "Content-type: application/zip" -T /.../pointlands.zip http://localhost:8083/geoserver/rest/workspaces/myworkspace/datastores/pointlands/file.shp
 
 #. Go to the **Layer Preview** to show the layers in a OpenLayers Map.
 
