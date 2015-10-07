@@ -17,7 +17,7 @@ The examples in this section use the `cURL <http://curl.haxx.se/>`_ utility, whi
 
 #. Open the Terminal and enter the following command::
 
-   	curl -u admin:Geos -v -XPOST -H "Content-type: text/xml" -d "<workspace><name>myworkspace</name></workspace>" http://localhost:8083/geoserver/rest/workspaces
+   	curl -u admin:geoserver -v -XPOST -H "Content-type: text/xml" -d "<workspace><name>myworkspace</name></workspace>" http://localhost:8083/geoserver/rest/workspaces
 
   the response should contains the following:
 
@@ -33,7 +33,7 @@ The examples in this section use the `cURL <http://curl.haxx.se/>`_ utility, whi
 
 #. Get the new created workspace details entering the following::
 
-	curl -u admin:Geos -XGET -H "Accept: text/xml" http://localhost:8083/geoserver/rest/workspaces/myworkspace
+	curl -u admin:geoserver -XGET -H "Accept: text/xml" http://localhost:8083/geoserver/rest/workspaces/myworkspace
 
    .. figure:: img/workspace3.png
 
@@ -43,11 +43,11 @@ The examples in this section use the `cURL <http://curl.haxx.se/>`_ utility, whi
 
    * Linux::
 
-       curl -u admin:Geos -H "Content-type: application/zip" -T ${TRAINING_ROOT}/data/user_data/pointlands.zip http://localhost:8083/geoserver/rest/workspaces/myworkspace/datastores/pointlands/file.shp
+       curl -u admin:geoserver -H "Content-type: application/zip" -T ${TRAINING_ROOT}/data/user_data/pointlands.zip http://localhost:8083/geoserver/rest/workspaces/myworkspace/datastores/pointlands/file.shp
 
    * Windows::
 
-       curl -u admin:Geos -H "Content-type: application/zip" -T %TRAINING_ROOT%/data/user_data/pointlands.zip http://localhost:8083/geoserver/rest/workspaces/myworkspace/datastores/pointlands/file.shp
+       curl -u admin:geoserver -H "Content-type: application/zip" -T %TRAINING_ROOT%/data/user_data/pointlands.zip http://localhost:8083/geoserver/rest/workspaces/myworkspace/datastores/pointlands/file.shp
 
 #. Go to the **Layer Preview** to show the layers in a OpenLayers Map.
 
@@ -63,7 +63,7 @@ The examples in this section use the `cURL <http://curl.haxx.se/>`_ utility, whi
 
 #. Retrieves the created data store as XML entering the following::
 
-		curl -u admin:Geos -XGET http://localhost:8083/geoserver/rest/workspaces/myworkspace/datastores/pointlands.xml
+		curl -u admin:geoserver -XGET http://localhost:8083/geoserver/rest/workspaces/myworkspace/datastores/pointlands.xml
 
    .. code-block:: xml
 
@@ -91,7 +91,7 @@ The examples in this section use the `cURL <http://curl.haxx.se/>`_ utility, whi
 
 #. Retrieve the layer as XML entering the following::
 
-		curl -u admin:Geos -XGET http://localhost:8083/geoserver/rest/layers/myworkspace:pointlands.xml
+		curl -u admin:geoserver -XGET http://localhost:8083/geoserver/rest/layers/myworkspace:pointlands.xml
 
    .. code-block:: xml
 
@@ -164,7 +164,7 @@ The examples in this section use the `cURL <http://curl.haxx.se/>`_ utility, whi
 
 #. Apply the existing ``landmarks`` style to the layer created ``myworkspace:pointlands`` (this operation does not overwrite the entire layer definition, updates it instead)::
 
-    curl -u admin:Geos -XPUT -H "Content-type: text/xml" -d "<layer><defaultStyle><name>landmarks</name></defaultStyle><enabled>true</enabled></layer>" http://localhost:8083/geoserver/rest/layers/myworkspace:pointlands
+    curl -u admin:geoserver -XPUT -H "Content-type: text/xml" -d "<layer><defaultStyle><name>landmarks</name></defaultStyle><enabled>true</enabled></layer>" http://localhost:8083/geoserver/rest/layers/myworkspace:pointlands
 
 #. Go to the **Layer Preview** to show the layers with the new ``landmarks`` style.
 
