@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-07 13:51+0200\n"
+"POT-Creation-Date: 2015-10-07 14:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1193,6 +1193,42 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:123
 msgid "Finally restart Apache to load the new configuration ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:5
+msgid "Setup Using Ansible"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:7
+msgid "Using `Ansible <http://www.ansible.com/>`_ we can automate the installation and configuration of GeoNode on local or remote machines. If you never used Ansible before take a look at the `Running Ansible scripts` section of the documentation or `Ansible official docmumentation <https://docs.ansible.com/>`_"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:13
+msgid "GeoNode setup with Ansible"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:15
+msgid "In the Virtual Machines we provided for the training come with Ansible preinstalled. In the `geo` user home folder ( /home/geo/ ) you will find a simple Ansible playbook we wrote for demonstration along with some resource files used by the playbook itself."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:19
+msgid "To start the installation with Ansible open a terminal and navigate to the `ansible` folder inside geo's home folder ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:24
+msgid "Then run the playbook using the `ansible-playbook` command ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:28
+msgid "Ansible will run through the instructions in the playbook and setup GeoNode on your local machine."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:31
+msgid "Ansible will print information about each step executed. The whole setup is going to take a few minutes."
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:34
+msgid "At the end of the execution of the playbook all you need to do is set GeoNode administrator's password ::"
 msgstr ""
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\index.rst:5
