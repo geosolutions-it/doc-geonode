@@ -17,8 +17,8 @@ At the end of this section you will be able to setup from scratch the whole GeoN
     2. What is Python
     3. What is a DBMS
     4. What is a Java Virtual Machine and the JDK
-    5. Linux OS basic shell and maintenance commands
     6. Basic TCP/IP and networking concepts
+    5. Linux OS basic shell and maintenance commands
     7. Apache HTTPD Server and WSGI Python bindings
 
 .. toctree::
@@ -30,12 +30,12 @@ At the end of this section you will be able to setup from scratch the whole GeoN
 
 
 :ref:`linux_admin_intro`
-    TODO
+    This section describes how to setup a Virtual Machine running Ubuntu.
 
 :ref:`geonode_install`
-    TODO
+    This section will guide the user through the steps necessary to install GeoNode on Ubuntu.
 
 :ref:`setup_on_centos`
-    This section will guide the user through the steps necessary to install GeoNode.
+    This section will guide the user through the steps necessary to install GeoNode on CentOS.
 
     Packaging for automatic installation are provided for Ubuntu, so, the only option for installing GeoNode on a CentOS platform is installing it from source.

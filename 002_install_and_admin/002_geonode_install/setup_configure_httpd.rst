@@ -103,8 +103,6 @@ And enable geonode configuration file
 Dowload GeoNode data to be served by Apache. You will be prompted for confirmation
 ::
     cd /home/geonode/geonode/
-
-::
     sudo -u geonode python manage.py collectstatic
 
 Add `thumbs` and `layers` folders
