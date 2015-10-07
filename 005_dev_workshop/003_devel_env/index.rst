@@ -27,18 +27,18 @@ Summary of the installation steps
 .. warning:: Don't forget to stop the **GeoNode Production** services if enabled
 
     .. code-block:: console
-    
+
         service apahe2 stop
         service tomcat7 stop
 
 #. If possible log as **root** user, open a terminal and ``cd /home/geonode/dev``
-        
+
 #. Retrieve latest apt-get list
 
    .. code-block:: console
-  
+
         $ sudo apt-get update
-    
+
 #. Install build tools and libraries
 
    .. code-block:: console
@@ -62,19 +62,22 @@ Summary of the installation steps
    *Postgresql*
 
      .. note:: The following steps must be executed **only** if you don't have PostgreSQL and PostGIS already installed on your system (see :ref:`install_geonode_application`)
-     
+
          .. code-block:: console
 
             $ sudo apt-get install postgresql-9.3-postgis-2.1 postgresql-9.3-postgis-scripts
 
          Change postgres UNIX password
 
-         .. code-block:: console
 
-            $ sudo passwd -u postgres # change password expiry infromation
-            $ sudo passwd postgres # change unix password for postgres
+    .. code-block:: console
 
-     Create geonode role and database
+        $ sudo passwd -u postgres # change password expiry infromation
+
+        $ sudo passwd postgres # change unix password for postgres
+
+
+Create geonode role and database
 
      .. code-block:: console
 
@@ -95,10 +98,28 @@ Summary of the installation steps
 
         $ exit
 
+Edit PostgreSQL configuration file
+::
+    sudo gedit /etc/postgresql/9.3/main/pg_hba.conf
+
+Scroll to the bottom of the file and edit this line
+::
+    # "local" is for Unix domain socket connections only
+    local   all             all                            peer
+
+As follows
+::
+# "local" is for Unix domain socket connections only
+local   all             all                                trust
+
+Restart PostgreSQL to make the changes effective
+::
+    sudo service postgresql restart
+
    *Java dependencies*
 
    .. note:: The following steps must be executed **only** if you don't have a Java JDK already installed on your system (see :ref:`install_geonode_application`)
-   
+
         .. code-block:: console
 
             $ sudo apt-get install -y --force-yes openjdk-6-jdk --no-install-recommends
@@ -119,7 +140,7 @@ Summary of the installation steps
       .. code-block:: console
 
         $ cd /home/geonode/dev
-        
+
         $ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
         $ export WORKON_HOME=/home/geonode/dev/.venvs
         $ source /usr/local/bin/virtualenvwrapper.sh
@@ -134,7 +155,7 @@ Summary of the installation steps
             $ echo source /usr/local/bin/virtualenvwrapper.sh >> ~/.bashrc
             $ echo export PIP_DOWNLOAD_CACHE=$HOME/.pip-downloads >> ~/.bashrc
 
-            $ source ~/.bashrc 
+            $ source ~/.bashrc
 
    Set up the local virtual environment for Geonode
 
@@ -149,6 +170,10 @@ Summary of the installation steps
 
    To download the latest geonode version from github, the command *clone* is used
 
+.. note::
+    If you are following the GeoNode training, skip the following command.
+    You can find the cloned repository in /home/geonode/dev
+
    .. code-block:: console
 
     $ git clone https://github.com/GeoNode/geonode.git
@@ -156,6 +181,10 @@ Summary of the installation steps
 #. Add Nodejs PPA and other tools required for static development
 
    This is required for static development
+
+.. note::
+    If you are following GeoNode's training, nodejs is already installed in the
+    Virtual Machine skip the first three command and jump to `cd geonode/geonode/static`
 
     .. code-block:: console
 
@@ -183,35 +212,35 @@ Summary of the installation steps
 #. Install GeoNode in the new active local virtualenv
 
     .. code-block:: console
-   
+
         $ cd /home/geonode/dev
         $ pip install pip --upgrade
         $ pip install -e geonode --use-mirrors
 
         $ cd geonode
-    
+
    If the install fails because of an error related to pyproj not being verified (happens on pip 1.5), use the following:
-    
+
    .. code-block:: console
-    
-        $ pip install -e geonode --use-mirrors --allow-external pyproj --allow-unverified pyproj 
+
+        $ pip install -e geonode --use-mirrors --allow-external pyproj --allow-unverified pyproj
 
 #. Create ``local_settings.py``
-    
+
    Add the ``local_settings.py`` to your GeoNode instllation
-   
+
    .. code-block:: console
-   
+
         $ cd /home/geonode/dev/geonode
         $ cp geonode/local_settings.py.sample geonode/local_settings.py
         $ gedit geonode/local_settings.py
 
    Add the following lines to the ``local_settings.py``
-   
+
    .. code-block:: python
-    
+
         ...
-        
+
         SITEURL = "http://localhost:8000/"
 
         DATABASES = {
@@ -278,17 +307,18 @@ Summary of the installation steps
         }
 
         ...
-        
+
 #. Compile and Start the server for the first time
 
    Align the DataBase structure
-   
+
    .. code-block:: console
 
+    $ cd /home/geonode/dev/geonode
     $ python manage.py syncdb --noinput
-   
-   .. warning:: If the start fails because of an import error related to osgeo, then please consult the :ref:`install_gdal_devmode`. 
-   
+
+   .. warning:: If the start fails because of an import error related to osgeo, then please consult the :ref:`install_gdal_devmode`.
+
    The last step is to compile GeoServer and setup
 
    .. code-block:: console
@@ -300,7 +330,7 @@ Summary of the installation steps
     .. warning:: Don't forget to stop the **GeoNode Production** services if enabled
 
         .. code-block:: console
-        
+
             service apahe2 stop
             service tomcat7 stop
 
@@ -315,8 +345,8 @@ Summary of the installation steps
    .. code-block:: console
 
     $ paver start -b 1.1.1.1:8000
-   
-   .. warning:: If the start fails because of an import error related to osgeo, then please consult the :ref:`install_gdal_devmode`. 
+
+   .. warning:: If the start fails because of an import error related to osgeo, then please consult the :ref:`install_gdal_devmode`.
 
 #. To stop the server
 
@@ -339,7 +369,7 @@ Summary of the installation steps
 Start working on Geonode the next day after install
 ===================================================
 
-   With every restart of your machine, you have to restart geonode as well. That means, you will not be able to open http://localhost:8000   directly after starting your machine new. In order to be able to use geonode now, you have to activate your virtualenvironment and to start the development servers. 
+   With every restart of your machine, you have to restart geonode as well. That means, you will not be able to open http://localhost:8000   directly after starting your machine new. In order to be able to use geonode now, you have to activate your virtualenvironment and to start the development servers.
 
    .. note:: *username* is the name of your machine and personal folder!
 
@@ -366,7 +396,7 @@ Start working on Geonode the next day after install
        .. warning:: Don't forget to stop the **GeoNode Production** services if enabled
 
             .. code-block:: console
-            
+
                 service apahe2 stop
                 service tomcat7 stop
 
@@ -387,4 +417,3 @@ Start working on Geonode the next day after install
 
    install_win_devmode
    install_gdal_devmode
-
