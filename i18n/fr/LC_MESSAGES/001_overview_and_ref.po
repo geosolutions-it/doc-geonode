@@ -33,7 +33,7 @@ msgid ""
 "shared publicly or restricted to specific users only. Supported upload "
 "formats include ShapeFile, GeoTIFF, KML and CSV. In addition, it is possible"
 " to connect to existing external spatial databases and services."
-msgstr "Geonode permet aux usagers de télécharger et partager les données géospatiales en sécurité. Geonode rend  les données spatiales facile à gèrer  et à  télécharger . Chaque utilisateur peut télécharger et rendre des contenus disponibles via standard OGC protocols comme Web Map Service (WMS) et Web Feature Service ( WFS). La donnée est disponible pour naviguer , chercher , former et traiter afin de générer des cartes pouvant être partagée publiquement ou limitée seulement à des utilisateurs spécifiques. Le format de téléchargement spécifié inclut ShapeFile, GeoTIFF, KML et CSV. En plus, il est possible de se connecter à des bases de données et services spatiaux externes existants."
+msgstr "Geonode permet aux utilisateurs de télécharger et partager les données géospatiales en sécurité. Geonode rend  les données géospatiales facile à gèrer  et à  télécharger. Chaque utilisateur peut télécharger et rendre des contenus disponibles via standard OGC protocols comme Web Map Service (WMS) et Web Feature Service ( WFS). La donnée est disponible pour naviguer, chercher, elaborer et traiter afin de générer des cartes pouvant être partagée publiquement ou limitée seulement à des utilisateurs spécifiques. Le format de téléchargement spécifié inclut ShapeFile, GeoTIFF, KML et CSV. En plus, il est possible de se connecter à des bases de données et services spatiaux externes existants."
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:10
 #: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:11
@@ -43,11 +43,11 @@ msgstr "Les fonctionnalités incluent:"
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:12
 msgid "Publish raster, vector, and tabular data"
-msgstr "Publish raster, vecteur et données tabulaires"
+msgstr "Publier des données raster, vecteur et  tabulaires"
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:14
 msgid "Manage metadata and associated documents"
-msgstr "Gérer des métadonées et des documents associés."
+msgstr "Gérer des métadonées et des documents associés"
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:16
 msgid "Securely or publicly share data"
@@ -55,7 +55,7 @@ msgstr "Donées partagées publiquement ou en toute sécurité"
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:18
 msgid "Versioned geospatial data editor"
-msgstr "Editeur de donées géospatiale versionnée."
+msgstr "Editeur de donées géospatiale versionnée"
 
 #: ..\..\001_overview_and_ref\001_user_features\index.rst:5
 msgid "Users' Features"
