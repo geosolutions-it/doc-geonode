@@ -465,7 +465,7 @@ msgid ""
 "using `http://webchat.freenode.net/ <http://webchat.freenode.net/>`_ or by "
 "asking your question in our `google group "
 "<https://groups.google.com/forum/#!forum/geonode-users>`_!"
-msgstr "Restez en contact avec la communauté de GeoNode par la voie #geonode IRC en utilisant ` http://webchat.freenode.net/ <http://webchat.freenode.net/>`_ ou en demandant à votre question dans notre groupe `google <https://groups.google.com/forum/#!forum/geonode-users>`_ !"
+msgstr "Restez en contact avec la communauté de GeoNode par la voie #geonode IRC en utilisant `cet adresse <http://webchat.freenode.net/>`_ ou en demandant à votre question dans notre groupe `google <https://groups.google.com/forum/#!forum/geonode-users>`_ !"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:5
 msgid "A Tour Of GeoNode"
@@ -609,27 +609,27 @@ msgstr "Architecture"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:12
 msgid "*GeoNode Component Architecture*"
-msgstr "* Architecture des composants de GeoNode*"
+msgstr "*Architecture des composants de GeoNode*"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:14
 msgid ""
 "GeoNode core is based on DJango web framework with few more dependencies "
 "necessary for the communication with the geospatial servers (GeoServer, "
 "pyCSW)"
-msgstr "GeoNode est développé en utilisant le cadre web Django avec quelques dépendances nécessaires à la communication avec les serveurs géospatiales ( par example GeoServer, pyCSW )"
+msgstr "GeoNode est développé en utilisant le cadre web Django avec quelques dépendances nécessaires à la communication avec les serveurs géospatiales (par example GeoServer, pyCSW)"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:16
 msgid ""
 "On the left side you can see the list of *Entities* defined in GeoNode and "
 "managed by the DJango ORM framework. Those objects will be detailed in a "
 "future section."
-msgstr "Sur le côté gauche vous pouvez voir la liste des *entités* * * définies dans GeoNode et gérés par le framework Django ORM . Ces objets seront détaillées dans une section a venir."
+msgstr "Sur le côté gauche vous pouvez voir la liste des *Entities* définies dans GeoNode et gérés par le framework Django ORM. Ces objets seront détaillées dans une section a venir."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:18
 msgid ""
 "On the right side the list of *Services* available allowing GeoNode to "
 "communicate with the *social* world."
-msgstr "Sur le côté droit de la liste des *services\"  Disponible permettant GeoNode de communiquer avec le monde *social*"
+msgstr "Sur le côté droit de la liste des *Services*  disponibles qu'on permet a GeoNode de communiquer avec le monde *social*"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:20
 msgid ""
@@ -638,7 +638,7 @@ msgid ""
 "implemented and managed by GeoServer. GeoNode acts as a broker for the "
 "geospatial layers, adding metdata information and tools that make easier the"
 " management, cataloging, mapping and searching of the datasets."
-msgstr "Le catalogue de GeoNode est strictement relié au GeoServer un ( voir le bas de la figure ) . Le jeu de données géospatial et les services de l'OGC sont mis en œuvre et gérés par GeoServer . GeoNode agit comme un courtier pour les couches géospatiales, ajoutant des informations et des outils qui rendent plus facile la gestion, le catalogage, la cartographie et la recherche des ensembles de données METDATA ."
+msgstr "GeoNode est strictement relié au GeoServer (voir le bas de la figur ). Les données géospatial et les services de l'OGC sont mis en œuvre et gérés par GeoServer. GeoNode agit comme un courtier pour les couches géospatiales, ajoutant des informations et des outils qui rendent plus facile la gestion, le catalogage, la cartographie et la recherche des données geospatiales."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:23
 msgid ""
@@ -646,7 +646,7 @@ msgid ""
 "constantly aligned with the GeoServer catalog. An ad-hoc security module "
 "allows the two modules to strictly interact and share security and "
 "permissions rules."
-msgstr "Grace au cadre ORM et aux bibliothèques Python auxiliaires, GeoNode est constamment aligné avec le catalogue de GeoServer . Un module de sécurité ad- hoc permet aux deux modules d'interagir et de partager strictement les règles de sécurité et les autorisations ."
+msgstr "Grace au cadre ORM et aux bibliothèques Python auxiliaires, GeoNode est constamment aligné avec le catalogue de GeoServer. Un module de sécurité ad-hoc permet aux deux applications d'interagir et de partager strictement les règles de sécurité et les autorisations des comptes."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:26
 msgid ""
@@ -672,24 +672,29 @@ msgid ""
 "/Object-relational_mapping>`_ in views which contain the business logic of "
 "the GeoNode application and are used to drive HTML templates to display the "
 "web pages within the application."
-msgstr "GeoNode est basée sur ` Django < www.djangoproject.com > ` _ qui est un cadre de développement web en Python de haut niveau qui encourage le développement rapide et la conception pragmatique propre. Django est basé sur le Modèle -Vue-Contrôleur ( MVC < http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller~~number=plural > ` _` ) motif de l'architecture, et en tant que tels, les modèles de GeoNode couches, des cartes et d'autres modules avec Django ` Modèle < https://docs.djangoproject.com/en/1.4/topics/db/models/ > ` _ module et  ces modèles sont utilisés par des ` ORM Django < http : // en.wikipedia.org/wiki/Object-relational_mapping>`_ dans les vues qui contiennent la logique métier de l'application de GeoNode et sont utilisés pour conduire des modèles HTML pour afficher les pages Web au sein de l'application ."
+msgstr "GeoNode est basée sur `Django <www.djangoproject.com>`_ qui est un cadre de développement web en Python de haut niveau qui encourage le développement rapide et la conception pragmatique propre. Django est basé sur le paradigme Modèle-Vue-Contrôleur (`MVC "
+"<http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller>`_) de l'architecture, donc les modèles des couches, des cartes et d'autres modules de GeoNode  avec Django `Model "
+"<https://docs.djangoproject.com/en/1.4/topics/db/models/>`_ module et  ces modèles sont utilisés par des `ORM <http://en.wikipedia.org/wiki"
+"/Object-relational_mapping>`_ dans les vues qui contiennent la logique métier de l'application de GeoNode et sont utilisés pour conduire des modèles HTML pour afficher les pages Web au sein de l'application."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:38
 msgid ""
 "Django explained with model/view/controller (`MVC "
 "<http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-"
 "explanation.html>`_)"
-msgstr "Django a expliqué avec le modèle / view / contrôleur ( MVC ` < http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-explanation.html > ` _ )"
+msgstr "Django expliqué avec le modèle/view/contrôleur paradigme (`MVC "
+"<http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-"
+"explanation.html>`_)"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:40
 msgid "Model represents application data and provides rich ORM functionality."
-msgstr "Le modèle représente les données d'application et fournit de riches fonctionnalités ORM "
+msgstr "Le modèle représente les données d'application et fournit de riches fonctionnalités ORM."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:41
 msgid ""
 "Views are a rendering of a Model most often using the Django template "
 "engine."
-msgstr "Les vues sont un rendu d'un modèle, plus souvent en utilisant le moteur de gabarit de Django ."
+msgstr "Les vues sont une représentation d'un Modèle, plus souvent en utilisant le moteur de template de Django ."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:42
 msgid ""
@@ -697,7 +702,7 @@ msgid ""
 "architecture is a subject of discussion. According to the standard "
 "definition, the controller is the layer or component through which the user "
 "interacts and model changes occur."
-msgstr "n Django, la partie du contrôleur de cette couramment discuté  architecture en couches est un sujet de discussion . Selon la définition standard, le contrôleur est la couche ou un composant à travers lequel les interagit d'utilisateur et les changements de modèle se produisent ."
+msgstr "In Django, le contrôleur est le composant à travers lequel on peut interagir avec le modèle."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:45
 msgid "MVP/MVC"
@@ -722,19 +727,20 @@ msgid ""
 "handler delegates to the *Presenter*'s *OnSave* method. Once the save is "
 "completed, the *Presenter* will then call back the *View* through its "
 "interface so that the *View* can display that the save has completed."
-msgstr "Dans MVP, le * Présentateur * contient la logique métier de l'interface utilisateur pour le * View * . Toutes les invocations de la vu le délégue directement au Présentateur * . Le Présentateur est également découplé directement à partir de * Vue * et parle à travers une interface . Ceci afin de permettre le moqueur de  Vue * dans un test unitaire . Un attribut commun de MVP est qu'il doit y avoir beaucoup de dispatching dans les deux sens . Par exemple, quand quelqu'un clique sur le bouton Enregistrer * *, les délégués de gestionnaires d' événement à la méthode de  OnSave  Présentateur * . Une fois la sauvegarde terminée, le Présentateur rappelera la * Vue * grâce à son interface de sorte que la * Vue * puisse afficher que la sauvegarde est terminée."
+msgstr "Dans MVP, le *Présentateur* contient la logique de l'interface utilisateur (la *ue*). Toutes les invocations de la vue le délégue directement au *Présentateur* . Le Présentateur est également découplé directement à partir de *Vue* et parle à travers une interface. Un attribut commun de MVP est qu'il doit y avoir beaucoup d'échange d'informations dans les deux sens. Par exemple, quand quelqu'un clique sur le bouton *Save*, les délégués la gestion d'événement à la méthode de  *OnSave  Présentateur*. Une fois la sauvegarde terminée, le Présentateur rappelera la *Vue* grâce à son interface de sorte que la *Vue* puisse visualiser que la sauvegarde est terminée."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:57
 msgid ""
 "MVP tends to be a very natural pattern for achieving separated presentation "
 "in Web Forms."
-msgstr "MVP a tendance à être un modèle très naturel pour la réalisation de la présentation séparée dans les formulaires Web ."
+msgstr "MVP est un paradigme très naturel pour la réalisation de la présentation séparée dans les formulaires Web."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:59
 msgid ""
 "**Two primary variations** (You can `find out more about both variants "
 "<http://www.codeplex.com/websf/Wiki/View.aspx?title=MVPDocumentation&referringTitle=bundles>`_.)"
-msgstr "* Deux variations primaires ** ( Vous pouvez ` en savoir plus sur les deux variantes < http://www.codeplex.com/websf/Wiki/View.aspx?title=MVPDocumentation&referringTitle=bundles > ` _ . )"
+msgstr "**Deux variations primaires** ( Vous pouvez `en savoir plus sur les deux variantes "
+"<http://www.codeplex.com/websf/Wiki/View.aspx?title=MVPDocumentation&referringTitle=bundles>`_.)"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:61
 msgid ""
@@ -745,7 +751,7 @@ msgid ""
 " Passive View there is no direct data binding, instead the View exposes "
 "setter properties which the Presenter uses to set the data. All state is "
 "managed in the Presenter and not the View."
-msgstr "Vue passive: ** La vue est aussi stupide que possible et contient près de zéro logique . Le présentateur est un homme du milieu qui parle à la vue et au modèle . La vue et le modèle sont complètement à l'abri de l'autre. Le modèle peut déclencher des événements, mais le présentateur souscrit à eux pour mettre à jour la vue . Dans la vue passive, il n'y a pas pas de données directes, au lieu dexposer les propriétés setter laquelle le présentateur utilise pour définir les données . Tout Etat est géré dans le Présentateur et pas dans la vue ."
+msgstr "**Vue passive:** La vue est la plus simple et contient près de zéro logique. Le présentateur est un *middle man* qui parle à la vue et au modèle. La vue et le modèle sont complètement à l'abri de l'autre. Le modèle peut déclencher des événements et le présentateur souscrit à eux pour mettre à jour la vue. Dans la vue passive, il n'y a pas pas de données directes, au lieu dexposer les propriétés setter laquelle le présentateur utilise pour définir les données. L'Etat est géré dans le Présentateur et pas dans la vue."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:63
 msgid ""
@@ -765,17 +771,17 @@ msgid ""
 "Presenter's job to pass off the Model to the View so that it can bind to it."
 " The Presenter will also contain logic for gestures like pressing a button, "
 "navigation, etc."
-msgstr "** Contrôleur surveillant : ** Le Présentateur gère les gestes de l'utilisateur . The View se lie au modèle directement à travers la liaison de données . Dans ce cas, il est le travail de l'animateur de faire passer le modèle à la vue de sorte qu'il peut se lier à elle . Le Présentateur contiendra également logique pour les gestes comme appuyant sur un bouton, la navigation, etc."
+msgstr "**Contrôleur surveillant:** Le Présentateur gère les gestes de l'utilisateur. The View se lie au modèle directement à travers la liaison de données . Dans ce cas, il est le travail de l'animateur de faire passer le modèle à la vue de sorte qu'il peut se lier à elle . Le Présentateur contiendra également logique pour les gestes comme appuyant sur un bouton, la navigation, etc."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:68
 msgid "*Pro:* by leveraging databinding the amount of code is reduced."
-msgstr "* Pro : * en tirant parti de liaison de données, la quantité de code est réduite ."
+msgstr "*Pro:* en tirant parti de liaison de données, la quantité de code est réduite ."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:69
 msgid ""
 "*Con:* there's less testable surface (because of data binding), and there's "
 "less encapsulation in the View since it talks directly to the Model."
-msgstr "* Con : * il y a moins de surface testables (en raison de la liaison de données ), et il y a moins d'encapsulation dans la vue car il parle directement au modèle ."
+msgstr "*Con:* il y a moins de surface testables (en raison de la liaison de données ), et il y a moins d'encapsulation dans la vue car il parle directement au modèle ."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:72
 msgid "MVC"
@@ -789,7 +795,7 @@ msgstr "*Model, View, Controller*"
 msgid ""
 "In the MVC, the Controller is responsible for determining which View is "
 "displayed in response to any action including when the application loads."
-msgstr "Dans le MVC, le contrôleur est chargé de déterminer quelle View est affichée en réponse à toute action, y compris lors du chargement de l'application."
+msgstr "Dans le MVC, le contrôleur est chargé de déterminer quelle *Vue* est affichée en réponse à chaque action de l'application."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:77
 msgid ""
@@ -800,7 +806,7 @@ msgid ""
 "Controller has completed its processing, it will return the correct View. "
 "The sequence continues in that manner throughout the life of the "
 "application:"
-msgstr "Cela diffère de MVP où les actions route à travers la vue sur le présentateur . Dans MVC, chaque action dans la vue en corrélation avec un appel à un contrôleur avec une action . Dans le web chaque action implique un appel à une URL de l'autre côté de laquelle se trouve un contrôleur qui répond. Une fois que le contrôleur a terminé son traitement, il sera de retour la bonne vue. La séquence se poursuit de cette manière tout au long de la vie de l'application :"
+msgstr "Cela diffère de MVP où les actions route à travers la vue sur le présentateur. Dans MVC, chaque action dans la Vue va générer un appel à un contrôleur avec une action. Chaque action implique un appel à une URL ou se trouve un contrôleur qui répond. Une fois que le contrôleur a terminé son travail, il va retourner la vue finale. La séquence va continuer de cette manière tout au long de la vie de l'application:"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:89
 msgid ""
@@ -809,7 +815,7 @@ msgid ""
 "implementations of MVC the View usually will not have any logic in the code "
 "behind. This is contrary to MVP where it is absolutely necessary as if the "
 "View does not delegate to the Presenter, it will never get called."
-msgstr "Une autre grande différence à propos de MVC est que la vue ne lie pas directement au modèle . Le point de vue rend tout simplement, et est complètement apatride. Dans les implémentations de la vue MVC ne sera généralement pas avoir une logique dans le code derrière . Ceci est contraire à MVP où il est absolument nécessaire que si la vue ne délègue pas au présentateur, il ne sera jamais appelé ."
+msgstr "Une  grande différence à propos de MVC est que la Vue n'interagir pas directement avec le modèle. La vue fait simplement le travail de afficher des informations et il n'a aucun d'etat. Donc avec le paradigme MVC la vue ne va pas avoir de la logique dans son interieur. Ceci est au contraire à MVP parce-que si la vue ne délègue pas au présentateur, il ne sera jamais appelé."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:92
 msgid "Presentation Model"
@@ -829,21 +835,24 @@ msgid ""
 "view uses for invoking actions. The advantage of this approach is that you "
 "can essentially remove the code-behind altogether as the PM completely "
 "encapsulates all of the behaviour for the view."
-msgstr "Une autre tendance à regarder est le motif Présentation Modèle . Dans ce modèle il n'y a pas Présentateur . Au lieu de la vue se lie directement  un modèle de présentation ** ** . La présentation est un modèle conçu spécifiquement pour la vue. Cela signifie que ce modèle peut exposer les propriétés que l'on aurait jamais mis sur un modèle de domaine, car il serait une violation de la séparation - de - préoccupations . Dans ce cas, le modèle de présentation se lie au modèle de domaine, et peut souscrire à des événements provenant de ce modèle . The View souscrit alors à des événements à venir à partir du modèle et se met à jour en conséquence Présentation . Le modèle de présentation peut exposer le point de vue des commandes qui utilise pour invoquer actions . L'avantage de cette approche est que vous pouvez essentiellement supprimer le code -behind tout à fait que le PM encapsule complètement tous le comportement de la vue."
+msgstr "Une autre tendance à regarder est le paradigm **Présentation Modèle**. Dans ce modèle il n'y a pas Présentateur . Au lieu de la vue se lie directement  un  **Modèle de Présentation**. La présentation est un modèle créé spécifiquement pour la vue. Cela signifie que ce modèle peut exposer les propriétés que l'on aurait jamais mis sur un modèle de domaine, car il serait une violation de la separation-of-concerns. Dans ce cas, le modèle de présentation se lie au modèle de domaine, et peut souscrire à des événements provenant de ce modèle. The View souscrit alors à des événements à venir à partir du modèle et se met à jour en conséquence Présentation . Le modèle de présentation peut exposer le point de vue des commandes qui utilise pour invoquer actions. L'avantage de cette approche est que vous pouvez essentiellement supprimer le code -behind tout à fait que le PM encapsule complètement tous le comportement de la vue."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:100
 msgid ""
 "This pattern is a very strong candidate for use in WPF applications and is "
 "also called `Model-View-ViewModel <http://msdn.microsoft.com/en-"
 "us/magazine/dd419663.aspx>`_."
-msgstr "Ce modèle est un candidat très solide pour une utilisation dans les applications WPF et est aussi appelé ` Model-View- ViewModel < http://msdn.microsoft.com/en-us/magazine/dd419663.aspx > ` _ ."
+msgstr "Ce modèle est un candidat très solide pour une utilisation dans les applications WPF et est aussi appelé `Model-View-ViewModel <http://msdn.microsoft.com/en-"
+"us/magazine/dd419663.aspx>`_."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:102
 msgid ""
 "More: `http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-"
 "explanation.html <http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-"
 "explanation.html>`_"
-msgstr "Plus : ` http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-explanation.html < http://reinout.vanrees.org/weblog/2011/12/13/django-mvc -explanation.html > `_"
+msgstr "Plus : `http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-"
+"explanation.html <http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-"
+"explanation.html>`_"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:105
 msgid "WSGI"
@@ -858,13 +867,13 @@ msgid ""
 "This is a python specification for supporting a common interface between all"
 " of the various web frameworks and an application (Apache, for example) that"
 " is ‘serving’."
-msgstr "Ceci est une spécification de python pour supporter une interface commune entre tous les différents frameworks web et une application ( Apache, par exemple) qui est «servir »."
+msgstr "Ceci est une spécification de python pour supporter une interface commune entre tous les différents frameworks web et une application (Apache, par exemple) qui est ‘serving’."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:109
 msgid ""
 "This allows any WSGI compliant framework to be hosted in any WSGI compliant "
 "server."
-msgstr "Cela permet à tout cadre compatible WSGI à être hébergé dans un serveur compatible WSGI ."
+msgstr "Cela permet à tout cadre compatible WSGI à être *hosted* dans un serveur compatible WSGI."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:110
 msgid ""
@@ -894,7 +903,7 @@ msgid ""
 "infrastructure (SDI).  These Web Services enable discovery, visualization "
 "and access your data, all without necessarily having to interact directly "
 "with your GeoNode website, look and feel/UI, etc."
-msgstr "À sa base, GeoNode fournit une plateforme basée sur des normes pour permettre l'accès programmatique intégrée à vos données via des services Web de l'OGC, qui sont des éléments essentiels nécessaires pour déployer une infrastructure de données spatiales conformes à l'OGC ( SDI ) . Ces services Web permettent la découverte, la visualisation et accéder à vos données, le tout sans avoir nécessairement à interagir directement avec votre site de GeoNode, regarder et sentir / UI, etc."
+msgstr "À sa base, GeoNode fournit une plateforme basée sur des standards *well-known* pour permettre l'accès programmatique intégrée à vos données via des services Web de l'OGC, qui sont des éléments essentiels nécessaires pour déployer une infrastructure de données spatiales (SDI) conformes à l'OGC. Ces services Web permettent la découverte, la visualisation et le téléchargement des vos données, sans avoir nécessairement à interagir directement avec votre site de GeoNode."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:121
 msgid "GeoNode configures GeoServer via the REST API"
@@ -905,29 +914,29 @@ msgid ""
 "GeoNode retrieves and caches spatial information from GeoServer. This "
 "includes relevant OGC service links, spatial metadata, and attribute "
 "information."
-msgstr "GeoNode récupère et met en cache les informations spatiales provenant de GeoServer . Cela inclut des liens pertinents OGC de services, les métadonnées spatiales, et des informations d'attributs ."
+msgstr "GeoNode récupère et met en cache les informations spatiales provenant de GeoServer. Cela inclut des liens pertinents OGC de services, les métadonnées spatiales, et des informations d'attributs ."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:124
 msgid ""
 "In summary, GeoServer contains the layer data, and GeoNode’s layer model "
 "extends the metadata present in GeoServer with its own."
-msgstr "En résumé, GeoServer contient les données de la couche, et le modèle de la couche de GeoNode étend les métadonnées présents dans GeoServer avec son propre."
+msgstr "GeoServer contient les données des couches et le modèle de la couche de GeoNode étend les métadonnées présents dans GeoServer avec son propre."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:125
 msgid ""
 "GeoNode can discover existing layers published in a GeoServer via the WMS "
 "capabilities document."
-msgstr "GeoNode peut découvrir couches existantes publiées dans un GeoServer via le document de capacités WMS."
+msgstr "GeoNode peut découvrir couches publiées dans un GeoServer via le document de capacités WMS (GetCapabilities)."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:126
 msgid "GeoServer delegates authentication and authorization to GeoNode."
-msgstr "GeoServer laisse faire l'authentification et l'autorisation à GeoNode "
+msgstr "GeoServer délégue l'authentification et l'autorisation à GeoNode "
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:127
 msgid ""
 "Data uploaded to GeoNode is first processed in GeoNode and finally published"
 " to GeoServer (or ingested into the spatial database)."
-msgstr "Les données téléchargées vers GeoNode sont d'abord traitées dans GeoNode et enfin publiées à GeoServer (ou ingérées dans la base de données spatiales ) ."
+msgstr "Les données chargées dans GeoNode sont d'abord élaborée dans GeoNode et enfin publiées à GeoServer (ou ingérées dans la SGBD)."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:130
 msgid "OGC Web Services:"
@@ -935,15 +944,15 @@ msgstr "OGC Web Services:"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:132
 msgid "operate over HTTP (GET, POST)"
-msgstr "fonctionner sur HTTP ( GET, POST )"
+msgstr "Ils fonctionnent sur HTTP ( GET, POST )"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:133
 msgid "provide a formalized, accepted API"
-msgstr "fournir une API accepté formalisée"
+msgstr "Ils fournisse une API formalisée et largement accepté"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:134
 msgid "provide formalized, accepted formats"
-msgstr "fournir une API accepté formalisée"
+msgstr "Ils fournissent des formats  accepté formalisée"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:136
 msgid ""
@@ -952,7 +961,7 @@ msgid ""
 "developer, there are already numerous off-the-shelf GIS packages, tools and "
 "webapps (proprietary, free, open source) that natively support OGC Web "
 "Services."
-msgstr "Les OGC Web Services fournis par GeoNode ont une base de mise en œuvre mature et fournissent une approche multi-application à l'intégration . Cela signifie, en tant que développeur, il ya déjà de nombreuses off -the-shelf SIG paquets, des outils et des webapps ( exclusif, gratuit, open source ) qui prennent en charge nativement les services Web de l'OGC ."
+msgstr "Les OGC Web Services fournis par GeoNode ont une base de mise en œuvre mature et fournissent une approche multi-application à l'intégration. Cela signifie, en tant que développeur, il ya déjà de nombreuses off -the-shelf SIG paquets, des outils et des webapps (exclusif, gratuit, open source) qui prennent en charge nativement les services Web de l'OGC."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:138
 msgid "There are numerous ways to leverage OGC Web Services from GeoNode:"
@@ -968,7 +977,7 @@ msgstr "application Web"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:142
 msgid "client libraries / toolkits"
-msgstr "bibliothèques client / boîtes à outils"
+msgstr "bibliothèques client / toolkits"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:143
 msgid "custom development"
@@ -979,7 +988,7 @@ msgid ""
 "Your GeoNode lists OGC Web Services and their URLs at "
 "``http://localhost:8000/developer``.  You can use these APIs directly to "
 "interact with your GeoNode."
-msgstr "Votre GeoNode répertorie OGC Web Services et de leurs URL à `` http : // localhost : 8000 / developer`` . Vous pouvez utiliser ces API directement pour interagir avec votre GeoNode "
+msgstr "Votre GeoNode répertorie OGC Web Services et de leurs URL à "``http://localhost:8000/developer``. Vous pouvez utiliser ces API directement pour interagir avec votre GeoNode "
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:147
 msgid ""
@@ -1113,7 +1122,8 @@ msgid ""
 "for standards-based discovery. See "
 "http://docs.pycsw.org/en/latest/tools.html for a list of CSW clients and "
 "tools."
-msgstr "CSW le critère de GeoNode est déployé disponible à `` http : // localhost : 8000 / catalogue / csw`` et est disponible pour les clients à utiliser pour la découverte basée sur des normes . Voir http://docs.pycsw.org/en/latest/tools.html pour une liste de clients et d'outils CSW ."
+msgstr "CSW le critère de GeoNode est déployé disponible à "
+"``http://localhost:8000/catalogue/csw`` et est disponible pour les clients à utiliser pour la découverte basée sur des normes. Voir http://docs.pycsw.org/en/latest/tools.html pour une liste de clients et d'outils CSW ."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:199
 msgid "Javascript in GeoNode"
@@ -1140,34 +1150,34 @@ msgstr "`Bower <http://bower.io/>`_ pour la gestion des paquets de l'interface g
 msgid ""
 "`ExtJS <http://extjs.com/>`_ for component-based UI construction and data "
 "access"
-msgstr "ExtJS < http://extjs.com/ > `_ pour la construction et les données interface utilisateur l'accès à base de composants"
+msgstr "`ExtJS <http://extjs.com/>`_ pour la construction et les données interface utilisateur l'accès à base de composants"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:206
 msgid ""
 "`OpenLayers <http://openlayers.org/>`_ for interactive mapping and other "
 "geospatial operations"
-msgstr "OpenLayers < http://openlayers.org/ > `_ pour la cartographie interactive et d'autres opérations géospatiales"
+msgstr "`OpenLayers <http://openlayers.org/>`_ pour la cartographie interactive et d'autres opérations géospatiales"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:207
 msgid "`GeoExt <http://geoext.org/>`_ for integrating ExtJS with OpenLayers"
-msgstr "GeoExt < http://geoext.org/ > `_ pour intégrer ExtJS avec OpenLayers"
+msgstr "`GeoExt <http://geoext.org/>`_ pour intégrer ExtJS avec OpenLayers"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:208
 msgid "`Grunt <http://gruntjs.com/>`_ for front-end task automation."
-msgstr "Grunt < http://gruntjs.com/ > `_ pour l'automatisation des tâches frontal ."
+msgstr "`Grunt <http://gruntjs.com/>`_ pour l'automatisation des tâches frontal ."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:209
 msgid ""
 "`GXP <http://projects.opengeo.org/gxp>`_ for providing some higher-level "
 "application building facilities on top of GeoExt, as well as improving "
 "integration with GeoServer."
-msgstr "GXP < http://projects.opengeo.org/gxp > `_ pour fournir certains de niveau supérieur la construction d'installations d'application sur le dessus de GeoExt, ainsi que l'amélioration de l'intégration avec GeoServer ."
+msgstr "`GXP <http://projects.opengeo.org/gxp>`_ pour fournir certains de niveau supérieur la construction d'installations d'application sur le dessus de GeoExt, ainsi que l'amélioration de l'intégration avec GeoServer ."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:211
 msgid ""
 "`jQuery <http://jquery.com>`_ to abstract javascript manipulation, event "
 "handling, animation and Ajax."
-msgstr "` jQuery < http://jquery.com > ` _ à la manipulation abstraite javascript, la gestion des événements, l'animation et l'Ajax"
+msgstr "`jQuery <http://jquery.com>`_ à la manipulation abstraite javascript, la gestion des événements, l'animation et l'Ajax"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:213
 msgid ""
@@ -1184,35 +1194,38 @@ msgid ""
 "checking permissions, retrieving and submitting the `CSRF token "
 "<https://docs.djangoproject.com/en/dev/ref/contrib/csrf/>`_, and user "
 "authentication."
-msgstr "A ` GeoNode MixIn < https://github.com/GeoNode/geonode/blob/master/geonode/static/geonode/js/extjs/GeoNode-mixin.js > ` _ classe qui fournit GeoExplorer avec les méthodes nécessaires pour fonctionner correctement dans GeoNode . La classe est responsable de la vérification des autorisations, la récupération et la présentation de la ` CSRF jeton < https://docs.djangoproject.com/en/dev/ref/contrib/csrf/ > ` _, l'authentification et de l'utilisateur ."
+msgstr "`GeoNode mixin "
+"<https://github.com/GeoNode/geonode/blob/master/geonode/static/geonode/js/extjs"
+"/GeoNode-mixin.js>`_ classe qui fournit GeoExplorer avec les méthodes nécessaires pour fonctionner correctement dans GeoNode . La classe est responsable de la vérification des autorisations, la récupération et la présentation de la `CSRF jeton <https://docs.djangoproject.com/en/dev/ref/contrib/csrf>`_, l'authentification et de l'utilisateur."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:220
 msgid ""
 "A `search module "
 "<https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/search>`_"
 " responsible for the GeoNode's site-wide search functionality."
-msgstr "Au ` module de recherche < https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/search > ` _ responsable de la fonctionnalité de recherche de l'ensemble du site de la GeoNode ."
+msgstr "Au `module de recherche <https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/search>`_ responsable de la fonctionnalité de recherche de l'ensemble du site de la GeoNode ."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:221
 msgid ""
 "An `upload and status module "
 "<https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/upload>`_"
 " to support file uploads."
-msgstr "Un ` téléchargement et le statut du module < https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/upload > ` _ pour soutenir les téléchargements de fichiers ."
+msgstr "Un `téléchargement et l'etat du module "
+"<https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/upload>`_ pour soutenir les téléchargements de fichiers ."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:222
 msgid ""
 "`Template files "
 "<https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/templates>`_"
 " for generating commonly used html sections."
-msgstr "Les fichiers de modèle < https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/templates > `_ pour générer sections html couramment utilisés ."
+msgstr "`Template files <https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/templates>`_ pour générer sections html couramment utilisés ."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:223
 msgid ""
 "A `front-end testing module "
 "<https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/tests>`_"
 " to test GeoNode javascript."
-msgstr "Un module frontal teste < https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/tests > ` _ pour tester GeoNode javascript ."
+msgstr "Un `front-end testing module <https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/tests>`_ pour tester GeoNode javascript ."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:225
 msgid ""
@@ -1420,7 +1433,7 @@ msgstr "Objet-relationnel mappeur"
 msgid ""
 "Deﬁne your data models entirely in Python. You get a rich, dynamic database-"
 "access API for free — but you can still write SQL if needed."
-msgstr " Définissez vos modèles de données entièrement en Python . Vous obtenez une riche base de données API - accès, dynamique gratuitement - mais vous pouvez toujours écrire SQL si nécessaire"
+msgstr "Définissez vos modèles de données entièrement en Python. Vous obtenez une riche base de données API - accès, dynamique gratuitement - mais vous pouvez toujours écrire SQL si nécessaire"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:33
 msgid "Models"
@@ -1431,7 +1444,7 @@ msgid ""
 "A model is the single, definitive source of information about your data. It "
 "contains the essential fields and behaviors of the data you’re storing. "
 "Generally, each model maps to a single database table."
-msgstr "Un modèle est la source unique et définitive de l'information sur vos données . Elle contient les champs essentiels et les comportements des données que vous stockez . En règle générale, chaque modèle correspond à un tableau de base de données unique ."
+msgstr "Un modèle est la source unique et définitive de l'information sur vos données. Elle contient les champs essentiels et les comportements des données que vous stockez. En règle générale, chaque modèle correspond à un tableau de base de données unique ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:37
 msgid "The basics:"
@@ -1440,7 +1453,7 @@ msgstr "Les bases:"
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:39
 msgid ""
 "Each model is a Python class that subclasses ``django.db.models.Model``."
-msgstr "Chaque modèle est une classe Python qui sous-classe `` django.db.models.Model`` ."
+msgstr "Chaque modèle est une classe Python qui sous-classe ``django.db.models.Model`` ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:40
 msgid "Each attribute of the model represents a database field."
@@ -1450,7 +1463,7 @@ msgstr "Chaque attribut du modèle représente un champ de base de données."
 msgid ""
 "With all of this, Django gives you an automatically-generated database-"
 "access API; see :ref:`making_queries`."
-msgstr "Avec tout cela, Django vous donne une base de données API d'accès généré automatiquement ; voir : ref: ` making_queries`"
+msgstr "Avec tout cela, Django vous donne une base de données API d'accès généré automatiquement; voir :ref:`making_queries`."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:44
 msgid "Quick example"
@@ -1460,18 +1473,18 @@ msgstr "Exemple Rapide"
 msgid ""
 "This example model defines a ``Person``, which has a **first_name** and "
 "**last_name**:"
-msgstr "Ce modèle d' exemple définit une `` Person``, qui a un nom et un prénom "
+msgstr "Ce modèle d' exemple définit une ``Person``, qui a un nom et un prénom "
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:57
 msgid ""
 "**first_name** and **last_name** are fields of the model. Each field is "
 "specified as a class attribute, and each attribute maps to a database "
 "column."
-msgstr "* prenom ** et ** ** nom_famille sont des champs du modèle . Chaque champ est défini comme un attribut de classe, et chaque attribut cartes à une colonne de base de données "
+msgstr "**first_name** et **last_name** sont des champs du modèle. Chaque champ est défini comme un attribut de classe, et chaque attribut cartes à une colonne de base de données "
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:59
 msgid "The above ``Person`` model would create a database table like this:"
-msgstr "Le modèle `` Person`` ci-dessus serait de créer une table de base de données comme ceci:"
+msgstr "Le modèle ``Person`` ci-dessus serait de créer une table de base de données comme ceci:"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:70
 msgid "Some technical notes:"
@@ -1481,19 +1494,19 @@ msgstr "Quelques notes techniques:"
 msgid ""
 "The name of the table, **myapp_person**, is automatically derived from some "
 "model metadata but can be overridden."
-msgstr "Le nom de la table, ** myapp_person **, est automatiquement dérivé de certaines métadonnées de modèle mais peut être surpassé"
+msgstr "Le nom de la table, **myapp_person**, est automatiquement dérivé de certaines métadonnées de modèle mais peut être surpassé"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:73
 msgid ""
 "An **id** field is added automatically, but this behavior can be overridden."
-msgstr "Un id ** ** champ est ajouté automatiquement, mais ce comportement peut être modifié ."
+msgstr "Un **id* champ est ajouté automatiquement, mais ce comportement peut être modifié."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:74
 msgid ""
 "The **CREATE TABLE** SQL in this example is formatted using PostgreSQL "
 "syntax, but it’s worth noting Django uses SQL tailored to the database "
 "backend specified in your settings file."
-msgstr "Le ** ** SQL CREATE TABLE dans cet exemple est formaté en utilisant la syntaxe de PostgreSQL, mais il est intéressant de noter que Django utilise SQL adapté au backend de base de données spécifié dans votre fichier de paramètres ."
+msgstr "Le **CREATE TABLE** dans cet exemple est formaté en utilisant la syntaxe de PostgreSQL, mais il est intéressant de noter que Django utilise SQL adapté au backend de base de données spécifié dans votre fichier de paramètres."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:77
 msgid "Using models"
@@ -1505,7 +1518,7 @@ msgid ""
 "use those models. Do this by editing your settings file and changing the "
 "**INSTALLED_APPS** setting to add the name of the module that contains your "
 "**models.py**."
-msgstr "Une fois que vous avez défini vos modèles, vous devez dire à Django que vous allez utiliser ces modèles . Faites cela en éditant votre fichier de paramètres et de modifier le réglage ** ** INSTALLED_APPS pour ajouter le nom du module qui contient votre ** models.py ** ."
+msgstr "Une fois que vous avez défini vos modèles, vous devez dire à Django que vous allez utiliser ces modèles. Faites cela en éditant votre fichier de paramètres et de modifier le réglage **INSTALLED_APPS** pour ajouter le nom du module qui contient votre **models.py** ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:81
 msgid ""
@@ -1513,20 +1526,20 @@ msgid ""
 "**myapp.models** (the package structure that is created for an application "
 "by the **manage.py startapp** script), **INSTALLED_APPS** should read, in "
 "part:"
-msgstr "Par exemple, si les modèles de votre application vivent dans le module ** ** myapp.models ( la structure du package qui est créé pour une application par le startapp manage.py **script**), **INSTALLED_APPS**  devraient lire, en partie:"
+msgstr "Par exemple, si les modèles de votre application vivent dans le module **myapp.models** (la structure du package qui est créé pour une application par le startapp manage.py **script**), **INSTALLED_APPS**  devraient lire, en partie:"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:92
 msgid ""
 "When you add new apps to **INSTALLED_APPS**, be sure to run **manage.py "
 "migrate**, optionally making migrations for them first with **manage.py "
 "makemigrations**."
-msgstr "Lorsque vous ajoutez de nouvelles applications à INSTALLED_APPS ** **, assurez-vous d' exécuter ** manage.py migrate **, éventuellement faire des migrations pour eux d'abord avec ** makemigrations manage.py ** ."
+msgstr "Lorsque vous ajoutez de nouvelles applications à **INSTALLED_APPS**, assurez-vous d' exécuter **manage.py migrate**, éventuellement faire des migrations pour eux d'abord avec **manage.py makemigrations** ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:94
 msgid ""
 "GeoNode has specific commands and shortcuts wich can be called through the "
 "**manage.py** class"
-msgstr "GeoNode a des commandes spécifiques et les raccourcis wich peut être appelé par l' ** ** manage.py classe"
+msgstr "GeoNode a des commandes spécifiques et les raccourcis wich peut être appelé par la classe **manage.py** "
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:97
 msgid "Fields"
@@ -1538,7 +1551,7 @@ msgid ""
 " is the list of database fields it defines. Fields are specified by class "
 "attributes. Be careful not to choose field names that conflict with the "
 "models API like **clean**, **save**, or **delete**."
-msgstr "La partie la plus importante d'un modèle - et la seule partie obligatoire d'un modèle  est la liste des domaines, il définit la base de données . Les champs sont spécifiés par les attributs de classe . Soyez prudent de ne pas choisir des noms de champs qui sont en conflit avec l'API des modèles comme ** propre ** ** ** enregistrer ou supprimer ** ** ."
+msgstr "La partie la plus importante d'un modèle - et la seule partie obligatoire d'un modèle  est la liste des domaines, il définit la base de données . Les champs sont spécifiés par les attributs de classe . Soyez prudent de ne pas choisir des noms de champs qui sont en conflit avec l'API des modèles comme **clean**, **save**, or **delete**."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:102
 msgid "Example:"
@@ -1548,7 +1561,8 @@ msgstr "Exemples"
 msgid ""
 "More: `Field Types <https://docs.djangoproject.com/en/1.8/topics/db/models"
 "/#field-types>`_"
-msgstr "Plus : ` types de champs < https://docs.djangoproject.com/en/1.8/topics/db/models/#field-types > ` _"
+msgstr "Plus : `Types de champs <https://docs.djangoproject.com/en/1.8/topics/db/models"
+"/#field-types>`_"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:123
 msgid "Model methods"
@@ -1559,7 +1573,7 @@ msgid ""
 "Define custom methods on a model to add custom “row-level” functionality to "
 "your objects. Whereas **Manager** methods are intended to do “table-wide” "
 "things, model methods should act on a particular model instance."
-msgstr "Définir des méthodes de mesure sur un modèle personnalisé pour ajouter des fonctionnalités \" de niveau ligne \" à vos objets . Considérant que ** Gestionnaire ** méthodes visent à faire des choses \"table - large \",les méthodes de modèle devraient agir sur une instance de modèle particulier ."
+msgstr "Définir des méthodes de mesure sur un modèle personnalisé pour ajouter des fonctionnalités **de niveau ligne** à vos objets. Considérant que **Gestionnaire** méthodes visent à faire des choses \"table - large \",les méthodes de modèle devraient agir sur une instance de modèle particulier."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:128
 msgid ""
@@ -1575,7 +1589,7 @@ msgstr "Par exemple, ce modèle a quelques méthodes personnalisées :"
 msgid ""
 "The last method in this example is a `property "
 "<https://docs.djangoproject.com/en/1.8/glossary/#term-property>`_."
-msgstr "La dernière méthode dans cet exemple est une propriété ` < https://docs.djangoproject.com/en/1.8/glossary/#term-property > ` _ ."
+msgstr "La dernière méthode dans cet exemple est une `propriété <https://docs.djangoproject.com/en/1.8/glossary/#term-property>`_."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:159
 msgid ""
@@ -1592,7 +1606,8 @@ msgstr "The `model instance reference <https://docs.djangoproject.com/en/1.8/ref
 msgid ""
 "More: `Models Methods "
 "<https://docs.djangoproject.com/en/1.8/topics/db/models/#model-methods>`_"
-msgstr "Plus : `Méthodes Modèles < https://docs.djangoproject.com/en/1.8/topics/db/models/#model-methods > ` _"
+msgstr "Plus : `Méthodes Modèles "
+"<https://docs.djangoproject.com/en/1.8/topics/db/models/#model-methods>`_"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:165
 msgid "Model inheritance"
@@ -1604,7 +1619,7 @@ msgid ""
 " inheritance works in Python, but the basics at the beginning of the page "
 "should still be followed. That means the base class should subclass "
 "``django.db.models.Model``."
-msgstr "Le modèle héritage dans Django fonctionne presque pareil à la façon normale du fonctionnement de l'héritage de classe en Python, mais les bases au début de la page doit toujours être suivie . Cela signifie que la classe de base devrait sous-classe `` django.db.models.Model`` ."
+msgstr "Le modèle héritage dans Django fonctionne presque pareil à la façon normale du fonctionnement de l'héritage de classe en Python, mais les bases au début de la page doit toujours être suivie . Cela signifie que la classe de base devrait sous-classe ``django.db.models.Model`` ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:170
 msgid ""
@@ -1625,7 +1640,9 @@ msgid ""
 "going to ever be used in isolation, so `Abstract base classes "
 "<https://docs.djangoproject.com/en/1.8/topics/db/models/#abstract-base-"
 "classes>`_ are what you’re after."
-msgstr "Souvent, vous voudrez juste  utiliser la classe parentée pour détenir des informations que vous ne voulez pas avoir à taper pour chaque modèle enfant . Cette classe ne va jamais être utilisé dans l'isolement, donc ` classes de base abstraites < https://docs.djangoproject.com/en/1.8/topics/db/models/#abstract-base-classes > ` _ sont ce que vous êtes après ."
+msgstr "Souvent, vous voudrez juste  utiliser la classe parentée pour détenir des informations que vous ne voulez pas avoir à taper pour chaque modèle enfant . Cette classe ne va jamais être utilisé dans l'isolement, donc `classes de base abstraites "
+"<https://docs.djangoproject.com/en/1.8/topics/db/models/#abstract-base-"
+"classes>`_ sont ce que vous êtes après."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:175
 msgid ""
@@ -1634,15 +1651,17 @@ msgid ""
 "`Multi-table inheritance "
 "<https://docs.djangoproject.com/en/1.8/topics/db/models/#multi-table-"
 "inheritance>`_ is the way to go."
-msgstr "Si vous  sous-classer un modèle existant (peut-être quelque chose d'une autre application entièrement) et que vous voulez chaque modèle d'avoir sa propre table de base de données, ` multi- héritage de table <https://docs.djangoproject.com/en/1.8/topics/db/models/#multi-table-inheritance>`_est le chemin à parcourir ."
+msgstr "Si vous  sous-classer un modèle existant (peut-être quelque chose d'une autre application entièrement) et que vous voulez chaque modèle d'avoir sa propre table de base de données, `multi- héritage de table "
+"<https://docs.djangoproject.com/en/1.8/topics/db/models/#multi-table-"
+"inheritance>`_  est le chemin à parcourir ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:176
 msgid ""
 "Finally, if you only want to modify the Python-level behavior of a model, "
 "without changing the models fields in any way, you can use `Proxy models "
 "<https://docs.djangoproject.com/en/1.8/topics/db/models/#proxy-models>`_."
-msgstr "Enfin, si vous  voulez seulement modifier le niveau de comportement Python  d'un modèle  sans modifier les champs des modèles en aucune façon, vous pouvez utiliser des modèles ` Proxy  <https://docs.djangoproject.com/en/1.8/topics/db/models/#proxy-models>`_."
-
+msgstr "Enfin, si vous  voulez seulement modifier le niveau de comportement Python  d'un modèle  sans modifier les champs des modèles en aucune façon, vous pouvez utiliser des  `Modèles de Proxy  "
+"<https://docs.djangoproject.com/en/1.8/topics/db/models/#proxy-models>`_."
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:178
 msgid ""
 "More: `Model Inheritance "
@@ -1676,28 +1695,28 @@ msgid ""
 "To represent database-table data in Python objects, Django uses an intuitive"
 " system: A model class represents a database table, and an instance of that "
 "class represents a particular record in the database table."
-msgstr "Pour représenter les données de bases de données table en objets Python, Django utilise un système intuitif : Une classe de modèle représente une table de base de données, et une instance de cette classe représente un enregistrement particulier dans la table de base de données ."
+msgstr "Pour représenter les données de bases de données table en objets Python, Django utilise un système intuitif : Une classe de modèle représente une table de base de données, et une instance de cette classe représente un enregistrement particulier dans la table de base de données."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:228
 msgid ""
 "To create an object, instantiate it using keyword arguments to the model "
 "class, then call **save()** to save it to the database."
-msgstr "Pour créer un objet, l'instancier en utilisant des arguments de mots clés pour la classe de modèle, puis d'appeler ** save () ** pour la sauvegarder la base de données ."
+msgstr "Pour créer un objet, l'instancier en utilisant des arguments de mots clés pour la classe de modèle, puis d'appeler **save()**  pour la sauvegarder la base de données."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:230
 msgid ""
 "Assuming models live in a file **mysite/blog/models.py**, here’s an example:"
-msgstr "En supposant que les modèles vivent dans un fichier ** monsite / blog / models.py **, voici un exemple :"
+msgstr "En supposant que les modèles vivent dans un fichier **monsite / blog / models.py **, voici un exemple :"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:239
 msgid ""
 "This performs an **INSERT SQL** statement behind the scenes. Django doesn’t "
 "hit the database until you explicitly call **save()**."
-msgstr "Ceci effectue un INSERT SQL ** ** déclaration dans les coulisses. Django ne touche pas la base de données jusqu'à ce que vous appelez explicitement ** save () "
+msgstr "Ceci effectue un **INSERT SQL** déclaration dans les coulisses. Django ne touche pas la base de données jusqu'à ce que vous appelez explicitement **save()**"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:241
 msgid "The **save()** method has no return value."
-msgstr "Le **save ()** méthode n'a pas de valeur de retour ."
+msgstr "Le **save()** méthode n'a pas de valeur de retour ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:244
 msgid "Saving changes to objects"
@@ -1706,7 +1725,7 @@ msgstr "Enregistrement des modifications aux objets"
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:246
 msgid ""
 "To save changes to an object that’s already in the database, use **save()**."
-msgstr "Pour enregistrer les modifications apportées à un objet qui est déjà dans la base de données, utilisez ** save () ** ."
+msgstr "Pour enregistrer les modifications apportées à un objet qui est déjà dans la base de données, utilisez **save()** ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:248
 msgid ""
@@ -1728,7 +1747,7 @@ msgstr "Récupération des objets"
 msgid ""
 "To retrieve objects from your database, construct a **QuerySet** via a "
 "**Manager** on your model class."
-msgstr "Pour récupérer des objets dans votre base de données, construire un **QuerySet** via un gestionnaire ** ** sur votre classe de modèle "
+msgstr "Pour récupérer des objets dans votre base de données, construire un **QuerySet** via un  **Manager** sur votre classe de modèle."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:263
 msgid ""
@@ -1737,14 +1756,14 @@ msgid ""
 " on the given parameters. In SQL terms, a **QuerySet** equates to a "
 "**SELECT** statement, and a filter is a limiting clause such as **WHERE** or"
 " **LIMIT**."
-msgstr "A **QuerySet**  représente une collection d'objets à partir de votre base de données . Il peut y avoir zéro, un ou plusieurs filtres. Filtres affiner les résultats de la requête sur la base des paramètres donnés . En termes SQL, un  **QuerySet** ** équivaut à une déclaration  **SELECT**, et un filtre est une clause limitant tels que ** OÙ ** ou **LIMIT**  ."
+msgstr "A **QuerySet**  représente une collection d'objets à partir de votre base de données . Il peut y avoir zéro, un ou plusieurs filtres. Filtres affiner les résultats de la requête sur la base des paramètres donnés. En termes SQL, un  **QuerySet** équivaut à une déclaration  **SELECT**, et un filtre est une clause limitant tels que **WHERE** ou **LIMIT**  ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:266
 msgid ""
 "You get a **QuerySet** by using your model’s **Manager**. Each model has at "
 "least one **Manager**, and it’s called ``objects`` by default. Access it "
 "directly via the model class, like so:"
-msgstr "Vous obtenez un ** QuerySet ** ** en utilisant le gestionnaire de votre modèle ** . Chaque modèle possède au moins un gestionnaire ** **, et il est appelé `` objects`` par défaut. Accéder directement via la classe de modèle, comme ceci:"
+msgstr "Vous obtenez un **QuerySet** en utilisant le gestionnaire de votre modèle ** . Chaque modèle possède au moins un gestionnaire ** **, et il est appelé ``objects`` par défaut. Accéder directement via la classe de modèle, comme ceci:"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:280
 msgid ""
@@ -1753,7 +1772,7 @@ msgid ""
 "“record-level” operations. The **Manager** is the main source of "
 "**QuerySets** for a model. For example, ``Blog.objects.all()`` returns a "
 "**QuerySet** that contains all Blog objects in the database."
-msgstr "** ** Les gestionnaires ne sont accessibles que via les classes du modèle, plutôt que d' instances de modèle, à appliquer une séparation * * entre les opérations \" de niveau table » et opérations de « niveau de l'enregistrement \" . Le ** Gestionnaire ** est la principale source de QuerySets ** ** pour un modèle . Par exemple, `` Blog.objects.all () `` renvoie une **QuerySet** qui contient tous les objets de blog dans la base ."
+msgstr "**Managers** ne sont accessibles que via les classes du modèle, plutôt que d' instances de modèle, à appliquer une séparation entre les opérations de “table-level” et opérations de record-level” . Le **Managers** est la principale source de **QuerySets** pour un modèle. Par exemple, ``Blog.objects.all()`` renvoie une **QuerySet** qui contient tous les objets de blog dans la base."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:284
 msgid "Retrieving all objects"
@@ -1763,13 +1782,13 @@ msgstr "Récupération  des objets"
 msgid ""
 "The simplest way to retrieve objects from a table is to get all of them. To "
 "do this, use the **all()** method on a **Manager**:"
-msgstr "La façon la plus simple pour récupérer des objets à partir d'un tableau est d'obtenir chacun d'eux. Pour  faire ca, utilisez le ** tous ( ) ** méthode sur un gestionnaire ** ** :"
+msgstr "La façon la plus simple pour récupérer des objets à partir d'un tableau est d'obtenir chacun d'eux. Pour  faire ca, utilisez le **all()** méthode sur un **Manager**:"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:293
 msgid ""
 "The **all()** method returns a **QuerySet** of all the objects in the "
 "database."
-msgstr "Le ** tous ( ) ** méthode renvoie une **QuerySet** de tous les objets dans la base de données ."
+msgstr "Le **all()** méthode renvoie une **QuerySet** de tous les objets dans la base de données."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:296
 msgid "Retrieving specific objects with filters"
@@ -1780,7 +1799,7 @@ msgid ""
 "The **QuerySet** returned by **all()** describes all objects in the database"
 " table. Usually, though, you’ll need to select only a subset of the complete"
 " set of objects."
-msgstr "Le **QuerySet** ** retourné par tous ( ) ** décrit tous les objets de la table de base de données . Habituellement, cependant, vous aurez besoin de sélectionner uniquement un sous-ensemble de l'ensemble des objets ."
+msgstr "Le **QuerySet** retourné par **all()** décrit tous les objets de la table de base de données . Habituellement, cependant, vous aurez besoin de sélectionner uniquement un sous-ensemble de l'ensemble des objets ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:300
 msgid ""
@@ -1790,7 +1809,7 @@ msgstr "Pour créer un tel sous-ensemble,  affinez l' initiale **QuerySet**, ajo
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:302
 msgid "**filter(**kwargs)**"
-msgstr "** filtre ( ** kwargs ) **"
+msgstr "**filtre(**kwargs)**"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:304
 msgid ""
