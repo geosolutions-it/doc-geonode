@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 17:48+0200\n"
+"POT-Creation-Date: 2015-10-08 19:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -552,35 +552,26 @@ msgid "List content of a folder"
 msgstr ""
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:174
-msgid "The `ls` command will list the content of your current working directory. You can optionally provide a path to a directory as argument, in that case `ls` will show you the content of that directory."
+msgid "The `ls` command will list the content of your current working directory. You can optionally provide a path to a directory as argument, in that case `ls` will show you the content of that directory ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:180
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:21
-msgid "::"
-msgstr ""
-
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:179
-msgid "$ ls /home geo  geonode"
-msgstr ""
-
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:183
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:182
 msgid "Home folder"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:185
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:184
 msgid "A user's home folder is the folder where he or she will do most of the operations in. Inside your home folder you can freely create or delete file and folders."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:188
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:187
 msgid "To switch to your home folder you can use the tilde `~` character as a shortcut ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:196
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:195
 msgid "For more information on Ubuntu refer to the `Ubuntu user manual <http://ubuntu-manual.org/?lang=en>`_"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:198
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:197
 msgid "For more terminal commands read the `Using the terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_ guide"
 msgstr ""
 
@@ -1070,6 +1061,10 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:18
 msgid "Now copy the downloaded GeoServer archive inside Tomcat's webapps folder"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:21
+msgid "::"
 msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:21
@@ -1862,7 +1857,19 @@ msgid "What is a DBMS"
 msgstr ""
 
 #: ..\..\002_install_and_admin\index.rst:19
-msgid "4. What is a Java Virtual Machine and the JDK 6. Basic TCP/IP and networking concepts 5. Linux OS basic shell and maintenance commands 7. Apache HTTPD Server and WSGI Python bindings"
+msgid "What is a Java Virtual Machine and the JDK"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:20
+msgid "Basic TCP/IP and networking concepts"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:21
+msgid "Linux OS basic shell and maintenance commands"
+msgstr ""
+
+#: ..\..\002_install_and_admin\index.rst:22
+msgid "Apache HTTPD Server and WSGI Python bindings"
 msgstr ""
 
 #: ..\..\002_install_and_admin\index.rst:33

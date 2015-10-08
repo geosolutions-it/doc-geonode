@@ -173,9 +173,8 @@ List content of a folder
 
 The `ls` command will list the content of your current working directory. You can
 optionally provide a path to a directory as argument, in that case `ls` will show
-you the content of that directory.
+you the content of that directory ::
 
-::
     $ ls /home
     geo  geonode
 

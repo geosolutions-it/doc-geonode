@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 18:39+0200\n"
-"PO-Revision-Date: 2015-10-08 18:42+0200\n"
+"POT-Creation-Date: 2015-10-08 19:01+0200\n"
+"PO-Revision-Date: 2015-10-08 19:12+0200\n"
 "Last-Translator: matteo cima <matteocima@hotmail.com>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-"
 "documentation/language/fr/)\n"
@@ -199,8 +199,8 @@ msgstr ""
 "pub) dans le fichier 'authorized_keys' sur le nœud que vous souhaitez gérer, "
 "à l'intérieur du répertoire home de l'utilisateur. Pour exemple, si vous "
 "voulez être capable de se connecter à training.geonode1.com en tant "
-"qu'utilisateur « geo » modifier le /home/geo/.ssh/authorized_keys dossier "
-"sur l'ordinateur distant et ajouter le contenu de votre clé publique à "
+"qu'utilisateur `geo` modifier le /home/geo/.ssh/authorized_keys dossier sur "
+"l'ordinateur distant et ajouter le contenu de votre clé publique à "
 "l'intérieur du fichier."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:127
@@ -222,7 +222,7 @@ msgid ""
 "inside Ansible `inventory` (hosts file) we can run our first command ::"
 msgstr ""
 "Maintenant que l'accès SSH aux nœuds gérés est en place pour tous les nœuds "
-"à l'intérieur de Ansible « stock » (fichier hosts), nous pouvons exécuter "
+"à l'intérieur de Ansible `stock` (fichier hosts), nous pouvons exécuter "
 "notre première commande::"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:141
@@ -242,10 +242,10 @@ msgid ""
 "connected to the remote machine and executed the module `ping`"
 msgstr ""
 "Nous avons demandé à ansible de se connecter à toutes les machine dans notre "
-"« stock » en tant qu'utilisateur « geo » et exécuter le « module » (les "
-"modules sont des unités de Ansible de travail, plus tard..) ping. Comme vous "
-"pouvez le voir par la sortie, Ansible correctement connecté à l'ordinateur "
-"distant et exécuter le module « ping »"
+"`stock` en tant qu'utilisateur `geo` et exécuter le `module` (les modules "
+"sont des unités de Ansible de travail, plus tard..) ping. Comme vous pouvez "
+"le voir par la sortie, Ansible correctement connecté à l'ordinateur distant "
+"et exécuter le module `ping`"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:159
 msgid "Ad hoc commands"
@@ -266,10 +266,9 @@ msgid ""
 "on the controlled node but for learning purposes ad-hoc commands can be used "
 "to do quick things."
 msgstr ""
-"Plus tard, vous allez écrire ce qu'on appelle « Playbooks » avec les "
-"commandes à exécuter sur le noeud contrôlé mais pour des fins "
-"d'apprentissage commandes ad hoc peuvent être utilisés pour faire des choses "
-"rapides."
+"Plus tard, vous allez écrire ce qu'on appelle `Playbooks` avec les commandes "
+"à exécuter sur le noeud contrôlé mais pour des fins d'apprentissage "
+"commandes ad hoc peuvent être utilisés pour faire des choses rapides."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:168
 msgid ""
@@ -289,9 +288,9 @@ msgid ""
 "usage stats. Note that we used the `shell` module (-m flag) with the command "
 "as the argument (-a flag)"
 msgstr ""
-"Dans cet exemple, nous avons couru la commande « libre » sur des hôtes "
+"Dans cet exemple, nous avons couru la commande `libre` sur des hôtes "
 "distants à faire mémoire des statistiques d'utilisation. Notez que nous "
-"avons utilisé le module de « shell » (-indicateur m) avec la commande comme "
+"avons utilisé le module de `shell` (-indicateur m) avec la commande comme "
 "argument (-un drapeau)"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:186
@@ -309,7 +308,7 @@ msgid ""
 "We used the `ansible` command to transfer the local file /home/geo/test to "
 "the remote node in user's home directory ('~/')"
 msgstr ""
-"Nous avons utilisé la commande « ansible » pour transférer le fichier local /"
+"Nous avons utilisé la commande `ansible` pour transférer le fichier local /"
 "home/geo/test vers le nœud distant dans le répertoire home de l'utilisateur "
 "(\"~ /\")"
 
@@ -324,9 +323,9 @@ msgid ""
 "`yum` module on Red Hat based systems ::"
 msgstr ""
 "Un autre cas d'utilisation est l' installation ou mise à niveau des packages "
-"sur les nœuds distants. Vous pouvez utiliser le module « apt » pour "
-"atteindre ceci sur les systèmes basés sur Debian ou le module « yum » sur "
-"les systèmes Red Hat basé::"
+"sur les nœuds distants. Vous pouvez utiliser le module `apt` pour atteindre "
+"ceci sur les systèmes basés sur Debian ou le module `yum` sur les systèmes "
+"Red Hat basé::"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:218
 msgid ""
@@ -353,12 +352,12 @@ msgid ""
 "Use the `service` module to ensure a given service is started on all "
 "webservers:"
 msgstr ""
-"Utiliser le module de « service » pour assurer qu'un service donné est "
-"démarré sur tous les serveurs Web :"
+"Utiliser le module de `service` pour assurer qu'un service donné est démarré "
+"sur tous les serveurs Web :"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:235
 msgid "(where `webserver` is a group defined in Ansible Inventory)"
-msgstr "(où « serveur Web » est un groupe défini dans l'inventaire Ansible)"
+msgstr "(où `serveur Web` est un groupe défini dans l'inventaire Ansible)"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:237
 msgid "Restart the service: ::"
@@ -373,8 +372,8 @@ msgid ""
 "For more information on ad-hoc command refer to the `official documentation "
 "<https://docs.ansible.com/ansible/intro_adhoc.html>`_"
 msgstr ""
-"Pour plus d'informations sur ad hoc commande faites référence à la « "
-"documentation officielle\n"
+"Pour plus d'informations sur ad hoc commande faites référence à la "
+"`documentation officielle\n"
 " <https: docs.ansible.com/ansible/intro_adhoc.html=\"\">' _</https:>"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:249
@@ -509,7 +508,7 @@ msgid ""
 "on the system. This is accomplished by the `yum` module"
 msgstr ""
 "La première tâche spécifie que nous voulons apache à la dernière version "
-"installée sur le système. Ceci est accompli par le module « yum »"
+"installée sur le système. Ceci est accompli par le module `yum`"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:317
 msgid ""
@@ -518,8 +517,8 @@ msgid ""
 "<http://jinja.pocoo.org/>`_"
 msgstr ""
 "La deuxième tâche spécifie un fichier de configuration d'apache à l'aide "
-"d'un « modèle ». Fichiers de modèle pour un écrits en \"langage modèle "
-"Jinja2 <http: jinja.pocoo.org/=\"\">' _</http:>"
+"d'un `modèle`. Fichiers de modèle pour un écrits en \"langage modèle Jinja2 "
+"<http: jinja.pocoo.org/=\"\">' _</http:>"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:320
 msgid ""
@@ -527,7 +526,7 @@ msgid ""
 "module."
 msgstr ""
 "La troisième tâche assure que le serveur web apache s'exécute en utilisant "
-"le module de « service »."
+"le module de `service`."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:322
 msgid ""
@@ -548,8 +547,8 @@ msgid ""
 "executed. In the example above the handler will restart Apache because we "
 "changed a config file"
 msgstr ""
-"Une ou plusieurs tâches peuvent avoir une section « notifier » (tout comme "
-"la deuxième tâche dans notre exemple). Les actions de « notifier » sont "
+"Une ou plusieurs tâches peuvent avoir une section `notifier` (tout comme la "
+"deuxième tâche dans notre exemple). Les actions de `notifier` sont "
 "déclenchées à la fin de chaque bloc de tâches dans un playbook et seulement "
 "se déclenchera une fois même si avisé de plusieurs tâches différentes. Lors "
 "du déclenchement, le gestionnaire correspondant sera exécuté. Dans l'exemple "
@@ -574,7 +573,7 @@ msgid ""
 "introduction refer the `official documentation <https://docs.ansible.com/>`_"
 msgstr ""
 "Ceci conclut notre bref tutoriel sur Ansible. Pour une introduction plus "
-"complète, consultez la « documentation officielle <https: docs.ansible.com/="
+"complète, consultez la `documentation officielle <https: docs.ansible.com/="
 "\"\">' _</https:>"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:355
@@ -708,7 +707,7 @@ msgid ""
 "In a few second the user's desktop will appear."
 msgstr ""
 "Sélectionnez l'utilisateur que vous voulez connecter en tant que, entrez le "
-"mot de passe et appuyez sur « Enter ». En quelques secondes, son bureau "
+"mot de passe et appuyez sur `Enter`. En quelques secondes, son bureau "
 "s'affiche."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:32
@@ -727,7 +726,7 @@ msgstr ""
 "Le panneau sur le côté gauche de l'écran contient des raccourcis vers des "
 "applications fréquemment utilisées. Des barre gris foncé en haut, vous "
 "pourrez rejoindre des paramètres réseau (l'icône avec deux flèches pointant "
-"dans des directions opposées) langue du système (l'icône avec « En » écrit à "
+"dans des directions opposées) langue du système (l'icône avec `En` écrit à "
 "l'intérieur de l'il), volume sonore, date et heure et puissance menu (en "
 "haut à droite avec une icône à mi-chemin entre un buttom vitesse et "
 "puissance) du système."
@@ -745,7 +744,7 @@ msgid ""
 "In `system setting ` menu you can set several different parameters for the "
 "system"
 msgstr ""
-"Dans le menu « réglage système », vous pouvez définir plusieurs paramètres "
+"Dans le menu `réglage système`, vous pouvez définir plusieurs paramètres "
 "différents pour le système"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:50
@@ -757,7 +756,7 @@ msgid ""
 "You  can launch the applications listed in the `Favourites` panel simply by "
 "clicking on them."
 msgstr ""
-"Vous pouvez lancer les applications répertoriées dans le panneau « Favoris » "
+"Vous pouvez lancer les applications répertoriées dans le panneau `Favoris` "
 "simplement en cliquant dessus."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:54
@@ -777,7 +776,7 @@ msgid ""
 "icon of the application."
 msgstr ""
 "Notez le nom de l'application. Une liste des applications correspondantes au "
-"nom recherché apparaîtra,  appuyez sur « Enter » ou cliquez sur l'icône de "
+"nom recherché apparaîtra,  appuyez sur `Enter` ou cliquez sur l'icône de "
 "l'application."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:66
@@ -789,8 +788,8 @@ msgid ""
 "To install new software, open the `Ubuntu software Center` (you will find it "
 "in the favourite applications panel)."
 msgstr ""
-"Pour installer le nouveau logiciel, ouvrez le « Ubuntu software Center "
-"» (vous le trouverez dans le panneau applications favorites)."
+"Pour installer le nouveau logiciel, ouvrez le `Ubuntu software Center` (vous "
+"le trouverez dans le panneau applications favorites)."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:71
 msgid "Enter the name of the application you are looking for in the search bar"
@@ -804,7 +803,7 @@ msgid ""
 "administrative password"
 msgstr ""
 "Liste des applications de candidat apparaît. Cliquez sur celui que vous "
-"voulez installer, puis cliquez sur « install » pour l'installer. Vous serez "
+"voulez installer, puis cliquez sur `install` pour l'installer. Vous serez "
 "invité pour le mot de passe administratif"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:84
@@ -820,7 +819,7 @@ msgid ""
 "Click on the `Ubuntu Launcher` icon in the top left corner of the screen, "
 "and type gnome-terminal in the search box"
 msgstr ""
-"Cliquez sur l'icône « Ubuntu Launcher » dans le coin supérieur gauche de "
+"Cliquez sur l'icône `Ubuntu Launcher` dans le coin supérieur gauche de "
 "l'écran et tapez  gnome-terminal dans la zone de recherche"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:96
@@ -844,8 +843,8 @@ msgid ""
 "The `pwd` command will show you your `working directory`, that is the "
 "directory you are inside of and running your commands in."
 msgstr ""
-"La commande « pwd » vous montrera votre répertoire de « travail », c'est-à-"
-"dire le répertoire dans lequel vous etes et l' exécution de vos commandes."
+"La commande `pwd` vous montrera votre répertoire de `travail`, c'est-à-dire "
+"le répertoire dans lequel vous etes et l' exécution de vos commandes."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:120
 msgid "Create a directory"
@@ -857,7 +856,7 @@ msgid ""
 "command followed by the folder name argument"
 msgstr ""
 "Pour créer un nouveau répertoire à l'intérieur de votre répertoire de "
-"travail utilisez la commande « mkdir » suivie de l'argument de nom de dossier"
+"travail utilisez la commande `mkdir` suivie de l'argument de nom de dossier"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:130
 msgid "Delete a directory"
@@ -868,8 +867,8 @@ msgid ""
 "To delete an empty directory type `rmdir` followed by the folder name "
 "argument"
 msgstr ""
-"Pour supprimer un répertoire vide de type « rmdir » suivi de l'argument de "
-"nom de dossier"
+"Pour supprimer un répertoire vide de type `rmdir` suivi de l'argument de nom "
+"de dossier"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:139
 msgid "Create an empty file"
@@ -881,7 +880,7 @@ msgid ""
 "command followed by the name of the file"
 msgstr ""
 "Pour créer un fichier vide dans votre répertoire de travail courant utilisez "
-"la commande « touch » suivie du nom du fichier"
+"la commande `touch` suivie du nom du fichier"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:149
 msgid "Delete a file"
@@ -890,8 +889,7 @@ msgstr "Effacer un fichier"
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:155
 msgid "To delete a file use the `rm` command followed by the file name"
 msgstr ""
-"Pour supprimer un fichier, utilisez la commande « rm » suivie du nom de "
-"fichier"
+"Pour supprimer un fichier, utilisez la commande `rm` suivie du nom de fichier"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:158
 msgid "Change working directory"
@@ -903,7 +901,7 @@ msgid ""
 "the `path` (location) you want to change to"
 msgstr ""
 "Pour modifier votre utilisation de répertoire de travail courant la commande "
-"« cd » suivie par le « chemin » (emplacement) que vous souhaitez modifier à"
+"`cd` suivie par le `chemin` (emplacement) que vous souhaitez modifier à"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:168
 msgid "List content of a folder"
@@ -913,27 +911,18 @@ msgstr "Contenu de la liste d'un dossier"
 msgid ""
 "The `ls` command will list the content of your current working directory. "
 "You can optionally provide a path to a directory as argument, in that case "
-"`ls` will show you the content of that directory."
+"`ls` will show you the content of that directory ::"
 msgstr ""
-"La commande « ls » liste le contenu de votre répertoire de travail courant. "
+"La commande `ls` liste le contenu de votre répertoire de travail courant. "
 "Vous pouvez éventuellement fournir un chemin d'accès vers un répertoire "
-"comme argument, dans ce cas « ls » va vous montrer le contenu de ce "
-"répertoire."
+"comme argument, dans ce cas `ls` va vous montrer le contenu de ce "
+"répertoire ::"
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:180
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:21
-msgid "::"
-msgstr "::"
-
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:179
-msgid "$ ls /home geo  geonode"
-msgstr "$ ls/home geonode geo"
-
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:183
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:182
 msgid "Home folder"
 msgstr "Dossier personnel"
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:185
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:184
 msgid ""
 "A user's home folder is the folder where he or she will do most of the "
 "operations in. Inside your home folder you can freely create or delete file "
@@ -943,7 +932,7 @@ msgstr ""
 "la plupart des opérations. À l'intérieur de votre dossier de départ, vous "
 "pouvez librement créer ou supprimer des fichiers et dossiers."
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:188
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:187
 msgid ""
 "To switch to your home folder you can use the tilde `~` character as a "
 "shortcut ::"
@@ -951,21 +940,21 @@ msgstr ""
 "Pour basculer vers votre dossier de départ, vous pouvez utiliser la touche "
 "tilde \"~\" caractère comme raccourci::"
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:196
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:195
 msgid ""
 "For more information on Ubuntu refer to the `Ubuntu user manual <http://"
 "ubuntu-manual.org/?lang=en>`_"
 msgstr ""
-"Pour plus d'informations sur Ubuntu, reportez-vous au « manuel utilisateur "
-"Ubuntu <http: ubuntu-manual.org/?lang=\"en\">' _</http:>"
+"Pour plus d'informations sur Ubuntu, reportez-vous au `manuel utilisateur "
+"Ubuntu <http://ubuntu-manual.org/?lang=en>`_"
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:198
+#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:197
 msgid ""
 "For more terminal commands read the `Using the terminal <https://help.ubuntu."
 "com/community/UsingTheTerminal>`_ guide"
 msgstr ""
-"Pour plus de commandes de terminales  lire le ' \"en utilisant le terminal\" "
-"<https: help.ubuntu.com/community/usingtheterminal=\"\">' _ guide</https:>"
+"Pour plus de commandes de terminaux lisent le `Utiliser le guide terminal "
+"<https://help.ubuntu.com/community/UsingTheTerminal>`_"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:5
 msgid "Running a VM with Vagrant"
@@ -977,7 +966,7 @@ msgid ""
 "VM using `Vagrant`_"
 msgstr ""
 "Dans cette section, vous trouverez des instructions sur la façon de "
-"configurer une VM de 14.04 Ubuntu à l'aide de « Vagabond » _"
+"configurer une VM de 14.04 Ubuntu à l'aide de `Vagabond` _"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:13
 msgid "Vagrant Setup"
@@ -989,9 +978,9 @@ msgid ""
 "web site. Choose the installer matching your operating system and "
 "architecture."
 msgstr ""
-"Télécharger vagabond de la ' officielle <https: www.vagrantup.com/downloads="
-"\"\">' _ web site. Choisir le programme d'installation correspondant à votre "
-"système d'exploitation et l'architecture.</https:>"
+"Télécharger vagabond de la `officielle <https://www.vagrantup.com/"
+"downloads>`_  web site. Choisir le programme d'installation correspondant à "
+"votre système d'exploitation et l'architecture."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:18
 msgid ""
@@ -1017,18 +1006,18 @@ msgid ""
 "supported out of the box. Just make sure you install `one of the supported "
 "versions of VirtualBox <https://docs.vagrantup.com/v2/virtualbox>`_"
 msgstr ""
-"Vagabond aura besoin d'un « fournisseur <https: docs.vagrantup.com/v2/"
-"providers/=\"\">' _ afin de configurer des ordinateurs virtuels. « "
-"VirtualBox » est prise en charge hors de la boîte. Assurez-vous juste que "
-"vous installez ' une des versions prises en charge de VirtualBox <https: "
-"docs.vagrantup.com/v2/virtualbox=\"\">' _</https:> </https:>"
+"Vagabond aura besoin d'un `fournisseur <https://docs.vagrantup.com/v2/"
+"providers/>`_ afin de configurer des ordinateurs virtuels. `VirtualBox` est "
+"prise en charge hors de la boîte. Assurez-vous juste que vous installez `une "
+"des versions prises en charge de VirtualBox <https://docs.vagrantup.com/v2/"
+"virtualbox>`_"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:28
 msgid ""
 "Open a terminal and type `vagrant version`. A message containing the "
 "installed version of Vagrant will be printed on the terminal ::"
 msgstr ""
-"Ouvrez un terminal et tapez « version vagabonds ». Un message contenant la "
+"Ouvrez un terminal et tapez `version vagabonds`. Un message contenant la "
 "version installée de vagabond s'imprimera sur le terminal::"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:37
@@ -1043,7 +1032,7 @@ msgid ""
 "run ::"
 msgstr ""
 "Maintenant que Vagrant est installé nous allons créer notre Ubuntu Virtual "
-"Machine. Ouvrez le terminal et créer un nouveau dossier nommé « vagrand ». "
+"Machine. Ouvrez le terminal et créer un nouveau dossier nommé `vagrand`. "
 "Entrez dans le dossier et exécutez::"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:51
@@ -1053,10 +1042,10 @@ msgid ""
 "to \"ubuntu/trusty32\" will tell Vagrant the specific VM we want to run "
 "(Ubuntu 14.04 \"Trusty Tahr\", 32 bit version)"
 msgstr ""
-"Cela créera un fichier de configuration appelé « Vagrantfile » contenant les "
-"paramètres de la machine virtuelle, notamment la variable « config.vm.box » "
-"la valeur « ubuntu/trusty32 » dira Vagrant le VM spécifique nous voulons "
-"exécuter (Ubuntu 14.04 « Tahr fidèle », version 32 bits)"
+"Cela créera un fichier de configuration appelé `Vagrantfile` contenant les "
+"paramètres de la machine virtuelle, notamment la variable `config.vm.box` la "
+"valeur `ubuntu/trusty32` dira Vagrant le VM spécifique nous voulons exécuter "
+"(Ubuntu 14.04 `Tahr fidèle`, version 32 bits)"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:55
 msgid "To start the VM, run ::"
@@ -1105,7 +1094,7 @@ msgid ""
 "`vagrant`."
 msgstr ""
 "Vous serez connecté à l'invité d'ordinateur virtuel par SSH en tant "
-"qu'utilisateur « vagabond »."
+"qu'utilisateur `vagabond`."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:5
 msgid "VM Setup with VirtualBox"
@@ -1117,7 +1106,7 @@ msgid ""
 "VM in `VirtualBox`_"
 msgstr ""
 "Dans cette section, vous trouverez des instructions sur la façon de "
-"configurer une VM Ubuntu de 14.04 dans « VirtualBox » _"
+"configurer une VM Ubuntu de 14.04 dans `VirtualBox`_"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:13
 msgid "VirtualBox Setup"
@@ -1129,9 +1118,9 @@ msgid ""
 "Downloads>`_ web site. Choose the installer matching your operating system "
 "and architecture."
 msgstr ""
-"Télécharger Virtualbox d ' officielle <https: www.virtualbox.org/wiki/"
-"downloads=\"\">' _ web site. Choisir le programme d'installation "
-"correspondant à votre système d'exploitation et l'architecture.</https:>"
+"Télécharger Virtualbox d `officielle <https://www.virtualbox.org/wiki/"
+"Downloads>`_ web site. Choisir le programme d'installation correspondant à "
+"votre système d'exploitation et l'architecture."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:18
 msgid ""
@@ -1139,9 +1128,9 @@ msgid ""
 "documentation <https://www.virtualbox.org/manual/ch01.html#intro-"
 "installing>`_ if you encounter any problem."
 msgstr ""
-"Le processus d'installation est simple, se référer à VirtualBox ' "
-"documentation officielle <https: www.virtualbox.org/manual/ch01.html#intro-"
-"installing=\"\">' _ si vous rencontrez n'importe quel problème.</https:>"
+"Le processus d'installation est simple, se référer à VirtualBox "
+"`documentation officielle <https://www.virtualbox.org/manual/ch01.html#intro-"
+"installing>`_ si vous rencontrez n'importe quel problème."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:25
 msgid ""
@@ -1174,9 +1163,9 @@ msgid ""
 "After you downloaded the package,  double click on it. The \"Ubuntu Software "
 "Center\" will pop up, click on \"Install\" to start the installation process"
 msgstr ""
-"Après avoir téléchargé le paquet, double-cliquez dessus. La « Ubuntu "
-"Software Center » sera pop-up, cliquez sur « Install » pour démarrer le "
-"processus d'installation"
+"Après avoir téléchargé le paquet, double-cliquez dessus. La `Ubuntu Software "
+"Center` sera pop-up, cliquez sur `Install` pour démarrer le processus "
+"d'installation"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:65
 msgid "You will be prompted for administrator password."
@@ -1197,7 +1186,7 @@ msgstr ""
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:78
 msgid "Click the light blue `New` button in VirtualBox user interface."
 msgstr ""
-"Cliquez sur le bouton « Nouveau » bleu clair dans l'interface utilisateur de "
+"Cliquez sur le bouton `Nouveau` bleu clair dans l'interface utilisateur de "
 "VirtualBox."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:80
@@ -1217,11 +1206,10 @@ msgid ""
 "sections for details."
 msgstr ""
 "Sélectionnez ensuite la quantité de mémoire que vous souhaitez attribuer à "
-"la machine virtuelle, ' Ubuntu recommande <https: help.ubuntu.com/community/"
-"installation/systemrequirements=\"\">' _ au moins 512 Mo de mémoire, mais "
-"nous allons avoir besoin de plus pour d'exécuter GeoNode reportez-vous aux "
-"sections « Préparation & préalables du système » pour plus de détails.</"
-"https:>"
+"la machine virtuelle, `Ubuntu recommande <https://help.ubuntu.com/community/"
+"Installation/SystemRequirements>`_ au moins 512 Mo de mémoire, mais nous "
+"allons avoir besoin de plus pour d'exécuter GeoNode reportez-vous aux "
+"sections `Préparation & préalables du système` pour plus de détails."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:95
 msgid ""
@@ -1229,9 +1217,9 @@ msgid ""
 "& Prerequisites` section for details about disk size, for testing purposes "
 "30 GB will be enought."
 msgstr ""
-"Créer un nouveau « disque virtuel » pour la machine virtuelle. Puis, voir la "
-"section 'Préparation & préalables du système' pour plus de détails sur la "
-"taille du disque, pour des fins de test 30Go sera suffisant."
+"Créer un nouveau `disque virtuel` pour la machine virtuelle. Puis, voir la "
+"section `Préparation & préalables du système` pour plus de détails sur la "
+"taille du disque, pour des fins de test 30 GB sera suffisant."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:98
 msgid "Now edit the Virtual Machine settigs"
@@ -1242,8 +1230,8 @@ msgid ""
 "Under \"Storage\" select the empty DVD drive, click on `Live CD/DVD` as "
 "shown below"
 msgstr ""
-"Au titre de « Stockage » sélectionnez le lecteur de DVD vide, cliquez sur « "
-"Live CD/DVD » comme indiqué ci-dessous"
+"Au titre de `Stockage` sélectionnez le lecteur de DVD vide, cliquez sur "
+"`Live CD/DVD` comme indiqué ci-dessous"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:110
 msgid ""
@@ -1258,7 +1246,7 @@ msgstr ""
 msgid "Edit other VM setting if you need to, then click `OK`."
 msgstr ""
 "Modifier les autres réglages de la machine virtuelle si vous devez, puis "
-"cliquez sur « OK »."
+"cliquez sur `OK`."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:119
 msgid ""
@@ -1266,7 +1254,7 @@ msgid ""
 "main menu and click on `Start`"
 msgstr ""
 "Nous sommes prêts à démarrer notre VM Ubuntu pour la première fois. "
-"Sélectionnez-le dans le menu principal et cliquez sur « Démarrer »"
+"Sélectionnez-le dans le menu principal et cliquez sur `Démarrer`"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:126
 msgid "Ubuntu will start the boot process"
@@ -1278,9 +1266,9 @@ msgid ""
 "or `Install Ubuntu`. Select the language in the left panel and click on "
 "`Install Ubuntu`"
 msgstr ""
-"À la fin de la procédure de démarrage, on vous demandera si vous voulez « "
-"Essayer Ubuntu » ou « Installer Ubuntu ». Sélectionnez la langue dans le "
-"panneau de gauche et cliquez sur « Installer Ubuntu »"
+"À la fin de la procédure de démarrage, on vous demandera si vous voulez "
+"`Essayer Ubuntu` ou `Installer Ubuntu`. Sélectionnez la langue dans le "
+"panneau de gauche et cliquez sur `Installer Ubuntu`"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:139
 msgid ""
@@ -1289,8 +1277,8 @@ msgid ""
 "installing` checkbox."
 msgstr ""
 "Le programme d'installation va vérifier votre connexion internet et l'espace "
-"disque disponible. Si vous êtes connecté à internet cochez la case « "
-"Télécharger les mises à jour lors de l'installation »."
+"disque disponible. Si vous êtes connecté à internet cochez la case "
+"`Télécharger les mises à jour lors de l'installation`."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:146
 msgid ""
@@ -1299,9 +1287,9 @@ msgid ""
 "configuration process for Ubuntu. We are going to assign the entire disk to "
 "it. Select `Erase disk and install Ubuntu`, then `Install Now`"
 msgstr ""
-"Cliquez sur « continuer ». Dans la page, vous allez configurer le "
+"Cliquez sur `continuer`. Dans la page, vous allez configurer le "
 "partitionnement des disques. Si vous vous souvenez, nous avons créé un "
-"nouveau « disque virtuel » au cours du processus de configuration de machine "
+"nouveau `disque virtuel` au cours du processus de configuration de machine "
 "virtuelle pour Ubuntu. Nous allons lui confier la totalité du disque. "
 "Sélectionnez \"effacer le disque et installer Ubuntu\", puis \"installer "
 "maintenant\""
@@ -1327,7 +1315,7 @@ msgid ""
 msgstr ""
 "L'installation se poursuivra automatiquement. À la fin du processus "
 "d'installation  une fenêtre pop-up vous demandera de redémarrer le système "
-"pour commencer à utiliser Ubuntu. Cliquez sur « Redémarrer maintenant »"
+"pour commencer à utiliser Ubuntu. Cliquez sur `Redémarrer maintenant`"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:5
 msgid "Finish installation"
@@ -1346,7 +1334,7 @@ msgid ""
 "In this section we are going to `glue` all the pieces together and finalize "
 "GeoNode setup."
 msgstr ""
-"Dans cette section, nous allons  « coller » tous les morceaux ensemble et "
+"Dans cette section, nous allons  `coller` tous les morceaux ensemble et "
 "finaliser le programme d'installation GeoNode."
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:13
@@ -1362,7 +1350,7 @@ msgid ""
 "to instruct GeoNode on who is allowed to connect to it."
 msgstr ""
 "Maintenant que toutes les applications ont été configurées, nous allons "
-"montrer à GeoNode comment se connecter à 'PostgreSQL' et « GeoServer ». Nous "
+"montrer à GeoNode comment se connecter à 'PostgreSQL' et `GeoServer`. Nous "
 "allons également instruire GeoNode sur qui est autorisé à se connecter à lui."
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:19
@@ -1375,8 +1363,8 @@ msgstr "Tout d'abord, accédez au dossier configuration geonode::"
 msgid ""
 "Copy the `local_settings.py` sample file called `local_settings.py.sample` ::"
 msgstr ""
-"Copiez le fichier d'exemple de « local_settings.py » nommé « local_settings."
-"py.sample »::"
+"Copiez le fichier d'exemple de `local_settings.py` nommé `local_settings.py."
+"sample`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:27
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:60
@@ -1389,14 +1377,14 @@ msgid ""
 "Add the `ALLOWED_HOSTS` and `PROXY_ALLOWED_HOSTS` variables at the top with "
 "the following values: ::"
 msgstr ""
-"Ajoutez les variables « ALLOWED_HOSTS » et « PROXY_ALLOWED_HOSTS » en haut "
-"avec les valeurs suivantes:::"
+"Ajoutez les variables `ALLOWED_HOSTS` et `PROXY_ALLOWED_HOSTS` en haut avec "
+"les valeurs suivantes:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:37
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:70
 msgid "Add the `POSTGIS_VERSION` variable matching your PostGIS version: ::"
 msgstr ""
-"Ajoutez la variable « POSTGIS_VERSION » correspondante à votre version de "
+"Ajoutez la variable `POSTGIS_VERSION` correspondante à votre version de "
 "PostGIS:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:41
@@ -1409,7 +1397,7 @@ msgstr ""
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:43
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:76
 msgid "Change the value of the `SITEURL` ::"
-msgstr "Modifiez la valeur de la « SITEURL »::"
+msgstr "Modifiez la valeur de la `SITEURL`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:47
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:80
@@ -1418,10 +1406,10 @@ msgid ""
 "db.backends.postgis` line and comment the one with empty `ENGINE` variable. "
 "Also set the `NAME` variable to `geonode_data` ::"
 msgstr ""
-"Maintenant configurer l'accès de la base de données : décommenter le « "
-"moteur »: « django.contrib.gis.db.backends.postgis » ligne et commentaire "
-"celui avec la variable « ENGINE » vide. Également définir la variable « Nom "
-"» à « geonode_data »::"
+"Maintenant configurer l'accès de la base de données : décommenter le "
+"`moteur`: `django.contrib.gis.db.backends.postgis` ligne et commentaire "
+"celui avec la variable `ENGINE` vide. Également définir la variable `Nom` à "
+"`geonode_data`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:63
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:96
@@ -1430,7 +1418,7 @@ msgid ""
 "`PUBLIC_LOCATION` variables as follows: ::"
 msgstr ""
 "Puis configurer l'emplacement de Geoserver : modifier la valeur des "
-"variables « LOCATION » et « PUBLIC_LOCATION » comme suit:::"
+"variables `LOCATION` et `PUBLIC_LOCATION` comme suit:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:74
 msgid "The resulting configuration file should look like this:"
@@ -1478,7 +1466,7 @@ msgid ""
 msgstr ""
 "Si vous obtenez un message d'erreur, il est probable que l'accès de base de "
 "données n'est pas défini correctement. Vous consulter pg_hba.conf fichier et "
-"le fichier « local_settings.py » GeoNode. N'oubliez pas de redémarrer "
+"le fichier `local_settings.py` GeoNode. N'oubliez pas de redémarrer "
 "PostgreSQL pour apporter des modifications à pg_hba.conf efficace."
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:177
@@ -1517,7 +1505,7 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:207
 msgid "Now open the main menu and click on `GeoServer`"
-msgstr "Maintenant, ouvrez le menu principal et cliquez sur « GeoServer »"
+msgstr "Maintenant, ouvrez le menu principal et cliquez sur `GeoServer`"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:213
 msgid ""
@@ -1548,7 +1536,7 @@ msgid ""
 "First create the `geonode` user. GeoNode is going to use this user to access "
 "the database::"
 msgstr ""
-"Tout d'abord créer l'utilisateur « geonode ». GeoNode va utiliser cet "
+"Tout d'abord créer l'utilisateur `geonode`. GeoNode va utiliser cet "
 "utilisateur pour accéder à la base de données::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:17
@@ -1556,20 +1544,20 @@ msgid ""
 "You will be prompted asked to set a password for the user. Enter `geonode` "
 "as password"
 msgstr ""
-"On vous demandera de définir un mot de passe pour l'utilisateur. Entrez « "
-"geonode » comme mot de passe"
+"On vous demandera de définir un mot de passe pour l'utilisateur. Entrez "
+"`geonode` comme mot de passe"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:19
 msgid "Create `geonode` database with owner `geonode`::"
-msgstr "Créer la base de données « geonode » avec propriétaire « geonode »::"
+msgstr "Créer la base de données `geonode` avec propriétaire `geonode`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:23
 msgid "And database `geonode_data` with owner `geonode`::"
-msgstr "Et base de données « geonode_data », propriétaire « geonode »::"
+msgstr "Et base de données `geonode_data`, propriétaire `geonode`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:27
 msgid "Switch to user `postgres` and create PostGIS extension::"
-msgstr "Basculer vers utilisateur « postgres » et créer l'extension PostGIS::"
+msgstr "Basculer vers utilisateur `postgres` et créer l'extension PostGIS::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:32
 msgid "Then adjust permissions::"
@@ -1577,7 +1565,7 @@ msgstr "Puis ajuster les autorisations::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:37
 msgid "And switch back to the 'geo' user::"
-msgstr "Et revenez à l'utilisateur « geo »::"
+msgstr "Et revenez à l'utilisateur `geo`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:41
 msgid ""
@@ -1610,13 +1598,13 @@ msgid ""
 msgstr ""
 "Si votre base de données PostgreSQL réside sur un ordinateur distinct, vous "
 "devez autoriser l'accès distant aux bases de données dans le pg_hba.conf "
-"pour l'utilisateur « geonode » et dire PostgreSQL pour accepter des "
-"connexions non locales dans votre fichier « postgresql.conf »"
+"pour l'utilisateur `geonode` et dire PostgreSQL pour accepter des connexions "
+"non locales dans votre fichier `postgresql.conf`"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:60
 msgid "Then restart `PostgreSQL` to make the change effective: ::"
 msgstr ""
-"Puis relancez « PostgreSQL » pour que les modifications prennent effet:::"
+"Puis relancez `PostgreSQL` pour que les modifications prennent effet:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:64
 msgid ""
@@ -1624,7 +1612,7 @@ msgid ""
 "`geonode` database as `geonode`: ::"
 msgstr ""
 "PostgreSQL est maintenant prêt. Pour tester la configuration essaiyez de "
-"vous connecter à la base de données « geonode » comme « geonode »:::"
+"vous connecter à la base de données `geonode` comme `geonode`:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\index.rst:5
 msgid "GeoNode (v\\ |release|) installation on Ubuntu 14.04"
@@ -1667,8 +1655,8 @@ msgid ""
 msgstr ""
 "Lorsque vous démarrez la Machine virtuelle à la fin de la procédure de "
 "démarrage, on vous demandera le mot de passe utilisateur pour vous "
-"connecter. Entrez « geo » comme mot de passe utilisateur et appuyez sur « "
-"Enter »."
+"connecter. Entrez `geo` comme mot de passe utilisateur et appuyez sur "
+"`Enter`."
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:21
 msgid ""
@@ -1676,7 +1664,7 @@ msgid ""
 "a panel with shortcuts to common applications, launch a the terminal "
 "emulator."
 msgstr ""
-"Vous êtes maintenant connecté en tant qu'utilisateur « geo ». Sur le côté "
+"Vous êtes maintenant connecté en tant qu'utilisateur `geo`. Sur le côté "
 "gauche de l'écran, il y a un panneau avec des raccourcis vers des "
 "applications courantes, lancer  l'émulateur de terminal."
 
@@ -1692,8 +1680,8 @@ msgid ""
 "packages::"
 msgstr ""
 "Tout d'abord, nous allons installer tous les packages de logiciels, que nous "
-"allons avoir besoin pour l'installation de GeoNode. Parmi d'autres « Tomcat "
-"7 », 'PostgreSQL', 'PostGIS\", 'Apache HTTP server' et « Git ». Exécutez la "
+"allons avoir besoin pour l'installation de GeoNode. Parmi d'autres `Tomcat "
+"7`, 'PostgreSQL', 'PostGIS\", 'Apache HTTP server' et `Git`. Exécutez la "
 "commande suivante pour installer tous les paquets::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:78
@@ -1701,7 +1689,7 @@ msgid ""
 "You will be prompted for `geo` user's password (`geo`) and for confirmation "
 "twice"
 msgstr ""
-"Vous serez invité pour le mot de passe de l'utilisateur « geo » ('geo') et "
+"Vous serez invité pour le mot de passe de l'utilisateur `geo` ('geo') et "
 "confirmer deux fois"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:84
@@ -1782,7 +1770,7 @@ msgid ""
 "run inside `Tomcat` sevrlet container."
 msgstr ""
 "Dans cette section nous allons configurer GeoServer pour GeoNode. GeoServer "
-"s'exécute à l'intérieur du conteneur sevrlet « Tomcat »."
+"s'exécute à l'intérieur du conteneur sevrlet `Tomcat`."
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:11
 msgid "Setup GeoServer"
@@ -1794,9 +1782,9 @@ msgid ""
 "the training. Before you deploy GeoServer stop the running Tomcat "
 "instance: ::"
 msgstr ""
-"Vous avez déjà installé « Tomcat 7 » dans le système dans la première "
-"section de la formation. Avant de déployer GeoServer arrêter l'instance "
-"d'exécution de Tomcat:::"
+"Vous avez déjà installé `Tomcat 7` dans le système dans la première section "
+"de la formation. Avant de déployer GeoServer arrêter l'instance d'exécution "
+"de Tomcat:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:18
 msgid ""
@@ -1806,12 +1794,16 @@ msgstr ""
 "Tomcat"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:21
+msgid "::"
+msgstr "::"
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:21
 msgid ""
 "sudo cp /home/geonode/geonode/downloaded/geoserver.war /var/lib/tomcat7/"
 "webapps/"
 msgstr ""
 "sudo cp /home/geonode/geonode/downloaded/geoserver.war /var/lib/tomcat7/"
-"webapps /"
+"webapps/"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:24
 msgid "Test GeoServer"
@@ -1834,7 +1826,7 @@ msgid ""
 "Open a web browser (in this example `Firefox`) and navigate to http://"
 "localhost:8080/geoserver"
 msgstr ""
-"Ouvrez un navigateur web (dans cet exemple, « Firefox ») et naviguez jusqu'à "
+"Ouvrez un navigateur web (dans cet exemple, `Firefox`) et naviguez jusqu'à "
 "http://localhost:8080/geoserver"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:38
@@ -1865,7 +1857,7 @@ msgstr "Et accédez à ' / var/lib/tomcat7/webapps/geoserver/WEB-INF /'::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:58
 msgid "Edit `web.xml` with a text editor ::"
-msgstr "Modifier « web.xml » avec un éditeur de texte::"
+msgstr "Modifier `web.xml` avec un éditeur de texte::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:72
 msgid ""
@@ -1873,7 +1865,7 @@ msgid ""
 "GeoNode, change the `GEONODE_BASE_URL` value accordingly"
 msgstr ""
 "Si GeoServer est installé sur la machine qui est séparé de GeoNode en cours "
-"d'exécution, remplacez la valeur de « GEONODE_BASE_URL » en conséquence"
+"d'exécution, remplacez la valeur de `GEONODE_BASE_URL` en conséquence"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:75
 msgid "The resulting file should look like this:"
@@ -1935,11 +1927,11 @@ msgid ""
 "`ProxyPass` and `ProxyPassReverse` accordingly"
 msgstr ""
 "Dans le cas où GeoServer s'exécute sur une machine séparée, modifier en "
-"conséquence le « ProxyPass » et 'ProxyPassReverse'"
+"conséquence le `ProxyPass` et 'ProxyPassReverse'"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:95
 msgid "Now load apache `poxy` module ::"
-msgstr "Maintenant charger le module « vérole » apache::"
+msgstr "Maintenant charger le module `vérole` apache::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:99
 msgid "And enable geonode configuration file ::"
@@ -1957,7 +1949,7 @@ msgstr ""
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:108
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:52
 msgid "Add `thumbs` and `layers` folders ::"
-msgstr "Ajouter des dossiers « pouces » et « couches »::"
+msgstr "Ajouter des dossiers `pouces` et `couches`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:113
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:209
@@ -1987,7 +1979,7 @@ msgstr ""
 "À l'aide de ' Ansible <http: www.ansible.com/=\"\">' _ nous pouvons "
 "automatiser l'installation et la configuration des GeoNode sur des "
 "ordinateurs les ou distants. Si vous avez jamais utilisé Ansible avant de "
-"jeter un oeil à la section « Ansible en cours d'exécution de scripts » de la "
+"jeter un oeil à la section `Ansible en cours d'exécution de scripts` de la "
 "documentation ou ' Ansible officielle docmumentation <https: docs.ansible."
 "com/=\"\">' _</https:> </http:>"
 
@@ -2003,9 +1995,9 @@ msgid ""
 "files used by the playbook itself."
 msgstr ""
 "Dans les Machines virtuelles, nous avons fourni pour la formation viennent "
-"avec Ansible préinstallé. Dans le dossier de base de l'utilisateur « geo "
-"» (/ home/geo /) vous trouverez un playbook Ansible simple nous a écrit pour "
-"la démonstration ainsi que certains fichiers de ressources utilisés par le "
+"avec Ansible préinstallé. Dans le dossier de base de l'utilisateur `geo` (/ "
+"home/geo /) vous trouverez un playbook Ansible simple nous a écrit pour la "
+"démonstration ainsi que certains fichiers de ressources utilisés par le "
 "playbook lui-même."
 
 #: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:19
@@ -2104,7 +2096,7 @@ msgid ""
 "line::"
 msgstr ""
 "L'autre question est sur SELinux lui-même : il n'est pas ami de WSGI "
-"sympathique, donc nous devrons  le désactiver. Modifiez le fichier « / etc/"
+"sympathique, donc nous devrons  le désactiver. Modifiez le fichier `/ etc/"
 "sysconfig/selinux '' et changez la ligne::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:39
@@ -2125,7 +2117,7 @@ msgid ""
 "As ``root`, create the file ``/etc/httpd/conf.d/geonode.conf`` and insert "
 "into it :download:`this content <resources/geonode.conf>`."
 msgstr ""
-"Comme '' racine », créez le fichier '' /etc/httpd/conf.d/geonode.conf'' et "
+"Comme '' racine`, créez le fichier '' /etc/httpd/conf.d/geonode.conf'' et "
 "insérer dedans : Télécharger:' ce contenu <resources eonode.conf=\"\">'.</"
 "resources>"
 
@@ -2242,7 +2234,7 @@ msgstr "Puis ajuster les autorisations::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:103
 msgid "And exit `postgres` user ::"
-msgstr "Et la sortie « postgres » utilisateur::"
+msgstr "Et la sortie `postgres` utilisateur::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:5
 msgid "Tomcat Installation"
@@ -2273,7 +2265,7 @@ msgid ""
 "Once done, the command ``java -version`` should return info about the "
 "installed version."
 msgstr ""
-"Une fois cela fait, la commande « java-version'' doit retourner des "
+"Une fois cela fait, la commande `java-version'' doit retourner des "
 "informations sur la version installée."
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:30
@@ -2364,7 +2356,7 @@ msgstr "Puis exécutez::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:88
 msgid "and select the number related to ``/usr/java/latest/bin/java``."
-msgstr "et sélectionnez le numéro relié à « / usr/java/plus tard/bin/java ''."
+msgstr "et sélectionnez le numéro relié à `/ usr/java/plus tard/bin/java ''."
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:90
 msgid ""
@@ -2384,7 +2376,7 @@ msgstr "Tomcat"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:109
 msgid "Let's install `Tomcat` first::"
-msgstr "Nous allons d'abord installer « Tomcat »::"
+msgstr "Nous allons d'abord installer `Tomcat`::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:113
 msgid ""
@@ -2410,8 +2402,8 @@ msgstr "Copiez le script de gestion existant::"
 msgid ""
 "Edit the `EnvironmentFile` variable in service management file as follows ::"
 msgstr ""
-"Modifiez la variable « EnvironmentFile » dans le fichier de gestion de "
-"service comme suit::"
+"Modifiez la variable `EnvironmentFile` dans le fichier de gestion de service "
+"comme suit::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:166
 msgid "Create the associated configuration file from template ::"
@@ -2477,7 +2469,7 @@ msgstr "Installer les sources GeoNode du dépôt officiel::"
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:30
 msgid "Move the sources in `geonode` user home folder ::"
 msgstr ""
-"Déplacer les sources dans le dossier de départ de l'utilisateur « geonode »::"
+"Déplacer les sources dans le dossier de départ de l'utilisateur `geonode`::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:34
 msgid "Navigate to sources folder and install required packages ::"
@@ -2616,7 +2608,7 @@ msgid ""
 "infrastructure you can either set it to `DHCP` to automatically get all the "
 "settings from a local DHCP server or configure it by hand."
 msgstr ""
-"Sous « Networking » configurer votre interface réseau selon votre "
+"Sous `Networking` configurer votre interface réseau selon votre "
 "infrastructure, vous pouvez affectez l'DHCP' automatiquement et obtenir tous "
 "les paramètres d'un serveur DHCP local ou le configurer manuellement."
 
@@ -2626,21 +2618,21 @@ msgid ""
 "enable NTP synchronization periodically get date and time settings from "
 "CentOS servers"
 msgstr ""
-"Activer l'interface de réseau, puis revenir à « Sélectionner Date & Time » "
-"et activer la synchronisation NTP périodiquement obtenir la date et l'heure "
-"des paramètres de serveurs CentOS"
+"Activer l'interface de réseau, puis revenir à `Sélectionner Date & Time` et "
+"activer la synchronisation NTP périodiquement obtenir la date et l'heure des "
+"paramètres de serveurs CentOS"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:37
 msgid "Click on `Begin Installation`"
-msgstr "Cliquez sur « Begin Installation »"
+msgstr "Cliquez sur `Begin Installation`"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:38
 msgid ""
 "Now set the password for the `root` user. Also click on `User Creation` to "
 "create the `geo` user."
 msgstr ""
-"Maintenant, définissez le mot de passe pour l'utilisateur « root ». Cliquer "
-"sur « Création de l'utilisateur » pour créer l'utilisateur « geo »."
+"Maintenant, définissez le mot de passe pour l'utilisateur `root`. Cliquer "
+"sur `Création de l'utilisateur` pour créer l'utilisateur `geo`."
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:40
 msgid "Wait for the installation process to finish, then reboot your machine"
@@ -2742,7 +2734,7 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:96
 msgid "Disable SSH login for the `root` user"
-msgstr "Désactiver la connexion SSH pour l'utilisateur « root »"
+msgstr "Désactiver la connexion SSH pour l'utilisateur `root`"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:98
 msgid ""
@@ -2751,15 +2743,15 @@ msgid ""
 "the `root` user account."
 msgstr ""
 "Avant de désactiver le login root, assurez-vous que vous êtes en mesure de "
-"vous connecter via SSH avec « geo » compte d'utilisateur et vous avez les "
-"privilèges pour exécuter « sudo su » pour basculer sur le compte "
-"d'utilisateur « root »."
+"vous connecter via SSH avec `geo` compte d'utilisateur et vous avez les "
+"privilèges pour exécuter `sudo su` pour basculer sur le compte d'utilisateur "
+"`root`."
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:102
 msgid "Edit file `/etc/ssh/sshd_config` to disable `root` login via SSH::"
 msgstr ""
-"Éditer le fichier « / etc/ssh/sshd_config » pour désactiver le login « root "
-"» via SSH::"
+"Éditer le fichier `/ etc/ssh/sshd_config` pour désactiver le login `root` "
+"via SSH::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:107
 msgid "Public key authentication"
@@ -2778,8 +2770,8 @@ msgstr ""
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:114
 msgid "First generate a public/private key pair using `ssh-keygen`::"
 msgstr ""
-"Tout d'abord générer une paire de clés publique/privée à l'aide de « ssh-"
-"keygen »::"
+"Tout d'abord générer une paire de clés publique/privée à l'aide de `ssh-"
+"keygen`::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:118
 msgid ""
@@ -2789,18 +2781,18 @@ msgid ""
 "several ways to do it, we are going to use the `ssh-copy-id` tool::"
 msgstr ""
 "Suivez la procédure, vous allez vous retrouver avec votre clé nouvellement "
-"générée sous '' ~/.ssh'' maintenant, copiez votre « public » (par défaut, il "
+"générée sous '' ~/.ssh'' maintenant, copiez votre `public` (par défaut, il "
 "s'appelle id_rsa.pub) clé sur la machine de CentOS en '' /home/geo/.ssh/"
 "authorized_keys''. Il existe plusieurs façons de le faire, nous allons "
-"utiliser l'outil « ssh-copy-id »::"
+"utiliser l'outil `ssh-copy-id`::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:125
 msgid ""
 "You should now be able to login via SSH as `geo` without been asked for the "
 "password::"
 msgstr ""
-"Vous devriez maintenant être en mesure de vous connecter via SSHsans que « "
-"geo »  demande le mot de passe::"
+"Vous devriez maintenant être en mesure de vous connecter via SSHsans que "
+"`geo`  demande le mot de passe::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:131
 msgid "You can now disable password based login over SSH"
@@ -2865,8 +2857,8 @@ msgid ""
 "Welcome to the GeoNode Training `Installation & Admin` documentation v\\ |"
 "release|."
 msgstr ""
-"Bienvenue à la formation de GeoNode « Installation & Admin » documentation v "
-"|release|."
+"Bienvenue à la formation de GeoNode `Installation & Admin` documentation v |"
+"release|."
 
 #: ..\..\002_install_and_admin\index.rst:8
 msgid ""
@@ -2908,17 +2900,23 @@ msgstr "Qu'est-ce que Python"
 
 #: ..\..\002_install_and_admin\index.rst:18
 msgid "What is a DBMS"
-msgstr "Qu'est-ce qu'un SGBD"
+msgstr "Qu'est-ce qu'un DBMS"
 
 #: ..\..\002_install_and_admin\index.rst:19
-msgid ""
-"4. What is a Java Virtual Machine and the JDK 6. Basic TCP/IP and networking "
-"concepts 5. Linux OS basic shell and maintenance commands 7. Apache HTTPD "
-"Server and WSGI Python bindings"
-msgstr ""
-"4. ce qu' est une Machine virtuelle Java et le JDK 6. TCP/IP de base et mise "
-"en réseau de concepts 5. OS Linux shell et la maintenance des commandes de "
-"base 7. Liaisons du serveur Apache HTTPD et Python WSGI"
+msgid "What is a Java Virtual Machine and the JDK"
+msgstr "Qu'est-ce qu'une machine virtuelle Java et le JDK"
+
+#: ..\..\002_install_and_admin\index.rst:20
+msgid "Basic TCP/IP and networking concepts"
+msgstr "Concepts TCP / IP et réseau de base"
+
+#: ..\..\002_install_and_admin\index.rst:21
+msgid "Linux OS basic shell and maintenance commands"
+msgstr "Commandes shell et d'entretien de base Linux OS"
+
+#: ..\..\002_install_and_admin\index.rst:22
+msgid "Apache HTTPD Server and WSGI Python bindings"
+msgstr "Apache HTTPD Server et les liaisons Python WSGI"
 
 #: ..\..\002_install_and_admin\index.rst:33
 msgid ":ref:`linux_admin_intro`"
@@ -2962,3 +2960,16 @@ msgstr ""
 "Les emballage pour l'installation automatique sont fournis pour Ubuntu, "
 "donc, la seule option pour l'installation de GeoNode sur une plate-forme de "
 "CentOS est d' installer cela de la source."
+
+#~ msgid ""
+#~ "The `ls` command will list the content of your current working directory. "
+#~ "You can optionally provide a path to a directory as argument, in that "
+#~ "case `ls` will show you the content of that directory."
+#~ msgstr ""
+#~ "La commande `ls` liste le contenu de votre répertoire de travail courant. "
+#~ "Vous pouvez éventuellement fournir un chemin d'accès vers un répertoire "
+#~ "comme argument, dans ce cas `ls` va vous montrer le contenu de ce "
+#~ "répertoire."
+
+#~ msgid "$ ls /home geo  geonode"
+#~ msgstr "$ ls/home geonode geo"
