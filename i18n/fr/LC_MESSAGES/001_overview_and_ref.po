@@ -39,7 +39,7 @@ msgstr "Geonode permet aux usagers de télécharger et partager les données gé
 #: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:11
 #: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:11
 msgid "Features include:"
-msgstr "Les caractéristiques incluent:"
+msgstr "Les fonctionnalités incluent:"
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:12
 msgid "Publish raster, vector, and tabular data"
@@ -124,11 +124,11 @@ msgid ""
 "GeoNode makes it easy to explore, process, style, and share maps and "
 "geospatial data. Spatial datasets can be imported and shared, all through a "
 "non-technical user interface."
-msgstr "Geonode permet aux utilisateurs de naviguer et chercher des données geospatiales en combinant  des collaborations trouvé dans des socials networks avec des outils geospatiaux spéciaux. Geonode rend facil  explorer, procéder, styliser et partager des cartes et données géospatiales. Des ensembles de donées spatiales peuvent être importées et partagées toutes à travers une interface d'utilisateur non technique."
+msgstr "Geonode permet aux utilisateurs de naviguer et chercher des données geospatiales en combinant  des collaborations trouvé dans des socials networks avec des outils geospatiaux spéciaux. Geonode rend facil  explorer, élaborer, styliser et partager des cartes et des données géospatiales. Des ensembles de donées spatiales peuvent être importées et partagées à travers une interface graphique tres simplifié pour aider les utilisateurs même."
 
 #: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:13
 msgid "Powerful spatial search engine"
-msgstr "Moteur de recherche spatial puissant"
+msgstr "Moteur de recherche spatial tres puissant"
 
 #: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:15
 msgid "Federated OGC services"
