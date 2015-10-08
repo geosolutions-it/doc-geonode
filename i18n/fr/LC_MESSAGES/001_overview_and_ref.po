@@ -223,7 +223,7 @@ msgid ""
 "By clicking *Confirm* you will be returned to the homepage. Now you’ve "
 "registered an account, you are able to add layers to it as well as create "
 "maps and share those with other users."
-msgstr "En cliquant \"confirm\", vous serez renvoyé à la homepage. Maintenat que vous avez enregistrés un compte, vous êtes capable d'y ajouter des niveaux, crèer des cartes et les partager avec d'autres utilisateurs."
+msgstr "En cliquant \"confirm\", vous serez renvoyé à la homepage. Maintenat que vous avez enregistrés un compte, vous êtes capable d'y ajouter des couches, crèer des cartes et les partager avec d'autres utilisateurs."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:57
 msgid "2. Add a new layer"
@@ -290,7 +290,7 @@ msgid ""
 "*Anonymous* view access is disabled. In the same area, under **Who can edit "
 "this data**, select **your username**. This will ensure that *Only You* are "
 "able to edit the data in the layer."
-msgstr "Geonode a l'abilité de limiter qui peut voir, éditer et gérer les niveaux. Sur le coté gauche de la page, vous pouvez voir la section \" Permission, ou vous pouvez limiter l'accès à votre niveau. Sous **Who can view and download this data**, sélectionne *Any registered user* . Cela empechera la vue aux personnes anonymes. Dans la même aire, sous \"Who can edit this data\", sélectionnez votre username . Ceci assurera que seulement vous, êtes capable d'éditer les données dans le niveau."
+msgstr "Geonode a l'abilité de limiter qui peut voir, éditer et gérer les couches. Sur le coté gauche de la page, vous pouvez voir la section \" Permission, ou vous pouvez limiter l'accès à votre niveau. Sous **Who can view and download this data**, sélectionne *Any registered user*. Cela empechera la vue aux personnes anonymes. Dans la même aire, sous \"Who can edit this data\", sélectionnez votre username . Ceci assurera que seulement vous, êtes capable d'éditer les données dans le niveau."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:96
 msgid "*Permissions*"
@@ -298,33 +298,33 @@ msgstr "Permissions"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:98
 msgid "To upload data, click the *Upload* button at the bottom."
-msgstr "Pour télécharger des données, cliquez sur le bouton \" Télécharger\" en bas de la page."
+msgstr "Pour charger des données, cliquez sur le bouton \" charger\" en bas de la page."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:101
 msgid "3. Create a new map"
-msgstr "3.Créer une nouvelle carte."
+msgstr "3. Créer une nouvelle carte"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:103
 msgid ""
 "The next step for you is to create a map and add the newly created layers to"
 " this map."
-msgstr "Le prochain step est de créer une carte et d'y ajouter le nouveau niveau créé."
+msgstr "La prochaine etape est de créer une carte et d'y ajouter le nouveau couche qu'on a créé."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:105
 msgid ""
 "Click the *Maps* link on the top toolbar. This will bring up the list of "
 "maps."
-msgstr "Cliquez sur le link \" Maps\" en haut de la barre d'outils.  Ceci va rapporter la liste des cartes."
+msgstr "Cliquez sur le link *Maps* en haut de la barre d'outils.  Ceci va rapporter la liste des cartes."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:110
 msgid "*Create new Map Button*"
-msgstr "Créer un bouton de nouvelle carte. "
+msgstr "Bouton pour Créer une Nouvelle Carte. "
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:112
 msgid ""
 "Currently, there aren’t any maps here. To add one click the *Create a New "
 "Map* button and a map composition interface will display."
-msgstr "Actuellement, il n'y a pas de cartes ici . Pour en ajouter une cliquez sur  * Créer une nouvelle carte  * et une composition d' interface va s' afficher ."
+msgstr "Actuellement, il n'y a pas de cartes ici. Pour en ajouter une cliquez sur  *Create a New Map* et une interface poula creation des cartes va s' afficher ."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:117
 msgid "*Maps Editor*"
@@ -336,40 +336,40 @@ msgid ""
 "window contains the MapQuest OpenStreetMap layer by default. There are other"
 " service layers available here as well: Blue Marble, Bing Aerial With "
 "Labels, MapQuest, and OpenStreetMap."
-msgstr "Dans cet interface, il y a une barre d'outils, une liste de niveau et une fenêtre de la carte . La fenêtre de la carte contient la MapQuest OpenStreetMap par défaut . Il y a d'autre niveau de service disponibles ici aussi: Blue Marble, Bing Aerial With Labels, MapQuest, and OpenStreetMap."
+msgstr "Dans cette interface, il y a une barre d'outils, une liste de couches et une fenêtre de la carte. La fenêtre de la carte contient la MapQuest OpenStreetMap par défaut. Il y a d'autre couches de service disponibles ici aussi: Blue Marble, Bing Aerial With Labels, MapQuest et OpenStreetMap."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:122
 msgid "Click on the *New Layers* button and select *Add Layers*."
-msgstr "Cliquez sur le bouton \" New Layers\" et séléctionnez \" Add layers\""
+msgstr "Cliquez sur le bouton *New Layers* et séléctionnez *Add layers*"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:126
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:134
 msgid "*Add Layers*"
-msgstr "Ajoutez des niveaux."
+msgstr "Ajoutez des couches"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:128
 msgid ""
 "Now you should be able to see all the availabel layers. In your case, this "
 "should only be the ones you’ve added before (San Andreas?)."
-msgstr "Maintenant vous devriez voir tous les niveaux disponibles. Dans votre cas, il devraient être seulement ceux que vous avez ajouté avant. ( San Andreas?)"
+msgstr "Maintenant vous devriez voir tous les couches disponibles. Dans votre cas, il devraient être seulement ceux que vous avez ajouté avant. (San Andreas?)"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:130
 msgid ""
 "Select all of the layers by clicking the top entry and **Shift-clicking** "
 "the bottom one. Click *Add Layers* to add them all to the map."
-msgstr "Séléctionnez tous les niveaux en cliquant sur l'entrée supèrieure et Shift-clicking celui du bas. Cliquez \" Add layers\" pour les ajouter tous à la carte. "
+msgstr "Séléctionnez tous les couches en cliquant sur l'entrée supèrieure et **Shift-clicking** celui du bas. Cliquez *Add layers* pour les ajouter tous à la carte. "
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:136
 msgid ""
 "The layers will be added to the map. Click *Done* (right next to *Add "
 "Layers* at the bottom) to return to the main layers list."
-msgstr "Le niveau sera ajouté à la carte . Cliquez \" Done\" ( juste à coté de \" Add Layers\" en bas\") pour retourner à la liste principale des niveaux."
+msgstr "La couche sera ajouté à la carte. Cliquez *Done* (juste à coté de *Add Layers* en bas) pour retourner à la liste principale des couches."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:138
 msgid ""
 "To save the map click on the Map button in the toolbar, and select *Save "
 "Map*."
-msgstr "Pour sauvegarder la carte cliquez sur le bouton de la carte dans la barre d'outils. "
+msgstr "Pour sauvegarder la carte cliquez sur le bouton de la carte dans la barre d'outils."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:142
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:154
@@ -378,7 +378,7 @@ msgstr "Sauvegarder la carte"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:144
 msgid "Enter a title and abstract for your map."
-msgstr "Entrez un titre et un résumé pour votre carte ."
+msgstr "Entrez un titre et un résumé pour votre carte."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:148
 msgid "*Edit Map Metadata*"
@@ -388,31 +388,31 @@ msgstr "Editez une carte de métadonnées."
 msgid ""
 "Click *Save*. Notice that the link on the top right of the page changed to "
 "reflect the map’s name."
-msgstr "Cliquez \"Sauvegarder\" . Notez que le link en haut de la page a changé pour refléter le nom de la carte"
+msgstr "Cliquez *Save*. Notez que le lien en haut de la page a changé pour refléter le nom de la carte"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:156
 msgid ""
 "This link contains a permalink to your map. If you open this link in a new "
 "window, your map will appear exactly as it was saved."
-msgstr "Ce lien contient un permalien à votre carte. Si vous ouvrez ce lien dans une nouvelle fenêtre, votre carte apparaîtra exactement comme elle a été enregistrée ."
+msgstr "Ce lien contient un permalink à votre carte. Si vous ouvrez ce lien dans une nouvelle fenêtre, votre carte apparaîtra exactement comme elle a été enregistrée."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:159
 msgid "4. Share your map"
-msgstr "4.Partagez votre compte"
+msgstr "4. Partagez votre carte"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:161
 msgid "Now let’s finish our map."
-msgstr "Maintenant finissons notre carte."
+msgstr "Finissons notre carte."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:163
 msgid ""
 "Check the box next to the **highway** layer to activate it. If it is not "
 "below the **POI** layer in the list, click and drag it down."
-msgstr "Vérifie la carte à coté du niveau \" highway\"  pour l'activer. Si il n'est pas sous le niveau \" POI\" dans la liste, cliquez  et faites-le glisser en bas."
+msgstr "Vérifie la carte à coté de la couche *highway*  pour l'activer. Si il n'est pas sous le niveau *POI* dans la liste, cliquez  et faites-le glisser en bas."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:168
 msgid "*Activate Layers on Map*"
-msgstr "Activez les niveaux sur la carte."
+msgstr "Activez les couches sur la carte."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:170
 msgid ""
@@ -432,17 +432,17 @@ msgstr "Publier le bouton Carte"
 msgid ""
 "The title and abstract as previously created should still be there. Make any"
 " adjustments as necessary, and click *Save*."
-msgstr "Le titre et le résumé  précédemment créés devraient être encore là . Faire les ajustements si nécessaire, et cliquez sur Enregistrer * *"
+msgstr "Le titre et le résumé  précédemment créés devraient être encore là. Faire les ajustements si nécessaire, et cliquez sur *Save*"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:180
 msgid ""
 "A new dialog will appear with instructions on how to embed this map in a web"
 " page, including a code snippet. You can adjust the parameters as necessary."
-msgstr "Une nouvelle boîte de dialogue apparaîtra avec des instructions sur la façon d'intégrer cette carte dans une page Web, y compris un extrait de code . Vous pouvez régler les paramètres comme nécessaire."
+msgstr "Une nouvelle boîte de dialogue apparaîtra avec des instructions sur la façon d'intégrer cette carte dans une page Web; cette instructions va comprende aussi un extrait de code. Vous pouvez régler les paramètres comme nécessaire."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:184
 msgid "*Publish the Map*"
-msgstr "Publier la carte"
+msgstr "*Publier la Carte*"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:186
 msgid "Your map can now be shared!"
@@ -465,7 +465,7 @@ msgid ""
 "using `http://webchat.freenode.net/ <http://webchat.freenode.net/>`_ or by "
 "asking your question in our `google group "
 "<https://groups.google.com/forum/#!forum/geonode-users>`_!"
-msgstr "Restez en contact avec la communauté de GeoNode par la voie #geonode IRC en utilisant ` http://webchat.freenode.net/ < http://webchat.freenode.net/ > ` _ ou en demandant à votre question dans notre groupe ` google < https://groups.google.com/forum/#!forum/geonode-users>`_ !"
+msgstr "Restez en contact avec la communauté de GeoNode par la voie #geonode IRC en utilisant ` http://webchat.freenode.net/ < http://webchat.freenode.net/ >`_ ou en demandant à votre question dans notre groupe `google < https://groups.google.com/forum/#!forum/geonode-users>`_ !"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:5
 msgid "A Tour Of GeoNode"
@@ -623,13 +623,13 @@ msgid ""
 "On the left side you can see the list of *Entities* defined in GeoNode and "
 "managed by the DJango ORM framework. Those objects will be detailed in a "
 "future section."
-msgstr "Sur le côté gauche vous pouvez voir la liste des \"entités\" * * définies dans GeoNode et gérés par le framework Django ORM . Ces objets seront détaillées dans une section a venir."
+msgstr "Sur le côté gauche vous pouvez voir la liste des *entités* * * définies dans GeoNode et gérés par le framework Django ORM . Ces objets seront détaillées dans une section a venir."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:18
 msgid ""
 "On the right side the list of *Services* available allowing GeoNode to "
 "communicate with the *social* world."
-msgstr "Sur le côté droit de la liste des \"services\"  Disponible permettant GeoNode de communiquer avec le monde \"sociale\""
+msgstr "Sur le côté droit de la liste des *services\"  Disponible permettant GeoNode de communiquer avec le monde *social*"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:20
 msgid ""
