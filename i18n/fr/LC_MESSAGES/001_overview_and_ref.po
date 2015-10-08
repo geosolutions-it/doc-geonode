@@ -475,7 +475,7 @@ msgstr "Une visite de GeoNode"
 msgid ""
 "In order to get started, let’s look at the GeoNode interface and get a feel "
 "for how to navigate around it."
-msgstr "Pour commencer, nous regardons l'interface de GeoNode  afin d'obtenir une precise idée de la façon de naviguer autour d'elle ."
+msgstr "Pour commencer, on va voir l'interface de GeoNode  afin d'obtenir une precise idée de ce que on peut fair avec lui-même."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:8
 msgid ""
@@ -507,17 +507,17 @@ msgid ""
 "<http://docs.geonode.org/en/latest/tutorials/users/accounts/index.html#accounts>`_,"
 " and a search field. Below this is a listing of recently updated layers, "
 "including abstract, owner, rating, and download button (if available)."
-msgstr "Cette page montre une variété d'informations sur l'instance de GeoNode actuelle . En haut de la page il y a une barre d'outils montrant des liens rapides pour afficher ` couches < http://docs.geonode.org/en/latest/tutorials/users/layers/index.html#layers~~number=plural > ` `_,` cartes  < http : //docs.geonode.org/en/latest/tutorials/users/maps/index.html#maps > `_, les documents ( métadonnées ), ` les gens < http://docs.geonode.org/en/latest/ tutoriels / utilisateurs / comptes / index.html # comptes> `_, et un champ de recherche . En dessous se trouve une liste des couches récemment mise à jour, y compris abstraite, propriétaire, note, et le bouton de téléchargement (si disponible) ."
+msgstr "Cette page montre une variété d'informations sur cette instance de GeoNode . En haut de la page il y a une barre d'outils montrant des liens rapides pour afficher les `couches < http://docs.geonode.org/en/latest/tutorials/users/layers/index.html#layers~~number=plural >`_, les`cartes  < http : //docs.geonode.org/en/latest/tutorials/users/maps/index.html#maps >`_, les documents (métadonnées), les `gens <http://docs.geonode.org/en/latest/tutorials/users/accounts/index.html#accounts>`_, et une outil de recherche. En dessous se trouve une liste des couches récemment mise à jour, en comprenant le bouton de téléchargement (si disponible) et des autres informations relatives a les couches meme."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:26
 msgid ""
 "Click Explore button and choose Preview. Table data could be visualized as: "
 "Grid, Graph or Map."
-msgstr "Cliquez sur le bouton Explorer et choisissez Aperçu . Les données du tableau peuvent être visualisées en: Grille, Graphique ou Carte ."
+msgstr "Maintenant, cliquez sur le bouton Explore et choisissez Preview. Des données qui ne sont pas geospatiales (**Table data**) peuvent être visualisées en: Grille, Graphique ou Carte."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:31
 msgid "*Explore Layers page*"
-msgstr "Explorez la page des Calques"
+msgstr "Explorez la page des Couches"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:33
 msgid ""
@@ -525,7 +525,7 @@ msgid ""
 "Grid viewing. Layers can be sorted by Most Recent, Most Popular, or Most "
 "Shared. Also available are a list of categories, with which layers can be "
 "connected with."
-msgstr "Cette page montre toutes les couches conneus pour GeoNode, disponibles en visualisation de Liste ou Grille . Les couches peuvent être triés par les plus récentes, les plus populaires, ou la mieux partagée . Est également disponibles une liste de catégories, dont les couches peuvent être connectées avec ."
+msgstr "Cette page montre toutes les couches conneus pour GeoNode, il est disponibles en visualisation de Liste ou Grille. Les couches peuvent être triés par les plus récentes, les plus populaires, ou les plus partagée. Est également disponibles une liste de catégories, qui on peut utilisè pour classer le couches."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:37
 msgid "Find a layer and click on its name."
@@ -533,7 +533,7 @@ msgstr "Trouvez une couche et cliquez sur son nom ."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:42
 msgid "*Viewing a layer*"
-msgstr "Regardant une couche"
+msgstr "En regardant une couche"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:44
 msgid ""
@@ -541,12 +541,12 @@ msgid ""
 "hosted base layer (in this case `MapQuest OpenStreetMap "
 "<http://open.mapquest.com/>`_). Explore this page, noting the various "
 "options available to you."
-msgstr "Une page de visualisation de la couche affichera, avec la couche elle meme  superposée à une couche de base hébergé (dans ce cas ` MapQuest OpenStreetMap < http://open.mapquest.com/ > ` _ ) . Explorez cette page, en notant les diverses options disponibles pour vous ."
+msgstr "Une page de visualisation de la couche affichera, avec la couche elle meme  superposée à une couche de base hébergé (dans ce cas `MapQuest OpenStreetMap < http://open.mapquest.com/ >`_ ). Explorez cette page, en notant les diverses options disponibles pour vous."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:46
 msgid ""
 "Now click the Maps link in the tool bar to go to the Explore Maps page."
-msgstr "Maintenant, cliquez sur les liens des cartes dans la barre d'outils pour accéder à la page Explorer Maps."
+msgstr "Maintenant, cliquez sur les liens des cartes dans la barre d'outils pour accéder à la page **Explorer Maps**."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:51
 msgid "*Explore Maps page*"
@@ -557,7 +557,7 @@ msgid ""
 "This page shows all maps known to GeoNode, available with similar viewing "
 "options as with the layers. Currently, there are no maps here, but we will "
 "create one later on in the workshop."
-msgstr "Cette page montre toutes les cartes connues à GeoNode, disponibles avec des options de visualisation semblables comme avec les couches . Actuellement, il n'y a pas de cartes ici, mais nous allons en créer une plus tard dans l'atelier ."
+msgstr "Cette page montre toutes les cartes gérés par GeoNode, disponibles avec des options de visualisation similaire aus options disponibles pour le couches. Actuellement, il n'y a pas de cartes ici, mais nous allons en créer une plus tard dans ce Workshop."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:56
 msgid "Click the Search link in the toolbar to bring up the Search page."
@@ -573,7 +573,7 @@ msgid ""
 "information on this GeoNode instance. While a simple search box is available"
 " at the top of every page, this search form allows for much more fine-tuned "
 "searches."
-msgstr "Cette page contient une multitude d'options de personnalisation d'une recherche de diverses informations sur cette instance de GeoNode . Alors qu'une boîte de recherche simple est disponible en haut de chaque page, ce formulaire de recherche permet des recherches beaucoup plus affinées ."
+msgstr "Cette page contient une multitude d'options de personnalisation d'une recherche de diverses informations sur cette instance de GeoNode. Une boîte de recherche simple est disponible en haut de chaque page, ce formulaire de recherche permet de faire des recherches plus precise."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:66
 msgid ""
@@ -590,14 +590,14 @@ msgstr "Introduction"
 msgid ""
 "This section introduces the GeoNode GUI and functionalities through a step-"
 "by-step workshop."
-msgstr "Cette section présente la GUI de GeoNode  et les fonctionnalités à travers plusieurs des étapes."
+msgstr "Cette section présente la GUI de GeoNode  et ses fonctionnalités à travers de plusieurs des étapes."
 
 #: ..\..\001_overview_and_ref\002_introduction\index.rst:8
 #: ..\..\001_overview_and_ref\index.rst:34
 msgid ""
 "At the end of this module the users will be familiar with the GeoNode "
 "default GUI and objects."
-msgstr "À la fin de cette section, les utilisateurs seront familiers avec l'interface graphique et les differents outils de GeoNode."
+msgstr "À la fin de cette section, les utilisateurs seront familiers avec l'interface graphique et les differents outils fourni par GeoNode."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:5
 msgid "The Big Picture"
@@ -1406,7 +1406,7 @@ msgstr "Référence Doc"
 msgid ""
 "In this section, you will find information about each and every component of"
 " GeoNode, for example *GeoServer*, *GeoNode Settings*, *Security*, etc."
-msgstr "Dans cette section, vous trouverez des informations sur chaque composant de GeoNode, par exemple *GeoServer*, *Configurations de GeoNode*, *Sécurité*, etc."
+msgstr "Dans cette section, vous trouverez des informations sur chaque composant de GeoNode, par exemple *GeoServer*, *Paramètres de configuration de GeoNode*, *Sécurité*, etc."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:5
 msgid "Getting Started With Django"
@@ -2195,7 +2195,7 @@ msgstr "Prèsentation de Django"
 msgid ""
 "This section introduces some basic concepts of DJango, the Python based web "
 "framework on top of which GeoNode has been developed."
-msgstr "Cette section présente quelques concepts de base de Django, le framework web basé sur Python au sommet de laquelle GeoNode a été développé ."
+msgstr "Cette section présente les concepts de base de Django, le framework web basé sur Python qui on a utilisé pur développé GeoNode."
 
 #: ..\..\001_overview_and_ref\004_django_overview\index.rst:8
 #: ..\..\001_overview_and_ref\index.rst:42
@@ -2204,7 +2204,7 @@ msgid ""
 "websites. Django emphasizes reusability and \"pluggability\" of components, "
 "rapid development, and the principle of *don't repeat yourself*. Python is "
 "used throughout, even for settings, files, and data models."
-msgstr "L'objectif principal de Django est de faciliter la création de sites complexes, bases de données axées . Django souligne la réutilisation et \" pluggability \" de composants, de développement rapide, et le principe de *Do not Repeat Yourself* . Python est utilisé partout, même pour les paramètres, fichiers et des modèles de données ."
+msgstr "L'objectif principal de Django est de faciliter la création des web applications complexes qui utilise des bases de données. Django rend facile la réutilisation et \" pluggability \" de composants, de le développement rapide, et le principe de *Do not Repeat Yourself*. Python est utilisé partout, pour les paramètres de configuration, pour les fichiers et pour la interaction avec les modèles de données."
 
 #: ..\..\001_overview_and_ref\004_django_overview\index.rst:12
 #: ..\..\001_overview_and_ref\index.rst:46
