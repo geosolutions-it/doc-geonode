@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-05 15:45+0200\n"
-"PO-Revision-Date: 2015-10-08 18:19+0200\n"
+"PO-Revision-Date: 2015-10-08 18:27+0200\n"
 "Last-Translator: simboss <simone.giannecchini@geo-solutions.it>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-documentation/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -1328,7 +1328,7 @@ msgstr "GET and POST"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:424
 msgid "**GET** and **POST** are the only HTTP methods to use when dealing with forms."
-msgstr "** GET ** et **POST**  sont les seules méthodes de HTTP à utiliser lorsqu'ils traitent avec des formes ."
+msgstr "**GET** et **POST**  sont les seules méthodes de HTTP à utiliser lorsqu'ils traitent avec des formes ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:426
 msgid "Django’s login form is returned using the **POST** method, in which the browser bundles up the form data, encodes it for transmission, sends it to the server, and then receives back its response."
@@ -1336,17 +1336,15 @@ msgstr "Le formulaire de login de Django est renvoyé à l'aide du méthode **PO
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:428
 msgid "**GET**, by contrast, bundles the submitted data into a string, and uses this to compose a URL. The URL contains the address where the data must be sent, as well as the data keys and values. You can see this in action if you do a search in the Django documentation, which will produce a URL of the form ``https://docs.djangoproject.com/search/?q=forms&release=1``."
-msgstr ""
-"**GET**, en revanche, regroupe les données présentées dans une chaîne, et l'utilise pour composer une URL. L'URL contient l'adresse où les données doivent être envoyées, ainsi que les clés et les valeurs données. Vous pouvez voir dans cette action si vous effectuez une recherche dans la documentation de Django, qui va produire une URL de la forme `` \n"
-"`https://docs.djangoproject.com/search/?q=forms&release=1``."
+msgstr "**GET**, en revanche, regroupe les données présentées dans une chaîne, et l'utilise pour composer une URL. L'URL contient l'adresse où les données doivent être envoyées, ainsi que les clés et les valeurs données. Vous pouvez voir dans cette action si vous effectuez une recherche dans la documentation de Django, qui va produire une URL de la forme ``https://docs.djangoproject.com/search/?q=forms&release=1``."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:431
 msgid "**GET** and **POST** are typically used for different purposes."
-msgstr "** GET ** et **POST** sont généralement utilisés à des fins différentes ."
+msgstr "**GET** et **POST** sont généralement utilisés à des fins différentes ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:433
 msgid "Any request that could be used to change the state of the system - for example, a request that makes changes in the database - should use **POST**. **GET** should be used only for requests that do not affect the state of the system."
-msgstr "Toute demande qui pourrait être utilisée pour modifier l'état du système - par exemple, une requête qui effectue des modifications dans la base de données - devrait utiliser **POST**. **EEG**  doit être utilisé uniquement pour les demandes qui ne touchent pas l'état du système ."
+msgstr "Toute demande qui pourrait être utilisée pour modifier l'état du système - par exemple, une requête qui effectue des modifications dans la base de données - devrait utiliser **POST**. **GET**  doit être utilisé uniquement pour les demandes qui ne touchent pas l'état du système ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:435
 msgid "**GET** would also be unsuitable for a password form, because the password would appear in the URL, and thus, also in browser history and server logs, all in plain text. Neither would it be suitable for large quantities of data, or for binary data, such as an image. A Web application that uses **GET** requests for admin forms is a security risk: it can be easy for an attacker to mimic a form’s request to gain access to sensitive parts of the system. **POST**, coupled with other protections like Django’s CSRF protection offers more control over access."
@@ -1354,11 +1352,11 @@ msgstr "**GET** serait également impropre à une forme de mot de passe, parce q
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:437
 msgid "On the other hand, **GET** is suitable for things like a web search form, because the URLs that represent a **GET** request can easily be bookmarked, shared, or resubmitted."
-msgstr "D'autre part, **GET** est adapté pour des choses comme un formulaire de recherche Web, parce que les URL qui représentent un ** ** les demandes de GET peuvent facilement être favorisés, partagées, ou soumise à nouveau ."
+msgstr "D'autre part, **GET** est adapté pour des choses comme un formulaire de recherche Web, parce que les URL qui représentent un les demandes de **GET** peuvent facilement être favorisés, partagées, ou soumise à nouveau ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:439
 msgid "More: `Working With Forms <https://docs.djangoproject.com/en/1.8/topics/forms/#working-with-forms>`_"
-msgstr "Plus: `Working With Forms <https://docs.djangoproject.com/en/1.8/topics/forms/#working-with-forms>`_"
+msgstr "Plus: `Travailler avec les formes <https://docs.djangoproject.com/en/1.8/topics/forms/#working-with-forms>`_"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:442
 msgid "Authentication"
@@ -1370,7 +1368,7 @@ msgstr "Django est livré avec un système d'authentification complet et sécuri
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:458
 msgid "More: `User authentication in Django <https://docs.djangoproject.com/en/stable/topics/auth/>`_"
-msgstr "Plus : ` Authentification des utilisateurs dans Django < https://docs.djangoproject.com/en/stable/topics/auth/ > ` _"
+msgstr "Plus : `Authentification des utilisateurs dans Django <https://docs.djangoproject.com/en/stable/topics/auth/>`_"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:461
 msgid "Admin"
@@ -1386,7 +1384,7 @@ msgstr "Le cours avancé pour les développeurs va fournir plus de détails sur 
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:483
 msgid "More: `The Django admin site <https://docs.djangoproject.com/en/stable/ref/contrib/admin/>`_"
-msgstr "Plus : ` Le site d'administration de Django < https://docs.djangoproject.com/en/stable/ref/contrib/admin/ > ` _"
+msgstr "Plus : `Le site d'administration de Django <https://docs.djangoproject.com/en/stable/ref/contrib/admin/>`_"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:486
 msgid "Internationalization"
@@ -1402,7 +1400,7 @@ msgstr "Le séminaire avancé pour les développeurs fournira plus de détails s
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:537
 msgid "More: `Internationalization and localization <https://docs.djangoproject.com/en/stable/topics/i18n/>`_"
-msgstr "Plus : ` internationalisation et la localisation < https://docs.djangoproject.com/en/stable/topics/i18n/ > ` _"
+msgstr "Plus : `Internationalisation et la localisation <https://docs.djangoproject.com/en/stable/topics/i18n/>`_"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:540
 msgid "Security"
@@ -1422,7 +1420,7 @@ msgstr "Clickjacking est un type d'attaque, un site malveillant enroule un autre
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:547
 msgid "The **X-Frame-Options middleware** contained in a form allow a supporting browser to prevent a site from being rendered inside a frame"
-msgstr "Le middleware ** X -Frame -Options **  est contenue dans une forme permettant à un navigateur supportant d'empêcher à un sitede se rendre dans un cadre"
+msgstr "Le middleware **X-Frame-Options**  est contenue dans une forme permettant à un navigateur supportant d'empêcher à un sitede se rendre dans un cadre"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:550
 msgid "Cross site scripting (XSS)"
@@ -1458,15 +1456,15 @@ msgstr "Hôte validation d'en-tête"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:561
 msgid "Django uses the **Host** header provided by the client to construct URLs in certain cases. While these values are sanitized to prevent Cross Site Scripting attacks, a fake **Host** value can be used for Cross-Site Request Forgery, cache poisoning attacks, and poisoning links in emails."
-msgstr "Django utilise l' hôte ** ** tête fourni par le client pour construire des URL dans certains cas . Bien que ces valeurs sont désinfectés pour prévenir les attaques de type Cross Site Scripting, un faux ** ** Host valeur peut être utilisée pour Cross-Site Request Forgery, les attaques par empoisonnement de cache, et des liens d'empoisonnement dans les emails ."
+msgstr "Django utilise l' **Host** tête fourni par le client pour construire des URL dans certains cas . Bien que ces valeurs sont désinfectés pour prévenir les attaques de type Cross Site Scripting, un faux **Host** valeur peut être utilisée pour Cross-Site Request Forgery, les attaques par empoisonnement de cache, et des liens d'empoisonnement dans les emails ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:564
 msgid "Because even seemingly-secure web server configurations are susceptible to fake **Host** headers, Django validates **Host** headers against the **ALLOWED_HOSTS** setting in the ``django.http.HttpRequest.get_host()`` method."
-msgstr "Parce que les configurations de serveur Web même apparemment sécurisées sont sensibles à de faux ** ** hôte têtes, Django valide ** ** hôte têtes contre le réglage ** ** allowed_hosts dans le `` django.http.HttpRequest.get_host () `` procédé ."
+msgstr "Parce que les configurations de serveur Web même apparemment sécurisées sont sensibles à de faux **Host** têtes, Django valide **Host** têtes contre le réglage **ALLOWED_HOSTS** dans le ``django.http.HttpRequest.get_host()`` procédé ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:566
 msgid "This validation only applies via **get_host()**; if your code accesses the Host header directly from **request.META** you are bypassing this security protection."
-msgstr "Cette validation applique uniquement via get_host ** () ** ; si votre code accède à la tête de l'hôte directement à partir de ** ** request.META vous suspendez cette protection de la sécurité ."
+msgstr "Cette validation applique uniquement via **get_host()** ; si votre code accède à la tête de l'hôte directement à partir de **request.META** vous suspendez cette protection de la sécurité ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:571
 msgid "SSL/HTTPS"
@@ -1506,7 +1504,7 @@ msgstr "C' est une bonne idée de limiter l'accessibilité de votre système de 
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:582
 msgid "More: `Security in Django <https://docs.djangoproject.com/en/stable/topics/security/>`_"
-msgstr "Plus: sécurité dans Django <https://docs.djangoproject.com/en/stable/topics/security/>`_"
+msgstr "Plus: `Sécurité dans Django <https://docs.djangoproject.com/en/stable/topics/security/>`_"
 
 #: ..\..\001_overview_and_ref\004_django_overview\index.rst:5
 msgid "Django Overview"
