@@ -95,7 +95,7 @@ msgid ""
 "application with functionality traditionally found in desktop GIS "
 "applications. Users can gain enhanced interactivity with GIS-specific tools "
 "such as querying and measuring."
-msgstr "Geonode permet aux utilisateurs de créer et partager des cartes web intéractives. Geonode GeoNode est livré avec des outils de cartographie utiles pour composer des cartes graphiquement. Ses outils rendent  facile assembler un web based avec des fonctionnalités trouvée traditionnellement dans les applications de SIG de bureau. Les utilisateurs peuvent gagner d'intéractivitée avec des outils spécifiques SIG tels que l'interrogation et la mesure ."
+msgstr "Geonode permet aux utilisateurs de créer et partager des cartes web intéractives. Geonode fournit des outils de cartographie utiles pour composer des cartes graphiquement. Ses outils rendent facile d'assembler une web application de maping avec des fonctionnalités trouvée traditionnellement dans les applications de SIG desktop. Les utilisateurs peuvent avoir intéractivitée avancée en utilisant des outils spécifiques des applications SIG tels que l'interrogation et la mesure."
 
 #: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:13
 msgid "GeoExplorer GIS client"
@@ -103,15 +103,15 @@ msgstr "GeoExplorer GIS client"
 
 #: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:15
 msgid "Graphical style editor"
-msgstr "Éditeur de style graphique"
+msgstr "Éditeur de style visuel"
 
 #: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:17
 msgid "Create multi-layer interactive maps"
-msgstr "Créer une multi-couches de cartes interactives"
+msgstr "Abilitè de créer de cartes interactives multi-couches"
 
 #: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:19
 msgid "Share and embed maps in web pages"
-msgstr "Partage et cartes intégrées dans des pages web."
+msgstr "Abilitè de partager et intégrer des cartes dans des pages web."
 
 #: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:5
 msgid "Spatial Data Discovery"
