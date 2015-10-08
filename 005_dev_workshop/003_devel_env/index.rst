@@ -22,7 +22,7 @@ Summary of the installation steps
     #. To stop the server
     #. Next create a superuser for your django geonode
 
-.. note:: The following steps have to be executed in your terminal. The steps have to be done as a root user, therefore don´t forget to type sudo in front!
+.. note:: The following steps have to be executed in your terminal. The steps have to be done as a **root user**, therefore don´t forget to type sudo in front!
 
 .. warning:: Don't forget to stop the **GeoNode Production** services if enabled
 
@@ -112,23 +112,23 @@ As follows
 # "local" is for Unix domain socket connections only
 local   all             all                                trust
 
-Restart PostgreSQL to make the changes effective
-::
+Restart PostgreSQL to make the changes effective::
+
     sudo service postgresql restart
 
-   *Java dependencies*
+*Java dependencies*
 
-   .. note:: The following steps must be executed **only** if you don't have a Java JDK already installed on your system (see :ref:`install_geonode_application`)
+.. note:: The following steps must be executed **only** if you don't have a Java JDK or JRE already installed on your system (see :ref:`install_geonode_application`)
 
-        .. code-block:: console
+    .. code-block:: console
 
-            $ sudo apt-get install -y --force-yes openjdk-6-jdk --no-install-recommends
+        $ sudo apt-get install -y --force-yes openjdk-6-jdk --no-install-recommends
 
-   *supporting tools*
+*supporting tools*
 
-   .. code-block:: console
+.. code-block:: console
 
-        $ sudo apt-get install -y ant maven2 git gettext
+    $ sudo apt-get install -y ant maven2 git gettext
 
 #. Set up a virtual environment
 

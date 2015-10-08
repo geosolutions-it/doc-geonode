@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 14:33+0200\n"
+"POT-Creation-Date: 2015-10-08 15:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -971,7 +971,7 @@ msgid "Next create a superuser for your django geonode"
 msgstr ""
 
 #: ..\..\005_dev_workshop\003_devel_env\index.rst:25
-msgid "The following steps have to be executed in your terminal. The steps have to be done as a root user, therefore don´t forget to type sudo in front!"
+msgid "The following steps have to be executed in your terminal. The steps have to be done as a **root user**, therefore don´t forget to type sudo in front!"
 msgstr ""
 
 #: ..\..\005_dev_workshop\003_devel_env\index.rst:27
@@ -1025,7 +1025,19 @@ msgid "As follows :: # \"local\" is for Unix domain socket connections only loca
 msgstr ""
 
 #: ..\..\005_dev_workshop\003_devel_env\index.rst:115
-msgid "Restart PostgreSQL to make the changes effective ::"
+msgid "Restart PostgreSQL to make the changes effective::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:119
+msgid "*Java dependencies*"
+msgstr ""
+
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:121
+msgid "The following steps must be executed **only** if you don't have a Java JDK or JRE already installed on your system (see :ref:`install_geonode_application`)"
+msgstr ""
+
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:127
+msgid "*supporting tools*"
 msgstr ""
 
 #: ..\..\005_dev_workshop\003_devel_env\index.rst:133
