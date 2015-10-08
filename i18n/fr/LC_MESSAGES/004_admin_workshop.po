@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2013, GeoNode Development Team
 # This file is distributed under the same license as the GeoNode package.
-# 
+#
 # Translators:
 # Daniele Romagnoli <daniele.romagnoli@geo-solutions.it>, 2015
 # simboss <simone.giannecchini@geo-solutions.it>, 2015
@@ -10,25 +10,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-06 18:58+0200\n"
-"PO-Revision-Date: 2015-10-07 16:22+0000\n"
+"POT-Creation-Date: 2015-10-08 18:40+0200\n"
+"PO-Revision-Date: 2015-10-08 18:42+0200\n"
 "Last-Translator: Daniele Romagnoli <daniele.romagnoli@geo-solutions.it>\n"
-"Language-Team: French (http://www.transifex.com/geosolutions/geonode-documentation/language/fr/)\n"
+"Language-Team: French (http://www.transifex.com/geosolutions/geonode-"
+"documentation/language/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.5\n"
 
 #: ..\..\004_admin_workshop\001_admin_panel\base.rst:5
 msgid "Manage the metadata categories using the admin panel"
-msgstr "Gérer les catégories de métadonnées en utilisant le panneau d'administration"
+msgstr ""
+"Gérer les catégories de métadonnées en utilisant le panneau d'administration"
 
 #: ..\..\004_admin_workshop\001_admin_panel\base.rst:7
 msgid ""
-"In the \"Base\" section of the admin panel there are the links to manage the"
-" metadata categories used in GeoNode"
-msgstr "Dans la section \"Base\" du panneau d'administration, il ya les liens pour gérer les catégories de métadonnées utilisées dans GeoNode"
+"In the \"Base\" section of the admin panel there are the links to manage the "
+"metadata categories used in GeoNode"
+msgstr ""
+"Dans la section \"Base\" du panneau d'administration, il ya les liens pour "
+"gérer les catégories de métadonnées utilisées dans GeoNode"
 
 #: ..\..\004_admin_workshop\001_admin_panel\base.rst:11
 msgid "The metadata categories are:"
@@ -60,17 +65,24 @@ msgstr "Les autres liens disponibles ne devraient pas être utilisés."
 
 #: ..\..\004_admin_workshop\001_admin_panel\base.rst:24
 msgid ""
-"The Regions can be updated, deleted and added on needs. Just after a GeoNode"
-" fresh installation the regions contain all of the world countries, "
+"The Regions can be updated, deleted and added on needs. Just after a GeoNode "
+"fresh installation the regions contain all of the world countries, "
 "identified by their ISO code."
-msgstr "Les régions peuvent être mis à jour, supprimé et ajouté sur les besoins. Juste après une nouvelle installation GeoNode les régions contiennent tous les pays du monde, identifiés par leur code ISO."
+msgstr ""
+"Les régions peuvent être mis à jour, supprimé et ajouté sur les besoins. "
+"Juste après une nouvelle installation GeoNode les régions contiennent tous "
+"les pays du monde, identifiés par leur code ISO."
 
 #: ..\..\004_admin_workshop\001_admin_panel\base.rst:31
 msgid ""
 "Being GeoNode strictly tied to the standards, the restrictions cannot be "
-"added/deleted or modified in their identifier. This behavior is necessary to"
-" keep the consistency in case of federation with the CSW catalogues."
-msgstr "Étant GeoNode strictement liée aux normes, les restrictions ne peuvent être ajoutés / supprimés ou modifiés dans leur identifiant. Ce comportement est nécessaire pour maintenir la cohérence dans le cas de combination avec les catalogues CSW."
+"added/deleted or modified in their identifier. This behavior is necessary to "
+"keep the consistency in case of federation with the CSW catalogues."
+msgstr ""
+"Étant GeoNode strictement liée aux normes, les restrictions ne peuvent être "
+"ajoutés / supprimés ou modifiés dans leur identifiant. Ce comportement est "
+"nécessaire pour maintenir la cohérence dans le cas de combination avec les "
+"catalogues CSW."
 
 #: ..\..\004_admin_workshop\001_admin_panel\base.rst:33
 msgid ""
@@ -79,12 +91,19 @@ msgid ""
 "will appear on the layer metadata page. If some of the restrictions are not "
 "needed within the GeoNode instance, it is possible to hide them by "
 "unchecking the \"Is choice\" field."
-msgstr "Le champ de description Restrictions de GeoNode peut en aucun cas être modifié si une sorte de personnalisation est nécessaire, car il est juste le texte qui apparaîtra sur la page couche de métadonnées. Si certaines de ces restrictions ne sont pas nécessaires au sein de l'instance de GeoNode, il est possible de les cacher en décochant la case \"is choice\" champ."
+msgstr ""
+"Le champ de description Restrictions de GeoNode peut en aucun cas être "
+"modifié si une sorte de personnalisation est nécessaire, car il est juste le "
+"texte qui apparaîtra sur la page couche de métadonnées. Si certaines de ces "
+"restrictions ne sont pas nécessaires au sein de l'instance de GeoNode, il "
+"est possible de les cacher en décochant la case \"is choice\" champ."
 
 #: ..\..\004_admin_workshop\001_admin_panel\base.rst:40
 msgid ""
 "For this section the same concepts of the Restriction Code Types applies."
-msgstr "Pour cette section, les mêmes concepts des Restriction Code Types est applicable."
+msgstr ""
+"Pour cette section, les mêmes concepts des Restriction Code Types est "
+"applicable."
 
 #: ..\..\004_admin_workshop\001_admin_panel\base.rst:47
 msgid ""
@@ -93,7 +112,12 @@ msgid ""
 "fall under these category identifiers. If some of the categories are not "
 "needed within the GeoNode instance, it is possible to hide them by "
 "unchecking the \"Is choice\" field."
-msgstr "Aussi pour le Topic Categories la seule partie modifiable est la GeoNode description. Étant norme, il est supposé que chaque type de données possible tombera sous ces identificateurs de catégorie. Si certaines de ces catégories ne sont pas nécessaires au sein de l'instance de GeoNode, il est possible de les cacher en décochant la case \"is choice\" champ."
+msgstr ""
+"Aussi pour le Topic Categories la seule partie modifiable est la GeoNode "
+"description. Étant norme, il est supposé que chaque type de données possible "
+"tombera sous ces identificateurs de catégorie. Si certaines de ces "
+"catégories ne sont pas nécessaires au sein de l'instance de GeoNode, il est "
+"possible de les cacher en décochant la case \"is choice\" champ."
 
 #: ..\..\004_admin_workshop\001_admin_panel\documents.rst:5
 msgid "Manage the documents using the admin panel"
@@ -103,14 +127,20 @@ msgstr "Gérer les documents en utilisant le panneau d'administration"
 msgid ""
 "As for the layers, most of the information related to the documents can and "
 "should be modified using the GeoNode's document metadata page."
-msgstr "Comme pour les couches, la plupart des informations liées aux documents peuvent et devrait être modifié selon la page document de métadonnées du GeoNode."
+msgstr ""
+"Comme pour les couches, la plupart des informations liées aux documents "
+"peuvent et devrait être modifié selon la page document de métadonnées du "
+"GeoNode."
 
 #: ..\..\004_admin_workshop\001_admin_panel\documents.rst:11
 msgid ""
 "Through the document detail page is possible to edit the metadata "
 "information. The fields related to the bounding box or the file attached "
 "should not be edited directly."
-msgstr "Grâce à la page document détail, il est possible d'éditer les informations de métadonnées. Les domaines liés à l'emprise ou le fichier joint ne devraient pas être modifiés directement."
+msgstr ""
+"Grâce à la page document détail, il est possible d'éditer les informations "
+"de métadonnées. Les domaines liés à l'emprise ou le fichier joint ne "
+"devraient pas être modifiés directement."
 
 #: ..\..\004_admin_workshop\001_admin_panel\index.rst:5
 msgid "Usage of the GeoNode's Django Administration Panel"
@@ -120,16 +150,23 @@ msgstr "Utilisation du Panneau d'administration de Django du GeoNode"
 #: ..\..\004_admin_workshop\index.rst:39
 msgid ""
 "GeoNode has an administration panel based on the Django admin which can be "
-"used to do some database operations. Although most of the operations can and"
-" should be done through the normal GeoNode interface, the admin panel "
+"used to do some database operations. Although most of the operations can and "
+"should be done through the normal GeoNode interface, the admin panel "
 "provides a quick overview and management tool over the database."
-msgstr "GeoNode a un panneau d'administration basé sur l'administration de Django qui peut être utilisé pour faire des opérations de base de données. Bien que la plupart des opérations peut et doit être fait par de l'interface GeoNode normal, le panneau d'administration fournit un outil rapide d'aperçu et de la gestion sur la base de données."
+msgstr ""
+"GeoNode a un panneau d'administration basé sur l'administration de Django "
+"qui peut être utilisé pour faire des opérations de base de données. Bien que "
+"la plupart des opérations peut et doit être fait par de l'interface GeoNode "
+"normal, le panneau d'administration fournit un outil rapide d'aperçu et de "
+"la gestion sur la base de données."
 
 #: ..\..\004_admin_workshop\001_admin_panel\index.rst:12
 msgid ""
 "It should be highlighted that the sections not covered in this guide are "
 "meant to be managed through GeoNode."
-msgstr "Il convient de souligner que les sections qui ne sont pas couverts dans ce guide sont destinés à être gérés par GeoNode."
+msgstr ""
+"Il convient de souligner que les sections qui ne sont pas couverts dans ce "
+"guide sont destinés à être gérés par GeoNode."
 
 #: ..\..\004_admin_workshop\001_admin_panel\index.rst:15
 msgid "Accessing the admin panel"
@@ -139,19 +176,27 @@ msgstr "Accès au panneau d'administration"
 msgid ""
 "Only the staff users (including the superusers) can access the admin "
 "interface."
-msgstr "Seuls les utilisateurs de personnel (y compris les super-utilisateurs) peuvent accéder à l'interface d'administration."
+msgstr ""
+"Seuls les utilisateurs de personnel (y compris les super-utilisateurs) "
+"peuvent accéder à l'interface d'administration."
 
 #: ..\..\004_admin_workshop\001_admin_panel\index.rst:19
 msgid ""
-"User's staff membership can be set by the admin panel itself, see how in the"
-" :ref:`admin_panel.users-groups` section."
+"User's staff membership can be set by the admin panel itself, see how in "
+"the :ref:`admin_panel.users-groups` section."
 msgstr ""
+"Staff Membership de l'utilisateur peut être réglé par le panneau "
+"d'administration. Voir comment le faire dans la section :ref:`admin_panel."
+"users-groups`"
 
 #: ..\..\004_admin_workshop\001_admin_panel\index.rst:21
 msgid ""
-"The link to access the admin interface can be found by clicking in the upper"
-" right corner on the user name, see figure"
-msgstr "Le lien pour accéder à l'interface d'administration peut être trouvé en cliquant dans le coin supérieur droit sur le nom d'utilisateur, voir la figure"
+"The link to access the admin interface can be found by clicking in the upper "
+"right corner on the user name, see figure"
+msgstr ""
+"Le lien pour accéder à l'interface d'administration peut être trouvé en "
+"cliquant dans le coin supérieur droit sur le nom d'utilisateur, voir la "
+"figure"
 
 #: ..\..\004_admin_workshop\001_admin_panel\layers.rst:5
 msgid "Manage layers using the admin panel"
@@ -162,7 +207,10 @@ msgid ""
 "Some of the layers information can be edited directly through the admin "
 "interface although the best place is in the layer -> metadata page in "
 "GeoNode."
-msgstr "Certaines des informations des couches peuvent être édités directement par l'interface d'administration, bien que le meilleur endroit est dans la page couche -> métadonnées, dans GeoNode."
+msgstr ""
+"Certaines des informations des couches peuvent être édités directement par "
+"l'interface d'administration, bien que le meilleur endroit est dans la page "
+"couche -> métadonnées, dans GeoNode."
 
 #: ..\..\004_admin_workshop\001_admin_panel\layers.rst:11
 msgid "Is not recommended to modify the Attributes neither the Styles."
@@ -174,7 +222,12 @@ msgid ""
 "of them is possible to modify some information like the metadata, the "
 "keywords etc. It's strongly recommended to limit the edits to the metadata "
 "and similar information."
-msgstr "En cliquant sur le lien Couches présentera une liste de couches. En sélectionnant l'un d'entre eux c'est possible de modifier quelques informations comme les métadonnées, les mots-clés, etc. Il est fortement recommandé de limiter les modifications apportées aux métadonnées et des informations similaires."
+msgstr ""
+"En cliquant sur le lien Couches présentera une liste de couches. En "
+"sélectionnant l'un d'entre eux c'est possible de modifier quelques "
+"informations comme les métadonnées, les mots-clés, etc. Il est fortement "
+"recommandé de limiter les modifications apportées aux métadonnées et des "
+"informations similaires."
 
 #: ..\..\004_admin_workshop\001_admin_panel\maps.rst:5
 msgid "Manage the maps using the admin panel"
@@ -182,10 +235,13 @@ msgstr "Gérer les cartes en utilisant le panneau d'administrateur"
 
 #: ..\..\004_admin_workshop\001_admin_panel\maps.rst:7
 msgid ""
-"Currently the maps admin panel allows more metadata options that the GeoNode"
-" maps metadata page. Thus is a good place where to add some more detailed "
+"Currently the maps admin panel allows more metadata options that the GeoNode "
+"maps metadata page. Thus is a good place where to add some more detailed "
 "information."
-msgstr "Actuellement le panneau d'administration de cartes permet plus d'options de métadonnées que le GeoNode Cartes page de métadonnées. Ainsi est un bon endroit où ajouter des informations plus détaillées."
+msgstr ""
+"Actuellement le panneau d'administration de cartes permet plus d'options de "
+"métadonnées que le GeoNode Cartes page de métadonnées. Ainsi est un bon "
+"endroit où ajouter des informations plus détaillées."
 
 #: ..\..\004_admin_workshop\001_admin_panel\maps.rst:11
 msgid "The \"Map Layers\" section should not be used."
@@ -197,7 +253,12 @@ msgid ""
 "presented. Is possible to add or modify the information here. As for the "
 "layers, the more specific entries like the layers stack or the map "
 "coordinates should not be modified."
-msgstr "En cliquant sur une carte dans les cartes liste le formulaire Web de métadonnées sera présenté. Il est possible d'ajouter ou de modifier les informations ici. Comme pour les couches, les entrées plus spécifiques comme les couches empiler ou les coordonnées de carte ne doivent pas être modifiées."
+msgstr ""
+"En cliquant sur une carte dans les cartes liste le formulaire Web de "
+"métadonnées sera présenté. Il est possible d'ajouter ou de modifier les "
+"informations ici. Comme pour les couches, les entrées plus spécifiques comme "
+"les couches empiler ou les coordonnées de carte ne doivent pas être "
+"modifiées."
 
 #: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:5
 msgid "Manage profiles using the admin panel"
@@ -207,7 +268,9 @@ msgstr "Gérer les profils en utilisant le panneau d'administration"
 msgid ""
 "So far GeoNode implements two distinct roles, that can be assigned to "
 "resources such as layers, maps or documents:"
-msgstr "Jusqu'ici GeoNode implémente deux rôles distincts, qui peuvent être attribuées à des ressources telles que couches,  cartes ou documents:"
+msgstr ""
+"Jusqu'ici GeoNode implémente deux rôles distincts, qui peuvent être "
+"attribuées à des ressources telles que couches,  cartes ou documents:"
 
 #: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:9
 msgid "party who authored the resource"
@@ -217,7 +280,9 @@ msgstr "partie qui est l'auteur de la ressource"
 msgid ""
 "party who can be contacted for acquiring knowledge about or acquisition of "
 "the resource"
-msgstr "partie qui peut être contacté pour obtenir des informations ou de l'acquisition de la ressource"
+msgstr ""
+"partie qui peut être contacté pour obtenir des informations ou de "
+"l'acquisition de la ressource"
 
 #: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:12
 msgid ""
@@ -225,25 +290,34 @@ msgid ""
 "metadata page and setting the \"Point of Contact\" and \"Metadata Author\" "
 "fields respectively."
 msgstr ""
+"Ces deux profils peuvent être placés dans l'interface de GeoNode en accédant "
+"à la page de métadonnées et le réglage des champs \"Point of Contact\" and "
+"\"Metadata Author\" , respectivement."
 
 #: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:14
 msgid ""
 "Is possible for an administrator to add new roles if needed, by clicking on "
-"the \"Add Role\" button in the \"People\" -> \"Roles\" section:"
+"the \"Add Role\" button in the \"Base\" -> \"Contact Roles\" section:"
 msgstr ""
+"Est possible pour un administrateur d'ajouter de nouveaux rôles si "
+"nécessaire, en cliquant sur le bouton « Ajouter un rôle » dans la « Base »-> "
+"section « Rôles de Contact » :"
 
 #: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:18
 msgid ""
-"Clicking on the \"People\" -> \"Profiles\" section (see figure) will open a "
-"web for with some personal information plus a section called \"Contact "
-"roles\"."
+"Clicking on the \"People\" section (see figure) will open a web for with "
+"some personal information plus a section called \"Users\"."
 msgstr ""
+"En cliquant sur le « peuple » section (voir figure) ouvrira un site web avec "
+"ses informations personnelles, plus une section appelée « Utilisateurs »."
 
 #: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:22
 msgid ""
 "Is important that this last section is not modified here unless the "
 "administrator is very confident in that operation."
-msgstr "Il est important que cette dernière section n'est pas modifiée ici, sauf si l'administrateur est très confiant dans cette opération."
+msgstr ""
+"Il est important que cette dernière section n'est pas modifiée ici, sauf si "
+"l'administrateur est très confiant dans cette opération."
 
 #: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:5
 msgid "Manage users and groups through the admin panel"
@@ -251,9 +325,11 @@ msgstr "Gérer les utilisateurs et les groupes avec le panneau d'administration"
 
 #: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:7
 msgid ""
-"The admin section called Auth has the two links to access the Users and "
-"Groups sections, see figure"
-msgstr "La section admin appelé Auth a les deux liens pour accéder aux Users et Groups sections, voir la figure"
+"The admin section called Auth has the link to access the Groups while the "
+"section called People has the link to access the Users, see figure"
+msgstr ""
+"La section admin appelée Auth a le lien pour accéder les groupes tandis que "
+"la section intitulée les gens a le lien d'accès des utilisateurs, voir figure"
 
 #: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:14
 msgid "Users"
@@ -268,25 +344,36 @@ msgid ""
 "By clicking on the \"add\" link on the right of the Users link is possible "
 "to add a new users to the GeoNode site. A simple form asking for username "
 "and password will be presented, see figure"
-msgstr "En cliquant sur le lien \"ajouter\" sur la droite de la liaison des utilisateurs est possible d'ajouter un nouveaux utilisateurs sur le site de GeoNode. Une forme simple demandant nom d'utilisateur et mot de passe sera présenté, voir figure"
+msgstr ""
+"En cliquant sur le lien \"ajouter\" sur la droite de la liaison des "
+"utilisateurs est possible d'ajouter un nouveaux utilisateurs sur le site de "
+"GeoNode. Une forme simple demandant nom d'utilisateur et mot de passe sera "
+"présenté, voir figure"
 
 #: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:25
 msgid ""
-"Upon clicking \"save\" a new form will be presented asking for some personal"
-" information and the rights the user should have."
-msgstr "En cliquant sur \"save\" une nouvelle forme sera présentée demandant des informations personnelles et les droits que l'utilisateur devrait avoir."
+"Upon clicking \"save\" a new form will be presented asking for some personal "
+"information and the rights the user should have."
+msgstr ""
+"En cliquant sur \"save\" une nouvelle forme sera présentée demandant des "
+"informations personnelles et les droits que l'utilisateur devrait avoir."
 
 #: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:27
 msgid ""
 "For a normal, not privileged user is enough to just fill the personal "
 "information and then confirm with \"save\"."
-msgstr "Pour un normal, pas privilégié utilisateur, il suffit de remplir simplement les informations personnelles et puis validez par «save»."
+msgstr ""
+"Pour un normal, pas privilégié utilisateur, il suffit de remplir simplement "
+"les informations personnelles et puis validez par «save»."
 
 #: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:29
 msgid ""
-"If the user has to access the admin panel or be a superuser it's enough just"
-" to tick the \"staff\" and \"superuser\" checkboxes."
+"If the user has to access the admin panel or be a superuser it's enough just "
+"to tick the \"staff\" and \"superuser\" checkboxes."
 msgstr ""
+"Si l'utilisateur dispose pour accéder au panneau d'administration ou d'être "
+"un super-utilisateur il est assez juste de cocher les cases \"staff\" et "
+"\"superuser\"."
 
 #: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:34
 msgid "Changing a user"
@@ -296,7 +383,9 @@ msgstr "Modification d'un utilisateur"
 msgid ""
 "To modify an existing user click on \"Users\" then on a username in the "
 "list. The same form will be presented."
-msgstr "Pour modifier un utilisateur existant, cliquez sur \"Utilisateurs\" puis sur un nom d'utilisateur dans la liste. Le même formulaire sera présenté."
+msgstr ""
+"Pour modifier un utilisateur existant, cliquez sur \"Utilisateurs\" puis sur "
+"un nom d'utilisateur dans la liste. Le même formulaire sera présenté."
 
 #: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:41
 msgid "Groups"
@@ -304,16 +393,21 @@ msgstr "Groupes"
 
 #: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:43
 msgid ""
-"Although the \"Groups\" permissions system is not implemented yet in GeoNode"
-" is possible to create new groups with set of permissions which will be "
+"Although the \"Groups\" permissions system is not implemented yet in GeoNode "
+"is possible to create new groups with set of permissions which will be "
 "inherited by all the group members."
-msgstr "Bien que le système des \"groupes\" d'autorisations n'est pas encore implémentée dans GeoNode, il est possible de créer de nouveaux groupes avec ensemble d'autorisations qui seront héritées par tous les membres du groupe."
+msgstr ""
+"Bien que le système des \"groupes\" d'autorisations n'est pas encore "
+"implémentée dans GeoNode, il est possible de créer de nouveaux groupes avec "
+"ensemble d'autorisations qui seront héritées par tous les membres du groupe."
 
 #: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:45
 msgid ""
 "The creation and management of a Group is done in a very similar way that "
 "the user one."
-msgstr "La création et la gestion d'un groupe se fait d'une manière très similaire a celle de l'utilisateur"
+msgstr ""
+"La création et la gestion d'un groupe se fait d'une manière très similaire a "
+"celle de l'utilisateur"
 
 #: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:5
 msgid "Management Commands for GeoNode"
@@ -322,13 +416,17 @@ msgstr "Commandes de Gestion pour GeoNode"
 #: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:7
 msgid ""
 "GeoNode comes with administrative commands to help with day to day tasks."
-msgstr "GeoNode a été  developpèe avec des commands administratives pour aider les utilisateurs avec leurs devoir"
+msgstr ""
+"GeoNode a été  developpèe avec des commands administratives pour aider les "
+"utilisateurs avec leurs devoir"
 
 #: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:9
 msgid ""
 "Below is the list of the ones that come from the GeoNode application, the "
 "full list can be obtained by doing::"
-msgstr "Voici la liste de ceux qui viennent de l'application de GeoNode, la liste complète peut être obtenue en faisant ::"
+msgstr ""
+"Voici la liste de ceux qui viennent de l'application de GeoNode, la liste "
+"complète peut être obtenue en faisant ::"
 
 #: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:15
 msgid "importlayers"
@@ -336,13 +434,17 @@ msgstr "importlayers"
 
 #: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:17
 msgid "Imports a file or folder with geospatial files to GeoNode."
-msgstr "Importe un fichier ou un dossier avec fichiers de données géospatiales à GeoNode."
+msgstr ""
+"Importe un fichier ou un dossier avec fichiers de données géospatiales à "
+"GeoNode."
 
 #: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:19
 msgid ""
 "It supports data in Shapefile and GeoTiff format. It also picks up the "
 "styles if a ``.sld`` file is present."
-msgstr "Il prend en charge les données en format Shapefile et GeoTiff. Il reprend aussi les styles si un fichier `.sld`` est présent."
+msgstr ""
+"Il prend en charge les données en format Shapefile et GeoTiff. Il reprend "
+"aussi les styles si un fichier `.sld`` est présent."
 
 #: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:21
 #: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:78
@@ -371,22 +473,31 @@ msgid ""
 "updatelayers command provides several options that can be used to control "
 "how layer information is read from GeoServer and updated in GeoNode.  Refer "
 "to 'Additional Options'."
-msgstr "Ceci est utile pour ajouter des données dans des formats qui ne sont pas pris en charge dans GeoNode par défaut, et par exemple pour le relier à des banques de données ArcSDE. La commande updatelayers fournit plusieurs options qui peuvent être utilisés pour contrôler la façon dont l'information de couche est lu à partir de GeoServer et mis à jour en GeoNode. Reportez-vous à 'Options additionelles'."
+msgstr ""
+"Ceci est utile pour ajouter des données dans des formats qui ne sont pas "
+"pris en charge dans GeoNode par défaut, et par exemple pour le relier à des "
+"banques de données ArcSDE. La commande updatelayers fournit plusieurs "
+"options qui peuvent être utilisés pour contrôler la façon dont l'information "
+"de couche est lu à partir de GeoServer et mis à jour en GeoNode. Reportez-"
+"vous à 'Options additionelles'."
 
 #: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:122
 msgid "fixsitename"
 msgstr "fixsitename"
 
 #: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:124
-msgid ""
-"Uses SITENAME and SITEURL to set the values of the default site object."
-msgstr "Utilise SITENAME et SITEURL pour régler les valeurs de l'objet par défaut du site."
+msgid "Uses SITENAME and SITEURL to set the values of the default site object."
+msgstr ""
+"Utilise SITENAME et SITEURL pour régler les valeurs de l'objet par défaut du "
+"site."
 
 #: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:126
 msgid ""
 "This information is used in the page titles and when sending emails from "
 "GeoNode, for example, new registrations."
-msgstr "Cette information est utilisée dans les titres de page et en envoyant des courriels de GeoNode, par exemple, les nouvelles inscriptions."
+msgstr ""
+"Cette information est utilisée dans les titres de page et en envoyant des "
+"courriels de GeoNode, par exemple, les nouvelles inscriptions."
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:5
 msgid "Configuring Alternate CSW Backends"
@@ -396,18 +507,21 @@ msgstr "Configuration des Backends CSW alternatives"
 #: ..\..\004_admin_workshop\index.rst:45
 msgid ""
 "`pycsw <http://pycsw.org/>`_ is the default CSW server implementation "
-"provided with GeoNode. This section will explain how to configure GeoNode to"
-" operate against alternate CSW server implementations."
+"provided with GeoNode. This section will explain how to configure GeoNode to "
+"operate against alternate CSW server implementations."
 msgstr ""
+"`pycsw <http://pycsw.org/>`_ est l'implémentation par défaut du serveur CSW "
+"fourni avec GeoNode. Cette section explique comment configurer GeoNode pour "
+"opérer contre  implémentations alternatives de serveur CSW."
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:10
 msgid "Supported CSW server implementations"
 msgstr "Implémentations de serveur CSW pris en charge"
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:12
-msgid ""
-"GeoNode additionally supports the following CSW server implementations:"
-msgstr "GeoNode supporte en outre les implémentations de serveur CSW suivantes:"
+msgid "GeoNode additionally supports the following CSW server implementations:"
+msgstr ""
+"GeoNode supporte en outre les implémentations de serveur CSW suivantes:"
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:14
 msgid "`GeoNetwork opensource <http://geonetwork-opensource.org/>`_"
@@ -421,7 +535,10 @@ msgstr "`deegree <http://deegree.org/>`_"
 msgid ""
 "Since GeoNode communicates with alternate CSW configurations via HTTP, the "
 "CSW server can be installed and deployed independent of GeoNode if desired."
-msgstr "Depuis GeoNode communique avec des configurations de CSW alternatifs via HTTP, le serveur CSW peut être installé et déployé indépendant de GeoNode si désiré."
+msgstr ""
+"Depuis GeoNode communique avec des configurations de CSW alternatifs via "
+"HTTP, le serveur CSW peut être installé et déployé indépendant de GeoNode si "
+"désiré."
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:20
 msgid "Installing the CSW"
@@ -433,28 +550,36 @@ msgstr " Installation de GeoNetwork opensource"
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:25
 msgid ""
-"Deploy GeoNetwork opensource by downloading geonetwork.war (see http"
-"://geonetwork-opensource.org/downloads.html) and deploying into your servlet"
-" container"
-msgstr "Déployer GeoNetwork en téléchargeant geonetwork.war (voir http://geonetwork-opensource.org/downloads.html) et en le déployant dans votre conteneur de servlets"
+"Deploy GeoNetwork opensource by downloading geonetwork.war (see http://"
+"geonetwork-opensource.org/downloads.html) and deploying into your servlet "
+"container"
+msgstr ""
+"Déployer GeoNetwork en téléchargeant geonetwork.war (voir http://geonetwork-"
+"opensource.org/downloads.html) et en le déployant dans votre conteneur de "
+"servlets"
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:26
 msgid ""
-"Follow the instructions at http://geonetwork-"
-"opensource.org/manuals/2.6.4/eng/users/quickstartguide/installing/index.html"
-" to complete the installation"
-msgstr "Suivez les instructions à http://geonetwork-opensource.org/manuals/2.6.4/eng/users/quickstartguide/installing/index.html pour terminer l'installation"
+"Follow the instructions at http://geonetwork-opensource.org/manuals/2.6.4/"
+"eng/users/quickstartguide/installing/index.html to complete the installation"
+msgstr ""
+"Suivez les instructions à http://geonetwork-opensource.org/manuals/2.6.4/eng/"
+"users/quickstartguide/installing/index.html pour terminer l'installation"
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:27
 msgid ""
-"test the server with a GetCapabilities request "
-"(http://localhost:8080/geonetwork/srv/en/csw?service=CSW&version=2.0.2&request=GetCapabilities)"
-msgstr "tester le serveur avec une demande GetCapabilities (http://localhost: 8080/geonetwork/srv/fr/csw?service=CSW&version=2.0.2&request=GetCapabilities)"
+"test the server with a GetCapabilities request (http://localhost:8080/"
+"geonetwork/srv/en/csw?service=CSW&version=2.0.2&request=GetCapabilities)"
+msgstr ""
+"tester le serveur avec une demande GetCapabilities (http://localhost: 8080/"
+"geonetwork/srv/fr/csw?service=CSW&version=2.0.2&request=GetCapabilities)"
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:29
 msgid ""
 "See http://geonetwork-opensource.org/docs.html for further documentation."
-msgstr "Voir http://geonetwork-opensource.org/docs.html pour informations supplémentaires."
+msgstr ""
+"Voir http://geonetwork-opensource.org/docs.html pour informations "
+"supplémentaires."
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:32
 msgid "deegree Installation"
@@ -462,10 +587,13 @@ msgstr "Installation de deegree"
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:34
 msgid ""
-"Deploy deegree by downloading the deegree3 cswDemo .war (see "
-"http://wiki.deegree.org/deegreeWiki/DownloadPage) and deploying into your "
-"servlet container"
-msgstr "Déployez deegree en téléchargeant le deegree3 cswDemo.war (voir http://wiki.deegree.org/deegreeWiki/DownloadPage) et en le déployant dans votre conteneur de servlets"
+"Deploy deegree by downloading the deegree3 cswDemo .war (see http://wiki."
+"deegree.org/deegreeWiki/DownloadPage) and deploying into your servlet "
+"container"
+msgstr ""
+"Déployez deegree en téléchargeant le deegree3 cswDemo.war (voir http://wiki."
+"deegree.org/deegreeWiki/DownloadPage) et en le déployant dans votre "
+"conteneur de servlets"
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:35
 msgid "Create a PostGIS-enabled PostgreSQL database"
@@ -473,23 +601,29 @@ msgstr "Créer une base de données PostgreSQL with PostGIS"
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:36
 msgid ""
-"Follow the instructions at "
-"http://wiki.deegree.org/deegreeWiki/deegree3/CatalogueService#Run_your_own_installation"
-" to complete the installation"
-msgstr "Suivez les instructions à http://wiki.deegree.org/deegreeWiki/deegree3/CatalogueService#Run_your_own_installation pour terminer l'installation"
+"Follow the instructions at http://wiki.deegree.org/deegreeWiki/deegree3/"
+"CatalogueService#Run_your_own_installation to complete the installation"
+msgstr ""
+"Suivez les instructions à http://wiki.deegree.org/deegreeWiki/deegree3/"
+"CatalogueService#Run_your_own_installation pour terminer l'installation"
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:37
 msgid ""
-"test the server with a GetCapabilities request (http://localhost:8080"
-"/deegree-csw-"
-"demo-3.0.4/services?service=CSW&version=2.0.2&request=GetCapabilities)"
-msgstr "testez le serveur avec une demande GetCapabilities(http://localhost:8080/deegree-csw-demo-3.0.4/services?service=CSW&version=2.0.2&request=GetCapabilities)"
+"test the server with a GetCapabilities request (http://localhost:8080/"
+"deegree-csw-demo-3.0.4/services?"
+"service=CSW&version=2.0.2&request=GetCapabilities)"
+msgstr ""
+"testez le serveur avec une demande GetCapabilities(http://localhost:8080/"
+"deegree-csw-demo-3.0.4/services?"
+"service=CSW&version=2.0.2&request=GetCapabilities)"
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:39
 msgid ""
 "See http://wiki.deegree.org/deegreeWiki/deegree3/CatalogueService for "
 "further documentation."
-msgstr "Voir http://wiki.deegree.org/deegreeWiki/deegree3/CatalogueService pour informations supplémentaires."
+msgstr ""
+"Voir http://wiki.deegree.org/deegreeWiki/deegree3/CatalogueService pour "
+"informations supplémentaires."
 
 #: ..\..\004_admin_workshop\003_csw_settings\index.rst:42
 msgid "Customizing GeoNode CSW configuration"
@@ -502,393 +636,463 @@ msgid ""
 "point to the correct CSW.  The example below exemplifies GeoNetwork as an "
 "alternate CSW backend:"
 msgstr ""
+"À ce stade, le backend alternatif CSW est prêt pour l'intégration de "
+"GeoNode. La configuration du CSW de GeoNode (sur ``geonode/settings.py``) "
+"doit être mis à jour pour pointer vers le bon CSW. L'exemple ci-dessous "
+"illustre GeoNetwork comme un alternatif CSW backend:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:5
-msgid "Customize the look and feel"
-msgstr "Personnalisation du look and feel"
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:4
+msgid "Setup steps"
+msgstr "Étapes de configuration"
 
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:6
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:286
 #: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:7
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:6
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:286
 msgid ""
 "These instructions are only valid if you've installed GeoNode following the "
 "guide at :ref:`setup_configure_httpd` !!"
 msgstr ""
+"Ces instructions ne sont valables que si vous avez installé GeoNode en "
+"utilisant le guide à l'adresse :ref:`setup_configure_httpd` !!"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:9
-#: ..\..\004_admin_workshop\index.rst:48
-msgid ""
-"You might want to change the look of GeoNode, editing the colors and the "
-"logo of the website and adjust the templates for your needs. To do so, you "
-"first have to set up your own geonode project from a template. If you've "
-"successfully done this, you can go further and start theming your geonode "
-"project."
-msgstr "Vous voudrez peut-être changer le look de GeoNode, modifier les couleurs et le logo du site et d'ajuster les modèles pour vos besoins. Pour faire ça, vous devez d'abord mettre en place votre propre projet de geonode à partir d'un modèle. Si vous avez réussi à faire cela, vous pouvez aller plus loin et commencer votre projet de thématisation geonode."
-
-#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:18
-msgid ":ref:`customize.setup_admin`"
-msgstr ":ref:`customize.setup_admin`"
-
-#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:18
-msgid "Setup your own geonode project"
-msgstr "Configuration de votre propre projet de geonode"
-
-#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:21
-msgid ":ref:`customize.theme_admin`"
-msgstr ":ref:`customize.theme_admin`"
-
-#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:21
-msgid "Theme your geonode project"
-msgstr "Thématisation de votre projet de geonode"
-
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:4
-msgid "Setup steps"
-msgstr "Étapes de configuration"
-
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:8
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:8
 msgid ""
 "If you are working remotely, you should first connect to the machine that "
 "has your GeoNode installation. You will need to perform the following steps "
 "in a directory where you intend to keep your newly created project."
 msgstr ""
+"Si vous travaillez à distance, vous devez d'abord vous connecter à la "
+"machine qui a l'installation de votre GeoNode. Vous devrez effectuer les "
+"étapes suivantes dans un répertoire où vous avez l'intention de garder votre "
+"projet nouvellement créé."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:16
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:16
 msgid ""
 "You should NOT use the name *geonode* for your project as it will conflict "
 "with your default geonode package name."
-msgstr "Vous ne devriez pas utiliser le nom *geonode* pour votre projet car il sera en conflit avec le nom de votre défaut paquet geonode."
+msgstr ""
+"Vous ne devriez pas utiliser le nom *geonode* pour votre projet car il sera "
+"en conflit avec le nom de votre défaut paquet geonode."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:18
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:18
 msgid ""
 "These commands create a new template based on the geonode example project."
-msgstr "Ces commandes créent un nouveau modèle basé sur l'exemple de projet de geonode."
-
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:20
-msgid ""
-"Make sure that the directories are reachable and have the correct rights for"
-" the users **geonode** and **www-data**:"
-msgstr "Assurez-vous que les répertoires sont accessibles et ont les droits appropriés pour les utilisateurs **geonode** et **www-data**:"
-
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:28
-msgid ""
-"If you have a brand new installation of GeoNode, rename the "
-"**/home/geonode/geonode/local_settings.py.sample** to **local_settings.py** "
-"and edit it's content by setting the SITEURL and SITENAME. This file will be"
-" your main settings file for your project. It inherits all the settings from"
-" the original one plus you can override the ones that you need."
 msgstr ""
+"Ces commandes créent un nouveau modèle basé sur l'exemple de projet de "
+"geonode."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:30
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:20
 msgid ""
-"You can also decide to copy the "
-"**/home/geonode/geonode/local_settings.py.sample** to "
-"**/path/to/my_geonode/my_geonode/local_settings.py** in order to keep all "
-"the custom settings confined into the new project."
-msgstr "Vous pouvez également décider de copier le **/home/geonode/geonode/local_settings.py.sample** à **/path/to/my_geonode/my_geonode/local_settings.py** afin de garder tous les paramètres personnalisés confinés dans le nouveau projet."
+"Make sure that the directories are reachable and have the correct rights for "
+"the users **geonode** and **www-data**:"
+msgstr ""
+"Assurez-vous que les répertoires sont accessibles et ont les droits "
+"appropriés pour les utilisateurs **geonode** et **www-data**:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:32
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:28
+msgid ""
+"If you have a brand new installation of GeoNode, rename the **/home/geonode/"
+"geonode/local_settings.py.sample** to **local_settings.py** and edit it's "
+"content by setting the SITEURL and SITENAME. This file will be your main "
+"settings file for your project. It inherits all the settings from the "
+"original one plus you can override the ones that you need."
+msgstr ""
+"Si vous avez une marque nouvelle installation de GeoNode, renommez le **/"
+"home/geonode/geonode/local_settings.py.sample** en **local_settings.py** et "
+"modifier son contenu en réglant SITEURL et SITENAME. Ce fichier sera votre "
+"fichier principaux des paramètres de votre projet. Il hérite de tous les "
+"paramètres de l'original, plus vous pouvez outrepasser ceux que vous avez "
+"besoin."
+
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:30
+msgid ""
+"You can also decide to copy the **/home/geonode/geonode/local_settings.py."
+"sample** to **/path/to/my_geonode/my_geonode/local_settings.py** in order to "
+"keep all the custom settings confined into the new project."
+msgstr ""
+"Vous pouvez également décider de copier le **/home/geonode/geonode/"
+"local_settings.py.sample** à **/path/to/my_geonode/my_geonode/local_settings."
+"py** afin de garder tous les paramètres personnalisés confinés dans le "
+"nouveau projet."
+
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:32
 msgid ""
 "In order for the edits to the local_settings.py file to take effect, you "
 "have to restart apache."
-msgstr "Pour que les modifications apportées au fichier de local_settings.py pour prendre effet, vous devez redémarrer apache."
+msgstr ""
+"Pour que les modifications apportées au fichier de local_settings.py pour "
+"prendre effet, vous devez redémarrer apache."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:34
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:34
 msgid ""
 "Edit the file **/etc/apache2/sites-available/geonode.conf** and change the "
 "following directive from::"
-msgstr "Editez le fichier **/etc/apache2/sites-available/geonode.conf** et modifiez la directive suivante à partir de::"
+msgstr ""
+"Editez le fichier **/etc/apache2/sites-available/geonode.conf** et modifiez "
+"la directive suivante à partir de::"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:38
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:38
 msgid "to::"
 msgstr "à::"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:42
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:42
 msgid ""
 "Edit the file **/path/to/my_geonode/my_geonode/wsgi.py** and add the "
 "following lines at the beginning:"
-msgstr "Editez le fichier **/path/to/my_geonode/my_geonode/wsgi.py** et ajouter les lignes suivantes au début:"
+msgstr ""
+"Editez le fichier **/path/to/my_geonode/my_geonode/wsgi.py** et ajouter les "
+"lignes suivantes au début:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:49
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:49
 msgid ""
 "Edit the file /etc/apache2/sites-available/geonode.conf and modify the "
 "**DocumentRoot** as follows:"
-msgstr "Editez le fichier /etc/apache2/sites-available/geonode.conf et modifiez le **DocumentRoot** comme ça:"
+msgstr ""
+"Editez le fichier /etc/apache2/sites-available/geonode.conf et modifiez le "
+"**DocumentRoot** comme ça:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:51
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:51
 msgid ""
 "It's a good practice to make copies and backups of the configuration files "
 "before modifying or updating them in order to revert the configuration at "
 "the previous state if something goes wrong."
-msgstr "Il est une bonne pratique de faire des copies et sauvegardes des fichiers de configuration avant de modifier ou de les mettre à jour afin de revenir à la configuration précédente de l'état si quelque chose se passe mal."
+msgstr ""
+"Il est une bonne pratique de faire des copies et sauvegardes des fichiers de "
+"configuration avant de modifier ou de les mettre à jour afin de revenir à la "
+"configuration précédente de l'état si quelque chose se passe mal."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:84
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:84
 msgid ""
-"Then regenerate the static **JavaScript** and **CSS** files from "
-"**/path/to/my_geonode/** and restart apache"
-msgstr "Puis régénérez le **JavaScript** et **CSS** statique  fichiers de **/path/to/my_geonode/** et redémarrez Apache"
+"Then regenerate the static **JavaScript** and **CSS** files from **/path/to/"
+"my_geonode/** and restart apache"
+msgstr ""
+"Puis régénérez le **JavaScript** et **CSS** statique  fichiers de **/path/to/"
+"my_geonode/** et redémarrez Apache"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:93
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:93
 msgid "Customize the Look & Feel"
 msgstr "Personnaliser le Look & Feel"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:95
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:95
 msgid ""
 "Now you can edit the templates in **my_geonode/templates**, the css and "
 "images to match your needs like shown in :ref:`customize.theme_admin`!"
-msgstr "Maintenant, vous pouvez modifier les modèles en **my_geonode/templates**, le css et images pour correspondre à vos besoins comme indiqué dans :ref:`customize.theme_admin`!"
+msgstr ""
+"Maintenant, vous pouvez modifier les modèles en **my_geonode/templates**, le "
+"css et images pour correspondre à vos besoins comme indiqué dans :ref:"
+"`customize.theme_admin`!"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:97
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:97
 msgid ""
 "After going through the theming guide you'll have to return to this site to "
 "execute one more command in order to finish the theming!"
-msgstr "Après être passé par le guide de thèmes, vous aurez à revenir à ce site pour exécuter une autre commande pour terminer la thématisation!"
+msgstr ""
+"Après être passé par le guide de thèmes, vous aurez à revenir à ce site pour "
+"exécuter une autre commande pour terminer la thématisation!"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:99
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:99
 msgid ""
 "When you've done the changes, run the following command in the *my_geonode* "
 "folder:"
-msgstr "Lorsque vous avez terminé les modifications, exécutez la commande suivante dans le dossier *my_geonode* :"
-
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:106
-msgid "And now you should see all the changes you've made to your GeoNode."
-msgstr "Et maintenant, vous devriez voir toutes les modifications que vous avez apportées à votre GeoNode."
-
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:109
-msgid "Source code revision control"
 msgstr ""
+"Lorsque vous avez terminé les modifications, exécutez la commande suivante "
+"dans le dossier *my_geonode* :"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:111
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:106
+msgid "And now you should see all the changes you've made to your GeoNode."
+msgstr ""
+"Et maintenant, vous devriez voir toutes les modifications que vous avez "
+"apportées à votre GeoNode."
+
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:109
+msgid "Source code revision control"
+msgstr "Control de révision de source code"
+
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:111
 msgid ""
 "It is recommended that you immediately put your new project under source "
 "code revision control. The GeoNode development team uses Git and GitHub and "
 "recommends that you do the same. If you do not already have a GitHub "
 "account, you can easily set one up. A full review of Git and distributed "
 "source code revision control systems is beyond the scope of this tutorial, "
-"but you may find the `Git Book`_ useful if you are not already familiar with"
-" these concepts."
+"but you may find the `Git Book`_ useful if you are not already familiar with "
+"these concepts."
 msgstr ""
+"Il est recommandé que vous mettez immédiatement votre nouveau projet sous "
+"contrôle de révision de code source. L'équipe de développement de GeoNode "
+"utilise Git et GitHub et recommande que vous faites la même chose. Si vous "
+"ne possédez pas déjà un compte GitHub, vous pouvez facilement créer un. Un "
+"examen complet de Git et les systèmes de contrôle de révision de code source "
+"distribué est au-delà du cadre de ce tutoriel, mais vous pouvez trouver les "
+"`Git Book`_ utile si vous n'êtes pas déjà familier avec ces concepts."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:115
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:115
 msgid ""
 "Create a new repository in GitHub. You should use the GitHub user interface "
 "to create a new repository for your new project."
-msgstr "Créer un nouveau dépôt de GitHub. Vous devez utiliser l'interface utilisateur GitHub pour créer un nouveau dépôt pour votre nouveau projet."
-
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:119
-msgid "*Creating a new GitHub Repository From GitHub's Homepage*"
 msgstr ""
+"Créer un nouveau dépôt de GitHub. Vous devez utiliser l'interface "
+"utilisateur GitHub pour créer un nouveau dépôt pour votre nouveau projet."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:123
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:119
+msgid "*Creating a new GitHub Repository From GitHub's Homepage*"
+msgstr "*Création d'un nouveau Dépôt GitHub à la page d'accueil de GitHub*"
+
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:123
 msgid "*Specifying new GitHub Repository Parameters*"
 msgstr "*Spécification de nouveau GitHub dépôt Paramètres* "
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:127
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:127
 msgid "*Your new Empty GitHub Repository*"
 msgstr "*Votre nouveau dépôt GitHub vide*"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:129
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:129
 msgid "Initialize your own repository in the my_geonode folder:"
 msgstr "Initialisez votre propre dépôt dans le dossier de my_geonode:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:136
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:136
 msgid "Add the remote repository reference to your local git configuration:"
-msgstr "Ajoutez la référence de dépôt distant à votre configuration git locale:"
+msgstr ""
+"Ajoutez la référence de dépôt distant à votre configuration git locale:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:143
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:143
 msgid "Add your project files to the repository:"
 msgstr "Ajoutez vos fichiers de projet dans le dépôt:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:150
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:150
 msgid "Commit your changes:"
 msgstr "Committez vos modifications:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:157
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:157
 msgid "Push to the remote repository:"
 msgstr "Poussez vers le dépôt distant:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:165
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:165
 msgid "Project structure"
 msgstr "Structure du projet"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:167
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:167
 msgid "Your GeoNode project will now be structured as depicted below::"
 msgstr "Votre projet de GeoNode sera structuré comme décrit ci-dessous::"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:190
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:190
 msgid "You can also view your project on GitHub."
 msgstr "Vous pouvez également visualiser votre projet sur GitHub."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:194
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:194
 msgid "*Viewing your project on GitHub*"
 msgstr "*Visualisation de votre projet sur GitHub*"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:196
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:196
 msgid "Each of the key files in your project are described below."
 msgstr "Chacun des fichiers de clés de votre projet sont décrits ci-dessous."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:199
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:199
 msgid "manage.py"
 msgstr "manage.py"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:201
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:201
 msgid ""
 ":file:`manage.py` is the main entry point for managing your project during "
 "development. It allows running all the management commands from each app in "
-"your project. When run with no arguments, it will list all of the management"
-" commands."
+"your project. When run with no arguments, it will list all of the management "
+"commands."
 msgstr ""
+":file:`manage.py` est le principal point  d'entrée pour la gestion de votre "
+"projet au cours du développement. Il permet de faire tourner toutes les "
+"commandes de gestion de chaque application dans votre projet. Lorsqu'il est "
+"exécuté sans arguments, il liste toutes les commandes de gestion."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:206
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:206
 msgid "settings.py"
 msgstr "settings.py"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:208
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:208
 msgid ""
 ":file:`settings.py` is the primary settings file for your project. It "
-"imports the settings from the system geonode and adds the local paths. It is"
-" quite common to put all sensible defaults here and keep deployment specific"
-" configuration in the :file:`local_settings.py` file. All of the possible "
+"imports the settings from the system geonode and adds the local paths. It is "
+"quite common to put all sensible defaults here and keep deployment specific "
+"configuration in the :file:`local_settings.py` file. All of the possible "
 "settings values and their meanings are detailed in the Django documentation."
 msgstr ""
+":file:`settings.py` est le fichier primair de paramètres pour votre projet. "
+"Il importe les paramètres du système de GeoNode et il ajoute les chemins "
+"locaux. Il est assez fréquent de mettre toutes les valeurs par défaut "
+"raisonnables ici et conserver la configuration spécifique de déploiement "
+"dans le fichier :file:`local_settings.py`. Toutes les valeurs de paramètres "
+"possibles et leurs significations sont détaillées dans la documentation de "
+"Django."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:213
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:213
 msgid ""
 "A common paradigm for handing 'local settings' (and in other areas where "
 "some python module may not be available) is:"
-msgstr "Un paradigme commun pour la manipulation de 'local settings' (et dans d'autres domaines où certains module python peut ne pas être disponible) est:"
+msgstr ""
+"Un paradigme commun pour la manipulation de 'local settings' (et dans "
+"d'autres domaines où certains module python peut ne pas être disponible) est:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:219
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:219
 msgid "try:"
 msgstr "try:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:220
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:220
 msgid "from local_settings import *"
 msgstr "from local_settings import *"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:222
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:222
 msgid "except:"
 msgstr "except:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:222
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:222
 msgid "pass"
 msgstr "pass"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:224
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:224
 msgid ""
 "This is not required and there are many other solutions to handling varying "
 "deployment configuration requirements."
-msgstr "Ceci est pas nécessaire et il ya beaucoup d'autres solutions pour faire face aux exigences différentes de configuration de déploiement."
+msgstr ""
+"Ceci est pas nécessaire et il ya beaucoup d'autres solutions pour faire face "
+"aux exigences différentes de configuration de déploiement."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:228
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:228
 msgid "urls.py"
 msgstr "urls.py"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:230
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:230
 msgid ""
 ":file:`urls.py` is where your application specific URL routes go. "
 "Additionally, any `overrides` can be placed here, too."
-msgstr ":file:`urls.py` est où votre URL routes vont . En outre, `overrides` peut être placé ici, aussi."
+msgstr ""
+":file:`urls.py` est où votre URL routes vont . En outre, `overrides` peut "
+"être placé ici, aussi."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:234
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:234
 msgid "wsgi.py"
 msgstr "wsgi.py"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:236
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:236
 msgid ""
 "This is a generated file to make deploying your project to a WSGI server "
-"easier. Unless there is very specific configuration you need, "
-":file:`wsgi.py` can be left alone."
-msgstr "Ceci est un fichier généré afin de rendre le déploiement de votre projet sur un serveur WSGI plus facile. Sauf configuration très spécifique dont vous avez besoin, :file:`wsgi.py` peut être laissé seul."
+"easier. Unless there is very specific configuration you need, :file:`wsgi."
+"py` can be left alone."
+msgstr ""
+"Ceci est un fichier généré afin de rendre le déploiement de votre projet sur "
+"un serveur WSGI plus facile. Sauf configuration très spécifique dont vous "
+"avez besoin, :file:`wsgi.py` peut être laissé seul."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:241
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:241
 msgid "setup.py"
 msgstr "setup.py"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:243
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:243
 msgid ""
 "There are several packaging options in python but a common approach is to "
-"place your project metadata (version, author, etc.) and dependencies in "
-":file:`setup.py`."
-msgstr "Il ya plusieurs options d'emballage en python, mais une approche commune est de placer vos métadonnées de projet (version, auteur, etc.) et dépendances dans :file:`setup.py`."
+"place your project metadata (version, author, etc.) and dependencies in :"
+"file:`setup.py`."
+msgstr ""
+"Il ya plusieurs options d'emballage en python, mais une approche commune est "
+"de placer vos métadonnées de projet (version, auteur, etc.) et dépendances "
+"dans :file:`setup.py`."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:246
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:246
 msgid ""
 "This is a large topic and not necessary to understand while getting started "
 "with GeoNode development but will be important for larger projects and to "
 "make development easier for other developers."
-msgstr "Ceci est un grand sujet et pas nécessaire de comprendre pendant que vouz commencez avec le développement de GeoNode mais il sera important pour les grands projets et pour faciliter le développement d'autres développeurs."
+msgstr ""
+"Ceci est un grand sujet et pas nécessaire de comprendre pendant que vouz "
+"commencez avec le développement de GeoNode mais il sera important pour les "
+"grands projets et pour faciliter le développement d'autres développeurs."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:250
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:250
 msgid "More: http://docs.python.org/2/distutils/setupscript.html"
 msgstr "Plus: http://docs.python.org/2/distutils/setupscript.html"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:253
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:253
 msgid "static"
 msgstr "static"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:255
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:255
 msgid ""
 "The :file:`static` directory will contain your fixed resources: css, html, "
 "images, etc. Everything in this directory will be copied to the final media "
 "directory (along with the `static` resources from other apps in your "
 "project)."
-msgstr "Le :file:`static` répertoire contiendra vos ressources fixes: css, html, images, etc. Tout dans ce répertoire sera copié dans le répertoire media finale (avec les `static` ressources d'autres applications de votre projet)."
+msgstr ""
+"Le :file:`static` répertoire contiendra vos ressources fixes: css, html, "
+"images, etc. Tout dans ce répertoire sera copié dans le répertoire media "
+"finale (avec les `static` ressources d'autres applications de votre projet)."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:260
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:260
 msgid "templates"
 msgstr "templates"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:262
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:262
 msgid ""
 "All of your projects templates go in the :file:`templates` directory. While "
 "no organization is required for your project specific templates, when "
 "overriding or replacing a template from another app, the path must be the "
 "same as the template to be replaced."
-msgstr "Tous vos projets modèles doivent aller dans le :file:`templates` répertoire. Bien qu'aucune organisation est nécessaire pour vos modèles spécifiques du projet, lors de la substitution ou de remplacement d'un modèle à partir d'une autre application, le chemin doit être le même que le modèle à être remplacé."
+msgstr ""
+"Tous vos projets modèles doivent aller dans le :file:`templates` répertoire. "
+"Bien qu'aucune organisation est nécessaire pour vos modèles spécifiques du "
+"projet, lors de la substitution ou de remplacement d'un modèle à partir "
+"d'une autre application, le chemin doit être le même que le modèle à être "
+"remplacé."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:269
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:269
 msgid "Staying in sync with mainline GeoNode"
 msgstr "Rester en phase avec GeoNode mainline"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:271
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:271
 msgid ""
 "These instructions are only valid if you've installed GeoNode using **apt-"
 "get** !!"
-msgstr "Ces instructions ne sont valables que si vous avez installé GeoNode en utilisant **apt-get** !!"
+msgstr ""
+"Ces instructions ne sont valables que si vous avez installé GeoNode en "
+"utilisant **apt-get** !!"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:273
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:273
 msgid ""
 "One of the primary reasons to set up your own GeoNode project using this "
-"method is so that you can stay in sync with the mainline GeoNode as the core"
-" development team makes new releases. Your own project should not be "
+"method is so that you can stay in sync with the mainline GeoNode as the core "
+"development team makes new releases. Your own project should not be "
 "adversely affected by these changes, but you will receive bug fixes and "
 "other improvements by staying in sync."
-msgstr "Une des principales raisons pour mettre en place votre propre projet de GeoNode en utilisant cette méthode est rester en phase avec la GeoNode mainline pendant que l'équipe de développement de base rend les nouvelles versions. Votre propre projet ne devrait pas être affecté par ces changements, mais vous recevrez des corrections de bogues et d'autres améliorations en restant synchronisé."
+msgstr ""
+"Une des principales raisons pour mettre en place votre propre projet de "
+"GeoNode en utilisant cette méthode est rester en phase avec la GeoNode "
+"mainline pendant que l'équipe de développement de base rend les nouvelles "
+"versions. Votre propre projet ne devrait pas être affecté par ces "
+"changements, mais vous recevrez des corrections de bogues et d'autres "
+"améliorations en restant synchronisé."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:275
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:290
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:275
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:290
 msgid "Upgrade GeoNode::"
 msgstr "Améliorez GeoNode::"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:280
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:295
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:280
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:295
 msgid "Verify that your new project works with the upgraded GeoNode::"
-msgstr "Vérifiez que votre nouveau projet fonctionne avec le GeoNode amélioré::"
+msgstr ""
+"Vérifiez que votre nouveau projet fonctionne avec le GeoNode amélioré::"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:284
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:299
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:284
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:299
 msgid "Navigate to http://localhost:8000."
 msgstr "Accédez à http://localhost:8000."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\setup_admin.rst:288
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:288
 msgid "Upgrading from source code repo:"
 msgstr "Mise à niveau à partir du dépôt de code source:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:4
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:4
 msgid "Theming your GeoNode project"
 msgstr "Thématisation de votre projet de GeoNode"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:6
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:6
 msgid ""
 "There are a range of options available to you if you want to change the "
 "default look and feel of your GeoNode project. Since GeoNode's style is "
@@ -898,297 +1102,460 @@ msgid ""
 "guide once you are familiar with how GeoNode implements Bootstrap and how "
 "you can override GeoNode's theme and templates in your own project."
 msgstr ""
+"Il existe une gamme d'options disponibles pour vous si vous voulez modifier "
+"le look and feel par défaut de votre projet de GeoNode. Puisque le style de "
+"GeoNode est basée sur `Bootstrap <http://twitter.github.com/bootstrap/>`_ "
+"vous serez en mesure de faire usage de tout ce qui Bootstrap a à offrir en "
+"termes de personnalisation du thème. Vous devriez consulter la documentation "
+"de Bootstrap comme guide principal une fois que vous êtes familier avec la "
+"façon GeoNode implémente Bootstrap et comment vous pouvez modifier le thème "
+"et les modèles de GeoNode dans votre propre projet."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:9
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:9
 msgid "Logos and graphics"
 msgstr "Logos et graphiques"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:11
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:11
 msgid ""
 "GeoNode intentionally does not include a large number of graphics files in "
 "its interface. This keeps page loading time to a minimum and makes for a "
 "more responsive interface. That said, you are free to customize your "
 "GeoNode's interface by simply changing the default logo, or by adding your "
-"own images and graphics to deliver a GeoNode experience the way you envision"
-" int."
-msgstr "GeoNode intentionnellement ne comprend pas un grand nombre de fichiers graphiques dans son interface. Cette garde temps de chargement de page au minimum et permet une interface plus réactive. Cela dit, vous êtes libre de personnaliser votre interface GeoNode en changeant simplement le logo par défaut, ou en ajoutant vos propres images et graphiques pour offrir une GeoNode experience la façon dont vous l'envisagez."
+"own images and graphics to deliver a GeoNode experience the way you envision "
+"int."
+msgstr ""
+"GeoNode intentionnellement ne comprend pas un grand nombre de fichiers "
+"graphiques dans son interface. Cette garde temps de chargement de page au "
+"minimum et permet une interface plus réactive. Cela dit, vous êtes libre de "
+"personnaliser votre interface GeoNode en changeant simplement le logo par "
+"défaut, ou en ajoutant vos propres images et graphiques pour offrir une "
+"GeoNode experience la façon dont vous l'envisagez."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:13
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:13
 msgid ""
 "Your GeoNode project has a directory already set up for storing your own "
 "images at :file:`<my_geonode>/static/img`. You should place any image files "
 "that you intend to use for your project in this directory."
-msgstr "Votre projet de GeoNode dispose d'un répertoire déjà mis en place pour stocker vos propres images à :file:`<my_geonode>/static/img`. Vous devez placer les fichiers d'image que vous souhaitez utiliser pour votre projet dans ce répertoire."
+msgstr ""
+"Votre projet de GeoNode dispose d'un répertoire déjà mis en place pour "
+"stocker vos propres images à :file:`<my_geonode>/static/img`. Vous devez "
+"placer les fichiers d'image que vous souhaitez utiliser pour votre projet "
+"dans ce répertoire."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:15
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:15
 msgid ""
 "Let's walk through an example of the steps necessary to change the default "
 "logo."
-msgstr "Passons en revue un exemple des étapes nécessaires pour changer le logo par défaut."
-
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:17
-msgid "Change into the :file:`img` directory:"
 msgstr ""
+"Passons en revue un exemple des étapes nécessaires pour changer le logo par "
+"défaut."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:23
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:17
+msgid "Change into the :file:`img` directory:"
+msgstr "Changez lui en :file:`img` répertoire:"
+
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:23
 msgid ""
 "If you haven't already, obtain your logo image. The URL below is just an "
 "example, so you will need to change this URL to match the location of your "
 "file or copy it to this location:"
-msgstr "Si vous n'avez pas déjà fait, obtenez l'image de votre logo. L'URL ci-dessous est juste un exemple, donc vous devez changer cette URL pour correspondre à l'emplacement de votre fichier ou le copier à cet emplacement:"
+msgstr ""
+"Si vous n'avez pas déjà fait, obtenez l'image de votre logo. L'URL ci-"
+"dessous est juste un exemple, donc vous devez changer cette URL pour "
+"correspondre à l'emplacement de votre fichier ou le copier à cet emplacement:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:30
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:30
 msgid ""
-"Override the CSS that displays the logo by editing "
-":file:`<my_geonode>/static/css/site_base.css` with your favorite editor and "
-"adding the following lines, making sure to update the width, height, and URL"
-" to match the specifications of your image."
-msgstr "Remplacez la CSS qui affiche le logo en éditant: file: `<my_geonode>/static/css/site_base.css` avec votre éditeur de texte favori et en ajoutant les lignes suivantes, en veillant à mettre à jour la largeur, la hauteur, et l'URL pour correspondre aux spécifications de votre image."
+"Override the CSS that displays the logo by editing :file:`<my_geonode>/"
+"static/css/site_base.css` with your favorite editor and adding the following "
+"lines, making sure to update the width, height, and URL to match the "
+"specifications of your image."
+msgstr ""
+"Remplacez la CSS qui affiche le logo en éditant: file: `<my_geonode>/static/"
+"css/site_base.css` avec votre éditeur de texte favori et en ajoutant les "
+"lignes suivantes, en veillant à mettre à jour la largeur, la hauteur, et "
+"l'URL pour correspondre aux spécifications de votre image."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:40
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:40
 msgid "Restart your GeoNode project and look at the page in your browser:"
-msgstr "Redémarrez votre projet GeoNode et regardez la page dans votre navigateur:"
+msgstr ""
+"Redémarrez votre projet GeoNode et regardez la page dans votre navigateur:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:48
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:48
 msgid ""
-"It is a good practice to cleanup the **static_folder** and the Browser Cache"
-" before reloading in order to be sure that the changes have been correctly "
+"It is a good practice to cleanup the **static_folder** and the Browser Cache "
+"before reloading in order to be sure that the changes have been correctly "
 "taken and displayed on the screen."
-msgstr "Il est une bonne pratique de nettoyer la **static_folder** et le cache du navigateur avant de recharger afin d'être sûr que les changements ont été correctement prises et affichées sur l'écran."
+msgstr ""
+"Il est une bonne pratique de nettoyer la **static_folder** et le cache du "
+"navigateur avant de recharger afin d'être sûr que les changements ont été "
+"correctement prises et affichées sur l'écran."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:50
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:50
 msgid "Visit your site at http://localhost/ or the remote URL for your site."
-msgstr "Visitez votre site à l'adresse http://localhost/ ou l'URL pour votre site."
+msgstr ""
+"Visitez votre site à l'adresse http://localhost/ ou l'URL pour votre site."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:54
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:54
 msgid "*Custom logo*"
 msgstr "*Custom logo*"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:56
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:56
 msgid ""
 "You can see that the header has been expanded to fit your graphic. In the "
 "following sections you will learn how to customize this header to make it "
 "look and function the way you want."
-msgstr "Vous pouvez voir que l'en-tête a été élargie pour adapter à votre graphique. Dans les sections suivantes, vous apprendrez comment personnaliser cet en-tête pour le faire ressembler et fonctionner comme vous le souhaitez."
+msgstr ""
+"Vous pouvez voir que l'en-tête a été élargie pour adapter à votre graphique. "
+"Dans les sections suivantes, vous apprendrez comment personnaliser cet en-"
+"tête pour le faire ressembler et fonctionner comme vous le souhaitez."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:58
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:58
 msgid ""
 "You should commit these changes to your repository as you progress through "
-"this section, and get in the habit of committing early and often so that you"
-" and others can track your project on GitHub. Making many atomic commits and"
-" staying in sync with a remote repository makes it easier to collaborate "
-"with others on your project."
-msgstr "Vous devez committer ces modifications dans votre dépôt pendant que vous progressez dans cette section, et de prendre l'habitude de committer tôt et souvent pour que vous et d'autres pouvez suivre votre projet sur GitHub. Faire beaucoup de commits atomiques et de rester en phase avec un dépôt distant rend plus facile de collaborer avec d'autres sur votre projet."
-
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:61
-msgid "Cascading Style Sheets"
+"this section, and get in the habit of committing early and often so that you "
+"and others can track your project on GitHub. Making many atomic commits and "
+"staying in sync with a remote repository makes it easier to collaborate with "
+"others on your project."
 msgstr ""
+"Vous devez committer ces modifications dans votre dépôt pendant que vous "
+"progressez dans cette section, et de prendre l'habitude de committer tôt et "
+"souvent pour que vous et d'autres pouvez suivre votre projet sur GitHub. "
+"Faire beaucoup de commits atomiques et de rester en phase avec un dépôt "
+"distant rend plus facile de collaborer avec d'autres sur votre projet."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:63
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:61
+msgid "Cascading Style Sheets"
+msgstr "Cascade de feuilles de style"
+
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:63
 msgid ""
 "In the last section you already learned how to override GeoNode's default "
 "CSS rules to include your own logo. You are able to customize any aspect of "
-"GeoNode's appearance this way. In the last screenshot, you saw that the main"
-" area in the homepage is covered up by the expanded header."
-msgstr "Dans la dernière section, vous avez déjà appris comment remplacer les règles CSS par défaut de GeoNode pour inclure votre propre logo. Vous êtes en mesure de personnaliser tout aspect de l'apparence de GeoNode de cette façon. Dans la dernière capture d'écran, vous avez vu que la zone principale de la page d'accueil est couvert par la tête élargie."
+"GeoNode's appearance this way. In the last screenshot, you saw that the main "
+"area in the homepage is covered up by the expanded header."
+msgstr ""
+"Dans la dernière section, vous avez déjà appris comment remplacer les règles "
+"CSS par défaut de GeoNode pour inclure votre propre logo. Vous êtes en "
+"mesure de personnaliser tout aspect de l'apparence de GeoNode de cette "
+"façon. Dans la dernière capture d'écran, vous avez vu que la zone principale "
+"de la page d'accueil est couvert par la tête élargie."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:65
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:65
 msgid ""
 "First, we'll walk through the steps necessary to displace it downward so it "
-"is no longer hidden, then change the background color of the header to match"
-" the color in our logo graphic."
+"is no longer hidden, then change the background color of the header to match "
+"the color in our logo graphic."
 msgstr ""
+"Tout d'abord, nous marcherons à travers les étapes nécessaires pour le "
+"déplacer vers le bas de sorte qu'il est plus caché, puis on va changer la "
+"couleur de fond de l'en-tête pour correspondre à la couleur de notre logo "
+"graphique."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:67
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:67
 msgid ""
 "Reopen :file:`<my_geonode>/static/css/site_base.css` in your editor and add "
 "the following rule after the one added in the previous step:"
 msgstr ""
+"Rouvrez :file:`<my_geonode>/static/css/site_base.css`  dans votre éditeur et "
+"ajoutez la règle suivante après celui ajouté à l'étape précédente:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:75
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:75
 msgid ""
 "Add a rule to change the background color of the header to match the logo "
 "graphic we used:"
-msgstr "Ajouter une règle pour changer la couleur de  fond de l'en-tête pour assortir le graphique de logo qui nous avons utilisé:"
+msgstr ""
+"Ajouter une règle pour changer la couleur de  fond de l'en-tête pour "
+"assortir le graphique de logo qui nous avons utilisé:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:83
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:83
 msgid "Your project CSS file should now look like this:"
 msgstr "Votre fichier CSS de projet devrait maintenant ressembler à ceci:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:101
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:101
 msgid "Restart the development server and reload the page:"
 msgstr "Redémarrez le serveur de développement et rechargez la page:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:109
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:109
 msgid "*CSS overrides*"
 msgstr "*CSS overrides*"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:111
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:111
 msgid ""
 "You can continue adding rules to this file to override the styles that are "
-"in the GeoNode base CSS file which is built from `base.less "
-"<https://github.com/GeoNode/geonode/blob/master/geonode/static/geonode/less/base.less>`_."
-" You may find it helpful to use your browser's development tools to inspect "
-"elements of your site that you want to override to determine which rules are"
-" already applied. See the screenshot below. Another section of this workshop"
-" covers this topic in much more detail."
+"in the GeoNode base CSS file which is built from `base.less <https://github."
+"com/GeoNode/geonode/blob/master/geonode/static/geonode/less/base.less>`_. "
+"You may find it helpful to use your browser's development tools to inspect "
+"elements of your site that you want to override to determine which rules are "
+"already applied. See the screenshot below. Another section of this workshop "
+"covers this topic in much more detail."
 msgstr ""
+"Vous pouvez continuer à ajouter des règles à ce fichier pour remplacer les "
+"styles qui sont dans le fichier CSS de base de GeoNode qui est construit à "
+"partir de `base.less <https://github.com/GeoNode/geonode/blob/master/geonode/"
+"static/geonode/less/base.less>`_. Vous trouverez peut-être utile d'utiliser "
+"les outils de développement de votre navigateur pour inspecter les éléments "
+"de votre site que vous voulez remplacer pour déterminer quelles règles sont "
+"déjà appliquées. Voir la capture d'écran ci-dessous. Une autre section de "
+"cet workshop traite de ce sujet de manière plus détaillée."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:115
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:115
 msgid "*Screenshot of using Chrome's debugger to inspect the CSS overrides*"
 msgstr ""
+"*Capture d'écran de l'utilisation de débogueur  de Chrome pour inspecter les "
+"remplacements  CSS*"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:119
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:119
 msgid "Templates and static pages"
-msgstr ""
+msgstr "Modèles et pages statiques"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:121
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:121
 msgid ""
-"Now that we have changed the default logo and adjusted our main content area"
-" to fit the expanded header, the next step is to update the content of the "
+"Now that we have changed the default logo and adjusted our main content area "
+"to fit the expanded header, the next step is to update the content of the "
 "homepage itself. Your GeoNode project includes two basic templates that you "
 "will use to change the content of your pages."
-msgstr "Maintenant que nous avons changé le logo de défaut et ajusté notre zone de contenu principale pour adapter la tête élargie, la prochaine étape est de mettre à jour le contenu de la page d'accueil elle-même. Votre projet de GeoNode comprend deux modèles de base que vous allez utiliser pour changer le contenu de vos pages."
+msgstr ""
+"Maintenant que nous avons changé le logo de défaut et ajusté notre zone de "
+"contenu principale pour adapter la tête élargie, la prochaine étape est de "
+"mettre à jour le contenu de la page d'accueil elle-même. Votre projet de "
+"GeoNode comprend deux modèles de base que vous allez utiliser pour changer "
+"le contenu de vos pages."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:123
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:123
 msgid ""
 "The file :file:`site_base.html` (in :file:`<my_geonode>/templates/`) is the "
 "basic template that all other templates inherit from and you will use it to "
 "update things like the header, navbar, site-wide announcement, footer, and "
 "also to include your own JavaScript or other static content included in "
-"every page in your site. It's worth taking a look at `GeoNode's base file on"
-" GitHub "
-"<https://github.com/GeoNode/geonode/blob/master/geonode/templates/base.html>`_."
-" You have several blocks available to you to for overriding, but since we "
-"will be revisiting this file in future sections of this workshop, let's just"
-" look at it for now and leave it unmodified."
+"every page in your site. It's worth taking a look at `GeoNode's base file on "
+"GitHub <https://github.com/GeoNode/geonode/blob/master/geonode/templates/"
+"base.html>`_. You have several blocks available to you to for overriding, "
+"but since we will be revisiting this file in future sections of this "
+"workshop, let's just look at it for now and leave it unmodified."
 msgstr ""
+"Le fichier :file:`site_base.html` (en :file:`<my_geonode>/templates/`) est "
+"le modèle de base hérité par tous les autres modèles et vous l'utiliserez "
+"pour mettre à jour des choses comme l'en-tête, barre de navigation, site "
+"annonce, pied de page, et aussi pour inclure vos propres JavaScript ou autre "
+"contenu statique inclus dans chaque page de votre site. Il vaut la peine de "
+"jeter un oeil au `fichier de base de GeoNode sur GitHub <https://github.com/"
+"GeoNode/geonode/blob/master/geonode/templates/base.html>`_. Vous disposez de "
+"plusieurs blocs qui vous peuvez modifiér, mais puisque nous allons "
+"réexaminer ce dossier dans les sections futures de cet workshop, nous allons "
+"simplement le voir et le laisser non modifiée."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:125
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:125
 msgid "Open :file:`<my_geonode>/templates/site_base.html` in your editor:"
-msgstr "Ouvrez :file:`<my_geonode>/templates/site_base.html` dans votre éditeur:"
+msgstr ""
+"Ouvrez :file:`<my_geonode>/templates/site_base.html` dans votre éditeur:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:134
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:134
 msgid ""
 "You will see that it extends from :file:`base.html`, which is the GeoNode "
-"template referenced above and it currently only overrides the ``extra_head``"
-" block to include our project's :file:`site_base.css` which we modified in "
+"template referenced above and it currently only overrides the ``extra_head`` "
+"block to include our project's :file:`site_base.css` which we modified in "
 "the previous section. You can see on `line 22 of the GeoNode base.html "
-"template "
-"<https://github.com/GeoNode/geonode/blob/master/geonode/templates/base.html#L22>`_"
-" that this block is included in an empty state and is set up specifically "
-"for you to include extra CSS files as your project is already set up to do."
+"template <https://github.com/GeoNode/geonode/blob/master/geonode/templates/"
+"base.html#L22>`_ that this block is included in an empty state and is set up "
+"specifically for you to include extra CSS files as your project is already "
+"set up to do."
 msgstr ""
+"Vous verrez qu'il étend à partir de :file:`base.html`, qui est le modèles de "
+"GeoNode mentionnés ci-dessus et il remplace seulment le bloc ``extra_head`` "
+"pour inclure  :file:`site_base.css` de notre projet que nous avons modifié "
+"dans la section précédente. Vous pouvez voir sur la `ligne 22 du modèle base."
+"html de GeoNode <https://github.com/GeoNode/geonode/blob/master/geonode/"
+"templates/base.html#L22>`_ que ce bloc est inclus dans un étaient vides et "
+"est mis en place spécifiquement pour vous d'inclure des fichiers CSS "
+"supplémentaires que votre projet est déjà mis en place pour le faire."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:136
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:136
 msgid ""
-"Now that we have looked at :file:`site_base.html`, let's actually override a"
-" different template."
-msgstr "Maintenant que nous avons examiné  :file:`site_base.html`, nous allons effectivement remplacer un modèle différent."
-
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:138
-msgid ""
-"The file :file:`site_index.html` is the template used to define your GeoNode"
-" project's homepage. It extends GeoNode's default :file:`index.html` "
-"template and gives you the option to override specific areas of the homepage"
-" like the hero area, but also allows you leave area like the \"Latest "
-"Layers\" and \"Maps\" and the \"Contribute\" section as they are. You are of"
-" course free to override these sections if you choose and this section shows"
-" you the steps necessary to do that below."
+"Now that we have looked at :file:`site_base.html`, let's actually override a "
+"different template."
 msgstr ""
+"Maintenant que nous avons examiné  :file:`site_base.html`, nous allons "
+"effectivement remplacer un modèle différent."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:142
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:138
+msgid ""
+"The file :file:`site_index.html` is the template used to define your GeoNode "
+"project's homepage. It extends GeoNode's default :file:`index.html` template "
+"and gives you the option to override specific areas of the homepage like the "
+"hero area, but also allows you leave area like the \"Latest Layers\" and "
+"\"Maps\" and the \"Contribute\" section as they are. You are of course free "
+"to override these sections if you choose and this section shows you the "
+"steps necessary to do that below."
+msgstr ""
+"Le fichier :file:`site_index.html` est le modèle utilisé pour définir la "
+"page d'accueil de votre projet de GeoNode. Il étend le model :file:`index."
+"html` par défaut de GeoNode, et vous donne la possibilité de remplacer des "
+"domaines spécifiques de la page d'accueil, comme la *hero area*, mais il "
+"vous permet également de laisser sections telles que \"Latest Layers\" et "
+"\"Maps\" et la \"Contribute\" comme ils sont. Vous êtes bien sûr libre de "
+"remplacer ces sections si vous voulez et cette section vous montre les "
+"étapes nécessaires pour le faire ci-dessous."
+
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:142
 msgid "Open :file:`<my_geonode>/templates/site_index.html` in your editor."
-msgstr "Ouvrez :file:`<my_geonode>/templates/site_index.html` dans votre éditeur."
+msgstr ""
+"Ouvrez :file:`<my_geonode>/templates/site_index.html` dans votre éditeur."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:144
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:144
 msgid ""
 "Edit the ``<h1>`` element on line 9 to say something other than \"Welcome\":"
-msgstr "Modifiez le ``<h1>`` élément sur la ligne 9 pour dire autre chose que \"Welcome\":"
+msgstr ""
+"Modifiez le ``<h1>`` élément sur la ligne 9 pour dire autre chose que "
+"\"Welcome\":"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:150
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:150
 msgid ""
 "Edit the introductory paragraph to include something specific about your "
 "GeoNode project:"
-msgstr "Modifier le paragraphe d'introduction pour inclure quelque chose de spécifique au sujet de votre projet de GeoNode:"
+msgstr ""
+"Modifier le paragraphe d'introduction pour inclure quelque chose de "
+"spécifique au sujet de votre projet de GeoNode:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:162
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:162
 msgid ""
 "Change the :guilabel:`Getting Started` link to point to another website:"
-msgstr "Changez le :guilabel:`Obtenir lien route` pour pointer vers un autre site:"
+msgstr ""
+"Changez le :guilabel:`Obtenir lien route` pour pointer vers un autre site:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:171
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:171
 msgid "Add a graphic to the hero area above the paragraph replaced in step 3:"
 msgstr ""
+"Ajoutez un graphique à la zone de héros le paragraphe remplacé à l'étape 3 "
+"ci-dessus :"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:177
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:177
 msgid "Your edited :file:`site_index.html` file should now look like this:"
-msgstr "Votre édité :file:`site_index.html` devrait maintenant ressembler à ceci:"
+msgstr ""
+"Votre édité :file:`site_index.html` devrait maintenant ressembler à ceci:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:208
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:208
 msgid ""
-"Refresh your GeoNode project and view the changes in your browser at "
-"http://localhost/ or the remote URL for your site:"
-msgstr "Rafraîchez votre GeoNode projet pour voir les changements dans votre navigateur à l'adresse http://localhost/ ou l'URL pour votre site:"
+"Refresh your GeoNode project and view the changes in your browser at http://"
+"localhost/ or the remote URL for your site:"
+msgstr ""
+"Rafraîchez votre GeoNode projet pour voir les changements dans votre "
+"navigateur à l'adresse http://localhost/ ou l'URL pour votre site:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:216
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:216
 msgid ""
 "From here you can continue to customize your :file:`site_index.html` "
 "template to suit your needs. This workshop will also cover how you can add "
 "new pages to your GeoNode project site."
 msgstr ""
+"De là, vous pouvez continuer à personnaliser votre :file:`site_index.html` "
+"pour répondre à vos besoins. Cet workshop vous monstrera aussi comme vous "
+"pouvez ajouter de nouvelles pages à votre site du projet de GeoNode."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:220
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:220
 msgid "Other theming options"
 msgstr "Autres options de thématisation"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:222
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:222
 msgid ""
-"You are able to change any specific piece of your GeoNode project's style by"
-" adding CSS rules to :file:`site_base.css`, but since GeoNode is based on "
+"You are able to change any specific piece of your GeoNode project's style by "
+"adding CSS rules to :file:`site_base.css`, but since GeoNode is based on "
 "Bootstrap, there are many pre-defined themes that you can simply drop into "
 "your project to get a whole new look. This is very similar to `WordPress "
-"<http://wordpress.com>`_ themes and is a powerful and easy way to change the"
-" look of your site without much effort."
+"<http://wordpress.com>`_ themes and is a powerful and easy way to change the "
+"look of your site without much effort."
 msgstr ""
+"Vous pouvez changer chaque pièce spécifique de votre projet de GeoNode en "
+"ajoutant des règles de style CSS à :file:`site_base.css`, mais depuis que "
+"GeoNode est basée sur Bootstrap, il ya beaucoup de thèmes prédéfinis que "
+"vous pouvez simplement déposer dans votre projet pour obtenir un tout "
+"nouveau look. Ceci est très similaire aux thèmes de `WordPress <http://"
+"wordpress.com>`_ et c'est un moyen puissant et facile à changer l'apparence "
+"de votre site sans trop d'effort."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:225
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:225
 msgid "Bootswatch"
-msgstr ""
+msgstr "Bootswatch"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:227
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:227
 msgid ""
-"`Bootswatch <http://bootswatch.com>`_ is a site where you can download "
-"ready-to-use themes for your GeoNode project site. The following steps will "
-"show you how to use a theme from Bootswatch in your own GeoNode site."
+"`Bootswatch <http://bootswatch.com>`_ is a site where you can download ready-"
+"to-use themes for your GeoNode project site. The following steps will show "
+"you how to use a theme from Bootswatch in your own GeoNode site."
 msgstr ""
+"' Bootswatch <http: bootswatch.com=\"\">' _ est un site où vous pouvez "
+"télécharger des thèmes prêts à l'emploi pour votre site de projet GeoNode. "
+"Les étapes suivantes vous montrera comment utiliser un thème de Bootswatch "
+"dans votre propre site de GeoNode.</http:>"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:229
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:229
 msgid ""
 "Visit http://bootswatch.com and select a theme (we will use Sandstone for "
 "this example). Select the :guilabel:`download bootstrap.css option` in the "
 "menu:"
 msgstr ""
+"Visitez http://bootswatch.com et cliquez sur un thème (pour cet exemple, "
+"nous allons utiliser grès). Sélectionnez la : guilabel: 'bootstrap.css "
+"option de téléchargement\"dans le menu :"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:233
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:233
 msgid "Put this file in :file:`<my_geonode>/static/css`."
 msgstr "Placez ce fichier dans :file:`<my_geonode>/static/css`."
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:235
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:235
 msgid ""
 "Update the :file:`site_base.html` template to include this file. It should "
 "now look like this:"
 msgstr ""
+"Mise à jour le : file:'site_base.html' modèle d'inclure ce fichier. Il "
+"devrait maintenant ressembler à ceci :"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:245
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:245
 msgid "Refresh the development server and visit your site:"
 msgstr "Actualisez le serveur de développement et visitez votre site:"
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\theme_admin.rst:253
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:253
 msgid ""
 "Your GeoNode project site is now using the Sandstone theme in addition to "
 "the changes you have made."
 msgstr ""
+"Votre site de projet GeoNode utilise maintenant le thème de grès en plus des "
+"changements que vous avez fait."
+
+#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:5
+msgid "Customize the look and feel"
+msgstr "Personnalisation du look and feel"
+
+#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:9
+#: ..\..\004_admin_workshop\index.rst:48
+msgid ""
+"You might want to change the look of GeoNode, editing the colors and the "
+"logo of the website and adjust the templates for your needs. To do so, you "
+"first have to set up your own geonode project from a template. If you've "
+"successfully done this, you can go further and start theming your geonode "
+"project."
+msgstr ""
+"Vous voudrez peut-être changer le look de GeoNode, modifier les couleurs et "
+"le logo du site et d'ajuster les modèles pour vos besoins. Pour faire ça, "
+"vous devez d'abord mettre en place votre propre projet de geonode à partir "
+"d'un modèle. Si vous avez réussi à faire cela, vous pouvez aller plus loin "
+"et commencer votre projet de thématisation geonode."
+
+#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:18
+msgid ":ref:`setup_admin`"
+msgstr ": Réf: « setup_admin »"
+
+#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:18
+msgid "Setup your own geonode project"
+msgstr "Configuration de votre propre projet de geonode"
+
+#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:21
+msgid ":ref:`theme_admin`"
+msgstr ": Réf: « theme_admin »"
+
+#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:21
+msgid "Theme your geonode project"
+msgstr "Thématisation de votre projet de geonode"
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:5
 msgid "Debugging GeoNode Installations"
@@ -1196,82 +1563,108 @@ msgstr "Débogage des Installations de GeoNode "
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:7
 msgid ""
-"There are several mechanisms to debug GeoNode installations, the most common"
-" ones are discussed in the following sections."
-msgstr "Il existe plusieurs mécanismes pour le de débogage des installations de GeoNode,  les plus communs sont abordés dans les sections suivantes."
+"There are several mechanisms to debug GeoNode installations, the most common "
+"ones are discussed in the following sections."
+msgstr ""
+"Il existe plusieurs mécanismes pour le de débogage des installations de "
+"GeoNode,  les plus communs sont abordés dans les sections suivantes."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:10
 msgid "Viewing the logs"
-msgstr ""
+msgstr "Visualisation des journaux"
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:12
 msgid ""
-"There are many kinds of logs in GeoNode, most of them are located in "
-":file:`/var/log/geonode/` and will be explained below in order of relevance:"
+"There are many kinds of logs in GeoNode, most of them are located in :file:`/"
+"var/log/geonode/` and will be explained below in order of relevance:"
 msgstr ""
+"Il existe plusieurs types de journaux dans GeoNode, la plupart d'entre eux "
+"se trouvent dans : file:'/var/log/geonode/' et sera expliqué ci-dessous par "
+"ordre de pertinence :"
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:14
 msgid ""
-"**GeoNode main log**: This is the output of the Django application generated"
-" by Apache, it may contain detailed information about uploads and high level"
-" problems."
-msgstr "**GeoNode main log**:  Ceci est la sortie de l'application Django généré par Apache. Elle peut contenir des informations détaillées sur les téléchargements et les problèmes de haut niveau."
+"**GeoNode main log**: This is the output of the Django application generated "
+"by Apache, it may contain detailed information about uploads and high level "
+"problems."
+msgstr ""
+"**GeoNode main log**:  Ceci est la sortie de l'application Django généré par "
+"Apache. Elle peut contenir des informations détaillées sur les "
+"téléchargements et les problèmes de haut niveau."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:16
 msgid ""
-"The default location is :file:`/var/log/geonode/apache.log` or "
-":file:`/var/log/apache2/error.log`."
-msgstr "L'emplacement par défaut est :file:`/var/log/geonode/apache.log` ou :file:`/var/log/apache2/error.log`."
+"The default location is :file:`/var/log/geonode/apache.log` or :file:`/var/"
+"log/apache2/error.log`."
+msgstr ""
+"L'emplacement par défaut est :file:`/var/log/geonode/apache.log` ou :file:`/"
+"var/log/apache2/error.log`."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:18
 msgid ""
 "It is set to a very low level (not very much information is logged) by "
 "default, but it's output can be increased by setting the logging level to "
 "``DEBUG`` in :file:`/etc/geonode/local_settings.py`."
-msgstr "Il est fixé à un niveau très faible (pas beaucoup d'informations est enregistré) par défaut, mais il peut être augmentée en configurant le niveau d'enregistrement à ``DEBUG`` dans :file:`/etc/geonode/local_settings.py`."
+msgstr ""
+"Il est fixé à un niveau très faible (pas beaucoup d'informations est "
+"enregistré) par défaut, mais il peut être augmentée en configurant le niveau "
+"d'enregistrement à ``DEBUG`` dans :file:`/etc/geonode/local_settings.py`."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:20
 msgid ""
 "**GeoServer log**: It contains most of the information related to problems "
 "with data, rendering and styling errors."
 msgstr ""
+"** Journal de GeoServer **: il contient la plupart des informations liées à "
+"des problèmes de données, de rendu et d'erreurs de style."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:22
 msgid ""
-"This one can be accessed at ``GEOSERVER_DATA_DIR/logs/geoserver.log``, which"
-" is usually "
-":file:`/var/lib/tomcat7/webapps/geoserver/data/logs/geoserver.log` or "
-":file:`/var/lib/geoserver/geonode-data/logs/geoserver.log`."
-msgstr "Celui-ci peut être consulté à ``GEOSERVER_DATA_DIR/logs/geoserver.log``, qui est habituellement: :file:`/var/lib/tomcat7/webapps/geoserver/data/logs/geoserver.log` ou :file:`/var/lib/geoserver/geonode-data/logs/geoserver.log`."
+"This one can be accessed at ``GEOSERVER_DATA_DIR/logs/geoserver.log``, which "
+"is usually :file:`/var/lib/tomcat7/webapps/geoserver/data/logs/geoserver."
+"log` or :file:`/var/lib/geoserver/geonode-data/logs/geoserver.log`."
+msgstr ""
+"Celui-ci peut être consulté à ``GEOSERVER_DATA_DIR/logs/geoserver.log``, qui "
+"est habituellement: :file:`/var/lib/tomcat7/webapps/geoserver/data/logs/"
+"geoserver.log` ou :file:`/var/lib/geoserver/geonode-data/logs/geoserver.log`."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:24
 msgid "It may also be symlinked in :file:`/var/log/geonode/geoserver.log`."
-msgstr "Il peut également être un lien symbolique à :file:`/var/log/geonode/geoserver.log`."
+msgstr ""
+"Il peut également être un lien symbolique à :file:`/var/log/geonode/"
+"geoserver.log`."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:26
-msgid ""
-"**Tomcat logs**: Tomcat logs could indicate problems loading GeoServer."
+msgid "**Tomcat logs**: Tomcat logs could indicate problems loading GeoServer."
 msgstr ""
+"** Journaux de tomcat **: journaux Tomcat peut indiquer des problèmes de "
+"chargement GeoServer."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:28
 msgid ""
-"They can be found at :file:`/var/lib/tomcat7/logs/catalina.out` or "
-":file:`/var/lib/tomcat/geoserver/logs/catalina.out`."
-msgstr "Ils sont à :file:`/var/lib/tomcat7/logs/catalina.out` ou :file:`/var/lib/tomcat/geoserver/logs/catalina.out`."
+"They can be found at :file:`/var/lib/tomcat7/logs/catalina.out` or :file:`/"
+"var/lib/tomcat/geoserver/logs/catalina.out`."
+msgstr ""
+"Ils sont à :file:`/var/lib/tomcat7/logs/catalina.out` ou :file:`/var/lib/"
+"tomcat/geoserver/logs/catalina.out`."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:30
 msgid ""
 "**PostgreSQL logs**: PostgreSQL is accessed by GeoServer and Django, "
-"therefore information about errors which are very hard to debug may be found"
-" by looking at PostgreSQL's logs."
+"therefore information about errors which are very hard to debug may be found "
+"by looking at PostgreSQL's logs."
 msgstr ""
+"** Journaux de PostgreSQL **: PostgreSQL est accessible par GeoServer et "
+"Django, donc informations relatives aux erreurs qui sont très difficiles à "
+"déboguer peuvent être trouvées en regardant journaux de PostgreSQL."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:32
 msgid ""
-"They are located at "
-":file:`/var/log/postgresql/postgresql-$(psql_version)-main.log` where "
-"**$(psql_version)** depends on your local installation."
-msgstr "Ils sont situés à :file:`/var/log/postgresql/postgresql-$(psql_version)-main.log` où **$(psql_version)** dépend de votre installation locale."
+"They are located at :file:`/var/log/postgresql/postgresql-$(psql_version)-"
+"main.log` where **$(psql_version)** depends on your local installation."
+msgstr ""
+"Ils sont situés à :file:`/var/log/postgresql/postgresql-$(psql_version)-main."
+"log` où **$(psql_version)** dépend de votre installation locale."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:36
 msgid "Enabling DEBUG mode"
@@ -1279,23 +1672,29 @@ msgstr "Activation du mode DEBUG"
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:38
 msgid ""
-"Django can be set to return nicely formatted exceptions which are useful for"
-" debugging instead of generic ``500 errors``."
-msgstr "Django peut être réglé pour revenir exceptions correctement formatées qui sont utiles pour le débogage au lieu de générique ``500 errors``."
+"Django can be set to return nicely formatted exceptions which are useful for "
+"debugging instead of generic ``500 errors``."
+msgstr ""
+"Django peut être réglé pour revenir exceptions correctement formatées qui "
+"sont utiles pour le débogage au lieu de générique ``500 errors``."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:40
 msgid ""
-"This is enabled by setting ``DEBUG=True`` in "
-":file:`/home/geonode/geonode/geonode/local_settings.py` (or "
-":file:`/etc/geonode/local_settings.py` if GeoNode has been installed using "
-"**apt-get**)."
-msgstr "Cette option est activée par la mise  ``DEBUG=True`` in :file:`/home/geonode/geonode/geonode/local_settings.py` (ou :file:`/etc/geonode/local_settings.py` si GeoNode a été installé ** en utilisant **apt-get**)."
+"This is enabled by setting ``DEBUG=True`` in :file:`/home/geonode/geonode/"
+"geonode/local_settings.py` (or :file:`/etc/geonode/local_settings.py` if "
+"GeoNode has been installed using **apt-get**)."
+msgstr ""
+"Cette option est activée par la mise  ``DEBUG=True`` in :file:`/home/geonode/"
+"geonode/geonode/local_settings.py` (ou :file:`/etc/geonode/local_settings."
+"py` si GeoNode a été installé ** en utilisant **apt-get**)."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:42
 msgid ""
 "After enabling DEBUG, the Apache server has to be restarted for the changes "
 "to be picked up. In Ubuntu::"
-msgstr "Après l'activation du DEBUG, le serveur Apache doit être redémarré pour que les modifications être ramassés. Dans Ubuntu::"
+msgstr ""
+"Après l'activation du DEBUG, le serveur Apache doit être redémarré pour que "
+"les modifications être ramassés. Dans Ubuntu::"
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:48
 msgid "Other tips and tricks"
@@ -1303,7 +1702,7 @@ msgstr "Autres trucs et astuces"
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:51
 msgid "Modifying GeoServer's output strategy"
-msgstr ""
+msgstr "Modification de GeoServer sortie de stratégie"
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:53
 msgid ""
@@ -1312,21 +1711,33 @@ msgid ""
 "performance. Unfortunately, this caused many errors to be masked as XML "
 "parsing errors when layers were not properly configured."
 msgstr ""
+"Jusqu'à la version 1.1, GeoNode utilisée par défaut de la stratégie de "
+"sortie '' vitesse '' de GeoServer, cela signifie que des messages d'erreur "
+"appropriée ont été sacrifiés pour la performance. Malheureusement, cela a "
+"provoqué beaucoup d'erreurs à masquer au format XML parsing des erreurs "
+"lorsque les couches ne sont pas correctement configurés."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:56
 msgid ""
 "It is recommended to verify the output strategy is set at least to "
 "``PARTIAL_BUFFER2`` **(or a safer one, e.g. ``FILE``)** with a high value "
-"for the buffer size. More information about the different strategies and the"
-" performance vs correctness trade off is available at GeoServer's web.xml "
+"for the buffer size. More information about the different strategies and the "
+"performance vs correctness trade off is available at GeoServer's web.xml "
 "file."
 msgstr ""
+"Il est recommandé de vérifier que la stratégie de sortie est réglée au moins "
+"sur '' PARTIAL_BUFFER2'' **(or a safer one, e.g. ''FILE'') ** à haute valeur "
+"pour la taille du tampon. Plus d'informations sur les différentes stratégies "
+"et le performances vs rectitude compromis sont disponibles dans le fichier "
+"web.xml de GeoServer."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:59
 msgid ""
-"The typical location of the file that needs to be modified is "
-"``/var/lib/tomcat7/webapps/geoserver/WEB-INF/web.xml`` as shown below::"
-msgstr "L'emplacement typique du fichier qui doit être modifié est ``/var/lib/tomcat7/webapps/geoserver/WEB-INF/web.xml`` comme indiqué ci-dessous::"
+"The typical location of the file that needs to be modified is ``/var/lib/"
+"tomcat7/webapps/geoserver/WEB-INF/web.xml`` as shown below::"
+msgstr ""
+"L'emplacement typique du fichier qui doit être modifié est ``/var/lib/"
+"tomcat7/webapps/geoserver/WEB-INF/web.xml`` comme indiqué ci-dessous::"
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:67
 msgid "Add the Django debug toolbar"
@@ -1337,6 +1748,8 @@ msgid ""
 "The Debug Toolbar module **must** be disabled whe running the server in "
 "production (with Apache2 HTTPD Server WSGI)"
 msgstr ""
+"Le module de la barre d'outils déboguer ** must ** être handicapée whe "
+"exécutant le serveur de production (avec Apache2 HTTPD serveur WSGI)"
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:71
 msgid ""
@@ -1346,6 +1759,12 @@ msgid ""
 "information about the current request/response and when clicked, display "
 "more details about the panel's content."
 msgstr ""
+"La barre d'outils de débogage de django offre beaucoup d'informations sur la "
+"façon dont la page que vous voyez est créée et utilisée. Depuis les coups de "
+"base de données pour les points de vue concernés. Il s'agit d'un ensemble "
+"configurable de panneaux qui s'affichent diverses informations de débogage "
+"sur l'actuelle demande/réponse et lorsque vous cliquez dessus, affiche plus "
+"de détails sur le contenu du panneau."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:77
 msgid "To install it::"
@@ -1357,6 +1776,9 @@ msgid ""
 "(or :file:`/etc/geonode/settings.py` if GeoNode has been installed using "
 "**apt-get**) and add the following to the bottom of the file::"
 msgstr ""
+"Puis modifiez vos paramètres : file:'/home/geonode/geonode/geonode/settings."
+"py' (ou : file:'/etc/geonode/settings.py' si GeoNode a été installé en "
+"utilisant ** apt-get **) et ajoutez le code suivant à la fin du fichier::"
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:113
 msgid "Stop Apache and start the server in **Development Mode**::"
@@ -1364,21 +1786,25 @@ msgstr "Arrêtez Apache et démarrez le serveur en **Development Mode**::"
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:118
 msgid ""
-"Redirect the browser to **http://localhost:8000**. You should be able to see"
-" the Debug Panel on the right of the screen."
+"Redirect the browser to **http://localhost:8000**. You should be able to see "
+"the Debug Panel on the right of the screen."
 msgstr ""
+"Rediriger le navigateur de ** http://localhost:8000 **. Vous devriez être "
+"capable de voir le panneau Debug sur la droite de l'écran."
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:122
 msgid "*DJango Debug Toolbar Enabled In Devel Mode*"
-msgstr ""
+msgstr "* DJango Debug Toolbar activée dans Devel Mode *"
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:127
 msgid "More:"
-msgstr ""
+msgstr "Plus: `http://geoserver.org <http://geoserver.org>`_"
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:126
 msgid "For more set up and customize the panels read the official docs here"
 msgstr ""
+"Pour plus d'informations configurer et personnaliser les panneaux lire les "
+"docs officiels ici"
 
 #: ..\..\004_admin_workshop\005_debug_geonode\index.rst:128
 msgid "http://django-debug-toolbar.readthedocs.org/en/latest/"
@@ -1395,7 +1821,12 @@ msgid ""
 "interface language with the pulldown menu at the top-right of most GeoNode "
 "pages.  Once a user selects a language GeoNode remembers that language for "
 "subsequent pages."
-msgstr "La langue par défaut de GeoNode est l'anglais, mais les utilisateurs de GeoNode peuvent changer la langue de l'interface en utilisant le menu déroulant situé en haut à droite de la plupart des pages de GeoNode. Une fois qu'un utilisateur sélectionne une langue GeoNode se souvient que la langue pour les pages suivantes."
+msgstr ""
+"La langue par défaut de GeoNode est l'anglais, mais les utilisateurs de "
+"GeoNode peuvent changer la langue de l'interface en utilisant le menu "
+"déroulant situé en haut à droite de la plupart des pages de GeoNode. Une "
+"fois qu'un utilisateur sélectionne une langue GeoNode se souvient que la "
+"langue pour les pages suivantes."
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:10
 msgid "GeoNode Configuration"
@@ -1403,59 +1834,80 @@ msgstr "Configuration de GeoNode"
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:12
 msgid ""
-"As root edit the geonode config file "
-":file:`/home/geonode/geonode/geonode/settings.py` (or "
-":file:`/etc/geonode/settings.py` if GeoNode has been installed using **apt-"
-"get**) and change ``LANGUAGE_CODE`` to the desired default language."
+"As root edit the geonode config file :file:`/home/geonode/geonode/geonode/"
+"settings.py` (or :file:`/etc/geonode/settings.py` if GeoNode has been "
+"installed using **apt-get**) and change ``LANGUAGE_CODE`` to the desired "
+"default language."
 msgstr ""
+"En tant que root, éditez le fichier de configuration geonode : file:'/home/"
+"geonode/geonode/geonode/settings.py' (ou : file:'/etc/geonode/settings.py' "
+"si GeoNode a été installé en utilisant ** apt-get **) et changer '' "
+"LANGUAGE_CODE'' à la langue par défaut souhaité."
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:14
 msgid ""
-"A list of language codes can be found in the global django config file "
-":file:`/usr/local/lib/python2.7/dist-"
-"packages/django/conf/global_settings.py` (or "
-":file:`/var/lib/geonode/lib/python2.7/site-"
-"packages/django/conf/global_settings.py` if GeoNode has been installed using"
-" **apt-get**)."
+"A list of language codes can be found in the global django config file :file:"
+"`/usr/local/lib/python2.7/dist-packages/django/conf/global_settings.py` (or :"
+"file:`/var/lib/geonode/lib/python2.7/site-packages/django/conf/"
+"global_settings.py` if GeoNode has been installed using **apt-get**)."
 msgstr ""
+"Une liste des codes des langues se trouvent dans le fichier de configuration "
+"global django : file:'/usr/local/lib/python2.7/dist-packages/django/conf/"
+"global_settings.py' (ou : file:'/var/lib/geonode/lib/python2.7/site-packages/"
+"django/conf/global_settings.py' si GeoNode a été installé en utilisant ** "
+"apt-get **)."
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:16
 msgid "For example, to make French the default language use::"
 msgstr ""
+"Par exemple, pour faire des Français à l'usage de la langue par défaut::"
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:20
 msgid ""
-"Unfortunately  Django overrides this setting, giving the language setting of"
-" a user's browser priority.  For example, if ``LANGUAGE_CODE`` is set to "
+"Unfortunately  Django overrides this setting, giving the language setting of "
+"a user's browser priority.  For example, if ``LANGUAGE_CODE`` is set to "
 "French, but the user has configured their operating system for Spanish they "
 "may see the Spanish version when they first visit GeoNode."
 msgstr ""
+"Malheureusement Django substitue à ce paramètre, ce qui donne le paramètre "
+"de langue de priorité du navigateur de l'utilisateur.  Par exemple, si '' "
+"LANGUAGE_CODE'' est sur le Français, mais l'utilisateur a configuré leur "
+"système d'exploitation pour l'espagnol qu'ils peuvent voir la version "
+"espagnole lors de leur première visite GeoNode."
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:24
 msgid "Additional Steps"
-msgstr ""
+msgstr "Etapes supplémentaires"
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:26
 msgid ""
-"If this is not the desired behaviour, and all users should initially see the"
-" default ``LANGUAGE_CODE``, regardless of their browser's settings, do the "
+"If this is not the desired behaviour, and all users should initially see the "
+"default ``LANGUAGE_CODE``, regardless of their browser's settings, do the "
 "following steps to ensure Django ignores the browser language settings.  "
 "(Users can always use the pulldown language menu to change the language at "
 "any time.)"
 msgstr ""
+"Si ce ne sont pas le comportement désiré, et tous les utilisateurs doivent "
+"d'abord voir le défaut ``LANGUAGE_CODE``, quels que soient les paramètres de "
+"leur navigateur, effectuez les étapes suivantes pour assurer Django ignore "
+"les paramètres de langue du navigateur. (Les utilisateurs peuvent toujours "
+"utiliser le menu déroulant de la langue pour changer la langue à tout "
+"moment.)"
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:28
 msgid "As **root** create a new directory within GeoNode's site packages::"
 msgstr ""
+"Comme ** racine ** créer un nouveau répertoire dans les paquets de site de "
+"GeoNode::"
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:33
 msgid "or::"
 msgstr "or::"
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:33
-msgid ""
+msgid "mkdir /var/lib/geonode/lib/python2.7/site-packages/setmydefaultlanguage"
+msgstr ""
 "mkdir /var/lib/geonode/lib/python2.7/site-packages/setmydefaultlanguage"
-msgstr "mkdir /var/lib/geonode/lib/python2.7/site-packages/setmydefaultlanguage"
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:35
 msgid "if GeoNode has been installed using **apt-get**"
@@ -1463,41 +1915,53 @@ msgstr "si GeoNode a été installé en utilisant ** apt-get **"
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:37
 msgid ""
-"As root create and edit a new file :file:`/usr/lib/python2.7/dist-"
-"packages/setmydefaultlanguage/__init__.py` and add the following lines::"
+"As root create and edit a new file :file:`/usr/lib/python2.7/dist-packages/"
+"setmydefaultlanguage/__init__.py` and add the following lines::"
 msgstr ""
+"En tant que root, créer et éditer un nouveau fichier : file:'/usr/lib/"
+"python2.7/dist-packages/setmydefaultlanguage/__init__.py' et ajoutez les "
+"lignes suivantes::"
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:53
 msgid ""
-"At the end of the GeoNode configuration file "
-":file:`/home/geonode/geonode/geonode/settings.py` (or "
-":file:`/etc/geonode/settings.py` if GeoNode has been installed using **apt-"
-"get**) add the following lines to ensure the above class is executed::"
+"At the end of the GeoNode configuration file :file:`/home/geonode/geonode/"
+"geonode/settings.py` (or :file:`/etc/geonode/settings.py` if GeoNode has "
+"been installed using **apt-get**) add the following lines to ensure the "
+"above class is executed::"
 msgstr ""
+"À la fin du fichier de configuration GeoNode : file:'/home/geonode/geonode/"
+"geonode/settings.py' (ou : file:'/etc/geonode/settings.py' si GeoNode a été "
+"installé en utilisant ** apt-get **) ajoutez les lignes suivantes afin "
+"d'assurer la classe ci-dessus est exécutée::"
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:60
 msgid "Restart"
-msgstr ""
+msgstr "Redémarrage"
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:62
 msgid "Finally restart Apache2 as root with::"
-msgstr ""
+msgstr "Enfin redémarrez Apache2 en tant que root avec::"
 
 #: ..\..\004_admin_workshop\006_default_lang\index.rst:67
 msgid ""
-"Please refer to Translating GeoNode for information on editing GeoNode pages"
-" in different languages and create new GeoNode Translations."
+"Please refer to Translating GeoNode for information on editing GeoNode pages "
+"in different languages and create new GeoNode Translations."
 msgstr ""
+"S'il vous plaît se référer à traduire GeoNode pour plus d'informations sur "
+"la modification des pages GeoNode dans différentes langues et créer de "
+"nouvelles traductions de GeoNode."
 
 #: ..\..\004_admin_workshop\index.rst:5
 msgid "Administrators Workshop"
-msgstr ""
+msgstr "Administrateurs Workshop"
 
 #: ..\..\004_admin_workshop\index.rst:7
 msgid ""
-"Welcome to the GeoNode Training `Administrators Workshop` documentation v\\ "
-"|release|."
+"Welcome to the GeoNode Training `Administrators Workshop` documentation v\\ |"
+"release|."
 msgstr ""
+"Bienvenue sur la documentation de formation de l' `Administrateurs Workshop` "
+"du GeoNode  v\\ |release|."
 
 #: ..\..\004_admin_workshop\index.rst:9
 msgid ""
@@ -1505,7 +1969,11 @@ msgid ""
 "`GeoNode <http://geonode.org/>`_ software application. At the end of this "
 "section you will master all the GeoNode sections and entities from an "
 "administrator perspective."
-msgstr "Ce vous vous apprendra comment installer et gérer une installation de ` GeoNode < http://geonode.org/ >`_ . À la fin de cette section, vous serez maître de toutes les sections sur GeoNode du point de vue de l'administrateur."
+msgstr ""
+"Ce vous vous apprendra comment installer et gérer une installation de ` "
+"GeoNode < http://geonode.org/ >`_ . À la fin de cette section, vous serez "
+"maître de toutes les sections sur GeoNode du point de vue de "
+"l'administrateur."
 
 #: ..\..\004_admin_workshop\index.rst:12
 msgid "You will know how to:"
@@ -1513,11 +1981,11 @@ msgstr "Vous saurez comment:"
 
 #: ..\..\004_admin_workshop\index.rst:14
 msgid "Use the GeoNode’s Django Administration Panel."
-msgstr ""
+msgstr "Utiliser Django Panneau d'administration de la GeoNode."
 
 #: ..\..\004_admin_workshop\index.rst:15
 msgid "Use the console Management Commands for GeoNode."
-msgstr ""
+msgstr "Utilisez les commandes de gestion de la console pour GeoNode."
 
 #: ..\..\004_admin_workshop\index.rst:16
 msgid "Configure and customize your GeoNode installation."
@@ -1531,11 +1999,13 @@ msgstr "*Prerequisites*"
 msgid ""
 "Before proceeding with the reading, it is strongly recommended to be sure "
 "having clear the following concepts:"
-msgstr "Avant de procéder à la lecture, il est fortement recommandé d'être sûr d'avoir clairement les concepts suivants:"
+msgstr ""
+"Avant de procéder à la lecture, il est fortement recommandé d'être sûr "
+"d'avoir clairement les concepts suivants:"
 
 #: ..\..\004_admin_workshop\index.rst:22
 msgid "GeoNode and Django framework concepts"
-msgstr ""
+msgstr "GeoNode et Django concepts du cadre"
 
 #: ..\..\004_admin_workshop\index.rst:23
 msgid "Good knowledge of Python"
@@ -1544,7 +2014,9 @@ msgstr "Bonne connaissance de Python"
 #: ..\..\004_admin_workshop\index.rst:24
 msgid ""
 "Good knowledge of what is a geospatial server and geospatial web services."
-msgstr "Bonne connaissance de ce qui est un serveur géospatial et les services Web géospatiales."
+msgstr ""
+"Bonne connaissance de ce qui est un serveur géospatial et les services Web "
+"géospatiales."
 
 #: ..\..\004_admin_workshop\index.rst:25
 msgid "Good knowledge of what is metadata and catalog."
@@ -1567,7 +2039,10 @@ msgid ""
 "GeoNode comes with administrative commands to help with day to day tasks. "
 "This section shows the list of the ones that come from the GeoNode "
 "application."
-msgstr "GeoNode est livré avec des commandes d'administration pour aider à jour les tâches quotidiennes. Cette section présente la liste de ceux qui viennent de l'application de GeoNode."
+msgstr ""
+"GeoNode est livré avec des commandes d'administration pour aider à jour les "
+"tâches quotidiennes. Cette section présente la liste de ceux qui viennent de "
+"l'application de GeoNode."
 
 #: ..\..\004_admin_workshop\index.rst:45
 msgid ":ref:`admin_csw_settings`"
@@ -1583,10 +2058,25 @@ msgstr ":ref:`debug_geonode`"
 
 #: ..\..\004_admin_workshop\index.rst:51
 msgid ""
-"There are several mechanisms to debug GeoNode installations, the most common"
-" ones are discussed in this section."
-msgstr "Il existe plusieurs mécanismes pour le débogage des installations de GeoNode, les plus communs sont abordés dans cette section."
+"There are several mechanisms to debug GeoNode installations, the most common "
+"ones are discussed in this section."
+msgstr ""
+"Il existe plusieurs mécanismes pour le débogage des installations de "
+"GeoNode, les plus communs sont abordés dans cette section."
 
 #: ..\..\004_admin_workshop\index.rst:54
 msgid ":ref:`default_language`"
 msgstr ":ref:`default_language`"
+
+#~ msgid ""
+#~ "The admin section called Auth has the two links to access the Users and "
+#~ "Groups sections, see figure"
+#~ msgstr ""
+#~ "La section admin appelé Auth a les deux liens pour accéder aux Users et "
+#~ "Groups sections, voir la figure"
+
+#~ msgid ":ref:`customize.setup_admin`"
+#~ msgstr ":ref:`customize.setup_admin`"
+
+#~ msgid ":ref:`customize.theme_admin`"
+#~ msgstr ":ref:`customize.theme_admin`"
