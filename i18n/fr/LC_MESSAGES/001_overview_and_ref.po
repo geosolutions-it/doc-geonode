@@ -465,7 +465,7 @@ msgid ""
 "using `http://webchat.freenode.net/ <http://webchat.freenode.net/>`_ or by "
 "asking your question in our `google group "
 "<https://groups.google.com/forum/#!forum/geonode-users>`_!"
-msgstr "Restez en contact avec la communauté de GeoNode par la voie #geonode IRC en utilisant ` http://webchat.freenode.net/ < http://webchat.freenode.net/ >`_ ou en demandant à votre question dans notre groupe `google < https://groups.google.com/forum/#!forum/geonode-users>`_ !"
+msgstr "Restez en contact avec la communauté de GeoNode par la voie #geonode IRC en utilisant ` http://webchat.freenode.net/ <http://webchat.freenode.net/>`_ ou en demandant à votre question dans notre groupe `google <https://groups.google.com/forum/#!forum/geonode-users>`_ !"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:5
 msgid "A Tour Of GeoNode"
