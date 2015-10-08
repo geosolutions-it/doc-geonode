@@ -31,7 +31,7 @@ msgstr "Bienvenue à la documentation de formation de GeoNode."
 msgid ""
 "From here you can browse the documentation relative to the GeoNode Training "
 "Documentation."
-msgstr "A partir de ici vous pouves naviguer dans la documentation pour la formation de GeoNode"
+msgstr "A partir de ici vous pouvez naviguer la documentation pour la formation de GeoNode"
 
 #: ..\..\index.rst:11
 msgid ""
@@ -42,15 +42,15 @@ msgid ""
 " Virtual Machine can be launched through `VirtualBox "
 "<https://www.virtualbox.org/>`_ or `VMWare Player <http://www.vmware.com/>`_"
 " binaries."
-msgstr "Une machine virtuelle Ubuntu 14.04 base, contenant les paquets de base et des données pour l'exécution des exercices de l'atelier, est disponible en téléchargement `ici <https://www.dropbox.com/s/yfq2gpjs3pooy4b/Training%20-%20v1.zip?dl=0>`_ La machine virtuelle peut être lancée à travers `VirtualBox <https://www.virtualbox.org/>`_ ou `VMWare Player <http://www.vmware.com/>`_ binaires."
+msgstr "Une machine virtuelle avec Ubuntu 14.04, contenant les paquets de base et des données pour l'exécution des exercices du Workshop, est disponible en téléchargement `ici. <https://www.dropbox.com/s/yfq2gpjs3pooy4b/Training%20-%20v1.zip?dl=0>`_ La machine virtuelle peut être lancée en utilisant `VirtualBox <https://www.virtualbox.org/>`_ ou `VMWare Player <http://www.vmware.com/>`_ binaires."
 
 #: ..\..\index.rst:14
 msgid "The users to be used with the Virtual Machine are:"
-msgstr "Les utilisateurs à être utilisés avec la machine virtuelle sont:"
+msgstr "Les comptes à être utilisés avec la machine virtuelle sont les suivants:"
 
 #: ..\..\index.rst:23
 msgid "The Documentation is divided in six main sections:"
-msgstr "La documentation est decoupè en six sections principales"
+msgstr "La documentation est decoupè en six sections principales:"
 
 #: ..\..\index.rst:25
 msgid ""

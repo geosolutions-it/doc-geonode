@@ -1953,7 +1953,7 @@ msgstr ""
 
 #: ..\..\004_admin_workshop\index.rst:5
 msgid "Administrators Workshop"
-msgstr "Administrateurs Workshop"
+msgstr "Workshop pour les Administrateurs"
 
 #: ..\..\004_admin_workshop\index.rst:7
 msgid ""
