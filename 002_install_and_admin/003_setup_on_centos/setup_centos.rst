@@ -46,9 +46,9 @@ Network configuration
 The network configuration should already be set, since it was set during CentOS
 setup stage.
 
-You may want to review the configuration files
+You may want to review the configuration files ::
 
-   ``/etc/sysconfig/network-scripts/ifcfg-DEVICE``
+   /etc/sysconfig/network-scripts/ifcfg-DEVICE
 
 You may also want to review the file ``/etc/resolv.conf``
 to check the nameservers.

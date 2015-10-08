@@ -16,8 +16,8 @@ Before you deploy GeoServer stop the running Tomcat instance:
     sudo service tomcat7 stop
 
 Now copy the downloaded GeoServer archive inside Tomcat's webapps folder
-
 ::
+
     sudo cp /home/geonode/geonode/downloaded/geoserver.war /var/lib/tomcat7/webapps/
 
 Test GeoServer

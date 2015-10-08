@@ -45,7 +45,7 @@ Change the value of the `SITEURL`
     SITEURL = "http://localhost/"
 
 Now configure database access:
-Uncomment the `ENGINE': 'django.contrib.gis.db.backends.postgis` line
+Uncomment the `ENGINE`: `django.contrib.gis.db.backends.postgis` line
 and comment the one with empty `ENGINE` variable. Also set the `NAME` variable to
 `geonode_data`
 ::

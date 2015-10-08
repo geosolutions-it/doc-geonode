@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 19:01+0200\n"
-"PO-Revision-Date: 2015-10-08 19:12+0200\n"
+"POT-Creation-Date: 2015-10-09 00:57+0200\n"
+"PO-Revision-Date: 2015-10-09 01:22+0200\n"
 "Last-Translator: matteo cima <matteocima@hotmail.com>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-"
 "documentation/language/fr/)\n"
@@ -78,7 +78,7 @@ msgid ""
 msgstr ""
 "Si vous rencontrez des problèmes lors de l'installation, reportez-vous à la "
 "`documentation officielle <http://docs.ansible.com/ansible/"
-"intro_installation.html>` _"
+"intro_installation.html>`_"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:25
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:23
@@ -185,7 +185,7 @@ msgid ""
 "and placed inside the `.ssh` folder in your user's home directory."
 msgstr ""
 "Et suivez les instructions à l'écran. Une nouvelle paire de clés est générée "
-"et placée dans le dossier '.ssh' dans votre répertoire utilisateur."
+"et placée dans le dossier `.ssh` dans votre répertoire utilisateur."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:121
 msgid ""
@@ -209,8 +209,7 @@ msgid ""
 "<https://help.ubuntu.com/community/SSH/OpenSSH/Keys>`_ document"
 msgstr ""
 "Pour plus d'informations sur la façon de configurer SSH keys dans Ubuntu "
-"refere à ' ce <https: help.ubuntu.com/community/ssh/openssh/keys=\"\">' _ "
-"document</https:>"
+"refere à `ce <https://help.ubuntu.com/community/SSH/OpenSSH/Keys>`_ document"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:131
 msgid "Connect to managed nodes"
@@ -288,10 +287,10 @@ msgid ""
 "usage stats. Note that we used the `shell` module (-m flag) with the command "
 "as the argument (-a flag)"
 msgstr ""
-"Dans cet exemple, nous avons couru la commande `libre` sur des hôtes "
-"distants à faire mémoire des statistiques d'utilisation. Notez que nous "
-"avons utilisé le module de `shell` (-indicateur m) avec la commande comme "
-"argument (-un drapeau)"
+"Dans cet exemple, nous avons couru la commande `free` sur des hôtes distants "
+"à faire mémoire des statistiques d'utilisation. Notez que nous avons utilisé "
+"le module de `shell` (-m drapeau) avec la commande comme argument (-a "
+"drapeau)"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:186
 msgid "File Transfer"
@@ -310,7 +309,7 @@ msgid ""
 msgstr ""
 "Nous avons utilisé la commande `ansible` pour transférer le fichier local /"
 "home/geo/test vers le nœud distant dans le répertoire home de l'utilisateur "
-"(\"~ /\")"
+"('~/')"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:209
 msgid "Managing Packages"
@@ -373,8 +372,8 @@ msgid ""
 "<https://docs.ansible.com/ansible/intro_adhoc.html>`_"
 msgstr ""
 "Pour plus d'informations sur ad hoc commande faites référence à la "
-"`documentation officielle\n"
-" <https: docs.ansible.com/ansible/intro_adhoc.html=\"\">' _</https:>"
+"`documentation officielle <https://docs.ansible.com/ansible/intro_adhoc."
+"html>`_"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:249
 msgid ""
@@ -382,9 +381,9 @@ msgid ""
 "list <http://docs.ansible.com/ansible/list_of_all_modules.html>`_ available "
 "at Ansible web site"
 msgstr ""
-"Il s'agissait de quelques  avilable de modules pour ansible. Voir la \"liste "
-"complète <http: docs.ansible.com/ansible/list_of_all_modules.html=\"\">' _ "
-"site web Ansible à</http:>"
+"Il s'agissait de quelques  avilable de modules pour ansible. Voir la `liste "
+"complète <http://docs.ansible.com/ansible/list_of_all_modules.html>`_ site "
+"web Ansible à"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:254
 msgid "Ansible Playbooks"
@@ -436,8 +435,8 @@ msgid ""
 "Playbooks are expressed in `YAML <https://en.wikipedia.org/wiki/YAML>`_ "
 "format"
 msgstr ""
-"Playbooks sont exprimés en \"YAML <https: en.wikipedia.org/wiki/yaml=\"\">' "
-"_ format</https:>"
+"Playbooks sont exprimés en `YAML <https://en.wikipedia.org/wiki/YAML>`_ "
+"format"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:273
 msgid "Here is an example of a Playbook: ::"
@@ -517,8 +516,8 @@ msgid ""
 "<http://jinja.pocoo.org/>`_"
 msgstr ""
 "La deuxième tâche spécifie un fichier de configuration d'apache à l'aide "
-"d'un `modèle`. Fichiers de modèle pour un écrits en \"langage modèle Jinja2 "
-"<http: jinja.pocoo.org/=\"\">' _</http:>"
+"d'un `modèle`. Fichiers de modèle pour un écrits en `langage modèle Jinja2 "
+"<http://jinja.pocoo.org/>`_"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:320
 msgid ""
@@ -573,17 +572,17 @@ msgid ""
 "introduction refer the `official documentation <https://docs.ansible.com/>`_"
 msgstr ""
 "Ceci conclut notre bref tutoriel sur Ansible. Pour une introduction plus "
-"complète, consultez la `documentation officielle <https: docs.ansible.com/="
-"\"\">' _</https:>"
+"complète, consultez la `documentation officielle <https://docs.ansible.com/"
+">`_"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\running_ansible.rst:355
 msgid ""
 "Alse, take a look at the `Ansible examples repository <https://github.com/"
 "ansible/ansible-examples>`_ for a set of Playbooks showing common techniques."
 msgstr ""
-" Jetez un oeil aussi à la \"référentiel exemples Ansible <https: github.com/"
-"ansible/ansible-examples=\"\">' _ pour un ensemble de Playbooks montrant les "
-"techniques courantes.</https:>"
+" Jetez un oeil aussi à la `référentiel exemples Ansible <https://github.com/"
+"ansible/ansible-examples>`_f pour un ensemble de Playbooks montrant les "
+"techniques courantes."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:5
 msgid "System Preparation & Prerequisites"
@@ -958,7 +957,7 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:5
 msgid "Running a VM with Vagrant"
-msgstr "Une machine virtuelle en cours d'exécution avec vagabond"
+msgstr "Une machine virtuelle en cours d'exécution avec Vagrant"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:7
 msgid ""
@@ -966,11 +965,11 @@ msgid ""
 "VM using `Vagrant`_"
 msgstr ""
 "Dans cette section, vous trouverez des instructions sur la façon de "
-"configurer une VM de 14.04 Ubuntu à l'aide de `Vagabond` _"
+"configurer une VM de 14.04 Ubuntu à l'aide de `Vagrant`_"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:13
 msgid "Vagrant Setup"
-msgstr "Programme d'installation de vagabonds"
+msgstr "Programme d'installation de Vagrant"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:15
 msgid ""
@@ -978,7 +977,7 @@ msgid ""
 "web site. Choose the installer matching your operating system and "
 "architecture."
 msgstr ""
-"Télécharger vagabond de la `officielle <https://www.vagrantup.com/"
+"Télécharger Vagrant de la `officielle <https://www.vagrantup.com/"
 "downloads>`_  web site. Choisir le programme d'installation correspondant à "
 "votre système d'exploitation et l'architecture."
 
@@ -988,9 +987,9 @@ msgid ""
 "documentation <https://docs.vagrantup.com/v2/installation/index.html>`_ if "
 "you encounter any problem."
 msgstr ""
-"Le processus d'installation est simple, consultez vagabond ' documentation "
-"officielle <https: docs.vagrantup.com/v2/installation/index.html=\"\">' _ si "
-"vous rencontrez n'importe quel problème.</https:>"
+"Le processus d'installation est simple, consultez Vagrant `documentation "
+"officielle <https://docs.vagrantup.com/v2/installation/index.html>`_ si vous "
+"rencontrez n'importe quel problème."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:21
 msgid ""
@@ -1006,7 +1005,7 @@ msgid ""
 "supported out of the box. Just make sure you install `one of the supported "
 "versions of VirtualBox <https://docs.vagrantup.com/v2/virtualbox>`_"
 msgstr ""
-"Vagabond aura besoin d'un `fournisseur <https://docs.vagrantup.com/v2/"
+"Vagrant aura besoin d'un `fournisseur <https://docs.vagrantup.com/v2/"
 "providers/>`_ afin de configurer des ordinateurs virtuels. `VirtualBox` est "
 "prise en charge hors de la boîte. Assurez-vous juste que vous installez `une "
 "des versions prises en charge de VirtualBox <https://docs.vagrantup.com/v2/"
@@ -1017,8 +1016,8 @@ msgid ""
 "Open a terminal and type `vagrant version`. A message containing the "
 "installed version of Vagrant will be printed on the terminal ::"
 msgstr ""
-"Ouvrez un terminal et tapez `version vagabonds`. Un message contenant la "
-"version installée de vagabond s'imprimera sur le terminal::"
+"Ouvrez un terminal et tapez `version Vagrants`. Un message contenant la "
+"version installée de Vagrant s'imprimera sur le terminal::"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:37
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:74
@@ -1032,7 +1031,7 @@ msgid ""
 "run ::"
 msgstr ""
 "Maintenant que Vagrant est installé nous allons créer notre Ubuntu Virtual "
-"Machine. Ouvrez le terminal et créer un nouveau dossier nommé `vagrand`. "
+"Machine. Ouvrez le terminal et créer un nouveau dossier nommé `vagrant`. "
 "Entrez dans le dossier et exécutez::"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:51
@@ -1059,9 +1058,8 @@ msgid ""
 msgstr ""
 "La première fois que vous exécutez la commande ça va prendre un certain "
 "temps puisque vous n'avez pas une image disponible localement de la machine "
-"virtuelle. Vagabond va télécharger la machine virtuelle de  vagabond "
-"pourrait <https: vagrantcloud.com/=\"\">' _ sur votre système local.::</"
-"https:>"
+"virtuelle. Vagrant va télécharger la machine virtuelle de `Vagrant Could "
+"<https://vagrantcloud.com/>`_ sur votre système local.::"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:76
 msgid "At the end of the download process Vagrant will start the VM."
@@ -1085,8 +1083,8 @@ msgstr ""
 "travailler. La plupart des distributions Linux disposent d'un SSH installé. "
 "Si vous utilisez Windows comme l'installation de système d'exploitation "
 "invité MinGW ou Cygwin ou Git pour obtenir une ligne de commande SSH client. "
-"Plus d'informations disponibles ' ici <http: docs-v1.vagrantup.com/v1/docs/"
-"getting-started/ssh.html=\"\">' _</http:>"
+"Plus d'informations disponibles `ici <http://docs-v1.vagrantup.com/v1/docs/"
+"getting-started/ssh.html>`_"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_running_vagrant.rst:90
 msgid ""
@@ -1094,7 +1092,7 @@ msgid ""
 "`vagrant`."
 msgstr ""
 "Vous serez connecté à l'invité d'ordinateur virtuel par SSH en tant "
-"qu'utilisateur `vagabond`."
+"qu'utilisateur `Vagrant`."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:5
 msgid "VM Setup with VirtualBox"
@@ -1207,7 +1205,7 @@ msgid ""
 msgstr ""
 "Sélectionnez ensuite la quantité de mémoire que vous souhaitez attribuer à "
 "la machine virtuelle, `Ubuntu recommande <https://help.ubuntu.com/community/"
-"Installation/SystemRequirements>`_ au moins 512 Mo de mémoire, mais nous "
+"Installation/SystemRequirements>`_ au moins 512 MB de mémoire, mais nous "
 "allons avoir besoin de plus pour d'exécuter GeoNode reportez-vous aux "
 "sections `Préparation & préalables du système` pour plus de détails."
 
@@ -1238,9 +1236,8 @@ msgid ""
 "Click on the DVD icon next to the `Optical Drive` drop down menu and select "
 "the Ubuntu 14.04 `.iso` file from your file system"
 msgstr ""
-"Cliquez sur l'icône de DVD à côté du menu déroulant 'Optical Drive' et "
-"sélectionnez le fichier \".iso\" de 14.04 Ubuntu dans votre système de "
-"fichiers"
+"Cliquez sur l'icône de DVD à côté du menu déroulant `Optical Drive` et "
+"sélectionnez le fichier `.iso` de 14.04 Ubuntu dans votre système de fichiers"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:117
 msgid "Edit other VM setting if you need to, then click `OK`."
@@ -1291,8 +1288,7 @@ msgstr ""
 "partitionnement des disques. Si vous vous souvenez, nous avons créé un "
 "nouveau `disque virtuel` au cours du processus de configuration de machine "
 "virtuelle pour Ubuntu. Nous allons lui confier la totalité du disque. "
-"Sélectionnez \"effacer le disque et installer Ubuntu\", puis \"installer "
-"maintenant\""
+"Sélectionnez `Erase disk and install Ubuntu`, puis  `Install Now`"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:155
 msgid "You will be prompted for confirmation."
@@ -1303,9 +1299,9 @@ msgid ""
 "Now select the correct time zone for your location, then select the language "
 "for the VM and enter the details for the administrator user."
 msgstr ""
-"Maintenant, sélectionnez le fuseau horaire correct pour votre emplacement, "
-"puis sélectionnez la langue pour la machine virtuelle et entrer dans les "
-"détails pour l'utilisateur de l'administrateur."
+"Maintenant, sélectionnez le fuseau horaire correspondant à votre "
+"emplacement, puis sélectionnez la langue pour la VM et entrez les détails "
+"pour l'utilisateur de l'administrateur."
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\vm_setup_virtualbox.rst:172
 msgid ""
@@ -1350,7 +1346,7 @@ msgid ""
 "to instruct GeoNode on who is allowed to connect to it."
 msgstr ""
 "Maintenant que toutes les applications ont été configurées, nous allons "
-"montrer à GeoNode comment se connecter à 'PostgreSQL' et `GeoServer`. Nous "
+"montrer à GeoNode comment se connecter à `PostgreSQL` et `GeoServer`. Nous "
 "allons également instruire GeoNode sur qui est autorisé à se connecter à lui."
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:19
@@ -1385,7 +1381,7 @@ msgstr ""
 msgid "Add the `POSTGIS_VERSION` variable matching your PostGIS version: ::"
 msgstr ""
 "Ajoutez la variable `POSTGIS_VERSION` correspondante à votre version de "
-"PostGIS:::"
+"PostGIS: ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:41
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:74
@@ -1400,16 +1396,15 @@ msgid "Change the value of the `SITEURL` ::"
 msgstr "Modifiez la valeur de la `SITEURL`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:47
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:80
 msgid ""
-"Now configure database access: Uncomment the `ENGINE': 'django.contrib.gis."
+"Now configure database access: Uncomment the `ENGINE`: `django.contrib.gis."
 "db.backends.postgis` line and comment the one with empty `ENGINE` variable. "
 "Also set the `NAME` variable to `geonode_data` ::"
 msgstr ""
-"Maintenant configurer l'accès de la base de données : décommenter le "
-"`moteur`: `django.contrib.gis.db.backends.postgis` ligne et commentaire "
-"celui avec la variable `ENGINE` vide. Également définir la variable `Nom` à "
-"`geonode_data`::"
+"Maintenant configurer l'accès de base de données: Supprimez la `ENGINE`: "
+"`django.contrib.gis.db.backends.postgis` ligne et de commenter l'un avec "
+"vide variable `ENGINE`. Également définir la variable `NAME` à "
+"`geonode_data` ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:63
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:96
@@ -1418,7 +1413,7 @@ msgid ""
 "`PUBLIC_LOCATION` variables as follows: ::"
 msgstr ""
 "Puis configurer l'emplacement de Geoserver : modifier la valeur des "
-"variables `LOCATION` et `PUBLIC_LOCATION` comme suit:::"
+"variables `LOCATION` et `PUBLIC_LOCATION` comme suit: ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:74
 msgid "The resulting configuration file should look like this:"
@@ -1432,7 +1427,7 @@ msgstr "Créer GeoNode super-utilisateur"
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:194
 msgid "Now create the admin user for GeoNode running the following: ::"
 msgstr ""
-"Maintenant, créez l'utilisateur admin pour GeoNode exécutant ce qui suit:::"
+"Maintenant, créez l'utilisateur admin pour GeoNode exécutant ce qui suit: ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:161
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:199
@@ -1456,7 +1451,7 @@ msgstr ""
 "Nous avons configuré déjà les bases de données et les autorisations "
 "utilisateur de Geonode pour PostgreSQLet avons demandé à GeoNode sur la "
 "façon d'accéder à la base de données. Maintenant préparons-nous la base de "
-"données exécutant ce qui suit:::"
+"données exécutant ce qui suit: ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:173
 msgid ""
@@ -1473,7 +1468,7 @@ msgstr ""
 msgid "Test that you are able to connect to the database as follows: ::"
 msgstr ""
 "Test que vous êtes en mesure de vous connectez à la base de données comme "
-"suit:::"
+"suit: ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:181
 msgid "and ::"
@@ -1489,7 +1484,7 @@ msgid ""
 "Apache: ::"
 msgstr ""
 "Nous sommes prêts à redémarrer GeoNode (Apache) et tester l'installation. "
-"Redémarrez Apache:::"
+"Redémarrez Apache: ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:194
 msgid "Open the browser and navigate to http://localhost/"
@@ -1573,7 +1568,7 @@ msgid ""
 "`pg_hba.conf`::"
 msgstr ""
 "Maintenant, nous allons changer de stratégie d'accès d' utilisateur pour les "
-"connexions locales dans fichier \"pg_hba.conf\"::"
+"connexions locales dans fichier `pg_hba.conf`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:45
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:49
@@ -1582,7 +1577,7 @@ msgid ""
 "Change ::"
 msgstr ""
 "Faites défiler jusqu'au bas du document. Il suffit de modifier une seule "
-"ligne. Changement::"
+"ligne. Changement ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:50
 msgid "Into: ::"
@@ -1604,7 +1599,7 @@ msgstr ""
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:60
 msgid "Then restart `PostgreSQL` to make the change effective: ::"
 msgstr ""
-"Puis relancez `PostgreSQL` pour que les modifications prennent effet:::"
+"Puis relancez `PostgreSQL` pour que les modifications prennent effet ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:64
 msgid ""
@@ -1628,8 +1623,8 @@ msgstr ""
 "Cette partie de la documentation décrit le processus complet d'installation "
 "pour GeoNode sur une machine Ubuntu 14.04. La fin de cette section de la "
 "documentation décrit également comment automatiser l'installation et la "
-"comfiguration de l'utilisation de GeoNode ' Ansible <http: www.ansible.com/="
-"\"\">' _.</http:>"
+"comfiguration de l'utilisation de GeoNode `Ansible <http://www.ansible.com/"
+">`_."
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:5
 msgid "Install GeoNode Application"
@@ -1681,7 +1676,7 @@ msgid ""
 msgstr ""
 "Tout d'abord, nous allons installer tous les packages de logiciels, que nous "
 "allons avoir besoin pour l'installation de GeoNode. Parmi d'autres `Tomcat "
-"7`, 'PostgreSQL', 'PostGIS\", 'Apache HTTP server' et `Git`. Exécutez la "
+"7`, `PostgreSQL`, `PostGIS`, `Apache HTTP server` et `Git`. Exécutez la "
 "commande suivante pour installer tous les paquets::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:78
@@ -1689,7 +1684,7 @@ msgid ""
 "You will be prompted for `geo` user's password (`geo`) and for confirmation "
 "twice"
 msgstr ""
-"Vous serez invité pour le mot de passe de l'utilisateur `geo` ('geo') et "
+"Vous serez invité pour le mot de passe de l'utilisateur `geo` (`geo`) et "
 "confirmer deux fois"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:84
@@ -1718,8 +1713,8 @@ msgid ""
 "the following command group."
 msgstr ""
 "Dans le but de cette formation le GeoNode référentiel a été téléchargé et "
-"placé dans le 'geonode' utilisateur 'dossier' (/ home/geo/geonode). * Passer "
-"* le groupe de commande suivant."
+"placé dans le `geonode` utilisateur `dossier` (/home/geo/geonode). *Passer* "
+"le groupe de commande suivant."
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:105
 msgid "Move into the project folder ::"
@@ -1735,7 +1730,7 @@ msgid ""
 "and installed, *Skip* the following command:"
 msgstr ""
 "Dans le but de cette formation python GeoNode paquets a été téléchargé et "
-"installé, * saute * la commande suivante :"
+"installé, *Passer* la commande suivante :"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:120
 msgid ""
@@ -1751,7 +1746,7 @@ msgid ""
 "downloaded. *Skip* the following command."
 msgstr ""
 "Encore une fois, dans le but de cette formation, l'archive web de GeoServer "
-"a été téléchargé . * Passer * la commande suivante."
+"a été téléchargé. *Passer* la commande suivante."
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:132
 msgid ""
@@ -1788,22 +1783,10 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:18
 msgid ""
-"Now copy the downloaded GeoServer archive inside Tomcat's webapps folder"
+"Now copy the downloaded GeoServer archive inside Tomcat's webapps folder ::"
 msgstr ""
 "Maintenant copiez l'archive téléchargée de GeoServer dans dossier webapps de "
-"Tomcat"
-
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:21
-msgid "::"
-msgstr "::"
-
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:21
-msgid ""
-"sudo cp /home/geonode/geonode/downloaded/geoserver.war /var/lib/tomcat7/"
-"webapps/"
-msgstr ""
-"sudo cp /home/geonode/geonode/downloaded/geoserver.war /var/lib/tomcat7/"
-"webapps/"
+"Tomcat ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:24
 msgid "Test GeoServer"
@@ -1832,7 +1815,7 @@ msgstr ""
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:38
 msgid "In a few seconds GeoServer web interface will show up:"
 msgstr ""
-"Dans le web de GeoServer ,l' interface apparaîtra dans quelques secondes :"
+"Dans le web de GeoServer, l' interface apparaîtra dans quelques secondes :"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:45
 msgid "GeoNode authentication integration"
@@ -1853,7 +1836,7 @@ msgstr "Arrêter  GeoServer ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:54
 msgid "And navigate to `/var/lib/tomcat7/webapps/geoserver/WEB-INF/` ::"
-msgstr "Et accédez à ' / var/lib/tomcat7/webapps/geoserver/WEB-INF /'::"
+msgstr "Et accédez à `/var/lib/tomcat7/webapps/geoserver/WEB-INF/` ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:58
 msgid "Edit `web.xml` with a text editor ::"
@@ -1882,11 +1865,11 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:107
 msgid "Set the `baseUrl` to GeoNode IP or hostname ::"
-msgstr "La valeur du \"baseUrl' GeoNode IP ou nom d'hôte::"
+msgstr "La valeur du `baseUrl` GeoNode IP ou nom d'hôte ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:118
 msgid "Restart GeoServer to make the changes effective ::"
-msgstr "Redémarrer GeoServer pour effectuer les modifications efficaces::"
+msgstr "Redémarrer GeoServer pour effectuer les modifications efficaces ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:5
 msgid "Setup & Configure HTTPD"
@@ -1903,15 +1886,15 @@ msgstr "Configuration d'Apache"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:12
 msgid "Navigate to Apache configurations folder: ::"
-msgstr "Accédez au dossier de configuration d'Apache:::"
+msgstr "Accédez au dossier de configuration d'Apache: ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:16
 msgid "And create a new configuration file for GeoNode: ::"
-msgstr "Et créer un nouveau fichier de configuration pour GeoNode:::"
+msgstr "Et créer un nouveau fichier de configuration pour GeoNode ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:20
 msgid "Place the following content inside the file: ::"
-msgstr "Placez le contenu suivant dans le fichier:::"
+msgstr "Placez le contenu suivant dans le fichier ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:88
 msgid ""
@@ -1927,15 +1910,15 @@ msgid ""
 "`ProxyPass` and `ProxyPassReverse` accordingly"
 msgstr ""
 "Dans le cas où GeoServer s'exécute sur une machine séparée, modifier en "
-"conséquence le `ProxyPass` et 'ProxyPassReverse'"
+"conséquence le `ProxyPass` et `ProxyPassReverse`"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:95
 msgid "Now load apache `poxy` module ::"
-msgstr "Maintenant charger le module `vérole` apache::"
+msgstr "Maintenant charger le module `vérole` apache ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:99
 msgid "And enable geonode configuration file ::"
-msgstr "Et activer le fichier de configuration geonode::"
+msgstr "Et activer le fichier de configuration geonode ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:103
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:201
@@ -1949,7 +1932,7 @@ msgstr ""
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:108
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:52
 msgid "Add `thumbs` and `layers` folders ::"
-msgstr "Ajouter des dossiers `pouces` et `couches`::"
+msgstr "Ajouter des dossiers `pouces` et `couches` ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:113
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:209
@@ -1958,11 +1941,11 @@ msgid ""
 "edit them: ::"
 msgstr ""
 "Modifier les autorisations sur les fichiers de GeoNode et les dossiers pour "
-"permettre à Apache de lire et éditer:::"
+"permettre à Apache de lire et éditer: ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:123
 msgid "Finally restart Apache to load the new configuration ::"
-msgstr "Enfin redémarrez Apache pour charger la nouvelle configuration::"
+msgstr "Enfin redémarrez Apache pour charger la nouvelle configuration ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:5
 msgid "Setup Using Ansible"
@@ -1976,12 +1959,11 @@ msgid ""
 "documentation or `Ansible official docmumentation <https://docs.ansible.com/"
 ">`_"
 msgstr ""
-"À l'aide de ' Ansible <http: www.ansible.com/=\"\">' _ nous pouvons "
-"automatiser l'installation et la configuration des GeoNode sur des "
-"ordinateurs les ou distants. Si vous avez jamais utilisé Ansible avant de "
-"jeter un oeil à la section `Ansible en cours d'exécution de scripts` de la "
-"documentation ou ' Ansible officielle docmumentation <https: docs.ansible."
-"com/=\"\">' _</https:> </http:>"
+"À l'aide de `Ansible <http://www.ansible.com/>`_ nous pouvons automatiser "
+"l'installation et la configuration des GeoNode sur des ordinateurs les ou "
+"distants. Si vous avez jamais utilisé Ansible avant de jeter un oeil à la "
+"section `Ansible en cours d'exécution de scripts` de la documentation ou "
+"`Ansible officielle docmumentation <https://docs.ansible.com/>`_"
 
 #: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:13
 msgid "GeoNode setup with Ansible"
@@ -1995,8 +1977,8 @@ msgid ""
 "files used by the playbook itself."
 msgstr ""
 "Dans les Machines virtuelles, nous avons fourni pour la formation viennent "
-"avec Ansible préinstallé. Dans le dossier de base de l'utilisateur `geo` (/ "
-"home/geo /) vous trouverez un playbook Ansible simple nous a écrit pour la "
+"avec Ansible préinstallé. Dans le dossier de base de l'utilisateur `geo` ( /"
+"home/geo/ ) vous trouverez un playbook Ansible simple nous a écrit pour la "
 "démonstration ainsi que certains fichiers de ressources utilisés par le "
 "playbook lui-même."
 
@@ -2006,12 +1988,12 @@ msgid ""
 "`ansible` folder inside geo's home folder ::"
 msgstr ""
 "Pour démarrer l'installation avec Ansible ouvrir un terminal et naviguez "
-"jusqu'au dossier 'ansible' à l'intérieur du dossier de départ de geo::"
+"jusqu'au dossier `ansible` à l'intérieur du dossier de départ de geo ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:24
 msgid "Then run the playbook using the `ansible-playbook` command ::"
 msgstr ""
-"Puis exécutez le playbook en utilisant la commande \"ansible-playbook\"::"
+"Puis exécutez le playbook en utilisant la commande `ansible-playbook` ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:28
 msgid ""
@@ -2039,7 +2021,7 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\index.rst:5
 msgid "GeoNode (v\\ |release|) installation on CentOS 7"
-msgstr "GeoNode (|release| v) installation sur CentOS 7"
+msgstr "GeoNode (v\\ |release|) installation sur CentOS 7"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\index.rst:7
 msgid ""
@@ -2059,7 +2041,7 @@ msgstr "Installer Apache ::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:12
 msgid "And additional modules::"
-msgstr "Modules complémentaires"
+msgstr "Modules complémentaires ::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:17
 msgid "Firewall configuration"
@@ -2084,10 +2066,10 @@ msgid ""
 "to perform external connection toward the DB. This is usually blocked by "
 "default by strict security policies, so we need to relax them::"
 msgstr ""
-"GeoNode à l'intérieur de httpd traversera WSGI. Cela signifie que httpd va "
-"essayer d'effectuer une connexion externe vers le DB. Ceci est généralement "
-"bloqué par défaut par des politiques strictes de sécurité, nous avons donc "
-"besoin de les détendre x::"
+"GeoNode se déroulera à l'intérieur httpd travers WSGI. Cela signifie que "
+"httpd va essayer de réaliser une connexion externe vers la DB. Ceci est "
+"habituellement bloqué par défaut par les politiques de sécurité strictes, "
+"donc nous avons besoin de les détendre ::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:34
 msgid ""
@@ -2096,8 +2078,8 @@ msgid ""
 "line::"
 msgstr ""
 "L'autre question est sur SELinux lui-même : il n'est pas ami de WSGI "
-"sympathique, donc nous devrons  le désactiver. Modifiez le fichier `/ etc/"
-"sysconfig/selinux '' et changez la ligne::"
+"sympathique, donc nous devrons  le désactiver. Modifiez le fichier ``/etc/"
+"sysconfig/selinux`` et changez la ligne::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:39
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:53
@@ -2117,22 +2099,21 @@ msgid ""
 "As ``root`, create the file ``/etc/httpd/conf.d/geonode.conf`` and insert "
 "into it :download:`this content <resources/geonode.conf>`."
 msgstr ""
-"Comme '' racine`, créez le fichier '' /etc/httpd/conf.d/geonode.conf'' et "
-"insérer dedans : Télécharger:' ce contenu <resources eonode.conf=\"\">'.</"
-"resources>"
+"Comme ``root`, créez le fichier ``/etc/httpd/conf.d/geonode.conf`` et "
+"insérer dedans :download:`ce contenu <resources/geonode.conf>`."
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:57
 msgid "Set appropriate permissions on the folders ::"
-msgstr "Définissez les autorisations appropriées sur les dossiers::"
+msgstr "Définissez les autorisations appropriées sur les dossiers ::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:67
 msgid "Then restart httpd to make it reload the new configurations::"
 msgstr ""
-"Puis redémarrez httpd pour faire recharger les nouvelles configurations::"
+"Puis redémarrez httpd pour faire recharger les nouvelles configurations ::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:72
 msgid "To automatically start Apache at boot, run::"
-msgstr "Pour démarrer automatiquement Apache au démarrage, exécutez::"
+msgstr "Pour démarrer automatiquement Apache au démarrage, exécutez ::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:5
 msgid "Installing PostgreSQL and PostGIS"
@@ -2182,7 +2163,7 @@ msgid ""
 "pg_hba.conf: ::"
 msgstr ""
 "Maintenant, nous allons changer de stratégie d'accès de l'utilisateur pour "
-"les connexions locales au fichier pg_hba.conf:::"
+"les connexions locales au fichier `pg_hba.conf`::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:63
 msgid ""
@@ -2253,19 +2234,19 @@ msgid ""
 "You may already have the OpenJDK package (``java-1.7.0-openjdk-devel."
 "x86_64``) installed. Check and see if Java is already installed::"
 msgstr ""
-"Vous avez déjà installé le paquet OpenJDK ('' java-1.7.0-openjdk-devel."
-"x86_64''). Vérifier et voir si Java est déjà installée::"
+"Vous avez déjà installé le paquet OpenJDK (``java-1.7.0-openjdk-devel."
+"x86_64``). Vérifier et voir si Java est déjà installée::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:23
 msgid "Otherwise install it running: ::"
-msgstr "Sinon installez-le en cours d'exécution:::"
+msgstr "Sinon installez-le en cours d'exécution: ::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:28
 msgid ""
 "Once done, the command ``java -version`` should return info about the "
 "installed version."
 msgstr ""
-"Une fois cela fait, la commande `java-version'' doit retourner des "
+"Une fois cela fait, la commande ``java -version`` doit retourner des "
 "informations sur la version installée."
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:30
@@ -2297,7 +2278,7 @@ msgstr "Vous pouvez télécharger le RPM de JDK d'Oracle depuis cette page :"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:43
 msgid "http://www.oracle.com/technetwork/java/javase/downloads/index.html"
-msgstr "http://www.Oracle.com/technetwork/Java/javase/downloads/index.html"
+msgstr "http://www.oracle.com/technetwork/java/javase/downloads/index.html"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:45
 msgid ""
@@ -2323,12 +2304,12 @@ msgid ""
 "finish the download and transfer the JDK RPM to the server using ``scp``."
 msgstr ""
 "terminer le téléchargement et le transfert le JDK tr/min sur le serveur à "
-"l'aide de '' scp''."
+"l'aide de ``scp``."
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:51
 msgid "Once you have the ``.rpm`` file, you can install it by::"
 msgstr ""
-"Une fois que vous avez le fichier '' .rpm '', vous pouvez l'installer par::"
+"Une fois que vous avez le fichier ``.rpm``, vous pouvez l'installer par::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:56
 msgid ""
@@ -2336,9 +2317,9 @@ msgid ""
 "commands are still the ones from OpenJDK. In order to switch JDK version you "
 "have to set the proper system `alternatives`."
 msgstr ""
-"Une fois installé, vous voyez encore que les commandes par défaut de '' "
-"java'' et '' javac'' sont toujours celles de OpenJDK. Pour changer la "
-"version du JDK, vous devrez mettre le système correct \"alternatives\"."
+"Une fois installé, vous voyez encore que les commandes par défaut de "
+"``java`` et ``javac`` sont toujours celles de OpenJDK. Pour changer la "
+"version du JDK, vous devrez mettre le système correct `alternatives`."
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:60
 msgid ""
@@ -2346,17 +2327,17 @@ msgid ""
 "knowledge_center/article/how-to-install-the-oracle-jdk-on-fedora-15-16>`_ . "
 "Issue the command::"
 msgstr ""
-"Vous pouvez faire référence à ' cette page <http: www.rackspace.com/"
-"knowledge_center/article/how-to-install-the-oracle-jdk-on-fedora-15-16="
-"\"\">' _. Émettez la commande::</http:>"
+"Vous pouvez faire référence à `cette page <http://www.rackspace.com/"
+"knowledge_center/article/how-to-install-the-oracle-jdk-on-fedora-15-16>`_. "
+"Émettez la commande::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:84
 msgid "Then run ::"
-msgstr "Puis exécutez::"
+msgstr "Puis exécutez ::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:88
 msgid "and select the number related to ``/usr/java/latest/bin/java``."
-msgstr "et sélectionnez le numéro relié à `/ usr/java/plus tard/bin/java ''."
+msgstr "et sélectionnez le numéro relié à ``/usr/java/latest/bin/java``."
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:90
 msgid ""
@@ -2383,12 +2364,12 @@ msgid ""
 "Then prepare a clean instance called ``base`` to be used as a template for "
 "all tomcat instances ::"
 msgstr ""
-"Préparer ensuite une instance propre appelée '' base'' à utiliser comme "
+"Préparer ensuite une instance propre appelée ``base`` à utiliser comme "
 "modèle pour toutes les instances de tomcat::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:120
 msgid "Then create GeoServer's instance directory structure ::"
-msgstr "Puis créez la structure du répertoire de GeoServer instance::"
+msgstr "Puis créez la structure du répertoire de GeoServer instance ::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:127
 msgid "Instance manager script"
@@ -2396,7 +2377,7 @@ msgstr "Script du gestionnaire instance"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:129
 msgid "Copy the existing management script ::"
-msgstr "Copiez le script de gestion existant::"
+msgstr "Copiez le script de gestion existant ::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:135
 msgid ""
@@ -2478,6 +2459,17 @@ msgstr "Naviguez jusqu'au dossier sources et installez les packages requis::"
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:43
 msgid "Edit settings"
 msgstr "Modifier les paramètres"
+
+#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:80
+msgid ""
+"Now configure database access: Uncomment the `ENGINE': 'django.contrib.gis."
+"db.backends.postgis` line and comment the one with empty `ENGINE` variable. "
+"Also set the `NAME` variable to `geonode_data` ::"
+msgstr ""
+"Maintenant configurer l'accès de base de données: Supprimez la `ENGINE`: "
+"`django.contrib.gis.db.backends.postgis` ligne et de commenter l'un avec "
+"vide variable `ENGINE`. Également définir la variable `NAME` à "
+"`geonode_data` ::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:107
 msgid "The resulting configuration file should look like this: ::"
@@ -2653,20 +2645,16 @@ msgstr ""
 "au cours de l'étape d'installation de CentOS."
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:49
-msgid "You may want to review the configuration files"
-msgstr "Vous voudrez peut-être examiner les fichiers de configuration"
-
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:51
-msgid "``/etc/sysconfig/network-scripts/ifcfg-DEVICE``"
-msgstr "'/ etc/sysconfig/network-scripts/ifcfg-DEVICE''"
+msgid "You may want to review the configuration files ::"
+msgstr "Vous pouvez passer en revue les fichiers de configuration ::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:53
 msgid ""
 "You may also want to review the file ``/etc/resolv.conf`` to check the "
 "nameservers."
 msgstr ""
-"Vous pouvez également examiner le fichier '' /etc/resolv.conf'' pour "
-"vérifier les noms de serveurs."
+"Vous pouvez également examiner le fichier ``/etc/resolv.conf`` pour vérifier "
+"les noms de serveurs."
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:56
 msgid "Check that the connection is up by pinging and external server::"
@@ -2712,8 +2700,8 @@ msgid ""
 "Login as ``root'` user and give the ``geo`` user administrative privileges "
 "by adding him to the ``wheel`` group: ::"
 msgstr ""
-"Ouverture de session comme '' racine '' utilisateur et donner le '' géo '' "
-"privilèges utilisateur en lui ajoutant au groupe '' roue '':::"
+"Ouverture de session comme ``root`` utilisateur et donner le ``geo`` "
+"privilèges utilisateur en lui ajoutant au groupe ``wheel``: ::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:83
 msgid "SSH access"
@@ -2763,7 +2751,7 @@ msgid ""
 "authenticate users for SSH access. Let's set it up and disable password "
 "based authentication"
 msgstr ""
-"_ \"Authentification par clé publique\" est généralement considéré comme un "
+"`Authentification par clé publique`_ est généralement considéré comme un "
 "moyen plus sûr pour authentifier les utilisateurs pour l'accès SSH. Nous "
 "allons mettre en place et désactivez l'authentification de mot de passe basé"
 
@@ -2781,9 +2769,9 @@ msgid ""
 "several ways to do it, we are going to use the `ssh-copy-id` tool::"
 msgstr ""
 "Suivez la procédure, vous allez vous retrouver avec votre clé nouvellement "
-"générée sous '' ~/.ssh'' maintenant, copiez votre `public` (par défaut, il "
-"s'appelle id_rsa.pub) clé sur la machine de CentOS en '' /home/geo/.ssh/"
-"authorized_keys''. Il existe plusieurs façons de le faire, nous allons "
+"générée sous ``~/.ssh`` maintenant, copiez votre `public` (par défaut, il "
+"s'appelle id_rsa.pub) clé sur la machine de CentOS en ``/home/geo/.ssh/"
+"authorized_keys``. Il existe plusieurs façons de le faire, nous allons "
 "utiliser l'outil `ssh-copy-id`::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:125
@@ -2810,7 +2798,7 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:137
 msgid "Edit ``/etc/ssh/sshd_config`` as follows::"
-msgstr "Modifier '/ etc/ssh/sshd_config '' comme suit::"
+msgstr "Modifier ``/etc/ssh/sshd_config`` comme suit::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:151
 msgid "Installing ntp"
@@ -2830,7 +2818,7 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:161
 msgid "Replace ``tempo.ien.it`` with your nearest ntp server."
-msgstr "placez votre serveur ntp le plus proche de '' tempo.ien.it''."
+msgstr "placez votre serveur ntp le plus proche de ``tempo.ien.it``."
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:163
 msgid "Sync with the server by issuing::"
@@ -2857,8 +2845,8 @@ msgid ""
 "Welcome to the GeoNode Training `Installation & Admin` documentation v\\ |"
 "release|."
 msgstr ""
-"Bienvenue à la formation de GeoNode `Installation & Admin` documentation v |"
-"release|."
+"Bienvenue à la formation de GeoNode `Installation & Admin` documentation v\\ "
+"|release|."
 
 #: ..\..\002_install_and_admin\index.rst:8
 msgid ""
@@ -2960,16 +2948,3 @@ msgstr ""
 "Les emballage pour l'installation automatique sont fournis pour Ubuntu, "
 "donc, la seule option pour l'installation de GeoNode sur une plate-forme de "
 "CentOS est d' installer cela de la source."
-
-#~ msgid ""
-#~ "The `ls` command will list the content of your current working directory. "
-#~ "You can optionally provide a path to a directory as argument, in that "
-#~ "case `ls` will show you the content of that directory."
-#~ msgstr ""
-#~ "La commande `ls` liste le contenu de votre répertoire de travail courant. "
-#~ "Vous pouvez éventuellement fournir un chemin d'accès vers un répertoire "
-#~ "comme argument, dans ce cas `ls` va vous montrer le contenu de ce "
-#~ "répertoire."
-
-#~ msgid "$ ls /home geo  geonode"
-#~ msgstr "$ ls/home geonode geo"
