@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-07 13:51+0200\n"
-"PO-Revision-Date: 2015-10-08 14:54+0200\n"
+"PO-Revision-Date: 2015-10-08 15:12+0200\n"
 "Last-Translator: Alessio Fabiani <alessio.fabiani@geo-solutions.it>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-documentation/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -368,7 +368,7 @@ msgstr "HTML"
 
 #: ..\..\005_dev_workshop\001_devel_intro\standards.rst:44
 msgid "**HyperText Markup Language**, commonly referred to as **HTML**, is the standard markup language used to create web pages. [1]_ Web browsers can read HTML files and render them into visible or audible web pages. HTML describes the structure of a website semantically along with cues for presentation, making it a markup language, rather than a programming language."
-msgstr "**HyperText Markup Language**, communément appelé **HTML**, est le langage de balisage standard utilisé pour créer des pages web. [1] _ navigateurs web peuvent lire des fichiers HTML et les rendre dans des pages web visible ou audible. HTML décrit la structure d'un site sémantiquement avec repères pour la présentation, ce qui en fait un langage de balisage, plutôt qu'un langage de programmation."
+msgstr "**HyperText Markup Language**, communément appelé **HTML**, est le langage de balisage standard utilisé pour créer des pages web. [1]_ navigateurs web peuvent lire des fichiers HTML et les rendre dans des pages web visible ou audible. HTML décrit la structure d'un site sémantiquement avec repères pour la présentation, ce qui en fait un langage de balisage, plutôt qu'un langage de programmation."
 
 #: ..\..\005_dev_workshop\001_devel_intro\standards.rst:51
 msgid "HTML elements form the building blocks of all websites. HTML allows images and objects to be embedded and can be used to create interactive forms. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items."
@@ -389,15 +389,15 @@ msgstr "CSS"
 #: ..\..\005_dev_workshop\001_devel_intro\standards.rst:72
 msgid "**Cascading Style Sheets** (**CSS**) is a style sheet language used for describing the presentation of a document written in a markup language. [2]_ Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications. [3]_"
 msgstr ""
-"**Cascading Style Sheets** (**CSS**) est un langage de feuille de style utilisée pour décrire la présentation d'un document écrit dans un langage de balisage. [2] _ Bien que le plus souvent utilisé pour définir le style visuel des pages web et des interfaces utilisateur écrites en HTML et XHTML, la langue peut être appliqué à tout document XML, y compris XML brut, SVG et XUL, et est applicable à rendre dans le discours , ou sur d'autres supports. Avec HTML et JavaScript, CSS est une technologie clé utilisée par la plupart des sites Web pour créer des pages Web visuellement engageantes, des interfaces utilisateur pour les applications web et des interfaces utilisateur pour de nombreuses applications "
-"mobiles. [3] _"
+"**Cascading Style Sheets** (**CSS**) est un langage de feuille de style utilisée pour décrire la présentation d'un document écrit dans un langage de balisage. [2]_ Bien que le plus souvent utilisé pour définir le style visuel des pages web et des interfaces utilisateur écrites en HTML et XHTML, la langue peut être appliqué à tout document XML, y compris XML brut, SVG et XUL, et est applicable à rendre dans le discours , ou sur d'autres supports. Avec HTML et JavaScript, CSS est une technologie clé utilisée par la plupart des sites Web pour créer des pages Web visuellement engageantes, des interfaces utilisateur pour les applications web et des interfaces utilisateur pour de nombreuses applications "
+"mobiles. [3]_"
 
 #: ..\..\005_dev_workshop\001_devel_intro\standards.rst:83
 msgid ""
 "CSS is designed primarily to enable the separation of document content from document presentation, including aspects such as the layout, colors, and fonts. [4]_ This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content, such as semantically insignificant tables that were widely used to format pages before consistent CSS rendering was available in all major browsers. CSS makes it possible to separate presentation instructions from the HTML content in a separate "
 "file or style section of the HTML file. For each matching HTML element, it provides a list of formatting instructions. For example, a CSS rule might specify that “all heading 1 elements should be bold”, leaving pure semantic HTML markup that asserts “this text is a level 1 heading” without formatting code such as a ``<bold>`` tag indicating how such text should be displayed."
 msgstr ""
-"CSS est conçu principalement pour permettre la séparation du contenu du document de présentation des documents, y compris des aspects tels que la mise en page, les couleurs et les polices. [4] _ Cette séparation peut améliorer l'accessibilité du contenu, offrir plus de souplesse et de contrôle dans la spécification des caractéristiques de présentation, activer plusieurs pages HTML à partager formatage en spécifiant le CSS pertinente dans un fichier .css séparée, et de réduire la complexité et la répétition dans la structure contenu, tels que des tables sémantiquement insignifiants qui ont été largement utilisés pour les pages de format avant CSS rendu compatible était disponible dans tous les principaux "
+"CSS est conçu principalement pour permettre la séparation du contenu du document de présentation des documents, y compris des aspects tels que la mise en page, les couleurs et les polices. [4]_ Cette séparation peut améliorer l'accessibilité du contenu, offrir plus de souplesse et de contrôle dans la spécification des caractéristiques de présentation, activer plusieurs pages HTML à partager formatage en spécifiant le CSS pertinente dans un fichier .css séparée, et de réduire la complexité et la répétition dans la structure contenu, tels que des tables sémantiquement insignifiants qui ont été largement utilisés pour les pages de format avant CSS rendu compatible était disponible dans tous les principaux "
 "navigateurs. CSS permet de séparer les instructions de présentation du contenu HTML dans une section de fichier ou le style distinct du fichier HTML. Pour chaque élément HTML correspondant, il fournit une liste des instructions de formatage. Par exemple, une règle CSS peut spécifier que \"les 1 éléments de titre devraient être audacieux\", laissant balisage sémantique HTML pur qui affirme “ce texte est un titre de niveau 1“, sans le formatage du code comme un ``<bold>`` étiquette indiquant comment un tel texte doit être affiché."
 
 #: ..\..\005_dev_workshop\001_devel_intro\standards.rst:101
@@ -410,7 +410,7 @@ msgstr "REST"
 
 #: ..\..\005_dev_workshop\001_devel_intro\standards.rst:112
 msgid "In computing, **Representational State Transfer** (**REST**) is the software architectural style of the World Wide Web. [5]_ [6]_ [7]_ REST gives a coordinated set of constraints to the design of components in a distributed hypermedia system that can lead to a higher performing and more maintainable architecture."
-msgstr "En informatique, **Representational State Transfer** (**REST**) est le style architectural du logiciel du World Wide Web. [5] [6] [7] _ reste donne un ensemble coordonné de contraintes à la conception des composants dans un système hypermédia distribués qui peut entraîner une exécution plus élevée et plus d'architecture maintenable."
+msgstr "En informatique, **Representational State Transfer** (**REST**) est le style architectural du logiciel du World Wide Web. [5]_ [6]_ [7]_ REST donne un ensemble coordonné de contraintes à la conception des composants dans un système hypermédia distribués qui peut entraîner une exécution plus élevée et plus d'architecture maintenable."
 
 #: ..\..\005_dev_workshop\001_devel_intro\standards.rst:118
 msgid "To the extent that systems conform to the constraints of REST they can be called RESTful. RESTful systems typically, but not always, communicate over the Hypertext Transfer Protocol with the same HTTP verbs (GET, POST, PUT, DELETE, etc.) which web browsers use to retrieve web pages and to send data to remote servers. [8]_ REST interfaces usually involve collections of resources with identifiers, for example ``/people/tom``, which can be operated upon using standard verbs, such as ``DELETE /people/tom``."
@@ -4300,11 +4300,11 @@ msgstr "Tests de JavaScript a été désactivé actuellement en GeoNode. Il exis
 
 #: ..\..\005_dev_workshop\index.rst:5
 msgid "Developers Workshop"
-msgstr "Atelier de développeurs"
+msgstr "Developers Workshop"
 
 #: ..\..\005_dev_workshop\index.rst:7
 msgid "Welcome to the GeoNode Training `Developers Workshop` documentation v\\ |release|."
-msgstr "Bienvenue à la formation de GeoNode « Atelier de développeurs » documentation v |release|."
+msgstr "Bienvenue à la formation de GeoNode `Developers Workshop` documentation v\\ |release|."
 
 #: ..\..\005_dev_workshop\index.rst:9
 msgid "This workshop will teach how to develop with and for the `GeoNode <http://geonode.org>`_ software application. This module will introduce you to the components that GeoNode is built with, the standards that it supports and the services it provides based on those standards, and an overview its architecture."
