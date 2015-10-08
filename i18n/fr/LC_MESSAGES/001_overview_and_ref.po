@@ -81,7 +81,7 @@ msgstr "Geonode est une application web based et une plateforme pour le dévelop
 msgid ""
 "What GeoNode can be used for… `GeoNode Demo <http://demo.geonode.org/>`_ "
 "(admin/admin)"
-msgstr "Dans quel but Geonode peut être utilisé. Geonode démo: <http://demo.geonode.org/>`_ (admin/admin)"
+msgstr "Dans quel but Geonode peut être utilisé. `Geonode démo: <http://demo.geonode.org/>`_ (admin/admin)"
 
 #: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:5
 msgid "Interactive Mapping"
@@ -1406,7 +1406,7 @@ msgstr "Référence Doc"
 msgid ""
 "In this section, you will find information about each and every component of"
 " GeoNode, for example *GeoServer*, *GeoNode Settings*, *Security*, etc."
-msgstr "Dans cette section , vous trouverez des informations sur chaque composant de GeoNode , par exemple * GeoServer * , * Réglages GeoNode * , * Sécurité * , etc."
+msgstr "Dans cette section , vous trouverez des informations sur chaque composant de GeoNode , par exemple *GeoServer* , *Configurations de GeoNode* , *Sécurité* , etc."
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:5
 msgid "Getting Started With Django"
@@ -2204,7 +2204,7 @@ msgid ""
 "websites. Django emphasizes reusability and \"pluggability\" of components, "
 "rapid development, and the principle of *don't repeat yourself*. Python is "
 "used throughout, even for settings, files, and data models."
-msgstr "L'objectif principal de Django est de faciliter la création de sites complexes , bases de données axées . Django souligne la réutilisation et \" enfichabilité \" de composants, de développement rapide , et le principe de * Do not Repeat Yourself * . Python est utilisé partout , même pour les paramètres , fichiers et des modèles de données ."
+msgstr "L'objectif principal de Django est de faciliter la création de sites complexes , bases de données axées . Django souligne la réutilisation et \" pluggability \" de composants, de développement rapide , et le principe de * Do not Repeat Yourself * . Python est utilisé partout , même pour les paramètres , fichiers et des modèles de données ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\index.rst:12
 #: ..\..\001_overview_and_ref\index.rst:46
