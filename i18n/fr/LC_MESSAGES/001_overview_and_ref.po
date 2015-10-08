@@ -74,7 +74,7 @@ msgid ""
 "GeoNode is a web-based application and platform for developing geospatial "
 "information systems (GIS) and for deploying spatial data infrastructures "
 "(SDI)."
-msgstr "Geonode est une application web based et une plateforme pour le dévelopement de systéme d'informations géospatiales(GIS) et pour la creation d'infrastructures de données spatial. (SDI)"
+msgstr "Geonode est une application web based et une plateforme pour le dévelopement de systéme d'informations géospatiales (SIG) et pour la creation d'infrastructures de données spatial (SDI)."
 
 #: ..\..\001_overview_and_ref\001_user_features\index.rst:10
 #: ..\..\001_overview_and_ref\index.rst:27
@@ -140,23 +140,23 @@ msgstr "Catalogue de métadonnées."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:5
 msgid "GeoNode Quickstart"
-msgstr "Geonode démarrage rapide."
+msgstr "Geonode Quickstart."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:10
 msgid "In this Quickstart guide you will learn the following:"
-msgstr "Dans ce guide de démarrage rapide, vous allez apprendre ce qui suit:"
+msgstr "Dans cette section, vous allez apprendre ce qui suit:"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:12
 msgid "to register a new account to get started"
-msgstr "enregistrer un nouveau compte pour démarrer"
+msgstr "Enregistrer un nouveau compte"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:13
 msgid "add a new layer"
-msgstr "Ajouter un nouveau niveau"
+msgstr "Ajouter une nouvelle couche"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:14
 msgid "create a map using your new layer"
-msgstr "Créer une carte en utilisant un nouveau niveau."
+msgstr "Créer une carte en utilisant une nouvelle couche"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:15
 msgid "share your map with others"
@@ -167,7 +167,7 @@ msgid ""
 "Start GeoNode on your Live DVD or local VM and redirect your browser at "
 "`http://localhost:8000/ <http://localhost:8000/>`_ (this is the default "
 "port). The page will look like shown in the image below."
-msgstr "Démarrer Geonode sur votre Live DVD ou local VM et rediriger votre browser à `http://localhost:8000/ <http://localhost:8000/>`_( cela est le port par défaut). La page ressemblera à l'image ci-dessous."
+msgstr "Naviguez avec votre browser à `http://localhost:8000/ <http://localhost:8000/>`_ (cela est le port par défaut). La page ressemblera à l'image ci-dessous."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:23
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:18
