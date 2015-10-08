@@ -185,13 +185,13 @@ msgid ""
 "without being logged in, you are limited to read-only access of public "
 "layers. In order to create a map and add layers to it, you have to have "
 "create an account first."
-msgstr "A partir de l'interface montrée dessus, il est possible de voir et modifier des cartes et niveaux existants ainsi que de trouver des informations sur les autres utilisateurs de GeoNode. Sans s'identifier, vous vous limitez à lire l'accés des niveau publics. Pour créer une carte et y ajouter des niveau, il faut avoir créer d'abord un compte."
+msgstr "A partir de l'interface montrée dessus, il est possible de voir et modifier des cartes et couches existants ainsi que de trouver des informations sur les autres utilisateurs de GeoNode. Sans s'identifier, vous vous limitez à lire l'accés des couches publics. Pour créer une carte et y ajouter des couches, on doit avoir créé d'abord un compte."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:32
 msgid ""
 "From any page in the web interface, you will see a *Sign in* link. Click "
 "that link, and in the dialog that displays, click the *Register now* link."
-msgstr "Pour chaque page de l'interface web, vous verrez un link \" Sign in\" . Cliquez ce link et dans la boite de dialogue  qui s'affiche, cliquez le link \" Register now\"."
+msgstr "Pour chaque page de l'interface web, vous voyez un lien \" Sign in\" . Cliquez ce lien et dans la boite de dialogue qui s'affiche, cliquez le lien \" Register now\"."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:37
 msgid "*Sign in Form*"
@@ -201,7 +201,7 @@ msgstr "Formulaire d'inscription."
 msgid ""
 "On the next page, fill out the form. Enter a user name and password in the "
 "fields. Also, enter your email address for verification."
-msgstr "Dans la prochaine page, remplissez le formulaire. Ecrivez un username et une password dans les cases. Ecrivez votre adresse email pour une vérification."
+msgstr "Dans la prochaine page, remplissez le formulaire. Ecrivez un username et une password dans les cases. Ecrivez votre adresse email pour la vérification."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:44
 msgid "*Register Form*"
@@ -212,7 +212,7 @@ msgid ""
 "You will be returned to the welcome page. An email will be sent confirming "
 "that you have signed up. While you are now logged in, you will need to "
 "confirm your account. Navigate to the link that was sent in the email."
-msgstr "Vous serrez renvoyés à la page de bienvenue. Une email vous sera envoyée confirmant que vous êtes enregistrés. Alors que vous êtes maintenant identifié, vous devez confirmer votre compte. Naviguez au link envoyé à votre email."
+msgstr "On va etre renvoyés à la page de bienvenue. Une email vous sera envoyée confirmant que vous êtes enregistrés. Alors que vous êtes identifié, vous devez confirmer votre compte. Naviguez au link envoyé à votre email pour la confirmation."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:51
 msgid "*Confirm*"
@@ -227,19 +227,19 @@ msgstr "En cliquant \"confirm\", vous serez renvoyé à la homepage. Maintenat q
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:57
 msgid "2. Add a new layer"
-msgstr "2.Ajouter un nouveau niveau"
+msgstr "2.Ajouter un nouveau couche"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:59
 msgid ""
 "Layers are a published resource representing a raster or vector spatial data"
 " source. Layers also can be associated with metadata, ratings, and comments."
-msgstr "Les niveaux sont des ressources publiées représentant un raster ou une source de données spatiale de vecteur"
+msgstr "Les couches sont des ressources publiées représentant un raster ou une source de données spatiale vectoriel"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:61
 msgid ""
 "To add a layer to your account, navigate to the welcome page. There the "
 "following toolbar can be seen:"
-msgstr "Pour ajouter un niveau à votre compte, naviguez à partir de la page de bienvenue. D'ici la barre d'outils peut être vue:"
+msgstr "Pour ajouter une nouvelle couche à votre compte, naviguez à partir de la page de bienvenue. D'ici on peut voir la barre d'outils:"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:66
 msgid "*Toolbar*"
@@ -250,19 +250,19 @@ msgid ""
 "By clicking the *Layers* link you will be brought to the *Layers* menu where"
 " a new subtoolbar can be seen. This toolbar allows you to *Explore*, "
 "*Search* and *Upload* layers."
-msgstr "En cliquant sur les couches * * vous serez amené aux couches * * menu où une nouvelle subtoolbar peut être vu . Cette barre d'outils vous permet de * Explorer *, * Rechercher * et * Ajouter *  des couches ."
+msgstr "En cliquant sur les *Layers* vous serez amené aux *Layers* menu où une nouvelle subtoolbar peut être vu. Cette barre d'outils vous permet de *Explorer*, *Rechercher* et *Ajouter*  des couches."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:73
 msgid "*Upload Button*"
-msgstr "Bouton de téléchargement"
+msgstr "Bouton de Chargement"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:75
 msgid "Now click *Upload Layers* and you’ll see the upload form."
-msgstr "Maintenant cliquez \" Upload Layers\" et vous allez voir le formulaire téléchargé."
+msgstr "Maintenant cliquez \" Upload Layers\" et vous allez voir le formulaire pour charger le données."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:80
 msgid "*Upload Form*"
-msgstr "Formulaire de téléchargement."
+msgstr "Formulaire de Chargement."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:82
 msgid ""
@@ -271,7 +271,7 @@ msgid ""
 "to upload a complete set of files, consisting of a **shp**, a **prj**, a "
 "**dbf** and a **shx** file. If one of them is missing, GeoNode will warn you"
 " before you upload them."
-msgstr "Vous avez deux possibilitès pour ajouter vos files. Vous pouvez faire cela en utilisant \" copier&coller\" ou en choisissant de les \" naviguer\". Sachez que vous devez télécharger un complet ensemble de données, qui consiste **shp**, a **prj**, a **dbf** and a **shx** file. si l'un d'eux manque, Geonode vous avertira avant que vous les téléchargiez."
+msgstr "Vous avez deux possibilitès pour ajouter vos fichiers. Vous pouvez faire cela en utilisant \" drag & drop\" ou en utilisant de les \"browse\". On doit savoir que vous devez charger un complet ensemble de données, qui consiste **shp**, a **prj**, a **dbf** and a **shx** file. si l'un d'eux manque, Geonode vous avertira avant que vous les chargiez."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:84
 msgid "You shold now be able to see all the files you want to upload."
