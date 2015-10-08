@@ -21,7 +21,7 @@ msgstr ""
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:5
 msgid "Import and Manage"
-msgstr "Importe et gére."
+msgstr "Importation et gestion."
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:6
 msgid ""
@@ -33,21 +33,21 @@ msgid ""
 "shared publicly or restricted to specific users only. Supported upload "
 "formats include ShapeFile, GeoTIFF, KML and CSV. In addition, it is possible"
 " to connect to existing external spatial databases and services."
-msgstr "Geonode permet aux usagers de télécharger et partager les données géospatiales en sécurité. Geonode rend  les données spatiales facile à gèrer  et à  télécharger . Chaque utilisateur peut télécharger et rendre des contenus disponibles via standard OGC protocols comme Web Map Service (WMS) et Web Feature Service ( WFS). La donnée est disponible pour naviguer , chercher , former et traiter afin de générer des cartes pouvant être partagée publiquement ou limitée seulement à des utilisateurs spécifiques. Le format de téléchargement spécifié inclut ShapeFile, GeoTIFF, KML et CSV. En plus, il est possible de se connecter à des bases de données et services spatiaux externes existants."
+msgstr "Geonode permet aux utilisateurs de télécharger et partager les données géospatiales en sécurité. Geonode rend  les données géospatiales facile à gèrer  et à  télécharger. Chaque utilisateur peut télécharger et rendre des contenus disponibles via standard OGC protocols comme Web Map Service (WMS) et Web Feature Service ( WFS). La donnée est disponible pour naviguer, chercher, elaborer et traiter afin de générer des cartes pouvant être partagée publiquement ou limitée seulement à des utilisateurs spécifiques. Le format de téléchargement spécifié inclut ShapeFile, GeoTIFF, KML et CSV. En plus, il est possible de se connecter à des bases de données et services spatiaux externes existants."
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:10
 #: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:11
 #: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:11
 msgid "Features include:"
-msgstr "Les caractéristiques incluent:"
+msgstr "Les fonctionnalités incluent:"
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:12
 msgid "Publish raster, vector, and tabular data"
-msgstr "Publish raster, vecteur et données tabulaires"
+msgstr "Publier des données raster, vecteur et  tabulaires"
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:14
 msgid "Manage metadata and associated documents"
-msgstr "Gérer des métadonées et des documents associés."
+msgstr "Gérer des métadonées et des documents associés"
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:16
 msgid "Securely or publicly share data"
@@ -55,17 +55,17 @@ msgstr "Donées partagées publiquement ou en toute sécurité"
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:18
 msgid "Versioned geospatial data editor"
-msgstr "Editeur de donées géospatiale versionnée."
+msgstr "Editeur de donées géospatiale versionnée"
 
 #: ..\..\001_overview_and_ref\001_user_features\index.rst:5
 msgid "Users' Features"
-msgstr "Caractéristiques des utilisateurs."
+msgstr "Fonctionnalités pour les utilisateurs."
 
 #: ..\..\001_overview_and_ref\001_user_features\index.rst:6
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:6
 #: ..\..\001_overview_and_ref\index.rst:23
 msgid "Open Source Geospatial Content Management System"
-msgstr "Système de gestion de contenu Open Source Geospatial"
+msgstr "Système Open Source de gestion de contenu Geospatial"
 
 #: ..\..\001_overview_and_ref\001_user_features\index.rst:8
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:8
@@ -74,18 +74,18 @@ msgid ""
 "GeoNode is a web-based application and platform for developing geospatial "
 "information systems (GIS) and for deploying spatial data infrastructures "
 "(SDI)."
-msgstr "Geonode est une application web based et une plateforme pour le dévelopement de systéme d'informations géospatiales(GIS) et pour le déploiement spatial de données d'infrastructures. (SDI)"
+msgstr "Geonode est une application web based et une plateforme pour le dévelopement de systéme d'informations géospatiales(GIS) et pour la creation d'infrastructures de données spatial. (SDI)"
 
 #: ..\..\001_overview_and_ref\001_user_features\index.rst:10
 #: ..\..\001_overview_and_ref\index.rst:27
 msgid ""
 "What GeoNode can be used for… `GeoNode Demo <http://demo.geonode.org/>`_ "
 "(admin/admin)"
-msgstr "Dans quel but Geonode peut être utilisé. `Geonode démo: <http://demo.geonode.org/>`_ (admin/admin)"
+msgstr "Geonode peut être utilisé pour certain but... `Geonode démo: <http://demo.geonode.org/>`_ (admin/admin)"
 
 #: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:5
 msgid "Interactive Mapping"
-msgstr "Carte intéractive"
+msgstr "Mapping Intéractive"
 
 #: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:7
 msgid ""
@@ -124,11 +124,11 @@ msgid ""
 "GeoNode makes it easy to explore, process, style, and share maps and "
 "geospatial data. Spatial datasets can be imported and shared, all through a "
 "non-technical user interface."
-msgstr "Geonode permet aux utilisateurs de naviguer et chercher des données geospatiales en combinant  des collaborations trouvé dans des socials networks avec des outils geospatiaux spéciaux. Geonode rend facil  explorer, procéder, styliser et partager des cartes et données géospatiales. Des ensembles de donées spatiales peuvent être importées et partagées toutes à travers une interface d'utilisateur non technique."
+msgstr "Geonode permet aux utilisateurs de naviguer et chercher des données geospatiales en combinant  des collaborations trouvé dans des socials networks avec des outils geospatiaux spéciaux. Geonode rend facil  explorer, élaborer, styliser et partager des cartes et des données géospatiales. Des ensembles de donées spatiales peuvent être importées et partagées à travers une interface graphique tres simplifié pour aider les utilisateurs même."
 
 #: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:13
 msgid "Powerful spatial search engine"
-msgstr "Moteur de recherche spatial puissant"
+msgstr "Moteur de recherche spatial tres puissant"
 
 #: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:15
 msgid "Federated OGC services"
@@ -2204,7 +2204,7 @@ msgid ""
 "websites. Django emphasizes reusability and \"pluggability\" of components, "
 "rapid development, and the principle of *don't repeat yourself*. Python is "
 "used throughout, even for settings, files, and data models."
-msgstr "L'objectif principal de Django est de faciliter la création de sites complexes , bases de données axées . Django souligne la réutilisation et \" pluggability \" de composants, de développement rapide , et le principe de * Do not Repeat Yourself * . Python est utilisé partout , même pour les paramètres , fichiers et des modèles de données ."
+msgstr "L'objectif principal de Django est de faciliter la création de sites complexes , bases de données axées . Django souligne la réutilisation et \" pluggability \" de composants, de développement rapide , et le principe de *Do not Repeat Yourself* . Python est utilisé partout , même pour les paramètres , fichiers et des modèles de données ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\index.rst:12
 #: ..\..\001_overview_and_ref\index.rst:46
