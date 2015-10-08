@@ -21,7 +21,7 @@ msgstr ""
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:5
 msgid "Import and Manage"
-msgstr "Importe et gére."
+msgstr "Importation et gestion."
 
 #: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:6
 msgid ""
@@ -65,7 +65,7 @@ msgstr "Fonctionnalités pour les utilisateurs."
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:6
 #: ..\..\001_overview_and_ref\index.rst:23
 msgid "Open Source Geospatial Content Management System"
-msgstr "Système de gestion de contenu Open Source Geospatial"
+msgstr "Système Open Source de gestion de contenu Geospatial"
 
 #: ..\..\001_overview_and_ref\001_user_features\index.rst:8
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:8
@@ -74,18 +74,18 @@ msgid ""
 "GeoNode is a web-based application and platform for developing geospatial "
 "information systems (GIS) and for deploying spatial data infrastructures "
 "(SDI)."
-msgstr "Geonode est une application web based et une plateforme pour le dévelopement de systéme d'informations géospatiales(GIS) et pour le déploiement spatial de données d'infrastructures. (SDI)"
+msgstr "Geonode est une application web based et une plateforme pour le dévelopement de systéme d'informations géospatiales(GIS) et pour la creation d'infrastructures de données spatial. (SDI)"
 
 #: ..\..\001_overview_and_ref\001_user_features\index.rst:10
 #: ..\..\001_overview_and_ref\index.rst:27
 msgid ""
 "What GeoNode can be used for… `GeoNode Demo <http://demo.geonode.org/>`_ "
 "(admin/admin)"
-msgstr "Dans quel but Geonode peut être utilisé. `Geonode démo: <http://demo.geonode.org/>`_ (admin/admin)"
+msgstr "Geonode peut être utilisé pour certain but... `Geonode démo: <http://demo.geonode.org/>`_ (admin/admin)"
 
 #: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:5
 msgid "Interactive Mapping"
-msgstr "Carte intéractive"
+msgstr "Mapping Intéractive"
 
 #: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:7
 msgid ""
