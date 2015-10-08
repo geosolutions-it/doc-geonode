@@ -7,11 +7,11 @@ Before you can save or edit any layers on a GeoNode instance, you need to create
 
 #. From any page in the web interface, you will see a :guilabel:`Register` link. Click that link, and the register form will appear 
 
-.. note:: The registrations in GeoNode must be open, in case you don't see the register link then it's not possible to register unless the addministrator of the side does that for you.
+    .. note:: The registrations in GeoNode must be open, in case you don't see the register link then it's not possible to register unless the addministrator of the side does that for you.
 
-.. figure:: img/signin.png
+    .. figure:: img/signin.png
 
-      *Sign in screen*
+          *Sign in screen*
 
 #. On the next page, fill out the form. Enter a user name and password in the fields. Also, enter your email address for verification.
 
