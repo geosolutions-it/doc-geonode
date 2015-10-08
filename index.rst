@@ -8,6 +8,18 @@ Welcome to the GeoNode Training Documentation.
 
 From here you can browse the documentation relative to the GeoNode Training Documentation.
 
+.. hint:: An Ubuntu 14.04 based Virtual Machine, containing the base packages and data for the execution of the workshop exercises, is available for download `here <https://www.dropbox.com/s/yfq2gpjs3pooy4b/Training%20-%20v1.zip?dl=0>`_
+    The Virtual Machine can be launched through `VirtualBox <https://www.virtualbox.org/>`_ or `VMWare Player <http://www.vmware.com/>`_ binaries.
+    
+    The users to be used with the Virtual Machine are:
+    
+    .. code-block:: yaml
+    
+        geo/geo # principal user whith suoders privileges
+        geonode/geo # /home/geonode is the location where you can find sources, binaries and training data
+        postgres/postgres # system user for the management of the DBMS
+        
+
 The Documentation is divided in six main sections:
 
 .. toctree::
