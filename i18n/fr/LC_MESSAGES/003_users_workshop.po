@@ -4037,7 +4037,7 @@ msgstr "Cette section est encore à compléter."
 
 #: ..\..\003_users_workshop\index.rst:5
 msgid "Users Workshop"
-msgstr "Users Workshop"
+msgstr "Workshop pour les Utilisateurs"
 
 #: ..\..\003_users_workshop\index.rst:6
 msgid ""
