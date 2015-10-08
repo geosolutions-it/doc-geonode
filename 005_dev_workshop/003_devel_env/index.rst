@@ -98,21 +98,21 @@ Create geonode role and database
 
         $ exit
 
-Edit PostgreSQL configuration file
-::
+Edit PostgreSQL configuration file ::
+
     sudo gedit /etc/postgresql/9.3/main/pg_hba.conf
 
-Scroll to the bottom of the file and edit this line
-::
+Scroll to the bottom of the file and edit this line ::
+
     # "local" is for Unix domain socket connections only
     local   all             all                            peer
 
-As follows
-::
-# "local" is for Unix domain socket connections only
-local   all             all                                trust
+As follows ::
 
-Restart PostgreSQL to make the changes effective::
+    # "local" is for Unix domain socket connections only
+    local   all             all                                trust
+
+Restart PostgreSQL to make the changes effective ::
 
     sudo service postgresql restart
 
