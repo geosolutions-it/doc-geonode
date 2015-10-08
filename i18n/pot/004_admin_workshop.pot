@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-07 16:59+0200\n"
+"POT-Creation-Date: 2015-10-08 11:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,11 +166,11 @@ msgid "This two profiles can be set in the GeoNode interface by accessing the me
 msgstr ""
 
 #: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:14
-msgid "Is possible for an administrator to add new roles if needed, by clicking on the \"Add Role\" button in the \"People\" -> \"Roles\" section:"
+msgid "Is possible for an administrator to add new roles if needed, by clicking on the \"Add Role\" button in the \"Base\" -> \"Contact Roles\" section:"
 msgstr ""
 
 #: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:18
-msgid "Clicking on the \"People\" -> \"Profiles\" section (see figure) will open a web for with some personal information plus a section called \"Contact roles\"."
+msgid "Clicking on the \"People\" section (see figure) will open a web for with some personal information plus a section called \"Users\"."
 msgstr ""
 
 #: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:22
@@ -182,7 +182,7 @@ msgid "Manage users and groups through the admin panel"
 msgstr ""
 
 #: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:7
-msgid "The admin section called Auth has the two links to access the Users and Groups sections, see figure"
+msgid "The admin section called Auth has the link to access the Groups while the section called People has the link to access the Users, see figure"
 msgstr ""
 
 #: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:14

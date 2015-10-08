@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-07 16:59+0200\n"
+"POT-Creation-Date: 2015-10-08 11:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -934,7 +934,7 @@ msgid "Install dependencies (Python, Postgresql and Java) and supporting tools"
 msgstr ""
 
 #: ..\..\005_dev_workshop\003_devel_env\index.rst:16
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:156
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:181
 msgid "Add Nodejs PPA and other tools required for static development"
 msgstr ""
 
@@ -959,13 +959,13 @@ msgid "Start Geonode instance"
 msgstr ""
 
 #: ..\..\005_dev_workshop\003_devel_env\index.rst:22
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:321
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:351
 #: ..\..\005_dev_workshop\003_devel_env\win_devinstall.rst:125
 msgid "To stop the server"
 msgstr ""
 
 #: ..\..\005_dev_workshop\003_devel_env\index.rst:23
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:331
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:361
 #: ..\..\005_dev_workshop\003_devel_env\win_devinstall.rst:133
 msgid "Next create a superuser for your django geonode"
 msgstr ""
@@ -975,8 +975,8 @@ msgid "The following steps have to be executed in your terminal. The steps have 
 msgstr ""
 
 #: ..\..\005_dev_workshop\003_devel_env\index.rst:27
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:300
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:366
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:330
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:396
 msgid "Don't forget to stop the **GeoNode Production** services if enabled"
 msgstr ""
 
@@ -1008,166 +1008,178 @@ msgstr ""
 msgid "Change postgres UNIX password"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:77
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:80
 msgid "Create geonode role and database"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:98
-msgid "*Java dependencies*"
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:101
+msgid "Edit PostgreSQL configuration file ::"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:100
-msgid "The following steps must be executed **only** if you don't have a Java JDK already installed on your system (see :ref:`install_geonode_application`)"
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:105
+msgid "Scroll to the bottom of the file and edit this line ::"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:106
-msgid "*supporting tools*"
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:110
+msgid "As follows :: # \"local\" is for Unix domain socket connections only local   all             all                                trust"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:112
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:115
+msgid "Restart PostgreSQL to make the changes effective ::"
+msgstr ""
+
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:133
 msgid "Set up a virtual environment"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:114
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:135
 msgid "Here is where Geonode will later be running."
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:116
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:137
 msgid "Add the virtualenvwrapper to your new environement."
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:128
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:149
 msgid "On Ubuntu, you can add the above settings to your .bashrc file and reload the settings running"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:139
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:160
 msgid "Set up the local virtual environment for Geonode"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:146
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:167
 msgid "This creates a new directory where you want your project to be and creates a new virtualenvironment"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:148
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:169
 msgid "Get the code"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:150
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:171
 msgid "To download the latest geonode version from github, the command *clone* is used"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:158
-msgid "This is required for static development"
-msgstr ""
-
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:181
-msgid "Every time you want to update the static files after making changes to the sources, go to geonode/static and run 'grunt production'."
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:174
+msgid "If you are following the GeoNode training, skip the following command. You can find the cloned repository in /home/geonode/dev"
 msgstr ""
 
 #: ..\..\005_dev_workshop\003_devel_env\index.rst:183
+msgid "This is required for static development"
+msgstr ""
+
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:186
+msgid "If you are following GeoNode's training, nodejs is already installed in the Virtual Machine skip the first three command and jump to `cd geonode/geonode/static`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:210
+msgid "Every time you want to update the static files after making changes to the sources, go to geonode/static and run 'grunt production'."
+msgstr ""
+
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:212
 msgid "Install GeoNode in the new active local virtualenv"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:193
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:222
 msgid "If the install fails because of an error related to pyproj not being verified (happens on pip 1.5), use the following:"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:199
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:228
 msgid "Create ``local_settings.py``"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:201
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:230
 msgid "Add the ``local_settings.py`` to your GeoNode instllation"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:209
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:238
 msgid "Add the following lines to the ``local_settings.py``"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:282
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:311
 msgid "Compile and Start the server for the first time"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:284
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:313
 msgid "Align the DataBase structure"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:290
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:319
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:320
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:349
 msgid "If the start fails because of an import error related to osgeo, then please consult the :ref:`install_gdal_devmode`."
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:292
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:322
 msgid "The last step is to compile GeoServer and setup"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:298
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:328
 #: ..\..\005_dev_workshop\003_devel_env\win_devinstall.rst:113
 msgid "Now we can start our geonode instance"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:311
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:341
 msgid "Visit the geonode site by typing http://localhost:8000 into your browser window."
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:313
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:343
 msgid "If you are using a different IP address (e.g 1.1.1.1), then start paver using the command below."
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:323
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:353
 msgid "type hold **Ctrl c**  on your keyboard to stop the server"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:325
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:355
 msgid "now type:"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:333
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:363
 msgid "Create a superuser so you can log on to your local geonode installation at http://localhost:8000"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:340
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:370
 msgid "Start working on Geonode the next day after install"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:342
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:372
 msgid "With every restart of your machine, you have to restart geonode as well. That means, you will not be able to open http://localhost:8000   directly after starting your machine new. In order to be able to use geonode now, you have to activate your virtualenvironment and to start the development servers."
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:344
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:374
 msgid "*username* is the name of your machine and personal folder!"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:346
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:376
 msgid "Activate virtualenv"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:348
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:378
 msgid "To activate your virtualenv you just need to type"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:356
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:386
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:14
 msgid "or"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:362
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:392
 msgid "Be careful with the path, it might not be the same for you!"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:364
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:394
 msgid "Start the server"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:379
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:409
 msgid "Now you are able to access http://localhost:8000 again."
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:381
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:411
 msgid "Remember that you have to do these steps each time you restart your machine!!"
 msgstr ""
 
-#: ..\..\005_dev_workshop\003_devel_env\index.rst:383
+#: ..\..\005_dev_workshop\003_devel_env\index.rst:413
 msgid "Now you've followed these installation instructions, geonode is running in development mode. This also means that you are using all the default settings of geonode. If you want to change them, e.g use Tomcat instead of Jetty, or Postgresql instead of sqlite3, you may follow the steps from the section **Configure Manually** in :ref:`geonode_install`."
 msgstr ""
 
