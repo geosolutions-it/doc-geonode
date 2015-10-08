@@ -31,7 +31,7 @@ msgstr "Bienvenue à la documentation de formation de GeoNode."
 msgid ""
 "From here you can browse the documentation relative to the GeoNode Training "
 "Documentation."
-msgstr "A partir de ici vous pouves naviguer dans la documentation pour la formation de GeoNode"
+msgstr "A partir de ici vous pouvez naviguer la documentation pour la formation de GeoNode"
 
 #: ..\..\index.rst:11
 msgid ""
