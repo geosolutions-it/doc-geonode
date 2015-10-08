@@ -7494,7 +7494,7 @@ msgstr ""
 
 #: ..\..\005_dev_workshop\index.rst:5
 msgid "Developers Workshop"
-msgstr "Developers Workshop"
+msgstr "Workshop pour les Developers"
 
 #: ..\..\005_dev_workshop\index.rst:7
 msgid ""
