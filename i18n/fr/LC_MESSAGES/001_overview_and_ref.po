@@ -59,7 +59,7 @@ msgstr "Editeur de donées géospatiale versionnée."
 
 #: ..\..\001_overview_and_ref\001_user_features\index.rst:5
 msgid "Users' Features"
-msgstr "Caractéristiques des utilisateurs."
+msgstr "Fonctionnalités pour les utilisateurs."
 
 #: ..\..\001_overview_and_ref\001_user_features\index.rst:6
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:6
@@ -2204,7 +2204,7 @@ msgid ""
 "websites. Django emphasizes reusability and \"pluggability\" of components, "
 "rapid development, and the principle of *don't repeat yourself*. Python is "
 "used throughout, even for settings, files, and data models."
-msgstr "L'objectif principal de Django est de faciliter la création de sites complexes , bases de données axées . Django souligne la réutilisation et \" pluggability \" de composants, de développement rapide , et le principe de * Do not Repeat Yourself * . Python est utilisé partout , même pour les paramètres , fichiers et des modèles de données ."
+msgstr "L'objectif principal de Django est de faciliter la création de sites complexes , bases de données axées . Django souligne la réutilisation et \" pluggability \" de composants, de développement rapide , et le principe de *Do not Repeat Yourself* . Python est utilisé partout , même pour les paramètres , fichiers et des modèles de données ."
 
 #: ..\..\001_overview_and_ref\004_django_overview\index.rst:12
 #: ..\..\001_overview_and_ref\index.rst:46
