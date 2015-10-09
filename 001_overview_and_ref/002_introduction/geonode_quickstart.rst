@@ -156,7 +156,7 @@ The next step for you is to create a map and add the newly created layers to thi
         This link contains a permalink to your map. If you open this link in a new window, your map will appear exactly as it was saved.
 
 4. Share your map
-====================
+=================
 
 Now let’s finish our map.
 
