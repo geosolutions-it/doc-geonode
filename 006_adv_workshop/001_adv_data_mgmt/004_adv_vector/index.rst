@@ -15,4 +15,4 @@ In this module you will learn how to:
 
    Retrieving data and metadata <get>
    Filtering and extracting <filter>
-   TODO: Modifying Feature Types with Geonode <wfst>
+   Modifying Feature Types <wfst>

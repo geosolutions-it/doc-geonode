@@ -3,5 +3,18 @@
 GeoNode Advanced Configuration
 ==============================
 
-*	GeoNode Settings
-*   GeoNode Django Apps
+Here you will find information about each and every component of Geonode, for example geoserver, geonode settings, security, etc.
+
+:ref:`settings`
+
+:ref:`djangoapps`
+
+:ref:`release`
+
+.. toctree::
+    :hidden:
+    :maxdepth: 3
+
+    settings
+    django-apps
+    release

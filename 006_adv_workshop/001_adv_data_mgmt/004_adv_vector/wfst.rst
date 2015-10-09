@@ -1,10 +1,112 @@
 .. _geoserver.vector_data.wfst:
 
 Modifying Feature Types
------------------------
+=======================
 
 GeoServer provides a fully Transactional Web Feature Service (WFS-T) which enables users to insert/delete/modify the avilable FeatureTypes.
-This section shows a few of the GeoServer WFS-T capabilities and interactions with desktop GIS clients.
+This section shows a few of the GeoServer WFS-T capabilities and interactions with GIS clients.
+
+Modifying Feature Types using GeoNode
+-------------------------------------
+
+#. Open your instance of `GeoNode <http://geonode.org>`_ and log in as a `superuser` or a user having write rigths on at least some `Layers`
+
+   .. figure:: img/wfs-t_geonode1.png
+      :align: center
+      
+      GeoNode Layers
+
+#. Select a `Layer` on which whon you have right to edit `data`
+
+   .. warning:: You can edit **only** `Layers` which have been stored on a JDBC DataStore, like a DataBase. On GeoNode this is only possible if the ``DB datastore`` has been enabled from the ``settings``.
+   
+   .. figure:: img/wfs-t_geonode2.png
+      :align: center
+      
+      GeoNode Layer Select
+
+#. Click on `Edit Layer` and then, from the pop-up window, click on `Edit data`
+
+   .. warning:: The `Edit data` button will be available **only** for writable `Layers` (see above).
+   
+   .. figure:: img/wfs-t_geonode3.png
+      :align: center
+      
+      GeoNode Edit Layer
+
+#. When the `Map` shows up along with your `Layer`, zoom in to a region you want to update or create.
+
+   .. figure:: img/wfs-t_geonode4.png
+      :align: center
+      
+      GeoNode Navigate Layer
+
+
+#. Identify the `Edit` button on the map top toolbar, click on the **small arrow** on the left in order to show up the context menu.
+
+   .. figure:: img/wfs-t_geonode5.png
+      :align: center
+      
+      GeoNode Edit Button
+
+#. Lets first `Modify` a FeatureType. Click on **Modify**.
+
+   .. figure:: img/wfs-t_geonode6.png
+      :align: center
+      
+      GeoNode Modify FeatureType
+
+#. Select a geometry and click over it. From the small info dialog window, select **Edit**
+
+   .. figure:: img/wfs-t_geonode7.png
+      :align: center
+      
+      GeoNode Editing a FeatureType
+
+#. Modify the geometry and/or the values of the field as you wish, and then click on **Save**.
+
+   .. hint:: If you want you can also completely delete the FeatureType by clicking on the **Delete** button from the same info dialog window.
+   
+   .. figure:: img/wfs-t_geonode8.png
+      :align: center
+      
+      GeoNode Updating a FeatureType
+
+#. Verify that the changes have been stored on GeoServer.
+
+    Replace the URL ::
+    
+        http://your_host/maps/new?layer=geonode:streams_1
+
+    with ::
+
+        http://your_host/geoserver/wms/reflect?layers=geonode:streams_1
+        
+    .. warning:: Pay attention to the parameter: ``layer`` becomes ``layers``, plural. If you want you can also add an **output format** parameter, like ``format=openlayers``. In that case the complete URL becomes::
+    
+        http://your_host/geoserver/wms/reflect?layers=geonode:streams_1&format=openlayers
+        
+   .. figure:: img/wfs-t_geonode9.png
+      :align: center
+      
+      GeoServer Displaying the Updated Layer
+
+   Click over the FeautreType in order to display the updates values too. 
+    
+#. Repeat the FeatureType editing but this time click on **Create** (or simply click over the `Edit` button and **not** on its right small arrow).
+
+   .. figure:: img/wfs-t_geonode10.png
+      :align: center
+      
+      GeoNode Creating a FeatureType
+
+   .. figure:: img/wfs-t_geonode11.png
+      :align: center
+      
+      GeoServer Displaying the New Feature
+
+Modifying Feature Types using a Desktop GIS client
+--------------------------------------------------
 
 #. Open `uDig <http://udig.refractions.net>`_ GIS desktop client by going on the command line, changing directory in the training root if necessary, and running the ``udig`` commmand.
 
