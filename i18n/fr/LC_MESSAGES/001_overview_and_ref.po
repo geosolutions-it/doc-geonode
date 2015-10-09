@@ -151,7 +151,7 @@ msgstr "A partir de l'interface montrée dessus, il est possible de voir et modi
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:32
 msgid "From any page in the web interface, you will see a *Sign in* link. Click that link, and in the dialog that displays, click the *Register now* link."
-msgstr "Pour chaque page de l'interface web, vous voyez un lien \" Sign in\" . Cliquez ce lien et dans la boite de dialogue qui s'affiche, cliquez le lien \" Register now\"."
+msgstr "Pour chaque page de l'interface web, vous voyez un lien *Sign in*. Cliquez ce lien et dans la boite de dialogue qui s'affiche, cliquez le lien *Register now*."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:37
 msgid "*Sign in Form*"
@@ -203,7 +203,7 @@ msgstr "Bouton de Chargement"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:75
 msgid "Now click *Upload Layers* and you’ll see the upload form."
-msgstr "Maintenant cliquez \" Upload Layers\" et vous allez voir le formulaire pour charger le données."
+msgstr "Maintenant cliquez *Upload Layers* et vous allez voir le formulaire pour charger le données."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:80
 msgid "*Upload Form*"
@@ -211,7 +211,7 @@ msgstr "Formulaire de Chargement."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:82
 msgid "You have two possibilities to add your files. You can either do that by using *drag & drop* or you choose to *browse* them. Be aware that you have to upload a complete set of files, consisting of a **shp**, a **prj**, a **dbf** and a **shx** file. If one of them is missing, GeoNode will warn you before you upload them."
-msgstr "Vous avez deux possibilitès pour ajouter vos fichiers. Vous pouvez faire cela en utilisant \" drag & drop\" ou en utilisant de les \"browse\". On doit savoir que vous devez charger un complet ensemble de données, qui consiste **shp**, a **prj**, a **dbf** and a **shx** file. si l'un d'eux manque, Geonode vous avertira avant que vous les chargiez."
+msgstr "Vous avez deux possibilitès pour ajouter vos fichiers. Vous pouvez faire cela en utilisant *drag & drop* ou en utilisant de les \"browse\". On doit savoir que vous devez charger un complet ensemble de données, qui consiste **shp**, a **prj**, a **dbf** and a **shx** file. si l'un d'eux manque, Geonode vous avertira avant que vous les chargiez."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:84
 msgid "You shold now be able to see all the files you want to upload."
@@ -223,7 +223,7 @@ msgstr "Fichiers à télécharger"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:91
 msgid "GeoNode has the ability to restrict who can view, edit, and manage layers. On the right side of the page you can see the *Permission* section, where you can limit the access on your layer. Under **Who can view and download this data**, select **Any registered user**. This will ensure that *Anonymous* view access is disabled. In the same area, under **Who can edit this data**, select **your username**. This will ensure that *Only You* are able to edit the data in the layer."
-msgstr "Geonode a l'abilité de limiter qui peut voir, éditer et gérer les couches. Sur le coté gauche de la page, vous pouvez voir la section \" Permission, ou vous pouvez limiter l'accès à votre niveau. Sous **Who can view and download this data**, sélectionne *Any registered user*. Cela empechera la vue aux personnes anonymes. Dans la même aire, sous \"Who can edit this data\", sélectionnez votre username . Ceci assurera que seulement vous, êtes capable d'éditer les données dans le niveau."
+msgstr "Geonode a l'abilité de limiter qui peut voir, éditer et gérer les couches. Sur le coté gauche de la page, vous pouvez voir la section *Permission*, ou vous pouvez limiter l'accès à votre niveau. Sous **Who can view and download this data**, sélectionne *Any registered user*. Cela empechera la vue aux personnes anonymes. Dans la même aire, sous \"Who can edit this data\", sélectionnez votre username . Ceci assurera que seulement vous, êtes capable d'éditer les données dans le niveau."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:96
 msgid "*Permissions*"
@@ -231,7 +231,7 @@ msgstr "Permissions"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:98
 msgid "To upload data, click the *Upload* button at the bottom."
-msgstr "Pour charger des données, cliquez sur le bouton \" charger\" en bas de la page."
+msgstr "Pour charger des données, cliquez sur le bouton *charger* en bas de la page."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:101
 msgid "3. Create a new map"
@@ -883,7 +883,7 @@ msgstr "Controls"
 
 #: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:244
 msgid "Controls are tools for use in OpenLayers maps (such as a freehand control for drawing new geometries onto a map, or an identify control for getting information about individual features on a map.)  GeoExt provides tools for using these controls as ExtJS \"Actions\" - operations that can be invoked as buttons or menu options or associated with other events."
-msgstr "Les contrôles sont des outils à utiliser dans les cartes d'OpenLayers (comme une commande à main levée pour dessiner de nouvelles géométries sur une carte, ou un identifient commande pour obtenir des informations sur les caractéristiques individuelles sur une carte. ) GeoExt fournit des outils pour l'utilisation de ces contrôles ExtJS \"Actions \" - opérations qui peuvent être invoqués comme des boutons ou des options de menu ou associés à d'autres événements."
+msgstr "Les contrôles sont des outils à utiliser dans les cartes d'OpenLayers (comme une commande à main levée pour dessiner de nouvelles géométries sur une carte, ou un identifient commande pour obtenir des informations sur les caractéristiques individuelles sur une carte. ) GeoExt fournit des outils pour l'utilisation de ces contrôles ExtJS \"Actions\" - opérations qui peuvent être invoqués comme des boutons ou des options de menu ou associés à d'autres événements."
 
 #: ..\..\001_overview_and_ref\003_reference_doc\components.rst:6
 msgid ":ref:`architecture` is based on a set of core tools and libraries that provide the building blocks on which the application is built. Having a basic understanding of each of these components is critical to your success as a developer working with GeoNode."
@@ -1503,7 +1503,7 @@ msgstr "Cette section présente les concepts de base de Django, le framework web
 
 #: ..\..\001_overview_and_ref\004_django_overview\index.rst:8 ..\..\001_overview_and_ref\index.rst:42
 msgid "Django's primary goal is to ease the creation of complex, database-driven websites. Django emphasizes reusability and \"pluggability\" of components, rapid development, and the principle of *don't repeat yourself*. Python is used throughout, even for settings, files, and data models."
-msgstr "L'objectif principal de Django est de faciliter la création des web applications complexes qui utilise des bases de données. Django rend facile la réutilisation et \" pluggability \" de composants, de le développement rapide, et le principe de *Do not Repeat Yourself*. Python est utilisé partout, pour les paramètres de configuration, pour les fichiers et pour la interaction avec les modèles de données."
+msgstr "L'objectif principal de Django est de faciliter la création des web applications complexes qui utilise des bases de données. Django rend facile la réutilisation et \"pluggability\" de composants, de le développement rapide, et le principe de *Do not Repeat Yourself*. Python est utilisé partout, pour les paramètres de configuration, pour les fichiers et pour la interaction avec les modèles de données."
 
 #: ..\..\001_overview_and_ref\004_django_overview\index.rst:12 ..\..\001_overview_and_ref\index.rst:46
 msgid "Django also provides an optional administrative create, read, update and delete interface that is generated dynamically through introspection and configured via admin models."
