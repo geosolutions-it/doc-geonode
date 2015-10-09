@@ -5308,7 +5308,7 @@ msgstr ""
 "Sur la prochaine page sera une liste des couches trouvées par l'importateur "
 "de la couche. Les couches seront nommés selon le nom du contenu de la source "
 "(nom de fichier du nom de la table de base de données). Pour chaque entrée, "
-"il y aura un : guilabel : affichage de \"Statut\" si la source est prête à "
+"il y aura un affichage de :guilabel:`Statut` si la source est prête à "
 "être importé."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:108
@@ -5342,8 +5342,8 @@ msgstr "Déclarant un CRS"
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:120
 msgid "When ready to perform the import, click :guilabel:`Import`."
 msgstr ""
-"Lorsque vous êtes prêt à effectuer l'importation, cliquez sur : guilabel: "
-"\"Importer\"."
+"Lorsque vous êtes prêt à effectuer l'importation, cliquez sur :guilabel:"
+"`Importer`."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:122
 msgid ""
@@ -5362,9 +5362,9 @@ msgid ""
 msgstr ""
 "Une fois l'importation terminée la zone d'État rafraîchira montrant si "
 "l'importation a réussi pour chaque couche. Si réussie, une boîte de dialogue "
-"pour la prévisualisation de la couche apparaît, avec des options pour : "
-"guilabel: \"Aperçu de calque\" (OpenLayers),: guilabel: \"Google Earth\", "
-"et : guilabel: \"GeoExplorer\"."
+"pour la prévisualisation de la couche apparaît, avec des options pour :"
+"guilabel:`Aperçu de calque` (OpenLayers), :guilabel:`Google Earth`, "
+"et :guilabel:`GeoExplorer`."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:128
 msgid "Layers successfully imported"
@@ -5390,7 +5390,7 @@ msgid ""
 msgstr ""
 "Sur cette page, des données peuvent être définies pour être projetée selon "
 "d'une CRS à l'autre pendant le processus d'importation. Pour activer la "
-"reprojection, sélectionnez la : guilabel: \"Reprojection\" boîte et entrez "
+"reprojection, sélectionnez la :guilabel:`Reprojection` boîte et entrez "
 "la source et cible les CRS."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:137
@@ -5401,13 +5401,13 @@ msgid ""
 "`Apply` when done."
 msgstr ""
 "En outre, sur cette page les attributs peuvent être renommés et changé leur "
-"type. Cliquez sur le : guilabel : lien \"Ajouter\" sous : guilabel: "
-"'attribut Remapping\"pour sélectionner l'attribut à modifier son type et son "
-"nouveau nom. Cliquez sur : guilabel: \"Applique\" lorsque terminé."
+"type. Cliquez sur le lien :guilabel:`Ajouter` sous :guilabel:"
+"`attribut Remapping` pour sélectionner l'attribut à modifier son type et son "
+"nouveau nom. Cliquez sur :guilabel:`Applique` lorsque terminé."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:139
 msgid "Click :guilabel:`Save` when finished."
-msgstr "Cliquez sur : guilabel: \"Enregistrer\" lorsque vous avez terminé."
+msgstr "Cliquez sur :guilabel:`Enregistrer` lorsque vous avez terminé."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:143
 msgid "Advanced layer list page"
@@ -5473,7 +5473,7 @@ msgid ""
 "select :guilabel:`Core`.)"
 msgstr ""
 "Télécharger l'extension pour votre version de GeoServer. (Si vous voyez une "
-"option, sélectionnez : guilabel: \"Core\".)"
+"option, sélectionnez :guilabel:`Core`.)"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:10
 msgid ""
@@ -5501,8 +5501,8 @@ msgid ""
 "`Data` section on the left-side menu."
 msgstr ""
 "Pour vérifier que l'extension a été correctement installée, ouvrez le : Réf: "
-"\"web_admin\" et recherchez un : guilabel : l'option \"Importer des données"
-"\" dans la : guilabel : section \"Données\" dans le menu de gauche."
+"\"web_admin\" et recherchez un l'option :guilabel:`Importer des données"
+"` dans la section :guilabel:`Données` dans le menu de gauche."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:20
 msgid "Importer extension successfully installed."
@@ -7223,13 +7223,13 @@ msgid ""
 "Log in as an administrator and navigate to the :guilabel:`Data --> Import "
 "Data` page."
 msgstr ""
-"Ouvrez une session tant qu'administrateur et accédez à la : guilabel : page "
-"\"Données--> données sur les importations\"."
+"Ouvrez une session tant qu'administrateur et accédez à la page "
+":guilabel:`Data --> Import Data`."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:14
 msgid "For select :guilabel:`Spatial Files` as the data source."
 msgstr ""
-"Pour select : guilabel: \"Les fichiers spatiale\" comme source de données."
+"Pour select :guilabel:`Les fichiers spatiale` comme source de données."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:18
 msgid "Data source"
@@ -7240,7 +7240,7 @@ msgid ""
 "Click :guilabel:`Browse` to navigate to the directory of shapefiles to be "
 "imported."
 msgstr ""
-"Cliquez sur : guilabel: \"Parcourir\" pour accéder au répertoire de fichiers "
+"Cliquez sur :guilabel:`Browse` pour accéder au répertoire de fichiers "
 "à importer."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:22
@@ -7251,7 +7251,7 @@ msgid ""
 msgstr ""
 "Le navigateur de fichiers basé sur le web s'affichera comme options de votre "
 "répertoire, répertoire de données et la racine de votre système de fichiers "
-"(ou lecteur). Dans ce cas, sélectionnez : guilabel: \"Répertoire de données\""
+"(ou lecteur). Dans ce cas, sélectionnez :guilabel:`Répertoire de données`"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:26
 msgid "Directory"
@@ -7262,16 +7262,16 @@ msgid ""
 "Back on the main form, select :guilabel:`Create new` next to :guilabel:"
 "`Workspace`, and enter :kbd:`ne` to denote the workspace."
 msgstr ""
-"Retour sur le formulaire principal, sélectionnez : guilabel: \"Créer un "
-"nouveau\" à côté de : guilabel: \"Workspace\", puis entrez : kbd: \"ne\" "
+"Retour sur le formulaire principal, sélectionnez :guilabel:`Créer un "
+"nouveau` à côté de :guilabel:`Workspace`, puis entrez :kbd:`ne` "
 "pour désigner l'workspace."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:30
 msgid ""
 "Make sure the :guilabel:`Store` field reads :guilabel:`Create new` as well."
 msgstr ""
-"Assurez-vous que la : guilabel: \"Conserver\" sur le terrain se lit comme "
-"suit : guilabel: \"Créer un nouveau\" aussi bien."
+"Assurez-vous que la :guilabel:`Conserver` sur le terrain se lit comme "
+"suit :guilabel:`Créer un nouveau` aussi bien."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:34
 msgid "Import target workspace"
@@ -7280,7 +7280,7 @@ msgstr "Importez l'workspace cible"
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:36
 msgid "Click :guilabel:`Next` to start the import process."
 msgstr ""
-"Cliquez sur : guilabel: \"Suivant\" pour commencer le processus "
+"Cliquez sur :guilabel:`Suivant` pour commencer le processus "
 "d'importation."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:38
@@ -7305,8 +7305,8 @@ msgid ""
 msgstr ""
 "Dans la plupart des cas, tous les fichiers seront prêts pour l'importation, "
 "mais si le le système de référence spatiale (SRS) n'est pas reconnu, vous "
-"devrez entrer manuellement cela, mais en cliquant sur : guilabel: \"Advanced"
-"\""
+"devrez entrer manuellement cela, mais en cliquant sur :guilabel:`Advanced"
+"`"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:48
 msgid ""
@@ -7315,8 +7315,8 @@ msgid ""
 "kbd:`EPSG:4326`."
 msgstr ""
 "Vous devrez entrer manuellement le SRS, si vous avez utilisé les données de "
-"terre naturelle ci-dessus. Pour chaque calque, cliquez sur : guilabel: "
-"\"Avancé\" et set reprojection à: kbd: 'EPSG:4326'."
+"terre naturelle ci-dessus. Pour chaque calque, cliquez sur :guilabel:"
+"`Avancé` et set reprojection à :kbd:`EPSG:4326`."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:52
 msgid "Advanced import settings"
@@ -7332,14 +7332,14 @@ msgstr "Définissant les couches d'importer"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:60
 msgid "When ready, click :guilabel:`Import`."
-msgstr "Lorsque vous êtes prêt, cliquez sur : guilabel: \"Importer\"."
+msgstr "Lorsque vous êtes prêt, cliquez sur :guilabel:`Importer`."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:62
 msgid ""
 "Don't click :guilabel:`Done` at this point, otherwise the import will be "
 "canceled."
 msgstr ""
-"Ne cliquez pas sur : guilabel: \"Fait\" à ce stade, sinon l'importation sera "
+"Ne cliquez pas sur :guilabel:`Fait` à ce stade, sinon l'importation sera "
 "annulée."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:64
@@ -7350,7 +7350,7 @@ msgstr ""
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:66
 msgid "When finished, click :guilabel:`Done`."
-msgstr "Lorsque vous avez terminé, cliquez sur : guilabel: \"Done\"."
+msgstr "Lorsque vous avez terminé, cliquez sur :guilabel:`Done`."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:68
 msgid ""
