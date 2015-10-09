@@ -10,6 +10,7 @@ __pycache__/
 env/
 build/
 _build/
+_vm/
 develop-eggs/
 dist/
 downloads/
