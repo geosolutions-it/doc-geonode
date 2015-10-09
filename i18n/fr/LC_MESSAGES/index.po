@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2013, GeoNode Development Team
 # This file is distributed under the same license as the GeoNode package.
-# 
+#
 # Translators:
 # Alessio Fabiani <alessio.fabiani@geo-solutions.it>, 2015
 # simboss <simone.giannecchini@geo-solutions.it>, 2015
@@ -10,15 +10,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 14:33+0200\n"
-"PO-Revision-Date: 2015-10-09 10:11+0000\n"
+"POT-Creation-Date: 2015-10-09 16:51+0200\n"
+"PO-Revision-Date: 2015-10-09 16:53+0200\n"
 "Last-Translator: simboss <simone.giannecchini@geo-solutions.it>\n"
-"Language-Team: French (http://www.transifex.com/geosolutions/geonode-documentation/language/fr/)\n"
+"Language-Team: French (http://www.transifex.com/geosolutions/geonode-"
+"documentation/language/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.5\n"
 
 #: ..\..\index.rst:5
 msgid "GeoNode Training Documentation"
@@ -32,22 +34,29 @@ msgstr "Bienvenue à la documentation de formation de GeoNode."
 msgid ""
 "From here you can browse the documentation relative to the GeoNode Training "
 "Documentation."
-msgstr "A partir de ici vous pouvez naviguer la documentation pour la formation de GeoNode"
+msgstr ""
+"A partir de ici vous pouvez naviguer la documentation pour la formation de "
+"GeoNode"
 
 #: ..\..\index.rst:11
 msgid ""
-"An Ubuntu 14.04 based Virtual Machine, containing the base packages and data"
-" for the execution of the workshop exercises, is available for download "
-"`here "
-"<https://www.dropbox.com/s/yfq2gpjs3pooy4b/Training%20-%20v1.zip?dl=0>`_ The"
-" Virtual Machine can be launched through `VirtualBox "
-"<https://www.virtualbox.org/>`_ or `VMWare Player <http://www.vmware.com/>`_"
-" binaries."
-msgstr "Une machine virtuelle avec Ubuntu 14.04, contenant les paquets de base et des données pour l'exécution des exercices du Workshop, est disponible en téléchargement `ici. <https://www.dropbox.com/s/yfq2gpjs3pooy4b/Training%20-%20v1.zip?dl=0>`_ La machine virtuelle peut être lancée en utilisant `VirtualBox <https://www.virtualbox.org/>`_ ou `VMWare Player <http://www.vmware.com/>`_ binaires."
+"An Ubuntu 14.04 based Virtual Machine, containing the base packages and data "
+"for the execution of the workshop exercises, is available for download `here "
+"<https://www.dropbox.com/s/4vhfff0ogqzsrkx/GeoNode%20-%20Training%20-%20v1.3."
+"zip?dl=0>`_ The Virtual Machine can be launched through `VirtualBox <https://"
+"www.virtualbox.org/>`_ or `VMWare Player <http://www.vmware.com/>`_ binaries."
+msgstr ""
+"Un 14.04 Ubuntu basé Machine virtuelle, contenant les paquets de base et les "
+"données pour l'exécution des exercices de l'atelier, est disponible pour "
+"téléchargement `ici <https://www.dropbox.com/s/4vhfff0ogqzsrkx/GeoNode%20-"
+"%20Training%20-%20v1.3.zip?dl=0>`_ la Machine virtuelle peuvent être lancées "
+"par `VirtualBox <https://www.virtualbox.org/>`_ ou `VMWare Player <http://"
+"www.vmware.com/>`_ binaires."
 
 #: ..\..\index.rst:14
 msgid "The users to be used with the Virtual Machine are:"
-msgstr "Les comptes à être utilisés avec la machine virtuelle sont les suivants:"
+msgstr ""
+"Les comptes à être utilisés avec la machine virtuelle sont les suivants:"
 
 #: ..\..\index.rst:23
 msgid "The Documentation is divided in six main sections:"
@@ -57,7 +66,10 @@ msgstr "La documentation est decoupè en six sections principales:"
 msgid ""
 "The whole documentation for offline reading as a ZIP archive can be "
 "donwloaded `here <http://training.geonode.geo-solutions.it/doc_en.zip>`_"
-msgstr "L'ensemble de la documentation pour la lecture hors ligne comme une archive ZIP peut être téléchargé `ici <http://training.geonode.geo-solutions.it/fr/doc_fr.zip>`_"
+msgstr ""
+"L'ensemble de la documentation pour la lecture hors ligne comme une archive "
+"ZIP peut être téléchargé `ici <http://training.geonode.geo-solutions.it/fr/"
+"doc_fr.zip>`_"
 
 #: ..\..\index.rst:42
 msgid ":ref:`overview_and_ref`"
@@ -67,14 +79,18 @@ msgstr ":ref:`overview_and_ref`"
 msgid ""
 "This module guides the user to an overview of GeoNode and its main "
 "components."
-msgstr "Cette section guide l'utilisateur à une introduction de GeoNode et ses principales composantes ."
+msgstr ""
+"Cette section guide l'utilisateur à une introduction de GeoNode et ses "
+"principales composantes ."
 
 #: ..\..\index.rst:40
 msgid ""
-"At the end of this section you will have a clear view of what GeoNode is and"
-" can do. You will be able also to use the GeoNode main functionalities and "
+"At the end of this section you will have a clear view of what GeoNode is and "
+"can do. You will be able also to use the GeoNode main functionalities and "
 "understand some of the basic concepts of the system infrastructure."
-msgstr "A la fin de cette section vous aurez une vue claire de ce qu vous pouvez fair avec GeoNode et de ce que est GeoNode meme"
+msgstr ""
+"A la fin de cette section vous aurez une vue claire de ce qu vous pouvez "
+"fair avec GeoNode et de ce que est GeoNode meme"
 
 #: ..\..\index.rst:58
 msgid ":ref:`installation_and_admin`"
@@ -84,17 +100,23 @@ msgstr ":ref:`installation_and_admin`"
 msgid ""
 "This module is more oriented to users having some System Administrator "
 "background."
-msgstr "Ce module est orientè vers les utilisateurs ayant des connaissances de administrateur de système "
+msgstr ""
+"Ce module est orientè vers les utilisateurs ayant des connaissances de "
+"administrateur de système "
 
 #: ..\..\index.rst:47
 msgid ""
 "At the end of this section you will be able to setup from scratch the whole "
 "GeoNode infrastructure and understand how to the different pieces are "
 "interconnected and which are their dependencies."
-msgstr "A la fin de cette section vous serez capable de configurer a partir de zéro l'ensemble de l'infrastructure de GeoNode et de comprendre comment les différentes components sont reliées entre elles et qui sont leurs dépendances ."
+msgstr ""
+"A la fin de cette section vous serez capable de configurer a partir de zéro "
+"l'ensemble de l'infrastructure de GeoNode et de comprendre comment les "
+"différentes components sont reliées entre elles et qui sont leurs "
+"dépendances ."
 
-#: ..\..\index.rst:58 ..\..\index.rst:79 ..\..\index.rst:98
-#: ..\..\index.rst:105 ..\..\index.rst:113
+#: ..\..\index.rst:58 ..\..\index.rst:79 ..\..\index.rst:98 ..\..\index.rst:105
+#: ..\..\index.rst:113
 msgid "*Prerequisites*"
 msgstr "*Prerequisites*"
 
@@ -102,7 +124,9 @@ msgstr "*Prerequisites*"
 msgid ""
 "Before proceeding with the reading, it is strongly recommended to be sure "
 "having clear the following concepts:"
-msgstr "Avant de procéder avece le cours, il est fortement recommandé qui on est bien sûr d'avoir clairement compris les concepts suivants "
+msgstr ""
+"Avant de procéder avece le cours, il est fortement recommandé qui on est "
+"bien sûr d'avoir clairement compris les concepts suivants "
 
 #: ..\..\index.rst:52 ..\..\index.rst:75
 msgid "GeoNode and Django framework basic concepts"
@@ -139,9 +163,13 @@ msgstr ":ref:`users_workshop`"
 #: ..\..\index.rst:61
 msgid ""
 "This workshop will teach how to use the GeoNode going in depth into what we "
-"can do with software application. At the end of this section you will master"
-" all the GeoNode sections and entities from a user perspective."
-msgstr "Ce cours vous apprendra comment utiliser le GeoNode. On va aller en profondeur dans ce que nous pouvons faire avec ce logicielle. À la fin de cette section, vous serez capable de utiliser les  GeoNode du point de vue de l'utilisateur final."
+"can do with software application. At the end of this section you will master "
+"all the GeoNode sections and entities from a user perspective."
+msgstr ""
+"Ce cours vous apprendra comment utiliser le GeoNode. On va aller en "
+"profondeur dans ce que nous pouvons faire avec ce logicielle. À la fin de "
+"cette section, vous serez capable de utiliser les  GeoNode du point de vue "
+"de l'utilisateur final."
 
 #: ..\..\index.rst:64 ..\..\index.rst:85
 msgid "You will know how to:"
@@ -157,25 +185,33 @@ msgstr "Utiliser et gérer les différents ressources de base de GeoNode."
 
 #: ..\..\index.rst:68
 msgid "Use the GeoNode searching tools to find your resources."
-msgstr "Comment on peut utiliser les outils de recherche de GeoNode pour trouver vos ressources."
+msgstr ""
+"Comment on peut utiliser les outils de recherche de GeoNode pour trouver vos "
+"ressources."
 
 #: ..\..\index.rst:69
 msgid "Manage Layers and Maps, update the styles and publish them."
-msgstr "Gérer les couches et les cartes, mettre à jour les styles et les publier."
+msgstr ""
+"Gérer les couches et les cartes, mettre à jour les styles et les publier."
 
 #: ..\..\index.rst:70
 msgid "Load datasets into GeoNode and keep them synchronized with GeoServer."
-msgstr "Charger des données dans GeoNode et les garder synchronisés avec GeoServer."
+msgstr ""
+"Charger des données dans GeoNode et les garder synchronisés avec GeoServer."
 
 #: ..\..\index.rst:77
 msgid ""
 "What is a geospatial server and a basic knowledge of the geospatial web "
 "services."
-msgstr "Bonne connaissance de ce qui est un serveur géospatial et les services web géospatiales"
+msgstr ""
+"Bonne connaissance de ce qui est un serveur géospatial et les services web "
+"géospatiales"
 
 #: ..\..\index.rst:78
 msgid "What is a metadata and a catalog."
-msgstr "Bonne connaissance de ce qui sont les métadonnées et de ce qui est un catalogue"
+msgstr ""
+"Bonne connaissance de ce qui sont les métadonnées et de ce qui est un "
+"catalogue"
 
 #: ..\..\index.rst:79
 msgid "What is a map and a legend."
@@ -191,7 +227,11 @@ msgid ""
 "`GeoNode <http://geonode.org/>`_ software application. At the end of this "
 "section you will master all the GeoNode sections and entities from an "
 "administrator perspective."
-msgstr "Ce workshop vous apprendra comment installer et gérer une installation de `GeoNode <http://geonode.org/>`_. À la fin de cette section, vous serez maître de toutes les sections sur GeoNode du point de vue de l'administrateur."
+msgstr ""
+"Ce workshop vous apprendra comment installer et gérer une installation de "
+"`GeoNode <http://geonode.org/>`_. À la fin de cette section, vous serez "
+"maître de toutes les sections sur GeoNode du point de vue de "
+"l'administrateur."
 
 #: ..\..\index.rst:87
 msgid "Use the GeoNode’s Django Administration Panel."
@@ -216,11 +256,15 @@ msgstr "Bonne connaissance de Python"
 #: ..\..\index.rst:96
 msgid ""
 "Good knowledge of what is a geospatial server and geospatial web services."
-msgstr "Bonne connaissance de ce qui est un serveur géospatial et les services web géospatiales."
+msgstr ""
+"Bonne connaissance de ce qui est un serveur géospatial et les services web "
+"géospatiales."
 
 #: ..\..\index.rst:97
 msgid "Good knowledge of what is metadata and catalog."
-msgstr "Bonne connaissance de ce qui sont les métadonnées et  de ce qui est un catalogue."
+msgstr ""
+"Bonne connaissance de ce qui sont les métadonnées et  de ce qui est un "
+"catalogue."
 
 #: ..\..\index.rst:98
 msgid "Good knowledge of HTML and CSS."
@@ -232,12 +276,16 @@ msgstr ":ref:`dev_workshop`"
 
 #: ..\..\index.rst:101
 msgid ""
-"This workshop will teach how to develop with and for the `GeoNode "
-"<http://geonode.org>`_ software application. This module will introduce you "
-"to the components that GeoNode is built with, the standards that it supports"
-" and the services it provides based on those standards, and an overview its "
+"This workshop will teach how to develop with and for the `GeoNode <http://"
+"geonode.org>`_ software application. This module will introduce you to the "
+"components that GeoNode is built with, the standards that it supports and "
+"the services it provides based on those standards, and an overview its "
 "architecture."
-msgstr "Ce workshop vous apprendra comment développer avec  `GeoNode <http://geonode.org>`_. Cette section vous fera découvrir les composants qui compose GeoNode meme les standards qu'il soutien et les services qu'il fournit sur ​​la base de ces standards. A la fin on va voir un aperçu de son architecture."
+msgstr ""
+"Ce workshop vous apprendra comment développer avec  `GeoNode <http://geonode."
+"org>`_. Cette section vous fera découvrir les composants qui compose GeoNode "
+"meme les standards qu'il soutien et les services qu'il fournit sur ​​la base "
+"de ces standards. A la fin on va voir un aperçu de son architecture."
 
 #: ..\..\index.rst:105
 msgid ""
@@ -245,7 +293,11 @@ msgid ""
 "GeoNode itself or to integrate it into your own application, you should be "
 "familiar with basic web development concepts as well as with general GIS "
 "concepts."
-msgstr "GeoNode est un outil SIG basé sur le Web, donc dans le but de faire du développement sur ​​GeoNode lui-même ou de l'intégrer dans votre propre application, vous devez être familier avec les concepts de base de développement web ainsi que avec les concepts généraux de SIG."
+msgstr ""
+"GeoNode est un outil SIG basé sur le Web, donc dans le but de faire du "
+"développement sur ​​GeoNode lui-même ou de l'intégrer dans votre propre "
+"application, vous devez être familier avec les concepts de base de "
+"développement web ainsi que avec les concepts généraux de SIG."
 
 #: ..\..\index.rst:113
 msgid ":ref:`adv_workshop`"
@@ -256,20 +308,29 @@ msgid ""
 "This module introduces advanced tecquinques and metodologies for the "
 "management of the geospatial data and the maintenance and tuning of the "
 "servers on *Production Environments*."
-msgstr "Ce module présente techniques et metodologies avancées pour la gestion des données géospatiales et de l' entretien et le réglage  fin des serveurs sur *des environnements de production* "
+msgstr ""
+"Ce module présente techniques et metodologies avancées pour la gestion des "
+"données géospatiales et de l' entretien et le réglage  fin des serveurs sur "
+"*des environnements de production* "
 
 #: ..\..\index.rst:110
 msgid ""
 "The last sections of the module will teach also you how to add brand new "
 "classes and functionalities to your GeoNode installation."
-msgstr "Les dernières sections du module enseignera aussi comment ajouter de nouvelles classes de marques et de fonctionnalités à votre installation de GeoNode."
+msgstr ""
+"Les dernières sections du module enseignera aussi comment ajouter de "
+"nouvelles classes de marques et de fonctionnalités à votre installation de "
+"GeoNode."
 
 #: ..\..\index.rst:113
 msgid ""
 "You should be familiar with GeoNode, GeoServer, Python framework and "
 "development concepts other than with system administrator and caching "
 "concepts and tecnquiques."
-msgstr "Vous devez être familier avec GeoNode , GeoServer, le  développement avec Python et avec les concepts des bas d' administrateur de système et des tecnquiques de mise en cache."
+msgstr ""
+"Vous devez être familier avec GeoNode , GeoServer, le  développement avec "
+"Python et avec les concepts des bas d' administrateur de système et des "
+"tecnquiques de mise en cache."
 
 #: ..\..\index.rst:116
 msgid "Editing the documentation"
@@ -277,11 +338,15 @@ msgstr "Modification de la documentation"
 
 #: ..\..\index.rst:118
 msgid ""
-"This documentation is written in `reStructuredText "
-"<https://en.wikipedia.org/wiki/ReStructuredText>`_ format and automatically "
-"build from `this GitHub repository <https://github.com/geosolutions-it/doc-"
-"geonode>`_ To edit the documentation you'll need the following tools:"
-msgstr "Cette documentation est écrit en `reStructuredText <https://en.wikipedia.org/wiki/ReStructuredText>`_ format et il est construit automatiquement à partir de `ce GitHub dépôt <https://github.com/geosolutions-it/doc-geonode>`_ Pour modifier la documentation vous avez besoin des outils suivants:"
+"This documentation is written in `reStructuredText <https://en.wikipedia.org/"
+"wiki/ReStructuredText>`_ format and automatically build from `this GitHub "
+"repository <https://github.com/geosolutions-it/doc-geonode>`_ To edit the "
+"documentation you'll need the following tools:"
+msgstr ""
+"Cette documentation est écrit en `reStructuredText <https://en.wikipedia.org/"
+"wiki/ReStructuredText>`_ format et il est construit automatiquement à partir "
+"de `ce GitHub dépôt <https://github.com/geosolutions-it/doc-geonode>`_ Pour "
+"modifier la documentation vous avez besoin des outils suivants:"
 
 #: ..\..\index.rst:122
 msgid "`Git <http://en.wikipedia.org/wiki/Git_(software)>`_"
@@ -289,10 +354,11 @@ msgstr "`Git <http://en.wikipedia.org/wiki/Git_(software)>`_"
 
 #: ..\..\index.rst:123
 msgid ""
-"`Python <https://www.python.org/>`_ and `pip "
-"<https://en.wikipedia.org/wiki/Pip_(package_manager)>`_ (recent versions of "
-"Python come bundled with pip)"
-msgstr "`Python <https://www.python.org/>`_ et `pip <https://en.wikipedia.org/wiki/Pip_(package_manager)>`_ (récente version de Python fournie avec pip)"
+"`Python <https://www.python.org/>`_ and `pip <https://en.wikipedia.org/wiki/"
+"Pip_(package_manager)>`_ (recent versions of Python come bundled with pip)"
+msgstr ""
+"`Python <https://www.python.org/>`_ et `pip <https://en.wikipedia.org/wiki/"
+"Pip_(package_manager)>`_ (récente version de Python fournie avec pip)"
 
 #: ..\..\index.rst:124
 msgid "`Sphinx <http://sphinx-doc.org/index.html>`_"
@@ -302,7 +368,9 @@ msgstr "`Sphinx <http://sphinx-doc.org/index.html>`_"
 msgid ""
 "For installation and basic usage of the tools follow `these <./install-doc-"
 "tools.html>`_ instructions"
-msgstr "Pour l'installation et l'utilisation de base des outils il faut suivre `ces  <./install-doc-tools.html>`_ instructions"
+msgstr ""
+"Pour l'installation et l'utilisation de base des outils il faut suivre `ces  "
+"<./install-doc-tools.html>`_ instructions"
 
 #: ..\..\index.rst:129
 msgid "License Information"
@@ -316,13 +384,17 @@ msgstr "Documentation"
 msgid ""
 "Documentation is released under a :term:`Creative Commons` license with the "
 "following conditions."
-msgstr "La documentation est publié sous une :term:`Creative Commons` license avec les conditions suivantes."
+msgstr ""
+"La documentation est publié sous une :term:`Creative Commons` license avec "
+"les conditions suivantes."
 
 #: ..\..\index.rst:136
 msgid ""
 "You are free to Share (to copy, distribute and transmit) and to Remix (to "
 "adapt) the documentation under the following conditions:"
-msgstr "Vous êtes libre de partager (copier, distribuer et communiquer) et de remix (d'adapter) la documentation dans les conditions suivantes:"
+msgstr ""
+"Vous êtes libre de partager (copier, distribuer et communiquer) et de remix "
+"(d'adapter) la documentation dans les conditions suivantes:"
 
 #: ..\..\index.rst:138
 msgid "Attribution. You must attribute the documentation to the author."
@@ -331,9 +403,12 @@ msgstr "Paternité. Vous devez attribuer la documentation à l'auteur"
 #: ..\..\index.rst:140
 msgid ""
 "Share Alike. If you alter, transform, or build upon this work, you may "
-"distribute the resulting work only under the same or similar license to this"
-" one."
-msgstr "Share Alike . Si vous modifiez, transformez ou adaptez cette création, vous devez distribuer l' œuvre résultante sous la même licence ou similaire à celui-ci"
+"distribute the resulting work only under the same or similar license to this "
+"one."
+msgstr ""
+"Share Alike . Si vous modifiez, transformez ou adaptez cette création, vous "
+"devez distribuer l' œuvre résultante sous la même licence ou similaire à "
+"celui-ci"
 
 #: ..\..\index.rst:142
 msgid "With the understanding that:"
@@ -343,25 +418,34 @@ msgstr "Étant entendu que:"
 msgid ""
 "Any of the above conditions can be waived if you get permission from the "
 "copyright holder."
-msgstr "Chacune de ces conditions peut être levée si vous obtenez l'autorisation du titulaire du droit d'auteur"
+msgstr ""
+"Chacune de ces conditions peut être levée si vous obtenez l'autorisation du "
+"titulaire du droit d'auteur"
 
 #: ..\..\index.rst:146
 msgid ""
-"Public Domain. Where the work or any of its elements is in the public domain"
-" under applicable law, that status is in no way affected by the license."
-msgstr "Domaine public. Lorsque le travail ou l'un de ses éléments est dans le domaine public en vertu du droit applicable, ce statut est en aucune façon affectées par la licence"
+"Public Domain. Where the work or any of its elements is in the public domain "
+"under applicable law, that status is in no way affected by the license."
+msgstr ""
+"Domaine public. Lorsque le travail ou l'un de ses éléments est dans le "
+"domaine public en vertu du droit applicable, ce statut est en aucune façon "
+"affectées par la licence"
 
 #: ..\..\index.rst:148
 msgid ""
 "Other Rights. In no way are any of the following rights affected by the "
 "license:"
-msgstr "Autres droits. En aucun cas, sont l'un des droits suivants touchés par la licence:"
+msgstr ""
+"Autres droits. En aucun cas, sont l'un des droits suivants touchés par la "
+"licence:"
 
 #: ..\..\index.rst:150
 msgid ""
 "Your fair dealing or fair use rights, or other applicable copyright "
 "exceptions and limitations;"
-msgstr "Votre utilisation équitable ou fair use l'homme, ou d'autres exceptions et limitations au droit d'auteur applicable"
+msgstr ""
+"Votre utilisation équitable ou fair use l'homme, ou d'autres exceptions et "
+"limitations au droit d'auteur applicable"
 
 #: ..\..\index.rst:152
 msgid "The author's moral rights;"
@@ -371,27 +455,38 @@ msgstr "Les droits moraux de l'auteur"
 msgid ""
 "Rights other persons may have either in the work itself or in how the work "
 "is used, such as publicity or privacy rights."
-msgstr "Droits d'autres personnes peuvent avoir soit dans le travail lui-même ou dans la façon dont le travail est utilisé , tels que les droits à la vie privée ou de publicité"
+msgstr ""
+"Droits d'autres personnes peuvent avoir soit dans le travail lui-même ou "
+"dans la façon dont le travail est utilisé , tels que les droits à la vie "
+"privée ou de publicité"
 
 #: ..\..\index.rst:156
 msgid ""
 "Notice: For any reuse or distribution, you must make clear to others the "
 "license terms of this work. The best way to do this is with a link to this "
 "web page."
-msgstr "Avis : Pour toute réutilisation ou distribution, vous devez faire apparaître clairement au public les conditions de ce travail de licence . La meilleure façon de le faire est avec un lien vers cette page web."
+msgstr ""
+"Avis : Pour toute réutilisation ou distribution, vous devez faire apparaître "
+"clairement au public les conditions de ce travail de licence . La meilleure "
+"façon de le faire est avec un lien vers cette page web."
 
 #: ..\..\index.rst:158
 msgid ""
 "You may obtain a copy of the License at `Creative Commons Attribution-"
 "ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-"
 "sa/3.0/>`_"
-msgstr "Vous pouvez obtenir une copie de la licence au `Creative Commons Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0/>`_"
+msgstr ""
+"Vous pouvez obtenir une copie de la licence au `Creative Commons Attribution-"
+"ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-"
+"sa/3.0/>`_"
 
 #: ..\..\index.rst:160
 msgid ""
 "The document is written in reStructuredText format for consistency and "
 "portability."
-msgstr "Ce document est écrit au format reStructuredText pour la cohérence et la portabilité."
+msgstr ""
+"Ce document est écrit au format reStructuredText pour la cohérence et la "
+"portabilité."
 
 #: ..\..\index.rst:163
 msgid "Author Information"
@@ -403,16 +498,21 @@ msgstr "Cette documentation a été écrit par GeoSolutions."
 
 #: ..\..\index.rst:167
 msgid ""
-"The layout for the reStructuredText based documentation is based on the work"
-" done by the `GeoNode <http://geonode.org/>`_ project and the `Sphinx "
-"<http://sphinx.pocoo.org/>`_ framework."
-msgstr "La disposition de la documentation est basé sur le travail effectué par le `GeoNode <http://geonode.org/>`_ project en utilisant le cadre sphinx `Sphinx <http://sphinx.pocoo.org/>`_."
+"The layout for the reStructuredText based documentation is based on the work "
+"done by the `GeoNode <http://geonode.org/>`_ project and the `Sphinx <http://"
+"sphinx.pocoo.org/>`_ framework."
+msgstr ""
+"La disposition de la documentation est basé sur le travail effectué par le "
+"`GeoNode <http://geonode.org/>`_ project en utilisant le cadre sphinx "
+"`Sphinx <http://sphinx.pocoo.org/>`_."
 
 #: ..\..\index.rst:169
 msgid ""
 "If you have questions, found a bug or have enhancements, please contact us "
 "through info@geosolutions.it"
-msgstr "Si vous avez des questions , trouvé un bug ou vous avez fait des améliorations, contactez-nous via info@geosolutions.it"
+msgstr ""
+"Si vous avez des questions , trouvé un bug ou vous avez fait des "
+"améliorations, contactez-nous via info@geosolutions.it"
 
 #: ..\..\index.rst:172
 msgid "Creative Commons"
@@ -420,9 +520,9 @@ msgstr "Creative Commons"
 
 #: ..\..\index.rst:174
 msgid ""
-"`Creative Commons Attribution-ShareAlike 3.0 Unported License "
-"<http://creativecommons.org/licenses/by-sa/3.0/>`_ Creative Commons (CC) is "
-"a non-profit organization devoted to expanding the range of creative works "
+"`Creative Commons Attribution-ShareAlike 3.0 Unported License <http://"
+"creativecommons.org/licenses/by-sa/3.0/>`_ Creative Commons (CC) is a non-"
+"profit organization devoted to expanding the range of creative works "
 "available for others to build upon legally and to share. The organization "
 "has released several copyright-licenses known as Creative Commons licenses "
 "free of charge to the public. These licenses allow creators to communicate "
@@ -434,7 +534,24 @@ msgid ""
 "specific rights between copyright owne (licensor) and licensee, which are "
 "necessary under an \"all rights reserved\" copyright management, with a "
 "\"some rights reserved\" management employing standardized licenses for re-"
-"use cases where no commercial compensation is sought by the copyright owner."
-" The result is an agile, low-overhead and low-cost copyright-management "
+"use cases where no commercial compensation is sought by the copyright owner. "
+"The result is an agile, low-overhead and low-cost copyright-management "
 "regime, profiting both copyright owners and licensees."
-msgstr "`Creative Commons Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0/>`_ Creative Commons (CC) is a non-profit organization devoted to expanding the range of creative works available for others to build upon legally and to share. The organization has released several copyright-licenses known as Creative Commons licenses free of charge to the public. These licenses allow creators to communicate which rights they reserve, and which rights they waive for the benefit of recipients or other creators. An easy-to-understand one-page explanation of rights, with associated visual symbols, explains the specifics of each Creative Commons license. Creative Commons licenses do not replace copyright, but are based upon it. They replace individual negotiations for specific rights between copyright owne (licensor) and licensee, which are necessary under an \"all rights reserved\" copyright management, with a \"some rights reserved\" management employing standardized licenses for re-use cases where no commercial compensation is sought by the copyright owner. The result is an agile, low-overhead and low-cost copyright-management regime, profiting both copyright owners and licensees."
+msgstr ""
+"`Creative Commons Attribution-ShareAlike 3.0 Unported License <http://"
+"creativecommons.org/licenses/by-sa/3.0/>`_ Creative Commons (CC) is a non-"
+"profit organization devoted to expanding the range of creative works "
+"available for others to build upon legally and to share. The organization "
+"has released several copyright-licenses known as Creative Commons licenses "
+"free of charge to the public. These licenses allow creators to communicate "
+"which rights they reserve, and which rights they waive for the benefit of "
+"recipients or other creators. An easy-to-understand one-page explanation of "
+"rights, with associated visual symbols, explains the specifics of each "
+"Creative Commons license. Creative Commons licenses do not replace "
+"copyright, but are based upon it. They replace individual negotiations for "
+"specific rights between copyright owne (licensor) and licensee, which are "
+"necessary under an \"all rights reserved\" copyright management, with a "
+"\"some rights reserved\" management employing standardized licenses for re-"
+"use cases where no commercial compensation is sought by the copyright owner. "
+"The result is an agile, low-overhead and low-cost copyright-management "
+"regime, profiting both copyright owners and licensees."

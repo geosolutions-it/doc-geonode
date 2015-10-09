@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 16:30+0200\n"
+"POT-Creation-Date: 2015-10-09 16:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "From here you can browse the documentation relative to the GeoNode Traini
 msgstr ""
 
 #: ..\..\index.rst:11
-msgid "An Ubuntu 14.04 based Virtual Machine, containing the base packages and data for the execution of the workshop exercises, is available for download `here <https://www.dropbox.com/s/yfq2gpjs3pooy4b/Training%20-%20v1.zip?dl=0>`_ The Virtual Machine can be launched through `VirtualBox <https://www.virtualbox.org/>`_ or `VMWare Player <http://www.vmware.com/>`_ binaries."
+msgid "An Ubuntu 14.04 based Virtual Machine, containing the base packages and data for the execution of the workshop exercises, is available for download `here <https://www.dropbox.com/s/4vhfff0ogqzsrkx/GeoNode%20-%20Training%20-%20v1.3.zip?dl=0>`_ The Virtual Machine can be launched through `VirtualBox <https://www.virtualbox.org/>`_ or `VMWare Player <http://www.vmware.com/>`_ binaries."
 msgstr ""
 
 #: ..\..\index.rst:14
