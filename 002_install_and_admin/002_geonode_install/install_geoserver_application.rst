@@ -59,7 +59,7 @@ Edit `web.xml` with a text editor
 ::
     sudo gedit web.xml
 
- And add the following:
+And add the following:
 ::
 
     <context-param>

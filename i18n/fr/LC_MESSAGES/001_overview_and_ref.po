@@ -5,13 +5,14 @@
 # Translators:
 # matteo cima <matteocima@hotmail.com>, 2015
 # simboss <simone.giannecchini@geo-solutions.it>, 2015
+# simboss <simone.giannecchini@geo-solutions.it>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-05 15:45+0200\n"
-"PO-Revision-Date: 2015-10-08 18:27+0200\n"
-"Last-Translator: simboss <simone.giannecchini@geo-solutions.it>\n"
+"PO-Revision-Date: 2015-10-09 12:48+0200\n"
+"Last-Translator: Alessio Fabiani <alessio.fabiani@geo-solutions.it>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-documentation/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,9 +29,7 @@ msgstr "Importation et gestion."
 msgid "GeoNode allows users to upload and share geospatial data, securely. GeoNode makes it easy to upload and manage geospatial data on the web. Any user can upload and make content available via standard OGC protocols such as Web Map Service (WMS) and Web Feature Service (WFS). Data is available for browsing, searching, styling, and processing to generate maps which can be shared publicly or restricted to specific users only. Supported upload formats include ShapeFile, GeoTIFF, KML and CSV. In addition, it is possible to connect to existing external spatial databases and services."
 msgstr "Geonode permet aux utilisateurs de télécharger et partager les données géospatiales en sécurité. Geonode rend  les données géospatiales facile à gèrer  et à  télécharger. Chaque utilisateur peut télécharger et rendre des contenus disponibles via standard OGC protocols comme Web Map Service (WMS) et Web Feature Service ( WFS). La donnée est disponible pour naviguer, chercher, elaborer et traiter afin de générer des cartes pouvant être partagée publiquement ou limitée seulement à des utilisateurs spécifiques. Le format de téléchargement spécifié inclut ShapeFile, GeoTIFF, KML et CSV. En plus, il est possible de se connecter à des bases de données et services spatiaux externes existants."
 
-#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:10
-#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:11
-#: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:11
+#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:10 ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:11 ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:11
 msgid "Features include:"
 msgstr "Les fonctionnalités incluent:"
 
@@ -54,20 +53,15 @@ msgstr "Editeur de donées géospatiale versionnée"
 msgid "Users' Features"
 msgstr "Fonctionnalités pour les utilisateurs."
 
-#: ..\..\001_overview_and_ref\001_user_features\index.rst:6
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:6
-#: ..\..\001_overview_and_ref\index.rst:23
+#: ..\..\001_overview_and_ref\001_user_features\index.rst:6 ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:6 ..\..\001_overview_and_ref\index.rst:23
 msgid "Open Source Geospatial Content Management System"
 msgstr "Système Open Source de gestion de contenu Geospatial"
 
-#: ..\..\001_overview_and_ref\001_user_features\index.rst:8
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:8
-#: ..\..\001_overview_and_ref\index.rst:25
+#: ..\..\001_overview_and_ref\001_user_features\index.rst:8 ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:8 ..\..\001_overview_and_ref\index.rst:25
 msgid "GeoNode is a web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI)."
 msgstr "Geonode est une application web based et une plateforme pour le dévelopement de systéme d'informations géospatiales (SIG) et pour la creation d'infrastructures de données spatial (SDI)."
 
-#: ..\..\001_overview_and_ref\001_user_features\index.rst:10
-#: ..\..\001_overview_and_ref\index.rst:27
+#: ..\..\001_overview_and_ref\001_user_features\index.rst:10 ..\..\001_overview_and_ref\index.rst:27
 msgid "What GeoNode can be used for… `GeoNode Demo <http://demo.geonode.org/>`_ (admin/admin)"
 msgstr "Geonode peut être utilisé pour certain but... `Geonode démo: <http://demo.geonode.org/>`_ (admin/admin)"
 
@@ -143,8 +137,7 @@ msgstr "Partager votre carte avec d'autres personnes"
 msgid "Start GeoNode on your Live DVD or local VM and redirect your browser at `http://localhost:8000/ <http://localhost:8000/>`_ (this is the default port). The page will look like shown in the image below."
 msgstr "Naviguez avec votre browser à `http://localhost:8000/ <http://localhost:8000/>`_ (cela est le port par défaut). La page ressemblera à l'image ci-dessous."
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:23
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:18
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:23 ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:18
 msgid "*Welcome page*"
 msgstr "Page de bienvenue"
 
@@ -272,8 +265,7 @@ msgstr "Dans cette interface, il y a une barre d'outils, une liste de couches et
 msgid "Click on the *New Layers* button and select *Add Layers*."
 msgstr "Cliquez sur le bouton *New Layers* et séléctionnez *Add layers*"
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:126
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:134
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:126 ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:134
 msgid "*Add Layers*"
 msgstr "Ajoutez des couches"
 
@@ -293,8 +285,7 @@ msgstr "La couche sera ajouté à la carte. Cliquez *Done* (juste à coté de *A
 msgid "To save the map click on the Map button in the toolbar, and select *Save Map*."
 msgstr "Pour sauvegarder la carte cliquez sur le bouton de la carte dans la barre d'outils."
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:142
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:154
+#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:142 ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:154
 msgid "*Save Map*"
 msgstr "Sauvegarder la carte"
 
@@ -392,7 +383,7 @@ msgstr "Accédez à votre instance de GeoNode (démonstration en ligne disponibl
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:20
 msgid "This page shows a variety of information about the current GeoNode instance. At the top of the page is a toolbar showing quick links to view `layers <http://docs.geonode.org/en/latest/tutorials/users/layers/index.html#layers>`_, `maps <http://docs.geonode.org/en/latest/tutorials/users/maps/index.html#maps>`_, documents (metadata), `people <http://docs.geonode.org/en/latest/tutorials/users/accounts/index.html#accounts>`_, and a search field. Below this is a listing of recently updated layers, including abstract, owner, rating, and download button (if available)."
-msgstr "Cette page montre une variété d'informations sur cette instance de GeoNode . En haut de la page il y a une barre d'outils montrant des liens rapides pour afficher les `couches < http://docs.geonode.org/en/latest/tutorials/users/layers/index.html#layers~~number=plural >`_, les`cartes  < http : //docs.geonode.org/en/latest/tutorials/users/maps/index.html#maps >`_, les documents (métadonnées), les `gens <http://docs.geonode.org/en/latest/tutorials/users/accounts/index.html#accounts>`_, et une outil de recherche. En dessous se trouve une liste des couches récemment mise à jour, en comprenant le bouton de téléchargement (si disponible) et des autres informations relatives a les couches meme."
+msgstr "Cette page montre une variété d'informations sur cette instance de GeoNode . En haut de la page il y a une barre d'outils montrant des liens rapides pour afficher les `couches <http://docs.geonode.org/en/latest/tutorials/users/layers/index.html#layers>`_, les `cartes <http://docs.geonode.org/en/latest/tutorials/users/maps/index.html#maps>`_, les documents (métadonnées), les `gens <http://docs.geonode.org/en/latest/tutorials/users/accounts/index.html#accounts>`_, et une outil de recherche. En dessous se trouve une liste des couches récemment mise à jour, en comprenant le bouton de téléchargement (si disponible) et des autres informations relatives a les couches meme."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:26
 msgid "Click Explore button and choose Preview. Table data could be visualized as: Grid, Graph or Map."
@@ -416,7 +407,7 @@ msgstr "En regardant une couche"
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:44
 msgid "A layer viewing page will display, with the layer itself superimposed on a hosted base layer (in this case `MapQuest OpenStreetMap <http://open.mapquest.com/>`_). Explore this page, noting the various options available to you."
-msgstr "Une page de visualisation de la couche affichera, avec la couche elle meme  superposée à une couche de base hébergé (dans ce cas `MapQuest OpenStreetMap < http://open.mapquest.com/ >`_ ). Explorez cette page, en notant les diverses options disponibles pour vous."
+msgstr "Une page de visualisation de la couche affichera, avec la couche elle meme  superposée à une couche de base hébergé (dans ce cas `MapQuest OpenStreetMap <http://open.mapquest.com/>`_ ). Explorez cette page, en notant les diverses options disponibles pour vous."
 
 #: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:46
 msgid "Now click the Maps link in the tool bar to go to the Explore Maps page."
@@ -450,13 +441,11 @@ msgstr "Maintenant que vous êtes familier avec l'interface de base, la prochain
 msgid "Introduction"
 msgstr "Introduction"
 
-#: ..\..\001_overview_and_ref\002_introduction\index.rst:6
-#: ..\..\001_overview_and_ref\index.rst:32
+#: ..\..\001_overview_and_ref\002_introduction\index.rst:6 ..\..\001_overview_and_ref\index.rst:32
 msgid "This section introduces the GeoNode GUI and functionalities through a step-by-step workshop."
 msgstr "Cette section présente la GUI de GeoNode  et ses fonctionnalités à travers de plusieurs des étapes."
 
-#: ..\..\001_overview_and_ref\002_introduction\index.rst:8
-#: ..\..\001_overview_and_ref\index.rst:34
+#: ..\..\001_overview_and_ref\002_introduction\index.rst:8 ..\..\001_overview_and_ref\index.rst:34
 msgid "At the end of this module the users will be familiar with the GeoNode default GUI and objects."
 msgstr "À la fin de cette section, les utilisateurs seront familiers avec l'interface graphique et les differents outils fourni par GeoNode."
 
@@ -872,8 +861,7 @@ msgstr "Un `front-end testing module <https://github.com/GeoNode/geonode/tree/ma
 msgid "The following concepts are particularly important for developing on top of the GeoNode's JavaScript framework."
 msgstr "Les concepts suivants sont particulièrement importants pour le développement avec ​​le cadre JavaScript deGeoNode."
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:233
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:5
+#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:233 ..\..\001_overview_and_ref\003_reference_doc\components.rst:5
 msgid "Components"
 msgstr "Composants"
 
@@ -981,8 +969,7 @@ msgstr "Bootstrap_ est un cadre frontal pour la pose et le style des pages qui c
 msgid "Reference Doc"
 msgstr "Référence Doc"
 
-#: ..\..\001_overview_and_ref\003_reference_doc\index.rst:6
-#: ..\..\001_overview_and_ref\index.rst:37
+#: ..\..\001_overview_and_ref\003_reference_doc\index.rst:6 ..\..\001_overview_and_ref\index.rst:37
 msgid "In this section, you will find information about each and every component of GeoNode, for example *GeoServer*, *GeoNode Settings*, *Security*, etc."
 msgstr "Dans cette section, vous trouverez des informations sur chaque composant de GeoNode, par exemple *GeoServer*, *Paramètres de configuration de GeoNode*, *Sécurité*, etc."
 
@@ -1396,7 +1383,7 @@ msgstr "Django offre un support complet pour la traduction du texte dans différ
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:535
 msgid "The advanced workshop for Developers will provide more details on how to create languages and translations on GeoNode using `Transifex <https://www.transifex.com/>`_"
-msgstr "Le séminaire avancé pour les développeurs fournira plus de détails sur la façon de créer des langues et des traductions sur GeoNode utilisant ` Transifex < https://www.transifex.com/ > ` _"
+msgstr "Le séminaire avancé pour les développeurs fournira plus de détails sur la façon de créer des langues et des traductions sur GeoNode utilisant `Transifex <https://www.transifex.com/>`_"
 
 #: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:537
 msgid "More: `Internationalization and localization <https://docs.djangoproject.com/en/stable/topics/i18n/>`_"
@@ -1510,18 +1497,15 @@ msgstr "Plus: `Sécurité dans Django <https://docs.djangoproject.com/en/stable/
 msgid "Django Overview"
 msgstr "Prèsentation de Django"
 
-#: ..\..\001_overview_and_ref\004_django_overview\index.rst:6
-#: ..\..\001_overview_and_ref\index.rst:40
+#: ..\..\001_overview_and_ref\004_django_overview\index.rst:6 ..\..\001_overview_and_ref\index.rst:40
 msgid "This section introduces some basic concepts of DJango, the Python based web framework on top of which GeoNode has been developed."
 msgstr "Cette section présente les concepts de base de Django, le framework web basé sur Python qui on a utilisé pur développé GeoNode."
 
-#: ..\..\001_overview_and_ref\004_django_overview\index.rst:8
-#: ..\..\001_overview_and_ref\index.rst:42
+#: ..\..\001_overview_and_ref\004_django_overview\index.rst:8 ..\..\001_overview_and_ref\index.rst:42
 msgid "Django's primary goal is to ease the creation of complex, database-driven websites. Django emphasizes reusability and \"pluggability\" of components, rapid development, and the principle of *don't repeat yourself*. Python is used throughout, even for settings, files, and data models."
 msgstr "L'objectif principal de Django est de faciliter la création des web applications complexes qui utilise des bases de données. Django rend facile la réutilisation et \" pluggability \" de composants, de le développement rapide, et le principe de *Do not Repeat Yourself*. Python est utilisé partout, pour les paramètres de configuration, pour les fichiers et pour la interaction avec les modèles de données."
 
-#: ..\..\001_overview_and_ref\004_django_overview\index.rst:12
-#: ..\..\001_overview_and_ref\index.rst:46
+#: ..\..\001_overview_and_ref\004_django_overview\index.rst:12 ..\..\001_overview_and_ref\index.rst:46
 msgid "Django also provides an optional administrative create, read, update and delete interface that is generated dynamically through introspection and configured via admin models."
 msgstr "Django fournit également creation administrative optionelle, lire, mettre à jour et supprimer l'interface qui est généré dynamiquement par l'introspection et configuré via des modèles d'administration."
 

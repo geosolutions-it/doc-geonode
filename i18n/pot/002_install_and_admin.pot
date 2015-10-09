@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 12:19+0200\n"
+"POT-Creation-Date: 2015-10-09 12:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1100,6 +1100,10 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:58
 msgid "Edit `web.xml` with a text editor ::"
+msgstr ""
+
+#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:62
+msgid "And add the following: ::"
 msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:72
