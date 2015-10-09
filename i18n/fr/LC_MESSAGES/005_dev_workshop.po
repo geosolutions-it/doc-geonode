@@ -2883,7 +2883,7 @@ msgid ""
 "str(Layer.objects.all().query)"
 msgstr ""
 "Pour examiner un objet de requête spécifique, vous pouvez utiliser le champ "
-"``requête``: str(Layer.objects.all().query)"
+"``query``: str(Layer.objects.all().query)"
 
 #: ..\..\005_dev_workshop\004_devel_debug\python.rst:42
 msgid ""
@@ -2892,7 +2892,7 @@ msgid ""
 "this list."
 msgstr ""
 "Vous pouvez collecter plus d'informations à l'aide de ``django.db.connection."
-"queries``. Lorsque ``DEBUG``  est activée, requête SQL et la synchronisation "
+"queries``. Lorsque ``DEBUG`` est activée, requête SQL et la synchronisation "
 "des informations sont stockées dans cette liste."
 
 #: ..\..\005_dev_workshop\004_devel_debug\python.rst:46
@@ -2933,7 +2933,7 @@ msgid ""
 "results of specific queries."
 msgstr ""
 "À l'aide de l'interpréteur de commandes python, utilisez l'objet de "
-"``questions ``pour démontrer les résultats des requêtes spécifiques."
+"``questions`` pour démontrer les résultats des requêtes spécifiques."
 
 #: ..\..\005_dev_workshop\004_devel_debug\python.rst:70
 msgid "PDB"
@@ -3663,8 +3663,8 @@ msgid ""
 "Consider a directory on the server ``/data/shapefiles`` that contains the "
 "shapefile ``rivers.shp``. The following adds a new store for the shapefile:"
 msgstr ""
-"Considérons un répertoire sur le serveur ``/ data/shapefiles ``qui contient "
-"le shapefile ``rivers.shp''. L'exemple suivant ajoute un nouveau magasin "
+"Considérons un répertoire sur le serveur ``/data/shapefiles`` qui contient "
+"le shapefile ``rivers.shp``. L'exemple suivant ajoute un nouveau magasin "
 "pour le fichier de la forme :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:160
@@ -3674,9 +3674,9 @@ msgid ""
 "on the server and extract there the :download:`shapefiles.zip <resources/"
 "shapefiles/shapefiles.zip>`."
 msgstr ""
-"Afin d'exécuter l'exercice, créez un dossier \"shapefiles``quelque part sur "
-"le serveur et extraire il les : download:'shapefiles.zip <resources "
-"hapefiles/shapefiles.zip=\"\">'.</resources>"
+"Afin d'exécuter l'exercice, créez un dossier ``shapefiles`` quelque part sur "
+"le serveur et extraire il les :download:`shapefiles.zip <resources/"
+"shapefiles/shapefiles.zip>`."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:166
 msgid ""
@@ -5464,8 +5464,8 @@ msgid ""
 "download <http://geoserver.org/download>`_ page."
 msgstr ""
 "L'extension de l'importateur est une extension officielle, disponible sur le "
-"\"téléchargement de GeoServer <http: geoserver.org/download=\"\">' _ page.</"
-"http:>"
+"`téléchargement de GeoServer <http://geoserver.org/download>`_ page."
+""
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:8
 msgid ""
@@ -5607,7 +5607,7 @@ msgstr "La demande PUT suivante met à jour le SRS::"
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:231
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:376
 msgid "Where ``layerUpdate.json`` is::"
-msgstr "Où est la ``layerUpdate.json''::"
+msgstr "Où est la ``layerUpdate.json``::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:239
 msgid "Getting the import definition again, we'll find it ready to execute::"
@@ -6313,11 +6313,11 @@ msgstr "/imports/<importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:214
 msgid "Retrieve import with id <importId>"
-msgstr "Récupérer l'importation avec id<importId></importId>"
+msgstr "Récupérer l'importation avec id <importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:220
 msgid "Execute import with id <importId>"
-msgstr "Exécuter l'import avec id<importId></importId>"
+msgstr "Exécuter l'import avec id <importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:221
 msgid "204"
@@ -6337,11 +6337,11 @@ msgstr ""
 "Création d'importation ayant proposé id <importId>. Si l'id de projet "
 "devance le courant id (prochain), le code sera avancé. Si l'id proposé est "
 "inférieur ou égal à l'id courant, le courant servira. Cela permet à un "
-"système externe de dicter la gestion id.</importId>"
+"système externe de dicter la gestion id."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:235
 msgid "Remove import with id <importId>"
-msgstr "Supprimer l'importation avec id<importId></importId>"
+msgstr "Supprimer l'importation avec id <importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:241
 msgid ""
@@ -6356,7 +6356,7 @@ msgstr ""
 "être une tâche longue, à ce titre, il est possible d'ajouter ``async = "
 "true``à la demande pour le faire fonctionner de façon asynchrone, le client "
 "devra interroger la représentation importation et vérifier quand il atteint "
-"l'État \"Complets\"."
+"l'État \"COMPLETE\"."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:247
 msgid "Data"
@@ -6403,13 +6403,13 @@ msgid ""
 "case the referred file is compressed, it will be unpacked as the download "
 "completes, and the tasks will be created over the result of unpacking."
 msgstr ""
-"L'emplacement peut être \"n'importe quel URI pris en charge par les communes "
-"de VFS <http: commons.apache.org/proper/commons-vfs/filesystems.html=\"\">' "
-"_, y compris les serveurs HTTP et FTP. Le ``nom d'utilisateur '', ``mot de "
-"passe ``et ``domaine ``éléments sont facultatifs et requis uniquement si le "
+"L'emplacement peut être `importe quel URI pris en charge par les communes "
+"de VFS <http://commons.apache.org/proper/commons-vfs/filesystems.html>`"
+"_, y compris les serveurs HTTP et FTP. Le ``nom d'utilisateur`` , ``mot de "
+"passe`` et ``domaine`` éléments sont facultatifs et requis uniquement si le "
 "serveur distant demande une authentification de toutes sortes. Dans le cas "
 "où le fichier visé est compressé, il sera déballé car le téléchargement est "
-"terminé, et les tâches seront créés sur le résultat de déballage.</http:>"
+"terminé, et les tâches seront créés sur le résultat de déballage."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:274
 msgid ""
@@ -6426,7 +6426,7 @@ msgstr "/imports/<importId>/tasks"
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:290
 msgid "Retrieve all tasks for import with id <importId>"
 msgstr ""
-"Récupérer toutes les tâches d'importation avec l'id<importId></importId>"
+"Récupérer toutes les tâches d'importation avec l'id <importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:293
 msgid ":ref:`Task Collection <importer_rest_reference_tasks>`"
@@ -6488,8 +6488,8 @@ msgid ""
 "This creation mode assumes the POST to ``imports/<importId>/tasks`` of form "
 "url encoded data containing a ``url`` parameter::"
 msgstr ""
-"Ce mode de création assume le poste de ``importations /<importId>/tâches "
-"``de forme url codée des données contenant un paramètre \"url\"::</importId>"
+"Ce mode de création assume le poste de ``imports/<importId>/tasks"
+"`` de forme url codée des données contenant un paramètre ``url``::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:376
 msgid "The creation response will be the same as the multipart upload."
@@ -6508,8 +6508,8 @@ msgstr "/imports/<importId>/task/<taskId>"
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:393
 msgid "Retrieve task with id <taskId> within import with id <importId>"
 msgstr ""
-"Récupérer la tâche avec l'id <taskId>importation avec l'id <importId></"
-"importId> </taskId>"
+"Récupérer la tâche avec l'id <taskId> importation avec l'id <importId>"
+""
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:396
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:400
@@ -6524,14 +6524,14 @@ msgstr ":ref:`Task <importer_rest_reference_tasks>`"
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:398
 msgid "Modify task with id <taskId> within import with id <importId>"
 msgstr ""
-"Modifier la tâche avec l'id <taskId>importation avec l'id <importId></"
-"importId> </taskId>"
+"Modifier la tâche avec l'id <taskId> importation avec l'id <importId>"
+""
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:403
 msgid "Remove task with id <taskId> within import with id <importId>"
 msgstr ""
-"Supprimer la tâche avec l'id <taskId>importation avec l'id <importId></"
-"importId> </taskId>"
+"Supprimer la tâche avec l'id <taskId> importation avec l'id <importId>"
+""
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:408
 msgid ""
@@ -6586,7 +6586,7 @@ msgid ""
 "The following operations are specific to data objects of type ``directory``."
 msgstr ""
 "Les opérations suivantes sont spécifiques aux objets de données de type "
-"``répertoire ''."
+"``répertoire``."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:436
 msgid "/imports/<importId>/task/<taskId>/data/files"
@@ -6597,8 +6597,8 @@ msgid ""
 "Retrieve the list of files for a task with id <taskId> within import with id "
 "<importId>"
 msgstr ""
-"Récupérer la liste des fichiers pour une tâche avec l'id <taskId>importation "
-"avec l'id <importId></importId> </taskId>"
+"Récupérer la liste des fichiers pour une tâche avec l'id <taskId> importation "
+"avec l'id <importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:452
 msgid "The response to a GET request will be::"
@@ -6613,16 +6613,16 @@ msgid ""
 "Retrieve the file with id <fileId> from the data of a task with id <taskId> "
 "within import with id <importId>"
 msgstr ""
-"Récupérer le fichier avec l'id <fileId>partir des données d'une tâche avec "
-"l'id <taskId>importation avec l'id <importId></importId> </taskId> </fileId>"
+"Récupérer le fichier avec l'id <fileId> partir des données d'une tâche avec "
+"l'id <taskId> importation avec l'id <importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:495
 msgid ""
 "Remove a specific file from the task with id <taskId> within import with id "
 "<importId>"
 msgstr ""
-"Supprimer un fichier spécifique de la tâche avec l'id <taskId>importation "
-"avec l'id <importId></importId> </taskId>"
+"Supprimer un fichier spécifique de la tâche avec l'id <taskId> importation "
+"avec l'id <importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:501
 msgid ""
@@ -6643,7 +6643,7 @@ msgid ""
 "typical of a directory, plus support for directly specifying the timestamp "
 "of a particular granule."
 msgstr ""
-"Dans le cas où les données d'entrée sont de type ``mosaïque '', nous avons "
+"Dans le cas où les données d'entrée sont de type ``mosaïque``, nous avons "
 "tous les attributs typiques d'un répertoire, plus support pour spécifier "
 "directement l'horodatage d'un granule particulière."
 
@@ -6671,7 +6671,7 @@ msgid ""
 "has been created using the GUI."
 msgstr ""
 "Les opérations suivantes sont spécifiques aux objets de données de type "
-"``database''. À l'heure ou l'écriture, l'API REST n'autorise pas la création "
+"``database``. À l'heure ou l'écriture, l'API REST n'autorise pas la création "
 "d'une source de données de base de données, mais il peut fournir une "
 "description lecture seule de celui qui a été créé à l'aide de l'interface "
 "graphique."
@@ -6687,7 +6687,7 @@ msgid ""
 "within import with id <importId>"
 msgstr ""
 "Récupérer les paramètres de connexion de base de données pour une tâche avec "
-"l'id <taskId>importation avec l'id <importId></importId> </taskId>"
+"l'id <taskId> importation avec l'id <importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:570
 msgid "List of database connection parameters and available tables"
@@ -6716,7 +6716,7 @@ msgid ""
 "refers to a database data linked to the overall import."
 msgstr ""
 "Les opérations suivantes sont spécifiques aux objets de données de type "
-"``tableau ''. À l'heure ou l'écriture, l'API REST n'autorise pas la création "
+"``tableau``. À l'heure ou l'écriture, l'API REST n'autorise pas la création "
 "d'une source de données de base de données, mais il peut fournir une "
 "description lecture seule de celui qui a été créé à l'aide de l'interface "
 "graphique. Une description de la table est normalement liée à la tâche et se "
@@ -6728,7 +6728,7 @@ msgid ""
 "with id <importId>"
 msgstr ""
 "Récupérer la description de la table pour une tâche avec l'id "
-"<taskId>importation avec l'id <importId></importId> </taskId>"
+"<taskId> importation avec l'id <importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:626
 msgid "A table representation"
@@ -6751,8 +6751,8 @@ msgid ""
 "Retrieve the layer of a task with id <taskId> within import with id "
 "<importId>"
 msgstr ""
-"Récupérer la couche d'une tâche avec l'id <taskId>importation avec l'id "
-"<importId></importId> </taskId>"
+"Récupérer la couche d'une tâche avec l'id <taskId> importation avec l'id "
+"<importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:658
 msgid "A layer JSON representation"
@@ -6763,8 +6763,8 @@ msgid ""
 "Modify the target layer for a task with id <taskId> within import with id "
 "<importId>"
 msgstr ""
-"Modifier le calque cible pour une tâche avec l'id <taskId>importation avec "
-"l'id <importId></importId> </taskId>"
+"Modifier le calque cible pour une tâche avec l'id <taskId> importation avec "
+"l'id <importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:666
 msgid "Requesting the task layer will result in the following::"
@@ -6797,7 +6797,7 @@ msgid ""
 "import with id <importId>"
 msgstr ""
 "Récupérer la liste des transformations d'une tâche avec l'id "
-"<taskId>importation avec l'id <importId></importId> </taskId>"
+"<taskId> importation avec l'id <importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:740
 msgid "A list of transfromations in JSON format"
@@ -6809,7 +6809,7 @@ msgid ""
 "within import with id <importId>"
 msgstr ""
 "Créer une nouveau transormation et ajoutez-la à l'intérieur d'une tâche avec "
-"l'id <taskId>importation avec l'id <importId></importId> </taskId>"
+"l'id <taskId> importation avec l'id <importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:744
 msgid "A JSON transformation representation"
@@ -6843,7 +6843,7 @@ msgid ""
 "transformation specific, each one will use a different set of attributes)."
 msgstr ""
 "Création d'une nouvelle transformation, affichant un document JSON avec une "
-"propriété de ``type``identifier la catégorie de la transformation, ainsi que "
+"propriété de ``type`` identifier la catégorie de la transformation, ainsi que "
 "n'importe quel attribut supplémentaire requis par la transformation elle-"
 "même (il s'agit de transformation spécifique, que chacun d'eux utilise un "
 "ensemble différent d'attributs)."
@@ -6866,9 +6866,9 @@ msgid ""
 "Retrieve a transformation identified by <transformId> inside a task with id "
 "<taskId> within import with id <importId>"
 msgstr ""
-"Récupérer une transformation identifiée par <transformId>à l'intérieur d'une "
-"tâche avec l'id <taskId>importation avec l'id <importId></importId> </"
-"taskId> </transformId>"
+"Récupérer une transformation identifiée par <transformId> à l'intérieur d'une "
+"tâche avec l'id <taskId> importation avec l'id <importId>"
+""
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:808
 msgid "A single transformation in JSON format"
@@ -6879,9 +6879,9 @@ msgid ""
 "Modifies the definition of a transformation identified by <transformId> "
 "inside a task with id <taskId> within import with id <importId>"
 msgstr ""
-"Modifie la définition d'une transformation identifiée par <transformId>à "
-"l'intérieur d'une tâche avec l'id <taskId>importation avec l'id <importId></"
-"importId> </taskId> </transformId>"
+"Modifie la définition d'une transformation identifiée par <transformId> à "
+"l'intérieur d'une tâche avec l'id <taskId> importation avec l'id <importId>"
+""
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:812
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:817
@@ -6902,9 +6902,9 @@ msgid ""
 "Removes the transformation identified by <transformId> inside a task with id "
 "<taskId> within import with id <importId>"
 msgstr ""
-"Supprime la transformation identifiée par <transformId>à l'intérieur d'une "
-"tâche avec l'id <taskId>importation avec l'id <importId></importId> </"
-"taskId> </transformId>"
+"Supprime la transformation identifiée par <transformId> à l'intérieur d'une "
+"tâche avec l'id <taskId> importation avec l'id <importId>"
+""
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:821
 msgid "Retrieve a single transformation"
@@ -7000,8 +7000,8 @@ msgid ""
 "geometry representation ``POINT(lngField,latField)``, the source fields will "
 "be removed."
 msgstr ""
-"Deux champs de type numérique ``latField``et ``lngField``transforme une "
-"représentation de la géométrie de point ``POINT(lngField,latField)'', la "
+"Deux champs de type numérique ``latField`` et ``lngField`` transforme une "
+"représentation de la géométrie de point ``POINT(lngField,latField)``, la "
 "source de champs seront supprimés."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:891
@@ -7186,7 +7186,7 @@ msgid ""
 "``gdaladdo``"
 msgstr ""
 "Tableau d'entiers avec les niveaux de présentation qui seront passés au "
-"``gdaladdo''"
+"``gdaladdo``"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:4
 msgid "Using the Importer extension"
@@ -7215,8 +7215,8 @@ msgid ""
 "You can always use the `Natural Earth Quickstart <http://www."
 "naturalearthdata.com/downloads/>`_ data for this task."
 msgstr ""
-"Vous pouvez toujours utiliser le ' naturel terre Quickstart <http: www."
-"naturalearthdata.com/downloads/=\"\">' _ data pour cette tâche.</http:>"
+"Vous pouvez toujours utiliser le `Natural Earth Quickstart <http://www."
+"naturalearthdata.com/downloads/>`_ data pour cette tâche."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:12
 msgid ""
