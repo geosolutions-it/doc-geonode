@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 10:37+0200\n"
+"POT-Creation-Date: 2015-10-09 12:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -649,7 +649,6 @@ msgid "This section explain how to manage the GeoServer Data Directory."
 msgstr ""
 
 #: ..\..\006_adv_workshop\001_adv_data_mgmt\001_adding_data\index.rst:7
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:6
 msgid "Adding Data to GeoServer"
 msgstr ""
 
@@ -2067,7 +2066,6 @@ msgid "Result of the FeatureID filter"
 msgstr ""
 
 #: ..\..\006_adv_workshop\001_adv_data_mgmt\002_pretty_maps\index.rst:7
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:8
 msgid "Pretty maps with GeoServer"
 msgstr ""
 
@@ -3946,7 +3944,6 @@ msgid "The result of setting **FootprintBehavior** to *Transparent*, Inset type 
 msgstr ""
 
 #: ..\..\006_adv_workshop\001_adv_data_mgmt\003_adv_raster\index.rst:7
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:9
 msgid "Advanced Raster Data Management"
 msgstr ""
 
@@ -4791,7 +4788,6 @@ msgid "Obtaining the updated Feature Type info from OpenLayers MapPreview GetFea
 msgstr ""
 
 #: ..\..\006_adv_workshop\001_adv_data_mgmt\005_spatial_processing\index.rst:4
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:12
 msgid "Spatial Processing with GeoNode"
 msgstr ""
 
@@ -4935,74 +4931,56 @@ msgstr ""
 msgid "Advanced Data Management and Processing"
 msgstr ""
 
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:7
-msgid "Cite mosaics as an example"
-msgstr ""
-
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:10
-msgid "Delivering Vector Data"
-msgstr ""
-
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:11
-msgid "Modifying Feature Types With GeoNode"
-msgstr ""
-
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:13
-#: ..\..\006_adv_workshop\002_geonode_settings\index.rst:6
-msgid "GeoNode Settings"
-msgstr ""
-
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:14
-#: ..\..\006_adv_workshop\002_geonode_settings\index.rst:7
-msgid "GeoNode Django Apps"
-msgstr ""
-
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:15
-msgid "Customizing GeoNode: MapTemplates and i18N Customizations"
-msgstr ""
-
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:27
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:16
 msgid ":ref:`geoserver.adding_data`"
 msgstr ""
 
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:27
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:16
 msgid "Learn how to add data to GeoServer."
 msgstr ""
 
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:30
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:19
 msgid ":ref:`geoserver.pretty_maps`"
 msgstr ""
 
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:30
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:19
 msgid "Learn how to create pretty styles for the Maps in GeoServer."
 msgstr ""
 
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:33
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:22
 msgid ":ref:`geoserver.raster_data`"
 msgstr ""
 
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:33
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:22
 msgid "Learn advanced tecquinques for the delivery of Raster Data with GeoServer."
 msgstr ""
 
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:36
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:25
 msgid ":ref:`geoserver.vector_data`"
 msgstr ""
 
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:36
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:25
 msgid "Learn advanced tecquinques for the delivery of Vectorial Data with GeoServer."
 msgstr ""
 
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:38
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:27
 msgid ":ref:`spatial_processing`"
 msgstr ""
 
-#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:39
+#: ..\..\006_adv_workshop\001_adv_data_mgmt\index.rst:28
 msgid "Learn how to do Spatial Processing using external tools."
 msgstr ""
 
 #: ..\..\006_adv_workshop\002_geonode_settings\index.rst:4
 msgid "GeoNode Advanced Configuration"
+msgstr ""
+
+#: ..\..\006_adv_workshop\002_geonode_settings\index.rst:6
+msgid "GeoNode Settings"
+msgstr ""
+
+#: ..\..\006_adv_workshop\002_geonode_settings\index.rst:7
+msgid "GeoNode Django Apps"
 msgstr ""
 
 #: ..\..\006_adv_workshop\003_geonode_production\index.rst:4

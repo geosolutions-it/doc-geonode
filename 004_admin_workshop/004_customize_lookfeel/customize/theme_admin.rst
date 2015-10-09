@@ -49,7 +49,7 @@ Let's walk through an example of the steps necessary to change the default logo.
 
 Visit your site at http://localhost/ or the remote URL for your site.
 
-.. figure:: img/logo_override.png
+.. figure:: ../img/logo_override.png
 
    *Custom logo*
 
@@ -104,13 +104,13 @@ First, we'll walk through the steps necessary to displace it downward so it is n
 
       $ python manage.py collectstatic
 
-   .. figure:: img/css_overrides.png
+   .. figure:: ../img/css_overrides.png
 
       *CSS overrides*
 
 .. note:: You can continue adding rules to this file to override the styles that are in the GeoNode base CSS file which is built from `base.less <https://github.com/GeoNode/geonode/blob/master/geonode/static/geonode/less/base.less>`_. You may find it helpful to use your browser's development tools to inspect elements of your site that you want to override to determine which rules are already applied. See the screenshot below. Another section of this workshop covers this topic in much more detail.
 
-  .. figure:: img/inspect_element.png
+  .. figure:: ../img/inspect_element.png
 
      *Screenshot of using Chrome's debugger to inspect the CSS overrides*
 
@@ -211,7 +211,7 @@ The file :file:`site_index.html` is the template used to define your GeoNode pro
 
       $ python manage.py collectstatic
 
-   .. figure:: img/homepage.png
+   .. figure:: ../img/homepage.png
 
 From here you can continue to customize your :file:`site_index.html` template to suit your needs. This workshop will also cover how you can add new pages to your GeoNode project site.
 
@@ -228,7 +228,7 @@ Bootswatch
 
 #. Visit http://bootswatch.com and select a theme (we will use Sandstone for this example). Select the :guilabel:`download bootstrap.css option` in the menu:
 
-   .. figure:: img/bootswatch.png
+   .. figure:: ../img/bootswatch.png
 
 #. Put this file in :file:`<my_geonode>/static/css`.
 
@@ -248,7 +248,7 @@ Bootswatch
 
       $ python manage.py collectstatic
 
-   .. figure:: img/bootswatch_geonode.png
+   .. figure:: ../img/bootswatch_geonode.png
 
 Your GeoNode project site is now using the Sandstone theme in addition to the changes you have made.
 
