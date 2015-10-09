@@ -77,58 +77,58 @@ Summary of the installation steps
         $ sudo passwd postgres # change unix password for postgres
 
 
-Create geonode role and database
+    Create geonode role and database
 
-     .. code-block:: console
+         .. code-block:: console
 
-        $ su postgres
-        $ createdb geonode_dev
-        $ createdb geonode_dev-imports
-        $ psql
-          postgres=#
-          postgres=# \password postgres
-          postgres=# CREATE USER geonode_dev WITH PASSWORD 'geonode_dev'; # should be same as password in setting.py
-          postgres=# GRANT ALL PRIVILEGES ON DATABASE "geonode_dev" to geonode_dev;
-          postgres=# GRANT ALL PRIVILEGES ON DATABASE "geonode_dev-imports" to geonode_dev;
-          postgres=# \q
+            $ su postgres
+            $ createdb geonode_dev
+            $ createdb geonode_dev-imports
+            $ psql
+              postgres=#
+              postgres=# \password postgres
+              postgres=# CREATE USER geonode_dev WITH PASSWORD 'geonode_dev'; # should be same as password in setting.py
+              postgres=# GRANT ALL PRIVILEGES ON DATABASE "geonode_dev" to geonode_dev;
+              postgres=# GRANT ALL PRIVILEGES ON DATABASE "geonode_dev-imports" to geonode_dev;
+              postgres=# \q
 
-        $ psql -d geonode_dev-imports -c 'CREATE EXTENSION postgis;'
-        $ psql -d geonode_dev-imports -c 'GRANT ALL ON geometry_columns TO PUBLIC;'
-        $ psql -d geonode_dev-imports -c 'GRANT ALL ON spatial_ref_sys TO PUBLIC;'
+            $ psql -d geonode_dev-imports -c 'CREATE EXTENSION postgis;'
+            $ psql -d geonode_dev-imports -c 'GRANT ALL ON geometry_columns TO PUBLIC;'
+            $ psql -d geonode_dev-imports -c 'GRANT ALL ON spatial_ref_sys TO PUBLIC;'
 
-        $ exit
+            $ exit
 
-Edit PostgreSQL configuration file ::
+    Edit PostgreSQL configuration file ::
 
-    sudo gedit /etc/postgresql/9.3/main/pg_hba.conf
+        sudo gedit /etc/postgresql/9.3/main/pg_hba.conf
 
-Scroll to the bottom of the file and edit this line ::
+    Scroll to the bottom of the file and edit this line ::
 
-    # "local" is for Unix domain socket connections only
-    local   all             all                            peer
+        # "local" is for Unix domain socket connections only
+        local   all             all                            peer
 
-As follows ::
+    As follows ::
 
-    # "local" is for Unix domain socket connections only
-    local   all             all                                trust
+        # "local" is for Unix domain socket connections only
+        local   all             all                                trust
 
-Restart PostgreSQL to make the changes effective ::
+    Restart PostgreSQL to make the changes effective ::
 
-    sudo service postgresql restart
+        sudo service postgresql restart
 
-*Java dependencies*
+    *Java dependencies*
 
-.. note:: The following steps must be executed **only** if you don't have a Java JDK or JRE already installed on your system (see :ref:`install_geonode_application`)
+    .. note:: The following steps must be executed **only** if you don't have a Java JDK or JRE already installed on your system (see :ref:`install_geonode_application`)
+
+        .. code-block:: console
+
+            $ sudo apt-get install -y --force-yes openjdk-6-jdk --no-install-recommends
+
+    *supporting tools*
 
     .. code-block:: console
 
-        $ sudo apt-get install -y --force-yes openjdk-6-jdk --no-install-recommends
-
-*supporting tools*
-
-.. code-block:: console
-
-    $ sudo apt-get install -y ant maven2 git gettext
+        $ sudo apt-get install -y ant maven2 git gettext
 
 #. Set up a virtual environment
 
@@ -170,42 +170,42 @@ Restart PostgreSQL to make the changes effective ::
 
    To download the latest geonode version from github, the command *clone* is used
 
-.. note::
+   .. note::
     If you are following the GeoNode training, skip the following command.
     You can find the cloned repository in /home/geonode/dev
 
-   .. code-block:: console
+       .. code-block:: console
 
-    $ git clone https://github.com/GeoNode/geonode.git
+        $ git clone https://github.com/GeoNode/geonode.git
 
 #. Add Nodejs PPA and other tools required for static development
 
    This is required for static development
 
-.. note::
-    If you are following GeoNode's training, nodejs is already installed in the
-    Virtual Machine skip the first three command and jump to `cd geonode/geonode/static`
+    .. note::
+     If you are following GeoNode's training, nodejs is already installed in the
+     Virtual Machine skip the first three command and jump to `cd geonode/geonode/static`
 
-    .. code-block:: console
+        .. code-block:: console
 
-        $ sudo add-apt-repository -y ppa:chris-lea/node.js
-        $ sudo apt-get update
-        $ sudo apt-get install -y nodejs
-        $ cd geonode/geonode/static
-        $ npm install --save-dev
+            $ sudo add-apt-repository -y ppa:chris-lea/node.js
+            $ sudo apt-get update
+            $ sudo apt-get install -y nodejs
+            $ cd geonode/geonode/static
+            $ npm install --save-dev
 
-        # If the last command does not work, you can run it manually like this:
+            # If the last command does not work, you can run it manually like this:
 
-        $ npm install bower --save-dev
-        $ npm install grunt-cli --save-dev
-        $ npm install grunt-contrib-jshint --save-dev
-        $ npm install grunt-contrib-less --save-dev
-        $ npm install grunt-contrib-concat --save-dev
-        $ npm install grunt-contrib-copy --save-dev
-        $ npm install grunt-text-replace --save-dev
-        $ npm install grunt-contrib-uglify --save-dev
-        $ npm install grunt-contrib-cssmin --save-dev
-        $ npm install grunt-contrib-watch --save-dev
+            $ npm install bower --save-dev
+            $ npm install grunt-cli --save-dev
+            $ npm install grunt-contrib-jshint --save-dev
+            $ npm install grunt-contrib-less --save-dev
+            $ npm install grunt-contrib-concat --save-dev
+            $ npm install grunt-contrib-copy --save-dev
+            $ npm install grunt-text-replace --save-dev
+            $ npm install grunt-contrib-uglify --save-dev
+            $ npm install grunt-contrib-cssmin --save-dev
+            $ npm install grunt-contrib-watch --save-dev
 
    Every time you want to update the static files after making changes to the sources, go to geonode/static and run 'grunt production'.
 
@@ -393,7 +393,7 @@ Start working on Geonode the next day after install
 
    #. Start the server
 
-       .. warning:: Don't forget to stop the **GeoNode Production** services if enabled
+      .. warning:: Don't forget to stop the **GeoNode Production** services if enabled
 
             .. code-block:: console
 

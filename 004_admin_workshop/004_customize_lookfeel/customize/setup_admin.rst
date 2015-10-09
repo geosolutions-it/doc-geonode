@@ -114,15 +114,15 @@ It is recommended that you immediately put your new project under source code re
 
 #. Create a new repository in GitHub. You should use the GitHub user interface to create a new repository for your new project.
 
-   .. figure:: img/github_home.jpg
+   .. figure:: ../img/github_home.jpg
 
       *Creating a new GitHub Repository From GitHub's Homepage*
 
-   .. figure:: img/create_repo.jpg
+   .. figure:: ../img/create_repo.jpg
 
       *Specifying new GitHub Repository Parameters*
 
-   .. figure:: img/new_repo.jpg
+   .. figure:: ../img/new_repo.jpg
 
       *Your new Empty GitHub Repository*
 
@@ -189,7 +189,7 @@ Your GeoNode project will now be structured as depicted below::
 
 You can also view your project on GitHub.
 
-   .. figure:: img/github_project.png
+   .. figure:: ../img/github_project.png
 
       *Viewing your project on GitHub*
 
