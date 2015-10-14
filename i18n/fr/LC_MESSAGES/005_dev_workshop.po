@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-09 18:26+0200\n"
-"PO-Revision-Date: 2015-10-12 10:14+0000\n"
+"PO-Revision-Date: 2015-10-13 16:50+0000\n"
 "Last-Translator: matteo cima <matteocima@hotmail.com>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-documentation/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -843,7 +843,7 @@ msgid ""
 "look and feel of your own GeoNode instance. Sites like bootswatch.com also "
 "provide ready made styles that you can simply drop in to your project to "
 "change the style."
-msgstr "Css de GeoNode est basé sur Bootstrap bibliothèque Twitter qui utilise le langage de feuille de style dynamique lessc. GeoNode s'étend de la base style bootstrap et vous êtes en mesure de créer votre propre style de base \"bootstrap\" pour personnaliser l'apparence de votre propre instance de GeoNode. Des sites comme bootswatch.com fournissent également la cle styles que vous pouvez simplement déposer votre projet pour modifier le style."
+msgstr "Css de GeoNode est basé sur Bootstrap bibliothèque Twitter qui utilise le langage de feuille de style dynamique lessc. GeoNode s'étend de la base style bootstrap et vous êtes en mesure de créer votre propre style de base \"bootstrap\" pour personnaliser l'apparence de votre propre instance de GeoNode. Des sites comme bootswatch.com fournissent également la cle  que vous pouvez simplement déposer dans votre projet pour modifier le style."
 
 #: ..\..\005_dev_workshop\002_devel_core\coremodules.rst:91
 msgid "Javascript"
@@ -858,7 +858,7 @@ msgid ""
 "are used through out all of the apps. You are able to add your own jQuery "
 "code and/or plugins to perform interactive functionality in your own "
 "application."
-msgstr "La fonctionnalité interactive en GeoNode pages est fournie par le framework javascript jQuery et un ensemble de plugins jQuery. Le noyau ensemble de GeoNode modules javascript s'aligne étroitement sur les applications décrites ci-dessus, et il y a aussi quelques morceaux de fonctionnalité fournie sous forme de modules javascript qui est utilisés par toutes les applications. Vous êtes en mesure d'ajouter votre propre code jQuery et/ou des plugins pour exécuter des fonctionnalités interactives dans votre propre application."
+msgstr "La fonctionnalité interactive des pages de GeoNode  est fournie par le framework javascript jQuery et un ensemble de plugins jQuery. Le noyau ensemble de GeoNode modules javascript s'aligne étroitement sur les applications décrites ci-dessus, et il y a aussi quelques morceaux de fonctionnalité fournie sous forme de modules javascript qui est utilisés par toutes les applications. Vous êtes en mesure d'ajouter votre propre code jQuery et/ou des plugins pour exécuter des fonctionnalités interactives dans votre propre application."
 
 #: ..\..\005_dev_workshop\002_devel_core\exercises.rst:7
 msgid "Shell and Utilities"
@@ -1137,7 +1137,7 @@ msgid ""
 "productive GeoNode developer. Django has excellent documentation, and you "
 "should familiarize yourself with Django by following the Django workshop and"
 " reading through its documentation as required."
-msgstr "GeoNode est construit sur le dessus de la *framework web Django*, et à ce titre, vous devrez vous généralement familiariser avec Django lui-même afin de devenir un développeur GeoNode productif. Django a excellente documentation, et vous devriez vous familiariser avec Django par suite de l'atelier de Django et en lisant sa documentation selon les besoins."
+msgstr "GeoNode est construit sur le dessus de la *framework web Django*, et à ce titre, vous devrez vous familiariser généralement  avec Django lui-même afin de devenir un développeur GeoNode productif. Django a d' excellentes documentations, et vous devriez vous familiariser avec Django en lisant sa documentation selon les besoins."
 
 #: ..\..\005_dev_workshop\002_devel_core\prerequisites.rst:89
 msgid "Model Template View"
@@ -1662,7 +1662,7 @@ msgstr "clone de geonode de github et installez-le dans l'environnement virtuel"
 
 #: ..\..\005_dev_workshop\003_devel_env\win_devinstall.rst:14
 msgid "run paver to get install geoserver and start the development servers"
-msgstr "Exécutez le finisseur pour obtenir geoserver installer et démarrer les développement des serveurs"
+msgstr "Exécutez le finisseur pour obtenir geoserver installé et démarrer les développement des serveurs"
 
 #: ..\..\005_dev_workshop\003_devel_env\win_devinstall.rst:16
 msgid ""
@@ -2170,7 +2170,7 @@ msgid ""
 "in the :file:`settings.py`. The default settings distributed with GeoNode "
 "are configured to only log errors. During development, it's a good idea to "
 "override the logging data structure with something a bit more verbose."
-msgstr "Enregistrement est contrôlé par le contenu de l'enregistrement de données structure définie dans le :file:`settings.py`. Les paramètres par défaut distribués avec GeoNode sont configurés pour n'enregistrer que des erreurs. Au cours du développement, c'est une bonne idée de remplacer la structure de données de journalisation avec quelque chose d'un peu plus bavard."
+msgstr "L' enregistrement est contrôlé par le contenu de l'enregistrement des données de structure défini dans le :file:`settings.py`. Les paramètres par défaut distribués avec GeoNode sont configurés pour n'enregistrer que des erreurs. Au cours du développement, c'est une bonne idée de remplacer la structure de données de journalisation avec quelque chose d'un peu plus bavard."
 
 #: ..\..\005_dev_workshop\004_devel_debug\python.rst:21
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:64
@@ -2192,7 +2192,7 @@ msgid ""
 "In production, logging output will go into the apache error log. This is "
 "located in :file:`/var/log/apache2/error.log`. During development, logging "
 "output will, by default, go to standard error."
-msgstr "En production, sortie ira dans le log d'erreur apache. Celui-ci se trouve dans :file:`/var/log/apache2/error.log`. Au cours du développement, sortie d'enregistrement iront, par défaut, à l'écart-type."
+msgstr "En production, la sortie du logging ira dans le log d'erreur apache. Celui-ci se trouve dans :file:`/var/log/apache2/error.log`. Au cours du développement,les sorties d'enregistrement iront, par défaut, à l'écart-type."
 
 #: ..\..\005_dev_workshop\004_devel_debug\python.rst:28
 msgid "Configuring"
@@ -2342,7 +2342,7 @@ msgid ""
 "Please use the Github project at http://github.com/boundlessgeo/gsconfig for"
 " any bug reports (and pull requests are welcome, but please include tests "
 "where possible.)"
-msgstr "S'il vous plaît utiliser le projet Github à http://github.com/boundlessgeo/gsconfig pour tout rapport de bug (et pull requêtes sont les bienvenus, mais s'il vous plaît incluent des essais si possible)."
+msgstr "S'il vous plaît utiliser le projet Github à http://github.com/boundlessgeo/gsconfig pour tout rapport de bug (et pull requêtes sont les bienvenus, mais s'il vous plaît incluez des essais si possible)."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:34
 msgid "Sample Layer Creation Code"
@@ -2367,13 +2367,13 @@ msgid ""
 "database with the ``psql`` command line client by running ``$ psql -d db "
 "-Upostgres -h localhost -p 5432`` (you will be prompted interactively for "
 "the password.)"
-msgstr "Depuis tout le but de ce module est d'interagir avec GeoServer, la suite de test est principalement composée de `tests d'intégration <http://en.wikipedia.org/wiki/Integration_testing>`_. Ces tests reposent nécessairement sur une copie de fonctionnement de GeoServer, et attendent que cette instance GeoServer sera utilise le répertoire de données par défaut qui est inclus avec GeoServer. Ces données sont également inclus dans le référentiel source GeoServer que ``/data/release/``. En outre, il est prévu qu'il y aura une base de données postgres disponible à ``postgres:password@localhost:5432/db``. Vous pouvez tester la connexion à cette base de données avec le client en ligne de commande ``psql`` en exécutant ``$ psql -d db -Upostgres -h localhost -p 5432`` (vous serez invité interactive pour le mot de passe.)"
+msgstr "Alors que  le but de ce module est d'interagir avec GeoServer, la suite de test est principalement composée de `tests d'intégration <http://en.wikipedia.org/wiki/Integration_testing>`_. Ces tests reposent nécessairement sur une copie de fonctionnement de GeoServer, et attendent que cette instance GeoServer utilise le répertoire de données par défaut qui est inclus avec GeoServer. Ces données sont également inclues dans le référentiel source GeoServer que ``/data/release/``. En outre, il est prévu qu'il y aura une base de données postgres disponible à ``postgres:password@localhost:5432/db``. Vous pouvez tester la connexion à cette base de données avec le client en ligne de commande ``psql`` en exécutant ``$ psql -d db -Upostgres -h localhost -p 5432`` (vous serez invité interactivement pour le mot de passe.)"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:66
 msgid ""
 "To override the assumed database connection parameters, the following "
 "environment variables are supported:"
-msgstr "Pour substituer les paramètres de connexion de base de données supposé, variables d'environnement suivantes sont prises en charge :"
+msgstr "Pour substituer les paramètres de connexion de base de données supposé,des variables d'environnement suivants sont prises en charge :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:68
 msgid "DATABASE"
@@ -2407,7 +2407,7 @@ msgstr "GEOSERVER_HOME"
 msgid ""
 "Location of git repository to read the clean data from. If only this option "
 "is provided `git clean` will be used to reset the data."
-msgstr "Emplacement du dépôt git pour lire les données propres de. Si seulement cette option est fournie `git clean` servira à réinitialiser les données."
+msgstr "Emplacement du dépôt git pour lire les données propres . Si  cette option est fournie `git clean` servira à réinitialiser les données."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:80
 msgid "GEOSERVER_DATA_DIR"
@@ -2417,7 +2417,7 @@ msgstr "GEOSERVER_DATA_DIR"
 msgid ""
 "Optional location of the data dir geoserver will be running with. If "
 "provided, `rsync` will be used to reset the data."
-msgstr "Emplacement optionnel de la données dir geoserver s'exécutera avec. Si fourni, `rsync` servira à réinitialiser les données."
+msgstr "L'emplacement optionnel de la données dir geoserver s'exécutera. Si fourni, `rsync` servira à réinitialiser les données."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:85
 msgid "GS_VERSION"
@@ -2441,13 +2441,13 @@ msgid ""
 "few seconds to actually begin listening for http requests. You can stop it "
 "with ``CTRL-C`` (but don't do that until you've run the tests!) You can run "
 "the gsconfig tests with the following command:"
-msgstr "À ce stade, GeoServer s'exécutera mis en avant, mais il faudra quelques secondes pour commencer réellement à l'écoute des requêtes http. Vous pouvez l'arrêter avec ``CTRL-C`` (mais ne le faites pas jusqu'à ce que vous avez exécuté les tests!) Vous pouvez exécuter les tests de gsconfig avec la commande suivante :"
+msgstr "À ce stade, GeoServer s'exécutera  en avant, mais il faudra quelques secondes pour commencer réellement à l'écoute des requêtes http. Vous pouvez l'arrêter avec ``CTRL-C`` (mais ne le faites pas jusqu'à ce que vous avez exécuté les tests!) Vous pouvez exécuter les tests de gsconfig avec la commande suivante :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:108
 msgid ""
 "Instead of restarting GeoServer after each run to reset the data, the "
 "following should allow re-running the tests:"
-msgstr "Au lieu de redémarrer GeoServer après chaque course pour réinitialiser les données, ce qui suit devrait permettre réexécuter les tests :"
+msgstr "Au lieu de redémarrer GeoServer après chaque course , réinitialiser les données, ce qui suit devrait permettre réexécuter les tests :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:116
 msgid "More Examples - Updated for GeoServer 2.4+"
@@ -2469,7 +2469,7 @@ msgid ""
 "It is possible to create JDBC Virtual Layers too. The code below allow to "
 "create a new SQL View called ``my_jdbc_vt_test`` defined by a custom "
 "``sql``."
-msgstr "Il est possible de créer un calque virtuel JDBC trop. Le code ci-dessous permettent de créer une nouvelle vue de SQL, appelée ``my_jdbc_vt_test``, définie par une coutume ``sql``."
+msgstr "Il est possible de créer un calque virtuel JDBC trop. Le code ci-dessous permet de créer une nouvelle vue de SQL, appelée ``my_jdbc_vt_test``, définie par une coutume ``sql``."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:165
 msgid ""
@@ -2481,7 +2481,7 @@ msgstr "Cet exemple montre comment mettre à jour une propriété de la ``couche
 msgid ""
 "Deleting a ``store`` from the ``catalog`` requires to purge all the "
 "associated ``layers`` first. This can be done by doing something like this:"
-msgstr "Supprimer une ``store`` du ``catalogue``, vous devez purger tous les associés ``couches`` tout d'abord. Ceci peut être fait en faisant quelque chose comme ceci :"
+msgstr "Pour supprimer une ``store`` du ``catalogue``, vous devez purger tous les associés ``couches`` tout d'abord. Ceci peut être fait en faisant quelque chose comme ceci :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:184
 msgid ""
@@ -2489,14 +2489,14 @@ msgid ""
 "coverages. It is possible to create new ImageMosaics, add granules to them, "
 "and also read the coverages metadata, modify the mosaic ``Dimensions`` and "
 "finally query the mosaic ``granules`` and list their properties."
-msgstr "Il y a certaines fonctionnalités permettant de gérer les couvertures de ``ImageMosaic``. Il est possible de créer de nouveaux ImageMosaics, leur ajouter des granules, lire les métadonnées de couvertures, modifier la mosaïque ``Dimensions`` et enfin interroger la mosaïque ``granulés`` et leurs propriétés de la liste."
+msgstr "Il y a certaines fonctionnalités permettant de gérer les couvertures de ``ImageMosaic``. Il est possible de créer de nouvelles ImageMosaics,de leur ajouter des granules, lire les métadonnées de couvertures, modifier la mosaïque ``Dimensions`` et enfin interroger la mosaïque ``granulés`` et leurs propriétés de la liste."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:187
 msgid ""
 "The gsconfig methods map the `REST APIs for ImageMosaic "
 "<http://docs.geoserver.org/stable/en/user/rest/examples/curl.html#uploading-"
 "and-modifying-a-image-mosaic>`_"
-msgstr "Carte les méthodes gsconfig le `REST API pour ImageMosaic <http://docs.geoserver.org/stable/en/user/rest/examples/curl.html#uploading-and-modifying-a-image-mosaic>`_"
+msgstr " Les méthodes gsconfig cartent le `REST API pour ImageMosaic <http://docs.geoserver.org/stable/en/user/rest/examples/curl.html#uploading-and-modifying-a-image-mosaic>`_"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:189
 msgid ""
@@ -2513,7 +2513,7 @@ msgid ""
 "By defualt the ``cat.create_imagemosaic`` tries to configure the layer too. "
 "If you want to create the store only, you can specify the following "
 "parameter"
-msgstr "Par defaut le ``cat.create_imagemosaic`` essaie de configurer la couche trop. Si vous souhaitez créer le magasin seulement, vous pouvez spécifier le paramètre suivant"
+msgstr "Par defaut le ``cat.create_imagemosaic`` essaie de configurer la couche aussi. Si vous souhaitez créer le magasin seulement, vous pouvez spécifier le paramètre suivant"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:205
 msgid ""
@@ -2533,7 +2533,7 @@ msgid ""
 "The method below allows to send granules remotely via POST to the "
 "ImageMosaic. The granules will be uploaded and stored on the ImageMosaic "
 "index folder."
-msgstr "La méthode ci-dessous permet d'envoyer des granules à distance via POST à l'ImageMosaic. Les granules seront téléchargés et stockés sur le dossier d'index ImageMosaic."
+msgstr "La méthode ci-dessous permet d'envoyer des granules à distance via POST à l'ImageMosaic. Les granules seront téléchargées et stockées sur le dossier d'index ImageMosaic."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:225
 msgid ""
@@ -2548,7 +2548,7 @@ msgid ""
 "The method below allows you the load and update the coverage metadata of the"
 " ImageMosaic. You need to do this for every coverage of the ImageMosaic of "
 "course."
-msgstr "La méthode ci-dessous permet la charge et mettre à jour les métadonnées de la couverture de la ImageMosaic. Vous devez procéder ainsi pour chaque couverture de la ImageMosaic bien sûr."
+msgstr "La méthode ci-dessous permet la charge et mise à jour des métadonnées de la couverture de l' ImageMosaic. Vous devez procéder ainsi pour chaque couverture de l' ImageMosaic bien sûr."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:245
 msgid ""
@@ -2563,7 +2563,7 @@ msgstr "Par défaut, la couche de ImageMosaic n'a pas les dimensions de couvertu
 msgid ""
 "One the ImageMosaic has been configures, it is possible to read the "
 "coverages along with their granule schema and granule info."
-msgstr "On la ImageMosaic a été configure, il est possible de lire des couvertures ainsi que leur schéma de granule et les infos de la granule."
+msgstr "L' ImageMosaic a été configurée, il est possible de lire des couvertures ainsi que leur schéma de granule et les infos de la granule."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsconfig.rst:266
 msgid "The granules details can be easily read by doing something like this:"
@@ -2582,7 +2582,7 @@ msgstr "gsimporter"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:7
 msgid "gsimporter is a python library for using GeoServer's importer API."
-msgstr "gsimporter est une bibliothèque python utilisant importateur de GeoServer API."
+msgstr "gsimporter est une bibliothèque python utilisant l' importateur de GeoServer API."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:12
 msgid "pip install gsconfig"
@@ -2599,7 +2599,7 @@ msgid ""
 "Please use the Github project at http://github.com/boundlessgeo/gsimporter "
 "for any bug reports (and pull requests are welcome, but please include tests"
 " where possible.)"
-msgstr "S'il vous plaît utiliser le projet Github à http://github.com/boundlessgeo/gsimporter pour tout rapport de bug (et pull requêtes sont les bienvenus, mais s'il vous plaît incluent des essais si possible)."
+msgstr "S'il vous plaît utiliser le projet Github à http://github.com/boundlessgeo/gsimporter pour tout rapport de bug (et pull requêtes sont les bienvenus, mais s'il vous plaît incluenez des essais si possible)."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:28
 msgid ""
@@ -2607,7 +2607,7 @@ msgid ""
 "instance with the community/importer modules installed. Because some of the "
 "tests use a postgres database, a data base is required to run. **It is "
 "strongly advised to run with a data directory you don't care about.**"
-msgstr "Les tests sont des tests d'intégration. Ceux-ci exigent d'avoir une instance GeoServer avec les modules / l'importateur de la communauté. Étant donné que certains des essais utilisent une base de données postgres, une base de données est nécessaire à l'exécution. **Il est fortement conseillé de courir avec un répertoire de données que vous ne vous souciez pas.**"
+msgstr "Les tests sont des tests d'intégration. Ceux-ci exigent d'avoir une instance GeoServer avec les modules / l'importateur de la communauté. Étant donné que certains des essais utilisent une base de données postgres, une base de données est nécessaire à l'exécution. **Il est fortement conseillé de courir avec un répertoire de données dont vous ne vous souciez pas.**"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:30
 msgid ""
@@ -2615,7 +2615,7 @@ msgid ""
 "connection to the database. If the default values are not appropriate, "
 "provide them via environment variables on the command line or via `export`. "
 "For example::"
-msgstr "La suite de tests tentera d'abord de vérifier une connexion à GeoServer et une connexion à la base de données. Si les valeurs par défaut ne sont pas appropriés, leur fournir via les variables d'environnement sur la ligne de commande ou via `export`. Par example::"
+msgstr "La suite de tests tentera d'abord de vérifier une connexion à GeoServer et une connexion à la base de données. Si les valeurs par défaut ne sont pas appropriées, les fournir via les variables d'environnement sur la ligne de commande ou via `export`. Par example::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:34
 msgid ""
@@ -2642,7 +2642,7 @@ msgid ""
 "If developing and finer grained control is desired, specific tests and other"
 " flags can be provided using `python test/uploadtests.py`. Supported "
 "arguments are:"
-msgstr "Si développer et plus fine grain contrôle est désirées, spécifiques des tests et autres drapeaux peut être fournis à l'aide de `python test/uploadtests.py`. Les arguments pris en charge sont :"
+msgstr "Si développer et plus fine grain contrôle est désirées, spécifiques tests et autres drapeaux peuvent être fournis à l'aide de `python test/uploadtests.py`. Les arguments pris en charge sont :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:42
 msgid ""
@@ -2654,7 +2654,7 @@ msgstr "**--clean** supprimer des couches et des magasins dans les espaces de tr
 msgid ""
 "**--skip-teardown** don't delete things after running. may cause errors but "
 "useful for a single test."
-msgstr "**--skip-teardown** ne pas supprimer des choses après l'exécution. peut entraîner des erreurs mais utile pour un seul test."
+msgstr "**--skip-teardown** ne pas supprimer des choses après l'exécution  peut entraîner des erreurs mais est utile pour un seul test."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geonode\gsimporter.rst:45
 msgid ""
@@ -2683,7 +2683,7 @@ msgid ""
 "PHP 5.5 or newer you can prepare the url-string using the function "
 "curl_escape. In older versions of PHP hmlspecialchars should do the job "
 "also."
-msgstr "Les exemples de cette section utilisent `cURL <http://curl.haxx.se/>`_, un outil de ligne de commande pour exécuter des requêtes HTTP et le transfert de fichiers, de générer des demandes à l'interface REST de GeoServer. Bien que les exemples sont basés sur cURL, ils pourraient être adaptés pour tout outil ou de la bibliothèque HTTP capable. S'il vous plaît être conscient que cURL agit pas entièrement la même chose que d'un navigateur Web. Contrairement à Mozilla Firefox ou Google Chrome cURL ne sera pas échapper les caractères spéciaux dans votre demande cordes automatiquement. Pour vous assurer que vos demandes peuvent être traitées correctement, assurez-vous que des personnages comme les parenthèses, virgules et similaires sont échappés avant de les envoyer via cURL. Si vous utilisez PHP 5.5 libcurl dans ou plus récent, vous pouvez préparer la chaîne URL en utilisant la fonction curl_escape. Dans les anciennes versions de PHP hmlspecialchars devrait faire le travail aussi."
+msgstr "Les exemples de cette section utilisent `cURL <http://curl.haxx.se/>`_, un outil de ligne de commande pour exécuter des requêtes HTTP et le transfert de fichiers, de générer des demandes à l'interface REST de GeoServer. Bien que les exemples sont basés sur cURL, ils pourraient être adaptés pour tout outil ou de la bibliothèque HTTP capable. S'il vous plaît soyez conscient que cURL n'agit pas pareil qu'un navigateur Web. Contrairement à Mozilla Firefox ou Google Chrome, cURL ne fera pas échapper les caractères spéciaux dans votre demande cordes automatiquement. Pour vous assurer que vos demandes puissent être traitées correctement, assurez-vous que des caractéres comme les parenthèses, virgules et similaires sont partie avant de les envoyer via cURL. Si vous utilisez PHP 5.5 libcurl  plus récent, vous pouvez préparer la chaîne URL en utilisant la fonction curl_escape. Dans les anciennes versions de PHP hmlspecialchars qui devrait faire le travail aussi."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:19
 msgid "Adding a new workspace"
@@ -2715,7 +2715,7 @@ msgstr "Chaque bloc de code ci-dessous contient une commande unique qui peut êt
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:283
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:337
 msgid "If executed correctly, the response should contain the following::"
-msgstr "Si la régularité, la réponse doit contenir ce qui suit::"
+msgstr "Si régulier, la réponse doit contenir ce qui suit::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:35
 msgid ""
@@ -2725,7 +2725,7 @@ msgstr "Notez l'en-tête de réponse ``Location``, qui spécifie l'emplacement (
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:37
 msgid "The workspace information can be retrieved as XML with a GET request:"
-msgstr "Les informations d'workspace peuvent être récupérées au format XML avec une requête GET :"
+msgstr "Les informations de workspace peuvent être récupérées au format XML avec une requête GET :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:43
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:102
@@ -2738,7 +2738,7 @@ msgid ""
 ":ref:`vector data <data_vector>`), \"``coverageStores``\" (for :ref:`raster "
 "data <data_raster>`), and \"``wmsStores``\" (for :ref:`cascaded WMS servers "
 "<data_external_wms>`)."
-msgstr "Cela montre que l'workspace peut contenir des magasins de \"``dataStores``\" (for :ref:`vector data <data_vector>`), \"``coverageStores``\" (for :ref:`raster data <data_raster>`) et \"``wmsStores``\" (for :ref:`cascaded WMS servers <data_external_wms>`)."
+msgstr "Cela montre que le workspace peut contenir des magasins de \"``dataStores``\" (for :ref:`vector data <data_vector>`), \"``coverageStores``\" (for :ref:`raster data <data_raster>`) et \"``wmsStores``\" (for :ref:`cascaded WMS servers <data_external_wms>`)."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:70
 msgid ""
@@ -2765,7 +2765,7 @@ msgid ""
 "The ``roads`` identifier in the URI refers to the name of the store to be "
 "created. To create a store named ``somethingelse``, the URI would be  "
 "``http://localhost/geoserver/rest/workspaces/acme/datastores/somethingelse/file.shp``"
-msgstr "Le identifiant de  ``roads`` dans l'URI fait référence au nom de la boutique pour être créé. Pour créer un magasin nommé ``somethingelse``, l'URI serait ``http://localhost/geoserver/rest/workspaces/acme/datastores/somethingelse/file.shp``"
+msgstr "L' identifiant de  ``roads`` dans l'URI fait référence au nom de la boutique pour être créé. Pour créer un magasin nommé ``somethingelse``, l'URI serait ``http://localhost/geoserver/rest/workspaces/acme/datastores/somethingelse/file.shp``"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:96
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:341
@@ -2781,7 +2781,7 @@ msgstr "Par défaut lorsqu'un shapefile est téléchargé, un type de fonctionna
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:133
 msgid "If executed correctly, the response will be:"
-msgstr "Si la régularité, la réponse sera :"
+msgstr "Si règulier, la réponse sera :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:148
 msgid ""
@@ -2793,11 +2793,11 @@ msgstr "Le reste de la réponse se compose d'informations de configuration et de
 msgid ""
 "Notice that the name of the Layer (and of the FeatureType) corresponds to "
 "the physical name of the ShapeFile contained into the archive."
-msgstr "Notez que le nom de la couche (et de la FeatureType) correspond au nom physique de le ShapeFile contenue dans l'archive."
+msgstr "Notez que le nom de la couche (et de la FeatureType) correspond au nom physique de  ShapeFile contenue dans l'archive."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:154
 msgid "Adding an existing shapefile"
-msgstr "Ajout d'un fichier de forme existant"
+msgstr "Ajout d'un fichier de forme existante"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:156
 msgid ""
@@ -2818,7 +2818,7 @@ msgid ""
 "In order to execute the exercise, create a folder ``shapefiles`` somewhere "
 "on the server and extract there the :download:`shapefiles.zip "
 "<resources/shapefiles/shapefiles.zip>`."
-msgstr "Afin d'exécuter l'exercice, créez un dossier ``shapefiles`` quelque part sur le serveur et extraire il les :download:`shapefiles.zip <resources/shapefiles/shapefiles.zip>`."
+msgstr "Afin d'exécuter l'exercice, créez un dossier ``shapefiles`` quelque part sur le serveur et extraire  les :download:`shapefiles.zip <resources/shapefiles/shapefiles.zip>`."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:166
 msgid ""
@@ -2829,7 +2829,7 @@ msgstr "La partie de ``external.shp`` de l'URI de requête indique que le fichie
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:172
 msgid ""
 "The shapefile will be added to the existing store and published as a layer."
-msgstr "Le shapefile sera ajoutée au magasin existant et publié comme une couche."
+msgstr "Le shapefile sera ajouté au magasin existant et publié comme une couche."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:174
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:199
@@ -2870,7 +2870,7 @@ msgstr "Création d'un style de calque"
 msgid ""
 "This example will create a new style on the server and populate it the "
 "contents of a local SLD file."
-msgstr "Cet exemple va créer un nouveau style sur le serveur et il remplir le contenu d'un fichier local de SLD."
+msgstr "Cet exemple va créer un nouveau style sur le serveur et va remplir le contenu d'un fichier local de SLD."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:211
 msgid "The following creates a new style named ``roads_style``:"
@@ -2885,7 +2885,7 @@ msgstr "Cette demande télécharge un fichier nommé :download:`roads.sld <resou
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:233
 msgid "The SLD itself can be downloaded through a a GET request:"
-msgstr "Le SLD elle-même peut être téléchargé via un une requête GET :"
+msgstr "Le SLD elle-même peut être téléchargé via  une requête GET :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:240
 msgid "Changing a layer style"
@@ -2895,7 +2895,7 @@ msgstr "Modification d'un style de calque"
 msgid ""
 "This example will alter a layer style. Prior to making any changes, it is "
 "helpful to view the existing configuration for a given layer."
-msgstr "Cet exemple va modifier un style de calque. Avant d'effectuer tout changement, il est utile afficher la configuration existante pour une couche donnée."
+msgstr "Cet exemple va modifier un style de calque. Avant d'effectuer tout changement, il est utile d'afficher la configuration existante pour une couche donnée."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:246
 msgid "The following retrieves the \"acme:roads\" layer information as XML:"
@@ -2910,13 +2910,13 @@ msgid ""
 "When the layer is created, GeoServer assigns a default style to the layer "
 "that matches the geometry of the layer. In this case a style named ``line`` "
 "is assigned to the layer. This style can viewed with a WMS request::"
-msgstr "Lorsque la couche est créée, GeoServer attribue un style par défaut à la couche correspondant à la géométrie de la couche. Dans ce cas, un style nommé ``line`` est affecté au calque. Ce style peut lus avec une demande WMS::"
+msgstr "Lorsque la couche est créée, GeoServer attribue un style par défaut à la couche correspondante à la géométrie de la couche. Dans ce cas, un style nommé ``line`` est affecté au calque. Ce style peut se lire avec une demande WMS::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:277
 msgid ""
 "In this next example a new style will be created called ``roads_style`` and "
 "assigned to the \"acme:roads\" layer:"
-msgstr "Dans ce prochain exemple que créera un nouveau style appelé ``roads_style`` et affectée au calque \"acme:roads\" :"
+msgstr "Dans ce prochain exemple un nouveau style sera crée appelé ``roads_style`` et affectée au calque \"acme:roads\" :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:287
 msgid "The new style can be viewed with the same WMS request as above::"
@@ -2927,11 +2927,11 @@ msgid ""
 "Note that if you want to upload the style in a workspace (ie, not making it "
 "a global style), and then assign this style to a layer in that workspace, "
 "you need first to create the style in the given workspace::"
-msgstr "Notez que si vous voulez télécharger le style dans un workspace (c'est à dire, ne pas ce qui en fait un style global), puis assigner ce style à un calque à cet workspace, vous devez d'abord créer le style dans l'workspace donné::"
+msgstr "Notez que si vous voulez télécharger le style dans un workspace (ne le rendant pas un style global), puis l'assigner  à un calque à cet workspace, vous devez d'abord créer le style dans un workspace donné::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:296
 msgid "Upload the file within the workspace::"
-msgstr "Télécharger le fichier au sein de l'workspace::"
+msgstr "Télécharger le fichier au sein de workspace::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:300
 msgid ""
@@ -3003,7 +3003,7 @@ msgstr "Les informations de featuretype peuvent être récupérées au format XM
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:399
 msgid "This layer can viewed with a WMS GetMap request::"
-msgstr "Cette couche peut lus avec une demande GetMap WMS::"
+msgstr "Cette couche peut se lire avec une demande GetMap WMS::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:405
 msgid "Creating a PostGIS table"
@@ -3044,7 +3044,7 @@ msgid ""
 "This example assumes the tables has already been created and the "
 "``tiger_roads``, ``poly_landmarks``, ``poi``, ``giant_polygon`` Layers have "
 "been created."
-msgstr "Cet exemple suppose que les tables a déjà été créé et le ``tiger_roads``, ``poly_landmarks``, ``pi``, ``giant_polygon`` couches ont été créées."
+msgstr "Cet exemple suppose que les tables ont déjà été créé et le ``tiger_roads``, ``poly_landmarks``, ``pi``, ``giant_polygon`` couches ont été créées."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:463
 msgid ""
@@ -3069,11 +3069,11 @@ msgid ""
 "the body of an HTTP request with a POST method. The argument ``-T "
 "filename.xml`` used in the previous example was used to send a file as the "
 "body of an HTTP request with a PUT method."
-msgstr "L'argument ``-d@filename.xml`` dans cet exemple est utilisé pour envoyer un fichier comme le corps d'une requête HTTP avec une méthode POST. L'argument ``-T filename.xml`` utilisé dans le précédent exemple a été utilisé pour envoyer un fichier comme le corps d'un HTTP demande avec une méthode PUT."
+msgstr "L'argument ``-d@filename.xml`` dans cet exemple est utilisé pour envoyer un fichier comme le corps d'une requête HTTP avec une méthode POST. L'argument ``-T filename.xml`` utilisé dans le précédent exemple a été utilisé pour envoyer un fichier comme le corps d'un HTTP demandé avec une méthode PUT."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:494
 msgid "This layer group can be viewed with a WMS GetMap request::"
-msgstr "Ce groupe de calques peut être visualisée avec une demande GetMap WMS::"
+msgstr "Ce groupe de calques peut être visualisé avec une demande GetMap WMS::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:500
 msgid "Retrieving component versions"
@@ -3152,7 +3152,7 @@ msgid ""
 "It is also possible to filter against both property and value. To retrieve "
 "only resources where a property named ``GeoServerModule`` has a value equal "
 "to ``extension``, append the above request with ``&value=extension``:"
-msgstr "Il est également possible de filtre de propriété et de valeur. Pour récupérer les seules ressources dont une propriété nommée ``GeoServerModule`` a une valeur égale à ``extension``, ajoute cette demande avec ``&value=extension``:"
+msgstr "Il est également possible de filtrer contrela propriété et la valeur. Pour récupérer les seules ressources dont une propriété nommée ``GeoServerModule`` a une valeur égale à ``extension``, ajouter cette demande avec ``&value=extension``:"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:633
 msgid "Uploading and modifying a image mosaic"
@@ -3164,18 +3164,18 @@ msgid ""
 "the definition of a mosaic (along with at least one granule of the mosaic to"
 " initialize the resolutions, overviews and the like) and will configure all "
 "the coverages in it as new layers."
-msgstr "La commande suivante téléchargements un :download:`polyphemus.zip` du fichier contenant la définition d'une mosaïque (au moins un granule de la mosaïque pour initialiser les résolutions, les aperçus et les autres) et configure tous les couvertures dedans comme nouveaux calques."
+msgstr "La commande suivante télécharge un :download:`polyphemus.zip` du fichier contenant la définition d'une mosaïque (au moins une granule de la mosaïque pour initialiser les résolutions, les aperçus et les autres) et configure tous les couvertures dedans comme nouveaux calques."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:643
 msgid ""
 "The following instead instructs the mosaic to harvest (or re-harvest) a "
 "single file into the mosaic, collecting its properties and updating the "
 "mosaic index:"
-msgstr "Ce qui suit indique plutôt la mosaïque à récolter (ou re-récolte) un seul fichier dans la mosaïque, la collecte de ses propriétés et mise à jour de l'index de la mosaïque :"
+msgstr "Ce qui suit indique plutôt la mosaïque à récolter (ou re-récolter) un seul fichier dans la mosaïque, en collectant ses propriétés et mise à jour de l'index de la mosaïque :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:649
 msgid "Harvesting can also be directed towards a whole directory, as follows:"
-msgstr "Récolte peut également être dirigée vers un répertoire entier, comme suit :"
+msgstr "La récolte peut également être dirigée vers un répertoire entier, comme suit :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:655
 msgid ""
@@ -3189,7 +3189,7 @@ msgstr "qui se traduira par le texte suivant :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:721
 msgid "Listing the existing granules can be performed as follows:"
-msgstr "Énumérant les granules existants peut être exécutée comme suit :"
+msgstr "Énumérer les granules existantes peut être exécutér comme suit :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:727
 msgid "This will result in a GML description of the granules, as follows:"
@@ -3199,7 +3199,7 @@ msgstr "Cela se traduira par une description GML des granules, comme suit :"
 msgid ""
 "Removing all the granules originating from a particular file (a NetCDF file "
 "can contain many) can be done as follows:"
-msgstr "Suppression de tous les granules provenant d'un fichier particulier (un fichier NetCDF peut contenir plusieurs) peut être effectuée comme suit :"
+msgstr "La suppression de toutes les granules provenant d'un fichier particulier (un fichier NetCDF peut en contenir plusieurs) peut être effectuée comme suit :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\curl.rst:793
 msgid "Creating an empty mosaic and harvest granules"
@@ -3293,7 +3293,7 @@ msgstr "Java"
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\java.rst:6
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\python.rst:6
 msgid "We are looking for volunteers to flesh out this section with examples."
-msgstr "Nous recherchons des bénévoles étoffer cette section avec des exemples."
+msgstr "Nous recherchons des bénévoles pour étoffer cette section avec des exemples."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\java.rst:8
 msgid ""
@@ -3310,7 +3310,7 @@ msgid ""
 "GeoServer/GeoTools, unlike the standard GeoServer REST module.  The project "
 "has minimal documentation, but does include a `Quickstart "
 "<http://code.google.com/p/gsrcj/wiki/Quickstart>`_."
-msgstr "Une autre option est `gsrcj <http://code.google.com/p/gsrcj/>`_.  Ce projet est un client de GeoServer reste écrit en Java sans dépendances supplémentaires sur GeoServer/GeoTools, contrairement à la module de GeoServer reste standard.  Le projet a une documentation minimale, mais comprend un `Quickstart <http://code.google.com/p/gsrcj/wiki/Quickstart>`_."
+msgstr "Une autre option est `gsrcj <http://code.google.com/p/gsrcj/>`_.  Ce projet est un client de GeoServer qui reste écrit en Java sans dépendances supplémentaires sur GeoServer/GeoTools, contrairement au module de GeoServer qui reste standard.  Le projet a une documentation minimale, mais comprend un `Quickstart <http://code.google.com/p/gsrcj/wiki/Quickstart>`_."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:4
 msgid "PHP"
@@ -3325,7 +3325,7 @@ msgid ""
 "convenient method for performing batch processing through the Geoserver REST"
 " interface. The following scripts execute single requests, but can be easily"
 " modified with looping structures to perform batch processing."
-msgstr "Les exemples de cette section utilisent le langage de script côté serveur `PHP <http://php.net/index.php/>`_, une langue populaire pour les pages Web dynamiques. PHP a `fonctions cURL <http://php.net/manual/en/ref.curl.php/>`_, ainsi que des fonctions `XML <http://www.php.net/manual/en/refs.xml.php/>`_, ce qui en fait une méthode pratique pour effectuer un traitement par lots via l'interface REST Geoserver. Les scripts suivants exécuter des demandes individuelles, mais peuvent être facilement modifiés avec une boucle afin d'effectuer un traitement par lots."
+msgstr "Les exemples de cette section utilisent le langage de script côté serveur `PHP <http://php.net/index.php/>`_, une langue populaire pour les pages Web dynamiques. PHP a `fonctions cURL <http://php.net/manual/en/ref.curl.php/>`_, ainsi que des fonctions `XML <http://www.php.net/manual/en/refs.xml.php/>`_, ce qui en fait une méthode pratique pour effectuer un traitement par lots via l'interface REST Geoserver. Les scripts suivants vont exécuter des demandes individuelles, mais peuvent être facilement modifiés avec une boucle afin d'effectuer un traitement par lots."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:9
 msgid ""
@@ -3339,7 +3339,7 @@ msgstr "POST avec PHP et cURL"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:18
 msgid "The following script attempts to add a new workspace."
-msgstr "Le script suivant tente d'ajouter un nouvel workspace."
+msgstr "Le script suivant tente d'ajouter un nouveau  workspace."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:70
 msgid "The logfile should look something like::"
@@ -3349,7 +3349,7 @@ msgstr "Le fichier journal doit ressembler à::"
 msgid ""
 "If the cURL request fails, a code other than 201 will be returned. Here are "
 "some possible values:"
-msgstr "Si la demande de cURL échoue, un code autre que 201 sera retourné. Voici quelques valeurs possibles :"
+msgstr "Si la demande de cURL échoue, un autre code  que 201 sera retourné. Voici quelques valeurs possibles :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:99
 msgid "Code"
@@ -3365,7 +3365,7 @@ msgstr "0"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:101
 msgid "Couldn't resolve host; possibly a typo in host name"
-msgstr "Ne pouvait pas résoudre hôte ; peut-être une faute de frappe dans le nom d'hôte"
+msgstr "Si vous ne pouvait pas résoudre hôte ; peut-être une faute de frappe dans le nom d'hôte"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:103
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:743
@@ -3408,14 +3408,14 @@ msgstr "500"
 msgid ""
 "Geoserver is unable to process the request, e.g. the workspace already "
 "exists, the xml is malformed, ..."
-msgstr "GeoServer est incapable de traiter la requête, par exemple l'workspace existe déjà, le fichier xml est incorrect..."
+msgstr "GeoServer est incapable de traiter la requête, par exemple le workspace existe déjà, le fichier xml est incorrect..."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:115
 msgid ""
 "For other codes see `cURL Error Codes <http://curl.haxx.se/libcurl/c"
 "/libcurl-errors.html>`_ and `HTTP Codes "
 "<http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html>`_."
-msgstr "Pour voir d'autres codes `cURL Codes d'erreur <http://curl.haxx.se/libcurl/c/libcurl-errors.html>`_ et `Codes HTTP <http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html>`_."
+msgstr "Pour voir d'autres codes , `cURL Codes d'erreur <http://curl.haxx.se/libcurl/c/libcurl-errors.html>`_ et `Codes HTTP <http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html>`_."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:118
 msgid "GET with PHP/cURL"
@@ -3440,7 +3440,7 @@ msgstr "DELETE avec PHP et cURL"
 msgid ""
 "To delete the (empty) workspace we just created, the script is modified as "
 "follows:"
-msgstr "Pour supprimer l'workspace (vide), que nous venons de créer, le script est modifié comme suit :"
+msgstr "Pour supprimer le workspace (vide), que nous venons de créer, le script est modifié comme suit :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\php.rst:170
 msgid "The log file will include lines like::"
@@ -3476,19 +3476,19 @@ msgstr "Une fois installé sur un système, ``rest-client`` peut être inclus da
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\ruby.rst:11
 msgid "GET and PUT Settings"
-msgstr "GET et PUT les paramètres"
+msgstr "les paramètres GET et PUT "
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\ruby.rst:13
 msgid ""
 "In order to execute the example just copy the script content into a "
 "``test.ruby`` file and execute the following command:"
-msgstr "Pour exécuter la copie juste exemple le script contenu dans un fichier ``test.ruby`` et exécutez la commande suivante :"
+msgstr "Pour exécuter l' exemple copie le script contenu dans un fichier ``test.ruby`` et exécutez la commande suivante :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\ruby.rst:19
 msgid ""
 "This example shows how to read the settings using GET, make a change and "
 "then use PUT to write the change to the server."
-msgstr "Cet exemple montre comment lire les paramètres en utilisant GET, apporter une modification et ensuite utiliser mis à écrire la modification sur le serveur."
+msgstr "Cet exemple montre comment lire les paramètres en utilisant GET, apporter une modification et ensuite utiliser PUT pour écrire la modification sur le serveur."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\examples\setup_nyc_db.rst:4
 msgid "Create and Prepare the *nyc* Example DataBase"
@@ -3538,7 +3538,7 @@ msgstr "Restaurer les tables dans la base de données à partir de la  :download
 msgid ""
 "Test that everything is ok by connecting to the database and listing the "
 "tables"
-msgstr "Test que tout est ok en se connectant à la base de données listant les tables"
+msgstr "Testez que tout est ok en vous connectant à la base de données listant les tables"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:7
 msgid "Introducing REST concepts"
@@ -3560,7 +3560,7 @@ msgid ""
 "**Resource**: each business entity is linked to a unique URL that represents"
 " it, and allows for its retrieval and eventual modification. In GeoServer "
 "such resources are layers, stores, styles and so on"
-msgstr "**Ressources**: chaque entité commerciale est liée à une URL unique qui le représente et permet son extraction et modification éventuelle. Dans GeoServer, ces ressources sont et ainsi de suite de couches, des magasins, des styles"
+msgstr "**Ressources**: chaque entité commerciale est liée à une URL unique qui le représente et permet son extraction et modification éventuelle. Dans GeoServer, ces ressources sont  des couches, des magasins, des styles"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:17
 msgid ""
@@ -3569,21 +3569,21 @@ msgid ""
 "list of feature types or coverages, a layer is linked to a style and a "
 "feature type/coverage, and so on (in other terms, the set of resources is "
 "supposed to be crawable just like a web site)."
-msgstr "**Connectivité**: les différentes ressources sont liées à un autre après des relations significatives. Par exemple, dans GeoServer un magasin contient une liste des types de fonctions ou de couvertures, une couche est liée à un style et une fonctionnalité type/couverture et ainsi de suite (en d'autres termes, l'ensemble des ressources est censé pour être crawable comme un site web)."
+msgstr "**Connectivité**: les différentes ressources sont liées l' un à l'autre après des relations significatives. Par exemple, dans GeoServer un magasin contient une liste des types de fonctions ou de couvertures, une couche est liée à un style et une fonctionnalité type/couverture et ainsi de suite (en d'autres termes, l'ensemble des ressources est censé pour être crawable comme un site web)."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:21
 msgid ""
 "**Representation**: each resource can be represented in one or more way. For"
 " example in GeoServer resources are normally represented as HTML, XML and "
 "JSON."
-msgstr "**Représentation**: chaque ressource peut être représentée de manière un ou plusieurs. Par exemple dans GeoServer ressources sont normalement représentés comme HTML, XML et JSON."
+msgstr "**Représentation**: chaque ressource peut être représentée d' une ou plusieurs maniére. Par exemple dans GeoServer,les ressources sont normalement représentées comme HTML, XML et JSON."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:23
 msgid ""
 "**Stateless-ness**: each communication with the server is atomic and not "
 "related to the communications happened before or after it. Whatever state "
 "needs to be managed needs to be stored as a publicly accessible resource."
-msgstr "**Stateless-ness**: chaque communication avec le serveur est atomique et non liées à la communication qui s'est passé avant ou après elle. Quelle que soit l'État doit être géré doit être stocké comme une ressource accessible au public."
+msgstr "**Stateless-ness**: chaque communication avec le serveur est atomique et non liées à la communication qui s'est passée avant ou après elle. N'importe quel État doit être géré et stocké comme une ressource accessible au public."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:26
 msgid ""
@@ -3619,7 +3619,7 @@ msgid ""
 "Retrieves the resource in the specified representation. Query parameters are"
 " often used to filter the contents of the returned resource, and sometimes "
 "to specify the desired representation format."
-msgstr "Récupère la ressource dans la représentation spécifiée. Paramètres de requête sont souvent utilisés pour filtrer le contenu de la ressource retournée et parfois pour spécifier le format de la représentation désirée."
+msgstr "Récupère la ressource dans la représentation spécifiée.Les paramètres de requête sont souvent utilisés pour filtrer le contenu de la ressource retournée et parfois pour spécifier le format de la représentation désirée."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:37
 msgid "HEAD"
@@ -3663,7 +3663,7 @@ msgid ""
 " perform certain actions that cannot be encoded as another method, for "
 "example, have it send a SMS (assuming creating a resource representing the "
 "SMS is not desirable)"
-msgstr "Crée une nouvelle ressource en obtenant son contenu dans la demande ou en ayant des paramètres pour calculer il. La principale différente est que la dernière URL de la ressource créée n'est pas connu pour le client et est retourné par le serveur après la création via une redirection. Il est également utilisé pour que le serveur à exécuter certaines actions qui ne peuvent pas être codées comme une autre méthode, par exemple, il ont envoyer un SMS (en supposant la création d'une ressource qui représente le SMS n'est pas souhaitable)"
+msgstr "Crée une nouvelle ressource en obtenant son contenu dans la demande ou en ayant des paramètres pour le calculer. La principale différence est que la dernière URL de la ressource créée n'est pas connue pour le client et est retournée par le serveur après la création via une redirection. Il est également utilisé pour que le serveur execute certaines actions qui ne peuvent pas être codées comme une autre méthode. Par exemple, il ont envoyé un SMS (en supposant la création d'une ressource qui représente le SMS qui n'est pas souhaitable)"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:43
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:234
@@ -3682,7 +3682,7 @@ msgid ""
 "The above results in a web services protocols that is easy to understand, "
 "implement and connect to from various languages, and with good scalability "
 "characteristics."
-msgstr "Les résultats ci-dessus dans un protocoles de services web qui est facile à comprendre, mettre en œuvre et se connecter à de diverses langues et présentant des caractéristiques de bonne évolutivité."
+msgstr "Les résultats sont ci-dessus dans un protocoles de services web, ce qui est facile à comprendre, mettre en œuvre et se connecter à de diverses langues et présentant des caractéristiques de bonne évolutivité."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\introducing_rest.rst:49
 msgid ""
@@ -3723,7 +3723,7 @@ msgid ""
 "This module is a walkthrough the GeoServer REST capabilities and APIs. Here "
 "also will be presented and deeply inspected several methods and frameworks "
 "to handle with REST APIs and functions."
-msgstr "Ce module est une procédure pas à pas les API et les fonctionnalités de GeoServer reste. Ici aussi nous présenterons et profondément inspecté plusieurs méthodes et cadres à gérer avec l'API REST et fonctions."
+msgstr "Ce module est une procédure pas à pas des capacités de Geonode REST de de ses  API . Ici aussi nous présenterons et inspecterons plusieurs méthodes et cadres à gérer avec l'API REST et fonctions."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\rest.rst:10
 msgid "**What you will learn**"
@@ -3748,13 +3748,13 @@ msgid ""
 "The GeoServer REST configuration module uses the REST principles to expose "
 "services allowing to edit the catalog, in particular to manage workspaces, "
 "stores, layers, styles and groups."
-msgstr "Le module de configuration de GeoServer reste utilise les principes REST d'exposer des services permettant de modifier le catalogue, en particulier pour gérer les espaces de travail, de magasins, de couches, de styles et de groupes."
+msgstr "Le module de configuration de GeoServer REST utilise les principes REST pour exposer des services permettant de modifier le catalogue, en particulier pour gérer les espaces de travail, de magasins, de couches, de styles et de groupes."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:13
 msgid ""
 "The REST configuration extension has normally to be installed separately, it"
 " is not come out of the box."
-msgstr "L'extension de configuration reste doit normalement être installé séparément, il n'est pas sorti de la boîte."
+msgstr "L'extension de configuration REST doit normalement être installé séparément, il n'est pas sorti de la boîte."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:15
 msgid ""
@@ -3769,7 +3769,7 @@ msgstr "Ouvrez le Terminal et entrez la commande suivante::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:22
 msgid "the response should contains the following:"
-msgstr "la réponse devrait contient les éléments suivants :"
+msgstr "la réponse  contient les éléments suivants :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:26
 msgid "Create a new workspace via REST"
@@ -3783,11 +3783,11 @@ msgstr "Allez dans la section ``Workspaces`` via l'interface Web pour montrer le
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:32
 msgid "GET request to abtain new workspace details"
-msgstr "GET demande abtain nouveaux détails de l'workspace"
+msgstr "GET demande de nouveaux détails du workspace"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:34
 msgid "Get the new created workspace details entering the following::"
-msgstr "Obtenez le nouveau créé des détails d'workspace entrant ce qui suit::"
+msgstr "Obtenez les nouveaux  détails de workspace entrant ce qui suit::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:40
 msgid "GET request to obtain new workspace details"
@@ -3797,7 +3797,7 @@ msgstr "Demande GET pour obtenir de nouveaux détails d'workspace"
 msgid ""
 "Publish the shapefile :download:`pointlands <resources/pointlands.zip>` "
 "using the ``myworkspace`` workspace entering the following"
-msgstr "Publier le shapefile :download:`pointlands <resources/pointlands.zip>` à l'aide de l'workspace ``myworkspace`` entrant ce qui suit"
+msgstr "Publier le shapefile :download:`pointlands <resources/pointlands.zip>` à l'aide du workspace ``myworkspace`` entrant ce qui suit"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:44
 msgid "Linux::"
@@ -3813,11 +3813,11 @@ msgstr "Aller à la **Couche Preview** pour montrer les couches dans une carte O
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:56
 msgid "Showing the new layer created"
-msgstr "Montrant le nouveau couche créé"
+msgstr "Montrant la nouvelle couche créé"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:60
 msgid "The new layers created"
-msgstr "Les nouveaux couches créés"
+msgstr "Les nouvelles couches créés"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:62
 msgid ""
@@ -3825,7 +3825,7 @@ msgid ""
 "won't be accessible because the administrator does not have the required "
 "roles. Go back in the service security section and remove the rule limiting "
 "the GetMap requests."
-msgstr "Si vous avez déjà suivi le passage de la sécurité de l'atelier de la couche ne sera pas accessible car l'administrateur n'a pas les rôles. Retournez dans la section sécurité de service et supprimer la règle limitant les requêtes GetMap."
+msgstr "Si vous avez déjà suivi le passage de la sécurité de l'atelier , la couche ne sera pas accessible car l'administrateur n'a pas les rôles. Retournez dans la section sécurité de service et supprimer la règle limitant les requêtes GetMap."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:64
 msgid "Retrieves the created data store as XML entering the following::"
@@ -3857,7 +3857,7 @@ msgid ""
 "Apply the existing ``landmarks`` style to the layer created "
 "``myworkspace:pointlands`` (this operation does not overwrite the entire "
 "layer definition, updates it instead)::"
-msgstr "Appliquer le style de ``landmarks`` existant à la couche créée ``myworkspace:pointlands`` (cette opération n'écrase pas la définition de l'ensemble de la couche, met à jour à la place)::"
+msgstr "Appliquer le style de ``landmarks`` existant à la couche créée ``myworkspace:pointlands`` (cette opération n'écrase pas la définition de l'ensemble de la couche,la met à jour à plutot)::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\geoserver_rest\using_rest.rst:169
 msgid ""
@@ -3877,7 +3877,7 @@ msgstr "Formats de données pris en charge"
 msgid ""
 "The importer supports any format that GeoServer can use a data store or "
 "coverage store. These include the most commonly used formats:"
-msgstr "L'importateur supporte n'importe quel format que GeoServer peut utiliser un magasin de données ou un magasin de couverture. Ceux-ci incluent les formats les plus couramment utilisés :"
+msgstr "L'importateur supporte n'importe quel format que GeoServer peut utiliser, un magasin de données ou un magasin de couverture. Ceux-ci incluent les formats les plus couramment utilisés :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:9
 msgid "Shapefile"
@@ -3901,7 +3901,7 @@ msgstr "KML"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:17
 msgid "The following databases are supported:"
-msgstr "Les bases de données suivants sont pris en charge :"
+msgstr "Les bases de données suivantes sont prise en charge :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\formats.rst:19
 msgid "PostGIS"
@@ -3947,11 +3947,11 @@ msgstr "Sources de données"
 msgid ""
 "The front page of the Layer Importer is where the data source and format are"
 " set. The following options are displayed:"
-msgstr "La première page de l'importateur de couche, c'est où la source de données et le format sont définies. Les options suivantes sont affichent :"
+msgstr "La première page de l'importateur de couche, c'est où la source de données et le format sont définies. Les options suivantes sont affichée :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:14
 msgid "Choose a data source to import from"
-msgstr "Choisir une source de données pour importer à partir"
+msgstr "Choisir une source de données pour importer de la'"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:16
 msgid "Select one of the following data sources to use for the import:"
@@ -4023,7 +4023,7 @@ msgid ""
 " PostGIS store loading procedure. (See the `PostGIS data store "
 "<../../geoserver/data/database/>`_ page in the GeoServer reference "
 "documentation.)"
-msgstr "Il sont aussi avancé des options de connexion, qui sont fréquentes dans le magasin de PostGIS standard procédure de chargement. (Voir la page `PostGIS data store <../../geoserver/data/database/>`_ dans la documentation de référence de GeoServer.)"
+msgstr "Il y a aussi  des options avancée de connexion, qui sont fréquentes dans le magasin de PostGIS standard procédure de chargement. (Voir la page `PostGIS data store <../../geoserver/data/database/>`_ dans la documentation de référence de GeoServer.)"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:51
 msgid "PostGIS data source connection"
@@ -4065,7 +4065,7 @@ msgstr "Les champs de paramètre pour l'importation de SQL Server sont identique
 msgid ""
 "This option is only enabled if the :ref:`SQL Server <data_sqlserver>` "
 "extension is installed."
-msgstr "Cette option est activée uniquement si le :ref:`SQL Server <data_sqlserver>` extension est installée."
+msgstr "Cette option est activée uniquement si le :ref:`SQL Server <data_sqlserver>` extension est installé."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:73
 msgid "SQL Server data source connection"
@@ -4097,7 +4097,7 @@ msgstr "Vous pouvez également sélectionner :guilabel:`Create New` et tapez un 
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:90
 msgid "Creating a new workspace and store"
-msgstr "Création d'un nouvel workspace et le magasin"
+msgstr "Création d'un nouvel workspace et du magasin"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:93
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:99
@@ -4110,7 +4110,7 @@ msgid ""
 "This section will list previous imports, and whether they were successful or"
 " not. Items can be removed from this list with the :guilabel:`Remove` "
 "button, but otherwise cannot be edited."
-msgstr "Cette section répertorie les importations effectuées précédemment, et si ils ont réussi ou non. Éléments peuvent être retirés de cette liste avec le :guilabel:`Remove` bouton, mais dans le cas contraire ne peuvent pas être modifiés."
+msgstr "Cette section répertorie les importations effectuées précédemment, et si ils ont réussi ou non. Les éléments peuvent être retirés de cette liste avec le :guilabel:`Remove` bouton, mais dans le cas contraire ne peuvent pas être modifiés."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:101
 msgid "When ready to continue to the next page, click :guilabel:`Next`."
@@ -4126,13 +4126,13 @@ msgid ""
 "layers will be named according to the source content's name (file name of "
 "database table name). For each entry there will be a :guilabel:`Status` "
 "showing if the source is ready to be imported."
-msgstr "Sur la prochaine page sera une liste des couches trouvées par l'importateur de la couche. Les couches seront nommés selon le nom du contenu de la source (nom de fichier du nom de la table de base de données). Pour chaque entrée, il y aura un affichage de :guilabel:`Statut` si la source est prête à être importé."
+msgstr "Sur la prochaine page il y aura une liste des couches trouvées par l'importateur de la couche. Les couches seront nommées selon le nom du contenu de la source (nom de fichier du nom de la table de base de données). Pour chaque entrée, il y aura un affichage de :guilabel:`Statut` si la source est prête à être importé."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:108
 msgid ""
 "All layers will be selected for import by default, but can be deselected "
 "here by unchecking the box next to each entry."
-msgstr "Tous les calques seront sélectionnées pour l'importation par défaut, mais peuvent être désélectionnées ici en décochant la case en regard de chaque entrée."
+msgstr "Tous les calques seront sélectionnés pour l'importation par défaut, mais peuvent être désélectionnés ici en décochant la case en regard de chaque entrée."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:112
 msgid "List of layers to be imported"
@@ -4143,7 +4143,7 @@ msgid ""
 "A common issue during the import process is when a CRS cannot be determined "
 "for a given layer. In this case, a dialog box will display where the CRS can"
 " be declared explicitly. Enter the CRS and Click :guilabel:`Apply`."
-msgstr "Un problème courant pendant le processus d'importation est quand un CRS ne peut être déterminé pour une couche donnée. Dans ce cas, une boîte de dialogue s'affiche lorsque les CRS peuvent être déclarées explicitement. Entrez le CRS et cliquez sur  :guilabel:`Apply`."
+msgstr "Un problème courant pendant le processus d'importation est quand un CRS ne peut être déterminé par une couche donnée. Dans ce cas, une boîte de dialogue s'affiche lorsque les CRS peuvent être déclarés explicitement. Entrez le CRS et cliquez sur  :guilabel:`Apply`."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:118
 msgid "Declaring a CRS"
@@ -4157,7 +4157,7 @@ msgstr "Lorsque vous êtes prêt à effectuer l'importation, cliquez sur :guilab
 msgid ""
 "Each selected layer will be added to the GeoServer catalog inside a new or "
 "existing store, and published as a layer."
-msgstr "Chaque calque sélectionné est ajouté au catalogue de GeoServer à l'intérieur d'un magasin existant ou nouveau et publié sous le titre une couche."
+msgstr "Chaque calque sélectionné est ajouté au catalogue de GeoServer à l'intérieur d'un magasin existant ou nouveau et est publié sous le titre une couche."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:124
 msgid ""
@@ -4166,7 +4166,7 @@ msgid ""
 "previewing the layer will be displayed, with options for :guilabel:`Layer "
 "Preview` (OpenLayers), :guilabel:`Google Earth`, and "
 ":guilabel:`GeoExplorer`."
-msgstr "Une fois l'importation terminée la zone d'État rafraîchira montrant si l'importation a réussi pour chaque couche. Si réussie, une boîte de dialogue pour la prévisualisation de la couche apparaît, avec des options pour :guilabel:`Aperçu de calque` (OpenLayers), :guilabel:`Google Earth`, et :guilabel:`GeoExplorer`."
+msgstr "Une fois l'importation terminée ,la zone d'État rafraîchira, en montrant si l'importation a réussi pour chaque couche. Si réussie, une boîte de dialogue pour la prévisualisation de la couche apparaît, avec des options pour :guilabel:`Aperçu de calque` (OpenLayers), :guilabel:`Google Earth`, et :guilabel:`GeoExplorer`."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:128
 msgid "Layers successfully imported"
@@ -4180,14 +4180,14 @@ msgstr "Page Paramètres avancés d'importation"
 msgid ""
 "The :guilabel:`Advanced` link next to each layer will lead to the Advanced "
 "import settings page."
-msgstr "La  :guilabel:`Advanced` lien à côté de chaque calque mènera à la page Paramètres avancés d'importation."
+msgstr "Le lien de :guilabel:`Advanced`  à côté de chaque calque mènera à la page Paramètres avancés d'importation."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:135
 msgid ""
 "On this page, data can be set to be reprojected from one CRS to another "
 "during the import process. To enable reprojection, select the "
 ":guilabel:`Reprojection` box, and enter the source and target CRS."
-msgstr "Sur cette page, des données peuvent être définies pour être projetée selon d'une CRS à l'autre pendant le processus d'importation. Pour activer la reprojection, sélectionnez la :guilabel:`Reprojection` boîte et entrez la source et cible les CRS."
+msgstr "Sur cette page, des données peuvent être définies pour être projetées  d'une CRS à l'autre pendant le processus d'importation. Pour activer la reprojection, sélectionnez la :guilabel:`Reprojection` boîte et entrez la source et cible les CRS."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:137
 msgid ""
@@ -4195,7 +4195,7 @@ msgid ""
 "Click on the :guilabel:`Add` link under :guilabel:`Attribute Remapping` to "
 "select the attribute to alter, its type, and its new name. Click "
 ":guilabel:`Apply` when done."
-msgstr "En outre, sur cette page les attributs peuvent être renommés et changé leur type. Cliquez sur le lien :guilabel:`Ajouter` sous :guilabel:`attribut Remapping` pour sélectionner l'attribut à modifier son type et son nouveau nom. Cliquez sur :guilabel:`Applique` lorsque terminé."
+msgstr "En outre, sur cette page les attributs peuvent être renommés et leur type peut changer. Cliquez sur le lien :guilabel:`Ajouter` sous :guilabel:`attribut Remapping` pour sélectionner l'attribut à modifier son type et son nouveau nom. Cliquez sur :guilabel:`Applique` lorsque terminé."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\guireference.rst:139
 msgid "Click :guilabel:`Save` when finished."
@@ -4256,7 +4256,7 @@ msgstr "Télécharger l'extension pour votre version de GeoServer. (Si vous voye
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:10
 msgid ""
 "Make sure to match the version of the extension to the version of GeoServer."
-msgstr "Assurez-vous que correspondre à la version de l'extension à la version de GeoServer."
+msgstr "Assurez-vous de correspondre à la version de l'extension à la version de GeoServer."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:12
 msgid ""
@@ -4273,11 +4273,11 @@ msgid ""
 "To verify that the extension was installed successfully, open the "
 ":ref:`web_admin` and look for an :guilabel:`Import Data` option in the "
 ":guilabel:`Data` section on the left-side menu."
-msgstr "Pour vérifier que l'extension a été correctement installée, ouvrez le : Réf: \"web_admin\" et recherchez un l'option :guilabel:`Importer des données` dans la section :guilabel:`Données` dans le menu de gauche."
+msgstr "Pour vérifier que l'extension a été correctement installée, ouvrez le : Réf: \"web_admin\" et recherchez  l'option :guilabel:`Importer des données` dans la section :guilabel:`Données` dans le menu de gauche."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:20
 msgid "Importer extension successfully installed."
-msgstr "Extension d'importer correctement installée."
+msgstr "Importer l'extension correctement installée."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\installing.rst:22
 msgid ""
@@ -4314,7 +4314,7 @@ msgstr "L'importateur va rechercher les fichiers à importer et préparer automa
 msgid ""
 "After checking every task is ready, the import can be initiated by executing"
 " a POST on the import resource::"
-msgstr "Après avoir vérifié chaque tâche est prête, l'importation peut être initiée en exécutant un POST sur le ressources d'importation::"
+msgstr "Après avoir vérifié que chaque tâche est prête, l'importation peut être initiée en exécutant un POST sur les ressources d'importation::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:77
 msgid ""
@@ -4324,7 +4324,7 @@ msgstr "La ressource peut alors être surveillée pour le progrès et les résul
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:81
 msgid "Which in case of successful import will look like::"
-msgstr "Qui dans le cas d'importation réussie va ressembler::"
+msgstr "... qui dans le cas d'importation réussie va ressembler::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:126
 msgid "Configuring a shapefile with no projection information"
@@ -4344,11 +4344,11 @@ msgstr "Nous allons afficher la définition d'importation suivants::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:147
 msgid "With the usual curl command::"
-msgstr "Avec l'habitude curl commande::"
+msgstr "Avec l'usuel curl commande::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:151
 msgid "The response in case the CRS is missing will be::"
-msgstr "La réponse dans le cas où les CRS est manquant sera::"
+msgstr "La réponse dans le cas où les CRS sont manquant sera::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:179
 msgid ""
@@ -4370,7 +4370,7 @@ msgstr "Obtenir la définition d'importation encore une fois, nous le trouverons
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:267
 msgid "A POST request will make it execute::"
-msgstr "Une requête POST il fera exécuter::"
+msgstr "Une requête POST le fera exécuter::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:271
 msgid "And eventually succeed::"
@@ -4385,7 +4385,7 @@ msgid ""
 "A remote sensing tool is generating CSV files with some locations and "
 "measurements, that we want to upload into PostGIS as a new spatial table. "
 "The CSV file looks as follows::"
-msgstr "Outil de télédétection génère des fichiers CSV avec des emplacements et des mesures, que nous voulons charger dans PostGIS comme une nouvelle table spatiale. Le fichier CSV se présente comme suit::"
+msgstr "Outil de télé détection génère des fichiers CSV avec des emplacements et des mesures, que nous voulons charger dans PostGIS comme une nouvelle table spatiale. Le fichier CSV se présente comme suit::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:313
 msgid ""
@@ -4445,11 +4445,11 @@ msgid ""
 "from \"CREATE\" to \"APPEND\". Changing it to \"REPLACE\" instead will "
 "preserve the layer, but remove the old conents and replace them with the "
 "newly uploaded ones."
-msgstr "Dans le cas où les caractéristiques dans le fichier CSV doivent être ajoutées à un calque existant une demande PUT contre la tâche peut être exécutée, changeant son updateMode de \"Créer\" à \"Ajouter\". Changer pour \"Remplacer\" au lieu de cela va préserver la couche, mais enlever les matières anciennes et remplacez-les par ceux nouvellement téléchargée."
+msgstr "Dans le cas où les caractéristiques dans le fichier CSV doivent être ajoutées à un calque existant une demande PUT contre la tâche peut être exécutée, changeant son updateMode de \"Créer\" à \"Ajouter\". Changer pour \"Remplacer\" au lieu de cela va préserver la couche, mais enlever les matières anciennes et remplacez-les par ceux nouvellement téléchargés."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:407
 msgid "Uploading and optimizing a GeoTiff with ground control points"
-msgstr "Téléchargement et optimiser un GeoTiff avec points de contrôle au sol"
+msgstr "Télécharger et optimiser un GeoTiff avec points de contrôle au sol"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:409
 msgid ""
@@ -4468,13 +4468,13 @@ msgstr "Tout d'abord, nous allons créer une importation vide sans magasin comme
 msgid ""
 "Then, we are going to POST the GeoTiff file to the tasks list, in order to "
 "create an import task for it::"
-msgstr "Ensuite, nous allons au poste le fichier GeoTiff à la liste de tâches, afin de créer une tâche d'importation pour elle::"
+msgstr "Ensuite, nous allons poster le fichier GeoTiff à la liste de tâches, afin de créer une tâche d'importation pour elle::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:433
 msgid ""
 "We are then going to append the transformations to rectify (gdalwarp), "
 "retile (gdal_translate) and add overviews (gdaladdo) to it::"
-msgstr "Nous sommes alors va ajouter les transformations pour rectifier (gdalwarp), retile (gdal_translate) et y ajouter aperçus (gdaladdo)::"
+msgstr "Nous sommes donc ajouter les transformations pour rectifier (gdalwarp), retile (gdal_translate) et y ajouter les aperçus (gdaladdo)::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:440
 msgid "``warp.json`` is::"
@@ -4506,7 +4506,7 @@ msgid ""
 "need to add into an existing mosaic in GeoServer. The imagery is in GeoTiff "
 "format, and lacks a good internal structure, which needs to be aligned with "
 "the one into the other images."
-msgstr "Un fournisseur de données est périodiquement fournissant des nouvelles images de temps dont nous avons besoin d'ajouter en une mosaïque existante dans GeoServer. L'imagerie est au format GeoTiff et manque d'une bonne structure interne, qui doit être alignée sur celle dans les autres images."
+msgstr "Un fournisseur de données fournit périodiquement  de nouvelles images de base dont nous avons besoin d'ajouter en une mosaïque existante dans GeoServer. L'imagerie est au format GeoTiff et manque d'une bonne structure interne, qui doit être alignée sur celle des autres images."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:479
 msgid ""
@@ -4530,7 +4530,7 @@ msgstr "Nous allons ensuite ajouter les transformations afin d'harmoniser le fic
 msgid ""
 "The new granule will be ingested into the mosaic, and will thus be available"
 " for time based requests."
-msgstr "Le granule nouvel sera ingéré dans la mosaïque et sera donc disponible pour les demandes de temps basé."
+msgstr "La nouvelle granule sera ingérée dans la mosaïque et sera donc disponible pour les demandes de temps basé."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:533
 msgid "Asynchronously fetching and importing data from a remote server"
@@ -4542,7 +4542,7 @@ msgid ""
 "import in GeoServer as new layers. The files are large, and the server has "
 "much better bandwith than the client, so it's best if GeoServer performs the"
 " data fetching on its own."
-msgstr "Nous supposons qu'un serveur FTP distant contient des shapefiles multiples que nous devons importer dans GeoServer comme nouveaux calques. Les fichiers sont volumineux, et le serveur a beaucoup meilleure largeur de bande que le client, il est donc préférable si GeoServer effectue la récupération de données sur ses propres."
+msgstr "Nous supposons qu'un serveur FTP distant contient des shapefiles multiples que nous devons importer dans GeoServer comme nouveaux calques. Les fichiers sont volumineux, et le serveur a une meilleure largeur de bande que le client, il est donc préférable si GeoServer effectue la récupération de donnéespar soi meme"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:539
 msgid ""
@@ -4557,13 +4557,13 @@ msgid ""
 "tasks created. Once the state switches to \"PENDING\" the import will be "
 "ready for execution. Since there is a lot of shapefiles to process, also the"
 " import run will be done in asynchronous mode::"
-msgstr "La requête retournera immédiatement avec un contexte d'importation en l'État \"INIT\", et il reste dans cet état jusqu'à ce que les données sont lues et les tâches créées. Une fois les commutateurs de l'Etat à \"PENDING\" l'importation sera prête pour l'exécution. Puisqu'il n'y a beaucoup de shapefiles à traiter, également l'importation exécute se fera en mode asynchrone::"
+msgstr "La requête retournera immédiatement avec un contexte d'importation en l'État \"INIT\", et il reste dans cet état jusqu'à ce que les données sont lues et les tâches créées. Une fois les commutateurs de l'Etat à \"PENDING\" l'importation sera prête pour l'exécution. Puisqu'il n'y a pas beaucoup de shapefiles à traiter, également l'importation exécutée se fera en mode asynchrone::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_examples.rst:568
 msgid ""
 "The response will return immediately in this case as well, and the progress "
 "can be followed as the tasks in the import switch state."
-msgstr "La réponse retourne immédiatement dans ce cas également, et les progrès peuvent être suivis comme les tâches dans l'état de commutation d'importation."
+msgstr "La réponse retournera immédiatement dans ce cas également, et les progrès peuvent être suivis comme les tâches dans l'état de commutation d'importation."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:4
 msgid "REST API"
@@ -4613,7 +4613,7 @@ msgid ""
 "optional information that is uniform along all tasks, such as a target "
 "workspace, the shared input data (e.g., a directory, a database). An import "
 "is made of any number of task objects."
-msgstr "Un ** importation ** fait référence à l'objet de niveau supérieur et est une \"session\" comme entité de l'état de l'importation de toute. Il conserve les informations pertinentes à l'importation dans son ensemble comme utilisateur infromation, horodateurs, ainsi que les informations facultatives est uniformes le long de toutes les tâches, comme un workspace de cible, les données partagées d'entrée (par exemple, un répertoire, une base de données). Une importation est faite d'un nombre quelconque d'objets task."
+msgstr "Une ** importation ** fait référence à l'objet de niveau supérieur et est une \"session\" comme entité de l'état de l'importation de toute. Elle conserve les informations pertinentes à l'importation dans son ensemble comme utilisateur infromation, horodateurs, ainsi que les informations facultatives est uniformes le long de toutes les tâches, comme un workspace de cible, les données partagées d'entrée (par exemple, un répertoire, une base de données). Une importation est faite d'un nombre quelconque d'objets task."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:23
 msgid ""
@@ -4628,7 +4628,7 @@ msgstr "A **données** est la description des données sources d'une importation
 msgid ""
 "A **task** represents a unit of work to the importer needed to register one "
 "new layer, or alter an existing one, and contains the following information:"
-msgstr "A **tâche** représente une unité de travail à l'importateur devait enregistrer une nouvelle couche, ou modifier une existante et contient les informations suivantes :"
+msgstr "A **tâche** représente une unité de travail à l'importateur qui a besoin d' enregistrer une nouvelle couche, ou modifier une déjà existante et contient les informations suivantes :"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:28
 msgid "The data being imported"
@@ -4636,7 +4636,7 @@ msgstr "Les données importées"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:29
 msgid "The target store that is the destination of the import"
-msgstr "L'objectif de stocker c'est la destination de l'importation"
+msgstr "L'objectif de stocker qui est la destination de l'importation"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:30
 msgid "The target layer"
@@ -4652,7 +4652,7 @@ msgstr "Les données d'une tâche, dénommée sa source, sont les données à tr
 msgid ""
 "The transformations that we need to apply to the data before it gets "
 "imported"
-msgstr "Les transformations que nous devons appliquer aux données avant elle est importée en"
+msgstr "Les transformations que nous devons appliquer aux données avant elle, sont importées dedans"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:34
 msgid "This data comes in a variety of forms including:"
@@ -4668,11 +4668,11 @@ msgstr "Un répertoire de fichiers spatiales"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:38
 msgid "A table in a spatial database"
-msgstr "Une table dans une base de données spatial"
+msgstr "Une table dans une base de données spatiales"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:39
 msgid "A remote location that the server will download data from"
-msgstr "Un emplacement distant que le serveur va télécharger les données de"
+msgstr "Un emplacement distant que le serveur va télécharger à partir des données "
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:41
 msgid ""
@@ -4686,7 +4686,7 @@ msgid ""
 " taking a CSV file as an input, turning a x and y column into a Point, "
 "remapping a string column into a timestamp, and finally import the result "
 "into a PostGIS."
-msgstr "Une tâche est classé comme \"directe\" ou \"indirecte\". Une *tâche directe* est celui dans lequel les données importées ne nécessite pas de transformation doit être importé. Il est importé directement. Un exemple d'une telle tâche est celle qui consiste simplement importera un Shapefile existante est. Une *tâche indirecte* est un qui ne nécessite une **transformation** aux données originales d'importation. Un exemple d'une tâche indirect est celui qui consiste à importer un fichier de formes dans une base de données PostGIS existant. Un autre exemple de la tâche indirecte pourrait impliquer de prendre un fichier CSV comme une entrée, tourner hache et y colonne dans un point, à reconfigurer une colonne de chaîne dans un timestamp, et enfin importer le résultat dans un PostGIS."
+msgstr "Une tâche est classé comme \"directe\" ou \"indirecte\". Une *tâche directe* est celle dans laquelle les données importées ne nécessitent pas de transformation . Elle est importée directement. Un exemple d'une telle tâche est celle qui consiste simplement à importer un Shapefile existantt. Une *tâche indirecte* est une qui ne nécessite qu' une **transformation** aux données originales d'importation. Un exemple d'une tâche indirecte est celui qui consiste à importer un fichier de formes dans une base de données PostGIS existant. Un autre exemple de la tâche indirecte pourrait impliquer de prendre un fichier CSV comme une entrée, tourner hache et y colonne dans un point, à reconfigurer une colonne de chaîne dans un timestamp, et enfin importer le résultat dans un PostGIS."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:47
 msgid "REST API Reference"
@@ -4854,7 +4854,7 @@ msgstr "Création d'une nouvelle importation"
 msgid ""
 "Posting to the /imports path a import json object creates a new import "
 "session::"
-msgstr "Afficher le chemin d'accès /imports un objet json d'importation crée une nouvelle session d'importation::"
+msgstr "Afficher le chemin d'accès /imports un objet json d'importation qui crée une nouvelle session d'importation::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:130
 msgid "The parameters are:"
@@ -4904,7 +4904,7 @@ msgstr "Y"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:141
 msgid "The target workspace to import to"
-msgstr "L'workspace cible pour importer dans"
+msgstr "Le workspace cible pour importer dans"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:142
 msgid "targetStore"
@@ -4924,7 +4924,7 @@ msgid ""
 "populate its tasks depending on the target. For example, by referring a "
 "directory of shapefiles to be importer, the creation will automatically fill"
 " in a task to import each of the shapefiles as a new layer."
-msgstr "La simple création de démarre pas l'importation, mais il peut remplir automatiquement ses tâches en fonction de la cible. Par exemple, en faisant référence à un répertoire des shapefiles importateur, la création se remplit automatiquement à une tâche pour importer chaque des shapefiles comme un nouveau calque."
+msgstr "La simple création ne démarre pas l'importation, mais elle peut remplir automatiquement ses tâches en fonction de la cible. Par exemple, en faisant référence à un répertoire des shapefiles importateur, la création se remplit automatiquement à une tâche pour importer chaque  shapefiles comme un nouveau calque."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:152
 msgid "The response to the above POST request will be::"
@@ -4941,7 +4941,7 @@ msgid ""
 "failure to fetch data the import will immediately stop, the state will "
 "switch to the ``INIT_ERROR`` state, and a error message will appear in the "
 "import context \"message\" field."
-msgstr "L'opération de remplissage des tâches peut nécessiter du temps, surtout si elle se fait contre un grand nombre de fichiers, ou contre une donnée \"à distance\" (voir plus loin), dans ce cas, la requête POST peut inclure ``?async=true`` à la fin de l'URL pour faire de l'importateur exécuté de façon asynchrone. Dans ce cas, l'importation sera créé à l'état INIT et restera dans cet état jusqu'à ce que toutes les opérations de transfert de données et de création de tâches sont terminées. En cas d'échec pour récupérer les données de l'importation sera cesser immédiatement, l'Etat va passer à la état ``INIT_ERROR``, et un message d'erreur apparaîtra dans le contexte de l'importation \"message\" domaine"
+msgstr "L'opération de remplissage des tâches peut nécessiter du temps, surtout si elle se fait contre un grand nombre de fichiers, ou contre une donnée \"à distance\" (voir plus loin), dans ce cas, la requête POST peut inclure ``?async=true`` à la fin de l'URL pour faire de l'importateur exécuté de façon asynchrone. Dans ce cas, l'importation sera créé à l'état INIT et restera dans cet état jusqu'à ce que toutes les opérations de transfert de données et de création de tâches soient terminées. En cas d'échec pour récupérer les données de l'importation cela sera cesser immédiatement, l'Etat va passer à la état ``INIT_ERROR``, et un message d'erreur apparaîtra dans le contexte de l'importation \"message\" domaine"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:199
 msgid "Import object"
@@ -4999,7 +4999,7 @@ msgid ""
 "\"directory\", \"mosaic\", \"database\" and \"remote\". During the import "
 "initialization the importer will scan the contents of said resource, and "
 "generate import tasks for each data found in it."
-msgstr "Une importation peut avoir une \"données\" qui représente la source de données à importer. Les données peuvent être de différents types, en particulier, \"fichier\", \"répertoire\", \"mosaïque\", \"database\" et \"à distance\". Lors de l'initialisation de l'importation, l'importateur sera analyser le contenu de ladite ressource et générer des tâches d'importation pour chaque donnée trouvée dedans."
+msgstr "Une importation peut avoir une \"données\" qui représente la source de données à importer. Les données peuvent être de différents types, en particulier, \"fichier\", \"répertoire\", \"mosaïque\", \"database\" et \"à distance\". Lors de l'initialisation de l'importation, l'importateur fera analyser le contenu de ladite ressource et générer des tâches d'importation pour chaque donnée trouvée dedans."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:254
 msgid ""
@@ -5007,7 +5007,7 @@ msgid ""
 "specific to the whole import context is the \"remote\" one, that is used to "
 "ask the importer to fetch the data from a remote location autonomusly, "
 "without asking the client to perform an upload."
-msgstr "La plupart des types de données sont discutées dans la section de la tâche, le seul type qui est spécifique au contexte toute importation est le \"remote\", qui est utilisée pour demander à l'importateur pour récupérer les données depuis un emplacement distant autonomusly, sans demander au client d'effectuer un téléchargement."
+msgstr "La plupart des types de données sont discutées dans la section de la tâche, le seul type qui est spécifique au contexte toute importation est le \"remote\", qui est utilisée pour demander à l'importateur de récupérer les données depuis un emplacement distant autonome, sans demander au client d'effectuer un téléchargement."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:258
 msgid "The representation of a remote resource looks as follows::"
@@ -5022,7 +5022,7 @@ msgid ""
 " authentication of sorts. In case the referred file is compressed, it will "
 "be unpacked as the download completes, and the tasks will be created over "
 "the result of unpacking."
-msgstr "L'emplacement peut être `importe quel URI pris en charge par les communes de VFS <http://commons.apache.org/proper/commons-vfs/filesystems.html>`_, y compris les serveurs HTTP et FTP. Le ``nom d'utilisateur`` , ``mot de passe`` et ``domaine`` éléments sont facultatifs et requis uniquement si le serveur distant demande une authentification de toutes sortes. Dans le cas où le fichier visé est compressé, il sera déballé car le téléchargement est terminé, et les tâches seront créés sur le résultat de déballage."
+msgstr "L'emplacement peut être n'`importe laquelle URI pris en charge par les communes de VFS <http://commons.apache.org/proper/commons-vfs/filesystems.html>`_, y compris les serveurs HTTP et FTP. Le ``nom d'utilisateur`` , ``mot de passe`` et ``domaine`` éléments sont facultatifs et servent uniquement si le serveur distant demande une authentification de toutes sortes. Dans le cas où le fichier visé est compressé, il sera déballé car le téléchargement est terminé, et les tâches seront créés sur le résultat de déballage."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:274
 msgid ""
@@ -5101,7 +5101,7 @@ msgstr "Ressource de tâche du seul"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:382
 msgid "/imports/<importId>/task/<taskId>"
-msgstr "/imports/<importId>/task/<taskId>"
+msgstr "L'emplacement peut être n'`importe quelle URI prise en charge par les communes de VFS <http://commons.apache.org/proper/commons-vfs/filesystems.html>`_, y compris les serveurs HTTP et FTP. Le ``nom d'utilisateur`` , ``mot de passe`` et ``domaine`` éléments sont facultatifs et servent uniquement si le serveur distant demande une authentification de toutes sortes. Dans le cas où le fichier visé est compressé, il sera déballé car le téléchargement est terminé, et les tâches seront créés sur le résultat de déballage."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:393
 msgid "Retrieve task with id <taskId> within import with id <importId>"
@@ -5129,7 +5129,7 @@ msgstr "Supprimer la tâche avec l'id <taskId> importation avec l'id <importId>"
 msgid ""
 "The representation of a task resource is the same one reported in the task "
 "creation response."
-msgstr "La représentation d'une ressource de tâche est la même un mentionnées dans la réponse de création de tâche."
+msgstr "La représentation d'une ressource de tâche est la même  mentionnées dans la réponse de création de tâche."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:411
 msgid "Updating a task"
@@ -5149,7 +5149,7 @@ msgid ""
 "delete the existing features in the target layer and replace them with the "
 "task source ones, or \"APPEND\", to just add the features from the task "
 "source into an existing layer."
-msgstr "L'updateMode d'une tâche démarre normalement que \"Créer\", c'est-à-dire crée la ressource cible s'il manque. Les autres valeurs possibles sont \"Remplacer\", c'est-à-dire supprimer les fonctionnalités existantes dans le calque cible et remplacer avec la source de la tâche ceux, ou \"APPEND\", d'ajouter les fonctionnalités de la source de la tâche dans un calque existant."
+msgstr "L'updateMode d'une tâche démarre normalement qu'avec \"Créer\", c'est-à-dire crée la ressource cible s'il manque. Les autres valeurs possibles sont \"Remplacer\", c'est-à-dire supprimer les fonctionnalités existantes dans le calque cible et remplacer les avec la source de la tâche , ou \"APPEND\", d'ajouter les fonctionnalités de la source de la tâche dans un calque existant."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:420
 msgid "The following PUT request updates a task from \"CREATE\" to \"APPEND\" mode::"
@@ -5186,7 +5186,7 @@ msgstr "/imports/<importId>/task/<taskId>/data/files/<fileId>"
 msgid ""
 "Retrieve the file with id <fileId> from the data of a task with id <taskId> "
 "within import with id <importId>"
-msgstr "Récupérer le fichier avec l'id <fileId> partir des données d'une tâche avec l'id <taskId> importation avec l'id <importId>"
+msgstr "Récupérer le fichier avec l'id <fileId>  à partir des données d'une tâche avec l'id <taskId> importation avec l'id <importId>"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:495
 msgid ""
@@ -5198,7 +5198,7 @@ msgstr "Supprimer un fichier spécifique de la tâche avec l'id <taskId> importa
 msgid ""
 "Following the links we'll get to the representation of a single file, notice"
 " how in this case a main file can be associate to sidecar files::"
-msgstr "Les liens que nous allons arriver à la représentation d'un seul fichier, Notez comment dans ce cas un fichier principal peut être associé aux fichiers sidecar::"
+msgstr "En suivant le lien pour arriver à la représentation d'un seul fichier, Notez comment dans ce cas un fichier principal peut être associé aux fichiers sidecar::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:520
 msgid "Mosaic extensions"
@@ -5215,7 +5215,7 @@ msgstr "Dans le cas où les données d'entrée sont de type ``mosaïque``, nous 
 msgid ""
 "In order to specify the timestamp a PUT request can be issued against the "
 "granule::"
-msgstr "Afin de préciser l'horodatage d'une option de vente demande peut être émis contre le granule::"
+msgstr "Afin de préciser l'horodatage d'une option de vente une PUT demande peut être émise contre le granule::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:533
 msgid "and the response will be::"
@@ -5253,7 +5253,7 @@ msgstr "Liste des paramètres de connexion de base de données et tables disponi
 msgid ""
 "Performing a GET on a database type data will result in the following "
 "response::"
-msgstr "Effectuant un GET sur une base de données de type entraînera la réponse suivante::"
+msgstr "Effectuant un GET sur une base de données de type, entraînera la réponse suivante::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:605
 msgid "Database table"
@@ -5276,7 +5276,7 @@ msgstr "Récupérer la description de la table pour une tâche avec l'id <taskId
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:626
 msgid "A table representation"
-msgstr "Une représentation de la table"
+msgstr "Une table de représentation "
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:639
 msgid "Task target layer"
@@ -5308,7 +5308,7 @@ msgstr "Modifier le calque cible pour une tâche avec l'id <taskId> importation 
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:666
 msgid "Requesting the task layer will result in the following::"
-msgstr "Demandant la couche spéciale se traduira par ce qui suit::"
+msgstr "Demander la couche spéciale se traduira par ce qui suit::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:719
 msgid ""
@@ -5316,7 +5316,7 @@ msgid ""
 "above representation is similar to the REST config API, it should not be "
 "confused with it, as it does not support all the same properties, in "
 "particular the supported properties are all the ones listed above."
-msgstr "Tous les attributs ci-dessus peuvent être mis à jour à l'aide d'une requête PUT. Même que si la représentation ci-dessus est similaire à la config reste API, il ne faut pas confondre avec lui, car il ne supporte pas tous les mêmes propriétés, en particulier les propriétés prises en charge sont tous ceux énumérés ci-dessus."
+msgstr "Tous les attributs ci-dessus peuvent être mis à jour à l'aide d'une requête PUT. Même  si la représentation ci-dessus est similaire à la config reste API, il ne faut pas le confondre avec lui, car il ne supporte pas toutes les mêmes propriétés, en particulier les propriétés prises en charge sont toutes celles énumérées ci-dessus."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:723
 msgid "Task transformations"
@@ -5406,7 +5406,7 @@ msgstr "Modifie la définition d'une transformation identifiée par <transformId
 msgid ""
 "A JSON transformation representation (eventually just the portion of it that"
 " needs to be modified)"
-msgstr "Une représentation de transformation JSON (éventuellement juste la partie de celui-ci qui doit être modifié)"
+msgstr "Une représentation de transformation JSON (éventuellement juste la partie de celui-ci qui doit être modifiée)"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:813
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:818
@@ -5427,7 +5427,7 @@ msgstr "Récupérer une seule transformation"
 msgid ""
 "Requesting a single transformation by identifier will result in the "
 "following response::"
-msgstr "Demandant une seule transformation par identificateur se traduira par la réponse suivante::"
+msgstr "Demander une seule transformation par identificateur se traduira par la réponse suivante::"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:836
 msgid "Modify an existing transformation"
@@ -5487,7 +5487,7 @@ msgstr "N"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:874
 msgid "The name of the field to be remapped"
-msgstr "Le nom du champ à être remappé"
+msgstr "Le nom du champ à été remappé"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:875
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:960
@@ -5507,7 +5507,7 @@ msgid ""
 "Transforms two numeric fields ``latField`` and ``lngField`` into a point "
 "geometry representation ``POINT(lngField,latField)``, the source fields will"
 " be removed."
-msgstr "Deux champs de type numérique ``latField`` et ``lngField`` transforme une représentation de la géométrie de point ``POINT(lngField,latField)``, la source de champs seront supprimés."
+msgstr "Deux champs de type numérique ``latField`` et ``lngField`` transforme une représentation de la géométrie de point ``POINT(lngField,latField)``, les sources de champs seront supprimées."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:891
 msgid "latField"
@@ -5561,7 +5561,7 @@ msgid ""
 "<http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html>`_."
 " In case it's missing, a number of built-in formats will be tried instead "
 "(short and full ISO date formats, dates without any separators)."
-msgstr "Une date de l'analyse de modèle, le programme d'installation en utilisant le Java `SimpleDateFormat syntaxe <http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html>`_. Dans le cas où il est absent, un certain nombre de mises en forme intégrées est jugé à la place (formats de date ISO courte et complet, dates sans séparateur)."
+msgstr "Une date de l'analyse de modèle, le programme d'installation en utilisant le Java `SimpleDateFormat syntaxe <http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html>`_. Dans le cas où il est absent, un certain nombre de mises en forme intégrées est jugée à la place (formats de date ISO courte et complet, dates sans séparateur)."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:932
 msgid "IntegerFieldToDateTransform"
@@ -5571,7 +5571,7 @@ msgstr "IntegerFieldToDateTransform"
 msgid ""
 "Takes a integer field and transforms it to a date, interpreting the "
 "intereger field as a date"
-msgstr "Prend un champ de type entier et le transforme à une date, interpréter le champ intereger comme une date"
+msgstr "Prend un champ de type entier et  transforme le à une date, interpréter le champ comme une date"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:944
 msgid "The field containing the year information"
@@ -5620,7 +5620,7 @@ msgstr "options"
 msgid ""
 "Array of options that will be passed to ``gdal_translate`` (beside the input"
 " and output names, which are internally managed)"
-msgstr "Tableau des options qui seront transmis à ``gdal_translate``(à côté des noms d'entrée et de sortie, qui sont gérés en interne)"
+msgstr "Tableau des options qui seront transmises à ``gdal_translate``(à côté des noms d'entrée et de sortie, qui sont gérés en interne)"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:981
 msgid "GdalWarpTransform"
@@ -5630,7 +5630,7 @@ msgstr "GdalWarpTransform"
 msgid ""
 "Applies ``gdalwarp`` to a single file raster input. Requires ``gdalwarp`` to"
 " be inside the PATH used by the web container running GeoServer."
-msgstr "S'applique ``gdalwarp`` à un seul fichier raster d'entrée. ``gdalwarp`` a besoin pour se trouver dans le chemin d'accès utilisé par le conteneur web exécutant GeoServer."
+msgstr " ``gdalwarp``s'applique à un seul fichier raster d'entrée. ``gdalwarp`` a besoin pour se trouver dans le chemin d'accès utilisé par le conteneur web exécutant GeoServer."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:994
 msgid ""
@@ -5646,7 +5646,7 @@ msgstr "GdalAddoTransform"
 msgid ""
 "Applies ``gdaladdo`` to a single file raster input. Requires ``gdaladdo`` to"
 " be inside the PATH used by the web container running GeoServer."
-msgstr "S'applique ``gdaladdo`` à un seul fichier raster d'entrée. ``gdaladdo`` a besoin pour se trouver dans le chemin d'accès utilisé par le conteneur web exécutant GeoServer."
+msgstr "Appliquer ``gdaladdo`` à un seul fichier raster d'entrée. ``gdaladdo`` a besoin de se trouver dans le chemin d'accès utilisé par le conteneur web exécutant GeoServer."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\rest_reference.rst:1010
 msgid ""
@@ -5678,7 +5678,7 @@ msgstr "Voici les instructions étape par étape pour importer plusieurs fichier
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:8
 msgid ""
 "Find a directory of shapefiles and copy into your :ref:`data_directory`."
-msgstr "Trouver un annuaire des shapefiles et copiez dans votre : Réf: \"data_directory\"."
+msgstr "Trouver un annuaire des shapefiles et copiez les dans votre : Réf: \"data_directory\"."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:10
 msgid ""
@@ -5690,7 +5690,7 @@ msgstr "Vous pouvez toujours utiliser le `Natural Earth Quickstart <http://www.n
 msgid ""
 "Log in as an administrator and navigate to the :guilabel:`Data --> Import "
 "Data` page."
-msgstr "Ouvrez une session tant qu'administrateur et accédez à la page :guilabel:`Data --> Import Data`."
+msgstr "Ouvrez une session en tant qu'administrateur et accédez à la page :guilabel:`Data --> Import Data`."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:14
 msgid "For select :guilabel:`Spatial Files` as the data source."
@@ -5730,7 +5730,7 @@ msgstr "Assurez-vous que la :guilabel:`Conserver` sur le terrain se lit comme su
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:34
 msgid "Import target workspace"
-msgstr "Importez l'workspace cible"
+msgstr "Importez le workspace cible"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:36
 msgid "Click :guilabel:`Next` to start the import process."
@@ -5738,11 +5738,11 @@ msgstr "Cliquez sur :guilabel:`Suivant` pour commencer le processus d'importatio
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:38
 msgid "On the next screen, any layers available for import will be shown."
-msgstr "Sur l'écran suivant, toutes les couches disponibles pour l'importation seront montrés."
+msgstr "Sur l'écran suivant, toutes les couches disponibles pour l'importation seront montrées."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:40
 msgid "Non-spatial files will be ignored."
-msgstr "Fichiers non spatiales seront ignorés."
+msgstr "Les fichiers non spatiales seront ignorés."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:44
 msgid "Import layer list"
@@ -5753,7 +5753,7 @@ msgid ""
 "In most cases, all files will be ready for import, but if the the spatial "
 "reference system (SRS) is not recognized, you will need to manually input "
 "this but clicking :guilabel:`Advanced`"
-msgstr "Dans la plupart des cas, tous les fichiers seront prêts pour l'importation, mais si le le système de référence spatiale (SRS) n'est pas reconnu, vous devrez entrer manuellement cela, mais en cliquant sur :guilabel:`Advanced`"
+msgstr "Dans la plupart des cas, tous les fichiers seront prêts pour l'importation, mais si  le système de référence spatiale (SRS) n'est pas reconnu, vous devrez entrer manuellement cela, mais en cliquant sur :guilabel:`Advanced`"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:48
 msgid ""
@@ -5764,15 +5764,15 @@ msgstr "Vous devrez entrer manuellement le SRS, si vous avez utilisé les donné
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:52
 msgid "Advanced import settings"
-msgstr "Paramètres d'importation avancées"
+msgstr "Paramètres d'importation avancés"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:54
 msgid "Check the box next to each layer you wish to import."
-msgstr "Cochez la case en regard de chaque calque que vous souhaitez importer."
+msgstr "Cochez la case à coté de chaque calque que vous souhaitez importer."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:58
 msgid "Setting the layers to import"
-msgstr "Définissant les couches d'importer"
+msgstr "Définissant les couches à importer"
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:60
 msgid "When ready, click :guilabel:`Import`."
@@ -5786,7 +5786,7 @@ msgstr "Ne cliquez pas sur :guilabel:`Fait` à ce stade, sinon l'importation ser
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:64
 msgid "The results of the import process will be shown next to each layer."
-msgstr "Les résultats du processus d'importation seront affichera à côté de chaque calque."
+msgstr "Les résultats du processus d'importation seront afficherés à côté de chaque calque."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\importer\using.rst:66
 msgid "When finished, click :guilabel:`Done`."
@@ -5797,7 +5797,7 @@ msgid ""
 "Recent import processes are listed at the bottom of the page. You may wish "
 "to visit these pages to check if any difficulties were encountered during "
 "the import process or import additional layers."
-msgstr "Processus d'importation récents figurent au bas de la page. Vous pouvez visiter ces pages pour vérifier si des difficultés ont été rencontrées durant le processus d'importation ou importation des couches supplémentaires."
+msgstr "Les processus d'importation récents figurent au bas de la page. Vous pouvez visiter ces pages pour vérifier si des difficultés ont été rencontrées durant le processus d'importation ou importation des couches supplémentaires."
 
 #: ..\..\005_dev_workshop\005_geonode_apis\index.rst:4
 msgid "GeoNode APIs"
@@ -5805,21 +5805,21 @@ msgstr "GeoNode APIs"
 
 #: ..\..\005_dev_workshop\006_geonode_testing\index.rst:4
 msgid "Testing in GeoNode"
-msgstr "Test au GeoNode"
+msgstr "Test de GeoNode"
 
 #: ..\..\005_dev_workshop\006_geonode_testing\index.rst:6
 msgid ""
 "The community encourages the Test Driven Development (TDD) and the "
 "contribution to write new tests to extend the coverage. Ideally every model,"
 " view, and utility should becovered by tests."
-msgstr "La communauté encourage le Test Driven Development (ATS) et la contribution d'écrire de nouveaux tests pour étendre la couverture. Idéalement, chaque modèle, vue et utilitaire doivent becovered par des tests."
+msgstr "La communauté encourage le Test Driven Development (ATS) et la contribution d'écrire de nouveaux tests pour étendre la couverture. Idéalement, chaque modèle, vue et utilitaire doivent etre couverte par des tests."
 
 #: ..\..\005_dev_workshop\006_geonode_testing\index.rst:8
 msgid ""
 "GeoNode has Unit, Integration and Javascript tests. The Unit tests are "
 "located in the tests file of every django app (Maps, Layers, Documents, "
 "Catalogue, Search, Security etc)."
-msgstr "GeoNode a Unit, intégration et tests de Javascript. Les tests unitaires sont situés dans le fichier de tests de chaque appli django (cartes, couches, Documents, Catalogue, recherche, sécurité etc.)."
+msgstr "GeoNode a des Unit, intégration et tests de Javascript. Les tests unitaires sont situés dans le fichier de tests de chaque appli django (cartes, couches, Documents, Catalogue, recherche, sécurité etc.)."
 
 #: ..\..\005_dev_workshop\006_geonode_testing\index.rst:10
 msgid ""
@@ -5839,7 +5839,7 @@ msgstr "Si leur exécution en mode développement Assurez vous d'avoir le serveu
 
 #: ..\..\005_dev_workshop\006_geonode_testing\index.rst:15
 msgid "shut down otherwise the test could get stuck. To make sure it is run:"
-msgstr "fermée en bas dans le cas contraire, le test pourrait se coincer. Pour vous assurer que c'est exécuté :"
+msgstr "fermer sinon le test pourrait se coincer. Pour vous assurer que c'est exécuté :"
 
 #: ..\..\005_dev_workshop\006_geonode_testing\index.rst:22
 msgid "Unit Tests"
@@ -5882,7 +5882,7 @@ msgstr "Tests d'intégration"
 
 #: ..\..\005_dev_workshop\006_geonode_testing\index.rst:61
 msgid "To run the csw integration test run:"
-msgstr "Pour exécuter la série de tests de l'intégration de la femme :"
+msgstr "Pour exécuter la série de tests de l'intégration  :"
 
 #: ..\..\005_dev_workshop\006_geonode_testing\index.rst:67
 msgid ""
@@ -5902,7 +5902,7 @@ msgstr "Tests de JavaScript"
 msgid ""
 "Javascript tests has been currently disabled in GeoNode. There is a plan to "
 "improve and re-enable them in the future."
-msgstr "Tests de JavaScript a été désactivé actuellement en GeoNode. Il existe un plan afin d'améliorer et de les réactiver à l'avenir."
+msgstr "Tests de JavaScript a été désactivé actuellement en GeoNode. Il existe un plan afin d'améliorer et de le réactiver à l'avenir."
 
 #: ..\..\005_dev_workshop\index.rst:5
 msgid "Developers Workshop"
@@ -5921,7 +5921,7 @@ msgid ""
 "to the components that GeoNode is built with, the standards that it supports"
 " and the services it provides based on those standards, and an overview its "
 "architecture."
-msgstr "Cet workshop va apprendre à développer avec et pour les `GeoNode <http://geonode.org>`_ logiciel d'application. Ce module vous fera découvrir les composants de GeoNode est construit avec les normes qu'il soutient, et les services qu'elle offre son architecture basée sur ces normes, ainsi qu'un aperçu."
+msgstr "Ce workshop va apprendre à développer avec et pour les `GeoNode <http://geonode.org>`_ logiciel d'application. Ce module vous fera découvrir les composants de GeoNode qui est construit avec les normes qu'il soutient, et les services qu' offre son architecture basée sur ces normes, ainsi qu'un aperçu."
 
 #: ..\..\005_dev_workshop\index.rst:13
 msgid "*Prerequisites*"
@@ -5960,7 +5960,7 @@ msgid ""
 "GeoNode can be difficult to debug as there are several different components "
 "involved. This module shows some tecniques to debug the different parts of "
 "GeoNode."
-msgstr "GeoNode peut être difficile à déboguer, car il sont a plusieurs différents composants impliqués. Ce module montre quelques tecniques pour déboguer les différentes parties du GeoNode."
+msgstr "GeoNode peut être difficile à déboguer, car il est a plusieurs différents composants impliqués. Ce module montre quelques tecniques pour déboguer les différentes parties du GeoNode."
 
 #: ..\..\005_dev_workshop\index.rst:42
 msgid ":ref:`geonode_apis`"
@@ -5970,7 +5970,7 @@ msgstr ":ref:`geonode_apis`"
 msgid ""
 "This module provides an overview of the core modules and libraries used by "
 "GeoNode and teach to the user how to use them through some guided examples."
-msgstr "Ce module fournit une vue d'ensemble des modules core et bibliothèques utilisés par GeoNode et enseignent à l'utilisateur comment les utiliser à travers quelques exemples de visites."
+msgstr "Ce module fournit une vue d'ensemble des modules du noyau et de la bibliothèques utilisés par GeoNode et enseignent à l'utilisateur comment les utiliser à travers quelques exemples de visites."
 
 #: ..\..\005_dev_workshop\index.rst:44
 msgid ":ref:`geonode_testing`"
