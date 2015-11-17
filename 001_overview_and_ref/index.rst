@@ -17,7 +17,6 @@ the basic concepts of the system infrastructure.
     001_user_features/index
     002_introduction/index
     003_reference_doc/index
-    004_django_overview/index
    
 :ref:`user_features_index`
     Open Source Geospatial Content Management System
@@ -35,12 +34,3 @@ the basic concepts of the system infrastructure.
 
 :ref:`reference_doc_index`
     In this section, you will find information about each and every component of GeoNode, for example *GeoServer*, *GeoNode Settings*, *Security*, etc.
-
-:ref:`django_overview_index`
-    This section introduces some basic concepts of DJango, the Python based web framework on top of which GeoNode has been developed.
-
-    Django's primary goal is to ease the creation of complex, database-driven websites. Django emphasizes reusability and "pluggability" of components,
-    rapid development, and the principle of *don't repeat yourself*. 
-    Python is used throughout, even for settings, files, and data models. 
-
-    Django also provides an optional administrative create, read, update and delete interface that is generated dynamically through introspection and configured via admin models.

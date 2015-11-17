@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013, GeoNode Development Team
+# Copyright (C) 2015, GeoNode Development Team
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 18:26+0200\n"
+"POT-Creation-Date: 2015-10-22 19:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,18 +52,18 @@ msgstr ""
 
 #: ..\..\001_overview_and_ref\001_user_features\index.rst:6
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:6
-#: ..\..\001_overview_and_ref\index.rst:23
+#: ..\..\001_overview_and_ref\index.rst:22
 msgid "Open Source Geospatial Content Management System"
 msgstr ""
 
 #: ..\..\001_overview_and_ref\001_user_features\index.rst:8
 #: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:8
-#: ..\..\001_overview_and_ref\index.rst:25
+#: ..\..\001_overview_and_ref\index.rst:24
 msgid "GeoNode is a web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI)."
 msgstr ""
 
 #: ..\..\001_overview_and_ref\001_user_features\index.rst:10
-#: ..\..\001_overview_and_ref\index.rst:27
+#: ..\..\001_overview_and_ref\index.rst:26
 msgid "What GeoNode can be used for… `GeoNode Demo <http://demo.geonode.org/>`_ (admin/admin)"
 msgstr ""
 
@@ -447,12 +447,12 @@ msgid "Introduction"
 msgstr ""
 
 #: ..\..\001_overview_and_ref\002_introduction\index.rst:6
-#: ..\..\001_overview_and_ref\index.rst:32
+#: ..\..\001_overview_and_ref\index.rst:31
 msgid "This section introduces the GeoNode GUI and functionalities through a step-by-step workshop."
 msgstr ""
 
 #: ..\..\001_overview_and_ref\002_introduction\index.rst:8
-#: ..\..\001_overview_and_ref\index.rst:34
+#: ..\..\001_overview_and_ref\index.rst:33
 msgid "At the end of this module the users will be familiar with the GeoNode default GUI and objects."
 msgstr ""
 
@@ -978,547 +978,8 @@ msgid "Reference Doc"
 msgstr ""
 
 #: ..\..\001_overview_and_ref\003_reference_doc\index.rst:6
-#: ..\..\001_overview_and_ref\index.rst:37
+#: ..\..\001_overview_and_ref\index.rst:36
 msgid "In this section, you will find information about each and every component of GeoNode, for example *GeoServer*, *GeoNode Settings*, *Security*, etc."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:5
-msgid "Getting Started With Django"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:8
-msgid "Object-relational mapper"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:9
-msgid "Deﬁne your data models entirely in Python. You get a rich, dynamic database-access API for free — but you can still write SQL if needed."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:33
-msgid "Models"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:35
-msgid "A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you’re storing. Generally, each model maps to a single database table."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:37
-msgid "The basics:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:39
-msgid "Each model is a Python class that subclasses ``django.db.models.Model``."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:40
-msgid "Each attribute of the model represents a database field."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:41
-msgid "With all of this, Django gives you an automatically-generated database-access API; see :ref:`making_queries`."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:44
-msgid "Quick example"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:46
-msgid "This example model defines a ``Person``, which has a **first_name** and **last_name**:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:57
-msgid "**first_name** and **last_name** are fields of the model. Each field is specified as a class attribute, and each attribute maps to a database column."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:59
-msgid "The above ``Person`` model would create a database table like this:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:70
-msgid "Some technical notes:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:72
-msgid "The name of the table, **myapp_person**, is automatically derived from some model metadata but can be overridden."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:73
-msgid "An **id** field is added automatically, but this behavior can be overridden."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:74
-msgid "The **CREATE TABLE** SQL in this example is formatted using PostgreSQL syntax, but it’s worth noting Django uses SQL tailored to the database backend specified in your settings file."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:77
-msgid "Using models"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:79
-msgid "Once you have defined your models, you need to tell Django you’re going to use those models. Do this by editing your settings file and changing the **INSTALLED_APPS** setting to add the name of the module that contains your **models.py**."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:81
-msgid "For example, if the models for your application live in the module **myapp.models** (the package structure that is created for an application by the **manage.py startapp** script), **INSTALLED_APPS** should read, in part:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:92
-msgid "When you add new apps to **INSTALLED_APPS**, be sure to run **manage.py migrate**, optionally making migrations for them first with **manage.py makemigrations**."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:94
-msgid "GeoNode has specific commands and shortcuts wich can be called through the **manage.py** class"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:97
-msgid "Fields"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:99
-msgid "The most important part of a model – and the only required part of a model – is the list of database fields it defines. Fields are specified by class attributes. Be careful not to choose field names that conflict with the models API like **clean**, **save**, or **delete**."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:102
-msgid "Example:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:120
-msgid "More: `Field Types <https://docs.djangoproject.com/en/1.8/topics/db/models/#field-types>`_"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:123
-msgid "Model methods"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:125
-msgid "Define custom methods on a model to add custom “row-level” functionality to your objects. Whereas **Manager** methods are intended to do “table-wide” things, model methods should act on a particular model instance."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:128
-msgid "This is a valuable technique for keeping business logic in one place – the model."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:130
-msgid "For example, this model has a few custom methods:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:157
-msgid "The last method in this example is a `property <https://docs.djangoproject.com/en/1.8/glossary/#term-property>`_."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:159
-msgid "The `model instance reference <https://docs.djangoproject.com/en/1.8/ref/models/instances/>`_ has a complete list of `methods automatically given to each model <https://docs.djangoproject.com/en/1.8/ref/models/instances/#model-instance-methods>`_. You can override most of these – see `overriding predefined model methods <https://docs.djangoproject.com/en/1.8/topics/db/models/#overriding-predefined-model-methods>`_"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:162
-msgid "More: `Models Methods <https://docs.djangoproject.com/en/1.8/topics/db/models/#model-methods>`_"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:165
-msgid "Model inheritance"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:167
-msgid "Model inheritance in Django works almost identically to the way normal class inheritance works in Python, but the basics at the beginning of the page should still be followed. That means the base class should subclass ``django.db.models.Model``."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:170
-msgid "The only decision you have to make is whether you want the parent models to be models in their own right (with their own database tables), or if the parents are just holders of common information that will only be visible through the child models."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:172
-msgid "There are three styles of inheritance that are possible in Django."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:174
-msgid "Often, you will just want to use the parent class to hold information that you don’t want to have to type out for each child model. This class isn’t going to ever be used in isolation, so `Abstract base classes <https://docs.djangoproject.com/en/1.8/topics/db/models/#abstract-base-classes>`_ are what you’re after."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:175
-msgid "If you’re subclassing an existing model (perhaps something from another application entirely) and want each model to have its own database table, `Multi-table inheritance <https://docs.djangoproject.com/en/1.8/topics/db/models/#multi-table-inheritance>`_ is the way to go."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:176
-msgid "Finally, if you only want to modify the Python-level behavior of a model, without changing the models fields in any way, you can use `Proxy models <https://docs.djangoproject.com/en/1.8/topics/db/models/#proxy-models>`_."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:178
-msgid "More: `Model Inheritance <https://docs.djangoproject.com/en/1.8/topics/db/models/#model-inheritance>`_"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:183
-msgid "`Making queries`_"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:185
-msgid "Once you’ve created your data models, Django automatically gives you a database-abstraction API that lets you create, retrieve, update and delete objects."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:187
-msgid "Throughout this guide (and in the reference), we’ll refer to the following models, which comprise a Weblog application:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:223
-msgid "Creating objects"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:225
-msgid "To represent database-table data in Python objects, Django uses an intuitive system: A model class represents a database table, and an instance of that class represents a particular record in the database table."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:228
-msgid "To create an object, instantiate it using keyword arguments to the model class, then call **save()** to save it to the database."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:230
-msgid "Assuming models live in a file **mysite/blog/models.py**, here’s an example:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:239
-msgid "This performs an **INSERT SQL** statement behind the scenes. Django doesn’t hit the database until you explicitly call **save()**."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:241
-msgid "The **save()** method has no return value."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:244
-msgid "Saving changes to objects"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:246
-msgid "To save changes to an object that’s already in the database, use **save()**."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:248
-msgid "Given a Blog instance b5 that has already been saved to the database, this example changes its name and updates its record in the database:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:256
-msgid "This performs an **UPDATE SQL** statement behind the scenes. Django doesn’t hit the database until you explicitly call **save()**."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:259
-msgid "Retrieving objects"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:261
-msgid "To retrieve objects from your database, construct a **QuerySet** via a **Manager** on your model class."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:263
-msgid "A **QuerySet** represents a collection of objects from your database. It can have zero, one or many filters. Filters narrow down the query results based on the given parameters. In SQL terms, a **QuerySet** equates to a **SELECT** statement, and a filter is a limiting clause such as **WHERE** or **LIMIT**."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:266
-msgid "You get a **QuerySet** by using your model’s **Manager**. Each model has at least one **Manager**, and it’s called ``objects`` by default. Access it directly via the model class, like so:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:280
-msgid "**Managers** are accessible only via model classes, rather than from model instances, to *enforce a separation* between “table-level” operations and “record-level” operations. The **Manager** is the main source of **QuerySets** for a model. For example, ``Blog.objects.all()`` returns a **QuerySet** that contains all Blog objects in the database."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:284
-msgid "Retrieving all objects"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:286
-msgid "The simplest way to retrieve objects from a table is to get all of them. To do this, use the **all()** method on a **Manager**:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:293
-msgid "The **all()** method returns a **QuerySet** of all the objects in the database."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:296
-msgid "Retrieving specific objects with filters"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:298
-msgid "The **QuerySet** returned by **all()** describes all objects in the database table. Usually, though, you’ll need to select only a subset of the complete set of objects."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:300
-msgid "To create such a subset, you refine the initial **QuerySet**, adding filter conditions. The two most common ways to refine a **QuerySet** are:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:302
-msgid "**filter(**kwargs)**"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:304
-msgid "Returns a new **QuerySet** containing objects that match the given lookup parameters."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:306
-msgid "**exclude(**kwargs)**"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:308
-msgid "Returns a new **QuerySet** containing objects that do not match the given lookup parameters. The lookup parameters (****kwargs** in the above function definitions) should be in the format described in **Field** lookups below."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:311
-msgid "For example, to get a **QuerySet** of blog entries from the year 2006, use **filter()** like so:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:318
-msgid "With the default manager class, it is the same as:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:326
-msgid "Chaining filters"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:328
-msgid "The result of refining a **QuerySet** is itself a **QuerySet**, so it’s possible to chain refinements together. For example:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:342
-msgid "This takes the initial **QuerySet** of all entries in the database, adds a filter, then an exclusion, then another filter. The final result is a **QuerySet** containing all entries with a headline that starts with “What”, that were published between January 30, 2005, and the current day."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:345
-msgid "More: `Making queries <https://docs.djangoproject.com/en/1.8/topics/db/queries/#making-queries>`_"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:348
-msgid "URLs and views"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:350
-msgid "A clean, elegant URL scheme is an important detail in a high-quality Web application. Django encourages beautiful URL design and doesn’t put any cruft in URLs, like .php or .asp."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:352
-msgid "To design URLs for an application, you create a Python module called a URLconf. Like a table of contents for your app, it contains a simple mapping between URL patterns and your views."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:376
-msgid "More: `URL dispatcher <https://docs.djangoproject.com/en/1.8/topics/http/urls/>`_"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:379
-msgid "Templates"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:381
-msgid "Django’s template language is designed to strike a balance between power and ease. It’s designed to feel comfortable and easy-to-learn to those used to working with HTML, like designers and front-end developers. But it is also flexible and highly extensible, allowing developers to augment the template language as needed."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:403
-msgid "More: `Templates <https://docs.djangoproject.com/en/1.8/topics/templates/>`_"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:406
-msgid "Forms"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:408
-msgid "Django provides a powerful form library that handles rendering forms as HTML, validating user-submitted data, and converting that data to native Python types. Django also provides a way to generate forms from your existing models and use those forms to create and update data."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:422
-msgid "GET and POST"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:424
-msgid "**GET** and **POST** are the only HTTP methods to use when dealing with forms."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:426
-msgid "Django’s login form is returned using the **POST** method, in which the browser bundles up the form data, encodes it for transmission, sends it to the server, and then receives back its response."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:428
-msgid "**GET**, by contrast, bundles the submitted data into a string, and uses this to compose a URL. The URL contains the address where the data must be sent, as well as the data keys and values. You can see this in action if you do a search in the Django documentation, which will produce a URL of the form ``https://docs.djangoproject.com/search/?q=forms&release=1``."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:431
-msgid "**GET** and **POST** are typically used for different purposes."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:433
-msgid "Any request that could be used to change the state of the system - for example, a request that makes changes in the database - should use **POST**. **GET** should be used only for requests that do not affect the state of the system."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:435
-msgid "**GET** would also be unsuitable for a password form, because the password would appear in the URL, and thus, also in browser history and server logs, all in plain text. Neither would it be suitable for large quantities of data, or for binary data, such as an image. A Web application that uses **GET** requests for admin forms is a security risk: it can be easy for an attacker to mimic a form’s request to gain access to sensitive parts of the system. **POST**, coupled with other protections like Django’s CSRF protection offers more control over access."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:437
-msgid "On the other hand, **GET** is suitable for things like a web search form, because the URLs that represent a **GET** request can easily be bookmarked, shared, or resubmitted."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:439
-msgid "More: `Working With Forms <https://docs.djangoproject.com/en/1.8/topics/forms/#working-with-forms>`_"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:442
-msgid "Authentication"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:444
-msgid "Django comes with a full-featured and secure authentication system. It handles user accounts, groups, permissions and cookie-based user sessions. This lets you easily build sites that let users to create accounts and safely log in/out."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:458
-msgid "More: `User authentication in Django <https://docs.djangoproject.com/en/stable/topics/auth/>`_"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:461
-msgid "Admin"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:463
-msgid "One of the most powerful parts of Django is its automatic admin interface. It reads metadata in your models to provide a powerful and production-ready interface that content producers can immediately use to start managing content on your site. It’s easy to set up and provides many hooks for customization."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:481
-msgid "The advanced workshop for Developers will provide more details on GeoNode specific models and admin interface"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:483
-msgid "More: `The Django admin site <https://docs.djangoproject.com/en/stable/ref/contrib/admin/>`_"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:486
-msgid "Internationalization"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:488
-msgid "Django offers full support for translating text into different languages, plus locale-specific formatting of dates, times, numbers and time zones. It lets developers and template authors specify which parts of their apps should be translated or formatted for local languages and cultures, and it uses these hooks to localize Web applications for particular users according to their preferences."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:535
-msgid "The advanced workshop for Developers will provide more details on how to create languages and translations on GeoNode using `Transifex <https://www.transifex.com/>`_"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:537
-msgid "More: `Internationalization and localization <https://docs.djangoproject.com/en/stable/topics/i18n/>`_"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:540
-msgid "Security"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:542
-msgid "Django provides multiple protections against:"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:547
-msgid "Clickjacking"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:545
-msgid "Clickjacking is a type of attack where a malicious site wraps another site in a frame. This attack can result in an unsuspecting user being tricked into performing unintended actions on the target site."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:547
-msgid "The **X-Frame-Options middleware** contained in a form allow a supporting browser to prevent a site from being rendered inside a frame"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:550
-msgid "Cross site scripting (XSS)"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:550
-msgid "XSS attacks allow a user to inject client side scripts into the browsers of other users. This is usually achieved by storing the malicious scripts in the database where it will be retrieved and displayed to other users, or by getting users to click a link which will cause the attacker’s JavaScript to be executed by the user’s browser. However, XSS attacks can originate from any untrusted source of data, such as cookies or Web services, whenever the data is not sufficiently sanitized before including in a page."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:555
-msgid "Cross site request forgery (CSRF)"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:553
-msgid "CSRF attacks allow a malicious user to execute actions using the credentials of another user without that user’s knowledge or consent."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:555
-msgid "CSRF protection works by checking for a nonce in each POST request. This ensures that a malicious user cannot simply “replay” a form POST to your Web site and have another logged in user unwittingly submit that form. The malicious user would have to know the nonce, which is user specific (using a cookie)."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:558
-msgid "SQL injection"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:558
-msgid "SQL injection is a type of attack where a malicious user is able to execute arbitrary SQL code on a database. This can result in records being deleted or data leakage."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:566
-msgid "Host header validation"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:561
-msgid "Django uses the **Host** header provided by the client to construct URLs in certain cases. While these values are sanitized to prevent Cross Site Scripting attacks, a fake **Host** value can be used for Cross-Site Request Forgery, cache poisoning attacks, and poisoning links in emails."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:564
-msgid "Because even seemingly-secure web server configurations are susceptible to fake **Host** headers, Django validates **Host** headers against the **ALLOWED_HOSTS** setting in the ``django.http.HttpRequest.get_host()`` method."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:566
-msgid "This validation only applies via **get_host()**; if your code accesses the Host header directly from **request.META** you are bypassing this security protection."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:571
-msgid "SSL/HTTPS"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:569
-msgid "It is always better for security, though not always practical in all cases, to deploy your site behind HTTPS. Without this, it is possible for malicious network users to sniff authentication credentials or any other information transferred between client and server, and in some cases – active network attackers – to alter data that is sent in either direction."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:571
-msgid "Django provides some settings to secure your site unser SSL/HTTPS."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:574
-msgid "While Django provides good security protection out of the box, it is still important to properly deploy your application and take advantage of the security protection of the Web server, operating system and other components."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:576
-msgid "Make sure that your Python code is outside of the Web server’s root. This will ensure that your Python code is not accidentally served as plain text (or accidentally executed)."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:577
-msgid "Take care with any user uploaded files."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:578
-msgid "Django does not throttle requests to authenticate users. To protect against brute-force attacks against the authentication system, you may consider deploying a Django plugin or Web server module to throttle these requests."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:579
-msgid "Keep your **SECRET_KEY** a secret."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:580
-msgid "It is a good idea to limit the accessibility of your caching system and database using a firewall."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\getting_started_w_django.rst:582
-msgid "More: `Security in Django <https://docs.djangoproject.com/en/stable/topics/security/>`_"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\index.rst:5
-msgid "Django Overview"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\index.rst:6
-#: ..\..\001_overview_and_ref\index.rst:40
-msgid "This section introduces some basic concepts of DJango, the Python based web framework on top of which GeoNode has been developed."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\index.rst:8
-#: ..\..\001_overview_and_ref\index.rst:42
-msgid "Django's primary goal is to ease the creation of complex, database-driven websites. Django emphasizes reusability and \"pluggability\" of components, rapid development, and the principle of *don't repeat yourself*. Python is used throughout, even for settings, files, and data models."
-msgstr ""
-
-#: ..\..\001_overview_and_ref\004_django_overview\index.rst:12
-#: ..\..\001_overview_and_ref\index.rst:46
-msgid "Django also provides an optional administrative create, read, update and delete interface that is generated dynamically through introspection and configured via admin models."
 msgstr ""
 
 #: ..\..\001_overview_and_ref\index.rst:5
@@ -1537,19 +998,15 @@ msgstr ""
 msgid "At the end of this section you will have a clear view of what GeoNode is and can do. You will be able also to use the GeoNode main functionalities and understand some of the basic concepts of the system infrastructure."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\index.rst:29
+#: ..\..\001_overview_and_ref\index.rst:28
 msgid ":ref:`user_features_index`"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\index.rst:34
+#: ..\..\001_overview_and_ref\index.rst:33
 msgid ":ref:`introduction_index`"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\index.rst:37
+#: ..\..\001_overview_and_ref\index.rst:35
 msgid ":ref:`reference_doc_index`"
-msgstr ""
-
-#: ..\..\001_overview_and_ref\index.rst:45
-msgid ":ref:`django_overview_index`"
 msgstr ""
 

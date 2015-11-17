@@ -6,7 +6,11 @@ Getting Started With Django
 
 Object-relational mapper
 ========================
-Deﬁne your data models entirely in Python. You get a rich, dynamic database-access API for free — but you can still write SQL if needed.
+Data models can be defined entirely in Python. DJango makes available a rich, dynamic database-access API for free, but it is still possible to write SQL if needed.
+
+.. hint:: The following documentation is based on official `documentation <https://docs.djangoproject.com/en>`_ of the project Django.
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: python
     :linenos:
@@ -32,16 +36,16 @@ Deﬁne your data models entirely in Python. You get a rich, dynamic database-ac
 Models
 ------
 
-A model is the single, definitive source of information about your data. It contains the essential fields and behaviors of the data you’re storing. Generally, each model maps to a single database table.
-
-The basics:
+A model is a Python class containing the essential fields and behaviors of the data stored on the DB. Generally, each model maps to a single database table.
 
 * Each model is a Python class that subclasses ``django.db.models.Model``.
 * Each attribute of the model represents a database field.
-* With all of this, Django gives you an automatically-generated database-access API; see :ref:`making_queries`.
+* A model is an automatically-generated database-access API; see :ref:`making_queries`.
 
 Quick example
 .............
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 This example model defines a ``Person``, which has a **first_name** and **last_name**:
 
@@ -71,14 +75,15 @@ Some technical notes:
 
 * The name of the table, **myapp_person**, is automatically derived from some model metadata but can be overridden.
 * An **id** field is added automatically, but this behavior can be overridden.
-* The **CREATE TABLE** SQL in this example is formatted using PostgreSQL syntax, but it’s worth noting Django uses SQL tailored to the database backend specified in your settings file.
+* The **CREATE TABLE** SQL in this example is formatted using PostgreSQL syntax, but it’s worth noting Django uses SQL tailored to the database backend specified in the settings file.
 
 Using models
 ............
 
-Once you have defined your models, you need to tell Django you’re going to use those models. Do this by editing your settings file and changing the **INSTALLED_APPS** setting to add the name of the module that contains your **models.py**.
+Once models have been defined, Django must be instructed on how to use those models. 
+This is possible by editing the DJango settings file and changing the **INSTALLED_APPS** setting to add the name of the module that contains the **model class**.
 
-For example, if the models for your application live in the module **myapp.models** (the package structure that is created for an application by the **manage.py startapp** script), **INSTALLED_APPS** should read, in part:
+For example, if the models for the application is defined in the module **myapp.models**, **INSTALLED_APPS** should read, in part:
 
 .. code-block:: python
     :linenos:
@@ -89,17 +94,20 @@ For example, if the models for your application live in the module **myapp.model
         #...
     )
 
-When you add new apps to **INSTALLED_APPS**, be sure to run **manage.py migrate**, optionally making migrations for them first with **manage.py makemigrations**.
+.. warning:: When you add new apps to **INSTALLED_APPS**, be sure to run **manage.py migrate**, optionally making migrations for them first with **manage.py makemigrations**.
 
-.. note:: GeoNode has specific commands and shortcuts wich can be called through the **manage.py** class
+.. note:: GeoNode uses the specific command **manage.py syncdb** to perform the models update and migration.
 
 Fields
 ......
 
-The most important part of a model – and the only required part of a model – is the list of database fields it defines. Fields are specified by class attributes. 
-Be careful not to choose field names that conflict with the models API like **clean**, **save**, or **delete**.
+The list of DB fields is reflected (and specified) by the model class attributes.
+
+.. warning:: Be careful not to choose field names that conflict with the models API like **clean**, **save**, or **delete**.
 
 Example:
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: python
     :linenos:
@@ -122,12 +130,12 @@ More: `Field Types <https://docs.djangoproject.com/en/1.8/topics/db/models/#fiel
 Model methods
 .............
 
-Define custom methods on a model to add custom “row-level” functionality to your objects.
-Whereas **Manager** methods are intended to do “table-wide” things, model methods should act on a particular model instance.
+Custom methods on a model can be used to add custom “row-level” functionality to an object.
+This is a valuable technique for keeping business logic in one place.
 
-This is a valuable technique for keeping business logic in one place – the model.
+For example, the following model has a few **custom methods**:
 
-For example, this model has a few custom methods:
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: python
     :linenos:
@@ -157,34 +165,20 @@ For example, this model has a few custom methods:
 The last method in this example is a `property <https://docs.djangoproject.com/en/1.8/glossary/#term-property>`_.
 
 The `model instance reference <https://docs.djangoproject.com/en/1.8/ref/models/instances/>`_ has a complete list of `methods automatically given to each model <https://docs.djangoproject.com/en/1.8/ref/models/instances/#model-instance-methods>`_.
-You can override most of these – see `overriding predefined model methods <https://docs.djangoproject.com/en/1.8/topics/db/models/#overriding-predefined-model-methods>`_
+It is possible to override most of these; see `overriding predefined model methods <https://docs.djangoproject.com/en/1.8/topics/db/models/#overriding-predefined-model-methods>`_
 
 More: `Models Methods <https://docs.djangoproject.com/en/1.8/topics/db/models/#model-methods>`_
-
-Model inheritance
-.................
-
-Model inheritance in Django works almost identically to the way normal class inheritance works in Python, but the basics at the beginning of the page should still be followed. 
-That means the base class should subclass ``django.db.models.Model``.
-
-The only decision you have to make is whether you want the parent models to be models in their own right (with their own database tables), or if the parents are just holders of common information that will only be visible through the child models.
-
-There are three styles of inheritance that are possible in Django.
-
-1. Often, you will just want to use the parent class to hold information that you don’t want to have to type out for each child model. This class isn’t going to ever be used in isolation, so `Abstract base classes <https://docs.djangoproject.com/en/1.8/topics/db/models/#abstract-base-classes>`_ are what you’re after.
-2. If you’re subclassing an existing model (perhaps something from another application entirely) and want each model to have its own database table, `Multi-table inheritance <https://docs.djangoproject.com/en/1.8/topics/db/models/#multi-table-inheritance>`_ is the way to go.
-3. Finally, if you only want to modify the Python-level behavior of a model, without changing the models fields in any way, you can use `Proxy models <https://docs.djangoproject.com/en/1.8/topics/db/models/#proxy-models>`_.
-
-More: `Model Inheritance <https://docs.djangoproject.com/en/1.8/topics/db/models/#model-inheritance>`_
 
 .. _making_queries:
 
 `Making queries`_
 -----------------
 
-Once you’ve created your data models, Django automatically gives you a database-abstraction API that lets you create, retrieve, update and delete objects.
+Django automatically gives a database-abstraction API that allows to create, retrieve, update and delete objects.
 
-Throughout this guide (and in the reference), we’ll refer to the following models, which comprise a Weblog application:
+As an example:
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: python
     :linenos:
@@ -222,12 +216,13 @@ Throughout this guide (and in the reference), we’ll refer to the following mod
 Creating objects
 ................
 
-To represent database-table data in Python objects, Django uses an intuitive system: 
-A model class represents a database table, and an instance of that class represents a particular record in the database table.
+As already said before, a model class represents a database table, and an instance of that class represents a particular record in the database table.
 
 To create an object, instantiate it using keyword arguments to the model class, then call **save()** to save it to the database.
 
 Assuming models live in a file **mysite/blog/models.py**, here’s an example:
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: python
     :linenos:
@@ -236,16 +231,8 @@ Assuming models live in a file **mysite/blog/models.py**, here’s an example:
     >>> b = Blog(name='Beatles Blog', tagline='All the latest Beatles news.')
     >>> b.save()
 
-This performs an **INSERT SQL** statement behind the scenes. Django doesn’t hit the database until you explicitly call **save()**.
-
+This performs an **INSERT SQL** statement behind the scenes. Django doesn’t hit the database until you explicitly call **save()**. 
 The **save()** method has no return value.
-
-Saving changes to objects
-.........................
-
-To save changes to an object that’s already in the database, use **save()**.
-
-Given a Blog instance b5 that has already been saved to the database, this example changes its name and updates its record in the database:
 
 .. code-block:: python
     :linenos:
@@ -258,12 +245,17 @@ This performs an **UPDATE SQL** statement behind the scenes. Django doesn’t hi
 Retrieving objects
 ..................
 
-To retrieve objects from your database, construct a **QuerySet** via a **Manager** on your model class.
+Retrieving objects from the database can be done by constructing a **QuerySet** via a **Manager** on the model class.
 
-A **QuerySet** represents a collection of objects from your database. It can have zero, one or many filters. Filters narrow down the query results based on the given parameters. 
+A **QuerySet** represents a collection of objects from the database. 
+It can have zero, one or many filters. Filters narrow down the query results based on the given parameters.
 In SQL terms, a **QuerySet** equates to a **SELECT** statement, and a filter is a limiting clause such as **WHERE** or **LIMIT**.
 
-You get a **QuerySet** by using your model’s **Manager**. Each model has at least one **Manager**, and it’s called ``objects`` by default. Access it directly via the model class, like so:
+Each model has at least one **Manager**, and it’s called ``objects`` by default. 
+
+It can be accessed directly via the model class, like so:
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: python
     :linenos:
@@ -280,10 +272,9 @@ You get a **QuerySet** by using your model’s **Manager**. Each model has at le
 **Managers** are accessible only via model classes, rather than from model instances, to *enforce a separation* between “table-level” operations and “record-level” operations.
 The **Manager** is the main source of **QuerySets** for a model. For example, ``Blog.objects.all()`` returns a **QuerySet** that contains all Blog objects in the database.
 
-Retrieving all objects
-......................
-
 The simplest way to retrieve objects from a table is to get all of them. To do this, use the **all()** method on a **Manager**:
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: python
     :linenos:
@@ -291,13 +282,10 @@ The simplest way to retrieve objects from a table is to get all of them. To do t
     >>> all_entries = Entry.objects.all()
 
 The **all()** method returns a **QuerySet** of all the objects in the database.
+The **QuerySet** returned by **all()** describes all objects in the database table. 
+To select only a subset of the complete set of objects, it must be refined by adding filter conditions. 
 
-Retrieving specific objects with filters
-........................................
-
-The **QuerySet** returned by **all()** describes all objects in the database table. Usually, though, you’ll need to select only a subset of the complete set of objects.
-
-To create such a subset, you refine the initial **QuerySet**, adding filter conditions. The two most common ways to refine a **QuerySet** are:
+The two most common ways to refine a **QuerySet** are:
 
 **filter(**kwargs)**
 
@@ -309,6 +297,8 @@ Returns a new **QuerySet** containing objects that do not match the given lookup
 The lookup parameters (****kwargs** in the above function definitions) should be in the format described in **Field** lookups below.
 
 For example, to get a **QuerySet** of blog entries from the year 2006, use **filter()** like so:
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: python
     :linenos:
@@ -322,11 +312,11 @@ With the default manager class, it is the same as:
 
     Entry.objects.all().filter(pub_date__year=2006)
 
-Chaining filters
-................
-
 The result of refining a **QuerySet** is itself a **QuerySet**, so it’s possible to chain refinements together. 
+
 For example:
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: python
     :linenos:
@@ -347,9 +337,13 @@ More: `Making queries <https://docs.djangoproject.com/en/1.8/topics/db/queries/#
 URLs and views
 ==============
 
-A clean, elegant URL scheme is an important detail in a high-quality Web application. Django encourages beautiful URL design and doesn’t put any cruft in URLs, like .php or .asp.
+A clean elegant URL scheme is an important detail in a high-quality Web application.
+Django encourages beautiful URL design and does not put junk in URLs, like .php or .asp.
 
-To design URLs for an application, you create a Python module called a URLconf. Like a table of contents for your app, it contains a simple mapping between URL patterns and your views.
+In DJango a Python module called URLconf is like a table of contents for the application.
+It contains a simple mapping between URL patterns and the **views**.
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: python
     :linenos:
@@ -378,7 +372,9 @@ More: `URL dispatcher <https://docs.djangoproject.com/en/1.8/topics/http/urls/>`
 Templates
 =========
 
-Django’s template language is designed to strike a balance between power and ease. It’s designed to feel comfortable and easy-to-learn to those used to working with HTML, like designers and front-end developers. But it is also flexible and highly extensible, allowing developers to augment the template language as needed.
+Django’s template language allows developers to put logic into the HTML:
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: html
     :linenos:
@@ -405,7 +401,10 @@ More: `Templates <https://docs.djangoproject.com/en/1.8/topics/templates/>`_
 Forms
 =====
 
-Django provides a powerful form library that handles rendering forms as HTML, validating user-submitted data, and converting that data to native Python types. Django also provides a way to generate forms from your existing models and use those forms to create and update data.
+Django provides a library that handles rendering HTML forms, validation of data submitted by users, and converting the data to native Python types. 
+Django also provides a way to generate forms from your existing models and to use these forms to create and update data.
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: python
     :linenos:
@@ -441,8 +440,9 @@ More: `Working With Forms <https://docs.djangoproject.com/en/1.8/topics/forms/#w
 Authentication
 ==============
 
-Django comes with a full-featured and secure authentication system. 
-It handles user accounts, groups, permissions and cookie-based user sessions. This lets you easily build sites that let users to create accounts and safely log in/out.
+Django supports a full-featured and secure authentication system. It handles user accounts, groups, permissions and cookie-based user sessions. 
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: python
     :linenos:
@@ -461,8 +461,9 @@ Admin
 =====
 
 One of the most powerful parts of Django is its automatic admin interface. 
-It reads metadata in your models to provide a powerful and production-ready interface that content producers can immediately use to start managing content on your site. 
-It’s easy to set up and provides many hooks for customization.
+It reads metadata from models in order to provide a powerful and ready-to-use GUI for **CRUD** operations against the model. 
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: python
     :linenos:
@@ -488,6 +489,8 @@ Internationalization
 Django offers full support for translating text into different languages, plus locale-specific formatting of dates, times, numbers and time zones. 
 It lets developers and template authors specify which parts of their apps should be translated or formatted for local languages and cultures, 
 and it uses these hooks to localize Web applications for particular users according to their preferences.
+
+.. note:: The following examples are taken from the official Django documentation for the sole purpose of introducing the general concepts.
 
 .. code-block:: python
     :linenos:

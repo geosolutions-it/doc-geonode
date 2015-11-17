@@ -16,14 +16,24 @@ This module will introduce you to the components that GeoNode is built with, the
     :hidden:
     
     001_devel_intro/index
-    002_devel_core/index
-    003_devel_env/index
-    004_devel_debug/index
-    005_geonode_apis/index
-    006_geonode_testing/index
+    002_django_overview/index
+    003_devel_core/index
+    004_devel_env/index
+    005_devel_debug/index
+    006_geonode_apis/index
+    007_geonode_testing/index
 
 :ref:`intro_devel`
     This module will introduce you to the components that GeoNode is built with, the standards that it supports and the services it provides based on those standards, and an overview its architecture.
+
+:ref:`django_overview_index`
+    This section introduces some basic concepts of DJango, the Python based web framework on top of which GeoNode has been developed.
+
+    Django's primary goal is to ease the creation of complex, database-driven websites. Django emphasizes reusability and "pluggability" of components,
+    rapid development, and the principle of *don't repeat yourself*. 
+    Python is used throughout, even for settings, files, and data models. 
+
+    Django also provides an optional administrative create, read, update and delete interface that is generated dynamically through introspection and configured via admin models.
 
 :ref:`dev_core`
     This module will introduce you to the basic tools and skills required to start actively developing GeoNode.
