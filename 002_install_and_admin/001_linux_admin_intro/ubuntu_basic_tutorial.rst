@@ -1,4 +1,4 @@
-.. _user_access_and_base_packages:
+.. _ubuntu_basic_tutorial:
 
 =====================
 Ubuntu Basic Tutorial

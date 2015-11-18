@@ -25,6 +25,9 @@ At the end of this section you will be able to setup from scratch the whole GeoN
     :hidden:
 
     001_linux_admin_intro/index
+    vm_setup_virtualbox.rst
+    vm_running_vagrant.rst
+    running_ansible.rst
     002_geonode_install/index
     003_setup_on_centos/index
 
