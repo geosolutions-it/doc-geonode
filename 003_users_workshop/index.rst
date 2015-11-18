@@ -36,7 +36,6 @@ You will know how to:
     005_edit_style/index
     006_managing_maps/index
     007_using_geonode_w_other_applications/index
-    008_managing_geonode_installation/index
 
 :ref:`accounts_and_users`
     GeoNode is primarily a *social* platform, and thus a primary component of any GeoNode instance is the user account. This section will guide you through account registration, updating your account information, and viewing other user accounts.
@@ -58,8 +57,3 @@ You will know how to:
 
 :ref:`integration`
     Your GeoNode project is based on core components which are interoperable and as such, it is straightforward for you to integrate with external applications and services. This section will walk you through how to connect to your GeoNode instance from other applications and how to integrate other services into your GeoNode project. When complete, you should have a good idea about the possibilities for integration, and have basic knowledge about how to accomplish it. You may find it necessary to dive deeper into how to do more complex integration in order to accomplish your goals, but you should feel comfortable with the basics, and feel confident reaching out to the wider GeoNode community for help.
-
-:ref:`manage`
-    This tutorial will guide you through the steps that can be done in order to restrict the access on your data uploaded to geonode.
-
-    First of all it will be shown how a user can be created and what permissions he can have. Secondly we will take a closer look on to layers, maps and documents and the different opportunities you have in order to ban certain users from viewing or editing your data.

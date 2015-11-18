@@ -35,6 +35,7 @@ You will know how to:
     005_debug_geonode/index
     006_default_lang/index
     007_loading_data_into_geonode/index
+    008_more_on_security_and_permissions/index
     
 :ref:`admin_panel`
     GeoNode has an administration panel based on the Django admin which can be used to do some database operations. Although most of the operations can and should be done through the normal GeoNode interface, the admin panel provides a quick overview and management tool over the database.
@@ -57,3 +58,7 @@ You will know how to:
 :ref:`data`
     This module will walk you through the various options available to load data into your GeoNode from GeoServer, on the command-line or programatically. You can choose from among these techniques depending on what kind of data you have and how you have your geonode setup.
 
+:ref:`more_on_security_and_permissions`
+    This tutorial will guide you through the steps that can be done in order to restrict the access on your data uploaded to geonode.
+
+    First of all it will be shown how a user can be created and what permissions he can have. Secondly we will take a closer look on to layers, maps and documents and the different opportunities you have in order to ban certain users from viewing or editing your data.
