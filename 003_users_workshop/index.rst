@@ -37,7 +37,6 @@ You will know how to:
     006_managing_maps/index
     007_using_geonode_w_other_applications/index
     008_managing_geonode_installation/index
-    009_loading_data_into_geonode/index
 
 :ref:`accounts_and_users`
     GeoNode is primarily a *social* platform, and thus a primary component of any GeoNode instance is the user account. This section will guide you through account registration, updating your account information, and viewing other user accounts.
@@ -64,6 +63,3 @@ You will know how to:
     This tutorial will guide you through the steps that can be done in order to restrict the access on your data uploaded to geonode.
 
     First of all it will be shown how a user can be created and what permissions he can have. Secondly we will take a closer look on to layers, maps and documents and the different opportunities you have in order to ban certain users from viewing or editing your data.
-
-:ref:`data`
-    This module will walk you through the various options available to load data into your GeoNode from GeoServer, on the command-line or programatically. You can choose from among these techniques depending on what kind of data you have and how you have your geonode setup.

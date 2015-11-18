@@ -11,4 +11,3 @@ This module will walk you through the various options available to load data int
    importlayers
    geoserver
    gdalogr
-   osm 

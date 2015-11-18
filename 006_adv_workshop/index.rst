@@ -19,6 +19,7 @@ The last sections of the module will teach also you how to add brand new classes
     001_adv_data_mgmt/index
     002_geonode_settings/index
     003_geonode_production/index
+    osm
 
 :ref:`adv_data_mgmt`
     Advanced Data Management and Processing tecquiques.

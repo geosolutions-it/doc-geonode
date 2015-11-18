@@ -34,6 +34,7 @@ You will know how to:
     004_customize_lookfeel/index
     005_debug_geonode/index
     006_default_lang/index
+    007_loading_data_into_geonode/index
     
 :ref:`admin_panel`
     GeoNode has an administration panel based on the Django admin which can be used to do some database operations. Although most of the operations can and should be done through the normal GeoNode interface, the admin panel provides a quick overview and management tool over the database.
@@ -52,4 +53,7 @@ You will know how to:
 
 :ref:`default_language`
     GeoNode's default language is English, but GeoNode users can change the interface language with the pulldown menu at the top-right of most GeoNode pages.  Once a user selects a language GeoNode remembers that language for subsequent pages.
+
+:ref:`data`
+    This module will walk you through the various options available to load data into your GeoNode from GeoServer, on the command-line or programatically. You can choose from among these techniques depending on what kind of data you have and how you have your geonode setup.
 
