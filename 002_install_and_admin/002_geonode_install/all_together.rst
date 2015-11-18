@@ -16,39 +16,39 @@ Now that all applications have been configured we are going to instruct GeoNode 
 how to connect to `PostgreSQL` and `GeoServer`. Also we are going to instruct GeoNode
 on who is allowed to connect to it.
 
-First navigate to geonode configuration folder
-::
+First navigate to geonode configuration folder::
+
     cd /home/geonode/geonode/geonode/
 
-Copy the `local_settings.py` sample file called `local_settings.py.sample`
-::
+Copy the `local_settings.py` sample file called `local_settings.py.sample`::
+
     sudo cp local_settings.py.sample local_settings.py
 
-Then edit the configuration file
-::
+Then edit the configuration file::
+
     sudo gedit local_settings.py
 
 Add the `ALLOWED_HOSTS` and `PROXY_ALLOWED_HOSTS` variables at the top with the
-following values:
-::
+following values:::
+
     ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '::1']
     PROXY_ALLOWED_HOSTS = ("127.0.0.1", 'localhost', '::1')
 
-Add the `POSTGIS_VERSION` variable matching your PostGIS version:
-::
+Add the `POSTGIS_VERSION` variable matching your PostGIS version:::
+
     POSTGIS_VERSION = (2, 1, 2)
 
 This will instruct GeoNode to listen on connections from your local machine.
 
-Change the value of the `SITEURL`
-::
+Change the value of the `SITEURL`::
+
     SITEURL = "http://localhost/"
 
 Now configure database access:
 Uncomment the `ENGINE`: `django.contrib.gis.db.backends.postgis` line
 and comment the one with empty `ENGINE` variable. Also set the `NAME` variable to
-`geonode_data`
-::
+`geonode_data`::
+
     DATABASES = {
     'default': {
     ...
@@ -61,8 +61,8 @@ and comment the one with empty `ENGINE` variable. Also set the `NAME` variable t
     }
 
 Then configure GeoServer location:
-Change the value of the `LOCATION` and `PUBLIC_LOCATION` variables as follows:
-::
+Change the value of the `LOCATION` and `PUBLIC_LOCATION` variables as follows:::
+
     OGC_SERVER = {
         'default' : {
         ...
@@ -71,9 +71,7 @@ Change the value of the `LOCATION` and `PUBLIC_LOCATION` variables as follows:
         ...
     }
 
-The resulting configuration file should look like this:
-
-::
+The resulting configuration file should look like this:::
 
     import os
 
@@ -154,8 +152,8 @@ The resulting configuration file should look like this:
 Create GeoNode Superuser
 ========================
 
-Now create the admin user for GeoNode running the following:
-::
+Now create the admin user for GeoNode running the following:::
+
     python manage.py createsuperuser
 
 You will be prompted for the username, email address and passoword for the user
@@ -165,8 +163,8 @@ Initialize the Database
 
 We' we already setup GeoNode databases and user permissions for PostgreSQL. And
 instruct GeoNode on how to access the database. Now let's get the database ready
-running the following:
-::
+running the following:::
+
     cd /home/geonode/geonode
     python manage.py syncdb --noinput
 
@@ -174,12 +172,12 @@ If you get an error message it is likely that database access is not set properl
 Check you pg_hba.conf file and GeoNode `local_settings.py` file. Remember to restart
 PostgreSQL to make any changes to pg_hba.conf effective.
 
-Test that you are able to connect to the database as follows:
-::
+Test that you are able to connect to the database as follows:::
+
     psql -U geonode geonode
 
-and
-::
+and::
+
     psql -U geonode geonode_data
 
 
@@ -187,8 +185,8 @@ Test the installation
 =====================
 
 We are ready to restart GeoNode (Apache) and test the installation.
-Restart Apache:
-::
+Restart Apache:::
+
     sudo service apache2 restart
 
 Open the browser and navigate to http://localhost/

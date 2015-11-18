@@ -42,64 +42,59 @@ To restart or reload the instance, you can use the following commands::
 Setting PostgreSQL access
 -------------------------
 
-Now we are going to change user access policy for local connections in file pg_hba.conf:
-::
+Now we are going to change user access policy for local connections in file pg_hba.conf:::
+
     sudo vim /var/lib/pgsql/9.4/data/pg_hba.conf
 
-Scroll down to the bottom of the document. We only need to edit one line. Change
-::
+Scroll down to the bottom of the document. We only need to edit one line. Change::
+
     # "local" is for Unix domain socket connections only
     local   all             all                                 peer
-into
-::
+into::
+
     # "local" is for Unix domain socket connections only
     local   all             all                                     trust
 
 .. note::
+
     If your PostgreSQL database resides on a separate machine, you have to allow
     remote access to the databases in the pg_hba.conf for the `geonode` user and
     tell PostgreSQL to accept non local connections in your `postgresql.conf` file
 
 Once the configuration file has been edited, restart PostgreSQL to make these changes
-effective
-
-::
+effective::
 
    systemctl restart postgresql-9.4
 
 Create GeoNode Users Databases
 ------------------------------
-Switch to postgres user
-::
+Switch to postgres user::
+
     su postgres
 
-First create the geonode user. GeoNode is going to use this user to access the database:
-::
+First create the geonode user. GeoNode is going to use this user to access the database:::
 
     createuser -P geonode
 
 You will be prompted asked to set a password for the user. Enter geonode as password
 
-Create geonode database with owner geonode
-::
+Create geonode database with owner geonode::
 
     createdb -O geonode geonode
 
-And database geonode_data with owner geonode
-::
+And database geonode_data with owner geonode::
+
     createdb -O geonode geonode_data
 
-Create PostGIS extension:
-::
+Create PostGIS extension:::
 
     psql -d geonode_data -c 'CREATE EXTENSION postgis;'
 
-Then adjust permissions
-::
+Then adjust permissions::
 
     psql -d geonode_data -c 'GRANT ALL ON geometry_columns TO PUBLIC;'
     psql -d geonode_data -c 'GRANT ALL ON spatial_ref_sys TO PUBLIC;'
 
-And exit `postgres` user
-::
+And exit `postgres` user::
+
     exit

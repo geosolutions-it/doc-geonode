@@ -17,12 +17,12 @@ In the `geo` user home folder ( /home/geo/ ) you will find a simple Ansible play
 we wrote for demonstration along with some resource files used by the playbook itself.
 
 To start the installation with Ansible open a terminal and navigate to the `ansible`
-folder inside geo's home folder
-::
+folder inside geo's home folder::
+
     cd /home/geo/ansible
 
-Then run the playbook using the `ansible-playbook` command
-::
+Then run the playbook using the `ansible-playbook` command::
+
     ansible-playbook playbook.yml
 
 Ansible will run through the instructions in the playbook and setup GeoNode on your
@@ -32,7 +32,7 @@ Ansible will print information about each step executed. The whole setup is goin
 to take a few minutes.
 
 At the end of the execution of the playbook all you need to do is set GeoNode
-administrator's password
-::
+administrator's password::
+
     cd /home/geonode/geonode
     python manage.py changepassword sysadmin

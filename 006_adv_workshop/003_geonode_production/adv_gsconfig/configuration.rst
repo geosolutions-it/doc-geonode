@@ -1,7 +1,7 @@
 .. configuration:
 
 Basic Configuration of the Monitor Extension 
-==========================================
+============================================
 
 Many aspects of the monitor extension are configurable. All configuration files
 are stored in the data directory under the ``monitoring`` directory::

@@ -29,14 +29,13 @@ Windows is not supported as a controlling machine.
 Ubuntu
 ------
 
-Fist configure Ansible `PPA <https://en.wikipedia.org/wiki/Personal_Package_Archive>`_
-::
+Fist configure Ansible `PPA <https://en.wikipedia.org/wiki/Personal_Package_Archive>`_::
 
     sudo apt-get install software-properties-common
     sudo apt-add-repository ppa:ansible/ansible
 
-Then update your available software index and install ansible
-::
+Then update your available software index and install ansible::
+
     sudo apt-get update
     sudo apt-get install ansible
 
@@ -46,13 +45,12 @@ Running Ansible
 To test your ansible installation, run the following command
 
 .. note::
-    you need a running SSH server on your machine for this to work
-::
 
-    ansible localhost -m ping
+    you need a running SSH server on your machine for this to work::
 
-You should get the following output
-::
+        ansible localhost -m ping
+
+You should get the following output::
 
         localhost | success >> {
         "changed": false,
@@ -60,13 +58,11 @@ You should get the following output
     }
 
 To test your ansible installation, run the following command (you need a running
-SSH server on your machine for this to work)
-::
+SSH server on your machine for this to work)::
 
     ansible localhost -m ping
 
-You should get the following output
-::
+You should get the following output::
 
         localhost | success >> {
         "changed": false,
@@ -77,21 +73,18 @@ Ansible Hosts file
 ==================
 
 Ansible keeps information about the managed nodes in the `inventory` or `hosts file`.
-Edit or create the hosts file
-::
+Edit or create the hosts file::
 
     vim /etc/ansible/hosts
 
 This file contains a list of nodes for Ansible to manage. Nodes can be referred
-either with IP or hostname. The syntax is the following:
-::
+either with IP or hostname. The syntax is the following:::
 
     192.168.1.50
     aserver.example.org
     bserver.example.org
 
-You can also arrange hosts in groups
-::
+You can also arrange hosts in groups::
 
     mail.example.com
 
@@ -110,8 +103,7 @@ Public Key access
 To avoid having to type users password to connect to the nodes over and over, using
 SSH keys is recommended.
 
-To setup Public Key SSH access to the nodes. First create a key pair:
-::
+To setup Public Key SSH access to the nodes. First create a key pair:::
 
     ssh-keygen
 
@@ -131,8 +123,7 @@ Connect to managed nodes
 ========================
 
 Now that SSH access to the managed nodes is in place for all the nodes inside Ansible
-`inventory` (hosts file) we can run our first command
-::
+`inventory` (hosts file) we can run our first command::
 
     ansible all -m ping -u geo
 
@@ -140,8 +131,7 @@ Now that SSH access to the managed nodes is in place for all the nodes inside An
 
         change `geo` with the username to use for SSH login
 
-The output will be similar to this:
-::
+The output will be similar to this:::
 
     ansible all -m ping -u geo
     84.33.2.70 | success >> {
@@ -168,8 +158,7 @@ quick things.
 One example of ad-hoc command is the ping command we just run. We typed in in the
 command line and run it interactively.
 
-Another example:
-::
+Another example:::
 
     ansible all -m shell -a "free" -u geo
     84.33.2.70 | success | rc=0 >>
@@ -185,8 +174,7 @@ stats. Note that we used the `shell` module (-m flag) with the command as the ar
 File Transfer
 =============
 
-Another use case for the Ansible command is transfer files over SCP
-::
+Another use case for the Ansible command is transfer files over SCP::
 
     ansible 84.33.2.70 -m copy -a "src=/home/geo/test dest=~/" -u geo
     84.33.2.70 | success >> {
@@ -210,37 +198,31 @@ Managing Packages
 
 Another use case is installing or upgrading packages on the remote nodes. You can use
 the `apt` module to achive this on Debian based systems or the `yum` module on
-Red Hat based systems
-::
+Red Hat based systems::
 
     ansible 84.33.2.70 -m apt -a "name=apache2 state=present"
 
 For example the previous command will install apache web server on the remote system
 (if not present).
 
-You can use the same module to make sure a package is at the latest version
-::
+You can use the same module to make sure a package is at the latest version::
 
     ansible 84.33.2.70 -m apt -a "name=apache2 state=latest"
 
 Managing Services
 =================
 
-Use the `service` module to ensure a given service is started on all webservers:
-
-::
+Use the `service` module to ensure a given service is started on all webservers:::
 
     ansible webservers -m service -a "name=httpd state=started"
 
 (where `webserver` is a group defined in Ansible Inventory)
 
-Restart the service:
-::
+Restart the service:::
 
     ansible webservers -m service -a "name=httpd state=restarted"
 
-Or stop it
-::
+Or stop it::
 
     ansible webservers -m service -a "name=httpd state=stopped"
 
@@ -270,8 +252,7 @@ Playbooks languuage example
 
 Playbooks are expressed in `YAML <https://en.wikipedia.org/wiki/YAML>`_ format
 
-Here is an example of a Playbook:
-::
+Here is an example of a Playbook:::
 
     ---
     - hosts: webservers
@@ -332,9 +313,7 @@ file
 Run a Playbook
 --------------
 
-Now that we have created a sample playbook save it on the file system and execute it:
-
-::
+Now that we have created a sample playbook save it on the file system and execute it:::
 
     ansible-playbook test.yml -u geo
 

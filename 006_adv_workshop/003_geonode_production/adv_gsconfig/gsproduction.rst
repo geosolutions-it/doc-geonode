@@ -4,7 +4,7 @@
 
 
 Advanced Production GeoServer configuration
-----------------------------------------
+-------------------------------------------
 
 
 Most of the GeoServer downloads are geared towards quickly showing off the capabilities, with an array of demos, sample layers, and an embedded servlet container. If you are using GeoServer in a production environment, there are a few things we'd like to recommend. In this section the task is to configure your system to use it in production.

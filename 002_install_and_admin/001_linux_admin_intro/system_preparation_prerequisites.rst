@@ -11,7 +11,7 @@ VM configuration
 ================
 
 Reccomended VM parameters
-=======================
+=========================
 
 Listed below you will find the recommended parameters for the GeoNode Virtual Machine
 for both development and production environments.

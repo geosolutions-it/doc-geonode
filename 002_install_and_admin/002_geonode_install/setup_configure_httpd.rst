@@ -9,16 +9,16 @@ In this section we are going to setup Apache HTTP to serve GeoNode.
 Apache Configuration
 ====================
 
-Navigate to Apache configurations folder:
-::
+Navigate to Apache configurations folder:::
+
     cd /etc/apache2/sites-available
 
-And create a new configuration file for GeoNode:
-::
+And create a new configuration file for GeoNode:::
+
     sudo gedit geonode.conf
 
-Place the following content inside the file:
-::
+Place the following content inside the file:::
+
     WSGIDaemonProcess geonode python-path=/home/geonode/geonode:/home/geonode/.venvs/geonode/lib/python2.7/site-packages user=www-data threads=15 processes=2
 
     <VirtualHost *:80>
@@ -89,30 +89,31 @@ This sets up a VirtualHost in Apache HTTP server for GeoNode and a reverse proxy
 for GeoServer.
 
 .. note::
+
     In the case that GeoServer is running on a separate machine change the `ProxyPass`
     and `ProxyPassReverse` accordingly
 
-Now load apache `poxy` module
-::
+Now load apache `poxy` module::
+
     sudo a2enmod proxy_http
 
-And enable geonode configuration file
-::
+And enable geonode configuration file::
+
     sudo a2ensite geonode
 
-Dowload GeoNode data to be served by Apache. You will be prompted for confirmation
-::
+Dowload GeoNode data to be served by Apache. You will be prompted for confirmation::
+
     cd /home/geonode/geonode/
     sudo -u geonode python manage.py collectstatic
 
-Add `thumbs` and `layers` folders
-::
+Add `thumbs` and `layers` folders::
+
     sudo mkdir -p /home/geonode/geonode/geonode/uploaded/thumbs
     sudo mkdir -p /home/geonode/geonode/geonode/uploaded/layers
 
 Change permissions on GeoNode files and folders to allow Apache to read and edit
-them:
-::
+them:::
+
     sudo chown -R geonode /home/geonode/geonode/
     sudo chown geonode:www-data /home/geonode/geonode/geonode/static/
     sudo chown geonode:www-data /home/geonode/geonode/geonode/uploaded/
@@ -120,6 +121,6 @@ them:
     chmod -Rf 777 /home/geonode/geonode/geonode/uploaded/layers
     sudo chown www-data:www-data /home/geonode/geonode/geonode/static_root/
 
-Finally restart Apache to load the new configuration
-::
+Finally restart Apache to load the new configuration::
+
     sudo service apache2 restart

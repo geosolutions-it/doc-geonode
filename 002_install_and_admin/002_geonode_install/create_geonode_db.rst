@@ -42,26 +42,27 @@ Now we are going to change user access policy for local connections in file `pg_
 
     sudo gedit /etc/postgresql/9.3/main/pg_hba.conf
 
-Scroll down to the bottom of the document. We only need to edit one line. Change
-::
+Scroll down to the bottom of the document. We only need to edit one line. Change::
+
     # "local" is for Unix domain socket connections only
     local   all             all                                     peer
 
-Into:
-::
+Into:::
+
     # "local" is for Unix domain socket connections only
     local   all             all                                     trust
 
 .. note::
+
     If your PostgreSQL database resides on a separate machine, you have to allow
     remote access to the databases in the pg_hba.conf for the `geonode` user and
     tell PostgreSQL to accept non local connections in your `postgresql.conf` file
 
-Then restart `PostgreSQL` to make the change effective:
-::
+Then restart `PostgreSQL` to make the change effective:::
+
     sudo service postgresql restart
 
 PostgreSQL is now ready. To test the configuration try to connect to the `geonode`
-database as `geonode`:
-::
+database as `geonode`:::
+
     psql -U geonode geonode

@@ -27,12 +27,11 @@ Install GeoNode sources from official repository::
 
    git clone https://github.com/GeoNode/geonode.git
 
-Move the sources in `geonode` user home folder
-::
+Move the sources in `geonode` user home folder::
+
     mv geonode /home/geonode
 
-Navigate to sources folder and install required packages
-::
+Navigate to sources folder and install required packages::
 
    cd /home/geonode/geonode
    pip install -e .
@@ -49,39 +48,39 @@ Now that all applications have been configured we are going to instruct GeoNode 
 how to connect to `PostgreSQL` and `GeoServer`. Also we are going to instruct GeoNode
 on who is allowed to connect to it.
 
-First navigate to geonode configuration folder
-::
+First navigate to geonode configuration folder::
+
     cd /home/geonode/geonode/geonode/
 
-Copy the `local_settings.py` sample file called `local_settings.py.sample`
-::
+Copy the `local_settings.py` sample file called `local_settings.py.sample`::
+
     cp local_settings.py.sample local_settings.py
 
-Then edit the configuration file
-::
+Then edit the configuration file::
+
     vim local_settings.py
 
 Add the `ALLOWED_HOSTS` and `PROXY_ALLOWED_HOSTS` variables at the top with the
-following values:
-::
+following values:::
+
     ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '::1']
     PROXY_ALLOWED_HOSTS = ("127.0.0.1", 'localhost', '::1']
 
-Add the `POSTGIS_VERSION` variable matching your PostGIS version:
-::
+Add the `POSTGIS_VERSION` variable matching your PostGIS version:::
+
     POSTGIS_VERSION = (2, 1, 8)
 
 This will instruct GeoNode to listen on connections from your local machine.
 
-Change the value of the `SITEURL`
-::
+Change the value of the `SITEURL`::
+
     SITEURL = "http://localhost/"
 
 Now configure database access:
 Uncomment the `ENGINE': 'django.contrib.gis.db.backends.postgis` line
 and comment the one with empty `ENGINE` variable. Also set the `NAME` variable to
-`geonode_data`
-::
+`geonode_data`::
+
     DATABASES = {
     'default': {
     ...
@@ -94,8 +93,8 @@ and comment the one with empty `ENGINE` variable. Also set the `NAME` variable t
     }
 
 Then configure GeoServer location:
-Change the value of the `LOCATION` and `PUBLIC_LOCATION` variables as follows:
-::
+Change the value of the `LOCATION` and `PUBLIC_LOCATION` variables as follows:::
+
     OGC_SERVER = {
         'default' : {
         ...
@@ -104,8 +103,7 @@ Change the value of the `LOCATION` and `PUBLIC_LOCATION` variables as follows:
         ...
     }
 
-The resulting configuration file should look like this:
-::
+The resulting configuration file should look like this:::
 
     import os
 
@@ -186,28 +184,27 @@ The resulting configuration file should look like this:
 Initialize GeoNode
 ------------------
 
-As user ``geonode``, init the db, by creating the schema tables and populating the static data::
-::
+As user ``geonode``, init the db, by creating the schema tables and populating the static data:::
+
     cd /home/geonode/geonode/geonode/
     python manage.py syncdb --noinput
 
-Now create the admin user for GeoNode running the following:
-::
+Now create the admin user for GeoNode running the following:::
 
    python manage.py createsuperuser
 
 You will be prompted for the username, email address and passoword for the user
 
-Dowload GeoNode data to be served by Apache. You will be prompted for confirmation
-::
+Dowload GeoNode data to be served by Apache. You will be prompted for confirmation::
+
     python manage.py collectstatic
 
-Create `uploaded` folder
-::
+Create `uploaded` folder::
+
     mkdir /home/geonode/geonode/geonode/uploaded/
 
-Change permissions on GeoNode files and folders to allow Apache to read and edit them:
-::
+Change permissions on GeoNode files and folders to allow Apache to read and edit them:::
+
     chmod +x /home/geonode/
     chown -R geonode /home/geonode/geonode/
     chown apache:apache /home/geonode/geonode/geonode/static/

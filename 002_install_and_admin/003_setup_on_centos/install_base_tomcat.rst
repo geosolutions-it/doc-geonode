@@ -20,15 +20,14 @@ Check and see if Java is already installed::
    # javac -version
    javac 1.7.0_51
 
-Otherwise install it running:
-::
+Otherwise install it running:::
 
    yum install java-1.7.0-openjdk-devel
 
 Once done, the command ``java -version`` should return info about the installed version.
 
-If java version does not match the  one just installed, run the following command
-::
+If java version does not match the  one just installed, run the following command::
+
     alternatives --set java /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.60=2.b27.el7_1.x86_64/jre/bin/java
 
 Oracle JDK
@@ -111,14 +110,12 @@ Let's install `Tomcat` first::
     sudo yum install -y tomcat
 
 Then prepare a clean instance called ``base`` to be used as a template
-for all tomcat instances
-::
+for all tomcat instances::
 
     sudo mkdir /var/lib/tomcats/base
     sudo cp -a /usr/share/tomcat/* /var/lib/tomcats/base/
 
-Then create GeoServer's instance directory structure
-::
+Then create GeoServer's instance directory structure::
 
     sudo mkdir /var/lib/tomcats/geoserver
     sudo cp -a /usr/share/tomcat/* /var/lib/tomcats/geoserver/
@@ -126,18 +123,14 @@ Then create GeoServer's instance directory structure
 Instance manager script
 -----------------------
 
-Copy the existing management script
-::
+Copy the existing management script::
 
     sudo cp /usr/lib/systemd/system/tomcat.service \
     /usr/lib/systemd/system/tomcat\@geoserver.service
 
-Edit the `EnvironmentFile` variable in service management file as follows
-::
+Edit the `EnvironmentFile` variable in service management file as follows::
 
     sudo vim /usr/lib/systemd/system/tomcat\@geoserver.service
-
-::
 
     # Systemd unit file for default tomcat
     #
@@ -163,14 +156,12 @@ Edit the `EnvironmentFile` variable in service management file as follows
     [Install]
     WantedBy=multi-user.target
 
-Create the associated configuration file from template
-::
+Create the associated configuration file from template::
 
     sudo cp /etc/sysconfig/tomcat /etc/sysconfig/tomcat\@geoserver
 
 Edit the configuration file and customize the `CATALINA_HOME` and `CATALINA_BASE`
-variables
-::
+variables::
 
     ...
     CATALINA_BASE="/var/lib/tomcats/geoserver"
@@ -178,19 +169,18 @@ variables
     ...
 
 Now copy GeoServer web archive inside the webapps folder. Tomcat will extract the
-war file and run GeoServer
-::
+war file and run GeoServer::
+
     sudo cp geoserver.war /var/lib/tomcats/geoserver/webapps/
 
-And fix the permissions on the files
-::
+And fix the permissions on the files::
 
     sudo chown -R tomcat:tomcat /var/lib/tomcats*
 
-Finally start GeoServer
-::
+Finally start GeoServer::
+
     systemctl start tomcat@geoserver
 
-And enable it to automatically start at boot time
-::
+And enable it to automatically start at boot time::
+
     systemctl enable tomcat@geoserver

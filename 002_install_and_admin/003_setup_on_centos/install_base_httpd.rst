@@ -49,13 +49,13 @@ httpd configuration
 As ``root`, create the file ``/etc/httpd/conf.d/geonode.conf``
 and insert into it :download:`this content <resources/geonode.conf>`.
 
-Add `thumbs` and `layers` folders
-::
+Add `thumbs` and `layers` folders::
+
     sudo mkdir -p /home/geonode/geonode/geonode/uploaded/thumbs
     sudo mkdir -p /home/geonode/geonode/geonode/uploaded/layers
 
-Set appropriate permissions on the folders
-::
+Set appropriate permissions on the folders::
+
     sudo chown -R geonode /home/geonode/geonode/
     sudo chown geonode:www-data /home/geonode/geonode/geonode/static/
     sudo chown geonode:www-data /home/geonode/geonode/geonode/uploaded/
@@ -67,7 +67,6 @@ Set appropriate permissions on the folders
 Then restart httpd to make it reload the new configurations::
 
    systemctl restart httpd
-
 
 To automatically start Apache at boot, run::
 

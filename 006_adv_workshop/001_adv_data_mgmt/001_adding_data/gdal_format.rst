@@ -3,7 +3,7 @@
 .. _geoserver.data_format:
 
 Adding a GDAL Supported Format
------------------------------
+------------------------------
 In case the GDAL libraries are available, it is possible to access to several GDAL's supported data formats.
 Actually, the available GDAL plugins allow to support DTED, EHdr, ERDASImg, MrSID, JP2K (via MrSID Driver) and NITF data formats.
 Moreover, in case a valid license have been purchased and the proper native library is available, also ECW, JP2K (via ECW) and JP2K (via Kakadu) are supported.
