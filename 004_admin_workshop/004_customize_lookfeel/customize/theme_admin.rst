@@ -210,9 +210,10 @@ The file :file:`site_index.html` is the template used to define your GeoNode pro
       <div class="jumbotron">
         <div class="container">
             <h1>{% trans "UWI GeoNode" %}</h1>
-            <div class="hero-unit-content">
+            <div class="hero-unit-content"/>
             <div class="intro">
                 <img src = 'http://uwigsmona.weebly.com/uploads/1/3/2/4/13241997/1345164334.png'>
+            </div>
             <p>
                 {% blocktrans %}
                 UWI's GeoNode is setup for students and faculty to collaboratively
