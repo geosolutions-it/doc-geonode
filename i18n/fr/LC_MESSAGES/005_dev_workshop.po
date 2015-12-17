@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-17 14:11+0100\n"
-"PO-Revision-Date: 2015-12-17 15:02+0100\n"
+"PO-Revision-Date: 2015-12-17 15:14+0100\n"
 "Last-Translator: matteo cima <matteocima@hotmail.com>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-"
 "documentation/language/fr/)\n"
@@ -893,7 +893,6 @@ msgid "Using models"
 msgstr "À l'aide de modèles"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:83
-#, fuzzy
 msgid ""
 "Once models have been defined, Django must be instructed on how to use those "
 "models. This is possible by editing the DJango settings file and changing "
@@ -902,17 +901,16 @@ msgid ""
 msgstr ""
 "Une fois que les modèles ont été définis, Django il faut indiquer sur la "
 "façon d'utiliser ces modèles. Ceci est possible en modifiant le fichier de "
-"paramètres de DJango et en changeant le ** paramètre INSTALLED_APPS ** pour "
-"ajouter le nom du module qui contient le ** modèle classe **."
+"paramètres de DJango et en changeant le paramètre **INSTALLED_APPS** pour "
+"ajouter le nom du module qui contient le **modèle classe**."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:86
-#, fuzzy
 msgid ""
 "For example, if the models for the application is defined in the module "
 "**myapp.models**, **INSTALLED_APPS** should read, in part:"
 msgstr ""
-"Par exemple, si les modèles d'application est définie dans le module ** "
-"myapp.models**, ** INSTALLED_APPS ** doit se lire, en partie :"
+"Par exemple, si les modèles d'application est définie dans le module **myapp."
+"models**, **INSTALLED_APPS ** doit se lire, en partie :"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:97
 msgid ""
@@ -925,12 +923,11 @@ msgstr ""
 "pour eux tout d'abord avec **manage.py makemigrations**."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:99
-#, fuzzy
 msgid ""
 "GeoNode uses the specific command **manage.py syncdb** to perform the models "
 "update and migration."
 msgstr ""
-"GeoNode utilise la commande spécifique **manage.py syncdb ** pour effectuer "
+"GeoNode utilise la commande spécifique **manage.py syncdb** pour effectuer "
 "la mise à jour de modèles et de la migration."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:102
@@ -958,13 +955,12 @@ msgid "Example:"
 msgstr "Exemple :"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:128
-#, fuzzy
 msgid ""
 "More: `Field Types <https://docs.djangoproject.com/en/1.8/topics/db/models/"
 "#field-types>`_"
 msgstr ""
-"Plus: \"Types de champs <https: docs.djangoproject.com/en/1.8/topics/db/"
-"models/#field-types=\"\">' _</https:>"
+"Plus:  `Field Types <https://docs.djangoproject.com/en/1.8/topics/db/models/"
+"#field-types>`_"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:131
 msgid "Model methods"
@@ -1011,13 +1007,12 @@ msgstr ""
 "methods>`_"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:170
-#, fuzzy
 msgid ""
 "More: `Models Methods <https://docs.djangoproject.com/en/1.8/topics/db/"
 "models/#model-methods>`_"
 msgstr ""
-"Plus: \"modèles de méthodes <https: docs.djangoproject.com/en/1.8/topics/db/"
-"models/#model-methods=\"\">' _</https:>"
+"Plus: `Models Methods <https://docs.djangoproject.com/en/1.8/topics/db/"
+"models/#model-methods>`_"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:175
 msgid "`Making queries`_"
@@ -1167,38 +1162,35 @@ msgid "**filter(**kwargs)**"
 msgstr "**filter(**kwargs)**"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:292
-#, fuzzy
 msgid ""
 "Returns a new **QuerySet** containing objects that match the given lookup "
 "parameters."
 msgstr ""
-"Retourne un nouveau ** QuerySet ** contenant des objets qui correspondent "
-"aux paramètres de recherche donnée."
+"Retourne un nouveau **QuerySet** contenant des objets qui correspondent aux "
+"paramètres de recherche donnée."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:294
 msgid "**exclude(**kwargs)**"
 msgstr "**exclude(**kwargs)**"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:296
-#, fuzzy
 msgid ""
 "Returns a new **QuerySet** containing objects that do not match the given "
 "lookup parameters. The lookup parameters (****kwargs** in the above function "
 "definitions) should be in the format described in **Field** lookups below."
 msgstr ""
-"Retourne un nouveau ** QuerySet ** contenant des objets qui ne correspondent "
-"pas les paramètres de recherche donnée. Les paramètres de recherche (*** "
-"kwargs ** dans les définitions de fonction ci-dessus) doit être au format "
-"décrit dans ** champ ** recherches ci-dessous."
+"Retourne un nouveau **QuerySet** contenant des objets qui ne correspondent "
+"pas les paramètres de recherche donnée. Les paramètres de recherche "
+"(****kwargs** dans les définitions de fonction ci-dessus) doit être au "
+"format décrit dans **Field** recherches ci-dessous."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:299
-#, fuzzy
 msgid ""
 "For example, to get a **QuerySet** of blog entries from the year 2006, use "
 "**filter()** like so:"
 msgstr ""
-"Par exemple, pour obtenir un ** QuerySet ** des entrées de blog par rapport "
-"à l'année 2006, utiliser ** filter() ** comme suit :"
+"Par exemple, pour obtenir un **QuerySet** des entrées de blog par rapport à "
+"l'année 2006, utiliser **filter()** comme suit :"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:308
 msgid "With the default manager class, it is the same as:"
@@ -1231,13 +1223,12 @@ msgstr ""
 "2005 et la date du jour."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:335
-#, fuzzy
 msgid ""
 "More: `Making queries <https://docs.djangoproject.com/en/1.8/topics/db/"
 "queries/#making-queries>`_"
 msgstr ""
-"Plus: « faire des requêtes <https: docs.djangoproject.com/en/1.8/topics/db/"
-"queries/#making-queries=\"\">' _</https:>"
+"Plus: `Making queries <https://docs.djangoproject.com/en/1.8/topics/db/"
+"queries/#making-queries>`_"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:338
 msgid "URLs and views"
@@ -1264,13 +1255,12 @@ msgstr ""
 "le **vues**."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:370
-#, fuzzy
 msgid ""
 "More: `URL dispatcher <https://docs.djangoproject.com/en/1.8/topics/http/"
 "urls/>`_"
 msgstr ""
-"Plus: « répartiteur URL <https: docs.djangoproject.com/en/1.8/topics/http/"
-"urls/=\"\">' _</https:>"
+"Plus: `URL dispatcher <https://docs.djangoproject.com/en/1.8/topics/http/"
+"urls/>`_"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:373
 #: ..\..\005_dev_workshop\003_devel_core\coremodules.rst:78
@@ -1285,12 +1275,10 @@ msgstr ""
 "dans le code HTML :"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:399
-#, fuzzy
 msgid ""
 "More: `Templates <https://docs.djangoproject.com/en/1.8/topics/templates/>`_"
 msgstr ""
-"Plus: \"modèles <https: docs.djangoproject.com/en/1.8/topics/templates/=\"\">"
-"\" _</https:>"
+"Plus: `Templates <https://docs.djangoproject.com/en/1.8/topics/templates/>`_"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:402
 msgid "Forms"
@@ -1387,24 +1375,22 @@ msgstr ""
 "l'accès."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:436
-#, fuzzy
 msgid ""
 "On the other hand, **GET** is suitable for things like a web search form, "
 "because the URLs that represent a **GET** request can easily be bookmarked, "
 "shared, or resubmitted."
 msgstr ""
-"En revanche, ** GET ** convient pour des choses comme la recherche d'un web "
-"form, car les URL qui représentent un ** demande GET ** facilement peut être "
+"En revanche, **GET** convient pour des choses comme la recherche d'un web "
+"form, car les URL qui représentent un demande **GET** facilement peut être "
 "mis en signet, partagé ou soumis de nouveau."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:438
-#, fuzzy
 msgid ""
 "More: `Working With Forms <https://docs.djangoproject.com/en/1.8/topics/"
 "forms/#working-with-forms>`_"
 msgstr ""
-"Plus: \"travailler avec les formes <https: docs.djangoproject.com/en/1.8/"
-"topics/forms/#working-with-forms=\"\">' _</https:>"
+"Plus: `Working With Forms <https://docs.djangoproject.com/en/1.8/topics/"
+"forms/#working-with-forms>`_ "
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:441
 msgid "Authentication"
@@ -1420,20 +1406,18 @@ msgstr ""
 "utilisateur basée sur les cookies."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:458
-#, fuzzy
 msgid ""
 "More: `User authentication in Django <https://docs.djangoproject.com/en/"
 "stable/topics/auth/>`_"
 msgstr ""
-"Plus: ' authentification des utilisateurs dans Django <https: docs."
-"djangoproject.com/en/stable/topics/auth/=\"\">' _</https:>"
+"Plus: `User authentication in Django <https://docs.djangoproject.com/en/"
+"stable/topics/auth/>`_"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:461
 msgid "Admin"
 msgstr "Administrateur"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:463
-#, fuzzy
 msgid ""
 "One of the most powerful parts of Django is its automatic admin interface. "
 "It reads metadata from models in order to provide a powerful and ready-to-"
@@ -1441,8 +1425,8 @@ msgid ""
 msgstr ""
 "Une des parties plus puissants de Django est son interface d'administration "
 "automatique. Il lit les métadonnées des modèles afin de fournir une "
-"interface utilisateur graphique puissante et prêt à l'emploi pour ** "
-"opérations CRUD ** selon le modèle."
+"interface utilisateur graphique puissante et prêt à l'emploi pour opérations "
+"**CRUD** selon le modèle."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:482
 msgid ""
@@ -1453,13 +1437,12 @@ msgstr ""
 "des modèles spécifiques et interface d'administration"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:484
-#, fuzzy
 msgid ""
 "More: `The Django admin site <https://docs.djangoproject.com/en/stable/ref/"
 "contrib/admin/>`_"
 msgstr ""
-"Plus: \"le site d'admin de Django <https: docs.djangoproject.com/en/stable/"
-"ref/contrib/admin/=\"\">' _</https:>"
+"Plus: `The Django admin site <https://docs.djangoproject.com/en/stable/ref/"
+"contrib/admin/>`_"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:487
 msgid "Internationalization"
@@ -1493,13 +1476,12 @@ msgstr ""
 "<https://www.transifex.com/>`_"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:540
-#, fuzzy
 msgid ""
 "More: `Internationalization and localization <https://docs.djangoproject.com/"
 "en/stable/topics/i18n/>`_"
 msgstr ""
-"Plus: « internationalisation et localisation <https: docs.djangoproject.com/"
-"en/stable/topics/i18n/=\"\">' _</https:>"
+"Plus: `Internationalization and localization <https://docs.djangoproject.com/"
+"en/stable/topics/i18n/>`_"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:543
 msgid "Security"
@@ -1710,13 +1692,12 @@ msgstr ""
 "base de données à l'aide d'un pare-feu."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:585
-#, fuzzy
 msgid ""
 "More: `Security in Django <https://docs.djangoproject.com/en/stable/topics/"
 "security/>`_"
 msgstr ""
-"Plus: ' sécurité dans Django <https: docs.djangoproject.com/en/stable/topics/"
-"security/=\"\">' _</https:>"
+"Plus: `Security in Django <https://docs.djangoproject.com/en/stable/topics/"
+"security/>`_"
 
 #: ..\..\005_dev_workshop\002_django_overview\index.rst:5
 msgid "Django Overview"
@@ -8630,13 +8611,12 @@ msgstr ""
 "référentiel."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:55
-#, fuzzy
 msgid ""
 "For more information on how Issues work, see the section \":ref:"
 "`work_with_github`\""
 msgstr ""
 "Pour plus d'informations sur le fonctionnement des questions, consultez la "
-"section \": ref: « work_with_github »\""
+"section \":ref:`work_with_github`\""
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:58
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:146
@@ -8665,13 +8645,12 @@ msgstr ""
 "(traction) vos modifications."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:65
-#, fuzzy
 msgid ""
 "For more information on how Pull Requests work, see the section \":ref:"
 "`work_with_github`\""
 msgstr ""
 "Pour plus d'informations sur le fonctionnement de tirer les requêtes, "
-"reportez-vous à la section \": ref: « work_with_github »\""
+"reportez-vous à la section \":ref:`work_with_github`\""
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:5
 msgid "Contributing to GeoNode"
@@ -8690,7 +8669,6 @@ msgid "Participate in the Discussion"
 msgstr "Participer au débat"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:14
-#, fuzzy
 msgid ""
 "GeoNode has a mailing list (https://groups.google.com/d/forum/geonode-users) "
 "where users can ask and answer questions about the software. There are also "
@@ -8700,15 +8678,14 @@ msgid ""
 "GeoNode. If you want to help out with GeoNode, one easy way is to sign up "
 "for the mailing list and help answer questions."
 msgstr ""
-"GeoNode a une liste de diffusion (d'https://groups.google.com/d/forum/"
-"geonode-users), où les utilisateurs peuvent demander et répondre aux "
-"questions sur le logiciel. Il y a aussi des chats IRC sur Gitter où "
-"(d'https://gitter.im/GeoNode/general) les utilisateurs et les développeurs "
-"(d'https://gitter.im/GeoNode) pourront discuter des GeoNode en temps réel. "
-"Parfois les utilisateurs envoyer également des conseils intéressants pour la "
-"gestion des sites en cours d'exécution GeoNode. Si vous voulez aider avec "
-"GeoNode, l'une des façons sont pour s'inscrire à la mailing list et répondre "
-"aux questions."
+"GeoNode a une liste de diffusion (https://groups.google.com/d/forum/geonode-"
+"users), où les utilisateurs peuvent demander et répondre aux questions sur "
+"le logiciel. Il y a aussi des chats IRC sur Gitter où (https://gitter.im/"
+"GeoNode/general) les utilisateurs et les développeurs (https://gitter.im/"
+"GeoNode) pourront discuter des GeoNode en temps réel. Parfois les "
+"utilisateurs envoyer également des conseils intéressants pour la gestion des "
+"sites en cours d'exécution GeoNode. Si vous voulez aider avec GeoNode, l'une "
+"des façons sont pour s'inscrire à la mailing list et répondre aux questions."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:20
 msgid "Report Problems on the Issue Tracking System"
@@ -8787,7 +8764,6 @@ msgstr ""
 "documentation qu'utilise GeoNode."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:45
-#, fuzzy
 msgid ""
 "If you want to learn more about contributing to the documentation, please go "
 "ahead to the \"`How to contribute to GeoNode’s Documentation <http://docs."
@@ -8798,20 +8774,18 @@ msgid ""
 "html#doc-guidelines>`_\"."
 msgstr ""
 "Si vous voulez en savoir plus sur les dons à la documentation, s'il vous "
-"plaît allez-y à la \"\" comment contribuer à la Documentation de GeoNode "
-"<http: docs.geonode.org/en/latest/organizational/contribute/"
-"contribute_to_documentation.html#contrib-docu=\"\">\"_\". GeoNode ont "
-"également quelques lignes directrices pour aider à la rédaction une fois que "
-"vous êtes prêt \"\" Comment écrire la Documentation <http: docs.geonode.org/"
-"en/latest/organizational/contribute/documentation_guidelines.html#doc-"
-"guidelines=\"\">\"_\".</http:> </http:>"
+"plaît allez-y à la \"`comment contribuer à la Documentation de GeoNode "
+"<http://docs.geonode.org/en/latest/organizational/contribute/"
+"contribute_to_documentation.html#contrib-docu>`_\". GeoNode ont également "
+"quelques lignes directrices pour aider à la rédaction une fois que vous êtes "
+"prêt \"`Comment écrire la Documentation <http://docs.geonode.org/en/latest/"
+"organizational/contribute/documentation_guidelines.html#doc-guidelines>`_\"."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:49
 msgid "Provide Translations"
 msgstr "Fournir des traductions"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:51
-#, fuzzy
 msgid ""
 "If GeoNode doesn't provide a user interface in your native language, "
 "consider contributing a new translation. To get started here are the "
@@ -8821,16 +8795,15 @@ msgid ""
 msgstr ""
 "Si GeoNode ne fournit pas une interface utilisateur dans votre langue "
 "maternelle, envisagez de contribuer une nouvelle traduction. Pour commencer "
-"Voici les instructions \"\" comment contribuer à la traduction de GeoNode "
-"<http: docs.geonode.org/en/latest/organizational/contribute/"
-"contribute_to_translation.html=\"\">\"_\".</http:>"
+"Voici les instructions comment \"`contribuer à la traduction de GeoNode "
+"<http://docs.geonode.org/en/latest/organizational/contribute/"
+"contribute_to_translation.html>`_\"."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:55
 msgid "Write Code"
 msgstr "Écrire du Code"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:57
-#, fuzzy
 msgid ""
 "Of course since GeoNode is an open source project which encourages "
 "contributions of source code as well. If you are interested in making small "
@@ -8842,13 +8815,13 @@ msgstr ""
 "Bien sûr, étant donné que GeoNode est un projet open source qui encourage "
 "ainsi les contributions du code source. Si vous êtes intéressé à faire de "
 "petits changements, vous pouvez trouver un billet ouvert sur http://github."
-"com/GeoNode/geonode/issues, hack et lancez-vous sur la \"\" processus "
-"d'examen de Patch <http: docs.geonode.org/en/latest/organizational/"
-"contribute/review_criteria.html=\"\">\"_\".</http:>"
+"com/GeoNode/geonode/issues, hack et lancez-vous sur la \"`processus d'examen "
+"de Patch <http://docs.geonode.org/en/latest/organizational/contribute/"
+"review_criteria.html>`_\"."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:61
 msgid "Further Reading"
-msgstr "==Voir aussi=="
+msgstr "Voir aussi"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:63
 msgid ":ref:`contrib_on_github`"
@@ -8907,17 +8880,16 @@ msgstr ""
 "feuille de route."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:15
-#, fuzzy
 msgid ""
 "Organizational partner communicates with the `organizational partners list "
 "<https://groups.google.com/a/opengeo.org/group/geonode-org/>`_ about the "
 "change to gauge interest and determine who else is committed to making it "
 "happen."
 msgstr ""
-"Partenaire d'organisation communique avec la ' liste des partenaires "
-"d'organisation <https: groups.google.com/a/opengeo.org/group/geonode-org/="
-"\"\">' _ sur le changement d'évaluer l'intérêt et de déterminer qui d'autre "
-"s'est engagé à passer.</https:>"
+"Partenaire d'organisation communique avec la  `liste des partenaires "
+"d'organisation <https://groups.google.com/a/opengeo.org/group/geonode-org/"
+">`_ sur le changement d'évaluer l'intérêt et de déterminer qui d'autre s'est "
+"engagé à passer."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:16
 msgid ""
@@ -8928,16 +8900,15 @@ msgstr ""
 "wiki d'étoffer davantage de l'idée."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:17
-#, fuzzy
 msgid ""
 "Organizational partner finds a committer on the `developer list <https://"
 "groups.google.com/a/opengeo.org/group/geonode-dev/>`_ to shepherd the "
 "roadmap item through the **GeoNode Improvement Proposals**."
 msgstr ""
-"Partenaire d'organisation conclut committer sur la ' liste des développeurs "
-"<https: groups.google.com/a/opengeo.org/group/geonode-dev/=\"\">' _ prendra "
-"soin de l'élément de la feuille de route à travers la ** GeoNode "
-"amélioration propositions **.</https:>"
+"Partenaire d'organisation conclut committer sur la `liste des développeurs "
+"<https://groups.google.com/a/opengeo.org/group/geonode-dev/>`_ prendra soin "
+"de l'élément de la feuille de route à travers la **GeoNode Improvement "
+"Proposals**."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:19
 msgid "Each roadmap item will go through four stages:"
@@ -8993,14 +8964,13 @@ msgstr ""
 "route doive être divisé en plusieurs propositions de GNIP indépendantes."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:30
-#, fuzzy
 msgid ""
 "Once it passes through the **GeoNode Improvement Proposals** process, a "
 "roadmap item enters the *Development Stage* on its way to *Release*."
 msgstr ""
-"Une fois qu'il traverse le ** traiter les propositions d'amélioration "
-"GeoNode **, un élément de la feuille de route entre le * développement stade "
-"* sur le chemin de * sortie *."
+"Une fois qu'il traverse le traiter les propositions d'amélioration GeoNode, "
+"un élément de la feuille de route entre le *Development Stage* sur le chemin "
+"de *Release*."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:5
 msgid "Work With GitHub Issues and Pull Requests"
@@ -9020,13 +8990,12 @@ msgstr ""
 "facilement."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:14
-#, fuzzy
 msgid ""
 "For example, let’s take a look at `Bootstrap’s Issues section <https://"
 "github.com/twbs/bootstrap/issues>`_:"
 msgstr ""
-"Par exemple, nous allons jeter un oeil à \"section problèmes de Bootstrap "
-"<https: github.com/twbs/bootstrap/issues=\"\">' _:</https:>"
+"Par exemple, nous allons jeter un oeil à section problèmes de `Bootstrap "
+"<https://github.com/twbs/bootstrap/issues>`_:"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:19
 msgid ""
@@ -9062,11 +9031,10 @@ msgstr ""
 "phases du projet (p. ex. *Weekly Sprint 9/5-9/16 or Shipping 1.0*)."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:30
-#, fuzzy
 msgid ""
 "One **assignee** is responsible for working on the issue at any given time."
 msgstr ""
-"Un ** cessionnaire ** est chargé de travailler sur la question à un moment "
+"Un **cessionnaire** est chargé de travailler sur la question à un moment "
 "donné."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:32
