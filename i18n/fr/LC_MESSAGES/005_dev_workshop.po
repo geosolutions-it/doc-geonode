@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-17 13:10+0100\n"
-"PO-Revision-Date: 2015-12-17 17:33+0000\n"
+"PO-Revision-Date: 2015-12-17 17:56+0000\n"
 "Last-Translator: simboss <simone.giannecchini@geo-solutions.it>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-documentation/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -7010,20 +7010,20 @@ msgid ""
 "could be a bug, a feature request, a question or lots of other things. On "
 "GitHub you can label, search and assign Issues, making managing an active "
 "project easier."
-msgstr "Un problème est une note sur un dépôt de quelque chose qui a besoin d'attention. Ça pourrait être un bug, une demande de fonctionnalité, une question ou bien d'autres choses. Sur GitHub, que vous pouvez étiqueter, questions recherche et ayant-droit, rendant la gestion active du projet plus facilement."
+msgstr "Une Issue est une note sur une repository de quelque chose qui a besoin d'attention. Ça petu être un bug, une demande de fonctionnalité, une question ou beaucoup des d'autres choses. Sur GitHub, vous pouvez étiqueter, rechercher et assigner les Issues, rendant la gestion active du projet plus facile."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:14
 msgid ""
 "For example, let’s take a look at `Bootstrap’s Issues section "
 "<https://github.com/twbs/bootstrap/issues>`_:"
-msgstr "Par exemple, nous allons jeter un oeil à section problèmes de `Bootstrap <https://github.com/twbs/bootstrap/issues>`_:"
+msgstr "Par exemple, nous allons a voir la section `Issues des Bootstrap <https://github.com/twbs/bootstrap/issues>`_:"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:19
 msgid ""
 "GitHub’s issue tracking is special because of our focus on collaboration, "
 "references, and excellent text formatting. A typical issue on GitHub looks a"
 " bit like this:"
-msgstr "Suivi des problèmes de GitHub sont particulière en raison de notre focalisation sur la collaboration, des références et de formatage de texte excellent. Un problème typique sur GitHub ressemble un peu à ceci :"
+msgstr "La gestion des Issues sur GitHub est particulière en raison de son focalisation sur la collaboration, références et formatage de texte excellent. Une issues typique sur GitHub ressemble un peu à ceci :"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:24
 msgid "A **title** and **description** describe what the issue is all about."
@@ -7054,7 +7054,7 @@ msgstr "**Commentaires** permettre à toute personne ayant accès au référenti
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:35
 msgid "Open an Issue"
-msgstr "Affaire en suspens"
+msgstr "Ouvrir une issue"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:37
 msgid "Click the Issues tab from the sidebar."
@@ -7062,12 +7062,12 @@ msgstr "Cliquez sur l'onglet Issues de la barre latérale."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:42
 msgid "Click New Issue."
-msgstr "Cliquez sur nouveau problème."
+msgstr "Cliquez sur New Issue."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:43
 msgid ""
 "Give your Issue a title and description: *Add a new Logo to GeoNode custom*."
-msgstr "Donner votre numéro, un titre et une description: *ajouter un nouveau Logo pour GeoNode coutume*."
+msgstr "Donner votre Issue, un titre et une description."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:48
 msgid ""
@@ -7111,13 +7111,13 @@ msgstr "**Coller la sortie erreur** ou journaux dans votre livraison ou dans un 
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:64
 msgid "Branching"
-msgstr "Ramifications"
+msgstr "Branching"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:66
 msgid ""
 "**Branching** is the way to work on different parts of a repository at one "
 "time."
-msgstr "**La ramification** est la façon de travailler sur les différentes parties d'un référentiel à un moment donné."
+msgstr "**Branching** est la façon de travailler sur les différentes parties d'un référentiel à un moment donné."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:68
 msgid ""
@@ -7126,7 +7126,7 @@ msgid ""
 "fine. But if you have another feature or idea you want to work on, you can "
 "create another branch, starting from ``master``, so that you can leave "
 "``master`` in its working state."
-msgstr "Lorsque vous créez un référentiel, par défaut, il possède une branche avec le ``master`` de nom. Vous pouvez continuer à travailler sur cette branche et avoir qu'un seul, c'est très bien. Mais si vous avez une autre fonction ou idée que vous voulez travailler sur, vous pouvez créer une autre branche, à partir de ``master``, de sorte que vous pouvez confier ``master`` de son état de fonctionnement."
+msgstr "Lorsque vous créez une repository, par défaut, il possède une branche avec le ``master`` de nom. Vous pouvez continuer à travailler sur cette branche et avoir qu'un seul, c'est très bien. Mais si vous avez une autre fonction ou idée que vous voulez travailler sur, vous pouvez créer une autre branche, à partir de ``master``, de sorte que vous pouvez confier ``master`` de son état de fonctionnement."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:70
 msgid ""
