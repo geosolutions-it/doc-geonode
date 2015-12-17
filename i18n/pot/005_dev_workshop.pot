@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-22 19:05+0200\n"
+"POT-Creation-Date: 2015-12-17 13:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,7 +84,7 @@ msgid "Introduction to GeoNode development"
 msgstr ""
 
 #: ..\..\005_dev_workshop\001_devel_intro\index.rst:7
-#: ..\..\005_dev_workshop\index.rst:27
+#: ..\..\005_dev_workshop\index.rst:28
 msgid "This module will introduce you to the components that GeoNode is built with, the standards that it supports and the services it provides based on those standards, and an overview its architecture."
 msgstr ""
 
@@ -936,7 +936,7 @@ msgid "Django Overview"
 msgstr ""
 
 #: ..\..\005_dev_workshop\002_django_overview\index.rst:6
-#: ..\..\005_dev_workshop\index.rst:30
+#: ..\..\005_dev_workshop\index.rst:31
 msgid "This section introduces some basic concepts of DJango, the Python based web framework on top of which GeoNode has been developed."
 msgstr ""
 
@@ -1143,7 +1143,7 @@ msgid "Development Prerequsites and Core Modules"
 msgstr ""
 
 #: ..\..\005_dev_workshop\003_devel_core\index.rst:6
-#: ..\..\005_dev_workshop\index.rst:39
+#: ..\..\005_dev_workshop\index.rst:40
 msgid "This module will introduce you to the basic tools and skills required to start actively developing GeoNode."
 msgstr ""
 
@@ -1409,7 +1409,7 @@ msgid "In order to install Geonode 2.0 in developing mode on Ubuntu 12.04 the fo
 msgstr ""
 
 #: ..\..\005_dev_workshop\004_devel_env\index.rst:9
-#: ..\..\005_dev_workshop\index.rst:46
+#: ..\..\005_dev_workshop\index.rst:47
 msgid "For Windows: (:ref:`install_win_devmode`)"
 msgstr ""
 
@@ -5029,6 +5029,454 @@ msgstr ""
 msgid "Javascript tests has been currently disabled in GeoNode. There is a plan to improve and re-enable them in the future."
 msgstr ""
 
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:5
+msgid "Contributing to Open Source on GitHub"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:7
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:7
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:7
+msgid "This section is freely adapted from the official `GitHub guides <https://guides.github.com>`_."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:9
+msgid "A great way to get involved in open source is to contribute to the existing projects you’re using."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:12
+msgid "A Typical GitHub Project Structure"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:15
+msgid "The Community"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:17
+msgid "Projects often have a community around them, made up of other users in different (formal or informal) roles:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:19
+msgid "**Owner** is the user or organization that created the project has the project on their account."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:20
+msgid "**Maintainers** and Collaborators are the users primarily doing the work on a project and driving the direction. Oftentimes the owner and the maintainer are the same. They have write access to the repository."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:21
+msgid "**Contributors** is everyone who has had a pull request merged into a project."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:22
+msgid "**Community** Members are the users who often use and care deeply about the project and are active in discussions for features and pull requests."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:25
+msgid "Readme"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:27
+msgid "Nearly all GitHub projects include a README.md file. The readme provides a lay of the land for a project with details on how to use, build and sometimes contribute to a project."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:30
+msgid "License"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:32
+msgid "A `LICENSE` file, well, is the license for the project. An open source project’s license informs users what they can and can’t do (e.g., use, modify, redistribute), and contributors, what they are allowing others to do."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:35
+msgid "Documentation and Wikis"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:37
+msgid "Many larger projects go beyond a readme to give instructions for how people can use their project. In such cases you’ll often find a link to another file or a folder named `docs` in the repository."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:42
+msgid "Alternatively, the repository may instead use the GitHub wiki to break down documentation."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:48
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:10
+msgid "Issues"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:50
+msgid "Issues are a great way to keep track of tasks, enhancements, and bugs for your projects. They’re kind of like email—except they can be shared and discussed with the rest of your team. Most software projects have a bug tracker of some kind. GitHub’s tracker is called Issues, and has its own section in every repository."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:55
+msgid "For more information on how Issues work, see the section \":ref:`work_with_github`\""
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:58
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:146
+msgid "Pull Requests"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:60
+msgid "If you’re able to patch the bug or add the feature yourself, make a pull request with the code. Be sure you’ve read any documents on contributing, understand the license and have signed a CLA if required."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:63
+msgid "Once you’ve submitted a pull request the maintainer(s) can compare your branch to the existing one and decide whether or not to incorporate (pull in) your changes."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:65
+msgid "For more information on how Pull Requests work, see the section \":ref:`work_with_github`\""
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:5
+msgid "Contributing to GeoNode"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:9
+msgid "If you are interested in helping us to make GeoNode, there are many ways to do so."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:12
+msgid "Participate in the Discussion"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:14
+msgid "GeoNode has a mailing list (https://groups.google.com/d/forum/geonode-users) where users can ask and answer questions about the software. There are also IRC chats on Gitter where users (https://gitter.im/GeoNode/general) and developers (https://gitter.im/GeoNode) can discuss GeoNode in real time. Sometimes users also post interesting tips for managing sites running GeoNode. If you want to help out with GeoNode, one easy way is to sign up for the mailing list and help answer questions."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:20
+msgid "Report Problems on the Issue Tracking System"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:22
+msgid "Informative bug reports are a key part of the bug fixing process, so if you do run into a problem with GeoNode, please don't hesitate to report it on our bug tracker, available online at http://github.com/GeoNode/geonode/issues. Useful information for bug reports includes:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:25
+msgid "What were you doing when the bug occurred? Does the problem occur every time you do that, or only occasionally?"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:27
+msgid "What were you expecting to happen? What happened instead?"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:29
+msgid "What version of the software are you using? Please also note any changes from the default configuration."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:31
+msgid "If there is a data file involved in the bug (such as a Shapefile that doesn't render properly), please consider including it in the bug report. Be aware that not all data files are freely distributable."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:34
+msgid "To help GeoNode to better address the issue you can tag the ticket with one or more lables that you can find on the side column."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:38
+msgid "Write Documentation"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:40
+msgid "GeoNode's documentation can always use improvement - there are always more questions to be answered. For managing contributions to the manual, GeoNode uses a process similar to that used for managing the code itself. The documentation is generated from source files in the `docs/` directory within the GeoNode source repository. See http://sphinx.pocoo.org/ for more information on the documentation system GeoNode uses."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:45
+msgid "If you want to learn more about contributing to the documentation, please go ahead to the \"`How to contribute to GeoNode’s Documentation <http://docs.geonode.org/en/latest/organizational/contribute/contribute_to_documentation.html#contrib-docu>`_\". GeoNode also have some guidelines to help with writing once you are set up \"`How to write Documentation <http://docs.geonode.org/en/latest/organizational/contribute/documentation_guidelines.html#doc-guidelines>`_\"."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:49
+msgid "Provide Translations"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:51
+msgid "If GeoNode doesn't provide a user interface in your native language, consider contributing a new translation. To get started here are the instructions \"`How to contribute to GeoNode’s Translation <http://docs.geonode.org/en/latest/organizational/contribute/contribute_to_translation.html>`_\"."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:55
+msgid "Write Code"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:57
+msgid "Of course since GeoNode is an open source project which encourages contributions of source code as well. If you are interested in making small changes, you can find an open ticket on http://github.com/GeoNode/geonode/issues, hack away, and get started on the \"`Patch Review Process <http://docs.geonode.org/en/latest/organizational/contribute/review_criteria.html>`_\"."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:61
+msgid "Further Reading"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:63
+msgid ":ref:`contrib_on_github`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:65
+msgid ":ref:`work_with_github`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:67
+msgid ":ref:`roadmap`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:5
+msgid "Roadmap Process"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:8
+msgid "The GeoNode Roadmap Process is designed to complement the more technical **GeoNode Improvement Proposals** and strives to make it easier for the various organizations invested in GeoNode to collaborate on features of common interest."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:10
+msgid "It is based on the \"`roadmap items <https://spreadsheets.google.com/a/opengeo.org/spreadsheet/ccc?key=0AklXlBUnMqOrdDNackdvX3ZRS0Fha0xCeGhjSjZ1dEE>`_\" developed at the `GeoNode Roadmapping Summit <http://geonode.org/2011/05/roadmapping-summit/>`_ held in May 2011."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:12
+msgid "Overall, the process for adding items to the collective roadmap is as follows:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:14
+msgid "Organizational partner has an intent to add a feature to the roadmap."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:15
+msgid "Organizational partner communicates with the `organizational partners list <https://groups.google.com/a/opengeo.org/group/geonode-org/>`_ about the change to gauge interest and determine who else is committed to making it happen."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:16
+msgid "Organizational partner creates a feature specification on the wiki to further flesh out the idea."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:17
+msgid "Organizational partner finds a committer on the `developer list <https://groups.google.com/a/opengeo.org/group/geonode-dev/>`_ to shepherd the roadmap item through the **GeoNode Improvement Proposals**."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:19
+msgid "Each roadmap item will go through four stages:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:21
+msgid "Descriptive Stage (under discussion/\"Active\")"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:22
+msgid "Technical Stage"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:23
+msgid "Development Stage"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:24
+msgid "Released"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:26
+msgid "After communicating on the `organizational partners list <https://groups.google.com/a/opengeo.org/group/geonode-org/>`_ the roadmap items enters the *Descriptive Stage* and must have a wiki page that lays out the description, user stories, and other interested parties. Optionally, the roadmap item will also include an idea of the difficulty and goals as well as any wireframes, technical diagrams, or prior art."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:28
+msgid "A roadmap item enters the *Technical Stage* once a committer has been found to shepherd the roadmap item through the **GeoNode Improvement Proposals** process, then the wiki page must contain a clear sense of the technical assumptions, requirements or dependencies, and suggested implementation. Some roadmap items may need to be divided into multiple independent GNIP proposals."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:30
+msgid "Once it passes through the **GeoNode Improvement Proposals** process, a roadmap item enters the *Development Stage* on its way to *Release*."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:5
+msgid "Work With GitHub Issues and Pull Requests"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:12
+msgid "An Issue is a note on a repository about something that needs attention. It could be a bug, a feature request, a question or lots of other things. On GitHub you can label, search and assign Issues, making managing an active project easier."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:14
+msgid "For example, let’s take a look at `Bootstrap’s Issues section <https://github.com/twbs/bootstrap/issues>`_:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:19
+msgid "GitHub’s issue tracking is special because of our focus on collaboration, references, and excellent text formatting. A typical issue on GitHub looks a bit like this:"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:24
+msgid "A **title** and **description** describe what the issue is all about."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:26
+msgid "Color-coded **labels** help you categorize and filter your issues (just like labels in email)."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:28
+msgid "A **milestone** acts like a container for issues. This is useful for associating issues with specific features or project phases (e.g. *Weekly Sprint 9/5-9/16 or Shipping 1.0*)."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:30
+msgid "One **assignee** is responsible for working on the issue at any given time."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:32
+msgid "**Comments** allow anyone with access to the repository to provide feedback."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:35
+msgid "Open an Issue"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:37
+msgid "Click the Issues tab from the sidebar."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:42
+msgid "Click New Issue."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:43
+msgid "Give your Issue a title and description: *Add a new Logo to GeoNode custom*."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:48
+msgid "Click **Submit new Issue** when you’re done. Now this issue has a permanent home (URL) that you can reference even after it is closed."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:51
+msgid "Issues Pro Tips"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:53
+msgid "**Check existing issues** for your issue. Duplicating an issue is slower for both parties so search through open and closed issues to see if what you’re running into has been addressed already."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:55
+msgid "**Be clear** about what your problem is: what was the expected outcome, what happened instead? Detail how someone else can recreate the problem."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:57
+msgid "**Link to demos** recreating the problem on things like JSFiddle or CodePen."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:59
+msgid "**Include system details** like what the browser, library or operating system you’re using and its version."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:61
+msgid "**Paste error output** or logs in your issue or in a Gist. If pasting them in the issue, wrap it in three backticks: ``````` so that it renders nicely."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:64
+msgid "Branching"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:66
+msgid "**Branching** is the way to work on different parts of a repository at one time."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:68
+msgid "When you create a repository, by default it has one branch with the name ``master``. You could keep working on this branch and have only one, that’s fine. But if you have another feature or idea you want to work on, you can create another branch, starting from ``master``, so that you can leave ``master`` in its working state."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:70
+msgid "When you create a branch, you’re making a **copy** of the original branch as it was at that point in time (*like a photo snapshot*). If the original branch changes while you’re working on your new branch, no worries, you can always pull in those updates."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:75
+msgid "At GeoNode developers use branches for keeping bug fixes and feature work separate from ``master`` (**production**) branch. When a feature or fix is ready, the branch is **merged** into master through a **Pull Request**."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:78
+msgid "To create a new branch"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:80
+msgid "Go to the project folder and create a new branch"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:92
+msgid "Check that you are working on the correct branch: ``add_logo``."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:103
+msgid "Push the new branch to GitHub."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:115
+msgid "Make a commit"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:117
+msgid "On GitHub, saved changes are called **commits**."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:119
+msgid "Each commit has an associated **commit message**, which is a description explaining why a particular change was made. Thanks to these messages, you and others can read through commits and understand what you’ve done and why."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:121
+msgid "Add a new logo to your custom GeoNode as described in the section :ref:`theme_admin`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:123
+msgid "Stash the new files into the working project using ``git add``"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:134
+msgid "**Commit** the changes providing a **commit messages** and push them into your branch : ``add_logo``."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:148
+msgid "Pull Requests are the heart of collaboration on GitHub. When you make a pull request, you’re proposing your changes and requesting that someone pull in your contribution - aka merge them into their branch. GitHub’s Pull Request feature allows you to compare the content on two branches. The changes, additions and subtractions, are shown in green and red and called diffs (differences)."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:150
+msgid "As soon as you make a change, you can open a Pull Request. People use Pull Requests to start a discussion about commits (code review) even before the code is finished. This way you can get feedback as you go or help when you’re stuck."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:152
+msgid "By using GitHub’s @mention system in your Pull Request message, you can ask for feedback from specific people or teams."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:155
+msgid "Create a Pull Request for changes to the Logo"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:157
+msgid "Click the Pull Request icon on the sidebar, then from the Pull Request page, click the green **New pull request** button."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:162
+msgid "Select the branch you made, ``add_logo``, to compare with ``master`` (the original)."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:167
+msgid "Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:172
+msgid "When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:177
+msgid "Give your pull request a title and since it relates directly to an open issue, include “fixes #” and the issue number in the title. Write a brief description of your changes."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:182
+msgid "When you’re done with your message, click **Create pull request!**"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:185
+msgid "Merge your Pull Request"
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:187
+msgid "It’s time to bring your changes together – merge your ``add_logo`` branch into the ``master`` (the original) branch."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:189
+msgid "Click the green button to merge the changes into master. Click Confirm merge. Go ahead and delete the branch, since its changes have been incorporated, with the Delete branch button in the purple box."
+msgstr ""
+
+#: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:196
+msgid "If you revisit the issue you opened, it’s now closed! Because you included “fixes #1” in your Pull Request title, GitHub took care of closing that issue when the Pull Request was merged!"
+msgstr ""
+
 #: ..\..\005_dev_workshop\index.rst:5
 msgid "Developers Workshop"
 msgstr ""
@@ -5045,59 +5493,67 @@ msgstr ""
 msgid "*Prerequisites*"
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:27
+#: ..\..\005_dev_workshop\index.rst:28
 msgid ":ref:`intro_devel`"
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:36
+#: ..\..\005_dev_workshop\index.rst:37
 msgid ":ref:`django_overview_index`"
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:32
+#: ..\..\005_dev_workshop\index.rst:33
 msgid "Django's primary goal is to ease the creation of complex, database-driven websites. Django emphasizes reusability and \"pluggability\" of components, rapid development, and the principle of *don't repeat yourself*. Python is used throughout, even for settings, files, and data models."
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:36
+#: ..\..\005_dev_workshop\index.rst:37
 msgid "Django also provides an optional administrative create, read, update and delete interface that is generated dynamically through introspection and configured via admin models."
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:39
+#: ..\..\005_dev_workshop\index.rst:40
 msgid ":ref:`dev_core`"
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:46
+#: ..\..\005_dev_workshop\index.rst:47
 msgid ":ref:`install_devmode`"
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:42
+#: ..\..\005_dev_workshop\index.rst:43
 msgid "This module shows a step-by-step guide for the setup of a GeoNode Develeopment Environent on an Ubuntu system."
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:44
+#: ..\..\005_dev_workshop\index.rst:45
 msgid "For other Linux distributions the commands are similar, the difference is mainly on the packages names."
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:49
+#: ..\..\005_dev_workshop\index.rst:50
 msgid ":ref:`dev_debug`"
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:49
+#: ..\..\005_dev_workshop\index.rst:50
 msgid "GeoNode can be difficult to debug as there are several different components involved. This module shows some tecniques to debug the different parts of GeoNode."
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:52
+#: ..\..\005_dev_workshop\index.rst:53
 msgid ":ref:`geonode_apis`"
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:52
+#: ..\..\005_dev_workshop\index.rst:53
 msgid "This module provides an overview of the core modules and libraries used by GeoNode and teach to the user how to use them through some guided examples."
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:54
+#: ..\..\005_dev_workshop\index.rst:56
 msgid ":ref:`geonode_testing`"
 msgstr ""
 
-#: ..\..\005_dev_workshop\index.rst:55
+#: ..\..\005_dev_workshop\index.rst:56
 msgid "This section explain how to run the tests on GeoNode."
+msgstr ""
+
+#: ..\..\005_dev_workshop\index.rst:58
+msgid ":ref:`contributing_to_geonode`"
+msgstr ""
+
+#: ..\..\005_dev_workshop\index.rst:59
+msgid "Basic concepts about GitHub OpenSource Projects and best practices."
 msgstr ""
 

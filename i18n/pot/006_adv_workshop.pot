@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-22 19:05+0200\n"
+"POT-Creation-Date: 2015-12-17 13:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9627,27 +9627,235 @@ msgstr ""
 msgid "You should be familiar with GeoNode, GeoServer, Python framework and development concepts other than with system administrator and caching concepts and tecnquiques."
 msgstr ""
 
-#: ..\..\006_adv_workshop\index.rst:24
+#: ..\..\006_adv_workshop\index.rst:25
 msgid ":ref:`adv_data_mgmt`"
 msgstr ""
 
-#: ..\..\006_adv_workshop\index.rst:24
+#: ..\..\006_adv_workshop\index.rst:25
 msgid "Advanced Data Management and Processing tecquiques."
 msgstr ""
 
-#: ..\..\006_adv_workshop\index.rst:27
+#: ..\..\006_adv_workshop\index.rst:28
 msgid ":ref:`geonode_settings`"
 msgstr ""
 
-#: ..\..\006_adv_workshop\index.rst:27
+#: ..\..\006_adv_workshop\index.rst:28
 msgid "Learn how to deal with advanced GeoNode configuration settings and external DJango Apps."
 msgstr ""
 
-#: ..\..\006_adv_workshop\index.rst:29
+#: ..\..\006_adv_workshop\index.rst:30
 msgid ":ref:`geonode_production`"
 msgstr ""
 
-#: ..\..\006_adv_workshop\index.rst:30
+#: ..\..\006_adv_workshop\index.rst:31
 msgid "Concepts and tecquinques for the deployment af GeoNode and GeoServer on a Production system."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:4
+msgid "Loading OSM Data into GeoNode"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:6
+msgid "In this section, we will walk through the steps necessary to load OSM data into your GeoNode project. As discussed in previous sections, your GeoNode already uses OSM tiles from MapQuest and the main OSM servers as some of the available base layers. This session is specifically about extracting actual data from OSM and converting it for use in your project and potentially for Geoprocessing tasks."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:8
+msgid "The first step in this process is to get the data from OSM. We will be using the OSM Overpass API since it lets us do more complex queries than the OSM API itself. You should refer to the OSM Overpass API documentation to learn about all of its features. It is an extremely powerful API that lets you extract data from OSM using a very sophisticated API."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:10
+msgid "http://wiki.openstreetmap.org/wiki/Overpass_API"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:11
+msgid "http://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:13
+msgid "In this example, we will be extracting building footprint data around Port au Prince in Haiti. To do this we will use an interactive tool that makes it easy construct a Query against the Overpass API. Point your browser at http://overpass-turbo.eu/ and use the search tools to zoom into Port Au Prince and Cite Soleil specifically."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:15
+msgid "You will need to cut and paste the query specified below to get all of the appropriate data under the bbox::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:31
+msgid "This should look like the following."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:35
+msgid "When you have the bbox and query set correctly, click the \"Export\" button on the menu to bring up the export menu, and then click the API interpreter link to download the OSM data base on the query you have specified."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:39
+msgid "This will download a file named 'export.osm' on your file system. You will probably want to rename it something else more specific. You can do that by issuing the following command in the directory where it was downloaded::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:43
+msgid "You can also rename the file in your Operating Systems File management tool (Windows Explorer, Finder etc)."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:46
+msgid "Exporting OSM data to shapefile using QGIS"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:48
+msgid "Now that we have osm data on our filesystem, we will need to convert it into a format suitable for uploading into your GeoNode. There are many ways to accomplish this, but for purposes of this example, we will use an OSM QGIS plugin that makes if fairly easy. Please consult the wiki page that explains how to install this plugin and make sure it is installed in your QGIS instance. Once its installed, you can use the Web Menu to load your file."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:52
+msgid "This will bring up a dialog box that you can use to find and convert the osm file we downloaded."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:56
+msgid "When the process has completed,  you will see your layers in the Layer Tree in QGIS."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:60
+msgid "Since we are only interested in the polygons, we can turn the other 2 layers off in the Layer Tree."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:64
+msgid "The next step is to use QGIS to convert this layer into a Shapefile so we can upload it into GeoNode. To do this, select the layer in the Layer tree, right click and then select the Save As option."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:68
+msgid "This will bring up the Save Vector Layer as Dialog."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:72
+msgid "Specify where on disk you want your file saved, and hit Save then OK."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:76
+msgid "You now have a shapefile of the data you extracted from OSM that you can use to load into GeoNode. Use the GeoNode Layer Upload form to load the Shapefile parts into your GeoNode, and optionally edit the metadata and then you can view your layer in the Layer Info page in your geonode."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:80
+msgid "You may want to switch to an imagery layer in order to more easily see the buildings on the OSM background."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:83
+msgid "Exporting OSM data to shapefile using GDAL"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:85
+msgid "An alternative way to export the .osm file to a shapefile is to use `ogr2ogr <http://www.gdal.org/ogr2ogr.html>`_ combined with the `GDAL osm driver <http://www.gdal.org/ogr/drv_osm.html>`_, available from GDAL version 1.10."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:87
+msgid "As a first step, inspect how the GDAL osm driver sees the .osm file using the ogrinfo command::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:99
+msgid "ogrinfo has detected 5 different geometric layers inside the osm data source. As we are just interested in the buildings, you will just export to a new shapefile the multipolygons layer using the GDAL ogr2ogr command utility::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:103
+msgid "Now you can upload the shapefile to GeoNode using the GeoNode Upload form in the same manner as you did in the previous section."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:106
+msgid "Using GeoGig to load OSM Data into Manage OSM Data"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:108
+msgid "Another alternative for working with OSM data in your GeoNode is to use `GeoGig <http://geogig.org/>`_. GeoGig is a tool that draws inspiration from Git but adapts its core concepts to handle distributed versioning of geospatial data. GeoGig allows you to load OpenStreetMap data into a repository on your server and either export that data into PostGIS for use in your GeoNode, or configure the GeoGig GeoServer extension and expose the repo directly from GeoServer. An article about this process can be found on the `Boundless Geo Blog <http://http://boundlessgeo.com/2014/03/geogit-and-openstreetmap-for-yolanda/>`_. and will be described below. Much of the impetus for GeoGig came from the ROGUE JCTD and the technology has been incorporated into the `GeoSHAPE project <http://http://geoshape.org/>`_."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:110
+msgid "Much more information about how to perform the steps below can be found in the GeoGig documentation page on `Using GeoGig with OpenStreetMap data <http://geogig.org/docs/interaction/osm.html>`_. The instructions that follow are only a brief overview of the process."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:113
+msgid "Getting Started"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:115
+msgid "You will first need to install the GeoGig command line tools. These can be found on the projects `SourceForge page <http://sourceforge.net/projects/geogig/files/latest/download>`_. Follow the instructions contained in the installation file in order to install the CLI tools on your GeoNode server. Once you have the tools installed and added to your path, the *geogig* command should be available::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:129
+msgid "Once the geogig command is available, you will need to create an empty repository to hold your data. Change directories to a suitable location on your servers filesystem and issue the following command substituting *my_repo* for whatever name you choose::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:137
+msgid "Loading OSM Data into your Repository"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:139
+msgid "Now that you have an empty repository to store our data, the next step is to load the current snapshot of OSM data into your repository using the *geogig osm download* command. At a minimum, you will want to use a bounding box filter to limit the downloaded data to the area of interest for your geonode installation. The example below is a bounding box that encompasses the country of Malawi. More information about the geogig osm download command can be found in the `geogig docs <http://geogig.org/manpages/osmdownload.html>`_.::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:164
+msgid "GeoGig stores data in *trees* which are basically equivalent to *layers* in a normal geospatial context. At this point in the process, your repo contains 2 trees for *ways* and *nodes* from OSM. In order to convert these into layers that may be more familiar to your users like *roads*, *buildings* or *medical facilities*, you will need to apply a mapping that filters the complete list of nodes and ways and converts the tags into attributes. There are a great set of sample mappings in the US State Departments CyberGIS project. You can find them `here <https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings>`_. You should clone this repository along side your geogig repository and then apply them as shown below::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:172
+msgid "Now you can inspect the repository using the following commands::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:203
+msgid "Updating the OSM Data in your Repository"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:205
+msgid "As OpenStreetMap is a constantly changing dataset, you will want to periodically update your repo with the latest changes from OSM. GeoGig provides a way to do this using the *geogig osm download* command with the --update flag::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:209
+msgid "If you get an error that looks like the error below, this means that there are no changes in OSM since your last update and it can be ignored."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:211
+msgid "Committing features..."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:213
+msgid "An unhandled error occurred: Nothing to commit after f249200302d5e808fb1b04f329b39b5853ffb7d0. See the log for more details."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:216
+msgid "Serving your GeoGig repository in GeoNode"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:218
+msgid "At this point you have different options on how to serve this repository from your GeoNode. The most basic option is to *export* this data to PostGIS and configure the PostGIS database in GeoServer for use in GeoNode. First create a PostGIS database that will be used to store the data and then use the `geogig pg export command <http://geogig.org/manpages/pgexport.html>`_ to export the layers into this database for serving. Note you will need to replace the connection parameters below to match you r servers setup::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:223
+msgid "You may encounter an error when performing this step. This issue has been documented `here <https://github.com/boundlessgeo/GeoGig/issues/356>`_ and is being investigated by the GeoGig team. You will need to create a primary key metadata table as described `here <http://docs.geoserver.org/stable/en/user/data/database/primarykey.html>`_ and then follow the steps below. If you have questions about this process, please ask for help on the developers mailing list."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:225
+msgid "Define your new primary key for the table we can't export (id is the osm id)::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:229
+msgid "Next you need to alter your osm data table accordingly::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:239
+msgid "Then you can run the *geogig pg export* command with the -o option to overwrite the table::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:243
+msgid "At this point, you need to configure your PostGIS database connection in GeoServer. More information about this process can be found in the `GeoServer documentation <http://docs.geoserver.org/stable/en/user/data/database/postgis.html>`_."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:245
+msgid "Once the layers are configured in GeoServer. You want to issue the updatelayers to configure them in your GeoNode::"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:250
+msgid "Using the GeoGig GeoServer Extension"
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:252
+msgid "The GeoGig project also contains a GeoServer extension that allows a GeoServer administrator to configure and serve the GeoGig store directly. This extension basically lets you treat your GeoGig repository as any other store of spatial data."
+msgstr ""
+
+#: ..\..\006_adv_workshop\osm.rst:254
+msgid "This section is still to be completed."
 msgstr ""
 

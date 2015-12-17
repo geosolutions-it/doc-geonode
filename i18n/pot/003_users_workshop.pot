@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-22 19:05+0200\n"
+"POT-Creation-Date: 2015-12-17 13:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "Accounts and users"
 msgstr ""
 
 #: ..\..\003_users_workshop\001_accounts_and_users\index.rst:6
-#: ..\..\003_users_workshop\index.rst:43
+#: ..\..\003_users_workshop\index.rst:41
 msgid "GeoNode is primarily a *social* platform, and thus a primary component of any GeoNode instance is the user account. This section will guide you through account registration, updating your account information, and viewing other user accounts."
 msgstr ""
 
@@ -276,7 +276,7 @@ msgid "Document Types"
 msgstr ""
 
 #: ..\..\003_users_workshop\002_document_types\index.rst:6
-#: ..\..\003_users_workshop\index.rst:46
+#: ..\..\003_users_workshop\index.rst:44
 msgid "GeoNode welcome page shows a variety of information about the current GeoNode instance. At the top of the page is a toolbar showing quick links to document types: layers, maps and documents."
 msgstr ""
 
@@ -289,7 +289,6 @@ msgid "Data management tools built into GeoNode allow for integrated creation of
 msgstr ""
 
 #: ..\..\003_users_workshop\002_document_types\index.rst:17
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:109
 msgid "Layers"
 msgstr ""
 
@@ -322,7 +321,6 @@ msgid "*Layers list in GeoNode*"
 msgstr ""
 
 #: ..\..\003_users_workshop\002_document_types\index.rst:38
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:215
 msgid "Maps"
 msgstr ""
 
@@ -352,7 +350,6 @@ msgid "This toolbar allows you create a map based on the uploaded layers combine
 msgstr ""
 
 #: ..\..\003_users_workshop\002_document_types\index.rst:57
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:237
 msgid "Documents"
 msgstr ""
 
@@ -1156,7 +1153,7 @@ msgid "Using GeoNode with other applications"
 msgstr ""
 
 #: ..\..\003_users_workshop\007_using_geonode_w_other_applications\index.rst:7
-#: ..\..\003_users_workshop\index.rst:61
+#: ..\..\003_users_workshop\index.rst:59
 msgid "Your GeoNode project is based on core components which are interoperable and as such, it is straightforward for you to integrate with external applications and services. This section will walk you through how to connect to your GeoNode instance from other applications and how to integrate other services into your GeoNode project. When complete, you should have a good idea about the possibilities for integration, and have basic knowledge about how to accomplish it. You may find it necessary to dive deeper into how to do more complex integration in order to accomplish your goals, but you should feel comfortable with the basics, and feel confident reaching out to the wider GeoNode community for help."
 msgstr ""
 
@@ -1252,821 +1249,6 @@ msgstr ""
 msgid "You now know how to add layers from your GeoNode instance to a QGIS project. You can explore all of the other options available to you in QGIS by consulting its documentation."
 msgstr ""
 
-#: ..\..\003_users_workshop\008_managing_geonode_installation\index.rst:4
-msgid "Managing a GeoNode Installation"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:5
-msgid "Security and Permissions"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:7
-#: ..\..\003_users_workshop\index.rst:64
-msgid "This tutorial will guide you through the steps that can be done in order to restrict the access on your data uploaded to geonode."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:10
-#: ..\..\003_users_workshop\index.rst:66
-msgid "First of all it will be shown how a user can be created and what permissions he can have. Secondly we will take a closer look on to layers, maps and documents and the different opportunities you have in order to ban certain users from viewing or editing your data."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:15
-msgid "Users"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:17
-msgid "Your first step will be to create a user. There are three options to do so, depending on which kind of user you want to create you may choose a different option. We will start with creating a *superuser*, because this user is the most important. A superuser has all the permissions without explicitly assigning them."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:21
-msgid "The easiest way to create a superuser (in linux) is to open your terminal and type::"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:25
-msgid "You will be asked a username (in this tutorial we will call the superuser you now create *your_superuser*), an email address and a password."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:27
-msgid "Now you've created a superuser you should become familiar with the *Django Admin Interface*. As a superuser you are having access to this interface, where you can manage users, layers, permission and more. To learn more detailed about this interface check this LINK. For now it will be enough to just follow the steps. To attend the *Django Admin Interface*, go to your geonode website and *sign in* with *your_superuser*. Once you've logged in, the name of your user will appear on the top right. Click on it and the following menu will show up:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:34
-msgid "Clicking on *Admin* causes the interface to show up."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:38
-msgid "Go to *Auth* -> *Users* and you will see all the users that exist at the moment. In your case it will only be *your_superuser*. Click on it, and you will see a section on *Personal Info*, one on *Permissions* and one on *Important dates*. For the moment, the section on *Permissions* is the most important."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:42
-msgid "As you can see, there are three boxes that can be checked and unchecked. Because you've created a superuser, all three boxes are checked as default. If only the box *active* would have been checked, the user would not be a superuser and would not be able to access the *Django Admin Interface* (which is only available for users with the *staff* status). Therefore keep the following two things in mind:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:47
-msgid "a superuser is able to access the *Django Admin Interface* and he has all permissions on the data uploaded to GeoNode."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:48
-msgid "an ordinary user (created from the GeoNode interface) only has *active* permissions by default. The user will not have the ability to access the *Django Admin Interface* and certain permissions have to be added for him."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:50
-msgid "Until now we've only created superusers. So how do you create an ordinary user? You have two options:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:52
-msgid "Django Admin Interface"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:54
-msgid "First we will create a user via the *Django Admin Interface* because we've still got it open. Therefore go back to *Auth* -> *Users* and             you should find a button on the right that says *Add user*."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:58
-msgid "Click on it and a form to fill out will appear. Name the new user test_user, choose a password and click *save* at the right bottom of the  site."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:62
-msgid "Now you should be directed to the site where you could change the permissions on the user *test_user*. As default only *active* is checked. If you want this user also to be able to attend this admin interface you could also check *staff status*. But for now we leave the settings as they are!"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:68
-msgid "To test whether the new user was successfully created, go back to the GeoNode web page and try to sign in."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:70
-msgid "GeoNode website"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:73
-msgid "To create an ordinary user you could also just use the GeoNode website. If you installed GeoNode using a release, you should"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:73
-msgid "see a *Register* button on the top, beside the *Sign in* button (you might have to log out before)."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:77
-msgid "Hit the button and again a form will appear for you to fill out. This user will be named *geonode_user*"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:82
-msgid "By hitting *Sign up* the user will be signed up, as default only with the status *active*."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:84
-msgid "As mentioned before, this status can be changed as well. To do so, sign in with *your_superuser* again and attend the admin interface. Go again to *Auth* -> *Users*, where now three users should appear:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:90
-msgid "We now want to change the permission of the *geonode_user* so that he will be able to attend the admin interface as well. Click on to *geonode_user* and you will automatically be moved to the site where you can change the permissions. Check the box *staff status* and hit *save* to store the changes."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:93
-msgid "To sum it up, we have now created three users with different kind of permissions."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:95
-msgid "**your_superuser**: This user is allowed to attend the admin interface and has all available permissions on layers, maps etc."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:96
-msgid "**geonode_user**: This user is permitted to attend the admin interface, but permissions on layers, maps etc. have to be assigned."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:97
-msgid "**test_user**: This user is not able to attend the admin interface, permissions on layers, maps etc. have also to be assigned."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:102
-msgid "You should know have an overview over the different kinds of users and how to create and edit them. You've also learned about the permissions a certain user has and how to change them using the *Django Admin Interface*."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:104
-msgid "If you've installed GeoNode in developing mode, the *Register* button won't be seen from the beginning. To add this button to the website, you have to change the `REGISTRATION_OPEN = False` in the settings.py to `REGISTRATION_OPEN = True`. Then reload GeoNode and you should also be able to see the *Register* button."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:111
-msgid "Now that we've already created some users, we will take a closer look on the security of layers, how you can protect your data not to be viewed or edited by unwanted users."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:113
-msgid "As already mentioned before it is important to know that a superuser does have unrestricted access to all your uploaded data.  That means you cannot ban a superuser from viewing, downloading or editing a layer!"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:117
-msgid "The permissions on a certain layer can already be set when uploading your files. When the upload form appears (*Layers* -> *Upload Layer*) you will see the permission section on the right side:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:121
-msgid "As it can be seen here, the access on your layer is split up into three groups:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:123
-msgid "view and download data"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:124
-msgid "edit data"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:125
-msgid "manage and edit data"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:127
-msgid "The difference between *manage and edit layer* and *edit layer* is that a user assigned to *edit layer* is not able to change the permissions on the layer whereas a user assigned to *manage and edit layer* can change the permissions. You can now choose whether you want your layer to be viewed and downloaded by"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:131
-msgid "anyone"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:132
-msgid "any registered user"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:133
-msgid "a certain user (or group)"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:135
-msgid "We will now upload our **test layer** like shown HERE. If you want your layer only be viewed by certain users or a group, you have to choose *Only users who can edit* in the part *Who can view and download this data*. In the section *Who can edit this data* you write down the names of the users you want to have admission on this data. For this first layer we will choose the settings like shown in the following image:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:145
-msgid "If you now log out, your layer can still be seen, but the unregistered users won't be able to edit your layer. Now sign in as *geonode_user* and click on the **test layer**. Above the layer you can see this:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:150
-msgid "The *geonode_user* is able to edit the **test_layer**. But before going deeper into this, we have to first take a look on another case. As an administrator you might also upload your layers to geoserver and then make them available on GeoNode using *updatelayers*. Or you even add the layers via the terminal using *importlayers* (LINK TUTORIAL). To set the permissions on this layer, click on the **test layer** (you've uploaded via *updatelayers*) and you will see the same menu as shown in the image above. Click *Edit layer* and the menu will appear."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:159
-msgid "Choose *edit permissions* and a window with the permission settings will appear. This window can also be opened by scrolling down the website. On the right-hand side of the page you should be able to see a button like this."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:164
-msgid "Click on it and you will see the same window as before."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:166
-msgid "Now set the permissions of this layer using the following settings:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:175
-msgid "When you assign a user to be able to edit your data, this user is allowed to execute all of the following actions:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:177
-msgid "edit metadata"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:178
-msgid "edit styles"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:179
-msgid "manage styles"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:180
-msgid "replace layer"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:181
-msgid "remove layer"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:183
-msgid "So be aware that each user assigned to edit this layer can even remove it! In our case, only the user *test_user* and *your_superuser* do have the rights to do so. *Geonode_user* is neither able to view nor to download or edit this layer."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:187
-msgid "Now you are logged in as the user *test_user*. Below the **test_layer** you can see the following:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:192
-msgid "By clicking *Edit Layer* and *Edit Metadata* on top of the layer, you can change this information. The *test_user* is able to change all the metadata of this layer. We now want to change to *point of contact*, therefore scroll down until you see this:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:197
-msgid "Change the *point of contact* from *_who_ever_created_this* to *test_user*. *Save* your changes and you will now be able to see the following:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:204
-msgid "If you allow a user to view and download a layer, this user will also be able to edit the styles, even if he is not assigned to edit the layer! Keep this in mind!"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:208
-msgid "To learn how you can edit metadata or change the styles go to this section LINK."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:217
-msgid "The permission on maps are basically the same as on layers, just that there are fewer options on how to edit the map. Let's create a map (or already TUTORIAL?). Click on **test_map** and scroll down till you see this:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:221
-msgid "Here you can set the same permissions as known from the layer permissions! Set the permissions of this map as seen here:"
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:228
-msgid "Save your changes and then log out and log in as *test_user*. You should now be able to view the *test_map* and click on to *Edit map*."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:234
-msgid "As you may recognize, this user is not able to change the permissions on this map. If you log in as the user *geonode_user* you should be able to see the button *change map permissions* when you scroll down the page."
-msgstr ""
-
-#: ..\..\003_users_workshop\008_managing_geonode_installation\permission_and_security.rst:239
-msgid "All the same is also valid for your uploaded documents."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:4
-msgid "Using GDAL and OGR to convert your Data for use in GeoNode"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:6
-msgid "GeoNode supports uploading data in shapefiles, GeoTiff, csv and kml formats (for the last two formats only if you are using the geonode.importer backend in the UPLOAD variable in settings.py). If your data is in other formats, you will need to convert it into one of these formats for use in GeoNode. This section will walk you through the steps necessary to convert your data into formats suitable for uploading into GeoNode."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:8
-msgid "You will need to make sure that you have the gdal library installed on your system. On Ubuntu you can install this package with the following command::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:13
-msgid "OGR (Vector Data)"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:15
-msgid "OGR is used to manipulate vector data. In this example, we will use MapInfo .tab files and convert them to shapefiles with the ogr2ogr command. We will use sample MapInfo files from the website linked below."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:17
-msgid "http://services.land.vic.gov.au/landchannel/content/help?name=sampledata"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:19
-msgid "You can download the Admin;(Postcode) layer by issuing the following command::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:23
-msgid "You will need to unzip this dataset by issuing the following command::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:27
-msgid "This will leave you with the following files in the directory where you executed the above commands::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:43
-msgid "First, lets inspect this file set using the following command::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:47
-msgid "The output will look like the following::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:82
-msgid "This gives you information about the number of features, the extent, the projection and the attributes of this layer."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:84
-msgid "Next, lets go ahead and convert this layer into a shapefile by issuing the following command::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:88
-msgid "Note that we have also reprojected the layer to the WGS84 spatial reference system with the -t_srs ogr2ogr option."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:90
-msgid "The output of this command will look like the following::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:97
-msgid "This output indicates that some of the field names were truncated to fit into the constraint that attributes in shapefiles are only 10 characters long."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:99
-msgid "You will now have a set of files that make up the postcode_polygon.shp shapefile set. We can inspect them by issuing the following command::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:103
-msgid "The output will look similar to the output we saw above when we inspected the MapInfo file we converted from::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:127
-msgid "These files can now be loaded into your GeoNode instance via the normal uploader."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:129
-msgid "Visit the upload page in your GeoNode, drag and drop the files that composes the shapefile that you have generated using the GDAL ogr2ogr command (postcode_polygon.dbf, postcode_polygon.prj, postcode_polygon.shp, postcode_polygon.shx). Give the permissions as needed and then click the \"Upload files\" button."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:133
-msgid "As soon as the import process completes, you will have the possibility to go straight to the layer info page (\"Layer Info\" button), or to edit the metadata for that layer (\"Edit Metadata\" button), or to manage the styles for that layer (\"Manage Styles\")."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:138
-msgid "GDAL (Raster Data)"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:140
-msgid "Now that we have seen how to convert vector layers into shapefiles using ogr2ogr, we will walk through the steps necessary to perform the same operation with Raster layers. For this example, we will work with Arc/Info Binary and ASCII Grid data and convert it into GeoTiff format for use in GeoNode."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:142
-msgid "First, you need to download the sample data to work with it. You can do this by executing the following command::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:146
-msgid "You will need to uncompress this file by executing this command::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:150
-msgid "You will be left with the following files on your filesystem::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:162
-msgid "The file batemans_elevation.asc is an Arc/Info ASCII Grid file and the files in the batemans_ele directory are an Arc/Info Binary Grid file."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:164
-msgid "You can use the gdalinfo command to inspect both of these files by executing the following command::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:168
-msgid "The output should look like the following::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:185
-msgid "You can then inspect the batemans_ele files by executing the following command::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:189
-msgid "And this should be the corresponding output::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:233
-msgid "You will notice that the batemans_elevation.asc file does *not* contain projection information while the batemans_ele file does. Because of this, lets use the batemans_ele files for this exercise and convert them to a GeoTiff for use in GeoNode. We will also reproject this file into WGS84 in the process. This can be accomplished with the following command."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:235
-msgid "$ gdalwarp -t_srs EPSG:4326 batemans_ele batemans_ele.tif"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:237
-msgid "The output will show you the progress of the conversion and when it is complete, you will be left with a batemans_ele.tif file that you can upload to your GeoNode."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:239
-msgid "You can inspect this file with the gdalinfo command::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:243
-msgid "Which will produce the following output::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:271
-msgid "You can then follow the same steps we used above to upload the GeoTiff file we created into the GeoNode, and you will see your layer displayed in the Layer Info page."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\gdalogr.rst:275
-msgid "Now that you have seen how to convert layers with both OGR and GDAL, you can use these techniques to work with your own data and get it prepared for inclusion in your own GeoNode."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:4
-msgid "GeoServer Data Configuration"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:6
-msgid "While it is possible to import layers directly from your servers filesystem into your GeoNode, you may have an existing GeoServer that already has data in it, or you may want to configure data from a GeoServer which is not directly supported by uploading data."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:8
-msgid "GeoServer supports a wide range of data formats and connections to database, and while many of them are not supported as GeoNode upload formats, if they can be configured in GeoServer, you can add them to your GeoNode by following the procedure described below."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:10
-msgid "GeoServer supports 3 types of data: Raster, Vector and Databases. For a list of the supported formats for each type of data, consult the following pages:"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:12
-msgid "http://docs.geoserver.org/latest/en/user/data/vector/index.html#data-vector"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:13
-msgid "http://docs.geoserver.org/latest/en/user/data/raster/index.html"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:14
-msgid "http://docs.geoserver.org/latest/en/user/data/database/index.html"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:16
-msgid "Some of these raster or vector formats or database types require that you install specific plugins in your GeoServer in order to use the. Please consult the GeoServer documentation for more information."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:18
-msgid "Lets walk through an example of configuring a new PostGIS database in GeoServer and then configuring those layers in your GeoNode."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:20
-msgid "First visit the GeoServer administration interface on your server. This is usually on port 8080 and is available at http://localhost:8080/geoserver/web/"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:22
-msgid "You should login with the superuser credentials you setup when you first configured your GeoNode instance."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:24
-msgid "Once you are logged in to the GeoServer Admin interface, you should see the following."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:28
-msgid "The number of stores, layers and workspaces may be different depending on what you already have configured in your GeoServer."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:30
-msgid "Next you want to select the \"Stores\" option in the left hand menu, and then the \"Add new Store\" option. The following screen will be displayed."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:34
-msgid "In this case, we want to select the PostGIS store type to create a connection to our existing database. On the next screen you will need to enter the parameters to connect to your PostGIS database (alter as necessary for your own database)."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:38
-msgid "If you are unsure about any of the settings, leave them as the default."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:40
-msgid "The next screen lets you configure the layers in your database. This will of course be different depending on the layers in your database."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:44
-msgid "Select the \"Publish\" button for one of the layers and the next screen will be displayed where you can enter metadata for this layer. Since we will be managing this metadata in GeoNode, we can leave these alone for now."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:48
-msgid "The things that *must* be specified are the Declared SRS and you must select the \"Compute from Data\" and \"Compute from native bounds\" links after the SRS is specified."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:52
-msgid "Click save and this layer will now be configured for use in your GeoServer."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:56
-msgid "The next step is to configure these layers in GeoNode. The updatelayers management command is used for this purpose. As with importlayers, its useful to look at the command line options for this command by passing the --help option::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:60
-msgid "This help option displays the following::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:86
-msgid "For this sample, we can use the default options. So enter the following command to configure the layers from our GeoServer into our GeoNode::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:90
-msgid "The output will look something like the following::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:112
-msgid "This example picked up 2 additional layers that were already in our GeoServer, but were not already in our GeoNode."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:114
-msgid "For layers that already exist in your GeoNode, they will be updated and the configuration synchronized between GeoServer and GeoNode."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\geoserver.rst:116
-msgid "You can now view and use these layers in your GeoNode."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:4
-msgid "Using importlayers to import Data into GeoNode"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:6
-msgid "The geonode.layers app includes 2 management commands that you can use to load or configure data in your GeoNode. Both of these are invoked by using the manage.py script. This section will walk you through how to use the importlayers management command and the subsequent section will lead you through the process of using updatelayers."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:9
-msgid "The first thing to do is to use the --help option to the importlayers command to investigate the options to this management command. You can display this help by executing the following command::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:13
-msgid "This will produce output that looks like the following::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:43
-msgid "While the description of most of the options should be self explanatory, its worth reviewing some of the key options in a bit more detail."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:46
-msgid "The -i option will force the command to stop when it first encounters an error. Without this option specified, the process will skip over errors that have layers and continue loading the other layers."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:47
-msgid "The -o option specifies that layers with the same name as the base name will be loaded and overwrite the existing layer."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:48
-msgid "The -u option specifies which will be the user that owns the imported layers. The same user will be the point of contact and the metadata author as well for that layer"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:49
-msgid "The -k option is used to add keywords for all of the layers imported."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:51
-msgid "The import layers management command is invoked by specifying options as described above and specifying the path to a single layer file or to a directory that contains multiple files. For purposes of this exercise, lets use the default set of testing layers that ship with geonode. You can replace this path with the directory to your own shapefiles::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:55
-msgid "This command will produce the following output to your terminal::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:80
-msgid "If you encounter errors while running this command, you can use the -v option to increase the verbosity of the output so you can debug the problem. The verbosity level can be set from 0-3 with 0 being the default. An example of what the output looks like when an error is encountered and the verbosity is set to 3 is shown below::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:121
-msgid "This last section of output will be repeated for all layers, and only the first one is show above."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:123
-msgid "This error indicates that GeoNode was unable to connect to GeoServer to load the layers. To solve this, you should make sure GeoServer is running and re-run the command."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:125
-msgid "If you encounter errors with this command that you cannot solve, you should bring them up on the geonode users mailing list."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:127
-msgid "You should now have the knowledge necessary to import layers into your GeoNode project from a directory on the servers filesystem and can use this to load many layers into your GeoNode at once."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\importlayers.rst:129
-msgid "If you do not use the -u command option, the ownership of the imported layers will be assigned to the primary superuser in your system. You can use GeoNodes Django Admin interface to modify this after the fact if you want them to be owned by another user."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\index.rst:4
-msgid "Loading Data into a GeoNode"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\index.rst:6
-#: ..\..\003_users_workshop\index.rst:69
-msgid "This module will walk you through the various options available to load data into your GeoNode from GeoServer, on the command-line or programatically. You can choose from among these techniques depending on what kind of data you have and how you have your geonode setup."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:4
-msgid "Loading OSM Data into GeoNode"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:6
-msgid "In this section, we will walk through the steps necessary to load OSM data into your GeoNode project. As discussed in previous sections, your GeoNode already uses OSM tiles from MapQuest and the main OSM servers as some of the available base layers. This session is specifically about extracting actual data from OSM and converting it for use in your project and potentially for Geoprocessing tasks."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:8
-msgid "The first step in this process is to get the data from OSM. We will be using the OSM Overpass API since it lets us do more complex queries than the OSM API itself. You should refer to the OSM Overpass API documentation to learn about all of its features. It is an extremely powerful API that lets you extract data from OSM using a very sophisticated API."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:10
-msgid "http://wiki.openstreetmap.org/wiki/Overpass_API"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:11
-msgid "http://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:13
-msgid "In this example, we will be extracting building footprint data around Port au Prince in Haiti. To do this we will use an interactive tool that makes it easy construct a Query against the Overpass API. Point your browser at http://overpass-turbo.eu/ and use the search tools to zoom into Port Au Prince and Cite Soleil specifically."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:15
-msgid "You will need to cut and paste the query specified below to get all of the appropriate data under the bbox::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:31
-msgid "This should look like the following."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:35
-msgid "When you have the bbox and query set correctly, click the \"Export\" button on the menu to bring up the export menu, and then click the API interpreter link to download the OSM data base on the query you have specified."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:39
-msgid "This will download a file named 'export.osm' on your file system. You will probably want to rename it something else more specific. You can do that by issuing the following command in the directory where it was downloaded::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:43
-msgid "You can also rename the file in your Operating Systems File management tool (Windows Explorer, Finder etc)."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:46
-msgid "Exporting OSM data to shapefile using QGIS"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:48
-msgid "Now that we have osm data on our filesystem, we will need to convert it into a format suitable for uploading into your GeoNode. There are many ways to accomplish this, but for purposes of this example, we will use an OSM QGIS plugin that makes if fairly easy. Please consult the wiki page that explains how to install this plugin and make sure it is installed in your QGIS instance. Once its installed, you can use the Web Menu to load your file."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:52
-msgid "This will bring up a dialog box that you can use to find and convert the osm file we downloaded."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:56
-msgid "When the process has completed,  you will see your layers in the Layer Tree in QGIS."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:60
-msgid "Since we are only interested in the polygons, we can turn the other 2 layers off in the Layer Tree."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:64
-msgid "The next step is to use QGIS to convert this layer into a Shapefile so we can upload it into GeoNode. To do this, select the layer in the Layer tree, right click and then select the Save As option."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:68
-msgid "This will bring up the Save Vector Layer as Dialog."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:72
-msgid "Specify where on disk you want your file saved, and hit Save then OK."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:76
-msgid "You now have a shapefile of the data you extracted from OSM that you can use to load into GeoNode. Use the GeoNode Layer Upload form to load the Shapefile parts into your GeoNode, and optionally edit the metadata and then you can view your layer in the Layer Info page in your geonode."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:80
-msgid "You may want to switch to an imagery layer in order to more easily see the buildings on the OSM background."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:83
-msgid "Exporting OSM data to shapefile using GDAL"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:85
-msgid "An alternative way to export the .osm file to a shapefile is to use `ogr2ogr <http://www.gdal.org/ogr2ogr.html>`_ combined with the `GDAL osm driver <http://www.gdal.org/ogr/drv_osm.html>`_, available from GDAL version 1.10."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:87
-msgid "As a first step, inspect how the GDAL osm driver sees the .osm file using the ogrinfo command::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:99
-msgid "ogrinfo has detected 5 different geometric layers inside the osm data source. As we are just interested in the buildings, you will just export to a new shapefile the multipolygons layer using the GDAL ogr2ogr command utility::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:103
-msgid "Now you can upload the shapefile to GeoNode using the GeoNode Upload form in the same manner as you did in the previous section."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:106
-msgid "Using GeoGig to load OSM Data into Manage OSM Data"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:108
-msgid "Another alternative for working with OSM data in your GeoNode is to use `GeoGig <http://geogig.org/>`_. GeoGig is a tool that draws inspiration from Git but adapts its core concepts to handle distributed versioning of geospatial data. GeoGig allows you to load OpenStreetMap data into a repository on your server and either export that data into PostGIS for use in your GeoNode, or configure the GeoGig GeoServer extension and expose the repo directly from GeoServer. An article about this process can be found on the `Boundless Geo Blog <http://http://boundlessgeo.com/2014/03/geogit-and-openstreetmap-for-yolanda/>`_. and will be described below. Much of the impetus for GeoGig came from the ROGUE JCTD and the technology has been incorporated into the `GeoSHAPE project <http://http://geoshape.org/>`_."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:110
-msgid "Much more information about how to perform the steps below can be found in the GeoGig documentation page on `Using GeoGig with OpenStreetMap data <http://geogig.org/docs/interaction/osm.html>`_. The instructions that follow are only a brief overview of the process."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:113
-msgid "Getting Started"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:115
-msgid "You will first need to install the GeoGig command line tools. These can be found on the projects `SourceForge page <http://sourceforge.net/projects/geogig/files/latest/download>`_. Follow the instructions contained in the installation file in order to install the CLI tools on your GeoNode server. Once you have the tools installed and added to your path, the *geogig* command should be available::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:129
-msgid "Once the geogig command is available, you will need to create an empty repository to hold your data. Change directories to a suitable location on your servers filesystem and issue the following command substituting *my_repo* for whatever name you choose::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:137
-msgid "Loading OSM Data into your Repository"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:139
-msgid "Now that you have an empty repository to store our data, the next step is to load the current snapshot of OSM data into your repository using the *geogig osm download* command. At a minimum, you will want to use a bounding box filter to limit the downloaded data to the area of interest for your geonode installation. The example below is a bounding box that encompasses the country of Malawi. More information about the geogig osm download command can be found in the `geogig docs <http://geogig.org/manpages/osmdownload.html>`_.::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:164
-msgid "GeoGig stores data in *trees* which are basically equivalent to *layers* in a normal geospatial context. At this point in the process, your repo contains 2 trees for *ways* and *nodes* from OSM. In order to convert these into layers that may be more familiar to your users like *roads*, *buildings* or *medical facilities*, you will need to apply a mapping that filters the complete list of nodes and ways and converts the tags into attributes. There are a great set of sample mappings in the US State Departments CyberGIS project. You can find them `here <https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings>`_. You should clone this repository along side your geogig repository and then apply them as shown below::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:172
-msgid "Now you can inspect the repository using the following commands::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:203
-msgid "Updating the OSM Data in your Repository"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:205
-msgid "As OpenStreetMap is a constantly changing dataset, you will want to periodically update your repo with the latest changes from OSM. GeoGig provides a way to do this using the *geogig osm download* command with the --update flag::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:209
-msgid "If you get an error that looks like the error below, this means that there are no changes in OSM since your last update and it can be ignored."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:211
-msgid "Committing features..."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:213
-msgid "An unhandled error occurred: Nothing to commit after f249200302d5e808fb1b04f329b39b5853ffb7d0. See the log for more details."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:216
-msgid "Serving your GeoGig repository in GeoNode"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:218
-msgid "At this point you have different options on how to serve this repository from your GeoNode. The most basic option is to *export* this data to PostGIS and configure the PostGIS database in GeoServer for use in GeoNode. First create a PostGIS database that will be used to store the data and then use the `geogig pg export command <http://geogig.org/manpages/pgexport.html>`_ to export the layers into this database for serving. Note you will need to replace the connection parameters below to match you r servers setup::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:223
-msgid "You may encounter an error when performing this step. This issue has been documented `here <https://github.com/boundlessgeo/GeoGig/issues/356>`_ and is being investigated by the GeoGig team. You will need to create a primary key metadata table as described `here <http://docs.geoserver.org/stable/en/user/data/database/primarykey.html>`_ and then follow the steps below. If you have questions about this process, please ask for help on the developers mailing list."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:225
-msgid "Define your new primary key for the table we can't export (id is the osm id)::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:229
-msgid "Next you need to alter your osm data table accordingly::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:239
-msgid "Then you can run the *geogig pg export* command with the -o option to overwrite the table::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:243
-msgid "At this point, you need to configure your PostGIS database connection in GeoServer. More information about this process can be found in the `GeoServer documentation <http://docs.geoserver.org/stable/en/user/data/database/postgis.html>`_."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:245
-msgid "Once the layers are configured in GeoServer. You want to issue the updatelayers to configure them in your GeoNode::"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:250
-msgid "Using the GeoGig GeoServer Extension"
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:252
-msgid "The GeoGig project also contains a GeoServer extension that allows a GeoServer administrator to configure and serve the GeoGig store directly. This extension basically lets you treat your GeoGig repository as any other store of spatial data."
-msgstr ""
-
-#: ..\..\003_users_workshop\009_loading_data_into_geonode\osm.rst:254
-msgid "This section is still to be completed."
-msgstr ""
-
 #: ..\..\003_users_workshop\index.rst:5
 msgid "Users Workshop"
 msgstr ""
@@ -2131,55 +1313,47 @@ msgstr ""
 msgid "What is a map and a legend."
 msgstr ""
 
-#: ..\..\003_users_workshop\index.rst:43
+#: ..\..\003_users_workshop\index.rst:41
 msgid ":ref:`accounts_and_users`"
 msgstr ""
 
-#: ..\..\003_users_workshop\index.rst:46
+#: ..\..\003_users_workshop\index.rst:44
 msgid ":ref:`document_types`"
 msgstr ""
 
-#: ..\..\003_users_workshop\index.rst:49
+#: ..\..\003_users_workshop\index.rst:47
 msgid ":ref:`searching_docs`"
 msgstr ""
 
-#: ..\..\003_users_workshop\index.rst:49
+#: ..\..\003_users_workshop\index.rst:47
 msgid "GeoNode advanced Search tool."
 msgstr ""
 
-#: ..\..\003_users_workshop\index.rst:52
+#: ..\..\003_users_workshop\index.rst:50
 msgid ":ref:`layers`"
 msgstr ""
 
-#: ..\..\003_users_workshop\index.rst:52
+#: ..\..\003_users_workshop\index.rst:50
 msgid "Create, delete, manage and share Layers on GeoNode."
 msgstr ""
 
-#: ..\..\003_users_workshop\index.rst:55
+#: ..\..\003_users_workshop\index.rst:53
 msgid ":ref:`styling_layers`"
 msgstr ""
 
-#: ..\..\003_users_workshop\index.rst:55
+#: ..\..\003_users_workshop\index.rst:53
 msgid "Beautify the Layer using the GeoNode Style editor."
 msgstr ""
 
-#: ..\..\003_users_workshop\index.rst:58
+#: ..\..\003_users_workshop\index.rst:56
 msgid ":ref:`maps`"
 msgstr ""
 
-#: ..\..\003_users_workshop\index.rst:58
+#: ..\..\003_users_workshop\index.rst:56
 msgid "Create, delete, manage and share Maps on GeoNode."
 msgstr ""
 
-#: ..\..\003_users_workshop\index.rst:61
+#: ..\..\003_users_workshop\index.rst:58
 msgid ":ref:`integration`"
-msgstr ""
-
-#: ..\..\003_users_workshop\index.rst:66
-msgid ":ref:`manage`"
-msgstr ""
-
-#: ..\..\003_users_workshop\index.rst:68
-msgid ":ref:`data`"
 msgstr ""
 

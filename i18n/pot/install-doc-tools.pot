@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-22 19:05+0200\n"
+"POT-Creation-Date: 2015-12-17 13:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "Python installation is pretty straight forward, refer to the `official do
 msgstr ""
 
 #: ..\..\install-doc-tools.rst:27
-msgid "Open the terminal on your machine and type  `python`, the output should resemble the following: ::"
+msgid "Open the terminal on your machine and type  `python`, the output should resemble the following:::"
 msgstr ""
 
 #: ..\..\install-doc-tools.rst:35
@@ -73,7 +73,7 @@ msgid "If you are on Windows follow `theese instructions <https://docs.python.or
 msgstr ""
 
 #: ..\..\install-doc-tools.rst:41
-msgid "If you are on Linux locate the Python binary and add it to your PATH, edit your `~/.bashrc` and add the following at the end of the file: ::"
+msgid "If you are on Linux locate the Python binary and add it to your PATH, edit your `~/.bashrc` and add the following at the end of the file:::"
 msgstr ""
 
 #: ..\..\install-doc-tools.rst:46
@@ -81,7 +81,7 @@ msgid "restart your terminal to make the change effective"
 msgstr ""
 
 #: ..\..\install-doc-tools.rst:48
-msgid "Now check that you can invoke pip typing `pip --version`. The output should resemble the following: ::"
+msgid "Now check that you can invoke pip typing `pip --version`. The output should resemble the following:::"
 msgstr ""
 
 #: ..\..\install-doc-tools.rst:52
@@ -93,98 +93,98 @@ msgid "Install Sphinx"
 msgstr ""
 
 #: ..\..\install-doc-tools.rst:57
-msgid "To install Sphinx on your machine, type the following in your terminal: ::"
+msgid "To install Sphinx on your machine, type the following in your terminal:::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:63
+#: ..\..\install-doc-tools.rst:61
 msgid "If you are on Linux you may need to prefix the command with `sudo`"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:65
-msgid "Now test your installation: ::"
+#: ..\..\install-doc-tools.rst:63
+msgid "Now test your installation:::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:70
+#: ..\..\install-doc-tools.rst:68
 msgid "For a more detailed installation guide refer to `this document <http://docs.geoserver.org/latest/en/docguide/install.html>`_"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:73
+#: ..\..\install-doc-tools.rst:71
 msgid "Check out documentation source"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:75
+#: ..\..\install-doc-tools.rst:73
 msgid "Since write acecss to the main documentation repository is restricted you may want to work on your personal `fork <https://help.github.com/articles/fork-a-repo/>`_. Login on Github with your account, navigate to the `documentation reposiroty <https://github.com/geosolutions-it/doc-geonode>`_ and click on `fork`. You will be redirected to your own fork of the documentation."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:80
+#: ..\..\install-doc-tools.rst:78
 msgid "Make sure you already `configured your Git username and email address <https://help.github.com/articles/set-up-git/#setting-up-git>`_"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:82
-msgid "Now clone your repository locally: ::"
+#: ..\..\install-doc-tools.rst:80
+msgid "Now clone your repository locally:::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:86
+#: ..\..\install-doc-tools.rst:84
 msgid "where `your-user` is your username on GitHub."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:88
+#: ..\..\install-doc-tools.rst:86
 msgid "Now make the changes you want to the documentation."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:91
+#: ..\..\install-doc-tools.rst:89
 msgid "Build the documentation"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:93
-msgid "To build the documentation locally on your machine, open the terminal and move to the project root directory, then run the following: ::"
+#: ..\..\install-doc-tools.rst:91
+msgid "To build the documentation locally on your machine, open the terminal and move to the project root directory, then run the following:::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:98
+#: ..\..\install-doc-tools.rst:96
 msgid "The html version of the documentation will be build under the `build` subfolder. Use your favorite web browser to open the index file called `index.html`."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:101
+#: ..\..\install-doc-tools.rst:99
 msgid "When you make changes to the documentation re-build it periodically to make sure the end result matches what you expect."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:105
+#: ..\..\install-doc-tools.rst:103
 msgid "Edit the documentation"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:107
+#: ..\..\install-doc-tools.rst:105
 msgid "The documentation is kept in reStructuredText format. For a quick reference refer to `this <http://docs.geoserver.org/latest/en/docguide/sphinx.html>`_ document. For a more in-depth document refer to the `official documentation <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:114
+#: ..\..\install-doc-tools.rst:112
 msgid "Submit your changes to the main repository"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:116
+#: ..\..\install-doc-tools.rst:114
 msgid "You are done making changes to the documentation and you are ready to submit your changes. If you are new to Git make sure you grasped the basics of it before moving on. There are many sources of information online, you can Google for it or read `this <https://git-scm.com/book/en/v2/Getting-Started-Git-Basics>`_ introduction."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:122
+#: ..\..\install-doc-tools.rst:120
 msgid "Run `git status` and `git diff` to review the changes you made and re-build the documentation locally as explained above."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:125
-msgid "Add the files with the changes you want to submit to the staging area ::"
+#: ..\..\install-doc-tools.rst:123
+msgid "Add the files with the changes you want to submit to the staging area::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:129
-msgid "And commit the changes ::"
+#: ..\..\install-doc-tools.rst:127
+msgid "And commit the changes::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:133
-msgid "Then push them to your personal GitHub repository ::"
+#: ..\..\install-doc-tools.rst:131
+msgid "Then push them to your personal GitHub repository::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:137
+#: ..\..\install-doc-tools.rst:135
 msgid "Open your favorite browser and navigate to your GitHub repository. You will be able to see your latest commit along with a message stating that your branch is ahead of the main repository. Click on the 'pull request' button to make a pull request against the official documentation repository."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:142
+#: ..\..\install-doc-tools.rst:140
 msgid "Create a pull request with a brief description of what you did. The pull request will be reviewed and eventually merged into the official documentation repository."
 msgstr ""
 
