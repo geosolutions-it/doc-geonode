@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-17 15:16+0100\n"
-"PO-Revision-Date: 2015-12-17 15:23+0100\n"
+"PO-Revision-Date: 2015-12-17 15:30+0100\n"
 "Last-Translator: Daniele Romagnoli <daniele.romagnoli@geo-solutions.it>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-"
 "documentation/language/fr/)\n"
@@ -756,13 +756,12 @@ msgstr ""
 "configuration précédente de l'état si quelque chose se passe mal."
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:98
-#, fuzzy
 msgid ""
 "Then regenerate the static **JavaScript** and **CSS** files from **/path/to/"
 "geonode_custom/** and restart apache"
 msgstr ""
-"Alors régénérer la statique ** JavaScript ** et ** CSS ** fichiers à partir "
-"de ** / chemin/vers/geonode_custom / ** et redémarrer apache"
+"Alors régénérer la statique **JavaScript** et **CSS** fichiers à partir de "
+"**/path/to/geonode_custom/** et redémarrer apache"
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:111
 msgid "Customize the Look & Feel"
@@ -2345,7 +2344,6 @@ msgid "GeoServer Data Configuration"
 msgstr "Configuration des données de GeoServer"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:6
-#, fuzzy
 msgid ""
 "While it is possible to import layers directly from your servers filesystem "
 "into your GeoNode, you may have an existing GeoServer that already has data "
@@ -2867,7 +2865,6 @@ msgid "Clicking on *Admin* causes the interface to show up."
 msgstr "En cliquant sur * Admin * empêche l'interface s'affiche."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:38
-#, fuzzy
 msgid ""
 "Go to *Auth* -> *Users* and you will see all the users that exist at the "
 "moment. In your case it will only be *your_superuser*. Click on it, and you "
@@ -2875,11 +2872,11 @@ msgid ""
 "*Important dates*. For the moment, the section on *Permissions* is the most "
 "important."
 msgstr ""
-"Allez à * Auth *-> * utilisateurs * et vous verrez tous les utilisateurs qui "
-"existent à l'heure actuelle. Dans votre cas, il sera seulement * "
-"your_superuser *. Cliquez dessus et vous verrez une section sur * Info "
-"personnelle *, un sur * autorisations * et l'autre sur * Important dates *. "
-"Pour le moment, la section sur les * autorisations * est le plus important."
+"Allez à *Auth* -> *Users* et vous verrez tous les utilisateurs qui existent "
+"à l'heure actuelle. Dans votre cas, il sera seulement *your_superuser*. "
+"Cliquez dessus et vous verrez une section sur *Info personnelle*, un sur "
+"*autorisations* et l'autre sur *Important dates*. Pour le moment, la section "
+"sur les *autorisations* est le plus important."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:42
 #, fuzzy
