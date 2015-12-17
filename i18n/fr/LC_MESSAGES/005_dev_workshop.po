@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-17 14:11+0100\n"
-"PO-Revision-Date: 2015-12-17 17:30+0100\n"
+"PO-Revision-Date: 2015-12-17 17:45+0100\n"
 "Last-Translator: matteo cima <matteocima@hotmail.com>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-"
 "documentation/language/fr/)\n"
@@ -753,7 +753,7 @@ msgstr ""
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:5
 msgid "Getting Started With Django"
-msgstr "Getting Started With Django"
+msgstr "Mise en route de Django"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:8
 msgid "Object-relational mapper"
@@ -1016,7 +1016,7 @@ msgstr ""
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:175
 msgid "`Making queries`_"
-msgstr "`Making queries`_"
+msgstr "`Faire des requêtes`_"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:177
 msgid ""
@@ -1032,7 +1032,7 @@ msgstr "Exemple:"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:217
 msgid "Creating objects"
-msgstr "Création d&apos;objets 3D"
+msgstr "Création d'objets"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:219
 msgid ""
@@ -1227,7 +1227,7 @@ msgid ""
 "More: `Making queries <https://docs.djangoproject.com/en/1.8/topics/db/"
 "queries/#making-queries>`_"
 msgstr ""
-"Plus: `Making queries <https://docs.djangoproject.com/en/1.8/topics/db/"
+"Plus: `Faire des requêtes <https://docs.djangoproject.com/en/1.8/topics/db/"
 "queries/#making-queries>`_"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:338
@@ -9166,9 +9166,9 @@ msgid ""
 "ready, the branch is **merged** into master through a **Pull Request**."
 msgstr ""
 "À GeoNode les développeurs utilisent des branches pour garder les "
-"corrections de bugs et de travail de la fonction séparée de '' master'' (** "
-"production **) branche. Lorsqu'une fonction ou un fix est prête, la branche "
-"est **fusionnée** en maître à travers un **Pull Request**."
+"corrections de bugs et de travail de la fonction séparée de ``master`` "
+"(**production**) branche. Lorsqu'une fonction ou un fix est prête, la "
+"branche est **fusionnée** en maître à travers un **Pull Request**."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:78
 msgid "To create a new branch"
@@ -9283,7 +9283,7 @@ msgid ""
 "Select the branch you made, ``add_logo``, to compare with ``master`` (the "
 "original)."
 msgstr ""
-"Sélectionnez la branche que vous faites,``add_logo``,, à comparer avec "
+"Sélectionnez la branche que vous faites,``add_logo``, à comparer avec "
 "``master`` (l'original)."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:167
