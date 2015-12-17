@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-17 13:10+0100\n"
-"PO-Revision-Date: 2015-12-17 17:56+0000\n"
+"PO-Revision-Date: 2015-12-17 18:31+0000\n"
 "Last-Translator: simboss <simone.giannecchini@geo-solutions.it>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-documentation/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -7145,7 +7145,7 @@ msgstr "À GeoNode les développeurs utilisent des branches pour garder les corr
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:78
 msgid "To create a new branch"
-msgstr "Pour créer une nouvelle branche"
+msgstr "Créer une nouvelle branche"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:80
 msgid "Go to the project folder and create a new branch"
@@ -7188,7 +7188,7 @@ msgstr "Planquer les nouveaux fichiers dans le projet de travail à l'aide de ``
 msgid ""
 "**Commit** the changes providing a **commit messages** and push them into "
 "your branch : ``add_logo``."
-msgstr "**Validation** les changements fournissant un **commettre messages** et poussez-les dans votre branche:  ``add_logo``."
+msgstr "**Validation** les changements fournissant un **comit message** et poussez-les dans votre branche:  ``add_logo``."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:148
 msgid ""
@@ -7198,7 +7198,7 @@ msgid ""
 "feature allows you to compare the content on two branches. The changes, "
 "additions and subtractions, are shown in green and red and called diffs "
 "(differences)."
-msgstr "Requêtes d'extraction sont le cœur de la collaboration sur GitHub. Lorsque vous effectuez une demande de tirer, vous êtes proposer vos modifications et demandant que quelqu'un tirer dans votre contribution - aka fusionnez-les dans leur branche. Tirer demande fonctionnalité de GitHub vous permet de comparer le contenu de deux branches. Les modifications, additions et soustractions, sont indiquées en vert et rouge et appelées diffs (différences)."
+msgstr "Pull Requests  sont le cœur de la collaboration sur GitHub. Lorsque vous effectuez une pull request, vous allez proposer vos modifications et  demander que quelqu'un va faire un Merge des vos contributions - aka fusionnez-les dans leur branche. La fonctionnalité des Pull Requests de GitHub vous permettent de comparer le contenu de deux branches. Les modifications, additions et soustractions, sont indiquées en vert et rouge et appelées diffs (différences)."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:150
 msgid ""
@@ -7206,7 +7206,7 @@ msgid ""
 "Requests to start a discussion about commits (code review) even before the "
 "code is finished. This way you can get feedback as you go or help when "
 "you’re stuck."
-msgstr "Dès que vous apportez une modification, vous pouvez ouvrir une demande de tirer. Gens utilisent requêtes tirer pour lancer une discussion sur les validations (examen du code) même avant que le code soit terminé. De cette façon vous pouvez obtenir vos commentaires que vous allez ou aider quand vous êtes coincé."
+msgstr "Quand vous apportez une modification, vous pouvez ouvrir une Pull Request. développeurs utilisent PR pour commencer une discussion sur les commits (revision du code) avant que le code soit terminé et avant de faire l'action du merge. De cette façon vous pouvez obtenir les impressions des autres développeurs ou leur aide si vous etes bloquè."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:152
 msgid ""
@@ -7216,7 +7216,7 @@ msgstr "Grâce au système @mention de GitHub dans votre message de demande de t
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:155
 msgid "Create a Pull Request for changes to the Logo"
-msgstr "Créer une demande de tirer pour faire modifier le Logo"
+msgstr "Créer une Pull Request pour modifier le Logo"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:157
 msgid ""
@@ -7228,7 +7228,7 @@ msgstr "Cliquez sur l'icône de demande de tirer sur la barre latérale, puis de
 msgid ""
 "Select the branch you made, ``add_logo``, to compare with ``master`` (the "
 "original)."
-msgstr "Sélectionnez la branche que vous faites,``add_logo``, à comparer avec ``master`` (l'original)."
+msgstr "Sélectionnez la branche que vous faites, ``add_logo`` , à comparer avec ``master`` (l'original)."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:167
 msgid ""
@@ -7240,7 +7240,7 @@ msgstr "Regarder par-dessus vos modifications dans les diffs sur la page de comp
 msgid ""
 "When you’re satisfied that these are the changes you want to submit, click "
 "the big green Create Pull Request button."
-msgstr "Lorsque vous êtes convaincu que ce sont les changements que vous voulez envoyer, cliquez sur le gros bouton vert créer tirez sur demande."
+msgstr "Lorsque vous êtes convaincu que ce sont les changements que vous voulez envoyer, cliquez sur le gros bouton vert créer Create Pull Request."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:177
 msgid ""
