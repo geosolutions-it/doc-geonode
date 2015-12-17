@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-17 14:11+0100\n"
-"PO-Revision-Date: 2015-12-17 14:49+0100\n"
+"PO-Revision-Date: 2015-12-17 15:02+0100\n"
 "Last-Translator: matteo cima <matteocima@hotmail.com>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-"
 "documentation/language/fr/)\n"
@@ -752,7 +752,6 @@ msgstr ""
 "sécurité , et d'encapsuler les systèmes existants \" ."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:5
-#, fuzzy
 msgid "Getting Started With Django"
 msgstr "Getting Started With Django"
 
@@ -761,7 +760,6 @@ msgid "Object-relational mapper"
 msgstr "Mappeur objet / relationnel"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:9
-#, fuzzy
 msgid ""
 "Data models can be defined entirely in Python. DJango makes available a "
 "rich, dynamic database-access API for free, but it is still possible to "
@@ -817,15 +815,13 @@ msgstr ""
 "de chaque modèle à une table de base de données unique."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:41
-#, fuzzy
 msgid ""
 "Each model is a Python class that subclasses ``django.db.models.Model``."
 msgstr ""
-"Chaque modèle est une classe de Python que sous-classes '' django.db.models."
-"Model''."
+"Chaque modèle est une classe de Python que sous-classes ``django.db.models."
+"Model``."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:42
-#, fuzzy
 msgid "Each attribute of the model represents a database field."
 msgstr "Chaque attribut du modèle représente un champ de base de données."
 
@@ -842,13 +838,12 @@ msgid "Quick example"
 msgstr "Petit exemple"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:50
-#, fuzzy
 msgid ""
 "This example model defines a ``Person``, which has a **first_name** and "
 "**last_name**:"
 msgstr ""
-"Ce modèle de l'exemple définit une « personne », qui a un ** prenom ** et ** "
-"last_name ** :"
+"Ce modèle de l'exemple définit une ``Person``, qui a un **prenom** et "
+"**last_name** :"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:61
 msgid ""
@@ -877,24 +872,21 @@ msgstr ""
 "métadonnées de modèle mais peut être substituée."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:77
-#, fuzzy
 msgid ""
 "An **id** field is added automatically, but this behavior can be overridden."
 msgstr ""
-"Un ** id ** champ est ajouté automatiquement, mais ce comportement peut être "
+"Un **id** champ est ajouté automatiquement, mais ce comportement peut être "
 "substitué."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:78
-#, fuzzy
 msgid ""
 "The **CREATE TABLE** SQL in this example is formatted using PostgreSQL "
 "syntax, but it’s worth noting Django uses SQL tailored to the database "
 "backend specified in the settings file."
 msgstr ""
-"Le ** CREATE TABLE ** SQL dans cet exemple est formaté à l'aide de la "
-"syntaxe de PostgreSQL, mais cela vaut la peine notant Django utilise SQL "
-"adapté à la base de données principale spécifiée dans le fichier de "
-"paramètres."
+"Le **CREATE TABLE** SQL dans cet exemple est formaté à l'aide de la syntaxe "
+"de PostgreSQL, mais cela vaut la peine notant Django utilise SQL adapté à la "
+"base de données principale spécifiée dans le fichier de paramètres."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:81
 msgid "Using models"
@@ -954,13 +946,12 @@ msgstr ""
 "classe modèle."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:106
-#, fuzzy
 msgid ""
 "Be careful not to choose field names that conflict with the models API like "
 "**clean**, **save**, or **delete**."
 msgstr ""
 "Veillez à ne pas choisir des noms de domaine que le conflit avec les modèles "
-"API comme ** propre **, ** enregistrer ** ou ** supprimer **."
+"API comme **propre**, **enregistrer** ou **supprimer**."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:108
 msgid "Example:"
@@ -980,7 +971,6 @@ msgid "Model methods"
 msgstr "Méthodes de modèle"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:133
-#, fuzzy
 msgid ""
 "Custom methods on a model can be used to add custom “row-level” "
 "functionality to an object. This is a valuable technique for keeping "
@@ -991,10 +981,9 @@ msgstr ""
 "technique précieuse pour garder la logique métier en un seul endroit."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:136
-#, fuzzy
 msgid "For example, the following model has a few **custom methods**:"
 msgstr ""
-"Par exemple, le modèle suivant a quelques ** méthodes personnalisées ** :"
+"Par exemple, le modèle suivant a quelques **méthodes personnalisées** :"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:165
 msgid ""
@@ -1035,7 +1024,6 @@ msgid "`Making queries`_"
 msgstr "`Making queries`_"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:177
-#, fuzzy
 msgid ""
 "Django automatically gives a database-abstraction API that allows to create, "
 "retrieve, update and delete objects."
@@ -1048,12 +1036,10 @@ msgid "As an example:"
 msgstr "Exemple:"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:217
-#, fuzzy
 msgid "Creating objects"
 msgstr "Création d&apos;objets 3D"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:219
-#, fuzzy
 msgid ""
 "As already said before, a model class represents a database table, and an "
 "instance of that class represents a particular record in the database table."
@@ -1072,46 +1058,42 @@ msgstr ""
 "données."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:223
-#, fuzzy
 msgid ""
 "Assuming models live in a file **mysite/blog/models.py**, here’s an example:"
 msgstr ""
-"En supposant que les modèles en direct dans un fichier ** mysite/blog/models."
+"En supposant que les modèles en direct dans un fichier **mysite/blog/models."
 "py**, voici un exemple :"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:234
-#, fuzzy
 msgid ""
 "This performs an **INSERT SQL** statement behind the scenes. Django doesn’t "
 "hit the database until you explicitly call **save()**. The **save()** method "
 "has no return value."
 msgstr ""
-"Il effectue un ** instruction SQL INSERT ** dans les coulisses. Django ne "
-"touche pas la base de données jusqu'à ce que vous appeliez explicitement ** "
-"save() **. Le ** méthode save() ** n'a aucune valeur de retour."
+"Il effectue un instruction **INSERT SQL** dans les coulisses. Django ne "
+"touche pas la base de données jusqu'à ce que vous appeliez explicitement "
+"**save()**. Le méthode **save()** n'a aucune valeur de retour."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:243
-#, fuzzy
 msgid ""
 "This performs an **UPDATE SQL** statement behind the scenes. Django doesn’t "
 "hit the database until you explicitly call **save()**."
 msgstr ""
-"Il effectue un ** mise à jour SQL ** déclaration dans les coulisses. Django "
-"ne touche pas la base de données jusqu'à ce que vous appeliez explicitement "
-"** save() **."
+"Il effectue un mise à jour **UPDATE SQL** déclaration dans les coulisses. "
+"Django ne touche pas la base de données jusqu'à ce que vous appeliez "
+"explicitement **save()**."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:246
 msgid "Retrieving objects"
 msgstr "Récupération d'objets"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:248
-#, fuzzy
 msgid ""
 "Retrieving objects from the database can be done by constructing a "
 "**QuerySet** via a **Manager** on the model class."
 msgstr ""
 "Récupérer des objets de la base de données peut se faire en construisant une "
-"** QuerySet ** via un ** gestionnaire ** sur la classe de modèle."
+"**QuerySet** via un **Manager** sur la classe de modèle."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:250
 msgid ""
@@ -1128,13 +1110,12 @@ msgstr ""
 "limitante comme **WHERE** ou **LIMIT**."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:254
-#, fuzzy
 msgid ""
 "Each model has at least one **Manager**, and it’s called ``objects`` by "
 "default."
 msgstr ""
-"Chaque modèle possède au moins un ** gestionnaire ** et qu'il est appelé '' "
-"objets '' par défaut."
+"Chaque modèle possède au moins un **Manager** et qu'il est appelé  "
+"``objects`` par défaut."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:256
 msgid "It can be accessed directly via the model class, like so:"
@@ -1156,33 +1137,30 @@ msgstr ""
 "contient tous les objets de Blog dans la base de données."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:275
-#, fuzzy
 msgid ""
 "The simplest way to retrieve objects from a table is to get all of them. To "
 "do this, use the **all()** method on a **Manager**:"
 msgstr ""
 "La façon la plus simple pour récupérer des objets d'une table est d'obtenir "
-"l'ensemble d'entre eux. Pour ce faire, utilisez le ** all() ** méthode sur "
-"un ** gestionnaire ** :"
+"l'ensemble d'entre eux. Pour ce faire, utilisez le **all()** méthode sur un "
+"**Manager**:"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:284
-#, fuzzy
 msgid ""
 "The **all()** method returns a **QuerySet** of all the objects in the "
 "database. The **QuerySet** returned by **all()** describes all objects in "
 "the database table. To select only a subset of the complete set of objects, "
 "it must be refined by adding filter conditions."
 msgstr ""
-"Le ** all() ** méthode retourne un ** QuerySet ** de tous les objets dans la "
-"base de données. Le ** QuerySet ** retourné par ** all() ** décrit tous les "
+"Le **all()** méthode retourne un **QuerySet** de tous les objets dans la "
+"base de données. Le **QuerySet** retourné par **all()** décrit tous les "
 "objets de la table de base de données. Pour sélectionner uniquement un sous-"
 "ensemble d'un ensemble complet d'objets, il doit être amélioré par l'ajout "
 "de conditions de filtre."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:288
-#, fuzzy
 msgid "The two most common ways to refine a **QuerySet** are:"
-msgstr "Les deux façons principales d'affiner un ** QuerySet ** sont :"
+msgstr "Les deux façons principales d'affiner un **QuerySet** sont :"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:290
 msgid "**filter(**kwargs)**"
@@ -1227,13 +1205,12 @@ msgid "With the default manager class, it is the same as:"
 msgstr "Avec la classe de gestionnaire par défaut, c'est le même que :"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:315
-#, fuzzy
 msgid ""
 "The result of refining a **QuerySet** is itself a **QuerySet**, so it’s "
 "possible to chain refinements together."
 msgstr ""
-"Le résultat de raffinage un ** QuerySet ** est en soi un ** QuerySet **, il "
-"est donc possible de raffinements chaîne ensemble."
+"Le résultat de raffinage un **QuerySet** est en soi un **QuerySet**, il est "
+"donc possible de raffinements chaîne ensemble."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:317
 #: ..\..\005_dev_workshop\007_geonode_testing\index.rst:38
@@ -1241,16 +1218,15 @@ msgid "For example:"
 msgstr "Par exemple:"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:332
-#, fuzzy
 msgid ""
 "This takes the initial **QuerySet** of all entries in the database, adds a "
 "filter, then an exclusion, then another filter. The final result is a "
 "**QuerySet** containing all entries with a headline that starts with “What”, "
 "that were published between January 30, 2005, and the current day."
 msgstr ""
-"Cela prend l'initiale ** QuerySet ** de toutes les entrées de la base de "
+"Cela prend l'initiale **QuerySet** de toutes les entrées de la base de "
 "données, ajoute un filtre, puis une exclusion, puis un autre filtre. Le "
-"résultat final est un ** QuerySet ** contenant toutes les entrées avec un "
+"résultat final est un **QuerySet** contenant toutes les entrées avec un "
 "titre qui commence par « Quoi », qui ont été publiés entre le 30 janvier "
 "2005 et la date du jour."
 
@@ -1302,7 +1278,6 @@ msgid "Templates"
 msgstr "Mises à jour"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:375
-#, fuzzy
 msgid ""
 "Django’s template language allows developers to put logic into the HTML:"
 msgstr ""
@@ -1322,7 +1297,6 @@ msgid "Forms"
 msgstr "Formulaires"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:404
-#, fuzzy
 msgid ""
 "Django provides a library that handles rendering HTML forms, validation of "
 "data submitted by users, and converting the data to native Python types. "
@@ -1336,7 +1310,6 @@ msgstr ""
 "créer et mettre à jour les données."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:421
-#, fuzzy
 msgid "GET and POST"
 msgstr "GET et POST"
 
@@ -1349,13 +1322,12 @@ msgstr ""
 "s'agit de formes."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:425
-#, fuzzy
 msgid ""
 "Django’s login form is returned using the **POST** method, in which the "
 "browser bundles up the form data, encodes it for transmission, sends it to "
 "the server, and then receives back its response."
 msgstr ""
-"Formulaire de connexion de Django est retourné à l'aide de la ** POST ** "
+"Formulaire de connexion de Django est retourné à l'aide de la **POST** "
 "méthode, dans laquelle les faisceaux de navigateur, les données de "
 "formulaire, il code pour la transmission, il envoie au serveur et puis "
 "reçoit sa réponse."
@@ -1381,7 +1353,6 @@ msgstr ""
 "** GET ** et ** POST ** sont généralement utilisés à des fins différentes."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:432
-#, fuzzy
 msgid ""
 "Any request that could be used to change the state of the system - for "
 "example, a request that makes changes in the database - should use **POST**. "
@@ -1390,8 +1361,8 @@ msgid ""
 msgstr ""
 "Toute demande qui pourrait être utilisé pour modifier l'état du système - "
 "par exemple, une demande qui apporte des modifications dans la base de "
-"données - doit utiliser ** POST **. ** GET ** doit être utilisé uniquement "
-"pour les demandes qui n'affectent pas l'état du système."
+"données - doit utiliser **POST**. **GET** doit être utilisé uniquement pour "
+"les demandes qui n'affectent pas l'état du système."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:434
 msgid ""
@@ -1440,7 +1411,6 @@ msgid "Authentication"
 msgstr "Authentification"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:443
-#, fuzzy
 msgid ""
 "Django supports a full-featured and secure authentication system. It handles "
 "user accounts, groups, permissions and cookie-based user sessions."
@@ -1496,7 +1466,6 @@ msgid "Internationalization"
 msgstr "Internationalisation"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:489
-#, fuzzy
 msgid ""
 "Django offers full support for translating text into different languages, "
 "plus locale-specific formatting of dates, times, numbers and time zones. It "
@@ -1537,7 +1506,6 @@ msgid "Security"
 msgstr "Sécurité"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:545
-#, fuzzy
 msgid "Django provides multiple protections against:"
 msgstr "Django dispose de multiples protections contre :"
 
@@ -1546,7 +1514,6 @@ msgid "Clickjacking"
 msgstr "Détournement de clic"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:548
-#, fuzzy
 msgid ""
 "Clickjacking is a type of attack where a malicious site wraps another site "
 "in a frame. This attack can result in an unsuspecting user being tricked "
@@ -1557,17 +1524,15 @@ msgstr ""
 "averti dupé en effectuant des actions inattendues sur le site cible."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:550
-#, fuzzy
 msgid ""
 "The **X-Frame-Options middleware** contained in a form allow a supporting "
 "browser to prevent a site from being rendered inside a frame"
 msgstr ""
-"Le ** X-Frame-Options middleware ** contenu dans un formulaire permettent un "
+"Le **X-Frame-Options middleware** contenu dans un formulaire permettent un "
 "prise en charge navigateur empêcher un site d'être restitués à l'intérieur "
 "d'un cadre"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:553
-#, fuzzy
 msgid "Cross site scripting (XSS)"
 msgstr "Cross site scripting (XSS)"
 
@@ -1592,12 +1557,10 @@ msgstr ""
 "sont pas suffisamment filtrées avant d'y compris dans une page."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:558
-#, fuzzy
 msgid "Cross site request forgery (CSRF)"
-msgstr "Cross-Site Request Forgery"
+msgstr "Cross-Site Request Forgery (CSRF)"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:556
-#, fuzzy
 msgid ""
 "CSRF attacks allow a malicious user to execute actions using the credentials "
 "of another user without that user’s knowledge or consent."
@@ -1607,7 +1570,6 @@ msgstr ""
 "utilisateur sans la connaissance ou le consentement de l'utilisateur."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:558
-#, fuzzy
 msgid ""
 "CSRF protection works by checking for a nonce in each POST request. This "
 "ensures that a malicious user cannot simply “replay” a form POST to your Web "
@@ -1637,26 +1599,23 @@ msgstr ""
 "entraîner dans les dossiers en cours de suppression ou de fuites de données."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:569
-#, fuzzy
 msgid "Host header validation"
 msgstr "Validation d'en-tête hôte"
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:564
-#, fuzzy
 msgid ""
 "Django uses the **Host** header provided by the client to construct URLs in "
 "certain cases. While these values are sanitized to prevent Cross Site "
 "Scripting attacks, a fake **Host** value can be used for Cross-Site Request "
 "Forgery, cache poisoning attacks, and poisoning links in emails."
 msgstr ""
-"Django utilise le ** Accueil ** en-tête fournie par le client pour "
-"construire des URL dans certains cas. Bien que ces valeurs sont désinfectées "
-"pour prévenir des attaques Cross Site Scripting, un faux ** Accueil ** "
-"valeur peut être utilisée pour Cross-Site Request Forgery, cache attaques "
+"Django utilise le **Accueil** en-tête fournie par le client pour construire "
+"des URL dans certains cas. Bien que ces valeurs sont désinfectées pour "
+"prévenir des attaques Cross Site Scripting, un faux **Accueil** valeur peut "
+"être utilisée pour Cross-Site Request Forgery, cache attaques "
 "d'empoisonnement et l'empoisonnement des liens dans les e-mails."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:567
-#, fuzzy
 msgid ""
 "Because even seemingly-secure web server configurations are susceptible to "
 "fake **Host** headers, Django validates **Host** headers against the "
@@ -1664,20 +1623,19 @@ msgid ""
 "method."
 msgstr ""
 "Parce que les configurations de serveur web sécurisé même apparemment sont "
-"susceptibles d'être faux ** Accueil ** en-têtes, Django valide ** hôte ** en-"
-"têtes contre le ** ALLOWED_HOSTS ** paramètre dans la méthode de '' django."
-"http.HttpRequest.get_host()''."
+"susceptibles d'être faux **Accueil** en-têtes, Django valide **hôte** en-"
+"têtes contre le **ALLOWED_HOSTS** paramètre dans la méthode de``django.http."
+"HttpRequest.get_host()``."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:569
-#, fuzzy
 msgid ""
 "This validation only applies via **get_host()**; if your code accesses the "
 "Host header directly from **request.META** you are bypassing this security "
 "protection."
 msgstr ""
-"Cette validation s'applique uniquement ** get_host() ** ; Si votre code "
-"accède directement à partir de l'en-tête d'hôte ** demande. META ** vous "
-"êtes contourner cette protection de sécurité."
+"Cette validation s'applique uniquement **get_host()**; Si votre code accède "
+"directement à partir de l'en-tête d'hôte **request.META** vous êtes "
+"contourner cette protection de sécurité."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:574
 msgid "SSL/HTTPS"
@@ -1699,7 +1657,6 @@ msgstr ""
 "de modifier les données qui sont envoyées dans les deux sens."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:574
-#, fuzzy
 msgid "Django provides some settings to secure your site unser SSL/HTTPS."
 msgstr ""
 "Django fournit certains paramètres pour sécuriser votre site unser SSL/HTTPS."
@@ -1730,7 +1687,6 @@ msgid "Take care with any user uploaded files."
 msgstr "Faites attention avec tous les fichiers utilisateur téléchargée."
 
 #: ..\..\005_dev_workshop\002_django_overview\getting_started_w_django.rst:581
-#, fuzzy
 msgid ""
 "Django does not throttle requests to authenticate users. To protect against "
 "brute-force attacks against the authentication system, you may consider "
@@ -1763,7 +1719,6 @@ msgstr ""
 "security/=\"\">' _</https:>"
 
 #: ..\..\005_dev_workshop\002_django_overview\index.rst:5
-#, fuzzy
 msgid "Django Overview"
 msgstr "Vue d'ensemble de Django"
 
@@ -1790,7 +1745,6 @@ msgstr ""
 "de données, fichiers et paramètres."
 
 #: ..\..\005_dev_workshop\002_django_overview\index.rst:10
-#, fuzzy
 msgid ""
 "Django also provides an administrative interface to create, read, update and "
 "delete models that is dynamically generated by introspection and configured "
@@ -8529,7 +8483,6 @@ msgstr ""
 "plan afin d'améliorer et de le réactiver à l'avenir."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:5
-#, fuzzy
 msgid "Contributing to Open Source on GitHub"
 msgstr "Contribuant à l'Open Source sur GitHub"
 
@@ -8634,7 +8587,6 @@ msgstr ""
 "qu'ils sont permettant à d'autres de le faire."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:35
-#, fuzzy
 msgid "Documentation and Wikis"
 msgstr "Documentation et Wikis"
 
@@ -8650,7 +8602,6 @@ msgstr ""
 "dans le référentiel."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\contrib_on_github.rst:42
-#, fuzzy
 msgid ""
 "Alternatively, the repository may instead use the GitHub wiki to break down "
 "documentation."
@@ -8723,7 +8674,6 @@ msgstr ""
 "reportez-vous à la section \": ref: « work_with_github »\""
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:5
-#, fuzzy
 msgid "Contributing to GeoNode"
 msgstr "Contribuer au GeoNode"
 
@@ -8820,7 +8770,6 @@ msgid "Write Documentation"
 msgstr "Écrire la Documentation"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\index.rst:40
-#, fuzzy
 msgid ""
 "GeoNode's documentation can always use improvement - there are always more "
 "questions to be answered. For managing contributions to the manual, GeoNode "
@@ -8991,21 +8940,18 @@ msgstr ""
 "amélioration propositions **.</https:>"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:19
-#, fuzzy
 msgid "Each roadmap item will go through four stages:"
 msgstr "Chaque élément de la feuille de route passera par quatre étapes :"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:21
-#, fuzzy
 msgid "Descriptive Stage (under discussion/\"Active\")"
-msgstr "Étape descriptive (en discussion / « Actif »)"
+msgstr "Étape descriptive (en discussion / \"Active\")"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:22
 msgid "Technical Stage"
 msgstr "Stage technique"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\roadmap_process.rst:23
-#, fuzzy
 msgid "Development Stage"
 msgstr "stade de développement"
 
@@ -9061,7 +9007,6 @@ msgid "Work With GitHub Issues and Pull Requests"
 msgstr "Travailler avec GitHub questions et demandes de Pull"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:12
-#, fuzzy
 msgid ""
 "An Issue is a note on a repository about something that needs attention. It "
 "could be a bug, a feature request, a question or lots of other things. On "
@@ -9084,7 +9029,6 @@ msgstr ""
 "<https: github.com/twbs/bootstrap/issues=\"\">' _:</https:>"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:19
-#, fuzzy
 msgid ""
 "GitHub’s issue tracking is special because of our focus on collaboration, "
 "references, and excellent text formatting. A typical issue on GitHub looks a "
@@ -9100,12 +9044,11 @@ msgstr ""
 "A **titre** et *description* décrire ce que la question est tout au sujet."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:26
-#, fuzzy
 msgid ""
 "Color-coded **labels** help you categorize and filter your issues (just like "
 "labels in email)."
 msgstr ""
-"Code couleur ** étiquettes ** vous aider à classer et filtrer vos problèmes "
+"Code couleur **étiquettes** vous aider à classer et filtrer vos problèmes "
 "(tout comme les étiquettes dans l'email)."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:28
@@ -9138,32 +9081,28 @@ msgid "Open an Issue"
 msgstr "Affaire en suspens"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:37
-#, fuzzy
 msgid "Click the Issues tab from the sidebar."
 msgstr "Cliquez sur l'onglet Issues de la barre latérale."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:42
-#, fuzzy
 msgid "Click New Issue."
 msgstr "Cliquez sur nouveau problème."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:43
-#, fuzzy
 msgid ""
 "Give your Issue a title and description: *Add a new Logo to GeoNode custom*."
 msgstr ""
-"Donner votre numéro, un titre et une description: * ajouter un nouveau Logo "
-"pour GeoNode coutume *."
+"Donner votre numéro, un titre et une description: *ajouter un nouveau Logo "
+"pour GeoNode coutume*."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:48
-#, fuzzy
 msgid ""
 "Click **Submit new Issue** when you’re done. Now this issue has a permanent "
 "home (URL) that you can reference even after it is closed."
 msgstr ""
-"Cliquez sur ** soumettre nouvelle question ** lorsque vous avez terminé. "
-"Maintenant, cette question a une résidence permanente (URL) que vous pouvez "
-"référencer la même après il est fermé."
+"Cliquez sur **Submit new Issue** lorsque vous avez terminé. Maintenant, "
+"cette question a une résidence permanente (URL) que vous pouvez référencer "
+"la même après il est fermé."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:51
 msgid "Issues Pro Tips"
@@ -9254,7 +9193,6 @@ msgstr ""
 "mises à jour."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:75
-#, fuzzy
 msgid ""
 "At GeoNode developers use branches for keeping bug fixes and feature work "
 "separate from ``master`` (**production**) branch. When a feature or fix is "
@@ -9263,21 +9201,19 @@ msgstr ""
 "À GeoNode les développeurs utilisent des branches pour garder les "
 "corrections de bugs et de travail de la fonction séparée de '' master'' (** "
 "production **) branche. Lorsqu'une fonction ou un fix est prête, la branche "
-"est ** fusionnée ** en maître à travers un ** tirer sur demande **."
+"est **fusionnée** en maître à travers un **Pull Request**."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:78
 msgid "To create a new branch"
 msgstr "Pour créer une nouvelle branche"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:80
-#, fuzzy
 msgid "Go to the project folder and create a new branch"
 msgstr "Allez dans le dossier de projet et créer une nouvelle branche"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:92
-#, fuzzy
 msgid "Check that you are working on the correct branch: ``add_logo``."
-msgstr "Vérifiez que vous travaillez sur la branche correcte: '' add_logo''."
+msgstr "Vérifiez que vous travaillez sur la branche correcte: ``add_logo``."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:103
 msgid "Push the new branch to GitHub."
@@ -9292,13 +9228,12 @@ msgid "On GitHub, saved changes are called **commits**."
 msgstr "Sur GitHub, modifications enregistrées sont appelées **commits**."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:119
-#, fuzzy
 msgid ""
 "Each commit has an associated **commit message**, which is a description "
 "explaining why a particular change was made. Thanks to these messages, you "
 "and others can read through commits and understand what you’ve done and why."
 msgstr ""
-"Chaque commit a un associé ** commit message **, qui est une description "
+"Chaque commit a un associé **commit message**, qui est une description "
 "expliquant pourquoi une modification particulière a été apportée. Grâce à "
 "ces messages, vous et autres peuvent lire par le biais de validations et "
 "comprendre ce que vous avez fait et pourquoi."
@@ -9343,7 +9278,6 @@ msgstr ""
 "(différences)."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:150
-#, fuzzy
 msgid ""
 "As soon as you make a change, you can open a Pull Request. People use Pull "
 "Requests to start a discussion about commits (code review) even before the "
@@ -9357,7 +9291,6 @@ msgstr ""
 "vous êtes coincé."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:152
-#, fuzzy
 msgid ""
 "By using GitHub’s @mention system in your Pull Request message, you can ask "
 "for feedback from specific people or teams."
@@ -9367,27 +9300,24 @@ msgstr ""
 "équipes."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:155
-#, fuzzy
 msgid "Create a Pull Request for changes to the Logo"
 msgstr "Créer une demande de tirer pour faire modifier le Logo"
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:157
-#, fuzzy
 msgid ""
 "Click the Pull Request icon on the sidebar, then from the Pull Request page, "
 "click the green **New pull request** button."
 msgstr ""
 "Cliquez sur l'icône de demande de tirer sur la barre latérale, puis de la "
-"page demande de tirer, sur le vert ** pull demande ** bouton nouveau."
+"page demande de tirer, sur le vert **New pull request**  bouton nouveau."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:162
-#, fuzzy
 msgid ""
 "Select the branch you made, ``add_logo``, to compare with ``master`` (the "
 "original)."
 msgstr ""
-"Sélectionnez la branche que vous faites, '' add_logo'', à comparer avec '' "
-"master'' (l'original)."
+"Sélectionnez la branche que vous faites,``add_logo``,, à comparer avec "
+"``master`` (l'original)."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:167
 msgid ""
@@ -9406,16 +9336,14 @@ msgstr ""
 "envoyer, cliquez sur le gros bouton vert créer tirez sur demande."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:177
-#, fuzzy
 msgid ""
 "Give your pull request a title and since it relates directly to an open "
 "issue, include “fixes #” and the issue number in the title. Write a brief "
 "description of your changes."
 msgstr ""
 "Donnez un titre à votre demande de tirer et puisqu'elle se rapporte "
-"directement à une question ouverte, ajouter « corrections # » et le numéro "
-"de la question dans le titre. Écrire une brève description de vos "
-"modifications."
+"directement à une question ouverte, ajouter “fixes #” et le numéro de la "
+"question dans le titre. Écrire une brève description de vos modifications."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:182
 msgid "When you’re done with your message, click **Create pull request!**"
@@ -9436,7 +9364,6 @@ msgstr ""
 "``add_logo`` dans la branche ``master`` (l'original)."
 
 #: ..\..\005_dev_workshop\008_contribute_geonode\work_with_github.rst:189
-#, fuzzy
 msgid ""
 "Click the green button to merge the changes into master. Click Confirm "
 "merge. Go ahead and delete the branch, since its changes have been "
@@ -9497,7 +9424,6 @@ msgid ":ref:`django_overview_index`"
 msgstr ":ref:`django_overview_index`"
 
 #: ..\..\005_dev_workshop\index.rst:33
-#, fuzzy
 msgid ""
 "Django's primary goal is to ease the creation of complex, database-driven "
 "websites. Django emphasizes reusability and \"pluggability\" of components, "
@@ -9506,13 +9432,12 @@ msgid ""
 msgstr ""
 "L'objectif principal de Django est de faciliter la création de sites Web "
 "complexes, axée sur la base de données. Django met l'accent sur les "
-"possibilités de réutilisation et de la « possibilité » de composants, un "
-"développement rapide et le principe de * ne vous répétez pas *. Python est "
+"possibilités de réutilisation et de la \"possibilité\" de composants, un "
+"développement rapide et le principe de *ne vous répétez pas*. Python est "
 "utilisé dans l'ensemble, même pour les modèles de données, fichiers et "
 "paramètres."
 
 #: ..\..\005_dev_workshop\index.rst:37
-#, fuzzy
 msgid ""
 "Django also provides an optional administrative create, read, update and "
 "delete interface that is generated dynamically through introspection and "
@@ -9586,7 +9511,6 @@ msgid ":ref:`contributing_to_geonode`"
 msgstr ":ref:`contributing_to_geonode`"
 
 #: ..\..\005_dev_workshop\index.rst:59
-#, fuzzy
 msgid "Basic concepts about GitHub OpenSource Projects and best practices."
 msgstr ""
 "Notions de base sur les projets OpenSource GitHub et meilleures pratiques."
