@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-17 15:17+0100\n"
-"PO-Revision-Date: 2015-12-17 16:01+0100\n"
+"PO-Revision-Date: 2015-12-17 17:08+0100\n"
 "Last-Translator: Alessio Fabiani <alessio.fabiani@geo-solutions.it>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-"
 "documentation/language/fr/)\n"
@@ -21,12 +21,10 @@ msgstr ""
 "X-Generator: Poedit 1.8.6\n"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\centos_basic_tutorial.rst:5
-#, fuzzy
 msgid "CentOS Basic Tutorial"
 msgstr "Didacticiel de base centOS"
 
 #: ..\..\002_install_and_admin\001_linux_admin_intro\centos_basic_tutorial.rst:7
-#, fuzzy
 msgid "This section is still under construction."
 msgstr "Cette section est encore en construction."
 
@@ -451,41 +449,36 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:19
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:51
-#, fuzzy
 msgid "First navigate to geonode configuration folder::"
 msgstr "Tout d'abord, accédez au dossier de configuration de geonode::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:23
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:55
-#, fuzzy
 msgid ""
 "Copy the `local_settings.py` sample file called `local_settings.py.sample`::"
 msgstr ""
-"Copiez le fichier d'exemple « local_settings.py » appelé « local_settings.py."
-"sample »::"
+"Copiez le fichier d'exemple `local_settings.py` appelé `local_settings.py."
+"sample`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:27
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:59
-#, fuzzy
 msgid "Then edit the configuration file::"
 msgstr "Modifiez le fichier de configuration de PostgreSQL::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:31
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:63
-#, fuzzy
 msgid ""
 "Add the `ALLOWED_HOSTS` and `PROXY_ALLOWED_HOSTS` variables at the top with "
 "the following values:::"
 msgstr ""
-"Ajoutez les variables « ALLOWED_HOSTS » et « PROXY_ALLOWED_HOSTS » en haut "
-"avec les valeurs suivantes:::"
+"Ajoutez les variables `ALLOWED_HOSTS` et `PROXY_ALLOWED_HOSTS` en haut avec "
+"les valeurs suivantes:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:37
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:69
-#, fuzzy
 msgid "Add the `POSTGIS_VERSION` variable matching your PostGIS version:::"
 msgstr ""
-"Ajoutez la variable « POSTGIS_VERSION » correspondant à votre version de "
+"Ajoutez la variable `POSTGIS_VERSION` correspondant à votre version de "
 "PostGIS:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:41
@@ -497,35 +490,31 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:43
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:75
-#, fuzzy
 msgid "Change the value of the `SITEURL`::"
-msgstr "Modifiez la valeur de la « SITEURL »::"
+msgstr "Modifiez la valeur de la `SITEURL`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:47
-#, fuzzy
 msgid ""
 "Now configure database access: Uncomment the `ENGINE`: `django.contrib.gis."
 "db.backends.postgis` line and comment the one with empty `ENGINE` variable. "
 "Also set the `NAME` variable to `geonode_data`::"
 msgstr ""
-"Maintenant configurer l'accès de la base de données : décommenter le « "
-"moteur »: « django.contrib.gis.db.backends.postgis » ligne et commentaire "
-"celui avec la variable « ENGINE » vide. Également définir la variable « Nom "
-"» à « geonode_data »::"
+"Maintenant configurer l'accès de la base de données décommenter le `ENGINE`: "
+"`django.contrib.gis.db.backends.postgis` ligne et commentaire celui avec la "
+"variable `ENGINE` vide. Également définir la variable `NAME` à  "
+"`geonode_data`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:63
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:95
-#, fuzzy
 msgid ""
 "Then configure GeoServer location: Change the value of the `LOCATION` and "
 "`PUBLIC_LOCATION` variables as follows:::"
 msgstr ""
-"Puis configurer GeoServer emplacement : modifier la valeur des variables « "
-"LOCATION » et « PUBLIC_LOCATION » comme suit:::"
+"Puis configurer GeoServer emplacement : modifier la valeur des variables "
+"`LOCATION` et `PUBLIC_LOCATION` comme suit:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:74
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:106
-#, fuzzy
 msgid "The resulting configuration file should look like this:::"
 msgstr "Le fichier de configuration résultant devrait ressembler à ceci:::"
 
@@ -535,7 +524,6 @@ msgstr "Créer GeoNode super-utilisateur"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:155
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:192
-#, fuzzy
 msgid "Now create the admin user for GeoNode running the following:::"
 msgstr ""
 "Maintenant, créez l'utilisateur admin pour GeoNode en cours d'exécution "
@@ -555,7 +543,6 @@ msgid "Initialize the Database"
 msgstr "Initialiser la base de données"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:164
-#, fuzzy
 msgid ""
 "We' we already setup GeoNode databases and user permissions for PostgreSQL. "
 "And instruct GeoNode on how to access the database. Now let's get the "
@@ -578,23 +565,20 @@ msgstr ""
 "PostgreSQL pour apporter des modifications à pg_hba.conf efficace."
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:175
-#, fuzzy
 msgid "Test that you are able to connect to the database as follows:::"
 msgstr ""
 "Test de qui vous êtes en mesure de se connecter à la base de données comme "
 "suit:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:179
-#, fuzzy
 msgid "and::"
-msgstr "et"
+msgstr "et::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:185
 msgid "Test the installation"
 msgstr "Tester l'installation "
 
 #: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:187
-#, fuzzy
 msgid ""
 "We are ready to restart GeoNode (Apache) and test the installation. Restart "
 "Apache:::"
@@ -689,7 +673,6 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:45
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:49
-#, fuzzy
 msgid ""
 "Scroll down to the bottom of the document. We only need to edit one line. "
 "Change::"
@@ -698,9 +681,8 @@ msgstr ""
 "ligne. Changement::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:50
-#, fuzzy
 msgid "Into:::"
-msgstr "vers"
+msgstr "Dans:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:57
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:60
@@ -716,19 +698,17 @@ msgstr ""
 "non locales dans votre fichier `postgresql.conf`"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:61
-#, fuzzy
 msgid "Then restart `PostgreSQL` to make the change effective:::"
 msgstr ""
-"Puis relancez « PostgreSQL » pour que les modifications prennent effet:::"
+"Puis relancez `PostgreSQL` pour que les modifications prennent effet:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:65
-#, fuzzy
 msgid ""
 "PostgreSQL is now ready. To test the configuration try to connect to the "
 "`geonode` database as `geonode`:::"
 msgstr ""
 "PostgreSQL est maintenant prêt. Pour tester la configuration essaie de me "
-"connecter à la base de données « geonode » comme « geonode »:::"
+"connecter à la base de données `geonode` comme `geonode`:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\index.rst:5
 msgid "GeoNode (v\\ |release|) installation on Ubuntu 14.04"
@@ -893,17 +873,15 @@ msgid "Setup GeoServer"
 msgstr "Installer GeoServer"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:13
-#, fuzzy
 msgid ""
 "You' ve already installed `Tomcat 7` in the system in the first section of "
 "the training. Before you deploy GeoServer stop the running Tomcat instance:::"
 msgstr ""
-"Vous ' ve déjà installé « Tomcat 7 » dans le système dans la première "
-"section de la formation. Avant de déployer GeoServer arrêter l'instance "
-"d'exécution de Tomcat:::"
+"Vous ' ve déjà installé `Tomcat 7` dans le système dans la première section "
+"de la formation. Avant de déployer GeoServer arrêter l'instance d'exécution "
+"de Tomcat:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:18
-#, fuzzy
 msgid ""
 "Now copy the downloaded GeoServer archive inside Tomcat's webapps folder::"
 msgstr ""
@@ -915,7 +893,6 @@ msgid "Test GeoServer"
 msgstr "Test GeoServer"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:25
-#, fuzzy
 msgid "Now start Tomcat to deploy GeoServer::"
 msgstr "Maintenant démarrez Tomcat pour déployer GeoServer::"
 
@@ -958,17 +935,14 @@ msgid "Stop GeoServer::"
 msgstr "Arrêter  GeoServer ::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:53
-#, fuzzy
 msgid "And navigate to `/var/lib/tomcat7/webapps/geoserver/WEB-INF/`::"
-msgstr "Et accédez à ' / var/lib/tomcat7/webapps/geoserver/WEB-INF /'::"
+msgstr "Et accédez à `/var/lib/tomcat7/webapps/geoserver/WEB-INF/`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:57
-#, fuzzy
 msgid "Edit `web.xml` with a text editor::"
-msgstr "Modifier « web.xml » avec un éditeur de texte::"
+msgstr "Modifier `web.xml` avec un éditeur de texte::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:61
-#, fuzzy
 msgid "And add the following:::"
 msgstr "Et ajoutez la ligne suivante:::"
 
@@ -981,12 +955,10 @@ msgstr ""
 "d'exécution, remplacez la valeur de `GEONODE_BASE_URL` en conséquence"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:73
-#, fuzzy
 msgid "The resulting file should look like this:::"
 msgstr "Le fichier résultant devrait ressembler à ceci:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:97
-#, fuzzy
 msgid ""
 "If GeoServer is installed on machine that is separate from the one running "
 "GeoNode there is one more step to follow. Edit config.xml file as follows:::"
@@ -996,12 +968,10 @@ msgstr ""
 "config.xml comme suit:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:103
-#, fuzzy
 msgid "Set the `baseUrl` to GeoNode IP or hostname::"
-msgstr "La valeur du \"baseUrl' GeoNode IP ou nom d'hôte::"
+msgstr "La valeur du `baseUrl` GeoNode IP ou nom d'hôte::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:112
-#, fuzzy
 msgid "Restart GeoServer to make the changes effective::"
 msgstr "Redémarrer GeoServer pour effectuer les modifications efficaces::"
 
@@ -1019,17 +989,14 @@ msgid "Apache Configuration"
 msgstr "Configuration d'Apache"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:12
-#, fuzzy
 msgid "Navigate to Apache configurations folder:::"
 msgstr "Naviguez jusqu'au dossier des configurations Apache:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:16
-#, fuzzy
 msgid "And create a new configuration file for GeoNode:::"
 msgstr "Et créer un nouveau fichier de configuration pour GeoNode:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:20
-#, fuzzy
 msgid "Place the following content inside the file:::"
 msgstr "Placez le contenu suivant dans le fichier:::"
 
@@ -1050,18 +1017,15 @@ msgstr ""
 "conséquence le `ProxyPass` et `ProxyPassReverse`"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:96
-#, fuzzy
 msgid "Now load apache `poxy` module::"
-msgstr "Maintenant charger le module « vérole » apache::"
+msgstr "Maintenant charger le module `poxy` apache::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:100
-#, fuzzy
 msgid "And enable geonode configuration file::"
 msgstr "Et activer le fichier de configuration geonode::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:104
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:198
-#, fuzzy
 msgid ""
 "Dowload GeoNode data to be served by Apache. You will be prompted for "
 "confirmation::"
@@ -1071,13 +1035,11 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:109
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:52
-#, fuzzy
 msgid "Add `thumbs` and `layers` folders::"
-msgstr "Ajouter des dossiers « thumbs » et « couches »::"
+msgstr "Ajouter des dossiers  `thumbs` et `couches`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:114
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:206
-#, fuzzy
 msgid ""
 "Change permissions on GeoNode files and folders to allow Apache to read and "
 "edit them:::"
@@ -1086,7 +1048,6 @@ msgstr ""
 "Apache lire et éditer les:::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:124
-#, fuzzy
 msgid "Finally restart Apache to load the new configuration::"
 msgstr "Enfin redémarrer Apache pour charger la nouvelle configuration::"
 
@@ -1125,19 +1086,17 @@ msgstr ""
 "que certains fichiers de ressources utilisés par le playbook lui-même."
 
 #: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:19
-#, fuzzy
 msgid ""
 "To start the installation with Ansible open a terminal and navigate to the "
 "`ansible` folder inside geo's home folder::"
 msgstr ""
 "Pour démarrer l'installation avec Ansible ouvrir un terminal et naviguez "
-"jusqu'au dossier 'ansible' à l'intérieur du dossier de départ de geo::"
+"jusqu'au dossier `ansible` à l'intérieur du dossier de départ de geo::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:24
-#, fuzzy
 msgid "Then run the playbook using the `ansible-playbook` command::"
 msgstr ""
-"Puis exécutez le playbook en utilisant la commande \"ansible-playbook\"::"
+"Puis exécutez le playbook en utilisant la commande `ansible-playbook`::"
 
 #: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:28
 msgid ""
@@ -1246,7 +1205,6 @@ msgstr ""
 "insérer dedans :download:`ce contenu <resources/geonode.conf>`."
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:57
-#, fuzzy
 msgid "Set appropriate permissions on the folders::"
 msgstr "Définissez les autorisations appropriées sur les dossiers::"
 
@@ -1302,7 +1260,6 @@ msgid "Setting PostgreSQL access"
 msgstr "Définition d'accès de PostgreSQL"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:45
-#, fuzzy
 msgid ""
 "Now we are going to change user access policy for local connections in file "
 "pg_hba.conf:::"
@@ -1311,12 +1268,10 @@ msgstr ""
 "les connexions locales au fichier pg_hba.conf:::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:53
-#, fuzzy
 msgid "into::"
-msgstr "vers"
+msgstr "dans::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:64
-#, fuzzy
 msgid ""
 "Once the configuration file has been edited, restart PostgreSQL to make "
 "these changes effective::"
@@ -1329,12 +1284,10 @@ msgid "Create GeoNode Users Databases"
 msgstr "Créer des bases de données utilisateurs GeoNode"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:71
-#, fuzzy
 msgid "Switch to postgres user::"
 msgstr "Basculer vers l'utilisateur postgres::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:75
-#, fuzzy
 msgid ""
 "First create the geonode user. GeoNode is going to use this user to access "
 "the database:::"
@@ -1351,24 +1304,20 @@ msgstr ""
 "geonode comme mot de passe"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:81
-#, fuzzy
 msgid "Create geonode database with owner geonode::"
 msgstr "Créez geonode base de donnée propriétaire geonode::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:85
-#, fuzzy
 msgid "And database geonode_data with owner geonode::"
 msgstr "Et geonode_data de la base de données avec le propriétaire geonode::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:89
-#, fuzzy
 msgid "Create PostGIS extension:::"
 msgstr "Créer l'extension PostGIS:::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:98
-#, fuzzy
 msgid "And exit `postgres` user::"
-msgstr "Et la sortie « postgres » utilisateur::"
+msgstr "Et la sortie `postgres` utilisateur::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:5
 msgid "Tomcat Installation"
@@ -1391,7 +1340,6 @@ msgstr ""
 "x86_64``). Vérifier et voir si Java est déjà installée::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:23
-#, fuzzy
 msgid "Otherwise install it running:::"
 msgstr "Sinon installez-le exécutant:::"
 
@@ -1404,7 +1352,6 @@ msgstr ""
 "informations sur la version installée."
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:29
-#, fuzzy
 msgid ""
 "If java version does not match the  one just installed, run the following "
 "command::"
@@ -1515,16 +1462,14 @@ msgid "Let's install `Tomcat` first::"
 msgstr "Nous allons d'abord installer `Tomcat`::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:112
-#, fuzzy
 msgid ""
 "Then prepare a clean instance called ``base`` to be used as a template for "
 "all tomcat instances::"
 msgstr ""
-"Préparer ensuite une instance propre appelée '' base'' qui sera utilisé "
-"comme modèle pour tous tomcat instances::"
+"Préparer ensuite une instance propre appelée ``base`` qui sera utilisé comme "
+"modèle pour tous tomcat instances::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:118
-#, fuzzy
 msgid "Then create GeoServer's instance directory structure::"
 msgstr "Puis créez la structure du répertoire de GeoServer instance::"
 
@@ -1533,34 +1478,29 @@ msgid "Instance manager script"
 msgstr "Script du gestionnaire instance"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:126
-#, fuzzy
 msgid "Copy the existing management script::"
 msgstr "Copiez le script de gestion existant::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:131
-#, fuzzy
 msgid ""
 "Edit the `EnvironmentFile` variable in service management file as follows::"
 msgstr ""
-"Modifiez la variable « EnvironmentFile » dans le fichier de gestion de "
-"service comme suit::"
+"Modifiez la variable `EnvironmentFile` dans le fichier de gestion de service "
+"comme suit::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:159
-#, fuzzy
 msgid "Create the associated configuration file from template::"
 msgstr "Créer le fichier de configuration associé de modèle::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:163
-#, fuzzy
 msgid ""
 "Edit the configuration file and customize the `CATALINA_HOME` and "
 "`CATALINA_BASE` variables::"
 msgstr ""
-"Modifiez le fichier de configuration et de personnaliser les variables « "
-"CATALINA_HOME » et « CATALINA_BASE »::"
+"Modifiez le fichier de configuration et de personnaliser les variables "
+"`CATALINA_HOME` et `CATALINA_BASE`::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:171
-#, fuzzy
 msgid ""
 "Now copy GeoServer web archive inside the webapps folder. Tomcat will "
 "extract the war file and run GeoServer::"
@@ -1569,17 +1509,14 @@ msgstr ""
 "extraire le fichier war et exécuter GeoServer::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:176
-#, fuzzy
 msgid "And fix the permissions on the files::"
 msgstr "Et fixer les permissions sur les fichiers::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:180
-#, fuzzy
 msgid "Finally start GeoServer::"
 msgstr "Enfin commencer GeoServer::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:184
-#, fuzzy
 msgid "And enable it to automatically start at boot time::"
 msgstr "Et lui permettre de démarrer automatiquement au démarrage::"
 
@@ -1613,13 +1550,11 @@ msgid "Install GeoNode sources from official repository::"
 msgstr "Installer les sources GeoNode du dépôt officiel::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:30
-#, fuzzy
 msgid "Move the sources in `geonode` user home folder::"
 msgstr ""
-"Déplacer les sources dans le dossier de départ de l'utilisateur « geonode »::"
+"Déplacer les sources dans le dossier de départ de l'utilisateur `geonode`::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:34
-#, fuzzy
 msgid "Navigate to sources folder and install required packages::"
 msgstr "Naviguez jusqu'au dossier sources et installez les packages requis::"
 
@@ -1628,34 +1563,31 @@ msgid "Edit settings"
 msgstr "Modifier les paramètres"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:79
-#, fuzzy
 msgid ""
 "Now configure database access: Uncomment the `ENGINE': 'django.contrib.gis."
 "db.backends.postgis` line and comment the one with empty `ENGINE` variable. "
 "Also set the `NAME` variable to `geonode_data`::"
 msgstr ""
-"Maintenant configurer l'accès de la base de données : décommenter le « "
-"moteur »: « django.contrib.gis.db.backends.postgis » ligne et commentaire "
-"celui avec la variable « ENGINE » vide. Également définir la variable « Nom "
-"» à « geonode_data »::"
+"Maintenant configurer l'accès de la base de données décommenter le `ENGINE': "
+"'django.contrib.gis.db.backends.postgis` ligne et commentaire celui avec la "
+"variable `ENGINE` vide. Également définir la variable `NAME` à "
+"`geonode_data`::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:185
 msgid "Initialize GeoNode"
 msgstr "Initialiser le GeoNode"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:187
-#, fuzzy
 msgid ""
 "As user ``geonode``, init the db, by creating the schema tables and "
 "populating the static data:::"
 msgstr ""
-"Comme utilisateur '' geonode'', init la db, en créant les tables du schéma "
-"et en remplissant les données statiques:::"
+"Comme utilisateur ``geonode``, init la db, en créant les tables du schéma et "
+"en remplissant les données statiques:::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:202
-#, fuzzy
 msgid "Create `uploaded` folder::"
-msgstr "Créer le dossier « téléchargé »::"
+msgstr "Créer le dossier `téléchargé`::"
 
 #: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:5
 msgid "Installing the Operating System"
@@ -2178,16 +2110,14 @@ msgid "Ubuntu"
 msgstr "Ubuntu"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:32
-#, fuzzy
 msgid ""
 "Fist configure Ansible `PPA <https://en.wikipedia.org/wiki/"
 "Personal_Package_Archive>`_::"
 msgstr ""
-"Poing configurer Ansible ' PPA <https: en.wikipedia.org/wiki/"
-"personal_package_archive=\"\">' _::</https:>"
+"Poing configurer Ansible `PPA <https://en.wikipedia.org/wiki/"
+"Personal_Package_Archive>`_::"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:37
-#, fuzzy
 msgid "Then update your available software index and install ansible::"
 msgstr ""
 "Ensuite, mettre à jour votre index de logiciels disponibles et installer "
@@ -2202,7 +2132,6 @@ msgid "To test your ansible installation, run the following command"
 msgstr "Pour tester votre installation ansible, exécutez la commande suivante "
 
 #: ..\..\002_install_and_admin\running_ansible.rst:49
-#, fuzzy
 msgid "you need a running SSH server on your machine for this to work::"
 msgstr ""
 "vous avez besoin d'un serveur SSH en cours d'exécution sur votre ordinateur "
@@ -2210,12 +2139,10 @@ msgstr ""
 
 #: ..\..\002_install_and_admin\running_ansible.rst:53
 #: ..\..\002_install_and_admin\running_ansible.rst:65
-#, fuzzy
 msgid "You should get the following output::"
 msgstr "Vous devriez obtenir le résultat suivant::"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:60
-#, fuzzy
 msgid ""
 "To test your ansible installation, run the following command (you need a "
 "running SSH server on your machine for this to work)::"
@@ -2229,16 +2156,14 @@ msgid "Ansible Hosts file"
 msgstr "Fichier Hosts Ansible "
 
 #: ..\..\002_install_and_admin\running_ansible.rst:75
-#, fuzzy
 msgid ""
 "Ansible keeps information about the managed nodes in the `inventory` or "
 "`hosts file`. Edit or create the hosts file::"
 msgstr ""
-"Ansible conserve des informations sur les nœuds gérés dans le « stock » ou « "
-"hosts file ». Modifiez ou créez le fichier hosts::"
+"Ansible conserve des informations sur les nœuds gérés dans le `stock` ou "
+"`hosts file`. Modifiez ou créez le fichier hosts::"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:80
-#, fuzzy
 msgid ""
 "This file contains a list of nodes for Ansible to manage. Nodes can be "
 "referred either with IP or hostname. The syntax is the following:::"
@@ -2247,7 +2172,6 @@ msgstr ""
 "peuvent être désignés avec IP ou nom d'hôte. La syntaxe est la suivante:::"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:87
-#, fuzzy
 msgid "You can also arrange hosts in groups::"
 msgstr "Vous pouvez également réorganiser les hôtes de groupes::"
 
@@ -2264,7 +2188,6 @@ msgstr ""
 "aux nœuds encore et encore,  utiliser des clés SSH est recommandé."
 
 #: ..\..\002_install_and_admin\running_ansible.rst:106
-#, fuzzy
 msgid "To setup Public Key SSH access to the nodes. First create a key pair:::"
 msgstr ""
 "De l'installation publique clé SSH accès aux nœuds. Tout d'abord créer une "
@@ -2308,14 +2231,13 @@ msgid "Connect to managed nodes"
 msgstr "Se connecter à des nœuds gérés"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:125
-#, fuzzy
 msgid ""
 "Now that SSH access to the managed nodes is in place for all the nodes "
 "inside Ansible `inventory` (hosts file) we can run our first command::"
 msgstr ""
 "Maintenant que l'accès SSH aux nœuds gérés est en place pour tous les nœuds "
-"à l'intérieur de Ansible « stock » (fichier hosts) nous pouvons exécuter "
-"notre première commande::"
+"à l'intérieur de Ansible `stock` (fichier hosts) nous pouvons exécuter notre "
+"première commande::"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:132
 msgid "change `geo` with the username to use for SSH login"
@@ -2323,7 +2245,6 @@ msgstr ""
 "changer les `geo` avec le nom d'utilisateur à utiliser pour la connexion SSH"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:134
-#, fuzzy
 msgid "The output will be similar to this:::"
 msgstr "Le résultat sera semblable à ceci:::"
 
@@ -2372,7 +2293,6 @@ msgstr ""
 "hoc. Nous avons tapé dans la ligne de commande et exécuter interactivement."
 
 #: ..\..\002_install_and_admin\running_ansible.rst:161
-#, fuzzy
 msgid "Another example:::"
 msgstr "Un autre exemple :"
 
@@ -2392,7 +2312,6 @@ msgid "File Transfer"
 msgstr "Transfert de fichiers"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:177
-#, fuzzy
 msgid "Another use case for the Ansible command is transfer files over SCP::"
 msgstr ""
 "Un autre cas d'utilisation de la commande Ansible est de transférer des "
@@ -2412,16 +2331,15 @@ msgid "Managing Packages"
 msgstr "Gestion des paquets"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:199
-#, fuzzy
 msgid ""
 "Another use case is installing or upgrading packages on the remote nodes. "
 "You can use the `apt` module to achive this on Debian based systems or the "
 "`yum` module on Red Hat based systems::"
 msgstr ""
 "Un autre cas d'utilisation est installation ou mise à niveau des packages "
-"sur les nœuds distants. Vous pouvez utiliser le module « apt » pour "
-"atteindre ceci sur les systèmes basés sur Debian ou le module « yum » sur "
-"les systèmes Red Hat basé::"
+"sur les nœuds distants. Vous pouvez utiliser le module `apt` pour atteindre "
+"ceci sur les systèmes basés sur Debian ou le module `yum` sur les systèmes "
+"Red Hat basé::"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:205
 msgid ""
@@ -2432,7 +2350,6 @@ msgstr ""
 "système distant (si non présente)."
 
 #: ..\..\002_install_and_admin\running_ansible.rst:208
-#, fuzzy
 msgid ""
 "You can use the same module to make sure a package is at the latest version::"
 msgstr ""
@@ -2444,12 +2361,11 @@ msgid "Managing Services"
 msgstr "Gestion des Services"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:215
-#, fuzzy
 msgid ""
 "Use the `service` module to ensure a given service is started on all "
 "webservers:::"
 msgstr ""
-"Le module « service » permet d'assurer un service donné est démarré sur tous "
+"Le module `service` permet d'assurer un service donné est démarré sur tous "
 "les serveurs Web:::"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:219
@@ -2457,9 +2373,8 @@ msgid "(where `webserver` is a group defined in Ansible Inventory)"
 msgstr "(où `serveur Web` est un groupe défini dans l'inventaire Ansible)"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:221
-#, fuzzy
 msgid "Restart the service:::"
-msgstr "Redémarrer un service"
+msgstr "Redémarrer un service:::"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:225
 msgid "Or stop it::"
@@ -2538,7 +2453,6 @@ msgstr ""
 "format"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:255
-#, fuzzy
 msgid "Here is an example of a Playbook:::"
 msgstr "Voici un exemple d'un Playbook:::"
 
@@ -2659,7 +2573,6 @@ msgid "Run a Playbook"
 msgstr "Exécuter un Playbook"
 
 #: ..\..\002_install_and_admin\running_ansible.rst:316
-#, fuzzy
 msgid ""
 "Now that we have created a sample playbook save it on the file system and "
 "execute it:::"
