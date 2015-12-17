@@ -1,5 +1,6 @@
 .. _setup_admin:
 
+===========
 Setup steps
 ===========
 
@@ -10,8 +11,14 @@ If you are working remotely, you should first connect to the machine that has yo
 .. code-block:: console
     :linenos:
 	
-	$ django-admin startproject my_geonode --template=https://github.com/GeoNode/geonode-project/archive/master.zip -epy,rst
-	$ sudo pip install -e my_geonode
+    $ sudo su
+    $ cd /home/geonode
+    $ disable_local_repo.sh 
+    $ apt-get install python-django
+    $ django-admin startproject geonode_custom --template=https://github.com/GeoNode/geonode-project/archive/master.zip -epy,rst
+    $ chown -Rf geonode: geonode_custom
+    $ exit
+    $ sudo pip install -e geonode_custom
 
 .. note:: You should NOT use the name *geonode* for your project as it will conflict with your default geonode package name.
 
@@ -22,12 +29,12 @@ Make sure that the directories are reachable and have the correct rights for the
 .. code-block:: console
     :linenos:
 	
-	$ chown -Rf geonode: *
-	$ chmod -Rf 775 my_geonode
+    $ sudo chown -Rf geonode: *
+    $ sudo chmod -Rf 775 geonode_custom
 
 If you have a brand new installation of GeoNode, rename the **/home/geonode/geonode/local_settings.py.sample** to **local_settings.py** and edit it's content by setting the SITEURL and SITENAME. This file will be your main settings file for your project. It inherits all the settings from the original one plus you can override the ones that you need. 
 
-.. note:: You can also decide to copy the **/home/geonode/geonode/local_settings.py.sample** to **/path/to/my_geonode/my_geonode/local_settings.py** in order to keep all the custom settings confined into the new project.
+.. note:: You can also decide to copy the **/home/geonode/geonode/local_settings.py.sample** to **/path/to/geonode_custom/geonode_custom/local_settings.py** in order to keep all the custom settings confined into the new project.
 
 .. warning:: In order for the edits to the local_settings.py file to take effect, you have to restart apache.
 
@@ -37,14 +44,21 @@ Edit the file **/etc/apache2/sites-available/geonode.conf** and change the follo
 
 to::
 
-    WSGIScriptAlias / /path/to/my_geonode/my_geonode/wsgi.py
-
-Edit the file **/path/to/my_geonode/my_geonode/wsgi.py** and add the following lines at the beginning:
-
-.. code-block:: python
-   :linenos:
-
-   from django.core.wsgi import get_wsgi_application
+    WSGIScriptAlias / /home/geonode/geonode_custom/geonode_custom/wsgi.py
+    
+.. code-block:: console
+    :linenos:
+	
+    $ sudo vi /etc/apache2/sites-available/geonode.conf
+    
+	  WSGIScriptAlias / /home/geonode/geonode_custom/geonode_custom/wsgi.py
+      
+      ...
+      
+      <Directory "/home/geonode/geonode_custom/geonode_custom/">
+      
+      ...
+      
 
 Edit the file /etc/apache2/sites-available/geonode.conf and modify the **DocumentRoot** as follows:
 
@@ -56,7 +70,7 @@ Edit the file /etc/apache2/sites-available/geonode.conf and modify the **Documen
     <VirtualHost *:80>
         ServerName http://localhost
         ServerAdmin webmaster@localhost
-        DocumentRoot /home/geonode/my_geonode/my_geonode
+        DocumentRoot /home/geonode/geonode_custom/geonode_custom
 
         ErrorLog /var/log/apache2/error.log
         LogLevel warn
@@ -64,9 +78,9 @@ Edit the file /etc/apache2/sites-available/geonode.conf and modify the **Documen
 
         WSGIProcessGroup geonode
         WSGIPassAuthorization On
-        WSGIScriptAlias / /home/geonode/my_geonode/my_geonode/wsgi.py
+        WSGIScriptAlias / /home/geonode/geonode_custom/geonode_custom/wsgi.py
 
-        <Directory "/home/geonode/my_geonode/my_geonode/">
+        <Directory "/home/geonode/geonode_custom/geonode_custom/">
              <Files wsgi.py>
                  Order deny,allow
                  Allow from all
@@ -81,32 +95,37 @@ Edit the file /etc/apache2/sites-available/geonode.conf and modify the **Documen
         
         ...
 
-Then regenerate the static **JavaScript** and **CSS** files from **/path/to/my_geonode/** and restart apache
+Then regenerate the static **JavaScript** and **CSS** files from **/path/to/geonode_custom/** and restart apache
 
 .. code-block:: console
     :linenos:
 
-	$ python manage.py collectstatic
-	$ sudo service apache2 restart
+    $ cd /home/geonode/geonode_custom
+    $ python manage.py collectstatic
+    $ python manage.py syncdb
+    $ /home/geonode/geonode
+    $ sudo pip install -e .
+    $ sudo service apache2 restart
 
 Customize the Look & Feel
--------------------------
+=========================
 
-Now you can edit the templates in **my_geonode/templates**, the css and images to match your needs like shown in :ref:`customize.theme_admin`!
+Now you can edit the templates in **geonode_custom/templates**, the css and images to match your needs like shown in :ref:`customize.theme_admin`!
 
 .. note:: After going through the theming guide you'll have to return to this site to execute one more command in order to finish the theming!
 
-When you've done the changes, run the following command in the *my_geonode* folder:
+When you've done the changes, run the following command in the *geonode_custom* folder:
 
 .. code-block:: console
     :linenos:
 
-	$ python manage.py collectstatic
+    $ cd /home/geonode/geonode_custom
+    $ python manage.py collectstatic
 
 And now you should see all the changes you've made to your GeoNode.
 
 Source code revision control
-----------------------------
+============================
 
 It is recommended that you immediately put your new project under source code revision control. The GeoNode development team uses Git and GitHub and recommends that you do the same. If you do not already have a GitHub account, you can easily set one up. A full review of Git and distributed source code revision control systems is beyond the scope of this tutorial, but you may find the `Git Book`_ useful if you are not already familiar with these concepts.
 
@@ -126,49 +145,67 @@ It is recommended that you immediately put your new project under source code re
 
       *Your new Empty GitHub Repository*
 
-#. Initialize your own repository in the my_geonode folder:
+#. Initialize your own repository in the geonode_custom folder:
 
    .. code-block:: console
       :linenos:
 
-      $ git init
+      $ sudo git init
 
 #. Add the remote repository reference to your local git configuration:
 
    .. code-block:: console
       :linenos:
 
-      $ git remote add 
+      $ sudo git remote add origin <https url of your custom repo>
+      
+        https://github.com/geosolutions-it/geonode_custom.git
 
 #. Add your project files to the repository:
 
    .. code-block:: console
       :linenos:
 
-      $ git add .
+      $ sudo git add .
 
 #. Commit your changes:
 
    .. code-block:: console
       :linenos:
 
-      $ git commit -am "Initial commit"
+        # Those two command must be issued ONLY once
+      $ sudo git config --global user.email "geo@geo-solutions.it"
+      $ sudo git config --global user.name "GeoNode Training"
+      
+      $ sudo git commit -am "Initial commit"
 
 #. Push to the remote repository:
 
    .. code-block:: console
       :linenos:
 
-      $ git push origin master
+      $ sudo git push origin master
+
+===============
+Further Reading
+===============
+
+* If you want more information on how to GitHub works and how to contribute to GeoNode project, go to the section ":ref:`contributing_to_geonode`"
+
+* If you want to customize the Logo and Style of **geonode_custom**, go to the section ":ref:`theme_admin`"
+
+Here below you can find some more details about the custom project structure and info on some of the most important Python files you may want to edit.
+
+The following section is mostly oriented to advanced users and developers.
 
 Project structure
------------------
+=================
 
 Your GeoNode project will now be structured as depicted below::
 
     |-- README.rst
     |-- manage.py
-    |-- my_geonode
+    |-- geonode_custom
     |   |-- __init__.py
     |   |-- settings.py
     |   |-- local_settings.py

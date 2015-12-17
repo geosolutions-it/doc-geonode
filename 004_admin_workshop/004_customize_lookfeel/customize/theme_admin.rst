@@ -10,24 +10,34 @@ Logos and graphics
 
 GeoNode intentionally does not include a large number of graphics files in its interface. This keeps page loading time to a minimum and makes for a more responsive interface. That said, you are free to customize your GeoNode's interface by simply changing the default logo, or by adding your own images and graphics to deliver a GeoNode experience the way you envision int.
 
-Your GeoNode project has a directory already set up for storing your own images at :file:`<my_geonode>/static/img`. You should place any image files that you intend to use for your project in this directory.
+Your GeoNode project has a directory already set up for storing your own images at :file:`<geonode_custom>/static/img`. You should place any image files that you intend to use for your project in this directory.
 
 Let's walk through an example of the steps necessary to change the default logo. 
 
-#. Change into the :file:`img` directory:
+#. Change to the :file:`img` directory:
 
    .. code-block:: console
 
-      $ cd <my_geonode>/static/img
+      $ cd /home/geonode/geonode_custom/geonode_custom/static/img
 
 #. If you haven't already, obtain your logo image. The URL below is just an example, so you will need to change this URL to match the location of your file or copy it to this location:
 
    .. code-block:: console
 
-      $ wget http://www2.sta.uwi.edu/~anikov/UWI-logo.JPG 
-      $ cd ../../..
+      $ sudo wget http://www2.sta.uwi.edu/~anikov/UWI-logo.JPG
+      $ sudo chown -Rf geonode: .
 
-#. Override the CSS that displays the logo by editing :file:`<my_geonode>/static/css/site_base.css` with your favorite editor and adding the following lines, making sure to update the width, height, and URL to match the specifications of your image.
+#. Change to the :file:`css` directory:
+
+   .. code-block:: console
+
+      $ cd /home/geonode/geonode_custom/geonode_custom/static/css
+
+#. Override the CSS that displays the logo by editing :file:`<geonode_custom>/static/css/site_base.css` with your favorite editor and adding the following lines, making sure to update the width, height, and URL to match the specifications of your image.
+
+   .. code-block:: console
+
+      $ sudo vi site_base.css
 
    .. code-block:: css
 
@@ -41,9 +51,11 @@ Let's walk through an example of the steps necessary to change the default logo.
 
    .. code-block:: console
 
-      $ rm -Rf /home/geonode/geonode/geonode/static_root/*
+      $ cd /home/geonode
+      $ sudo rm -Rf geonode/geonode/static_root/*
+      $ cd geonode_custom
       $ python manage.py collectstatic
-      $ service apache2 restart
+      $ sudo service apache2 restart
 
 .. note:: It is a good practice to cleanup the **static_folder** and the Browser Cache before reloading in order to be sure that the changes have been correctly taken and displayed on the screen.
 
@@ -64,7 +76,12 @@ In the last section you already learned how to override GeoNode's default CSS ru
 
 First, we'll walk through the steps necessary to displace it downward so it is no longer hidden, then change the background color of the header to match the color in our logo graphic.
 
-#. Reopen :file:`<my_geonode>/static/css/site_base.css` in your editor and add the following rule after the one added in the previous step:
+#. Reopen :file:`<geonode_custom>/static/css/site_base.css` in your editor and add the following rule after the one added in the previous step:
+
+   .. code-block:: console
+
+      $ cd /home/geonode/geonode_custom/geonode_custom/static/css
+      $ sudo vi site_base.css
 
    .. code-block:: css
 
@@ -103,6 +120,7 @@ First, we'll walk through the steps necessary to displace it downward so it is n
    .. code-block:: console
 
       $ python manage.py collectstatic
+      $ sudo service apache2 restart
 
    .. figure:: ../img/css_overrides.png
 
@@ -120,16 +138,21 @@ Templates and static pages
 
 Now that we have changed the default logo and adjusted our main content area to fit the expanded header, the next step is to update the content of the homepage itself. Your GeoNode project includes two basic templates that you will use to change the content of your pages.
 
-The file :file:`site_base.html` (in :file:`<my_geonode>/templates/`) is the basic template that all other templates inherit from and you will use it to update things like the header, navbar, site-wide announcement, footer, and also to include your own JavaScript or other static content included in every page in your site. It's worth taking a look at `GeoNode's base file on GitHub <https://github.com/GeoNode/geonode/blob/master/geonode/templates/base.html>`_. You have several blocks available to you to for overriding, but since we will be revisiting this file in future sections of this workshop, let's just look at it for now and leave it unmodified.
+The file :file:`site_base.html` (in :file:`<geonode_custom>/templates/`) is the basic template that all other templates inherit from and you will use it to update things like the header, navbar, site-wide announcement, footer, and also to include your own JavaScript or other static content included in every page in your site. It's worth taking a look at `GeoNode's base file on GitHub <https://github.com/GeoNode/geonode/blob/master/geonode/templates/base.html>`_. You have several blocks available to you to for overriding, but since we will be revisiting this file in future sections of this workshop, let's just look at it for now and leave it unmodified.
 
-Open :file:`<my_geonode>/templates/site_base.html` in your editor:
+Open :file:`<geonode_custom>/templates/site_base.html` in your editor:
 
-.. code-block:: html
+   .. code-block:: console
 
-   {% extends "base.html" %}
-   {% block extra_head %}
-       <link href="{{ STATIC_URL }}css/site_base.css" rel="stylesheet"/>
-   {% endblock %}
+      $ cd /home/geonode/geonode_custom/geonode_custom/templates
+      $ sudo vi site_base.html
+      
+    .. code-block:: html
+
+       {% extends "base.html" %}
+       {% block extra_head %}
+           <link href="{{ STATIC_URL }}css/site_base.css" rel="stylesheet"/>
+       {% endblock %}
 
 You will see that it extends from :file:`base.html`, which is the GeoNode template referenced above and it currently only overrides the ``extra_head`` block to include our project's :file:`site_base.css` which we modified in the previous section. You can see on `line 22 of the GeoNode base.html template <https://github.com/GeoNode/geonode/blob/master/geonode/templates/base.html#L22>`_ that this block is included in an empty state and is set up specifically for you to include extra CSS files as your project is already set up to do.  
 
@@ -139,7 +162,7 @@ The file :file:`site_index.html` is the template used to define your GeoNode pro
 
 .. todo:: "hero area"?
 
-#. Open :file:`<my_geonode>/templates/site_index.html` in your editor.
+#. Open :file:`<geonode_custom>/templates/site_index.html` in your editor.
 
 #. Edit the ``<h1>`` element on line 9 to say something other than "Welcome":
 
@@ -210,6 +233,7 @@ The file :file:`site_index.html` is the template used to define your GeoNode pro
    .. code-block:: html
 
       $ python manage.py collectstatic
+      $ sudo service apache2 restart
 
    .. figure:: ../img/homepage.png
 
@@ -230,9 +254,18 @@ Bootswatch
 
    .. figure:: ../img/bootswatch.png
 
-#. Put this file in :file:`<my_geonode>/static/css`.
+#. Put this file into :file:`<geonode_custom>/static/css`.
+
+   .. code-block:: console
+
+      $ cd /home/geonode/geonode_custom/geonode_custom/static/css
 
 #. Update the :file:`site_base.html` template to include this file. It should now look like this:
+
+   .. code-block:: console
+
+      $ cd /home/geonode/geonode_custom/geonode_custom/templates
+      $ sudo vi site_base.html
 
    .. code-block:: html
 
@@ -247,6 +280,7 @@ Bootswatch
    .. code-block:: html
 
       $ python manage.py collectstatic
+      $ sudo service apache2 restart
 
    .. figure:: ../img/bootswatch_geonode.png
 

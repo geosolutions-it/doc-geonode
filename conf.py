@@ -260,10 +260,10 @@ epub_copyright = u'2015, GeoNode Development Team'
 #epub_exclude_files = []
 
 # The depth of the table of contents in toc.ncx.
-#epub_tocdepth = 3
+epub_tocdepth = 5
 
 # Allow duplicate toc entries.
-#epub_tocdup = True
+epub_tocdup = True
 
 #def setup(app):
  #   from _ext import django_model_fields

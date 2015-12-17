@@ -22,6 +22,7 @@ This module will introduce you to the components that GeoNode is built with, the
     005_devel_debug/index
     006_geonode_apis/index
     007_geonode_testing/index
+    008_contribute_geonode/index
 
 :ref:`intro_devel`
     This module will introduce you to the components that GeoNode is built with, the standards that it supports and the services it provides based on those standards, and an overview its architecture.
@@ -53,3 +54,6 @@ This module will introduce you to the components that GeoNode is built with, the
 
 :ref:`geonode_testing`
     This section explain how to run the tests on GeoNode.
+
+:ref:`contributing_to_geonode`
+    Basic concepts about GitHub OpenSource Projects and best practices.
