@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-17 15:16+0100\n"
-"PO-Revision-Date: 2015-12-17 15:30+0100\n"
+"PO-Revision-Date: 2015-12-17 16:36+0100\n"
 "Last-Translator: Daniele Romagnoli <daniele.romagnoli@geo-solutions.it>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-"
 "documentation/language/fr/)\n"
@@ -706,7 +706,6 @@ msgstr ""
 "besoin."
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:37
-#, fuzzy
 msgid ""
 "You can also decide to copy the **/home/geonode/geonode/local_settings.py."
 "sample** to **/path/to/geonode_custom/geonode_custom/local_settings.py** in "
@@ -768,14 +767,13 @@ msgid "Customize the Look & Feel"
 msgstr "Personnaliser le Look & Feel"
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:113
-#, fuzzy
 msgid ""
 "Now you can edit the templates in **geonode_custom/templates**, the css and "
 "images to match your needs like shown in :ref:`customize.theme_admin`!"
 msgstr ""
-"Maintenant, vous pouvez modifier les modèles dans ** geonode_custom / "
-"modèles **, les css et les images pour assortir vos besoins comme montré "
-"dans : ref:'customize.theme_admin' !"
+"Maintenant, vous pouvez modifier les modèles dans **geonode_custom / "
+"modèles**, les css et les images pour assortir vos besoins comme montré "
+"dans :ref:`customize.theme_admin`!"
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:115
 msgid ""
@@ -786,13 +784,12 @@ msgstr ""
 "exécuter une autre commande pour terminer la thématisation!"
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:117
-#, fuzzy
 msgid ""
 "When you've done the changes, run the following command in the "
 "*geonode_custom* folder:"
 msgstr ""
 "Lorsque vous avez terminé les modifications, exécutez la commande suivante "
-"la * dossier de geonode_custom :"
+"la dossier de geonode_custom :"
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:125
 msgid "And now you should see all the changes you've made to your GeoNode."
@@ -843,7 +840,6 @@ msgid "*Your new Empty GitHub Repository*"
 msgstr "*Votre nouveau dépôt GitHub vide*"
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:148
-#, fuzzy
 msgid "Initialize your own repository in the geonode_custom folder:"
 msgstr "Initialiser votre propre référentiel dans le dossier geonode_custom :"
 
@@ -869,26 +865,23 @@ msgid "Further Reading"
 msgstr "Voir aussi"
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:193
-#, fuzzy
 msgid ""
 "If you want more information on how to GitHub works and how to contribute to "
 "GeoNode project, go to the section \":ref:`contributing_to_geonode`\""
 msgstr ""
 "Si vous souhaitez plus d'informations sur la façon de GitHub fonctionne et "
-"comment contribuer au projet GeoNode, allez à la section \": ref: « "
-"contributing_to_geonode »\""
+"comment contribuer au projet GeoNode, allez à la section \":ref:"
+"`contributing_to_geonode`\""
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:195
-#, fuzzy
 msgid ""
 "If you want to customize the Logo and Style of **geonode_custom**, go to the "
 "section \":ref:`theme_admin`\""
 msgstr ""
-"Si vous souhaitez personnaliser le Logo et le Style de ** geonode_custom **, "
-"rendez-vous dans la section \": ref: « theme_admin »\""
+"Si vous souhaitez personnaliser le Logo et le Style de **geonode_custom**, "
+"rendez-vous dans la section \":ref:`theme_admin`\""
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:197
-#, fuzzy
 msgid ""
 "Here below you can find some more details about the custom project structure "
 "and info on some of the most important Python files you may want to edit."
@@ -898,7 +891,6 @@ msgstr ""
 "Python que vous pouvez modifier."
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:199
-#, fuzzy
 msgid ""
 "The following section is mostly oriented to advanced users and developers."
 msgstr ""
@@ -1170,16 +1162,15 @@ msgstr ""
 "GeoNode experience la façon dont vous l'envisagez."
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:13
-#, fuzzy
 msgid ""
 "Your GeoNode project has a directory already set up for storing your own "
 "images at :file:`<geonode_custom>/static/img`. You should place any image "
 "files that you intend to use for your project in this directory."
 msgstr ""
 "Votre projet de GeoNode a un répertoire déjà mis en place pour le stockage "
-"de vos images à: fichier: «<geonode_custom>/statique/img ». Vous devrez "
-"placer tous les fichiers image que vous souhaitez utiliser pour votre projet "
-"dans ce répertoire.</geonode_custom>"
+"de vos images à :file:`<geonode_custom>/static/img`. Vous devrez placer tous "
+"les fichiers image que vous souhaitez utiliser pour votre projet dans ce "
+"répertoire."
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:15
 msgid ""
@@ -1190,9 +1181,8 @@ msgstr ""
 "défaut."
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:17
-#, fuzzy
 msgid "Change to the :file:`img` directory:"
-msgstr "Mettre en place le : file:'img' annuaire :"
+msgstr "Mettre en place le :file:`img` annuaire :"
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:23
 msgid ""
@@ -1205,23 +1195,20 @@ msgstr ""
 "correspondre à l'emplacement de votre fichier ou le copier à cet emplacement:"
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:30
-#, fuzzy
 msgid "Change to the :file:`css` directory:"
-msgstr "Mettre en place le : répertoire des file:'css :"
+msgstr "Mettre en place le répertoire des :file:`css`:"
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:36
-#, fuzzy
 msgid ""
 "Override the CSS that displays the logo by editing :file:`<geonode_custom>/"
 "static/css/site_base.css` with your favorite editor and adding the following "
 "lines, making sure to update the width, height, and URL to match the "
 "specifications of your image."
 msgstr ""
-"Substituer le CSS qui affiche le logo de l'édition : "
-"fichier:'<geonode_custom>/static/css/site_base.css' avec votre éditeur "
-"favori et ajoutant les lignes suivantes, en veillant à mettre à jour la "
-"largeur, la hauteur et les URL pour correspondre aux spécifications de votre "
-"image.</geonode_custom>"
+"Substituer le CSS qui affiche le logo de l'édition :file:`<geonode_custom>/"
+"static/css/site_base.css` avec votre éditeur favori et ajoutant les lignes "
+"suivantes, en veillant à mettre à jour la largeur, la hauteur et les URL "
+"pour correspondre aux spécifications de votre image."
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:50
 msgid "Restart your GeoNode project and look at the page in your browser:"
@@ -1300,14 +1287,13 @@ msgstr ""
 "graphique."
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:79
-#, fuzzy
 msgid ""
 "Reopen :file:`<geonode_custom>/static/css/site_base.css` in your editor and "
 "add the following rule after the one added in the previous step:"
 msgstr ""
-"Réouverture : fichier:'<geonode_custom>/static/css/site_base.css' dans votre "
+"Réouverture :file:`<geonode_custom>/static/css/site_base.css` dans votre "
 "éditeur et ajouter la règle suivante après celui ajouté à l'étape "
-"précédente :</geonode_custom>"
+"précédente :"
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:92
 msgid ""
@@ -1383,13 +1369,22 @@ msgid ""
 "but since we will be revisiting this file in future sections of this "
 "workshop, let's just look at it for now and leave it unmodified."
 msgstr ""
+"Le fichier :file:`site_base.html` (en :file:`<geonode_custom>/templates/`) "
+"est le modèle de base que tous les autres modèles héritent de et vous "
+"l'utiliser pour mettre à jour des choses comme l'en-tête, barre de "
+"navigation, site- grande annonce, pied de page, et aussi pour inclure vos "
+"propres JavaScript ou autre contenu statique inclus dans chaque page de "
+"votre site. Il vaut la peine de jeter un oeil à `le fichier de base de "
+"GeoNode sur GitHub <https://github.com/GeoNode/geonode/blob/master/geonode/"
+"templates/base.html>`_. Vous disposez de plusieurs blocs à votre disposition "
+"pour pour des raisons impérieuses, mais puisque nous allons réexaminer ce "
+"dossier dans les sections futures de cet atelier, nous allons simplement "
+"regarder pour l'instant et de le laisser non modifiée."
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:143
-#, fuzzy
 msgid "Open :file:`<geonode_custom>/templates/site_base.html` in your editor:"
 msgstr ""
-"Ouvert : fichier:'<geonode_custom>/templates/site_base.html' dans votre "
-"éditeur :</geonode_custom>"
+"Ouvert :file:`<geonode_custom>/templates/site_base.html` dans votre éditeur :"
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:157
 msgid ""
@@ -1439,11 +1434,10 @@ msgstr ""
 "étapes nécessaires pour le faire ci-dessous."
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:165
-#, fuzzy
 msgid "Open :file:`<geonode_custom>/templates/site_index.html` in your editor."
 msgstr ""
-"Ouvert : fichier:'<geonode_custom>/templates/site_index.html' dans votre "
-"éditeur de.</geonode_custom>"
+"Ouvert :file:`<geonode_custom>/templates/site_index.html` dans votre éditeur "
+"de."
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:167
 msgid ""
@@ -1542,11 +1536,8 @@ msgstr ""
 "option de téléchargement\"dans le menu :"
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:257
-#, fuzzy
 msgid "Put this file into :file:`<geonode_custom>/static/css`."
-msgstr ""
-"Placez ce fichier dans : fichier:'<geonode_custom>/statique/css'.</"
-"geonode_custom>"
+msgstr "Placez ce fichier dans :file:`<geonode_custom>/static/css`."
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:263
 msgid ""
@@ -1998,14 +1989,12 @@ msgstr ""
 "nouvelles traductions de GeoNode."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:4
-#, fuzzy
 msgid "Using GDAL and OGR to convert your Data for use in GeoNode"
 msgstr ""
 "Utilisation de GDAL et OGR pour convertir vos données pour une utilisation "
 "dans GeoNode"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:6
-#, fuzzy
 msgid ""
 "GeoNode supports uploading data in shapefiles, GeoTiff, csv and kml formats "
 "(for the last two formats only if you are using the geonode.importer backend "
@@ -2024,7 +2013,6 @@ msgstr ""
 "GeoNode."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:8
-#, fuzzy
 msgid ""
 "You will need to make sure that you have the gdal library installed on your "
 "system. On Ubuntu you can install this package with the following command::"
@@ -2034,12 +2022,10 @@ msgstr ""
 "commande suivante ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:13
-#, fuzzy
 msgid "OGR (Vector Data)"
 msgstr "OGR (données vectorielles)"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:15
-#, fuzzy
 msgid ""
 "OGR is used to manipulate vector data. In this example, we will use MapInfo ."
 "tab files and convert them to shapefiles with the ogr2ogr command. We will "
@@ -2051,30 +2037,26 @@ msgstr ""
 "échantillons à partir du site lié ci-dessous."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:17
-#, fuzzy
 msgid ""
 "http://services.land.vic.gov.au/landchannel/content/help?name=sampledata"
 msgstr ""
 "http://services.land.vic.gov.au/landchannel/content/help?name=sampledata"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:19
-#, fuzzy
 msgid ""
 "You can download the Admin;(Postcode) layer by issuing the following "
 "command::"
 msgstr ""
-"Vous pouvez télécharger l'administrateur; (Code Postal) couche en lançant la "
-"commande suivante ::"
+"Vous pouvez télécharger l' Admin;(Postcode) couche en lançant la commande "
+"suivante ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:23
-#, fuzzy
 msgid "You will need to unzip this dataset by issuing the following command::"
 msgstr ""
 "Vous aurez besoin de décompresser ce jeu de données en exécutant la commande "
 "suivante ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:27
-#, fuzzy
 msgid ""
 "This will leave you with the following files in the directory where you "
 "executed the above commands::"
@@ -2083,19 +2065,16 @@ msgstr ""
 "exécuté les commandes ci-dessus ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:43
-#, fuzzy
 msgid "First, lets inspect this file set using the following command::"
 msgstr ""
 "D'abord, permet d'inspecter cet ensemble de fichiers en utilisant la "
 "commande suivante ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:47
-#, fuzzy
 msgid "The output will look like the following::"
 msgstr "La sortie ressemblera à ce qui suit ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:82
-#, fuzzy
 msgid ""
 "This gives you information about the number of features, the extent, the "
 "projection and the attributes of this layer."
@@ -2104,7 +2083,6 @@ msgstr ""
 "mesure, la projection et les attributs de cette couche."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:84
-#, fuzzy
 msgid ""
 "Next, lets go ahead and convert this layer into a shapefile by issuing the "
 "following command::"
@@ -2113,7 +2091,6 @@ msgstr ""
 "de formes en tapant la commande suivante ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:88
-#, fuzzy
 msgid ""
 "Note that we have also reprojected the layer to the WGS84 spatial reference "
 "system with the -t_srs ogr2ogr option."
@@ -2122,12 +2099,10 @@ msgstr ""
 "WGS84 spatiale avec les -t_srs ogr2ogr option."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:90
-#, fuzzy
 msgid "The output of this command will look like the following::"
 msgstr "La sortie de cette commande va ressembler à la suivante ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:97
-#, fuzzy
 msgid ""
 "This output indicates that some of the field names were truncated to fit "
 "into the constraint that attributes in shapefiles are only 10 characters "
@@ -2138,7 +2113,6 @@ msgstr ""
 "seulement 10 caractères de long."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:99
-#, fuzzy
 msgid ""
 "You will now have a set of files that make up the postcode_polygon.shp "
 "shapefile set. We can inspect them by issuing the following command::"
@@ -2148,7 +2122,6 @@ msgstr ""
 "commande suivante ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:103
-#, fuzzy
 msgid ""
 "The output will look similar to the output we saw above when we inspected "
 "the MapInfo file we converted from::"
@@ -2157,7 +2130,6 @@ msgstr ""
 "avons inspecté le fichier MapInfo nous avons converti à partir ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:127
-#, fuzzy
 msgid ""
 "These files can now be loaded into your GeoNode instance via the normal "
 "uploader."
@@ -2166,7 +2138,6 @@ msgstr ""
 "via l'uploader normale."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:129
-#, fuzzy
 msgid ""
 "Visit the upload page in your GeoNode, drag and drop the files that composes "
 "the shapefile that you have generated using the GDAL ogr2ogr command "
@@ -2181,7 +2152,6 @@ msgstr ""
 "nécessaire, puis cliquez sur le \"Ajouter des fichiers\" bouton."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:133
-#, fuzzy
 msgid ""
 "As soon as the import process completes, you will have the possibility to go "
 "straight to the layer info page (\"Layer Info\" button), or to edit the "
@@ -2195,12 +2165,10 @@ msgstr ""
 "styles\")."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:138
-#, fuzzy
 msgid "GDAL (Raster Data)"
 msgstr "GDAL (données raster)"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:140
-#, fuzzy
 msgid ""
 "Now that we have seen how to convert vector layers into shapefiles using "
 "ogr2ogr, we will walk through the steps necessary to perform the same "
@@ -2216,7 +2184,6 @@ msgstr ""
 "utilisation dans GeoNode."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:142
-#, fuzzy
 msgid ""
 "First, you need to download the sample data to work with it. You can do this "
 "by executing the following command::"
@@ -2226,20 +2193,17 @@ msgstr ""
 "suivante ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:146
-#, fuzzy
 msgid "You will need to uncompress this file by executing this command::"
 msgstr ""
 "Vous aurez besoin de décompresser ce fichier en exécutant cette commande ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:150
-#, fuzzy
 msgid "You will be left with the following files on your filesystem::"
 msgstr ""
 "Vous serez à gauche avec les fichiers suivants sur votre système de "
 "fichiers ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:162
-#, fuzzy
 msgid ""
 "The file batemans_elevation.asc is an Arc/Info ASCII Grid file and the files "
 "in the batemans_ele directory are an Arc/Info Binary Grid file."
@@ -2249,7 +2213,6 @@ msgstr ""
 "Binary Grid."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:164
-#, fuzzy
 msgid ""
 "You can use the gdalinfo command to inspect both of these files by executing "
 "the following command::"
@@ -2258,12 +2221,10 @@ msgstr ""
 "exécutant la commande suivante ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:168
-#, fuzzy
 msgid "The output should look like the following::"
 msgstr "La sortie devrait ressembler à ce qui suit ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:185
-#, fuzzy
 msgid ""
 "You can then inspect the batemans_ele files by executing the following "
 "command::"
@@ -2272,12 +2233,10 @@ msgstr ""
 "commande suivante ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:189
-#, fuzzy
 msgid "And this should be the corresponding output::"
 msgstr "Et cela devrait être la sortie correspondante ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:233
-#, fuzzy
 msgid ""
 "You will notice that the batemans_elevation.asc file does *not* contain "
 "projection information while the batemans_ele file does. Because of this, "
@@ -2286,7 +2245,7 @@ msgid ""
 "the process. This can be accomplished with the following command."
 msgstr ""
 "Vous remarquerez que le fichier * batemans_elevation.asc ne pas contenir "
-"d'informations * de projection tandis que le fichier batemans_ele fait. Pour "
+"d'informations de projection tandis que le fichier batemans_ele fait. Pour "
 "cette raison, vous permet d'utiliser les fichiers de batemans_ele pour cet "
 "exercice et de les convertir à un GeoTiff pour une utilisation dans GeoNode. "
 "Nous allons également reprojeter ce fichier dans WGS84 dans le processus. "
@@ -2297,7 +2256,6 @@ msgid "$ gdalwarp -t_srs EPSG:4326 batemans_ele batemans_ele.tif"
 msgstr "$ gdalwarp -t_srs EPSG:4326 batemans_ele batemans_ele.tif"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:237
-#, fuzzy
 msgid ""
 "The output will show you the progress of the conversion and when it is "
 "complete, you will be left with a batemans_ele.tif file that you can upload "
@@ -2308,7 +2266,6 @@ msgstr ""
 "pouvez télécharger sur votre GeoNode."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:239
-#, fuzzy
 msgid "You can inspect this file with the gdalinfo command::"
 msgstr "Vous pouvez inspecter ce fichier avec la commande gdalinfo ::"
 
@@ -2317,7 +2274,6 @@ msgid "Which will produce the following output::"
 msgstr "Qui va produire la sortie suivante ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:271
-#, fuzzy
 msgid ""
 "You can then follow the same steps we used above to upload the GeoTiff file "
 "we created into the GeoNode, and you will see your layer displayed in the "
@@ -2328,7 +2284,6 @@ msgstr ""
 "verrez votre couche affiché dans la page d'informations du calque."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:275
-#, fuzzy
 msgid ""
 "Now that you have seen how to convert layers with both OGR and GDAL, you can "
 "use these techniques to work with your own data and get it prepared for "
@@ -2339,7 +2294,6 @@ msgstr ""
 "données et obtenir préparé pour inclusion dans votre propre GeoNode."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:4
-#, fuzzy
 msgid "GeoServer Data Configuration"
 msgstr "Configuration des données de GeoServer"
 
@@ -2357,7 +2311,6 @@ msgstr ""
 "charge par le téléchargement des données."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:8
-#, fuzzy
 msgid ""
 "GeoServer supports a wide range of data formats and connections to database, "
 "and while many of them are not supported as GeoNode upload formats, if they "
@@ -2371,7 +2324,6 @@ msgstr ""
 "suivant la procédure décrite ci-dessous."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:10
-#, fuzzy
 msgid ""
 "GeoServer supports 3 types of data: Raster, Vector and Databases. For a list "
 "of the supported formats for each type of data, consult the following pages:"
@@ -2381,24 +2333,20 @@ msgstr ""
 "consultez les pages suivantes:"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:12
-#, fuzzy
 msgid ""
 "http://docs.geoserver.org/latest/en/user/data/vector/index.html#data-vector"
 msgstr ""
 "http://docs.geoserver.org/latest/en/user/data/vector/index.html#data-vector"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:13
-#, fuzzy
 msgid "http://docs.geoserver.org/latest/en/user/data/raster/index.html"
 msgstr "http://docs.geoserver.org/latest/en/user/data/raster/index.html"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:14
-#, fuzzy
 msgid "http://docs.geoserver.org/latest/en/user/data/database/index.html"
 msgstr "http://docs.geoserver.org/latest/en/user/data/database/index.html"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:16
-#, fuzzy
 msgid ""
 "Some of these raster or vector formats or database types require that you "
 "install specific plugins in your GeoServer in order to use the. Please "
@@ -2410,7 +2358,6 @@ msgstr ""
 "GeoServer pour plus d'informations."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:18
-#, fuzzy
 msgid ""
 "Lets walk through an example of configuring a new PostGIS database in "
 "GeoServer and then configuring those layers in your GeoNode."
@@ -2420,17 +2367,15 @@ msgstr ""
 "votre GeoNode."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:20
-#, fuzzy
 msgid ""
 "First visit the GeoServer administration interface on your server. This is "
 "usually on port 8080 and is available at http://localhost:8080/geoserver/web/"
 msgstr ""
 "Première visite l'interface d'administration GeoServer sur votre serveur. "
-"Cela est généralement sur le port 8080 et est disponible à l'adresse "
-"http: // localhost: 8080 / geoserver / web /"
+"Cela est généralement sur le port 8080 et est disponible à l'adresse http://"
+"localhost:8080/geoserver/web/"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:22
-#, fuzzy
 msgid ""
 "You should login with the superuser credentials you setup when you first "
 "configured your GeoNode instance."
@@ -2439,7 +2384,6 @@ msgstr ""
 "vous de configuration lorsque vous avez configuré votre instance de GeoNode."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:24
-#, fuzzy
 msgid ""
 "Once you are logged in to the GeoServer Admin interface, you should see the "
 "following."
@@ -2448,7 +2392,6 @@ msgstr ""
 "vous devriez voir ce qui suit."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:28
-#, fuzzy
 msgid ""
 "The number of stores, layers and workspaces may be different depending on "
 "what you already have configured in your GeoServer."
@@ -2458,7 +2401,6 @@ msgstr ""
 "GeoServer."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:30
-#, fuzzy
 msgid ""
 "Next you want to select the \"Stores\" option in the left hand menu, and "
 "then the \"Add new Store\" option. The following screen will be displayed."
@@ -2468,7 +2410,6 @@ msgstr ""
 "sera affiché."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:34
-#, fuzzy
 msgid ""
 "In this case, we want to select the PostGIS store type to create a "
 "connection to our existing database. On the next screen you will need to "
@@ -2485,7 +2426,6 @@ msgid "If you are unsure about any of the settings, leave them as the default."
 msgstr "Si vous n'êtes pas sûr de l'un des paramètres, les laisser par défaut."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:40
-#, fuzzy
 msgid ""
 "The next screen lets you configure the layers in your database. This will of "
 "course be different depending on the layers in your database."
@@ -2495,7 +2435,6 @@ msgstr ""
 "données."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:44
-#, fuzzy
 msgid ""
 "Select the \"Publish\" button for one of the layers and the next screen will "
 "be displayed where you can enter metadata for this layer. Since we will be "
@@ -2507,18 +2446,16 @@ msgstr ""
 "seuls pour l'instant."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:48
-#, fuzzy
 msgid ""
 "The things that *must* be specified are the Declared SRS and you must select "
 "the \"Compute from Data\" and \"Compute from native bounds\" links after the "
 "SRS is specified."
 msgstr ""
-"Les choses qui * doit * être spécifiés sont les SRS déclaré et vous devez "
+"Les choses qui *doit* être spécifiés sont les SRS déclaré et vous devez "
 "sélectionner le \"calculer à partir de données» et «calculer à partir des "
 "bornes indigènes\" liens après la SRS est spécifié."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:52
-#, fuzzy
 msgid ""
 "Click save and this layer will now be configured for use in your GeoServer."
 msgstr ""
@@ -2526,7 +2463,6 @@ msgstr ""
 "une utilisation dans votre GeoServer."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:56
-#, fuzzy
 msgid ""
 "The next step is to configure these layers in GeoNode. The updatelayers "
 "management command is used for this purpose. As with importlayers, its "
@@ -2539,12 +2475,10 @@ msgstr ""
 "cette commande en passant l'option --help ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:60
-#, fuzzy
 msgid "This help option displays the following::"
 msgstr "Cette option d'aide affiche les éléments suivants ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:86
-#, fuzzy
 msgid ""
 "For this sample, we can use the default options. So enter the following "
 "command to configure the layers from our GeoServer into our GeoNode::"
@@ -2554,12 +2488,10 @@ msgstr ""
 "notre GeoNode ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:90
-#, fuzzy
 msgid "The output will look something like the following::"
 msgstr "La sortie ressemblera à quelque chose comme ce qui suit ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:112
-#, fuzzy
 msgid ""
 "This example picked up 2 additional layers that were already in our "
 "GeoServer, but were not already in our GeoNode."
@@ -2568,7 +2500,6 @@ msgstr ""
 "GeoServer, mais ne faisait pas déjà dans notre GeoNode."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:114
-#, fuzzy
 msgid ""
 "For layers that already exist in your GeoNode, they will be updated and the "
 "configuration synchronized between GeoServer and GeoNode."
@@ -2577,18 +2508,15 @@ msgstr ""
 "et la configuration synchronisées entre GeoServer et GeoNode."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:116
-#, fuzzy
 msgid "You can now view and use these layers in your GeoNode."
 msgstr ""
 "Vous pouvez désormais visualiser et utiliser ces couches dans votre GeoNode."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:4
-#, fuzzy
 msgid "Using importlayers to import Data into GeoNode"
 msgstr "Utilisation importlayers importer des données dans GeoNode"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:6
-#, fuzzy
 msgid ""
 "The geonode.layers app includes 2 management commands that you can use to "
 "load or configure data in your GeoNode. Both of these are invoked by using "
@@ -2604,7 +2532,6 @@ msgstr ""
 "d'utilisation updatelayers."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:9
-#, fuzzy
 msgid ""
 "The first thing to do is to use the --help option to the importlayers "
 "command to investigate the options to this management command. You can "
@@ -2615,12 +2542,10 @@ msgstr ""
 "gestion. Vous pouvez afficher l'aide en exécutant la commande suivante ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:13
-#, fuzzy
 msgid "This will produce output that looks like the following::"
 msgstr "Cela va produire une sortie qui ressemble à ce qui suit ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:43
-#, fuzzy
 msgid ""
 "While the description of most of the options should be self explanatory, its "
 "worth reviewing some of the key options in a bit more detail."
@@ -2630,7 +2555,6 @@ msgstr ""
 "peu plus de détails."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:46
-#, fuzzy
 msgid ""
 "The -i option will force the command to stop when it first encounters an "
 "error. Without this option specified, the process will skip over errors that "
@@ -2641,7 +2565,6 @@ msgstr ""
 "couches et continuer à charger les autres couches."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:47
-#, fuzzy
 msgid ""
 "The -o option specifies that layers with the same name as the base name will "
 "be loaded and overwrite the existing layer."
@@ -2650,7 +2573,6 @@ msgstr ""
 "seront chargés et écrasent la couche existante."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:48
-#, fuzzy
 msgid ""
 "The -u option specifies which will be the user that owns the imported "
 "layers. The same user will be the point of contact and the metadata author "
@@ -2661,14 +2583,12 @@ msgstr ""
 "métadonnées ainsi que pour la couche"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:49
-#, fuzzy
 msgid "The -k option is used to add keywords for all of the layers imported."
 msgstr ""
 "L'option -k est utilisé pour ajouter des mots clés pour l'ensemble des "
 "couches importées."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:51
-#, fuzzy
 msgid ""
 "The import layers management command is invoked by specifying options as "
 "described above and specifying the path to a single layer file or to a "
@@ -2684,12 +2604,10 @@ msgstr ""
 "avec le répertoire pour vos propres fichiers de formes ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:55
-#, fuzzy
 msgid "This command will produce the following output to your terminal::"
 msgstr "Cette commande va produire la sortie suivante à votre terminal ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:80
-#, fuzzy
 msgid ""
 "If you encounter errors while running this command, you can use the -v "
 "option to increase the verbosity of the output so you can debug the problem. "
@@ -2705,7 +2623,6 @@ msgstr ""
 "représenté ci-dessous ::"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:121
-#, fuzzy
 msgid ""
 "This last section of output will be repeated for all layers, and only the "
 "first one is show above."
@@ -2714,7 +2631,6 @@ msgstr ""
 "seul le premier est de montrer ci-dessus."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:123
-#, fuzzy
 msgid ""
 "This error indicates that GeoNode was unable to connect to GeoServer to load "
 "the layers. To solve this, you should make sure GeoServer is running and re-"
@@ -2725,7 +2641,6 @@ msgstr ""
 "GeoServer est en marche et ré-exécutez la commande."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:125
-#, fuzzy
 msgid ""
 "If you encounter errors with this command that you cannot solve, you should "
 "bring them up on the geonode users mailing list."
@@ -2735,7 +2650,6 @@ msgstr ""
 "de diffusion."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:127
-#, fuzzy
 msgid ""
 "You should now have the knowledge necessary to import layers into your "
 "GeoNode project from a directory on the servers filesystem and can use this "
@@ -2747,7 +2661,6 @@ msgstr ""
 "couches dans votre GeoNode à la fois."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:129
-#, fuzzy
 msgid ""
 "If you do not use the -u command option, the ownership of the imported "
 "layers will be assigned to the primary superuser in your system. You can use "
@@ -2760,13 +2673,11 @@ msgstr ""
 "fait, si vous voulez qu'ils soient détenus par un autre utilisateur."
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\index.rst:4
-#, fuzzy
 msgid "Loading Data into a GeoNode"
 msgstr "Chargement des données dans un GeoNode"
 
 #: ..\..\004_admin_workshop\007_loading_data_into_geonode\index.rst:6
 #: ..\..\004_admin_workshop\index.rst:59
-#, fuzzy
 msgid ""
 "This module will walk you through the various options available to load data "
 "into your GeoNode from GeoServer, on the command-line or programatically. "
@@ -2789,7 +2700,6 @@ msgstr "Sécurité et autorisations"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:7
 #: ..\..\004_admin_workshop\index.rst:62
-#, fuzzy
 msgid ""
 "This tutorial will guide you through the steps that can be done in order to "
 "restrict the access on your data uploaded to geonode."
@@ -2799,7 +2709,6 @@ msgstr ""
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:10
 #: ..\..\004_admin_workshop\index.rst:64
-#, fuzzy
 msgid ""
 "First of all it will be shown how a user can be created and what permissions "
 "he can have. Secondly we will take a closer look on to layers, maps and "
@@ -2813,7 +2722,6 @@ msgstr ""
 "documents."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:17
-#, fuzzy
 msgid ""
 "Your first step will be to create a user. There are three options to do so, "
 "depending on which kind of user you want to create you may choose a "
@@ -2823,13 +2731,12 @@ msgid ""
 msgstr ""
 "Votre première étape sera de créer un utilisateur. Il existe trois options "
 "pour ce faire, selon le type d'utilisateur que vous souhaitez créer, vous "
-"pouvez choisir une option différente. Nous allons commencer par créer un * "
-"super-utilisateur *, parce que cet utilisateur est le plus important. Un "
+"pouvez choisir une option différente. Nous allons commencer par créer un "
+"*super-utilisateur*, parce que cet utilisateur est le plus important. Un "
 "super-utilisateur possède toutes les autorisations sans assigner "
 "explicitement."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:21
-#, fuzzy
 msgid ""
 "The easiest way to create a superuser (in linux) is to open your terminal "
 "and type::"
@@ -2838,13 +2745,12 @@ msgstr ""
 "votre terminal et tapez::"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:25
-#, fuzzy
 msgid ""
 "You will be asked a username (in this tutorial we will call the superuser "
 "you now create *your_superuser*), an email address and a password."
 msgstr ""
 "Vous serez invité un nom d'utilisateur (dans ce tutoriel, nous allons "
-"appeler le super-utilisateur que vous créez maintenant * your_superuser *), "
+"appeler le super-utilisateur que vous créez maintenant *your_superuser*), "
 "une adresse email et un mot de passe."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:27
@@ -2858,11 +2764,19 @@ msgid ""
 "the name of your user will appear on the top right. Click on it and the "
 "following menu will show up:"
 msgstr ""
+"Maintenant que vous avez créé un super-utilisateur, vous devez vous "
+"familiariser avec *l'interface Django admin*. Comme un super-vous avoir "
+"accès à cette interface, où vous pouvez gérer les utilisateurs, les couches, "
+"l'autorisation et plus encore. Pour en savoir plus détaillées sur cette "
+"interface check cette LINK. Pour l'instant, il suffira de suivre simplement "
+"les étapes. Pour assister à la Django *Administrateur* Interface, aller à "
+"votre site Web et geonode *signe* avec *your_superuser*. Une fois que vous "
+"avez connecté, le nom de votre utilisateur apparaîtra en haut à droite. "
+"Cliquez sur lui et le menu suivant apparaîtra:"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:34
-#, fuzzy
 msgid "Clicking on *Admin* causes the interface to show up."
-msgstr "En cliquant sur * Admin * empêche l'interface s'affiche."
+msgstr "En cliquant sur *Admin* empêche l'interface s'affiche."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:38
 msgid ""
@@ -2879,7 +2793,6 @@ msgstr ""
 "sur les *autorisations* est le plus important."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:42
-#, fuzzy
 msgid ""
 "As you can see, there are three boxes that can be checked and unchecked. "
 "Because you've created a superuser, all three boxes are checked as default. "
@@ -2890,23 +2803,21 @@ msgid ""
 msgstr ""
 "Comme vous pouvez le voir, il y a trois cases qui peuvent être checked et "
 "unchecked. Parce que vous avez créé un superutilisateur, tous trois cases "
-"sont vérifiées comme valeur par défaut. Si seulement la boîte * actif * "
+"sont vérifiées comme valeur par défaut. Si seulement la boîte *actif* "
 "voudrais avoir été vérifié, l'utilisateur ne serait pas un superutilisateur "
-"et ne serait pas en mesure d'accéder à la * Django Admin Interface * (qui "
-"n'est disponible pour les utilisateurs avec le * statut de personnel). Donc "
+"et ne serait pas en mesure d'accéder à la *Django Admin Interface* (qui "
+"n'est disponible pour les utilisateurs avec le statut de personnel). Donc "
 "garder les deux choses suivantes à l'esprit :"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:47
-#, fuzzy
 msgid ""
 "a superuser is able to access the *Django Admin Interface* and he has all "
 "permissions on the data uploaded to GeoNode."
 msgstr ""
-"un superutilisateur est en mesure d'accéder à la * Django Admin Interface * "
-"et il a toutes les autorisations sur les données téléchargées à GeoNode."
+"un superutilisateur est en mesure d'accéder à la *Django Admin Interface* et "
+"il a toutes les autorisations sur les données téléchargées à GeoNode."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:48
-#, fuzzy
 msgid ""
 "an ordinary user (created from the GeoNode interface) only has *active* "
 "permissions by default. The user will not have the ability to access the "
@@ -2914,11 +2825,10 @@ msgid ""
 msgstr ""
 "un utilisateur ordinaire (créé à partir de l'interface GeoNode) a uniquement "
 "* actif * autorisations par défaut. L'utilisateur n'aura pas la possibilité "
-"d'accéder à la * Django Admin Interface * et certaines autorisations doivent "
+"d'accéder à la *Django Admin Interface* et certaines autorisations doivent "
 "être ajoutés pour lui."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:50
-#, fuzzy
 msgid ""
 "Until now we've only created superusers. So how do you create an ordinary "
 "user? You have two options:"
@@ -2931,29 +2841,26 @@ msgid "Django Admin Interface"
 msgstr "Interface d'administration de Django"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:54
-#, fuzzy
 msgid ""
 "First we will create a user via the *Django Admin Interface* because we've "
 "still got it open. Therefore go back to *Auth* -> *Users* and             "
 "you should find a button on the right that says *Add user*."
 msgstr ""
 "Tout d'abord, nous allons créer un utilisateur via le * Django Admin "
-"Interface * parce que nous avons toujours ouvert. Donc allez vers * Auth *-> "
-"* utilisateurs * et vous devriez trouver un bouton sur la droite qui dit * "
-"Ajouter utilisateur *."
+"Interface * parce que nous avons toujours ouvert. Donc allez vers *Auth*-> "
+"*utilisateurs* et vous devriez trouver un bouton sur la droite qui dit "
+"*Ajouter utilisateur*."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:58
-#, fuzzy
 msgid ""
 "Click on it and a form to fill out will appear. Name the new user test_user, "
 "choose a password and click *save* at the right bottom of the  site."
 msgstr ""
 "Cliquez dessus et un formulaire à remplir s'affiche. Nommez la nouvelle "
-"test_user utilisateur, choisissez un mot de passe et cliquez sur * "
-"enregistrer * au bas à droite du site."
+"test_user utilisateur, choisissez un mot de passe et cliquez sur "
+"*enregistrer* au bas à droite du site."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:62
-#, fuzzy
 msgid ""
 "Now you should be directed to the site where you could change the "
 "permissions on the user *test_user*. As default only *active* is checked. If "
@@ -2961,11 +2868,10 @@ msgid ""
 "also check *staff status*. But for now we leave the settings as they are!"
 msgstr ""
 "Maintenant, vous adresser au site où vous pouvez modifier les autorisations "
-"de l'utilisateur * test_user *. Comme par défaut uniquement * actif * est "
+"de l'utilisateur *test_user*. Comme par défaut uniquement *actif* est "
 "cochée. Si vous souhaitez que cet utilisateur aussi de pouvoir assister à "
-"cette interface d'administration vous pouvez également consulter * statut * "
-"le personnel. Mais pour l'instant, nous laissons les paramètres comme ils "
-"sont !"
+"cette interface d'administration vous pouvez également consulter *statut* le "
+"personnel. Mais pour l'instant, nous laissons les paramètres comme ils sont !"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:68
 msgid ""
@@ -2976,12 +2882,10 @@ msgstr ""
 "la page web GeoNode et essayez de vous connecter."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:70
-#, fuzzy
 msgid "GeoNode website"
 msgstr "Site Web GeoNode"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:73
-#, fuzzy
 msgid ""
 "To create an ordinary user you could also just use the GeoNode website. If "
 "you installed GeoNode using a release, you should"
@@ -2991,46 +2895,41 @@ msgstr ""
 "vous devriez"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:73
-#, fuzzy
 msgid ""
 "see a *Register* button on the top, beside the *Sign in* button (you might "
 "have to log out before)."
 msgstr ""
-"Voir un * registre * bouton sur le dessus, à côté de la * connecter * bouton "
-"(vous devrez peut-être fermer la session avant)."
+"Voir un registre bouton sur le dessus, à côté de la connecter bouton (vous "
+"devrez peut-être fermer la session avant)."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:77
-#, fuzzy
 msgid ""
 "Hit the button and again a form will appear for you to fill out. This user "
 "will be named *geonode_user*"
 msgstr ""
 "Cliquez sur le bouton et encore une fois un formulaire apparaîtra pour vous "
-"remplir. Cet utilisateur sera nommé * geonode_user *"
+"remplir. Cet utilisateur sera nommé *geonode_user*"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:82
-#, fuzzy
 msgid ""
 "By hitting *Sign up* the user will be signed up, as default only with the "
 "status *active*."
 msgstr ""
-"En appuyant sur * signer vers le haut *, l'utilisateur sera signé vers le "
-"haut, comme valeur par défaut uniquement avec le statut * active *."
+"En appuyant sur signer vers le haut, l'utilisateur sera signé vers le haut, "
+"comme valeur par défaut uniquement avec le statut *active*."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:84
-#, fuzzy
 msgid ""
 "As mentioned before, this status can be changed as well. To do so, sign in "
 "with *your_superuser* again and attend the admin interface. Go again to "
 "*Auth* -> *Users*, where now three users should appear:"
 msgstr ""
 "Comme mentionné précédemment, ce statut peut être modifié aussi bien. Pour "
-"ce faire, connectez-vous à l'aide * your_superuser * nouveau et assister à "
-"l'interface d'administration. Encore une fois à * Auth *-> * utilisateurs *, "
-"où maintenant les trois utilisateurs devraient apparaître :"
+"ce faire, connectez-vous à l'aide *your_superuser* nouveau et assister à "
+"l'interface d'administration. Encore une fois à *Auth*-> *utilisateurs*, où "
+"maintenant les trois utilisateurs devraient apparaître :"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:90
-#, fuzzy
 msgid ""
 "We now want to change the permission of the *geonode_user* so that he will "
 "be able to attend the admin interface as well. Click on to *geonode_user* "
@@ -3038,14 +2937,13 @@ msgid ""
 "permissions. Check the box *staff status* and hit *save* to store the "
 "changes."
 msgstr ""
-"Nous voulons maintenant changer la permission de la * geonode_user * alors "
+"Nous voulons maintenant changer la permission de la *geonode_user* alors "
 "qu'il sera en mesure d'assister à l'interface d'administration aussi bien. "
-"Cliquez sur * geonode_user * et vous seront automatiquement déplacés vers le "
-"site où vous pouvez modifier les autorisations. Cochez la case * statut * le "
-"personnel et les frappé * enregistrer * pour stocker les modifications."
+"Cliquez sur *geonode_user* et vous seront automatiquement déplacés vers le "
+"site où vous pouvez modifier les autorisations. Cochez la case *statut* le "
+"personnel et les frappé *enregistrer* pour stocker les modifications."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:93
-#, fuzzy
 msgid ""
 "To sum it up, we have now created three users with different kind of "
 "permissions."
@@ -3054,37 +2952,33 @@ msgstr ""
 "types d'autorisations."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:95
-#, fuzzy
 msgid ""
 "**your_superuser**: This user is allowed to attend the admin interface and "
 "has all available permissions on layers, maps etc."
 msgstr ""
-"** your_superuser **: cet utilisateur est autorisé à assister à l'interface "
+"**your_superuser**: cet utilisateur est autorisé à assister à l'interface "
 "d'administration et possède toutes les autorisations disponibles sur des "
 "calques, cartes, etc."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:96
-#, fuzzy
 msgid ""
 "**geonode_user**: This user is permitted to attend the admin interface, but "
 "permissions on layers, maps etc. have to be assigned."
 msgstr ""
-"** geonode_user **: cet utilisateur est autorisé à assister à l'interface "
+"**geonode_user**: cet utilisateur est autorisé à assister à l'interface "
 "d'admin, mais des autorisations sur des calques, cartes etc. sont verront "
 "attribuer."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:97
-#, fuzzy
 msgid ""
 "**test_user**: This user is not able to attend the admin interface, "
 "permissions on layers, maps etc. have also to be assigned."
 msgstr ""
-"** test_user **: cet utilisateur n'est pas en mesure d'assister à "
-"l'interface d'administration, des autorisations sur des calques, cartes etc. "
-"doivent également être affectés."
+"**test_user**: cet utilisateur n'est pas en mesure d'assister à l'interface "
+"d'administration, des autorisations sur des calques, cartes etc. doivent "
+"également être affectés."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:102
-#, fuzzy
 msgid ""
 "You should know have an overview over the different kinds of users and how "
 "to create and edit them. You've also learned about the permissions a certain "
@@ -3093,10 +2987,9 @@ msgstr ""
 "Il faut savoir avoir un aperçu sur les différents types d'utilisateurs et "
 "comment créer et les modifier. Vous avez également appris sur les "
 "autorisations d'un utilisateur donné a et comment les modifier à l'aide de "
-"la * Django Admin Interface *."
+"la *Django Admin Interface*."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:104
-#, fuzzy
 msgid ""
 "If you've installed GeoNode in developing mode, the *Register* button won't "
 "be seen from the beginning. To add this button to the website, you have to "
@@ -3104,21 +2997,17 @@ msgid ""
 "`REGISTRATION_OPEN = True`. Then reload GeoNode and you should also be able "
 "to see the *Register* button."
 msgstr ""
-"Si vous avez installé GeoNode en mode développement, l'* Inscrivez-vous * "
-"bouton ne sera pas visible depuis le début. Pour ajouter ce bouton sur le "
-"site, vous devez changer la `REGISTRATION_OPEN = FALSE` dans le settings.py "
-"à` REGISTRATION_OPEN = TRUE`. Rechargez ensuite GeoNode et vous devez "
-"également être en mesure de voir le * Inscrivez-vous * bouton."
+"Si vous avez installé GeoNode en mode développement, l'Inscrivez-vous bouton "
+"ne sera pas visible depuis le début. Pour ajouter ce bouton sur le site, "
+"vous devez changer la `REGISTRATION_OPEN = FALSE` dans le settings.py à "
+"`REGISTRATION_OPEN = TRUE`. Rechargez ensuite GeoNode et vous devez "
+"également être en mesure de voir le *Inscrivez-vous* bouton."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:109
-#, fuzzy
 msgid "Layers"
-msgstr ""
-"Éditez le fichier ``layers/templates/layers/layer_geoext_map.html`` et "
-"remplacez cette ligne::"
+msgstr "Couches"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:111
-#, fuzzy
 msgid ""
 "Now that we've already created some users, we will take a closer look on the "
 "security of layers, how you can protect your data not to be viewed or edited "
@@ -3129,7 +3018,6 @@ msgstr ""
 "données pour ne pas être lus ou édités par indésirable des utilisateurs."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:113
-#, fuzzy
 msgid ""
 "As already mentioned before it is important to know that a superuser does "
 "have unrestricted access to all your uploaded data.  That means you cannot "
@@ -3141,7 +3029,6 @@ msgstr ""
 "utilisateur de visualiser, télécharger ou éditer une couche !"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:117
-#, fuzzy
 msgid ""
 "The permissions on a certain layer can already be set when uploading your "
 "files. When the upload form appears (*Layers* -> *Upload Layer*) you will "
@@ -3149,11 +3036,10 @@ msgid ""
 msgstr ""
 "Les autorisations sur une certaine couche peuvent déjà être définis lors du "
 "téléchargement de vos fichiers. Lorsque le formulaire de téléchargement "
-"apparaît (* Couches * -> * Upload couche *), vous verrez la section "
+"apparaît (*Couches* -> *Upload couche*), vous verrez la section "
 "d'autorisation sur le côté droit:"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:121
-#, fuzzy
 msgid ""
 "As it can be seen here, the access on your layer is split up into three "
 "groups:"
@@ -3166,17 +3052,14 @@ msgid "view and download data"
 msgstr "Afficher et télécharger des données"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:124
-#, fuzzy
 msgid "edit data"
-msgstr "Éditer les données..."
+msgstr "Édition de données"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:125
-#, fuzzy
 msgid "manage and edit data"
 msgstr "gérer et modifier les données"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:127
-#, fuzzy
 msgid ""
 "The difference between *manage and edit layer* and *edit layer* is that a "
 "user assigned to *edit layer* is not able to change the permissions on the "
@@ -3184,19 +3067,17 @@ msgid ""
 "permissions. You can now choose whether you want your layer to be viewed and "
 "downloaded by"
 msgstr ""
-"La différence entre * gérer et modifier couche * et * modifier couche * est "
-"que l'utilisateur affecté à * modifier couche * est pas en mesure de changer "
-"les autorisations sur la couche alors qu'un utilisateur affecté à * gérer et "
-"modifier couche * peut modifier les autorisations. Vous pouvez maintenant "
+"La différence entre *gérer et modifier couche* et *modifier couche* est que "
+"l'utilisateur affecté à *modifier couche* est pas en mesure de changer les "
+"autorisations sur la couche alors qu'un utilisateur affecté à *gérer et "
+"modifier couche* peut modifier les autorisations. Vous pouvez maintenant "
 "choisir si vous voulez que votre couche à être consulté et téléchargé par"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:131
-#, fuzzy
 msgid "anyone"
 msgstr "n'importe qui"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:132
-#, fuzzy
 msgid "any registered user"
 msgstr "Utilisateur enregistré"
 
@@ -3205,7 +3086,6 @@ msgid "a certain user (or group)"
 msgstr "un certain utilisateur (ou groupe)"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:135
-#, fuzzy
 msgid ""
 "We will now upload our **test layer** like shown HERE. If you want your "
 "layer only be viewed by certain users or a group, you have to choose *Only "
@@ -3214,17 +3094,16 @@ msgid ""
 "you want to have admission on this data. For this first layer we will choose "
 "the settings like shown in the following image:"
 msgstr ""
-"Nous allons maintenant télécharger notre couche d'essai ** ** comme montré "
-"ici. Si vous voulez que votre couche seulement être considéré par certains "
-"utilisateurs ou un groupe, vous devez choisir * Seuls les utilisateurs qui "
-"peuvent modifier * dans la partie * Qui peut consulter et télécharger ces "
-"données *. Dans la section * Qui peut modifier ces données * vous écrivez "
-"les noms des utilisateurs que vous voulez avoir l'admission de ces données. "
-"Pour cette première couche, nous allons choisir les paramètres comme indiqué "
-"dans l'image ci-dessous:"
+"Nous allons maintenant télécharger notre couche d'essai comme montré ici. Si "
+"vous voulez que votre couche seulement être considéré par certains "
+"utilisateurs ou un groupe, vous devez choisir *Seuls les utilisateurs qui "
+"peuvent modifier* dans la partie *Qui peut consulter et télécharger ces "
+"données*. Dans la section *Qui peut modifier ces données* vous écrivez les "
+"noms des utilisateurs que vous voulez avoir l'admission de ces données. Pour "
+"cette première couche, nous allons choisir les paramètres comme indiqué dans "
+"l'image ci-dessous:"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:145
-#, fuzzy
 msgid ""
 "If you now log out, your layer can still be seen, but the unregistered users "
 "won't be able to edit your layer. Now sign in as *geonode_user* and click on "
@@ -3232,8 +3111,8 @@ msgid ""
 msgstr ""
 "Si vous vous connectez maintenant, votre couche peut encore être vu, mais "
 "les utilisateurs non enregistrés ne sera pas en mesure de modifier votre "
-"couche. Maintenant que vous connecter * geonode_user * et cliquez sur le ** "
-"couche d'essai **. Dessus de la couche vous pouvez voir ceci:"
+"couche. Maintenant que vous connecter *geonode_user* et cliquez sur le "
+"**couche d'essai**. Dessus de la couche vous pouvez voir ceci:"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:150
 msgid ""
@@ -3246,33 +3125,38 @@ msgid ""
 "*updatelayers*) and you will see the same menu as shown in the image above. "
 "Click *Edit layer* and the menu will appear."
 msgstr ""
+"Le *geonode_user* est en mesure de modifier le **test_layer**. Mais avant "
+"d'aller plus profondément dans cela, nous devons d'abord prendre un coup "
+"d'oeil sur une autre affaire. En tant qu'administrateur, vous pouvez "
+"également télécharger vos couches pour Geoserver puis les rendre disponibles "
+"sur GeoNode utilisant *updatelayers*. Ou vous ajoutez même les couches via "
+"le terminal en utilisant *importlayers*. Pour définir les autorisations sur "
+"cette couche, cliquez sur la couche d'essai (que vous avez téléchargé via "
+"*updatelayers*) et vous verrez le même menu, comme indiqué dans l'image ci-"
+"dessus. Cliquez *Modifier couche* et le menu apparaît."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:159
-#, fuzzy
 msgid ""
 "Choose *edit permissions* and a window with the permission settings will "
 "appear. This window can also be opened by scrolling down the website. On the "
 "right-hand side of the page you should be able to see a button like this."
 msgstr ""
-"Choisissez * autorisations de modification * et une fenêtre avec les "
+"Choisissez *autorisations de modification* et une fenêtre avec les "
 "paramètres d'autorisation apparaît. Cette fenêtre peut également être "
 "ouverte en faisant défiler le site. Sur le côté droit de la page, vous "
 "devriez être capable de voir un bouton de ce type."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:164
-#, fuzzy
 msgid "Click on it and you will see the same window as before."
 msgstr "Cliquez sur ce lien et vous verrez la même fenêtre comme avant."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:166
-#, fuzzy
 msgid "Now set the permissions of this layer using the following settings:"
 msgstr ""
 "Maintenant, définissez les autorisations de cette couche en utilisant les "
 "paramètres suivants:"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:175
-#, fuzzy
 msgid ""
 "When you assign a user to be able to edit your data, this user is allowed to "
 "execute all of the following actions:"
@@ -3282,17 +3166,14 @@ msgstr ""
 "suivantes:"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:177
-#, fuzzy
 msgid "edit metadata"
 msgstr "modifier les métadonnées"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:178
-#, fuzzy
 msgid "edit styles"
 msgstr "Modifier les styles"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:179
-#, fuzzy
 msgid "manage styles"
 msgstr "gérer les styles"
 
@@ -3305,7 +3186,6 @@ msgid "remove layer"
 msgstr "Roger Larsson"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:183
-#, fuzzy
 msgid ""
 "So be aware that each user assigned to edit this layer can even remove it! "
 "In our case, only the user *test_user* and *your_superuser* do have the "
@@ -3313,45 +3193,41 @@ msgid ""
 "edit this layer."
 msgstr ""
 "Donc, soyez conscient que chaque utilisateur affecté à modifier cette couche "
-"peut même enlever! Dans notre cas, seul l'utilisateur * test_user * et * * "
-"your_superuser ne avoir le droit de le faire. * * Geonode_user ne peut ni "
+"peut même enlever! Dans notre cas, seul l'utilisateur *test_user* et "
+"*your_superuser* ne avoir le droit de le faire. Geonode_user ne peut ni "
 "voir, ni de télécharger ou de modifier cette couche."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:187
-#, fuzzy
 msgid ""
 "Now you are logged in as the user *test_user*. Below the **test_layer** you "
 "can see the following:"
 msgstr ""
-"Maintenant, vous êtes connecté en tant qu'utilisateur * test_user *. Ci-"
-"dessous l'** ** test_layer vous pouvez voir ce qui suit:"
+"Maintenant, vous êtes connecté en tant qu'utilisateur **test_user**. Ci-"
+"dessous l'**test_layer** vous pouvez voir ce qui suit:"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:192
-#, fuzzy
 msgid ""
 "By clicking *Edit Layer* and *Edit Metadata* on top of the layer, you can "
 "change this information. The *test_user* is able to change all the metadata "
 "of this layer. We now want to change to *point of contact*, therefore scroll "
 "down until you see this:"
 msgstr ""
-"* En cliquant sur Modifier couche * et * * Modifier les métadonnées sur le "
-"dessus de la couche, vous pouvez modifier ces informations. Le test_user * * "
-"est capable de changer toutes les métadonnées de cette couche. Nous voulons "
-"maintenant changer de point de contact * de *, donc faites défiler jusqu'à "
-"ce que vous voyez ceci:"
+"En cliquant sur Modifier couche et Modifier les métadonnées sur le dessus de "
+"la couche, vous pouvez modifier ces informations. Le *test_user* est capable "
+"de changer toutes les métadonnées de cette couche. Nous voulons maintenant "
+"changer de point de contact, donc faites défiler jusqu'à ce que vous voyez "
+"ceci:"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:197
-#, fuzzy
 msgid ""
 "Change the *point of contact* from *_who_ever_created_this* to *test_user*. "
 "*Save* your changes and you will now be able to see the following:"
 msgstr ""
-"Changer le point de contact de * * * de * à * _who_ever_created_this "
-"test_user *. * * Enregistrer vos modifications et vous allez maintenant être "
-"en mesure de voir ce qui suit:"
+"Changer le point de contact de  à *_who_ever_created_this test_user*. "
+"Enregistrer vos modifications et vous allez maintenant être en mesure de "
+"voir ce qui suit:"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:204
-#, fuzzy
 msgid ""
 "If you allow a user to view and download a layer, this user will also be "
 "able to edit the styles, even if he is not assigned to edit the layer! Keep "
@@ -3362,7 +3238,6 @@ msgstr ""
 "même si il est pas affectée à modifier la couche! Gardez cela à l'esprit!"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:208
-#, fuzzy
 msgid ""
 "To learn how you can edit metadata or change the styles go to this section "
 "LINK."
@@ -3375,7 +3250,6 @@ msgid "Maps"
 msgstr "Cartes"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:217
-#, fuzzy
 msgid ""
 "The permission on maps are basically the same as on layers, just that there "
 "are fewer options on how to edit the map. Let's create a map (or already "
@@ -3383,11 +3257,10 @@ msgid ""
 msgstr ""
 "L'autorisation sur les cartes sont fondamentalement les mêmes que sur les "
 "couches, juste qu'il ya moins d'options sur la façon de modifier le plan. "
-"Créons une carte (ou déjà TUTORIAL?). Cliquez sur ** ** test_map et faites "
+"Créons une carte (ou déjà TUTORIAL?). Cliquez sur **test_map** et faites "
 "défiler vers le bas jusqu'à ce que vous voyez:"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:221
-#, fuzzy
 msgid ""
 "Here you can set the same permissions as known from the layer permissions! "
 "Set the permissions of this map as seen here:"
@@ -3397,17 +3270,15 @@ msgstr ""
 "on le voit ici:"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:228
-#, fuzzy
 msgid ""
 "Save your changes and then log out and log in as *test_user*. You should now "
 "be able to view the *test_map* and click on to *Edit map*."
 msgstr ""
 "Enregistrez vos modifications, puis vous déconnecter et vous connecter en "
-"tant test_user * *. Vous devriez maintenant être en mesure de voir l'* "
-"test_map * et cliquez sur Modifier la carte * *."
+"tant *test_user*. Vous devriez maintenant être en mesure de voir l' "
+"*test_map* et cliquez sur Modifier la carte."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:234
-#, fuzzy
 msgid ""
 "As you may recognize, this user is not able to change the permissions on "
 "this map. If you log in as the user *geonode_user* you should be able to see "
@@ -3415,21 +3286,14 @@ msgid ""
 msgstr ""
 "Comme vous pouvez reconnaître, cet utilisateur ne peut pas changer les "
 "autorisations sur cette carte. Si vous vous connectez en tant qu'utilisateur "
-"* geonode_user * vous devriez être en mesure de voir le bouton * Changer "
-"carte autorisations * lorsque vous faites défiler la page."
+"*geonode_user* vous devriez être en mesure de voir le bouton *Changer carte "
+"autorisations* lorsque vous faites défiler la page."
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:237
-#, fuzzy
 msgid "Documents"
-msgstr ""
-"Les éléments HTML constituent les blocs de construction de tous les sites "
-"Web. HTML permet les images et les objets incorporés et peut être utilisé "
-"pour créer des formulaires interactifs. Il fournit un moyen de créer des "
-"documents structurés qui dénote la sémantique structurale de texte tels que "
-"titres, paragraphes, listes, liens, citations et autres éléments."
+msgstr "Documents"
 
 #: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:239
-#, fuzzy
 msgid "All the same is also valid for your uploaded documents."
 msgstr "Tout de même est aussi valable pour vos documents téléchargés."
 

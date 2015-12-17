@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-17 15:21+0100\n"
-"PO-Revision-Date: 2015-12-17 15:22+0100\n"
+"PO-Revision-Date: 2015-12-17 16:12+0100\n"
 "Last-Translator: Alessio Fabiani <alessio.fabiani@geo-solutions.it>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-documentation/language/fr/)\n"
 "Language: fr\n"
@@ -14517,12 +14517,10 @@ msgid "Concepts and tecquinques for the deployment af GeoNode and GeoServer on a
 msgstr "Concepts et tecquinques pour le déploiement af GeoNode et GeoServer sur un système de Production."
 
 #: ..\..\006_adv_workshop\osm.rst:4
-#, fuzzy
 msgid "Loading OSM Data into GeoNode"
 msgstr "Chargement OSM données dans GeoNode"
 
 #: ..\..\006_adv_workshop\osm.rst:6
-#, fuzzy
 msgid ""
 "In this section, we will walk through the steps necessary to load OSM data into your GeoNode project. As "
 "discussed in previous sections, your GeoNode already uses OSM tiles from MapQuest and the main OSM servers "
@@ -14536,7 +14534,6 @@ msgstr ""
 "dans votre projet et potentiellement pour des tâches de géotraitement."
 
 #: ..\..\006_adv_workshop\osm.rst:8
-#, fuzzy
 msgid ""
 "The first step in this process is to get the data from OSM. We will be using the OSM Overpass API since it "
 "lets us do more complex queries than the OSM API itself. You should refer to the OSM Overpass API "
@@ -14550,17 +14547,14 @@ msgstr ""
 "utilisant une API très sophistiqué."
 
 #: ..\..\006_adv_workshop\osm.rst:10
-#, fuzzy
 msgid "http://wiki.openstreetmap.org/wiki/Overpass_API"
 msgstr "http://wiki.openstreetmap.org/wiki/Overpass_API"
 
 #: ..\..\006_adv_workshop\osm.rst:11
-#, fuzzy
 msgid "http://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide"
 msgstr "http://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide"
 
 #: ..\..\006_adv_workshop\osm.rst:13
-#, fuzzy
 msgid ""
 "In this example, we will be extracting building footprint data around Port au Prince in Haiti. To do this "
 "we will use an interactive tool that makes it easy construct a Query against the Overpass API. Point your "
@@ -14573,7 +14567,6 @@ msgstr ""
 "recherche pour zoomer sur Port-au-Prince et de Cité Soleil spécifiquement."
 
 #: ..\..\006_adv_workshop\osm.rst:15
-#, fuzzy
 msgid ""
 "You will need to cut and paste the query specified below to get all of the appropriate data under the bbox::"
 msgstr ""
@@ -14581,12 +14574,10 @@ msgstr ""
 "appropriées en vertu de la bbox ::"
 
 #: ..\..\006_adv_workshop\osm.rst:31
-#, fuzzy
 msgid "This should look like the following."
 msgstr "Cela devrait ressembler à ce qui suit."
 
 #: ..\..\006_adv_workshop\osm.rst:35
-#, fuzzy
 msgid ""
 "When you have the bbox and query set correctly, click the \"Export\" button on the menu to bring up the "
 "export menu, and then click the API interpreter link to download the OSM data base on the query you have "
@@ -14597,7 +14588,6 @@ msgstr ""
 "base de données de l'OSM sur la requête que vous avez spécifié."
 
 #: ..\..\006_adv_workshop\osm.rst:39
-#, fuzzy
 msgid ""
 "This will download a file named 'export.osm' on your file system. You will probably want to rename it "
 "something else more specific. You can do that by issuing the following command in the directory where it "
@@ -14608,7 +14598,6 @@ msgstr ""
 "dans le répertoire où il a été téléchargé ::"
 
 #: ..\..\006_adv_workshop\osm.rst:43
-#, fuzzy
 msgid ""
 "You can also rename the file in your Operating Systems File management tool (Windows Explorer, Finder etc)."
 msgstr ""
@@ -14616,12 +14605,10 @@ msgstr ""
 "(Windows Explorer, Finder, etc.)."
 
 #: ..\..\006_adv_workshop\osm.rst:46
-#, fuzzy
 msgid "Exporting OSM data to shapefile using QGIS"
 msgstr "Exportation des données OSM à ShapeFile utilisation de QGIS"
 
 #: ..\..\006_adv_workshop\osm.rst:48
-#, fuzzy
 msgid ""
 "Now that we have osm data on our filesystem, we will need to convert it into a format suitable for "
 "uploading into your GeoNode. There are many ways to accomplish this, but for purposes of this example, we "
@@ -14637,26 +14624,22 @@ msgstr ""
 "menu Web pour charger votre fichier."
 
 #: ..\..\006_adv_workshop\osm.rst:52
-#, fuzzy
 msgid "This will bring up a dialog box that you can use to find and convert the osm file we downloaded."
 msgstr ""
 "Cela fera apparaître une boîte de dialogue que vous pouvez utiliser pour trouver et convertir le fichier "
 "OSM nous avons téléchargé."
 
 #: ..\..\006_adv_workshop\osm.rst:56
-#, fuzzy
 msgid "When the process has completed,  you will see your layers in the Layer Tree in QGIS."
 msgstr "Lorsque le processus est terminé, vous verrez vos couches dans l'arborescence de la couche dans QGIS."
 
 #: ..\..\006_adv_workshop\osm.rst:60
-#, fuzzy
 msgid "Since we are only interested in the polygons, we can turn the other 2 layers off in the Layer Tree."
 msgstr ""
 "Puisque nous sommes seulement intéressés par les polygones, nous pouvons transformer les 2 autres calques "
 "dans l'arbre des couches."
 
 #: ..\..\006_adv_workshop\osm.rst:64
-#, fuzzy
 msgid ""
 "The next step is to use QGIS to convert this layer into a Shapefile so we can upload it into GeoNode. To do "
 "this, select the layer in the Layer tree, right click and then select the Save As option."
@@ -14666,18 +14649,15 @@ msgstr ""
 "clic droit et sélectionnez l'option Enregistrer sous."
 
 #: ..\..\006_adv_workshop\osm.rst:68
-#, fuzzy
 msgid "This will bring up the Save Vector Layer as Dialog."
 msgstr "Cela fera apparaître la couche Sauvegarder vecteur de dialogue."
 
 #: ..\..\006_adv_workshop\osm.rst:72
-#, fuzzy
 msgid "Specify where on disk you want your file saved, and hit Save then OK."
 msgstr ""
 "Indiquez où sur le disque vous voulez que votre fichier sauvegardé, et cliquez sur Enregistrer, puis sur OK."
 
 #: ..\..\006_adv_workshop\osm.rst:76
-#, fuzzy
 msgid ""
 "You now have a shapefile of the data you extracted from OSM that you can use to load into GeoNode. Use the "
 "GeoNode Layer Upload form to load the Shapefile parts into your GeoNode, and optionally edit the metadata "
@@ -14689,7 +14669,6 @@ msgstr ""
 "couche dans la page d'informations du calque dans votre geonode."
 
 #: ..\..\006_adv_workshop\osm.rst:80
-#, fuzzy
 msgid ""
 "You may want to switch to an imagery layer in order to more easily see the buildings on the OSM background."
 msgstr ""
@@ -14697,30 +14676,26 @@ msgstr ""
 "fond de l'OSM."
 
 #: ..\..\006_adv_workshop\osm.rst:83
-#, fuzzy
 msgid "Exporting OSM data to shapefile using GDAL"
 msgstr "Exportation des données OSM à ShapeFile utilisant GDAL"
 
 #: ..\..\006_adv_workshop\osm.rst:85
-#, fuzzy
 msgid ""
 "An alternative way to export the .osm file to a shapefile is to use `ogr2ogr <http://www.gdal.org/ogr2ogr."
 "html>`_ combined with the `GDAL osm driver <http://www.gdal.org/ogr/drv_osm.html>`_, available from GDAL "
 "version 1.10."
 msgstr ""
 "Une autre façon d'exporter le fichier .osm à un fichier de formes est d'utiliser `ogr2ogr <http://www.gdal."
-"org/ogr2ogr.html> `_ Combiné avec l'OSM` pilote GDAL <http://www.gdal.org/ogr/drv_osm.html> `_, Disponible "
-"à partir de GDAL version 1.10."
+"org/ogr2ogr.html>`_ Combiné avec l'OSM `pilote GDAL <http://www.gdal.org/ogr/drv_osm.html>`_, Disponible à "
+"partir de GDAL version 1.10."
 
 #: ..\..\006_adv_workshop\osm.rst:87
-#, fuzzy
 msgid "As a first step, inspect how the GDAL osm driver sees the .osm file using the ogrinfo command::"
 msgstr ""
 "Dans un premier temps, inspecter la manière dont le pilote de GDAL OSM voit le fichier .osm aide de la "
 "commande ogrinfo ::"
 
 #: ..\..\006_adv_workshop\osm.rst:99
-#, fuzzy
 msgid ""
 "ogrinfo has detected 5 different geometric layers inside the osm data source. As we are just interested in "
 "the buildings, you will just export to a new shapefile the multipolygons layer using the GDAL ogr2ogr "
@@ -14731,7 +14706,6 @@ msgstr ""
 "formes de la couche de multipolygones utilisant le GDAL de commande de l'utilitaire ::"
 
 #: ..\..\006_adv_workshop\osm.rst:103
-#, fuzzy
 msgid ""
 "Now you can upload the shapefile to GeoNode using the GeoNode Upload form in the same manner as you did in "
 "the previous section."
@@ -14740,7 +14714,6 @@ msgstr ""
 "chargement de la même manière que vous avez fait dans la section précédente."
 
 #: ..\..\006_adv_workshop\osm.rst:106
-#, fuzzy
 msgid "Using GeoGig to load OSM Data into Manage OSM Data"
 msgstr "Utilisation GeoGig pour charger des données dans OSM Gérer OSM données"
 
@@ -14755,9 +14728,17 @@ msgid ""
 "will be described below. Much of the impetus for GeoGig came from the ROGUE JCTD and the technology has "
 "been incorporated into the `GeoSHAPE project <http://http://geoshape.org/>`_."
 msgstr ""
+"Une autre alternative pour travailler avec les données OSM dans votre GeoNode est d'utiliser `GeoGig "
+"<http://geogig.org/>`_. GeoGig est un outil qui tire son inspiration de Git mais adapte ses concepts de "
+"base gestion des versions distribué des données géospatiales. GeoGig vous permet de charger les données "
+"OpenStreetMap dans un référentiel sur votre serveur et que soit l'exportation de données dans PostGIS pour "
+"une utilisation dans votre GeoNode ou configurer l'extension GeoGig GeoServer et exposent le repo "
+"directement à partir de GeoServer. Un article sur ce processus peut être trouvé sur le Blog `Boundless Geo "
+"<http: // http: //boundlessgeo.com/2014/03/geogit-and-openstreetmap-for-yolanda/>`_. et il sera décrit ci-"
+"dessous. Une grande partie de l'impulsion pour GeoGig provenaient du ROGUE JCTD et la technologie a été "
+"incorporée dans le projet `GeoSHAPE <http: // http: //geoshape.org/>`_."
 
 #: ..\..\006_adv_workshop\osm.rst:110
-#, fuzzy
 msgid ""
 "Much more information about how to perform the steps below can be found in the GeoGig documentation page on "
 "`Using GeoGig with OpenStreetMap data <http://geogig.org/docs/interaction/osm.html>`_. The instructions "
@@ -14765,14 +14746,13 @@ msgid ""
 msgstr ""
 "Beaucoup plus d'informations sur la façon d'effectuer les étapes ci-dessous peut être trouvée dans la page "
 "de documentation GeoGig sur `Utiliser GeoGig avec les données OpenStreetMap <http://geogig.org/docs/"
-"interaction/osm.html> `_. Les instructions qui suivent ne sont qu'un bref aperçu du processus."
+"interaction/osm.html>`_. Les instructions qui suivent ne sont qu'un bref aperçu du processus."
 
 #: ..\..\006_adv_workshop\osm.rst:113
 msgid "Getting Started"
 msgstr "Démarrez"
 
 #: ..\..\006_adv_workshop\osm.rst:115
-#, fuzzy
 msgid ""
 "You will first need to install the GeoGig command line tools. These can be found on the projects "
 "`SourceForge page <http://sourceforge.net/projects/geogig/files/latest/download>`_. Follow the instructions "
@@ -14780,13 +14760,12 @@ msgid ""
 "the tools installed and added to your path, the *geogig* command should be available::"
 msgstr ""
 "Vous devrez d'abord installer les outils de ligne de commande de GeoGig. Ceux-ci peuvent être trouvés sur "
-"les projets `la page SourceForge <http://sourceforge.net/projects/geogig/files/latest/download> `_. Suivez "
+"les projets `la page SourceForge <http://sourceforge.net/projects/geogig/files/latest/download>`_. Suivez "
 "les instructions contenues dans le fichier d'installation afin d'installer les outils de la CLI sur votre "
-"serveur GeoNode. Une fois que vous avez les outils installés et ajoutés à votre chemin, le geogig * * "
-"commande devrait être disponible ::"
+"serveur GeoNode. Une fois que vous avez les outils installés et ajoutés à votre chemin, le geogig commande "
+"devrait être disponible ::"
 
 #: ..\..\006_adv_workshop\osm.rst:129
-#, fuzzy
 msgid ""
 "Once the geogig command is available, you will need to create an empty repository to hold your data. Change "
 "directories to a suitable location on your servers filesystem and issue the following command substituting "
@@ -14794,10 +14773,9 @@ msgid ""
 msgstr ""
 "Une fois la commande geogig est disponible, vous devez créer un référentiel vide pour stocker vos données. "
 "Modifiez les répertoires à un endroit approprié sur votre système de fichiers local et exécutez la commande "
-"suivante en remplaçant * my_repo * pour le nom que vous choisissez ::"
+"suivante en remplaçant *my_repo* pour le nom que vous choisissez ::"
 
 #: ..\..\006_adv_workshop\osm.rst:137
-#, fuzzy
 msgid "Loading OSM Data into your Repository"
 msgstr "Chargement des données OSM dans votre référentiel"
 
@@ -14809,6 +14787,12 @@ msgid ""
 "example below is a bounding box that encompasses the country of Malawi. More information about the geogig "
 "osm download command can be found in the `geogig docs <http://geogig.org/manpages/osmdownload.html>`_.::"
 msgstr ""
+"Maintenant que vous avez un référentiel vide pour stocker nos données, la prochaine étape est de charger "
+"l'instantané actuel des données OSM dans votre dépôt en utilisant le téléchargement *geogig de OSM* "
+"commande. Au minimum, vous voudrez utiliser un filtre de la boîte englobante de limiter les données "
+"téléchargées vers la zone d'intérêt pour votre installation de geonode. L'exemple ci-dessous est une boîte "
+"de sélection qui contient le pays du Malawi. Plus d'informations sur la commande geogig de téléchargement "
+"de l'OSM peut être trouvé dans les `docs geogig <http://geogig.org/manpages/osmdownload.html>`_.::"
 
 #: ..\..\006_adv_workshop\osm.rst:164
 msgid ""
@@ -14821,19 +14805,24 @@ msgid ""
 "mappings>`_. You should clone this repository along side your geogig repository and then apply them as "
 "shown below::"
 msgstr ""
+"GeoGig stocke les données dans les **arbres** qui sont essentiellement équivalent à **couches** dans un "
+"contexte géospatial normale. A ce stade du processus, votre pension contient 2 arbres pour façons et à "
+"partir de nœuds OSM. Afin de les convertir en couches qui peuvent être plus familier à vos utilisateurs "
+"comme **routes**, **bâtiments** ou **installations médicales**, vous devrez appliquer un mappage qui filtre "
+"la liste complète des noeuds et des voies et convertit les balises dans attributs. Il ya un grand ensemble "
+"des applications de l'échantillon dans le projet des États-Unis État Départements CyberGIS. Vous pouvez les "
+"trouver ici `<https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings>`_. Vous devriez "
+"cloner ce référentiel à côté de votre référentiel de geogig puis appliquez-les comme indiqué ci-dessous ::"
 
 #: ..\..\006_adv_workshop\osm.rst:172
-#, fuzzy
 msgid "Now you can inspect the repository using the following commands::"
 msgstr "Maintenant, vous pouvez inspecter le dépôt en utilisant les commandes suivantes ::"
 
 #: ..\..\006_adv_workshop\osm.rst:203
-#, fuzzy
 msgid "Updating the OSM Data in your Repository"
 msgstr "Mise à jour des données OSM dans votre référentiel"
 
 #: ..\..\006_adv_workshop\osm.rst:205
-#, fuzzy
 msgid ""
 "As OpenStreetMap is a constantly changing dataset, you will want to periodically update your repo with the "
 "latest changes from OSM. GeoGig provides a way to do this using the *geogig osm download* command with the "
@@ -14841,10 +14830,9 @@ msgid ""
 msgstr ""
 "Comme OpenStreetMap est un ensemble de données en constante évolution, vous souhaitez mettre à jour "
 "régulièrement votre repo avec les dernières modifications de l'OSM. GeoGig fournit un moyen de le faire en "
-"utilisant l'* geogig télécharger OSM * commande avec le drapeau --update ::"
+"utilisant l' geogig télécharger OSM commande avec le drapeau --update ::"
 
 #: ..\..\006_adv_workshop\osm.rst:209
-#, fuzzy
 msgid ""
 "If you get an error that looks like the error below, this means that there are no changes in OSM since your "
 "last update and it can be ignored."
@@ -14853,12 +14841,10 @@ msgstr ""
 "dans OSM depuis votre dernière mise à jour et peuvent être ignorés."
 
 #: ..\..\006_adv_workshop\osm.rst:211
-#, fuzzy
 msgid "Committing features..."
 msgstr "Caractéristiques commettre ..."
 
 #: ..\..\006_adv_workshop\osm.rst:213
-#, fuzzy
 msgid ""
 "An unhandled error occurred: Nothing to commit after f249200302d5e808fb1b04f329b39b5853ffb7d0. See the log "
 "for more details."
@@ -14867,7 +14853,6 @@ msgstr ""
 "le journal pour plus de détails."
 
 #: ..\..\006_adv_workshop\osm.rst:216
-#, fuzzy
 msgid "Serving your GeoGig repository in GeoNode"
 msgstr "Servir votre référentiel GeoGig dans GeoNode"
 
@@ -14879,9 +14864,15 @@ msgid ""
 "export command <http://geogig.org/manpages/pgexport.html>`_ to export the layers into this database for "
 "serving. Note you will need to replace the connection parameters below to match you r servers setup::"
 msgstr ""
+"À ce stade, vous avez différentes options sur la façon de servir ce référentiel de votre GeoNode. L'option "
+"la plus fondamentale est de l'exportation ces données PostGIS et configurer la base de données PostGIS dans "
+"GeoServer pour une utilisation dans GeoNode. D'abord créer une base de données PostGIS qui sera utilisée "
+"pour stocker les données et ensuite utiliser la commande pg d'exportation `de geogig <http://geogig.org/"
+"manpages/pgexport.html>`_ pour exporter les couches dans cette base de données pour le service. Notez que "
+"vous aurez besoin de remplacer les paramètres de connexion ci-dessous pour vous r correspond configuration "
+"des serveurs ::"
 
 #: ..\..\006_adv_workshop\osm.rst:223
-#, fuzzy
 msgid ""
 "You may encounter an error when performing this step. This issue has been documented `here <https://github."
 "com/boundlessgeo/GeoGig/issues/356>`_ and is being investigated by the GeoGig team. You will need to create "
@@ -14889,32 +14880,27 @@ msgid ""
 "primarykey.html>`_ and then follow the steps below. If you have questions about this process, please ask "
 "for help on the developers mailing list."
 msgstr ""
-"Vous pouvez rencontrer une erreur lors de l'exécution de cette étape. Cette question a été documenté ici ` "
-"<https://github.com/boundlessgeo/GeoGig/issues/356> `_ Et est à l'étude par l'équipe GeoGig. Vous aurez "
-"besoin de créer une clé de table de métadonnées principal comme décrit ici ` <http://docs.geoserver.org/"
-"stable/en/user/data/database/primarykey.html> `_ Puis suivez les étapes ci-dessous. Si vous avez des "
+"Vous pouvez rencontrer une erreur lors de l'exécution de cette étape. Cette question a été documenté `ici "
+"<https://github.com/boundlessgeo/GeoGig/issues/356>`_ Et est à l'étude par l'équipe GeoGig. Vous aurez "
+"besoin de créer une clé de table de métadonnées principal comme décrit `ici <http://docs.geoserver.org/"
+"stable/en/user/data/database/primarykey.html>`_ Puis suivez les étapes ci-dessous. Si vous avez des "
 "questions sur ce processus, s'il vous plaît demander de l'aide sur les développeurs liste de diffusion."
 
 #: ..\..\006_adv_workshop\osm.rst:225
-#, fuzzy
 msgid "Define your new primary key for the table we can't export (id is the osm id)::"
 msgstr ""
 "Définissez votre nouvelle clé primaire de la table, nous ne pouvons pas exporter (id est l'id de l'OSM) ::"
 
 #: ..\..\006_adv_workshop\osm.rst:229
-#, fuzzy
 msgid "Next you need to alter your osm data table accordingly::"
 msgstr "Ensuite, vous devez modifier votre table de données d'OSM conséquence ::"
 
 #: ..\..\006_adv_workshop\osm.rst:239
-#, fuzzy
 msgid "Then you can run the *geogig pg export* command with the -o option to overwrite the table::"
 msgstr ""
-"Ensuite, vous pouvez exécuter le * geogig pg exportation commande avec l'option -o pour écraser la table "
-"* ::"
+"Ensuite, vous pouvez exécuter le geogig pg exportation commande avec l'option -o pour écraser la table ::"
 
 #: ..\..\006_adv_workshop\osm.rst:243
-#, fuzzy
 msgid ""
 "At this point, you need to configure your PostGIS database connection in GeoServer. More information about "
 "this process can be found in the `GeoServer documentation <http://docs.geoserver.org/stable/en/user/data/"
@@ -14922,10 +14908,9 @@ msgid ""
 msgstr ""
 "À ce stade, vous devez configurer votre connexion à la base de PostGIS dans GeoServer. Plus d'informations "
 "sur ce processus peut être trouvé dans la documentation `GeoServer <http://docs.geoserver.org/stable/en/"
-"user/data/database/postgis.html> `_."
+"user/data/database/postgis.html>`_."
 
 #: ..\..\006_adv_workshop\osm.rst:245
-#, fuzzy
 msgid ""
 "Once the layers are configured in GeoServer. You want to issue the updatelayers to configure them in your "
 "GeoNode::"
@@ -14934,12 +14919,10 @@ msgstr ""
 "configurer dans votre GeoNode ::"
 
 #: ..\..\006_adv_workshop\osm.rst:250
-#, fuzzy
 msgid "Using the GeoGig GeoServer Extension"
 msgstr "En utilisant l'extension GeoGig GeoServer"
 
 #: ..\..\006_adv_workshop\osm.rst:252
-#, fuzzy
 msgid ""
 "The GeoGig project also contains a GeoServer extension that allows a GeoServer administrator to configure "
 "and serve the GeoGig store directly. This extension basically lets you treat your GeoGig repository as any "
@@ -14950,6 +14933,5 @@ msgstr ""
 "votre référentiel GeoGig que toute autre boutique de données spatiales."
 
 #: ..\..\006_adv_workshop\osm.rst:254
-#, fuzzy
 msgid "This section is still to be completed."
 msgstr "Cette section est encore à compléter."
