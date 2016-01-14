@@ -19,6 +19,7 @@ The last sections of the module will teach also you how to add brand new classes
     001_adv_data_mgmt/index
     002_geonode_settings/index
     003_geonode_production/index
+    004_customize_and_github_workshop/index
     osm
 
 :ref:`adv_data_mgmt`
@@ -29,3 +30,6 @@ The last sections of the module will teach also you how to add brand new classes
 
 :ref:`geonode_production`
     Concepts and tecquinques for the deployment af GeoNode and GeoServer on a Production system.
+    
+:ref:`customize_and_github_workshop`
+    A workshop teaching how to customize GeoNode projects and put the source code under revision control with GitHub.
