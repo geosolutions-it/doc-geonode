@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-17 13:10+0100\n"
+"POT-Creation-Date: 2016-01-15 18:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,1887 +16,1887 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\centos_basic_tutorial.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\centos_basic_tutorial.rst:5
 msgid "CentOS Basic Tutorial"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\centos_basic_tutorial.rst:7
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\centos_basic_tutorial.rst:7
 msgid "This section is still under construction."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\index.rst:5
 msgid "Linux Admin Intro"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\index.rst:7
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\index.rst:7
 msgid "This part of the documentation contains basic instruction on how to setup and manages Virtual Machine."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:5
 msgid "System Preparation & Prerequisites"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:11
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:11
 msgid "VM configuration"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:14
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:14
 msgid "Reccomended VM parameters"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:16
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:16
 msgid "Listed below you will find the recommended parameters for the GeoNode Virtual Machine for both development and production environments."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:20
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:20
 msgid "Recommended minimal config"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:20
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:20
 msgid "Prod (recommended config)"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:23
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:23
 msgid "CPU"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:23
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:23
 msgid "4 CPU / core"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:23
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:23
 msgid "4-8 CPU / core"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:25
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:25
 msgid "RAM"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:25
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:25
 msgid "6 GB"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:25
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:25
 msgid "16 GB"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:27
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:27
 msgid "Hard disk"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:27
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:27
 msgid "30GB"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:27
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:27
 msgid "100GB - 1TB"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:30
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:30
 msgid "For testing purposes: - 1 CPU with 2 cores - RAM: 4GB - Disk space: 30GB"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:35
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\system_preparation_prerequisites.rst:35
 msgid "This configuration is not enough for a minimal production environment, adding more CPUs or cores is required."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:5
 msgid "Ubuntu Basic Tutorial"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:7
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:7
 msgid "`Ubuntu <https://en.wikipedia.org/wiki/Ubuntu_(operating_system)>`_ is one of the most widespread `Linux <https://en.wikipedia.org/wiki/Linux>`_ `Distributions <https://en.wikipedia.org/wiki/Linux_distribution>`_ ."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:11
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:11
 msgid "In this section of the documentation you will learn how to do basic operations in Ubuntu such as Log inand Log out, Launch applications and Install new software."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:15
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:15
 msgid "User Login"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:17
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:17
 msgid "When you first start Ubuntu, at the end of the boot process you see the Ubuntu login screen"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:24
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:24
 msgid "Select the user you want to login as, enter the password and press `Enter`. In a few second the user's desktop will appear."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:32
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:32
 msgid "User Interface Walkthrough"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:34
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:34
 msgid "The panel on the left side of the screen contains shortcuts to frequently used application. From dark grey bar at the top you can reach network settings (the icon with two arrows pointing in opposite directions) system language (the icon with `En` written inside it), audio volume, system date and time and power menu (top right corner with an icon half way between a gear and power buttom)."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:40
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:40
 msgid "From the power menu you can switch to a different user, logout, power off the system or access system settings."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:43
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:43
 msgid "In `system setting ` menu you can set several different parameters for the system"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:50
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:50
 msgid "Launch an application"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:52
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:52
 msgid "You  can launch the applications listed in the `Favourites` panel simply by clicking on them."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:54
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:54
 msgid "If the application you want to launch is not in the favourites panel, use the Ubuntu Launcher. Click on the Ubuntu Launcher icon in the top left corner of the screen"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:61
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:61
 msgid "Write down the name of the application. A list of applications matching the name you are searching will show up, for and press `Enter` or click on the icon of the application."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:66
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:66
 msgid "Install new software"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:68
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:68
 msgid "To install new software, open the `Ubuntu software Center` (you will find it in the favourite applications panel)."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:71
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:71
 msgid "Enter the name of the application you are looking for in the search bar"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:77
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:77
 msgid "A list of candidate applications will appear. Click on the one you want to install, then click `install` to install it. You will be prompted for administrative password"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:84
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:84
 msgid "And your application will be installed in the system."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:87
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:87
 msgid "Launch the terminal emulator"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:89
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:89
 msgid "Click on the `Ubuntu Launcher` icon in the top left corner of the screen, and type gnome-terminal in the search box"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:96
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:96
 msgid "And launch the terminal emulator."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:102
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:102
 msgid "Terminal emulator will open and will be ready for your commands."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:106
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:106
 msgid "Basic commands"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:109
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:109
 msgid "Current working directory"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:116
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:116
 msgid "The `pwd` command will show you your `working directory`, that is the directory you are inside of and running your commands in."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:120
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:120
 msgid "Create a directory"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:126
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:126
 msgid "To create a new directory inside your working directory use the `mkdir` command followed by the folder name argument"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:130
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:130
 msgid "Delete a directory"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:136
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:136
 msgid "To delete an empty directory type `rmdir` followed by the folder name argument"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:139
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:139
 msgid "Create an empty file"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:145
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:145
 msgid "To create an empty file in your current working directory use the `touch` command followed by the name of the file"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:149
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:149
 msgid "Delete a file"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:155
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:155
 msgid "To delete a file use the `rm` command followed by the file name"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:158
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:158
 msgid "Change working directory"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:164
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:164
 msgid "To change your current working directory use the `cd` command followed by the `path` (location) you want to change to"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:168
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:168
 msgid "List content of a folder"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:174
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:174
 msgid "The `ls` command will list the content of your current working directory. You can optionally provide a path to a directory as argument, in that case `ls` will show you the content of that directory ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:182
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:182
 msgid "Home folder"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:184
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:184
 msgid "A user's home folder is the folder where he or she will do most of the operations in. Inside your home folder you can freely create or delete file and folders."
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:187
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:187
 msgid "To switch to your home folder you can use the tilde `~` character as a shortcut ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:195
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:195
 msgid "For more information on Ubuntu refer to the `Ubuntu user manual <http://ubuntu-manual.org/?lang=en>`_"
 msgstr ""
 
-#: ..\..\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:197
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\001_linux_admin_intro\ubuntu_basic_tutorial.rst:197
 msgid "For more terminal commands read the `Using the terminal <https://help.ubuntu.com/community/UsingTheTerminal>`_ guide"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:5
 msgid "Finish installation"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:7
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:7
 msgid "In previous sections you' ve setup all the applications we need to run GeoNode."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:9
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:9
 msgid "In this section we are going to `glue` all the pieces together and finalize GeoNode setup."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:13
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:45
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:13
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:45
 msgid "GeoNode Configuration"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:15
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:47
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:15
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:47
 msgid "Now that all applications have been configured we are going to instruct GeoNode on how to connect to `PostgreSQL` and `GeoServer`. Also we are going to instruct GeoNode on who is allowed to connect to it."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:19
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:51
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:19
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:51
 msgid "First navigate to geonode configuration folder::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:23
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:55
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:23
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:55
 msgid "Copy the `local_settings.py` sample file called `local_settings.py.sample`::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:27
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:59
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:27
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:59
 msgid "Then edit the configuration file::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:31
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:63
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:31
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:63
 msgid "Add the `ALLOWED_HOSTS` and `PROXY_ALLOWED_HOSTS` variables at the top with the following values:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:37
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:69
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:37
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:69
 msgid "Add the `POSTGIS_VERSION` variable matching your PostGIS version:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:41
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:73
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:41
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:73
 msgid "This will instruct GeoNode to listen on connections from your local machine."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:43
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:75
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:43
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:75
 msgid "Change the value of the `SITEURL`::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:47
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:47
 msgid "Now configure database access: Uncomment the `ENGINE`: `django.contrib.gis.db.backends.postgis` line and comment the one with empty `ENGINE` variable. Also set the `NAME` variable to `geonode_data`::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:63
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:95
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:63
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:95
 msgid "Then configure GeoServer location: Change the value of the `LOCATION` and `PUBLIC_LOCATION` variables as follows:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:74
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:106
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:74
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:106
 msgid "The resulting configuration file should look like this:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:153
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:153
 msgid "Create GeoNode Superuser"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:155
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:192
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:155
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:192
 msgid "Now create the admin user for GeoNode running the following:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:159
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:196
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:159
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:196
 msgid "You will be prompted for the username, email address and passoword for the user"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:162
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:162
 msgid "Initialize the Database"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:164
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:164
 msgid "We' we already setup GeoNode databases and user permissions for PostgreSQL. And instruct GeoNode on how to access the database. Now let's get the database ready running the following:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:171
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:171
 msgid "If you get an error message it is likely that database access is not set properly. Check you pg_hba.conf file and GeoNode `local_settings.py` file. Remember to restart PostgreSQL to make any changes to pg_hba.conf effective."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:175
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:175
 msgid "Test that you are able to connect to the database as follows:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:179
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:179
 msgid "and::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:185
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:185
 msgid "Test the installation"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:187
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:187
 msgid "We are ready to restart GeoNode (Apache) and test the installation. Restart Apache:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:192
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:192
 msgid "Open the browser and navigate to http://localhost/"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:194
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:194
 msgid "GeoNode User interface will show up. Login with admin username and password you just set."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:205
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:205
 msgid "Now open the main menu and click on `GeoServer`"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\all_together.rst:211
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\all_together.rst:211
 msgid "You will be redirected to GeoServer user interface. You will automatically be logged in as administrator in GeoServer."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:5
 msgid "Create GeoNode DB"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:7
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:7
 msgid "In this section we are going to setup users and databases for GeoNode in PostgreSQL."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:10
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:10
 msgid "Users and Permissions"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:12
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:12
 msgid "First create the `geonode` user. GeoNode is going to use this user to access the database::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:17
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:17
 msgid "You will be prompted asked to set a password for the user. Enter `geonode` as password"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:19
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:19
 msgid "Create `geonode` database with owner `geonode`::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:23
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:23
 msgid "And database `geonode_data` with owner `geonode`::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:27
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:27
 msgid "Switch to user `postgres` and create PostGIS extension::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:32
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:93
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:32
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:93
 msgid "Then adjust permissions::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:37
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:37
 msgid "And switch back to the 'geo' user::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:41
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:41
 msgid "Now we are going to change user access policy for local connections in file `pg_hba.conf`::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:45
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:49
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:45
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:49
 msgid "Scroll down to the bottom of the document. We only need to edit one line. Change::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:50
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:50
 msgid "Into:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:57
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:60
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:57
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:60
 msgid "If your PostgreSQL database resides on a separate machine, you have to allow remote access to the databases in the pg_hba.conf for the `geonode` user and tell PostgreSQL to accept non local connections in your `postgresql.conf` file"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:61
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:61
 msgid "Then restart `PostgreSQL` to make the change effective:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\create_geonode_db.rst:65
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\create_geonode_db.rst:65
 msgid "PostgreSQL is now ready. To test the configuration try to connect to the `geonode` database as `geonode`:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\index.rst:5
 msgid "GeoNode (v\\ |release|) installation on Ubuntu 14.04"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\index.rst:7
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\index.rst:7
 msgid "This part of the documentation describes the complete setup process for GeoNode on an Ubuntu 14.04 machine. The end of this section of the documentation also describes how to automate the installation and comfiguration of GeoNode using `Ansible <http://www.ansible.com/>`_."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:5
 msgid "Install GeoNode Application"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:7
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:7
 msgid "In this section you are going to install all the basic packages and tools needed for a complete GeoNode installation."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:11
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:11
 msgid "Login"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:13
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:13
 msgid "When you first start the Virtual Machine at the end of the boot process you will be prompted for the user password to login. Enter `geo` as user password and press `Enter`."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:21
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:21
 msgid "You are now logged in as user 'geo'. On the left side of the screen there is a panel with shortcuts to common applications, launch a the terminal emulator."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:30
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:30
 msgid "Packages Installation"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:32
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:32
 msgid "First we are going to install all the software packages we are going to need for the GeoNode setup. Among others `Tomcat 7`, `PostgreSQL`, `PostGIS`, `Apache HTTP server` and `Git`. Run the following command to install all the packages::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:78
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:78
 msgid "You will be prompted for `geo` user's password (`geo`) and for confirmation twice"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:84
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:84
 msgid "The installation process is going to take a few minutes."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:86
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:86
 msgid "At this point we have all the packages we need on the system."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:89
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:89
 msgid "GeoNode Setup"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:91
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:91
 msgid "Let's download GeoNode from the main GeoNode repository on GitHub:"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:94
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:94
 msgid "For the purpose of this training the GeoNode repository has been downloaded and placed in the `geonode` user `home folder` (/home/geo/geonode). *Skip* the following command group."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:105
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:105
 msgid "Move into the project folder ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:110
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:110
 msgid "And install GeoNode"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:113
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:113
 msgid "For the purpose of this training GeoNode python packages has been downloaded and installed, *Skip* the following command:"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:120
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:120
 msgid "The following command will download a GeoServer web archive that we are going to use in GeoServer setup:"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:124
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:124
 msgid "Again, for the purpose of this training the GeoServer web archive has been downloaded. *Skip* the following command."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geonode_application.rst:132
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geonode_application.rst:132
 msgid "In the next section we are going to setup PostgreSQL Databases for GeoNode"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:5
 msgid "Install GeoServer Application"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:7
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:7
 msgid "In this section we are going to setup GeoServer for GeoNode. GeoServer will run inside `Tomcat` sevrlet container."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:11
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:11
 msgid "Setup GeoServer"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:13
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:13
 msgid "You' ve already installed `Tomcat 7` in the system in the first section of the training. Before you deploy GeoServer stop the running Tomcat instance:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:18
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:18
 msgid "Now copy the downloaded GeoServer archive inside Tomcat's webapps folder::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:23
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:23
 msgid "Test GeoServer"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:25
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:25
 msgid "Now start Tomcat to deploy GeoServer::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:29
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:29
 msgid "Tomcat will extract GeoServer web archive and start GeoServer. This may take some time"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:31
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:31
 msgid "Open a web browser (in this example `Firefox`) and navigate to http://localhost:8080/geoserver"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:37
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:37
 msgid "In a few seconds GeoServer web interface will show up:"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:44
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:44
 msgid "GeoNode authentication integration"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:46
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:46
 msgid "All we need to do now is to integrate GeoNode authentication so that GeoNode administrator will b able to access and administer GeoServer as well."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:49
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:49
 msgid "Stop GeoServer::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:53
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:53
 msgid "And navigate to `/var/lib/tomcat7/webapps/geoserver/WEB-INF/`::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:57
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:57
 msgid "Edit `web.xml` with a text editor::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:61
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:61
 msgid "And add the following:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:70
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:70
 msgid "If GeoServer is installed on machine that is separate from the one running GeoNode, change the `GEONODE_BASE_URL` value accordingly"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:73
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:73
 msgid "The resulting file should look like this:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:97
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:97
 msgid "If GeoServer is installed on machine that is separate from the one running GeoNode there is one more step to follow. Edit config.xml file as follows:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:103
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:103
 msgid "Set the `baseUrl` to GeoNode IP or hostname::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:112
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\install_geoserver_application.rst:112
 msgid "Restart GeoServer to make the changes effective::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:5
 msgid "Setup & Configure HTTPD"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:7
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:7
 msgid "In this section we are going to setup Apache HTTP to serve GeoNode."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:10
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:10
 msgid "Apache Configuration"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:12
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:12
 msgid "Navigate to Apache configurations folder:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:16
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:16
 msgid "And create a new configuration file for GeoNode:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:20
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:20
 msgid "Place the following content inside the file:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:88
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:88
 msgid "This sets up a VirtualHost in Apache HTTP server for GeoNode and a reverse proxy for GeoServer."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:93
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:93
 msgid "In the case that GeoServer is running on a separate machine change the `ProxyPass` and `ProxyPassReverse` accordingly"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:96
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:96
 msgid "Now load apache `poxy` module::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:100
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:100
 msgid "And enable geonode configuration file::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:104
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:198
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:104
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:198
 msgid "Dowload GeoNode data to be served by Apache. You will be prompted for confirmation::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:109
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:52
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:109
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:52
 msgid "Add `thumbs` and `layers` folders::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:114
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:206
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:114
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:206
 msgid "Change permissions on GeoNode files and folders to allow Apache to read and edit them:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:124
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\setup_configure_httpd.rst:124
 msgid "Finally restart Apache to load the new configuration::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\using_ansible.rst:5
 msgid "Setup Using Ansible"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:7
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\using_ansible.rst:7
 msgid "Using `Ansible <http://www.ansible.com/>`_ we can automate the installation and configuration of GeoNode on local or remote machines. If you never used Ansible before take a look at the `Running Ansible scripts` section of the documentation or `Ansible official docmumentation <https://docs.ansible.com/>`_"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:13
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\using_ansible.rst:13
 msgid "GeoNode setup with Ansible"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:15
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\using_ansible.rst:15
 msgid "In the Virtual Machines we provided for the training come with Ansible preinstalled. In the `geo` user home folder ( /home/geo/ ) you will find a simple Ansible playbook we wrote for demonstration along with some resource files used by the playbook itself."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:19
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\using_ansible.rst:19
 msgid "To start the installation with Ansible open a terminal and navigate to the `ansible` folder inside geo's home folder::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:24
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\using_ansible.rst:24
 msgid "Then run the playbook using the `ansible-playbook` command::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:28
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\using_ansible.rst:28
 msgid "Ansible will run through the instructions in the playbook and setup GeoNode on your local machine."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:31
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\using_ansible.rst:31
 msgid "Ansible will print information about each step executed. The whole setup is going to take a few minutes."
 msgstr ""
 
-#: ..\..\002_install_and_admin\002_geonode_install\using_ansible.rst:34
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\002_geonode_install\using_ansible.rst:34
 msgid "At the end of the execution of the playbook all you need to do is set GeoNode administrator's password::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\index.rst:5
 msgid "GeoNode (v\\ |release|) installation on CentOS 7"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\index.rst:7
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\index.rst:7
 msgid "This part of the documentation describes the complete setup process for GeoNode on a CentOS 7 machine."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:5
 msgid "Apache HTTP Server Installation"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:8
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:8
 msgid "Install Apache::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:12
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:12
 msgid "And additional modules::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:17
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:17
 msgid "Firewall configuration"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:19
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:19
 msgid "Allow requests on port 80 through the firewall::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:25
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:25
 msgid "Security issues"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:27
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:27
 msgid "There are a couple of security issues to fix when dealing with GeoNode."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:29
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:29
 msgid "GeoNode will run inside httpd through WSGI. This means that httpd will try to perform external connection toward the DB. This is usually blocked by default by strict security policies, so we need to relax them::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:34
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:34
 msgid "The other issue is about SELinux itself: it is not WSGI friendly, so we'll have to disable it. Edit the file ``/etc/sysconfig/selinux`` and  change the line::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:39
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:39
 msgid "into ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:43
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:43
 msgid "and reboot the machine."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:47
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:47
 msgid "httpd configuration"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:49
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:49
 msgid "As ``root`, create the file ``/etc/httpd/conf.d/geonode.conf`` and insert into it :download:`this content <resources/geonode.conf>`."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:57
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:57
 msgid "Set appropriate permissions on the folders::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:67
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:67
 msgid "Then restart httpd to make it reload the new configurations::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:71
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_httpd.rst:71
 msgid "To automatically start Apache at boot, run::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:5
 msgid "Installing PostgreSQL and PostGIS"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:8
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:8
 msgid "Install PostgreSQL"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:10
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:10
 msgid "Install the package for configuring the PGDG repository::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:14
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:14
 msgid "EPEL repository will provide GDAL packages::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:18
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:18
 msgid "Install PostgreSQL, PostGIS and related libs::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:24
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:24
 msgid "Init the DB::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:28
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:28
 msgid "Enable start on boot::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:32
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:32
 msgid "Start postgres service by hand::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:36
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:36
 msgid "To restart or reload the instance, you can use the following commands::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:43
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:43
 msgid "Setting PostgreSQL access"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:45
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:45
 msgid "Now we are going to change user access policy for local connections in file pg_hba.conf:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:53
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:53
 msgid "into::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:64
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:64
 msgid "Once the configuration file has been edited, restart PostgreSQL to make these changes effective::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:70
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:70
 msgid "Create GeoNode Users Databases"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:71
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:71
 msgid "Switch to postgres user::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:75
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:75
 msgid "First create the geonode user. GeoNode is going to use this user to access the database:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:79
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:79
 msgid "You will be prompted asked to set a password for the user. Enter geonode as password"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:81
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:81
 msgid "Create geonode database with owner geonode::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:85
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:85
 msgid "And database geonode_data with owner geonode::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:89
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:89
 msgid "Create PostGIS extension:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:98
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_postgresql.rst:98
 msgid "And exit `postgres` user::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:5
 msgid "Tomcat Installation"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:8
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:8
 msgid "Installing Java"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:10
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:10
 msgid "We'll need a JDK to run GeoServer."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:12
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:12
 msgid "You may already have the OpenJDK package (``java-1.7.0-openjdk-devel.x86_64``) installed. Check and see if Java is already installed::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:23
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:23
 msgid "Otherwise install it running:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:27
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:27
 msgid "Once done, the command ``java -version`` should return info about the installed version."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:29
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:29
 msgid "If java version does not match the  one just installed, run the following command::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:34
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:34
 msgid "Oracle JDK"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:36
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:36
 msgid "Until recently, the Oracle JDK was a better performer than the OpenJDK, so it was the preferred choice. This is no longer true, anyway in the following paragraph you can find instruction about how to install the Oracle JDK."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:40
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:40
 msgid "You can download the Oracle JDK RPM from this page:"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:42
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:42
 msgid "http://www.oracle.com/technetwork/java/javase/downloads/index.html"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:44
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:44
 msgid "Oracle does not expose a URL to automatically dowload the JDK because an interactive licence acceptance is requested. You may start downloading the JDK RPM from a browser, and then either:"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:47
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:47
 msgid "stop the download from the browser and use on the server the dynamic download URL your browser has been assigned, or"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:48
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:48
 msgid "finish the download and transfer the JDK RPM to the server using ``scp``."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:50
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:50
 msgid "Once you have the ``.rpm`` file, you can install it by::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:55
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:55
 msgid "Once installed, you still see that the default ``java`` and ``javac`` commands are still the ones from OpenJDK. In order to switch JDK version you have to set the proper system `alternatives`."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:59
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:59
 msgid "You may want to refer to `this page <http://www.rackspace.com/knowledge_center/article/how-to-install-the-oracle-jdk-on-fedora-15-16>`_ . Issue the command::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:83
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:83
 msgid "Then run ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:87
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:87
 msgid "and select the number related to ``/usr/java/latest/bin/java``."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:89
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:89
 msgid "Now the default java version should be the Oracle one. Verify the proper installation on the JDK::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:101
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:101
 msgid "Installing Tomcat"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:106
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:106
 msgid "Tomcat"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:108
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:108
 msgid "Let's install `Tomcat` first::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:112
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:112
 msgid "Then prepare a clean instance called ``base`` to be used as a template for all tomcat instances::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:118
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:118
 msgid "Then create GeoServer's instance directory structure::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:124
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:124
 msgid "Instance manager script"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:126
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:126
 msgid "Copy the existing management script::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:131
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:131
 msgid "Edit the `EnvironmentFile` variable in service management file as follows::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:159
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:159
 msgid "Create the associated configuration file from template::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:163
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:163
 msgid "Edit the configuration file and customize the `CATALINA_HOME` and `CATALINA_BASE` variables::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:171
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:171
 msgid "Now copy GeoServer web archive inside the webapps folder. Tomcat will extract the war file and run GeoServer::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:176
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:176
 msgid "And fix the permissions on the files::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:180
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:180
 msgid "Finally start GeoServer::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:184
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_base_tomcat.rst:184
 msgid "And enable it to automatically start at boot time::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:5
 msgid "Install GeoNode application"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:8
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:8
 msgid "Install required libs"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:10
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:10
 msgid "Make sure all the needed libraries are installed::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:17
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:17
 msgid "Create geonode user"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:19
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:19
 msgid "Create the user::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:24
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:24
 msgid "Install GeoNode"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:26
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:26
 msgid "Install GeoNode sources from official repository::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:30
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:30
 msgid "Move the sources in `geonode` user home folder::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:34
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:34
 msgid "Navigate to sources folder and install required packages::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:42
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:42
 msgid "Edit settings"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:79
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:79
 msgid "Now configure database access: Uncomment the `ENGINE': 'django.contrib.gis.db.backends.postgis` line and comment the one with empty `ENGINE` variable. Also set the `NAME` variable to `geonode_data`::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:185
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:185
 msgid "Initialize GeoNode"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:187
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:187
 msgid "As user ``geonode``, init the db, by creating the schema tables and populating the static data:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\install_geonode.rst:202
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\install_geonode.rst:202
 msgid "Create `uploaded` folder::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:5
 msgid "Installing the Operating System"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:8
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:8
 msgid "CentOS Setup"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:10
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:10
 msgid "We are re going to install a minimal CentOS 7 distribution. You can get a copy of the .iso the image used for the installation `here <http://mi.mirror.garr.it/mirrors/CentOS/7/isos/x86_64/CentOS-7-x86_64-Minimal-1503-01.iso>`_."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:14
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:14
 msgid "Boot up the installation DVD and start the `CentOS 7` Installation wizard."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:16
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:16
 msgid "Under `Select Date & Time` an set appropriate Date and Time settings"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:17
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:17
 msgid "Under `Keyboard` and choose the keyboard layout"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:18
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:18
 msgid "Under `Installation Destination` select the hard disk where CentOS will be installed."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:21
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:21
 msgid "Create a custom partitioning scheme as follows:"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:24
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:24
 msgid "Partition Label"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:24
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:24
 msgid "Partition Type"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:24
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:24
 msgid "Size"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:24
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:24
 msgid "Mount Point"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:26
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:26
 msgid "boot"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:26
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:26
 msgid "ext3"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:26
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:26
 msgid "700 MB"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:26
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:26
 msgid "/boot"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:28
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:28
 msgid "root"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:28
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:28
 msgid "ext4"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:28
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:28
 msgid "35 GB"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:28
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:28
 msgid "/"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:30
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:30
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:30
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:30
 msgid "swap"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:30
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:30
 msgid "4 GB"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:32
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:32
 msgid "Under `Networking` configure your network interface according to your infrastructure you can either set it to `DHCP` to automatically get all the settings from a local DHCP server or configure it by hand."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:35
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:35
 msgid "Enable the network interface, then go back to `Select Date & Time` and enable NTP synchronization periodically get date and time settings from CentOS servers"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:37
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:37
 msgid "Click on `Begin Installation`"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:38
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:38
 msgid "Now set the password for the `root` user. Also click on `User Creation` to create the `geo` user."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:40
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:40
 msgid "Wait for the installation process to finish, then reboot your machine"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:44
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:44
 msgid "Network configuration"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:46
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:46
 msgid "The network configuration should already be set, since it was set during CentOS setup stage."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:49
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:49
 msgid "You may want to review the configuration files ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:53
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:53
 msgid "You may also want to review the file ``/etc/resolv.conf`` to check the nameservers."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:56
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:56
 msgid "Check that the connection is up by pinging and external server::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:60
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:60
 msgid "Check that the DNS are properly configuring by pinging a host by its name::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:65
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:65
 msgid "Please note that in CentOS only ssh incoming connections are allowed; all other incoming connections are disabled by default."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:68
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:68
 msgid "In the paragraph related to the httpd service you can find details about how to enable incoming traffic."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:71
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:71
 msgid "Note that after configuring the network, you may continue installing the system setup using a ssh connection."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:75
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:75
 msgid "User access configuration"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:77
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:77
 msgid "Login as ``root'` user and give the ``geo`` user administrative privileges by adding him to the ``wheel`` group: ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:83
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:83
 msgid "SSH access"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:86
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:86
 msgid "Allow SSH connections through the firewall"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:88
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:88
 msgid "On CentOS 7 the firewall is enabled by default. To allow SSH clients to connect to the machine allow incoming connections on port 22::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:96
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:96
 msgid "Disable SSH login for the `root` user"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:98
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:98
 msgid "Before you disable root login make sure you are able to login via SSH with `geo` user account and you have the privileges to run `sudo su` to switch to the `root` user account."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:102
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:102
 msgid "Edit file `/etc/ssh/sshd_config` to disable `root` login via SSH::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:107
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:107
 msgid "Public key authentication"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:109
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:109
 msgid "`Public key authentication`_ is generally considered a safer way to authenticate users for SSH access. Let's set it up and disable password based authentication"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:114
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:114
 msgid "First generate a public/private key pair using `ssh-keygen`::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:118
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:118
 msgid "Folllow the procedure, you will end up with your newly generated key under ``~/.ssh`` Now copy your `public` (by default it is called id_rsa.pub) key over the CentOS machine in ``/home/geo/.ssh/authorized_keys``. There are several ways to do it, we are going to use the `ssh-copy-id` tool::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:125
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:125
 msgid "You should now be able to login via SSH as `geo` without been asked for the password::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:131
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:131
 msgid "You can now disable password based login over SSH"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:134
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:134
 msgid "Before disabling password authentication make sure you' ve installed your public key on the server and you are able to login without password"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:137
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:137
 msgid "Edit ``/etc/ssh/sshd_config`` as follows::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:151
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:151
 msgid "Installing ntp"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:153
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:153
 msgid "Install the program for ntp server synchronization::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:157
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:157
 msgid "Edit ``/etc/ntp.conf`` and add the following line before the first ``server`` directive::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:161
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:161
 msgid "Replace ``tempo.ien.it`` with your nearest ntp server."
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:163
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:163
 msgid "Sync with the server by issuing::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:167
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:167
 msgid "Set the time synchronization as an autostarting daemon::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:172
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:172
 msgid "Installing base packages"
 msgstr ""
 
-#: ..\..\002_install_and_admin\003_setup_on_centos\setup_centos.rst:174
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\003_setup_on_centos\setup_centos.rst:174
 msgid "Install::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:5
 msgid "Installation & Admin"
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:6
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:6
 msgid "Welcome to the GeoNode Training `Installation & Admin` documentation v\\ |release|."
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:8
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:8
 msgid "This module is more oriented to users having some System Administrator background."
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:10
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:10
 msgid "At the end of this section you will be able to setup from scratch the whole GeoNode infrastructure and understand how to the different pieces are interconnected and which are their dependencies."
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:12
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:12
 msgid "*Prerequisites*"
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:14
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:14
 msgid "Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:"
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:16
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:16
 msgid "GeoNode and Django framework basic concepts"
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:17
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:17
 msgid "What is Python"
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:18
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:18
 msgid "What is a DBMS"
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:19
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:19
 msgid "What is a Java Virtual Machine and the JDK"
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:20
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:20
 msgid "Basic TCP/IP and networking concepts"
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:21
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:21
 msgid "Linux OS basic shell and maintenance commands"
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:22
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:22
 msgid "Apache HTTPD Server and WSGI Python bindings"
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:36
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:36
 msgid ":ref:`linux_admin_intro`"
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:36
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:36
 msgid "This section describes how to setup a Virtual Machine running Ubuntu."
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:39
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:39
 msgid ":ref:`geonode_install`"
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:39
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:39
 msgid "This section will guide the user through the steps necessary to install GeoNode on Ubuntu."
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:43
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:43
 msgid ":ref:`setup_on_centos`"
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:42
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:42
 msgid "This section will guide the user through the steps necessary to install GeoNode on CentOS."
 msgstr ""
 
-#: ..\..\002_install_and_admin\index.rst:44
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\index.rst:44
 msgid "Packaging for automatic installation are provided for Ubuntu, so, the only option for installing GeoNode on a CentOS platform is installing it from source."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:5
 msgid "Running Ansible scripts"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:7
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:7
 msgid "`Ansible <http://www.ansible.com/>`_ is a free software platform used for configuring and managing computers. It is written in `Python <https://www.python.org/>`_ and allows users to manage `nodes` (computers) over SSH."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:11
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:11
 msgid "Configuration files are written in `YAML <https://en.wikipedia.org/wiki/YAML>`_ , a simple, human-readable, data serialization format."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:15
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:15
 msgid "Installing Ansible"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:17
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:17
 msgid "Before you install `Ansible` make sure you have Python 2.6 or Python 2.7 on the controlling machine, you will also need an SSH client. Most Linux distributions come with an SSH client preinstalled."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:21
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:21
 msgid "If you encounter any problems during the installation, refer to the `official documentation <http://docs.ansible.com/ansible/intro_installation.html>`_"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:25
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:23
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:25
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:23
 msgid "Windows"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:27
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:27
 msgid "Windows is not supported as a controlling machine."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:30
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:56
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:30
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:56
 msgid "Ubuntu"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:32
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:32
 msgid "Fist configure Ansible `PPA <https://en.wikipedia.org/wiki/Personal_Package_Archive>`_::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:37
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:37
 msgid "Then update your available software index and install ansible::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:43
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:43
 msgid "Running Ansible"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:45
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:45
 msgid "To test your ansible installation, run the following command"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:49
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:49
 msgid "you need a running SSH server on your machine for this to work::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:53
-#: ..\..\002_install_and_admin\running_ansible.rst:65
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:53
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:65
 msgid "You should get the following output::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:60
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:60
 msgid "To test your ansible installation, run the following command (you need a running SSH server on your machine for this to work)::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:73
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:73
 msgid "Ansible Hosts file"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:75
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:75
 msgid "Ansible keeps information about the managed nodes in the `inventory` or `hosts file`. Edit or create the hosts file::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:80
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:80
 msgid "This file contains a list of nodes for Ansible to manage. Nodes can be referred either with IP or hostname. The syntax is the following:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:87
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:87
 msgid "You can also arrange hosts in groups::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:101
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:101
 msgid "Public Key access"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:103
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:103
 msgid "To avoid having to type users password to connect to the nodes over and over, using SSH keys is recommended."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:106
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:106
 msgid "To setup Public Key SSH access to the nodes. First create a key pair:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:110
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:110
 msgid "And follow the instructions on the screen. A new key pair will be generated and placed inside the `.ssh` folder in your user's home directory."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:113
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:113
 msgid "All you need to do now is copy the public key (id_rsa.pub) in the `authorized_keys` file on the node you want to manage, inside the user's home directory. For example if you want to be able to connect to training.geonode1.com as user `geo` edit the /home/geo/.ssh/authorized_keys file on the remote machine and add the content of your public key inside the file."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:119
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:119
 msgid "For more information on how to setup SSH keys in Ubuntu refere to `this <https://help.ubuntu.com/community/SSH/OpenSSH/Keys>`_ document"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:123
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:123
 msgid "Connect to managed nodes"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:125
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:125
 msgid "Now that SSH access to the managed nodes is in place for all the nodes inside Ansible `inventory` (hosts file) we can run our first command::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:132
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:132
 msgid "change `geo` with the username to use for SSH login"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:134
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:134
 msgid "The output will be similar to this:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:142
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:142
 msgid "We asked ansible to connect to all the machine in our `Inventory` as user `geo` and run the `module` (modules are Ansible's units of work, more on that later..) ping. As you can see by the output, Ansible successfully connected to the remote machine and executed the module `ping`"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:149
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:149
 msgid "Ad hoc commands"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:151
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:151
 msgid "An ad-hoc command is something that you might type in to do something really quick, but don’t want to save for later."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:154
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:154
 msgid "Later you are going to write so called `Playbooks` with the commands to run on the controlled node but for learning purposes ad-hoc commands can be used to do quick things."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:158
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:158
 msgid "One example of ad-hoc command is the ping command we just run. We typed in in the command line and run it interactively."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:161
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:161
 msgid "Another example:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:170
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:170
 msgid "In this example we ran the `free` command on the remote hosts to get memory usage stats. Note that we used the `shell` module (-m flag) with the command as the argument (-a flag)"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:175
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:175
 msgid "File Transfer"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:177
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:177
 msgid "Another use case for the Ansible command is transfer files over SCP::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:193
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:193
 msgid "We used the `ansible` command to transfer the local file /home/geo/test to the remote node in user's home directory ('~/')"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:197
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:197
 msgid "Managing Packages"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:199
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:199
 msgid "Another use case is installing or upgrading packages on the remote nodes. You can use the `apt` module to achive this on Debian based systems or the `yum` module on Red Hat based systems::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:205
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:205
 msgid "For example the previous command will install apache web server on the remote system (if not present)."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:208
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:208
 msgid "You can use the same module to make sure a package is at the latest version::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:213
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:213
 msgid "Managing Services"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:215
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:215
 msgid "Use the `service` module to ensure a given service is started on all webservers:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:219
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:219
 msgid "(where `webserver` is a group defined in Ansible Inventory)"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:221
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:221
 msgid "Restart the service:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:225
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:225
 msgid "Or stop it::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:229
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:229
 msgid "For more information on ad-hoc command refer to the `official documentation <https://docs.ansible.com/ansible/intro_adhoc.html>`_"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:231
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:231
 msgid "These were just a few of the modules avilable for ansible. See the `complete list <http://docs.ansible.com/ansible/list_of_all_modules.html>`_ available at Ansible web site"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:236
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:236
 msgid "Ansible Playbooks"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:238
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:238
 msgid "Playbooks are Ansible’s configuration, deployment, and orchestration language."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:240
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:240
 msgid "Playbooks are a completely different way to use ansible than in adhoc task execution mode, and are particularly powerful."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:243
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:243
 msgid "Playbooks can declare configurations, but they can also orchestrate steps of any manual ordered process."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:246
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:246
 msgid "While you might run the main /usr/bin/ansible program for ad-hoc tasks, playbooks are more likely to be kept in source control and used to push out your configuration or assure the configurations of your remote systems are in spec."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:251
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:251
 msgid "Playbooks languuage example"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:253
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:253
 msgid "Playbooks are expressed in `YAML <https://en.wikipedia.org/wiki/YAML>`_ format"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:255
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:255
 msgid "Here is an example of a Playbook:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:276
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:276
 msgid "Every Playbook begins with three dashes `---` at the very top of the file to indicate that this is a YAML file."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:279
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:279
 msgid "This example Playbook contains only one Play. the play is composed of three parts"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:281
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:281
 msgid "hosts"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:282
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:282
 msgid "tasks"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:283
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:283
 msgid "handlers"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:285
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:285
 msgid "The hosts part specifies to wich hosts in the Inventory this playbook applies and how to connect to them"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:288
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:288
 msgid "The tasks part describes the desired state or actions to perform on the hosts"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:290
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:290
 msgid "The handlers part describes the handlers for this playbook (more on handlers later)"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:292
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:292
 msgid "In the example above there are three tasks. Each task has a name, a module and zero or more arguments for the module."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:295
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:295
 msgid "The first task specifies that we want apache at the latest version installed on the system. This is accomplished by the `yum` module"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:298
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:298
 msgid "The second task specifies a configuration file for apache using a `template`. Template files for are written in `Jinja2 template language <http://jinja.pocoo.org/>`_"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:301
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:301
 msgid "The third task make sure apache web server is running using the `service` module."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:303
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:303
 msgid "When you run a Playbook, using the ansible-playbook command. Ansible will connect to the hosts specified in the hosts section and run the tasks one by one, in order."
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:306
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:306
 msgid "One or more tasks may have a `notify` section (just like the second task in our example). The `notify` actions are triggered at the end of each block of tasks in a playbook, and will only be triggered once even if notified by multiple different tasks. When triggered, the corresponding handler will be executed. In the example above the handler will restart Apache because we changed a config file"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:314
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:314
 msgid "Run a Playbook"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:316
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:316
 msgid "Now that we have created a sample playbook save it on the file system and execute it:::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:331
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:331
 msgid "This concludes our brief tutorial on Ansible. For a more thorough introduction refer the `official documentation <https://docs.ansible.com/>`_"
 msgstr ""
 
-#: ..\..\002_install_and_admin\running_ansible.rst:334
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\running_ansible.rst:334
 msgid "Alse, take a look at the `Ansible examples repository <https://github.com/ansible/ansible-examples>`_ for a set of Playbooks showing common techniques."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:5
 msgid "Running a VM with Vagrant"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:7
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:7
 msgid "In this section you will find instructions on how to setup an Ubuntu 14.04 VM using `Vagrant`_"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:13
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:13
 msgid "Vagrant Setup"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:15
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:15
 msgid "Download Vagrant from the `official <https://www.vagrantup.com/downloads>`_ web site. Choose the installer matching your operating system and architecture."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:18
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:18
 msgid "Installation process is straightforward, refer to Vagrant `official documentation <https://docs.vagrantup.com/v2/installation/index.html>`_ if you encounter any problem."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:21
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:21
 msgid "At the end of the installation process log out your system and log back in."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:24
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:24
 msgid "Vagrant is going to need a `provider <https://docs.vagrantup.com/v2/providers/>`_ in order to setup the Virtual Machines. `VirtualBox` is supported out of the box. Just make sure you install `one of the supported versions of VirtualBox <https://docs.vagrantup.com/v2/virtualbox>`_"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:28
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:28
 msgid "Open a terminal and type `vagrant version`. A message containing the installed version of Vagrant will be printed on the terminal ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:37
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:74
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:37
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:74
 msgid "Virtual Machine Setup"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:39
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:39
 msgid "Now that Vagrant is installed let's create our Ubuntu Virtual Machine. Open the terminal and create a new folder called `vagrand`. enter the folder and run ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:51
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:51
 msgid "This will create a configuration file called `Vagrantfile` containing the settings for the virtual machine, notably the `config.vm.box` variable set to \"ubuntu/trusty32\" will tell Vagrant the specific VM we want to run (Ubuntu 14.04 \"Trusty Tahr\", 32 bit version)"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:55
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:55
 msgid "To start the VM, run ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:60
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:60
 msgid "The first time you run the command it is going to take some since you do not have a locally available image of the VM. Vagrant will download the VM from the `Vagrant Could <https://vagrantcloud.com/>`_ to your local system. ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:76
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:76
 msgid "At the end of the download process Vagrant will start the VM."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:78
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:78
 msgid "To access the Virtual machine, run ::"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:85
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:85
 msgid "You need an SSH client for the previous command to work. Most Linux distributions come with an SSH installed. If you are using Windows as the guest operating system install MinGW or Cygwin or Git to obtain a command line SSH client. More information available `here <http://docs-v1.vagrantup.com/v1/docs/getting-started/ssh.html>`_"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_running_vagrant.rst:90
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_running_vagrant.rst:90
 msgid "You will be connected to the guest Virtual Machine over SSH as user `vagrant`."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:5
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:5
 msgid "VM Setup with VirtualBox"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:7
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:7
 msgid "In this section you will find instructions on how to setup an Ubuntu 14.04 VM in `VirtualBox`_"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:13
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:13
 msgid "VirtualBox Setup"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:15
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:15
 msgid "Download Virtualbox from `official <https://www.virtualbox.org/wiki/Downloads>`_ web site. Choose the installer matching your operating system and architecture."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:18
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:18
 msgid "Installation process is straightforward, refer to VirtualBox `official documentation <https://www.virtualbox.org/manual/ch01.html#intro-installing>`_ if you encounter any problem."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:25
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:25
 msgid "After you downloaded executable, double click on it to launch the installer."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:31
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:31
 msgid "Customize VirtualBox features an paths if you need to or leave default ones"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:37
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:37
 msgid "And start the installation process"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:47
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:47
 msgid "Click on \"Finish\""
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:53
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:53
 msgid "VirtualBox is now installed. And will automatically be launched"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:58
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:58
 msgid "After you downloaded the package,  double click on it. The \"Ubuntu Software Center\" will pop up, click on \"Install\" to start the installation process"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:65
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:65
 msgid "You will be prompted for administrator password."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:67
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:67
 msgid "At the end of the installation process, launch VirtualBox."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:76
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:76
 msgid "Now that VirtualBox is installed on the system it is time to setup our Ubuntu VM."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:78
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:78
 msgid "Click the light blue `New` button in VirtualBox user interface."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:80
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:80
 msgid "Choose a name for the Virtual Machine and select the appropriate VM type and version"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:86
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:86
 msgid "Then select the amount of memory you want to assign to the VM, `Ubuntu recommends <https://help.ubuntu.com/community/Installation/SystemRequirements>`_ at least 512 MB of memory but we are going to need more than that to run GeoNode refer to `System Preparation & Prerequisites` sections for details."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:95
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:95
 msgid "Create a new `virtual disk` for the VM. Againg, refer to `System Preparation & Prerequisites` section for details about disk size, for testing purposes 30 GB will be enought."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:98
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:98
 msgid "Now edit the Virtual Machine settigs"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:104
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:104
 msgid "Under \"Storage\" select the empty DVD drive, click on `Live CD/DVD` as shown below"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:110
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:110
 msgid "Click on the DVD icon next to the `Optical Drive` drop down menu and select the Ubuntu 14.04 `.iso` file from your file system"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:117
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:117
 msgid "Edit other VM setting if you need to, then click `OK`."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:119
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:119
 msgid "We are ready to start our Ubuntu VM for the first time. Select it from the main menu and click on `Start`"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:126
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:126
 msgid "Ubuntu will start the boot process"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:132
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:132
 msgid "At the end of the boot process you will be asked if you want to `Try Ubuntu` or `Install Ubuntu`. Select the language in the left panel and click on `Install Ubuntu`"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:139
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:139
 msgid "The installer will check your internet connection and available disk space. If you are connected to the internet check the `Download updates while installing` checkbox."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:146
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:146
 msgid "Click on `continue`. In the page you will configure the partitioning of the disks. If you recall we have created a new `virtual disk` during the VM configuration process for Ubuntu. We are going to assign the entire disk to it. Select `Erase disk and install Ubuntu`, then `Install Now`"
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:155
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:155
 msgid "You will be prompted for confirmation."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:157
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:157
 msgid "Now select the correct time zone for your location, then select the language for the VM and enter the details for the administrator user."
 msgstr ""
 
-#: ..\..\002_install_and_admin\vm_setup_virtualbox.rst:172
+#: C:\work\code\java\geonode\doc-geonode\002_install_and_admin\vm_setup_virtualbox.rst:172
 msgid "The installation will continue automatically. At the end of the installation process a pop up window will ask you to restart the system to start using Ubuntu. Click on `Restart Now`"
 msgstr ""
 

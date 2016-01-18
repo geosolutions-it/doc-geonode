@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-17 13:10+0100\n"
+"POT-Creation-Date: 2016-01-15 18:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,997 +16,997 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:5
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\import_and_manage.rst:5
 msgid "Import and Manage"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:6
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\import_and_manage.rst:6
 msgid "GeoNode allows users to upload and share geospatial data, securely. GeoNode makes it easy to upload and manage geospatial data on the web. Any user can upload and make content available via standard OGC protocols such as Web Map Service (WMS) and Web Feature Service (WFS). Data is available for browsing, searching, styling, and processing to generate maps which can be shared publicly or restricted to specific users only. Supported upload formats include ShapeFile, GeoTIFF, KML and CSV. In addition, it is possible to connect to existing external spatial databases and services."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:10
-#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:11
-#: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:11
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\import_and_manage.rst:10
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\interactive_mapping.rst:11
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:11
 msgid "Features include:"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:12
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\import_and_manage.rst:12
 msgid "Publish raster, vector, and tabular data"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:14
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\import_and_manage.rst:14
 msgid "Manage metadata and associated documents"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:16
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\import_and_manage.rst:16
 msgid "Securely or publicly share data"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\import_and_manage.rst:18
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\import_and_manage.rst:18
 msgid "Versioned geospatial data editor"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\index.rst:5
 msgid "Users' Features"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\index.rst:6
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:6
-#: ..\..\001_overview_and_ref\index.rst:22
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\index.rst:6
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:6
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\index.rst:22
 msgid "Open Source Geospatial Content Management System"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\index.rst:8
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:8
-#: ..\..\001_overview_and_ref\index.rst:24
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\index.rst:8
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:8
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\index.rst:24
 msgid "GeoNode is a web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI)."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\index.rst:10
-#: ..\..\001_overview_and_ref\index.rst:26
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\index.rst:10
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\index.rst:26
 msgid "What GeoNode can be used for… `GeoNode Demo <http://demo.geonode.org/>`_ (admin/admin)"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:5
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\interactive_mapping.rst:5
 msgid "Interactive Mapping"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:7
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\interactive_mapping.rst:7
 msgid "GeoNode allows users to create and share interactive web maps. GeoNode comes with helpful cartography tools for styling and composing maps graphically. These tools make it easy for anyone to assemble a web-based mapping application with functionality traditionally found in desktop GIS applications. Users can gain enhanced interactivity with GIS-specific tools such as querying and measuring."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:13
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\interactive_mapping.rst:13
 msgid "GeoExplorer GIS client"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:15
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\interactive_mapping.rst:15
 msgid "Graphical style editor"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:17
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\interactive_mapping.rst:17
 msgid "Create multi-layer interactive maps"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\interactive_mapping.rst:19
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\interactive_mapping.rst:19
 msgid "Share and embed maps in web pages"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:5
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:5
 msgid "Spatial Data Discovery"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:7
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:7
 msgid "GeoNode allows users to browse and search for geospatial data. By combining collaboration found in social networks with specialized geospatial tools, GeoNode makes it easy to explore, process, style, and share maps and geospatial data. Spatial datasets can be imported and shared, all through a non-technical user interface."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:13
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:13
 msgid "Powerful spatial search engine"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:15
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:15
 msgid "Federated OGC services"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:17
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\001_user_features\spatial_data_discovery.rst:17
 msgid "Metadata catalogue"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:5
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:5
 msgid "GeoNode Quickstart"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:10
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:10
 msgid "In this Quickstart guide you will learn the following:"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:12
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:12
 msgid "to register a new account to get started"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:13
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:13
 msgid "add a new layer"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:14
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:14
 msgid "create a map using your new layer"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:15
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:15
 msgid "share your map with others"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:17
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:17
 msgid "Start GeoNode on your Live DVD or local VM and redirect your browser at `http://localhost:8000/ <http://localhost:8000/>`_ (this is the default port). The page will look like shown in the image below."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:23
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:18
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:23
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:18
 msgid "*Welcome page*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:26
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:26
 msgid "1. Register a new account"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:28
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:28
 msgid "From the interface shown above, one can view and modify existing spatial layers and maps, as well as find information on other GeoNode users. But, without being logged in, you are limited to read-only access of public layers. In order to create a map and add layers to it, you have to have create an account first."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:32
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:32
 msgid "From any page in the web interface, you will see a *Sign in* link. Click that link, and in the dialog that displays, click the *Register now* link."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:37
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:37
 msgid "*Sign in Form*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:39
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:39
 msgid "On the next page, fill out the form. Enter a user name and password in the fields. Also, enter your email address for verification."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:44
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:44
 msgid "*Register Form*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:46
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:46
 msgid "You will be returned to the welcome page. An email will be sent confirming that you have signed up. While you are now logged in, you will need to confirm your account. Navigate to the link that was sent in the email."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:51
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:51
 msgid "*Confirm*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:53
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:53
 msgid "By clicking *Confirm* you will be returned to the homepage. Now you’ve registered an account, you are able to add layers to it as well as create maps and share those with other users."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:57
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:57
 msgid "2. Add a new layer"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:59
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:59
 msgid "Layers are a published resource representing a raster or vector spatial data source. Layers also can be associated with metadata, ratings, and comments."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:61
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:61
 msgid "To add a layer to your account, navigate to the welcome page. There the following toolbar can be seen:"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:66
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:66
 msgid "*Toolbar*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:68
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:68
 msgid "By clicking the *Layers* link you will be brought to the *Layers* menu where a new subtoolbar can be seen. This toolbar allows you to *Explore*, *Search* and *Upload* layers."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:73
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:73
 msgid "*Upload Button*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:75
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:75
 msgid "Now click *Upload Layers* and you’ll see the upload form."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:80
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:80
 msgid "*Upload Form*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:82
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:82
 msgid "You have two possibilities to add your files. You can either do that by using *drag & drop* or you choose to *browse* them. Be aware that you have to upload a complete set of files, consisting of a **shp**, a **prj**, a **dbf** and a **shx** file. If one of them is missing, GeoNode will warn you before you upload them."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:84
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:84
 msgid "You shold now be able to see all the files you want to upload."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:89
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:89
 msgid "*Files to be Uploaded*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:91
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:91
 msgid "GeoNode has the ability to restrict who can view, edit, and manage layers. On the right side of the page you can see the *Permission* section, where you can limit the access on your layer. Under **Who can view and download this data**, select **Any registered user**. This will ensure that *Anonymous* view access is disabled. In the same area, under **Who can edit this data**, select **your username**. This will ensure that *Only You* are able to edit the data in the layer."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:96
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:96
 msgid "*Permissions*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:98
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:98
 msgid "To upload data, click the *Upload* button at the bottom."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:101
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:101
 msgid "3. Create a new map"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:103
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:103
 msgid "The next step for you is to create a map and add the newly created layers to this map."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:105
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:105
 msgid "Click the *Maps* link on the top toolbar. This will bring up the list of maps."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:110
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:110
 msgid "*Create new Map Button*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:112
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:112
 msgid "Currently, there aren’t any maps here. To add one click the *Create a New Map* button and a map composition interface will display."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:117
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:117
 msgid "*Maps Editor*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:119
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:119
 msgid "In this interface there is a toolbar, layer list, and map window. The map window contains the MapQuest OpenStreetMap layer by default. There are other service layers available here as well: Blue Marble, Bing Aerial With Labels, MapQuest, and OpenStreetMap."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:122
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:122
 msgid "Click on the *New Layers* button and select *Add Layers*."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:126
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:134
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:126
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:134
 msgid "*Add Layers*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:128
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:128
 msgid "Now you should be able to see all the availabel layers. In your case, this should only be the ones you’ve added before (San Andreas?)."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:130
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:130
 msgid "Select all of the layers by clicking the top entry and **Shift-clicking** the bottom one. Click *Add Layers* to add them all to the map."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:136
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:136
 msgid "The layers will be added to the map. Click *Done* (right next to *Add Layers* at the bottom) to return to the main layers list."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:138
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:138
 msgid "To save the map click on the Map button in the toolbar, and select *Save Map*."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:142
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:154
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:142
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:154
 msgid "*Save Map*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:144
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:144
 msgid "Enter a title and abstract for your map."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:148
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:148
 msgid "*Edit Map Metadata*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:150
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:150
 msgid "Click *Save*. Notice that the link on the top right of the page changed to reflect the map’s name."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:156
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:156
 msgid "This link contains a permalink to your map. If you open this link in a new window, your map will appear exactly as it was saved."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:159
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:159
 msgid "4. Share your map"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:161
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:161
 msgid "Now let’s finish our map."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:163
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:163
 msgid "Check the box next to the **highway** layer to activate it. If it is not below the **POI** layer in the list, click and drag it down."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:168
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:168
 msgid "*Activate Layers on Map*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:170
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:170
 msgid "Make any final adjustments to the map composition as desired, including zoom and pan settings."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:172
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:172
 msgid "Click the *Map* button in the toolbar, and then click *Publish Map*."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:176
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:176
 msgid "*Publish Map button*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:178
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:178
 msgid "The title and abstract as previously created should still be there. Make any adjustments as necessary, and click *Save*."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:180
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:180
 msgid "A new dialog will appear with instructions on how to embed this map in a web page, including a code snippet. You can adjust the parameters as necessary."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:184
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:184
 msgid "*Publish the Map*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:186
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:186
 msgid "Your map can now be shared!"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:189
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:189
 msgid "To be continued"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:191
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:191
 msgid "Now you’ve gotten a quick insight in the possibilities of GeoNode. To learn more about GeoNode and its features, visit the official webpage `www.geonode.org <www.geonode.org>`_."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_quickstart.rst:193
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_quickstart.rst:193
 msgid "Stay in touch with the GeoNode community through the #geonode IRC channel using `http://webchat.freenode.net/ <http://webchat.freenode.net/>`_ or by asking your question in our `google group <https://groups.google.com/forum/#!forum/geonode-users>`_!"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:5
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:5
 msgid "A Tour Of GeoNode"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:6
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:6
 msgid "In order to get started, let’s look at the GeoNode interface and get a feel for how to navigate around it."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:8
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:8
 msgid "The GeoNode web interface is the primary method of interacting with GeoNode as a user. From this interface, one can view and modify existing spatial layers and maps, as well as find information on other GeoNode users."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:11
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:11
 msgid "Without being logged in, you are limited to read-only access of public layers."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:13
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:13
 msgid "Navigate to your GeoNode instance (online demo available `here <http://demo.geonode.org/>`_):"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:20
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:20
 msgid "This page shows a variety of information about the current GeoNode instance. At the top of the page is a toolbar showing quick links to view `layers <http://docs.geonode.org/en/latest/tutorials/users/layers/index.html#layers>`_, `maps <http://docs.geonode.org/en/latest/tutorials/users/maps/index.html#maps>`_, documents (metadata), `people <http://docs.geonode.org/en/latest/tutorials/users/accounts/index.html#accounts>`_, and a search field. Below this is a listing of recently updated layers, including abstract, owner, rating, and download button (if available)."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:26
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:26
 msgid "Click Explore button and choose Preview. Table data could be visualized as: Grid, Graph or Map."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:31
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:31
 msgid "*Explore Layers page*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:33
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:33
 msgid "This page shows all layers known to GeoNode, available in either List or Grid viewing. Layers can be sorted by Most Recent, Most Popular, or Most Shared. Also available are a list of categories, with which layers can be connected with."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:37
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:37
 msgid "Find a layer and click on its name."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:42
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:42
 msgid "*Viewing a layer*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:44
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:44
 msgid "A layer viewing page will display, with the layer itself superimposed on a hosted base layer (in this case `MapQuest OpenStreetMap <http://open.mapquest.com/>`_). Explore this page, noting the various options available to you."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:46
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:46
 msgid "Now click the Maps link in the tool bar to go to the Explore Maps page."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:51
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:51
 msgid "*Explore Maps page*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:53
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:53
 msgid "This page shows all maps known to GeoNode, available with similar viewing options as with the layers. Currently, there are no maps here, but we will create one later on in the workshop."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:56
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:56
 msgid "Click the Search link in the toolbar to bring up the Search page."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:61
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:61
 msgid "*Search page*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:63
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:63
 msgid "This page contains a wealth of options for customizing a search for various information on this GeoNode instance. While a simple search box is available at the top of every page, this search form allows for much more fine-tuned searches."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\geonode_tour.rst:66
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\geonode_tour.rst:66
 msgid "Now that you are familiar with the basic interface, the next step is to create your own account so you manage some GeoNode resources of your own."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\index.rst:5
 msgid "Introduction"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\index.rst:6
-#: ..\..\001_overview_and_ref\index.rst:31
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\index.rst:6
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\index.rst:31
 msgid "This section introduces the GeoNode GUI and functionalities through a step-by-step workshop."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\002_introduction\index.rst:8
-#: ..\..\001_overview_and_ref\index.rst:33
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\002_introduction\index.rst:8
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\index.rst:33
 msgid "At the end of this module the users will be familiar with the GeoNode default GUI and objects."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:5
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:5
 msgid "The Big Picture"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:8
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:8
 msgid "Architecture"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:12
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:12
 msgid "*GeoNode Component Architecture*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:14
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:14
 msgid "GeoNode core is based on DJango web framework with few more dependencies necessary for the communication with the geospatial servers (GeoServer, pyCSW)"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:16
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:16
 msgid "On the left side you can see the list of *Entities* defined in GeoNode and managed by the DJango ORM framework. Those objects will be detailed in a future section."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:18
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:18
 msgid "On the right side the list of *Services* available allowing GeoNode to communicate with the *social* world."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:20
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:20
 msgid "The GeoNode catalog is strictly connected to the GeoServer one (see the bottom of the figure). The geospatial dataset and the OGC Services are implemented and managed by GeoServer. GeoNode acts as a broker for the geospatial layers, adding metdata information and tools that make easier the management, cataloging, mapping and searching of the datasets."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:23
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:23
 msgid "Thanks to the ORM framework and the auxiliary Python libraries, GeoNode is constantly aligned with the GeoServer catalog. An ad-hoc security module allows the two modules to strictly interact and share security and permissions rules."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:26
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:26
 msgid "In the advanced sections of this documentation we will go through GeoNode commands allowing administrators to re-sync the catalogs and keep them consistently aligned."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:29
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:29
 msgid "Django Architecture"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:31
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:31
 msgid "GeoNode is based on `Django <www.djangoproject.com>`_ which is a high level Python web development framework that encourages rapid development and clean pragmatic design. Django is based on the Model View Controller (`MVC <http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller>`_) architecture pattern, and as such, GeoNode models layers, maps and other modules with Django’s `Model <https://docs.djangoproject.com/en/1.4/topics/db/models/>`_ module and and these models are used via Django’s `ORM <http://en.wikipedia.org/wiki/Object-relational_mapping>`_ in views which contain the business logic of the GeoNode application and are used to drive HTML templates to display the web pages within the application."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:38
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:38
 msgid "Django explained with model/view/controller (`MVC <http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-explanation.html>`_)"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:40
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:40
 msgid "Model represents application data and provides rich ORM functionality."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:41
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:41
 msgid "Views are a rendering of a Model most often using the Django template engine."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:42
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:42
 msgid "In Django, the controller part of this commonly discussed, layered architecture is a subject of discussion. According to the standard definition, the controller is the layer or component through which the user interacts and model changes occur."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:45
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:45
 msgid "MVP/MVC"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:48
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:48
 msgid "MVP"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:49
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:49
 msgid "*Model, View, Presenter*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:51
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:51
 msgid "In MVP, the *Presenter* contains the UI business logic for the *View*. All invocations from the *View* delegate directly to the *Presenter*. The *Presenter* is also decoupled directly from the *View* and talks to it through an interface. This is to allow mocking of the *View* in a unit test. One common attribute of MVP is that there has to be a lot of two-way dispatching. For example, when someone clicks the *Save* button, the event handler delegates to the *Presenter*'s *OnSave* method. Once the save is completed, the *Presenter* will then call back the *View* through its interface so that the *View* can display that the save has completed."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:57
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:57
 msgid "MVP tends to be a very natural pattern for achieving separated presentation in Web Forms."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:59
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:59
 msgid "**Two primary variations** (You can `find out more about both variants <http://www.codeplex.com/websf/Wiki/View.aspx?title=MVPDocumentation&referringTitle=bundles>`_.)"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:61
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:61
 msgid "**Passive View:** The View is as dumb as possible and contains almost zero logic. The Presenter is a middle man that talks to the View and the Model. The View and Model are completely shielded from one another. The Model may raise events, but the Presenter subscribes to them for updating the View. In Passive View there is no direct data binding, instead the View exposes setter properties which the Presenter uses to set the data. All state is managed in the Presenter and not the View."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:63
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:63
 msgid "*Pro:* maximum testability surface; clean separation of the View and Model"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:64
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:64
 msgid "*Con:* more work (for example all the setter properties) as you are doing all the data binding yourself."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:66
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:66
 msgid "**Supervising Controller:** The Presenter handles user gestures. The View binds to the Model directly through data binding. In this case it's the Presenter's job to pass off the Model to the View so that it can bind to it. The Presenter will also contain logic for gestures like pressing a button, navigation, etc."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:68
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:68
 msgid "*Pro:* by leveraging databinding the amount of code is reduced."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:69
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:69
 msgid "*Con:* there's less testable surface (because of data binding), and there's less encapsulation in the View since it talks directly to the Model."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:72
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:72
 msgid "MVC"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:73
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:73
 msgid "*Model, View, Controller*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:75
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:75
 msgid "In the MVC, the Controller is responsible for determining which View is displayed in response to any action including when the application loads."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:77
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:77
 msgid "This differs from MVP where actions route through the View to the Presenter. In MVC, every action in the View correlates with a call to a Controller along with an action. In the web each action involves a call to a URL on the other side of which there is a Controller who responds. Once that Controller has completed its processing, it will return the correct View. The sequence continues in that manner throughout the life of the application:"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:89
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:89
 msgid "One other big difference about MVC is that the View does not directly bind to the Model. The view simply renders, and is completely stateless. In implementations of MVC the View usually will not have any logic in the code behind. This is contrary to MVP where it is absolutely necessary as if the View does not delegate to the Presenter, it will never get called."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:92
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:92
 msgid "Presentation Model"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:93
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:93
 msgid "One other pattern to look at is the Presentation Model pattern. In this pattern there is no Presenter. Instead the View binds directly to a **Presentation Model**. The Presentation Model is a Model crafted specifically for the View. This means this Model can expose properties that one would never put on a domain model as it would be a violation of separation-of-concerns. In this case, the Presentation Model binds to the domain model, and may subscribe to events coming from that Model. The View then subscribes to events coming from the Presentation Model and updates itself accordingly. The Presentation Model can expose commands which the view uses for invoking actions. The advantage of this approach is that you can essentially remove the code-behind altogether as the PM completely encapsulates all of the behaviour for the view."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:100
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:100
 msgid "This pattern is a very strong candidate for use in WPF applications and is also called `Model-View-ViewModel <http://msdn.microsoft.com/en-us/magazine/dd419663.aspx>`_."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:102
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:102
 msgid "More: `http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-explanation.html <http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-explanation.html>`_"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:105
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:105
 msgid "WSGI"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:106
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:106
 msgid "*Web Server Gateway Interface (whis-gey)*"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:108
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:108
 msgid "This is a python specification for supporting a common interface between all of the various web frameworks and an application (Apache, for example) that is ‘serving’."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:109
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:109
 msgid "This allows any WSGI compliant framework to be hosted in any WSGI compliant server."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:110
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:110
 msgid "For most GeoNode development, the details of this specification may be ignored."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:112
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:112
 msgid "More: `http://en.wikipedia.org/wiki/Wsgi <http://en.wikipedia.org/wiki/Wsgi>`_"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:115
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:115
 msgid "GeoNode and GeoServer"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:117
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:117
 msgid "GeoNode uses GeoServer for providing OGC services."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:119
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:119
 msgid "At its core, GeoNode provides a standards-based platform to enable integrated, programmatic access to your data via OGC Web Services, which are essential building blocks required to deploy an OGC-compliant spatial data infrastructure (SDI).  These Web Services enable discovery, visualization and access your data, all without necessarily having to interact directly with your GeoNode website, look and feel/UI, etc."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:121
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:121
 msgid "GeoNode configures GeoServer via the REST API"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:122
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:122
 msgid "GeoNode retrieves and caches spatial information from GeoServer. This includes relevant OGC service links, spatial metadata, and attribute information."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:124
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:124
 msgid "In summary, GeoServer contains the layer data, and GeoNode’s layer model extends the metadata present in GeoServer with its own."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:125
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:125
 msgid "GeoNode can discover existing layers published in a GeoServer via the WMS capabilities document."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:126
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:126
 msgid "GeoServer delegates authentication and authorization to GeoNode."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:127
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:127
 msgid "Data uploaded to GeoNode is first processed in GeoNode and finally published to GeoServer (or ingested into the spatial database)."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:130
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:130
 msgid "OGC Web Services:"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:132
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:132
 msgid "operate over HTTP (GET, POST)"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:133
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:133
 msgid "provide a formalized, accepted API"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:134
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:134
 msgid "provide formalized, accepted formats"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:136
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:136
 msgid "The OGC Web Services provided by GeoNode have a mature implementation base and provide an multi-application approach to integration.  This means, as a developer, there are already numerous off-the-shelf GIS packages, tools and webapps (proprietary, free, open source) that natively support OGC Web Services."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:138
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:138
 msgid "There are numerous ways to leverage OGC Web Services from GeoNode:"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:140
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:140
 msgid "desktop GIS"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:141
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:141
 msgid "web-based application"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:142
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:142
 msgid "client libraries / toolkits"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:143
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:143
 msgid "custom development"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:145
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:145
 msgid "Your GeoNode lists OGC Web Services and their URLs at ``http://localhost:8000/developer``.  You can use these APIs directly to interact with your GeoNode."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:147
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:147
 msgid "The following sections briefly describe the OGC Web Services provided by GeoNode."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:150
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:150
 msgid "Web Map Service (WMS)"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:151
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:151
 msgid "WMS provides an API to retrieve map images (PNG, JPEG, etc.) of geospatial data.  WMS is suitable for visualization and when access to raw data is not a requirement."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:154
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:154
 msgid "WFS"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:155
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:155
 msgid "WFS provides provides an API to retrieve raw geospatial vector data directly.  WFS is suitable for direct query and access to geographic features."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:158
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:158
 msgid "WCS"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:159
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:159
 msgid "WCS provides provides an API to retrieve raw geospatial raster data directly.  WCS is suitable for direct access to satellite imagery, DEMs, etc."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:162
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:162
 msgid "CSW"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:163
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:163
 msgid "CSW provides an interface to publish and search metadata (data about data).  CSW is suitable for cataloguing geospatial data and making it discoverable to enable visualization and access."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:166
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:166
 msgid "WMTS"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:167
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:167
 msgid "WMTS provides an API to retrive pre-rendered map tiles of geospatial data."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:170
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:170
 msgid "WMC"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:171
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:171
 msgid "WMC provides a format to save and load map views and application state via XML.  This allows, for example, a user to save their web mapping application in WMC and share it with others, viewing the same content."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:173
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:173
 msgid "More: `http://geoserver.org <http://geoserver.org>`_"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:176
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:176
 msgid "GeoNode and PostgreSQL/PostGIS"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:178
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:178
 msgid "In production, GeoNode is configured to use PostgreSQL/PostGIS for it’s persistent store. In development and testing mode, often an embedded sqlite database is used. The latter is not suggested for production."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:180
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:180
 msgid "The database stores configuration and application information. This includes users, layers, maps, etc."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:181
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:181
 msgid "It is recommended that GeoNode be configured to use PostgresSQL/PostGIS for storing vector data as well. While serving layers directly from shapefile allows for adequate performance in many cases, storing features in the database allows for better performance especially when using complex style rules based on attributes."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:184
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:184
 msgid "GeoNode and pycsw"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:186
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:186
 msgid "GeoNode is built with pycsw embedded as the default CSW server component."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:189
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:189
 msgid "Publishing"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:191
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:191
 msgid "Since pycsw is embedded in GeoNode, layers published within GeoNode are automatically published to pycsw and discoverable via CSW. No additional configuration or actions are required to publish layers, maps or documents to pycsw."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:194
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:194
 msgid "Discovery"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:196
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:196
 msgid "GeoNode’s CSW endpoint is deployed available at ``http://localhost:8000/catalogue/csw`` and is available for clients to use for standards-based discovery. See http://docs.pycsw.org/en/latest/tools.html for a list of CSW clients and tools."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:199
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:199
 msgid "Javascript in GeoNode"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:201
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:201
 msgid "GeoNode provides a number of facilities for interactivity in the web browser built on top of several high-quality JavaScript frameworks:"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:203
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:203
 msgid "`Bootstrap <http://getbootstrap.com/>`_ for GeoNode's front-end user interface and common user interaction."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:204
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:204
 msgid "`Bower <http://bower.io/>`_ for GeoNode's front-end package management."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:205
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:205
 msgid "`ExtJS <http://extjs.com/>`_ for component-based UI construction and data access"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:206
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:206
 msgid "`OpenLayers <http://openlayers.org/>`_ for interactive mapping and other geospatial operations"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:207
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:207
 msgid "`GeoExt <http://geoext.org/>`_ for integrating ExtJS with OpenLayers"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:208
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:208
 msgid "`Grunt <http://gruntjs.com/>`_ for front-end task automation."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:209
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:209
 msgid "`GXP <http://projects.opengeo.org/gxp>`_ for providing some higher-level application building facilities on top of GeoExt, as well as improving integration with GeoServer."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:211
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:211
 msgid "`jQuery <http://jquery.com>`_ to abstract javascript manipulation, event handling, animation and Ajax."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:213
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:213
 msgid "GeoNode uses application-specific modules to handle pages and services that are unique to GeoNode.  This framework includes:"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:215
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:215
 msgid "A `GeoNode mixin <https://github.com/GeoNode/geonode/blob/master/geonode/static/geonode/js/extjs/GeoNode-mixin.js>`_  class that provides GeoExplorer with the methods needed to properly function in GeoNode.  The class is responsible for checking permissions, retrieving and submitting the `CSRF token <https://docs.djangoproject.com/en/dev/ref/contrib/csrf/>`_, and user authentication."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:220
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:220
 msgid "A `search module <https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/search>`_ responsible for the GeoNode's site-wide search functionality."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:221
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:221
 msgid "An `upload and status module <https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/upload>`_ to support file uploads."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:222
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:222
 msgid "`Template files <https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/templates>`_ for generating commonly used html sections."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:223
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:223
 msgid "A `front-end testing module <https://github.com/GeoNode/geonode/tree/master/geonode/static/geonode/js/tests>`_ to test GeoNode javascript."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:225
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:225
 msgid "The following concepts are particularly important for developing on top of the GeoNode's JavaScript framework."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:233
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:5
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:233
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:5
 msgid "Components"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:229
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:229
 msgid "Ext components handle most interactive functionality in \"regular\" web pages.  For example, the scrollable/sortable/filterable table on the default Search page is a Grid component.  While GeoNode does use some custom components, familiarity with the idea of Components used by ExtJS is applicable in GeoNode development."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:241
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:241
 msgid "Viewers"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:236
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:236
 msgid "Viewers display interactive maps in web pages, optionally decorated with Ext controls for toolbars, layer selection, etc.  Viewers in GeoNode use the GeoExplorer base class, which builds on top of GXP's Viewer to provide some common functionality such as respecting site-wide settings for background layers. Viewers can be used as components embedded in pages, or they can be full-page JavaScript applications."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:247
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:247
 msgid "Controls"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\architecture.rst:244
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\architecture.rst:244
 msgid "Controls are tools for use in OpenLayers maps (such as a freehand control for drawing new geometries onto a map, or an identify control for getting information about individual features on a map.)  GeoExt provides tools for using these controls as ExtJS \"Actions\" - operations that can be invoked as buttons or menu options or associated with other events."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:6
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:6
 msgid ":ref:`architecture` is based on a set of core tools and libraries that provide the building blocks on which the application is built. Having a basic understanding of each of these components is critical to your success as a developer working with GeoNode."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:8
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:8
 msgid "Lets look at each of these components and discuss how they are used within the GeoNode application."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:11
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:11
 msgid "Django"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:13
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:13
 msgid "GeoNode is based on Django_ which is a high level Python web development framework that encourages rapid development and clean pragmatic design. Django is based on the Model View Controller (MVC_) architecture pattern, and as such, GeoNode models layers, maps and other modules with Django's Model_ module and and these models are used via Django's ORM_ in views which contain the business logic of the GeoNode application and are used to drive HTML templates to display the web pages within the application."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:21
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:21
 msgid "GeoServer"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:23
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:23
 msgid "GeoServer_ is a an open source software server written in Java that provides OGC compliant services which publish data from many spatial data sources. GeoServer is used as the core GIS component inside GeoNode and is used to render the layers in a GeoNode instance, create map tiles from the layers, provide for downloading those layers in various formats and to allow for transactional editing of those layers."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:28
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:28
 msgid "GeoExplorer"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:30
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:30
 msgid "GeoExplorer_ is a web application, based on the GeoExt_ framework, for composing and publishing web maps with OGC and other web based GIS Services. GeoExplorer is used inside GeoNode to provide many of the GIS and cartography functions that are a core part of the application."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:36
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:36
 msgid "PostgreSQL and PostGIS"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:38
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:38
 msgid "PostgreSQL_ and PostGIS_ are the database components that store and manage spatial data and information for GeoNode and the django modules that it is composed of, pycsw and GeoServer. All of these tables and data are stored within a geonode database in PostgreSQL. GeoServer uses PostGIS to store and manage spatial vector data for each layer which are stored as a separate table in the database."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:44
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:44
 msgid "pycsw"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:46
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:46
 msgid "pycsw_ is an OGC CSW server implementation written in Python.  GeoNode uses pycsw to provide an OGC compliant standards-based CSW metadata and catalogue component of spatial data infrastructures, supporting popular geospatial metadata standards such as Dublin Core, ISO 19115, FGDC and DIF."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:51
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:51
 msgid "Geospatial Python Libraries"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:53
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:53
 msgid "GeoNode leverages several geospatial python libraries including gsconfig_ and OWSLib_. gsconfig is used to communicates with GeoServer's REST Configuration API to configure GeoNode layers in GeoServer. OWSLib is used to communicate with GeoServer's OGC services and can be used to communicate with other OGC services."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:59
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:59
 msgid "Django Pluggables"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:61
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:61
 msgid "GeoNode uses a set of Django plugins which are usually referred to as pluggables. Each of these pluggables provides a particular set of functionality inside the application from things like Registration and Profiles to interactivity with external sites. Being based on Django enables GeoNode to take advantage of the large ecosystem of these pluggables out there, and while a specific set is included in GeoNode itself, many more are available for use in applications based on GeoNode."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:64
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:64
 msgid "jQuery"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:66
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:66
 msgid "jQuery_ is a feature-rich javascript library that is used within GeoNode to provide an interactive and responsive user interface as part of the application. GeoNode uses several jQuery plugins to provide specific pieces of functionality, and the GeoNode development team often adds new features to the interface by adding additional plugins."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:71
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:71
 msgid "Bootstrap"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\components.rst:73
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\components.rst:73
 msgid "Bootstrap_ is a front-end framework for laying out and styling the pages that make up the GeoNode application. It is designed to ensure that the pages render and look and behave the same across all browsers. GeoNode customizes bootstraps default style and its relatively easy for developers to customize their own GeoNode based site using existing Boostrap themes or by customizing the styles directly."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\index.rst:5
 msgid "Reference Doc"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\003_reference_doc\index.rst:6
-#: ..\..\001_overview_and_ref\index.rst:36
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\003_reference_doc\index.rst:6
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\index.rst:36
 msgid "In this section, you will find information about each and every component of GeoNode, for example *GeoServer*, *GeoNode Settings*, *Security*, etc."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\index.rst:5
 msgid "GeoNode Overview & Reference"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\index.rst:6
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\index.rst:6
 msgid "Welcome to the GeoNode Training `Overview & Reference` documentation v\\ |release|."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\index.rst:8
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\index.rst:8
 msgid "This module guides the user to an overview of GeoNode and its main components."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\index.rst:10
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\index.rst:10
 msgid "At the end of this section you will have a clear view of what GeoNode is and can do. You will be able also to use the GeoNode main functionalities and understand some of the basic concepts of the system infrastructure."
 msgstr ""
 
-#: ..\..\001_overview_and_ref\index.rst:28
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\index.rst:28
 msgid ":ref:`user_features_index`"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\index.rst:33
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\index.rst:33
 msgid ":ref:`introduction_index`"
 msgstr ""
 
-#: ..\..\001_overview_and_ref\index.rst:35
+#: C:\work\code\java\geonode\doc-geonode\001_overview_and_ref\index.rst:35
 msgid ":ref:`reference_doc_index`"
 msgstr ""
 

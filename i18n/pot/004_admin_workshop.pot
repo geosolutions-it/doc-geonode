@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-17 13:10+0100\n"
+"POT-Creation-Date: 2016-01-15 18:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,643 +16,643 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:5
 msgid "Manage the metadata categories using the admin panel"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:7
 msgid "In the \"Base\" section of the admin panel there are the links to manage the metadata categories used in GeoNode"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:11
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:11
 msgid "The metadata categories are:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:13
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:22
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:13
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:22
 msgid "Regions"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:14
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:29
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:14
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:29
 msgid "Restriction Code Types"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:15
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:38
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:15
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:38
 msgid "Spatial Representation Types"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:16
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:45
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:16
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:45
 msgid "Topic Categories"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:18
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:18
 msgid "The other links available should not be used."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:24
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:24
 msgid "The Regions can be updated, deleted and added on needs. Just after a GeoNode fresh installation the regions contain all of the world countries, identified by their ISO code."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:31
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:31
 msgid "Being GeoNode strictly tied to the standards, the restrictions cannot be added/deleted or modified in their identifier. This behavior is necessary to keep the consistency in case of federation with the CSW catalogues."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:33
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:33
 msgid "The Restrictions GeoNode description field can in any case be modified if some kind of customisation is necessary, since it's just the string that will appear on the layer metadata page. If some of the restrictions are not needed within the GeoNode instance, it is possible to hide them by unchecking the \"Is choice\" field."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:40
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:40
 msgid "For this section the same concepts of the Restriction Code Types applies."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\base.rst:47
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\base.rst:47
 msgid "Also for the Topic Categories the only part editable is the GeoNode description. Being standard is assumed that every possible data type will fall under these category identifiers. If some of the categories are not needed within the GeoNode instance, it is possible to hide them by unchecking the \"Is choice\" field."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\documents.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\documents.rst:5
 msgid "Manage the documents using the admin panel"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\documents.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\documents.rst:7
 msgid "As for the layers, most of the information related to the documents can and should be modified using the GeoNode's document metadata page."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\documents.rst:11
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\documents.rst:11
 msgid "Through the document detail page is possible to edit the metadata information. The fields related to the bounding box or the file attached should not be edited directly."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\index.rst:5
 msgid "Usage of the GeoNode's Django Administration Panel"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\index.rst:7
-#: ..\..\004_admin_workshop\index.rst:41
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\index.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:41
 msgid "GeoNode has an administration panel based on the Django admin which can be used to do some database operations. Although most of the operations can and should be done through the normal GeoNode interface, the admin panel provides a quick overview and management tool over the database."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\index.rst:12
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\index.rst:12
 msgid "It should be highlighted that the sections not covered in this guide are meant to be managed through GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\index.rst:15
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\index.rst:15
 msgid "Accessing the admin panel"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\index.rst:17
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\index.rst:17
 msgid "Only the staff users (including the superusers) can access the admin interface."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\index.rst:19
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\index.rst:19
 msgid "User's staff membership can be set by the admin panel itself, see how in the :ref:`admin_panel.users-groups` section."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\index.rst:21
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\index.rst:21
 msgid "The link to access the admin interface can be found by clicking in the upper right corner on the user name, see figure"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\layers.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\layers.rst:5
 msgid "Manage layers using the admin panel"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\layers.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\layers.rst:7
 msgid "Some of the layers information can be edited directly through the admin interface although the best place is in the layer -> metadata page in GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\layers.rst:11
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\layers.rst:11
 msgid "Is not recommended to modify the Attributes neither the Styles."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\layers.rst:13
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\layers.rst:13
 msgid "Clicking on the Layers link will present a list of layers. By selecting one of them is possible to modify some information like the metadata, the keywords etc. It's strongly recommended to limit the edits to the metadata and similar information."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\maps.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\maps.rst:5
 msgid "Manage the maps using the admin panel"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\maps.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\maps.rst:7
 msgid "Currently the maps admin panel allows more metadata options that the GeoNode maps metadata page. Thus is a good place where to add some more detailed information."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\maps.rst:11
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\maps.rst:11
 msgid "The \"Map Layers\" section should not be used."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\maps.rst:13
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\maps.rst:13
 msgid "By clicking on a map in the maps list the metadata web form will be presented. Is possible to add or modify the information here. As for the layers, the more specific entries like the layers stack or the map coordinates should not be modified."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\profiles.rst:5
 msgid "Manage profiles using the admin panel"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\profiles.rst:7
 msgid "So far GeoNode implements two distinct roles, that can be assigned to resources such as layers, maps or documents:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:9
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\profiles.rst:9
 msgid "party who authored the resource"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:10
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\profiles.rst:10
 msgid "party who can be contacted for acquiring knowledge about or acquisition of the resource"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:12
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\profiles.rst:12
 msgid "This two profiles can be set in the GeoNode interface by accessing the metadata page and setting the \"Point of Contact\" and \"Metadata Author\" fields respectively."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:14
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\profiles.rst:14
 msgid "Is possible for an administrator to add new roles if needed, by clicking on the \"Add Role\" button in the \"Base\" -> \"Contact Roles\" section:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:18
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\profiles.rst:18
 msgid "Clicking on the \"People\" section (see figure) will open a web for with some personal information plus a section called \"Users\"."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\profiles.rst:22
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\profiles.rst:22
 msgid "Is important that this last section is not modified here unless the administrator is very confident in that operation."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\users-groups.rst:5
 msgid "Manage users and groups through the admin panel"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\users-groups.rst:7
 msgid "The admin section called Auth has the link to access the Groups while the section called People has the link to access the Users, see figure"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:14
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:15
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\users-groups.rst:14
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:15
 msgid "Users"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:17
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\users-groups.rst:17
 msgid "Adding a user"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:19
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\users-groups.rst:19
 msgid "By clicking on the \"add\" link on the right of the Users link is possible to add a new users to the GeoNode site. A simple form asking for username and password will be presented, see figure"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:25
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\users-groups.rst:25
 msgid "Upon clicking \"save\" a new form will be presented asking for some personal information and the rights the user should have."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:27
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\users-groups.rst:27
 msgid "For a normal, not privileged user is enough to just fill the personal information and then confirm with \"save\"."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:29
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\users-groups.rst:29
 msgid "If the user has to access the admin panel or be a superuser it's enough just to tick the \"staff\" and \"superuser\" checkboxes."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:34
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\users-groups.rst:34
 msgid "Changing a user"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:36
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\users-groups.rst:36
 msgid "To modify an existing user click on \"Users\" then on a username in the list. The same form will be presented."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:41
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\users-groups.rst:41
 msgid "Groups"
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:43
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\users-groups.rst:43
 msgid "Although the \"Groups\" permissions system is not implemented yet in GeoNode is possible to create new groups with set of permissions which will be inherited by all the group members."
 msgstr ""
 
-#: ..\..\004_admin_workshop\001_admin_panel\users-groups.rst:45
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\001_admin_panel\users-groups.rst:45
 msgid "The creation and management of a Group is done in a very similar way that the user one."
 msgstr ""
 
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:5
 msgid "Management Commands for GeoNode"
 msgstr ""
 
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:7
 msgid "GeoNode comes with administrative commands to help with day to day tasks."
 msgstr ""
 
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:9
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:9
 msgid "Below is the list of the ones that come from the GeoNode application, the full list can be obtained by doing::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:15
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:15
 msgid "importlayers"
 msgstr ""
 
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:17
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:17
 msgid "Imports a file or folder with geospatial files to GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:19
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:19
 msgid "It supports data in Shapefile and GeoTiff format. It also picks up the styles if a ``.sld`` file is present."
 msgstr ""
 
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:21
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:78
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:128
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:21
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:78
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:128
 msgid "Usage::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:25
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:82
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:132
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:25
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:82
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:132
 msgid "Additional options::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:72
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:72
 msgid "updatelayers"
 msgstr ""
 
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:74
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:74
 msgid "Update the GeoNode application with data from GeoServer."
 msgstr ""
 
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:76
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:76
 msgid "This is useful to add data in formats that are not supported in GeoNode by default, and for example to link it it to ArcSDE datastores.  The updatelayers command provides several options that can be used to control how layer information is read from GeoServer and updated in GeoNode.  Refer to 'Additional Options'."
 msgstr ""
 
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:122
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:122
 msgid "fixsitename"
 msgstr ""
 
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:124
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:124
 msgid "Uses SITENAME and SITEURL to set the values of the default site object."
 msgstr ""
 
-#: ..\..\004_admin_workshop\002_admin_mgmt_commands\index.rst:126
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\002_admin_mgmt_commands\index.rst:126
 msgid "This information is used in the page titles and when sending emails from GeoNode, for example, new registrations."
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:5
 msgid "Configuring Alternate CSW Backends"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:7
-#: ..\..\004_admin_workshop\index.rst:47
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:47
 msgid "`pycsw <http://pycsw.org/>`_ is the default CSW server implementation provided with GeoNode. This section will explain how to configure GeoNode to operate against alternate CSW server implementations."
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:10
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:10
 msgid "Supported CSW server implementations"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:12
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:12
 msgid "GeoNode additionally supports the following CSW server implementations:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:14
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:14
 msgid "`GeoNetwork opensource <http://geonetwork-opensource.org/>`_"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:15
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:15
 msgid "`deegree <http://deegree.org/>`_"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:17
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:17
 msgid "Since GeoNode communicates with alternate CSW configurations via HTTP, the CSW server can be installed and deployed independent of GeoNode if desired."
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:20
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:20
 msgid "Installing the CSW"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:23
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:23
 msgid "GeoNetwork opensource Installation"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:25
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:25
 msgid "Deploy GeoNetwork opensource by downloading geonetwork.war (see http://geonetwork-opensource.org/downloads.html) and deploying into your servlet container"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:26
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:26
 msgid "Follow the instructions at http://geonetwork-opensource.org/manuals/2.6.4/eng/users/quickstartguide/installing/index.html to complete the installation"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:27
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:27
 msgid "test the server with a GetCapabilities request (http://localhost:8080/geonetwork/srv/en/csw?service=CSW&version=2.0.2&request=GetCapabilities)"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:29
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:29
 msgid "See http://geonetwork-opensource.org/docs.html for further documentation."
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:32
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:32
 msgid "deegree Installation"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:34
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:34
 msgid "Deploy deegree by downloading the deegree3 cswDemo .war (see http://wiki.deegree.org/deegreeWiki/DownloadPage) and deploying into your servlet container"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:35
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:35
 msgid "Create a PostGIS-enabled PostgreSQL database"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:36
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:36
 msgid "Follow the instructions at http://wiki.deegree.org/deegreeWiki/deegree3/CatalogueService#Run_your_own_installation to complete the installation"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:37
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:37
 msgid "test the server with a GetCapabilities request (http://localhost:8080/deegree-csw-demo-3.0.4/services?service=CSW&version=2.0.2&request=GetCapabilities)"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:39
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:39
 msgid "See http://wiki.deegree.org/deegreeWiki/deegree3/CatalogueService for further documentation."
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:42
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:42
 msgid "Customizing GeoNode CSW configuration"
 msgstr ""
 
-#: ..\..\004_admin_workshop\003_csw_settings\index.rst:44
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\003_csw_settings\index.rst:44
 msgid "At this point, the CSW alternate backend is ready for GeoNode integration.  GeoNode's CSW configuration (in ``geonode/settings.py``) must be updated to point to the correct CSW.  The example below exemplifies GeoNetwork as an alternate CSW backend:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:5
 msgid "Setup steps"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:7
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:323
-#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:323
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\index.rst:7
 msgid "These instructions are only valid if you've installed GeoNode following the guide at :ref:`setup_configure_httpd` !!"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:9
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:9
 msgid "If you are working remotely, you should first connect to the machine that has your GeoNode installation. You will need to perform the following steps in a directory where you intend to keep your newly created project."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:23
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:23
 msgid "You should NOT use the name *geonode* for your project as it will conflict with your default geonode package name."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:25
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:25
 msgid "These commands create a new template based on the geonode example project."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:27
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:27
 msgid "Make sure that the directories are reachable and have the correct rights for the users **geonode** and **www-data**:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:35
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:35
 msgid "If you have a brand new installation of GeoNode, rename the **/home/geonode/geonode/local_settings.py.sample** to **local_settings.py** and edit it's content by setting the SITEURL and SITENAME. This file will be your main settings file for your project. It inherits all the settings from the original one plus you can override the ones that you need."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:37
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:37
 msgid "You can also decide to copy the **/home/geonode/geonode/local_settings.py.sample** to **/path/to/geonode_custom/geonode_custom/local_settings.py** in order to keep all the custom settings confined into the new project."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:39
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:39
 msgid "In order for the edits to the local_settings.py file to take effect, you have to restart apache."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:41
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:41
 msgid "Edit the file **/etc/apache2/sites-available/geonode.conf** and change the following directive from::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:45
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:45
 msgid "to::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:63
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:63
 msgid "Edit the file /etc/apache2/sites-available/geonode.conf and modify the **DocumentRoot** as follows:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:65
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:65
 msgid "It's a good practice to make copies and backups of the configuration files before modifying or updating them in order to revert the configuration at the previous state if something goes wrong."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:98
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:98
 msgid "Then regenerate the static **JavaScript** and **CSS** files from **/path/to/geonode_custom/** and restart apache"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:111
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:111
 msgid "Customize the Look & Feel"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:113
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:113
 msgid "Now you can edit the templates in **geonode_custom/templates**, the css and images to match your needs like shown in :ref:`customize.theme_admin`!"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:115
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:115
 msgid "After going through the theming guide you'll have to return to this site to execute one more command in order to finish the theming!"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:117
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:117
 msgid "When you've done the changes, run the following command in the *geonode_custom* folder:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:125
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:125
 msgid "And now you should see all the changes you've made to your GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:128
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:128
 msgid "Source code revision control"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:130
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:130
 msgid "It is recommended that you immediately put your new project under source code revision control. The GeoNode development team uses Git and GitHub and recommends that you do the same. If you do not already have a GitHub account, you can easily set one up. A full review of Git and distributed source code revision control systems is beyond the scope of this tutorial, but you may find the `Git Book`_ useful if you are not already familiar with these concepts."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:134
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:134
 msgid "Create a new repository in GitHub. You should use the GitHub user interface to create a new repository for your new project."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:138
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:138
 msgid "*Creating a new GitHub Repository From GitHub's Homepage*"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:142
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:142
 msgid "*Specifying new GitHub Repository Parameters*"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:146
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:146
 msgid "*Your new Empty GitHub Repository*"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:148
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:148
 msgid "Initialize your own repository in the geonode_custom folder:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:155
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:155
 msgid "Add the remote repository reference to your local git configuration:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:164
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:164
 msgid "Add your project files to the repository:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:171
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:171
 msgid "Commit your changes:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:182
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:182
 msgid "Push to the remote repository:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:191
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:191
 msgid "Further Reading"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:193
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:193
 msgid "If you want more information on how to GitHub works and how to contribute to GeoNode project, go to the section \":ref:`contributing_to_geonode`\""
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:195
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:195
 msgid "If you want to customize the Logo and Style of **geonode_custom**, go to the section \":ref:`theme_admin`\""
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:197
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:197
 msgid "Here below you can find some more details about the custom project structure and info on some of the most important Python files you may want to edit."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:199
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:199
 msgid "The following section is mostly oriented to advanced users and developers."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:202
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:202
 msgid "Project structure"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:204
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:204
 msgid "Your GeoNode project will now be structured as depicted below::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:227
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:227
 msgid "You can also view your project on GitHub."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:231
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:231
 msgid "*Viewing your project on GitHub*"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:233
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:233
 msgid "Each of the key files in your project are described below."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:236
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:236
 msgid "manage.py"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:238
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:238
 msgid ":file:`manage.py` is the main entry point for managing your project during development. It allows running all the management commands from each app in your project. When run with no arguments, it will list all of the management commands."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:243
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:243
 msgid "settings.py"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:245
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:245
 msgid ":file:`settings.py` is the primary settings file for your project. It imports the settings from the system geonode and adds the local paths. It is quite common to put all sensible defaults here and keep deployment specific configuration in the :file:`local_settings.py` file. All of the possible settings values and their meanings are detailed in the Django documentation."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:250
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:250
 msgid "A common paradigm for handing 'local settings' (and in other areas where some python module may not be available) is:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:256
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:256
 msgid "try:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:257
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:257
 msgid "from local_settings import *"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:259
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:259
 msgid "except:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:259
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:259
 msgid "pass"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:261
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:261
 msgid "This is not required and there are many other solutions to handling varying deployment configuration requirements."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:265
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:265
 msgid "urls.py"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:267
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:267
 msgid ":file:`urls.py` is where your application specific URL routes go. Additionally, any `overrides` can be placed here, too."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:271
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:271
 msgid "wsgi.py"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:273
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:273
 msgid "This is a generated file to make deploying your project to a WSGI server easier. Unless there is very specific configuration you need, :file:`wsgi.py` can be left alone."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:278
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:278
 msgid "setup.py"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:280
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:280
 msgid "There are several packaging options in python but a common approach is to place your project metadata (version, author, etc.) and dependencies in :file:`setup.py`."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:283
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:283
 msgid "This is a large topic and not necessary to understand while getting started with GeoNode development but will be important for larger projects and to make development easier for other developers."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:287
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:287
 msgid "More: http://docs.python.org/2/distutils/setupscript.html"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:290
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:290
 msgid "static"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:292
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:292
 msgid "The :file:`static` directory will contain your fixed resources: css, html, images, etc. Everything in this directory will be copied to the final media directory (along with the `static` resources from other apps in your project)."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:297
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:297
 msgid "templates"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:299
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:299
 msgid "All of your projects templates go in the :file:`templates` directory. While no organization is required for your project specific templates, when overriding or replacing a template from another app, the path must be the same as the template to be replaced."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:306
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:306
 msgid "Staying in sync with mainline GeoNode"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:308
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:308
 msgid "These instructions are only valid if you've installed GeoNode using **apt-get** !!"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:310
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:310
 msgid "One of the primary reasons to set up your own GeoNode project using this method is so that you can stay in sync with the mainline GeoNode as the core development team makes new releases. Your own project should not be adversely affected by these changes, but you will receive bug fixes and other improvements by staying in sync."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:312
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:327
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:312
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:327
 msgid "Upgrade GeoNode::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:317
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:332
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:317
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:332
 msgid "Verify that your new project works with the upgraded GeoNode::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:321
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:336
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:321
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:336
 msgid "Navigate to http://localhost:8000."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:325
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:325
 msgid "Upgrading from source code repo:"
 msgstr ""
 
@@ -812,992 +812,992 @@ msgstr ""
 msgid "Your edited :file:`site_index.html` file should now look like this:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:231
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:232
 msgid "Refresh your GeoNode project and view the changes in your browser at http://localhost/ or the remote URL for your site:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:240
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:241
 msgid "From here you can continue to customize your :file:`site_index.html` template to suit your needs. This workshop will also cover how you can add new pages to your GeoNode project site."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:244
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:245
 msgid "Other theming options"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:246
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:247
 msgid "You are able to change any specific piece of your GeoNode project's style by adding CSS rules to :file:`site_base.css`, but since GeoNode is based on Bootstrap, there are many pre-defined themes that you can simply drop into your project to get a whole new look. This is very similar to `WordPress <http://wordpress.com>`_ themes and is a powerful and easy way to change the look of your site without much effort."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:249
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:250
 msgid "Bootswatch"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:251
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:252
 msgid "`Bootswatch <http://bootswatch.com>`_ is a site where you can download ready-to-use themes for your GeoNode project site. The following steps will show you how to use a theme from Bootswatch in your own GeoNode site."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:253
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:254
 msgid "Visit http://bootswatch.com and select a theme (we will use Sandstone for this example). Select the :guilabel:`download bootstrap.css option` in the menu:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:257
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:258
 msgid "Put this file into :file:`<geonode_custom>/static/css`."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:263
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:264
 msgid "Update the :file:`site_base.html` template to include this file. It should now look like this:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:278
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:279
 msgid "Refresh the development server and visit your site:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:287
+#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:288
 msgid "Your GeoNode project site is now using the Sandstone theme in addition to the changes you have made."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\index.rst:5
 msgid "Customize the look and feel"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:9
-#: ..\..\004_admin_workshop\index.rst:50
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\index.rst:9
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:50
 msgid "You might want to change the look of GeoNode, editing the colors and the logo of the website and adjust the templates for your needs. To do so, you first have to set up your own geonode project from a template. If you've successfully done this, you can go further and start theming your geonode project."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:18
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\index.rst:18
 msgid ":ref:`setup_admin`"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:18
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\index.rst:18
 msgid "Setup your own geonode project"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:21
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\index.rst:21
 msgid ":ref:`theme_admin`"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\index.rst:21
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\004_customize_lookfeel\index.rst:21
 msgid "Theme your geonode project"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:5
 msgid "Debugging GeoNode Installations"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:7
 msgid "There are several mechanisms to debug GeoNode installations, the most common ones are discussed in the following sections."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:10
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:10
 msgid "Viewing the logs"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:12
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:12
 msgid "There are many kinds of logs in GeoNode, most of them are located in :file:`/var/log/geonode/` and will be explained below in order of relevance:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:14
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:14
 msgid "**GeoNode main log**: This is the output of the Django application generated by Apache, it may contain detailed information about uploads and high level problems."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:16
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:16
 msgid "The default location is :file:`/var/log/geonode/apache.log` or :file:`/var/log/apache2/error.log`."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:18
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:18
 msgid "It is set to a very low level (not very much information is logged) by default, but it's output can be increased by setting the logging level to ``DEBUG`` in :file:`/etc/geonode/local_settings.py`."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:20
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:20
 msgid "**GeoServer log**: It contains most of the information related to problems with data, rendering and styling errors."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:22
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:22
 msgid "This one can be accessed at ``GEOSERVER_DATA_DIR/logs/geoserver.log``, which is usually :file:`/var/lib/tomcat7/webapps/geoserver/data/logs/geoserver.log` or :file:`/var/lib/geoserver/geonode-data/logs/geoserver.log`."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:24
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:24
 msgid "It may also be symlinked in :file:`/var/log/geonode/geoserver.log`."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:26
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:26
 msgid "**Tomcat logs**: Tomcat logs could indicate problems loading GeoServer."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:28
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:28
 msgid "They can be found at :file:`/var/lib/tomcat7/logs/catalina.out` or :file:`/var/lib/tomcat/geoserver/logs/catalina.out`."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:30
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:30
 msgid "**PostgreSQL logs**: PostgreSQL is accessed by GeoServer and Django, therefore information about errors which are very hard to debug may be found by looking at PostgreSQL's logs."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:32
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:32
 msgid "They are located at :file:`/var/log/postgresql/postgresql-$(psql_version)-main.log` where **$(psql_version)** depends on your local installation."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:36
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:36
 msgid "Enabling DEBUG mode"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:38
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:38
 msgid "Django can be set to return nicely formatted exceptions which are useful for debugging instead of generic ``500 errors``."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:40
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:40
 msgid "This is enabled by setting ``DEBUG=True`` in :file:`/home/geonode/geonode/geonode/local_settings.py` (or :file:`/etc/geonode/local_settings.py` if GeoNode has been installed using **apt-get**)."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:42
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:42
 msgid "After enabling DEBUG, the Apache server has to be restarted for the changes to be picked up. In Ubuntu::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:48
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:48
 msgid "Other tips and tricks"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:51
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:51
 msgid "Modifying GeoServer's output strategy"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:53
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:53
 msgid "Up to version 1.1, GeoNode used by default the ``SPEED`` output strategy of GeoServer, this meant that proper error messages were being sacrificed for performance. Unfortunately, this caused many errors to be masked as XML parsing errors when layers were not properly configured."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:56
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:56
 msgid "It is recommended to verify the output strategy is set at least to ``PARTIAL_BUFFER2`` **(or a safer one, e.g. ``FILE``)** with a high value for the buffer size. More information about the different strategies and the performance vs correctness trade off is available at GeoServer's web.xml file."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:59
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:59
 msgid "The typical location of the file that needs to be modified is ``/var/lib/tomcat7/webapps/geoserver/WEB-INF/web.xml`` as shown below::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:67
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:67
 msgid "Add the Django debug toolbar"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:69
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:69
 msgid "The Debug Toolbar module **must** be disabled whe running the server in production (with Apache2 HTTPD Server WSGI)"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:71
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:71
 msgid "The django debug toolbar offers a lot of information on about how the page you are seeing is created and used. From the database hits to the views involved. It is a configurable set of panels that display various debug information about the current request/response and when clicked, display more details about the panel's content."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:77
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:77
 msgid "To install it::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:81
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:81
 msgid "Then edit your settings :file:`/home/geonode/geonode/geonode/settings.py` (or :file:`/etc/geonode/settings.py` if GeoNode has been installed using **apt-get**) and add the following to the bottom of the file::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:113
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:113
 msgid "Stop Apache and start the server in **Development Mode**::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:118
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:118
 msgid "Redirect the browser to **http://localhost:8000**. You should be able to see the Debug Panel on the right of the screen."
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:122
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:122
 msgid "*DJango Debug Toolbar Enabled In Devel Mode*"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:127
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:127
 msgid "More:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:126
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:126
 msgid "For more set up and customize the panels read the official docs here"
 msgstr ""
 
-#: ..\..\004_admin_workshop\005_debug_geonode\index.rst:128
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\005_debug_geonode\index.rst:128
 msgid "http://django-debug-toolbar.readthedocs.org/en/latest/"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:5
 msgid "Changing the Default Language"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:7
-#: ..\..\004_admin_workshop\index.rst:56
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:56
 msgid "GeoNode's default language is English, but GeoNode users can change the interface language with the pulldown menu at the top-right of most GeoNode pages.  Once a user selects a language GeoNode remembers that language for subsequent pages."
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:10
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:10
 msgid "GeoNode Configuration"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:12
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:12
 msgid "As root edit the geonode config file :file:`/home/geonode/geonode/geonode/settings.py` (or :file:`/etc/geonode/settings.py` if GeoNode has been installed using **apt-get**) and change ``LANGUAGE_CODE`` to the desired default language."
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:14
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:14
 msgid "A list of language codes can be found in the global django config file :file:`/usr/local/lib/python2.7/dist-packages/django/conf/global_settings.py` (or :file:`/var/lib/geonode/lib/python2.7/site-packages/django/conf/global_settings.py` if GeoNode has been installed using **apt-get**)."
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:16
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:16
 msgid "For example, to make French the default language use::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:20
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:20
 msgid "Unfortunately  Django overrides this setting, giving the language setting of a user's browser priority.  For example, if ``LANGUAGE_CODE`` is set to French, but the user has configured their operating system for Spanish they may see the Spanish version when they first visit GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:24
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:24
 msgid "Additional Steps"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:26
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:26
 msgid "If this is not the desired behaviour, and all users should initially see the default ``LANGUAGE_CODE``, regardless of their browser's settings, do the following steps to ensure Django ignores the browser language settings.  (Users can always use the pulldown language menu to change the language at any time.)"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:28
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:28
 msgid "As **root** create a new directory within GeoNode's site packages::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:33
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:33
 msgid "or::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:33
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:33
 msgid "mkdir /var/lib/geonode/lib/python2.7/site-packages/setmydefaultlanguage"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:35
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:35
 msgid "if GeoNode has been installed using **apt-get**"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:37
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:37
 msgid "As root create and edit a new file :file:`/usr/lib/python2.7/dist-packages/setmydefaultlanguage/__init__.py` and add the following lines::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:53
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:53
 msgid "At the end of the GeoNode configuration file :file:`/home/geonode/geonode/geonode/settings.py` (or :file:`/etc/geonode/settings.py` if GeoNode has been installed using **apt-get**) add the following lines to ensure the above class is executed::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:60
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:60
 msgid "Restart"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:62
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:62
 msgid "Finally restart Apache2 as root with::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\006_default_lang\index.rst:67
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\006_default_lang\index.rst:67
 msgid "Please refer to Translating GeoNode for information on editing GeoNode pages in different languages and create new GeoNode Translations."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:4
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:4
 msgid "Using GDAL and OGR to convert your Data for use in GeoNode"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:6
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:6
 msgid "GeoNode supports uploading data in shapefiles, GeoTiff, csv and kml formats (for the last two formats only if you are using the geonode.importer backend in the UPLOAD variable in settings.py). If your data is in other formats, you will need to convert it into one of these formats for use in GeoNode. This section will walk you through the steps necessary to convert your data into formats suitable for uploading into GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:8
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:8
 msgid "You will need to make sure that you have the gdal library installed on your system. On Ubuntu you can install this package with the following command::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:13
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:13
 msgid "OGR (Vector Data)"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:15
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:15
 msgid "OGR is used to manipulate vector data. In this example, we will use MapInfo .tab files and convert them to shapefiles with the ogr2ogr command. We will use sample MapInfo files from the website linked below."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:17
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:17
 msgid "http://services.land.vic.gov.au/landchannel/content/help?name=sampledata"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:19
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:19
 msgid "You can download the Admin;(Postcode) layer by issuing the following command::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:23
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:23
 msgid "You will need to unzip this dataset by issuing the following command::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:27
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:27
 msgid "This will leave you with the following files in the directory where you executed the above commands::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:43
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:43
 msgid "First, lets inspect this file set using the following command::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:47
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:47
 msgid "The output will look like the following::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:82
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:82
 msgid "This gives you information about the number of features, the extent, the projection and the attributes of this layer."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:84
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:84
 msgid "Next, lets go ahead and convert this layer into a shapefile by issuing the following command::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:88
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:88
 msgid "Note that we have also reprojected the layer to the WGS84 spatial reference system with the -t_srs ogr2ogr option."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:90
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:90
 msgid "The output of this command will look like the following::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:97
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:97
 msgid "This output indicates that some of the field names were truncated to fit into the constraint that attributes in shapefiles are only 10 characters long."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:99
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:99
 msgid "You will now have a set of files that make up the postcode_polygon.shp shapefile set. We can inspect them by issuing the following command::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:103
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:103
 msgid "The output will look similar to the output we saw above when we inspected the MapInfo file we converted from::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:127
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:127
 msgid "These files can now be loaded into your GeoNode instance via the normal uploader."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:129
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:129
 msgid "Visit the upload page in your GeoNode, drag and drop the files that composes the shapefile that you have generated using the GDAL ogr2ogr command (postcode_polygon.dbf, postcode_polygon.prj, postcode_polygon.shp, postcode_polygon.shx). Give the permissions as needed and then click the \"Upload files\" button."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:133
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:133
 msgid "As soon as the import process completes, you will have the possibility to go straight to the layer info page (\"Layer Info\" button), or to edit the metadata for that layer (\"Edit Metadata\" button), or to manage the styles for that layer (\"Manage Styles\")."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:138
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:138
 msgid "GDAL (Raster Data)"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:140
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:140
 msgid "Now that we have seen how to convert vector layers into shapefiles using ogr2ogr, we will walk through the steps necessary to perform the same operation with Raster layers. For this example, we will work with Arc/Info Binary and ASCII Grid data and convert it into GeoTiff format for use in GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:142
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:142
 msgid "First, you need to download the sample data to work with it. You can do this by executing the following command::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:146
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:146
 msgid "You will need to uncompress this file by executing this command::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:150
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:150
 msgid "You will be left with the following files on your filesystem::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:162
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:162
 msgid "The file batemans_elevation.asc is an Arc/Info ASCII Grid file and the files in the batemans_ele directory are an Arc/Info Binary Grid file."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:164
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:164
 msgid "You can use the gdalinfo command to inspect both of these files by executing the following command::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:168
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:168
 msgid "The output should look like the following::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:185
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:185
 msgid "You can then inspect the batemans_ele files by executing the following command::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:189
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:189
 msgid "And this should be the corresponding output::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:233
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:233
 msgid "You will notice that the batemans_elevation.asc file does *not* contain projection information while the batemans_ele file does. Because of this, lets use the batemans_ele files for this exercise and convert them to a GeoTiff for use in GeoNode. We will also reproject this file into WGS84 in the process. This can be accomplished with the following command."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:235
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:235
 msgid "$ gdalwarp -t_srs EPSG:4326 batemans_ele batemans_ele.tif"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:237
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:237
 msgid "The output will show you the progress of the conversion and when it is complete, you will be left with a batemans_ele.tif file that you can upload to your GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:239
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:239
 msgid "You can inspect this file with the gdalinfo command::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:243
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:243
 msgid "Which will produce the following output::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:271
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:271
 msgid "You can then follow the same steps we used above to upload the GeoTiff file we created into the GeoNode, and you will see your layer displayed in the Layer Info page."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:275
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\gdalogr.rst:275
 msgid "Now that you have seen how to convert layers with both OGR and GDAL, you can use these techniques to work with your own data and get it prepared for inclusion in your own GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:4
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:4
 msgid "GeoServer Data Configuration"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:6
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:6
 msgid "While it is possible to import layers directly from your servers filesystem into your GeoNode, you may have an existing GeoServer that already has data in it, or you may want to configure data from a GeoServer which is not directly supported by uploading data."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:8
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:8
 msgid "GeoServer supports a wide range of data formats and connections to database, and while many of them are not supported as GeoNode upload formats, if they can be configured in GeoServer, you can add them to your GeoNode by following the procedure described below."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:10
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:10
 msgid "GeoServer supports 3 types of data: Raster, Vector and Databases. For a list of the supported formats for each type of data, consult the following pages:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:12
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:12
 msgid "http://docs.geoserver.org/latest/en/user/data/vector/index.html#data-vector"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:13
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:13
 msgid "http://docs.geoserver.org/latest/en/user/data/raster/index.html"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:14
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:14
 msgid "http://docs.geoserver.org/latest/en/user/data/database/index.html"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:16
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:16
 msgid "Some of these raster or vector formats or database types require that you install specific plugins in your GeoServer in order to use the. Please consult the GeoServer documentation for more information."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:18
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:18
 msgid "Lets walk through an example of configuring a new PostGIS database in GeoServer and then configuring those layers in your GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:20
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:20
 msgid "First visit the GeoServer administration interface on your server. This is usually on port 8080 and is available at http://localhost:8080/geoserver/web/"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:22
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:22
 msgid "You should login with the superuser credentials you setup when you first configured your GeoNode instance."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:24
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:24
 msgid "Once you are logged in to the GeoServer Admin interface, you should see the following."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:28
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:28
 msgid "The number of stores, layers and workspaces may be different depending on what you already have configured in your GeoServer."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:30
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:30
 msgid "Next you want to select the \"Stores\" option in the left hand menu, and then the \"Add new Store\" option. The following screen will be displayed."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:34
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:34
 msgid "In this case, we want to select the PostGIS store type to create a connection to our existing database. On the next screen you will need to enter the parameters to connect to your PostGIS database (alter as necessary for your own database)."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:38
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:38
 msgid "If you are unsure about any of the settings, leave them as the default."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:40
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:40
 msgid "The next screen lets you configure the layers in your database. This will of course be different depending on the layers in your database."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:44
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:44
 msgid "Select the \"Publish\" button for one of the layers and the next screen will be displayed where you can enter metadata for this layer. Since we will be managing this metadata in GeoNode, we can leave these alone for now."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:48
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:48
 msgid "The things that *must* be specified are the Declared SRS and you must select the \"Compute from Data\" and \"Compute from native bounds\" links after the SRS is specified."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:52
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:52
 msgid "Click save and this layer will now be configured for use in your GeoServer."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:56
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:56
 msgid "The next step is to configure these layers in GeoNode. The updatelayers management command is used for this purpose. As with importlayers, its useful to look at the command line options for this command by passing the --help option::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:60
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:60
 msgid "This help option displays the following::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:86
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:86
 msgid "For this sample, we can use the default options. So enter the following command to configure the layers from our GeoServer into our GeoNode::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:90
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:90
 msgid "The output will look something like the following::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:112
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:112
 msgid "This example picked up 2 additional layers that were already in our GeoServer, but were not already in our GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:114
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:114
 msgid "For layers that already exist in your GeoNode, they will be updated and the configuration synchronized between GeoServer and GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:116
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\geoserver.rst:116
 msgid "You can now view and use these layers in your GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:4
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:4
 msgid "Using importlayers to import Data into GeoNode"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:6
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:6
 msgid "The geonode.layers app includes 2 management commands that you can use to load or configure data in your GeoNode. Both of these are invoked by using the manage.py script. This section will walk you through how to use the importlayers management command and the subsequent section will lead you through the process of using updatelayers."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:9
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:9
 msgid "The first thing to do is to use the --help option to the importlayers command to investigate the options to this management command. You can display this help by executing the following command::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:13
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:13
 msgid "This will produce output that looks like the following::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:43
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:43
 msgid "While the description of most of the options should be self explanatory, its worth reviewing some of the key options in a bit more detail."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:46
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:46
 msgid "The -i option will force the command to stop when it first encounters an error. Without this option specified, the process will skip over errors that have layers and continue loading the other layers."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:47
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:47
 msgid "The -o option specifies that layers with the same name as the base name will be loaded and overwrite the existing layer."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:48
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:48
 msgid "The -u option specifies which will be the user that owns the imported layers. The same user will be the point of contact and the metadata author as well for that layer"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:49
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:49
 msgid "The -k option is used to add keywords for all of the layers imported."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:51
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:51
 msgid "The import layers management command is invoked by specifying options as described above and specifying the path to a single layer file or to a directory that contains multiple files. For purposes of this exercise, lets use the default set of testing layers that ship with geonode. You can replace this path with the directory to your own shapefiles::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:55
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:55
 msgid "This command will produce the following output to your terminal::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:80
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:80
 msgid "If you encounter errors while running this command, you can use the -v option to increase the verbosity of the output so you can debug the problem. The verbosity level can be set from 0-3 with 0 being the default. An example of what the output looks like when an error is encountered and the verbosity is set to 3 is shown below::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:121
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:121
 msgid "This last section of output will be repeated for all layers, and only the first one is show above."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:123
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:123
 msgid "This error indicates that GeoNode was unable to connect to GeoServer to load the layers. To solve this, you should make sure GeoServer is running and re-run the command."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:125
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:125
 msgid "If you encounter errors with this command that you cannot solve, you should bring them up on the geonode users mailing list."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:127
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:127
 msgid "You should now have the knowledge necessary to import layers into your GeoNode project from a directory on the servers filesystem and can use this to load many layers into your GeoNode at once."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:129
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\importlayers.rst:129
 msgid "If you do not use the -u command option, the ownership of the imported layers will be assigned to the primary superuser in your system. You can use GeoNodes Django Admin interface to modify this after the fact if you want them to be owned by another user."
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\index.rst:4
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\index.rst:4
 msgid "Loading Data into a GeoNode"
 msgstr ""
 
-#: ..\..\004_admin_workshop\007_loading_data_into_geonode\index.rst:6
-#: ..\..\004_admin_workshop\index.rst:59
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\007_loading_data_into_geonode\index.rst:6
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:59
 msgid "This module will walk you through the various options available to load data into your GeoNode from GeoServer, on the command-line or programatically. You can choose from among these techniques depending on what kind of data you have and how you have your geonode setup."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\index.rst:4
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\index.rst:4
 msgid "More on Security and Permissions"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:5
 msgid "Security and Permissions"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:7
-#: ..\..\004_admin_workshop\index.rst:62
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:62
 msgid "This tutorial will guide you through the steps that can be done in order to restrict the access on your data uploaded to geonode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:10
-#: ..\..\004_admin_workshop\index.rst:64
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:10
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:64
 msgid "First of all it will be shown how a user can be created and what permissions he can have. Secondly we will take a closer look on to layers, maps and documents and the different opportunities you have in order to ban certain users from viewing or editing your data."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:17
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:17
 msgid "Your first step will be to create a user. There are three options to do so, depending on which kind of user you want to create you may choose a different option. We will start with creating a *superuser*, because this user is the most important. A superuser has all the permissions without explicitly assigning them."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:21
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:21
 msgid "The easiest way to create a superuser (in linux) is to open your terminal and type::"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:25
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:25
 msgid "You will be asked a username (in this tutorial we will call the superuser you now create *your_superuser*), an email address and a password."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:27
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:27
 msgid "Now you've created a superuser you should become familiar with the *Django Admin Interface*. As a superuser you are having access to this interface, where you can manage users, layers, permission and more. To learn more detailed about this interface check this LINK. For now it will be enough to just follow the steps. To attend the *Django Admin Interface*, go to your geonode website and *sign in* with *your_superuser*. Once you've logged in, the name of your user will appear on the top right. Click on it and the following menu will show up:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:34
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:34
 msgid "Clicking on *Admin* causes the interface to show up."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:38
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:38
 msgid "Go to *Auth* -> *Users* and you will see all the users that exist at the moment. In your case it will only be *your_superuser*. Click on it, and you will see a section on *Personal Info*, one on *Permissions* and one on *Important dates*. For the moment, the section on *Permissions* is the most important."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:42
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:42
 msgid "As you can see, there are three boxes that can be checked and unchecked. Because you've created a superuser, all three boxes are checked as default. If only the box *active* would have been checked, the user would not be a superuser and would not be able to access the *Django Admin Interface* (which is only available for users with the *staff* status). Therefore keep the following two things in mind:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:47
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:47
 msgid "a superuser is able to access the *Django Admin Interface* and he has all permissions on the data uploaded to GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:48
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:48
 msgid "an ordinary user (created from the GeoNode interface) only has *active* permissions by default. The user will not have the ability to access the *Django Admin Interface* and certain permissions have to be added for him."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:50
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:50
 msgid "Until now we've only created superusers. So how do you create an ordinary user? You have two options:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:52
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:52
 msgid "Django Admin Interface"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:54
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:54
 msgid "First we will create a user via the *Django Admin Interface* because we've still got it open. Therefore go back to *Auth* -> *Users* and             you should find a button on the right that says *Add user*."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:58
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:58
 msgid "Click on it and a form to fill out will appear. Name the new user test_user, choose a password and click *save* at the right bottom of the  site."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:62
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:62
 msgid "Now you should be directed to the site where you could change the permissions on the user *test_user*. As default only *active* is checked. If you want this user also to be able to attend this admin interface you could also check *staff status*. But for now we leave the settings as they are!"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:68
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:68
 msgid "To test whether the new user was successfully created, go back to the GeoNode web page and try to sign in."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:70
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:70
 msgid "GeoNode website"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:73
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:73
 msgid "To create an ordinary user you could also just use the GeoNode website. If you installed GeoNode using a release, you should"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:73
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:73
 msgid "see a *Register* button on the top, beside the *Sign in* button (you might have to log out before)."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:77
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:77
 msgid "Hit the button and again a form will appear for you to fill out. This user will be named *geonode_user*"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:82
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:82
 msgid "By hitting *Sign up* the user will be signed up, as default only with the status *active*."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:84
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:84
 msgid "As mentioned before, this status can be changed as well. To do so, sign in with *your_superuser* again and attend the admin interface. Go again to *Auth* -> *Users*, where now three users should appear:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:90
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:90
 msgid "We now want to change the permission of the *geonode_user* so that he will be able to attend the admin interface as well. Click on to *geonode_user* and you will automatically be moved to the site where you can change the permissions. Check the box *staff status* and hit *save* to store the changes."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:93
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:93
 msgid "To sum it up, we have now created three users with different kind of permissions."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:95
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:95
 msgid "**your_superuser**: This user is allowed to attend the admin interface and has all available permissions on layers, maps etc."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:96
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:96
 msgid "**geonode_user**: This user is permitted to attend the admin interface, but permissions on layers, maps etc. have to be assigned."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:97
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:97
 msgid "**test_user**: This user is not able to attend the admin interface, permissions on layers, maps etc. have also to be assigned."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:102
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:102
 msgid "You should know have an overview over the different kinds of users and how to create and edit them. You've also learned about the permissions a certain user has and how to change them using the *Django Admin Interface*."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:104
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:104
 msgid "If you've installed GeoNode in developing mode, the *Register* button won't be seen from the beginning. To add this button to the website, you have to change the `REGISTRATION_OPEN = False` in the settings.py to `REGISTRATION_OPEN = True`. Then reload GeoNode and you should also be able to see the *Register* button."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:109
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:109
 msgid "Layers"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:111
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:111
 msgid "Now that we've already created some users, we will take a closer look on the security of layers, how you can protect your data not to be viewed or edited by unwanted users."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:113
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:113
 msgid "As already mentioned before it is important to know that a superuser does have unrestricted access to all your uploaded data.  That means you cannot ban a superuser from viewing, downloading or editing a layer!"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:117
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:117
 msgid "The permissions on a certain layer can already be set when uploading your files. When the upload form appears (*Layers* -> *Upload Layer*) you will see the permission section on the right side:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:121
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:121
 msgid "As it can be seen here, the access on your layer is split up into three groups:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:123
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:123
 msgid "view and download data"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:124
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:124
 msgid "edit data"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:125
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:125
 msgid "manage and edit data"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:127
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:127
 msgid "The difference between *manage and edit layer* and *edit layer* is that a user assigned to *edit layer* is not able to change the permissions on the layer whereas a user assigned to *manage and edit layer* can change the permissions. You can now choose whether you want your layer to be viewed and downloaded by"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:131
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:131
 msgid "anyone"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:132
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:132
 msgid "any registered user"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:133
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:133
 msgid "a certain user (or group)"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:135
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:135
 msgid "We will now upload our **test layer** like shown HERE. If you want your layer only be viewed by certain users or a group, you have to choose *Only users who can edit* in the part *Who can view and download this data*. In the section *Who can edit this data* you write down the names of the users you want to have admission on this data. For this first layer we will choose the settings like shown in the following image:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:145
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:145
 msgid "If you now log out, your layer can still be seen, but the unregistered users won't be able to edit your layer. Now sign in as *geonode_user* and click on the **test layer**. Above the layer you can see this:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:150
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:150
 msgid "The *geonode_user* is able to edit the **test_layer**. But before going deeper into this, we have to first take a look on another case. As an administrator you might also upload your layers to geoserver and then make them available on GeoNode using *updatelayers*. Or you even add the layers via the terminal using *importlayers* (LINK TUTORIAL). To set the permissions on this layer, click on the **test layer** (you've uploaded via *updatelayers*) and you will see the same menu as shown in the image above. Click *Edit layer* and the menu will appear."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:159
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:159
 msgid "Choose *edit permissions* and a window with the permission settings will appear. This window can also be opened by scrolling down the website. On the right-hand side of the page you should be able to see a button like this."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:164
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:164
 msgid "Click on it and you will see the same window as before."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:166
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:166
 msgid "Now set the permissions of this layer using the following settings:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:175
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:175
 msgid "When you assign a user to be able to edit your data, this user is allowed to execute all of the following actions:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:177
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:177
 msgid "edit metadata"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:178
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:178
 msgid "edit styles"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:179
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:179
 msgid "manage styles"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:180
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:180
 msgid "replace layer"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:181
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:181
 msgid "remove layer"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:183
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:183
 msgid "So be aware that each user assigned to edit this layer can even remove it! In our case, only the user *test_user* and *your_superuser* do have the rights to do so. *Geonode_user* is neither able to view nor to download or edit this layer."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:187
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:187
 msgid "Now you are logged in as the user *test_user*. Below the **test_layer** you can see the following:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:192
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:192
 msgid "By clicking *Edit Layer* and *Edit Metadata* on top of the layer, you can change this information. The *test_user* is able to change all the metadata of this layer. We now want to change to *point of contact*, therefore scroll down until you see this:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:197
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:197
 msgid "Change the *point of contact* from *_who_ever_created_this* to *test_user*. *Save* your changes and you will now be able to see the following:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:204
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:204
 msgid "If you allow a user to view and download a layer, this user will also be able to edit the styles, even if he is not assigned to edit the layer! Keep this in mind!"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:208
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:208
 msgid "To learn how you can edit metadata or change the styles go to this section LINK."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:215
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:215
 msgid "Maps"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:217
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:217
 msgid "The permission on maps are basically the same as on layers, just that there are fewer options on how to edit the map. Let's create a map (or already TUTORIAL?). Click on **test_map** and scroll down till you see this:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:221
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:221
 msgid "Here you can set the same permissions as known from the layer permissions! Set the permissions of this map as seen here:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:228
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:228
 msgid "Save your changes and then log out and log in as *test_user*. You should now be able to view the *test_map* and click on to *Edit map*."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:234
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:234
 msgid "As you may recognize, this user is not able to change the permissions on this map. If you log in as the user *geonode_user* you should be able to see the button *change map permissions* when you scroll down the page."
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:237
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:237
 msgid "Documents"
 msgstr ""
 
-#: ..\..\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:239
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\008_more_on_security_and_permissions\permission_and_security.rst:239
 msgid "All the same is also valid for your uploaded documents."
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:5
 msgid "Administrators Workshop"
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:7
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:7
 msgid "Welcome to the GeoNode Training `Administrators Workshop` documentation v\\ |release|."
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:9
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:9
 msgid "This workshop will teach how to install and manage a deployment of the `GeoNode <http://geonode.org/>`_ software application. At the end of this section you will master all the GeoNode sections and entities from an administrator perspective."
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:12
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:12
 msgid "You will know how to:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:14
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:14
 msgid "Use the GeoNode’s Django Administration Panel."
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:15
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:15
 msgid "Use the console Management Commands for GeoNode."
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:16
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:16
 msgid "Configure and customize your GeoNode installation."
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:18
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:18
 msgid "*Prerequisites*"
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:20
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:20
 msgid "Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:22
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:22
 msgid "GeoNode and Django framework concepts"
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:23
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:23
 msgid "Good knowledge of Python"
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:24
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:24
 msgid "Good knowledge of what is a geospatial server and geospatial web services."
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:25
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:25
 msgid "Good knowledge of what is metadata and catalog."
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:26
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:26
 msgid "Good knowledge of HTML and CSS."
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:41
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:41
 msgid ":ref:`admin_panel`"
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:44
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:44
 msgid ":ref:`admin_mgmt_commands`"
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:44
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:44
 msgid "GeoNode comes with administrative commands to help with day to day tasks. This section shows the list of the ones that come from the GeoNode application."
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:47
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:47
 msgid ":ref:`admin_csw_settings`"
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:50
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:50
 msgid ":ref:`customize_admin`"
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:53
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:53
 msgid ":ref:`debug_geonode`"
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:53
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:53
 msgid "There are several mechanisms to debug GeoNode installations, the most common ones are discussed in this section."
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:56
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:56
 msgid ":ref:`default_language`"
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:59
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:59
 msgid ":ref:`data`"
 msgstr ""
 
-#: ..\..\004_admin_workshop\index.rst:63
+#: C:\work\code\java\geonode\doc-geonode\004_admin_workshop\index.rst:63
 msgid ":ref:`more_on_security_and_permissions`"
 msgstr ""
 

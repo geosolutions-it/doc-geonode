@@ -599,7 +599,7 @@ msgstr "Personnaliser le Look & Feel"
 msgid ""
 "Now you can edit the templates in **geonode_custom/templates**, the css and "
 "images to match your needs like shown in :ref:`customize.theme_admin`!"
-msgstr "Vous pouvez modifier les templates dans **geonode_custom / templates**, les css et les images pour assortir vos besoins comme montré dans\n :ref:`customize.theme_admin`!"
+msgstr "Vous pouvez modifier les templates dans **geonode_custom/templates**, les css et les images pour assortir vos besoins comme montré dans\n :ref:`customize.theme_admin`!"
 
 #: ..\..\004_admin_workshop\004_customize_lookfeel\customize\setup_admin.rst:115
 msgid ""

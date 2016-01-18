@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-17 15:17+0100\n"
-"PO-Revision-Date: 2015-12-17 15:17+0100\n"
+"POT-Creation-Date: 2016-01-15 18:43+0100\n"
+"PO-Revision-Date: 2016-01-15 18:43+0100\n"
 "Last-Translator: matteo cima <matteocima@hotmail.com>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-"
 "documentation/language/fr/)\n"
@@ -22,12 +22,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.8.6\n"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\index.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\index.rst:4
 msgid "Accounts and users"
 msgstr "Comptes et utilisateurs"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\index.rst:6
-#: ..\..\003_users_workshop\index.rst:41
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\index.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:41
 msgid ""
 "GeoNode is primarily a *social* platform, and thus a primary component of "
 "any GeoNode instance is the user account. This section will guide you "
@@ -39,11 +39,11 @@ msgstr ""
 "guidera dans l'enregistrement d'un compte, mettre à jour vos informations de "
 "compte et l'affichage des autres comptes d'utilisateurs."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:5
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:5
 msgid "Setting notification preferences"
 msgstr "Configuration des préférences de notification"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:7
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:7
 msgid ""
 "By default GeoNode sends notifications to the users for events that the "
 "users could be subscribed such as a new layer uploaded or a new rate added "
@@ -53,7 +53,7 @@ msgstr ""
 "événements que les utilisateurs pouvaient être souscrites comme un nouveau "
 "donnè a téléchargées ou ajouté à une carte."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:10
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:10
 msgid ""
 "you can adjust your notification settings by clicking on your user name in "
 "the top right of the screen. A drop-down list will show. Click on :guilabel:"
@@ -64,7 +64,7 @@ msgstr ""
 "apparaître. Cliquez sur :guilabel:`Notifications` pour entrer dans la page "
 "Paramètres de Notifications."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:14
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:14
 msgid ""
 "make sure to have a verified email address to which notices can be sent. If "
 "not, click on the proposed link to add one"
@@ -72,7 +72,7 @@ msgstr ""
 "Assurez vous d'avoir une adresse email vérifiée à laquelle les avis peuvent "
 "être envoyés. Sinon, cliquez sur le lien proposé d'ajouter un"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:16
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:16
 msgid ""
 "now check/uncheck the notification types you wish to receive or not receive. "
 "It is possible to be notified for the following events:"
@@ -81,83 +81,83 @@ msgstr ""
 "recevoir ou pas recevoir. Il est possible d'être averti pour les événements "
 "suivants :"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:18
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:18
 msgid "Layer Created"
 msgstr "Couche Créé"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:19
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:19
 msgid "Layer Updated"
 msgstr "Mise à jour de Couche"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:20
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:20
 msgid "Layer Deleted"
 msgstr "Couche Supprimé"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:21
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:21
 msgid "Rating for Layer"
 msgstr "Estimation pour Couche"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:22
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:22
 msgid "Comment for Layer"
 msgstr "Commentaire pour Couche"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:23
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:23
 msgid "Map Created"
 msgstr "Cart Créé"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:24
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:24
 msgid "Map Updated"
 msgstr "Mise a jour de Carte"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:25
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:25
 msgid "Map Deleted"
 msgstr "Carte Supprimé"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:26
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:26
 msgid "Rating for Map"
 msgstr "Estimation pour Couche"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:27
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:27
 msgid "Comment for Map"
 msgstr "Commentaire pour Carte"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:28
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:28
 msgid "Document Created"
 msgstr "Document Créé"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:29
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:29
 msgid "Document Updated"
 msgstr "Mise a jour de Document"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:30
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:30
 msgid "Document Deleted"
 msgstr "Document Supprimé"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:31
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:31
 msgid "Rating for Document"
 msgstr "Estimation de Document"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:32
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:32
 msgid "Comment for Document"
 msgstr "Commentaire pour Document"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:33
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:33
 msgid "User following you"
 msgstr "Utilisateur vous suit"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\notifications.rst:34
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\notifications.rst:34
 msgid "Request to donwload a resource"
 msgstr "Demande de donwload une ressource"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:4
 msgid "Managing your profile"
 msgstr "Gérer votre profil"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:8
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:8
 msgid "Your profile contains personal information."
 msgstr "Votre profil contient des informations personnelles."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:10
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:10
 msgid ""
 "Click on your user name in the top right of the screen. A drop-down list "
 "will show. Click on :guilabel:`Profile` to enter the Profile settings page."
@@ -166,28 +166,28 @@ msgstr ""
 "déroulante apparaîtra . Cliquez sur :guilabel:`Profile` pour accéder à la "
 "page Paramètres du profil ."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:14
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:14
 msgid "*Link to your profile*"
 msgstr "*Lien vers votre profil*"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:16
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:16
 msgid "The next page shows your profile, which is currently empty."
 msgstr "La page suivante montre votre profil, qui est actuellement vide."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:20
-#: ..\..\003_users_workshop\001_accounts_and_users\users.rst:10
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:20
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\users.rst:10
 msgid "*Profile page*"
 msgstr "*Page de Profile*"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:22
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:22
 msgid "Click the :guilabel:`Edit profile information` link."
 msgstr "Cliquez sur  :guilabel:`Edite le profil d' information` ."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:26
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:26
 msgid "*Link to edit your profile*"
 msgstr "*Lien pour la mise à jour de profil*"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:28
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:28
 msgid ""
 "On this page, your personal information can be set, including your avatar. "
 "Enter some details in the :guilabel:`Profile` box as well as your city and "
@@ -197,19 +197,19 @@ msgstr ""
 "compris votre avatar . Entrez quelques détails dans l' :guilabel:`boîte "
 "Profile` ainsi que votre ville et pays d'info ."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:32
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:32
 msgid "*Editing your profile*"
 msgstr "*Modification de votre profile*"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:34
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:34
 msgid "When finished, click :guilabel:`Update profile`."
 msgstr "Lorsque vous avez terminé , cliquez sur :guilabel:`jour profile"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:38
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:38
 msgid "*Link to save your profile updates*"
 msgstr "*Lien pour enregistrer vos mises à jour de profil*"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:40
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:40
 msgid ""
 "You will be returned to the main profile page. Now click :guilabel:`Account "
 "settings`."
@@ -217,11 +217,11 @@ msgstr ""
 "Vous retournerez à la page de profil principal. Maintenant, cliquez sur : "
 "guilabel:`Paramètres du compte`."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:44
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:44
 msgid "*Link to edit your account settings*"
 msgstr "*Lien pour modifier vos paramètres de compte*"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:46
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:46
 msgid ""
 "On this page you can change your email address, time zone, and language. "
 "Your email should be populated already, but set the timezone to your current "
@@ -231,19 +231,19 @@ msgstr ""
 "et la langue . Votre e-mail doit être déjà peuplée , mais réglé le fuseau "
 "horaire de votre emplacement actuel ."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:52
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:52
 msgid "*Editing your account*"
 msgstr "*Modification de votre compte*"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\profile.rst:54
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\profile.rst:54
 msgid "When finished, click :guilabel:`Save`."
 msgstr "Lorsque vous avez terminé, cliquez sur :guilabel:`Enregistrer`."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\registration.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\registration.rst:4
 msgid "Creating a new account"
 msgstr "Création d'un nouveau compte"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\registration.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\registration.rst:6
 msgid ""
 "Before you can save or edit any layers on a GeoNode instance, you need to "
 "create an account."
@@ -251,7 +251,7 @@ msgstr ""
 "Avant que vous pouvez enregistrer ou modifier toutes les couches sur une "
 "instance de GeoNode, vous devez créer un compte."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\registration.rst:8
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\registration.rst:8
 msgid ""
 "From any page in the web interface, you will see a :guilabel:`Register` "
 "link. Click that link, and the register form will appear"
@@ -259,7 +259,7 @@ msgstr ""
 "De n'importe quelle page dans l'interface web, vous verrez un :guilabel:"
 "`Register` lien. Cliquer sur ce lien, et la forme du registre s'affiche"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\registration.rst:10
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\registration.rst:10
 msgid ""
 "The registrations in GeoNode must be open, in case you don't see the "
 "register link then it's not possible to register unless the addministrator "
@@ -269,11 +269,11 @@ msgstr ""
 "voyez pas le lien d'inscription puis il n'est pas possible de s'inscrire à "
 "moins que l'addministrator du côté qui fait pour vous."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\registration.rst:14
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\registration.rst:14
 msgid "*Sign in screen*"
 msgstr "*Sign in écran*"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\registration.rst:16
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\registration.rst:16
 msgid ""
 "On the next page, fill out the form. Enter a user name and password in the "
 "fields. Also, enter your email address for verification."
@@ -282,11 +282,11 @@ msgstr ""
 "une password dans les cases. Ecrivez votre adresse email pour une "
 "vérification."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\registration.rst:20
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\registration.rst:20
 msgid "*Registering for a new account*"
 msgstr "*Enregistrer un nouveau compte*"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\registration.rst:22
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\registration.rst:22
 msgid ""
 "You will be returned to the welcome page. An email will be sent confirming "
 "that you have signed up. While you are now logged in, you will need to "
@@ -297,19 +297,19 @@ msgstr ""
 "identifié, vous devez confirmer votre compte. Naviguez au link envoyé à "
 "votre email."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\registration.rst:28
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\registration.rst:28
 msgid "*Confirming your email address*"
 msgstr "*Confirmation de votre adresse e-mail*"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\registration.rst:30
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\registration.rst:30
 msgid "Click :guilabel:`Confirm`. You will be returned to the homepage."
 msgstr "Cliquez sur :guilabel:`Confirm`. Vous retournerez à la page d'accueil."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\users.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\users.rst:4
 msgid "Viewing other user accounts"
 msgstr "Voir d'autres comptes d'utilisateurs"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\users.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\users.rst:6
 msgid ""
 "Now that your account is created, you can view other accounts on the system. "
 "Note that on the main profile page there are options for following (and "
@@ -319,7 +319,7 @@ msgstr ""
 "comptes sur le système. Notez que sur la page de profil principal on options "
 "qui suit (et le blocage) d'autres utilisateurs."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\users.rst:12
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\users.rst:12
 msgid ""
 "To see information about other users on the system, click the :guilabel:"
 "`People` link on the top toolbar. You will see a list of users registered on "
@@ -329,12 +329,12 @@ msgstr ""
 "cliquez sur le :guilabel:`People` un lien sur la barre d'outils supérieure. "
 "Vous verrez une liste des utilisateurs enregistrés sur ce système."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\users.rst:16
-#: ..\..\003_users_workshop\001_accounts_and_users\users.rst:28
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\users.rst:16
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\users.rst:28
 msgid "*List of users*"
 msgstr "*Liste des utilisateurs*"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\users.rst:18
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\users.rst:18
 msgid ""
 "Click on the user name for a particular user. You will see the layers owned "
 "by this user."
@@ -342,17 +342,17 @@ msgstr ""
 "Cliquez sur le nom d'utilisateur pour un utilisateur particulier. Vous "
 "verrez les couches appartenant à cet utilisateur."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\users.rst:22
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\users.rst:22
 msgid "*List of layers owned by a user*"
 msgstr "*Liste des couches appartenant à un utilisateur*"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\users.rst:24
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\users.rst:24
 msgid "You can also click :guilabel:`Activities` to see the activity feed."
 msgstr ""
 "Vous pouvez également cliquer sur :guilabel:`Activités` pour voir l'activité "
 "d'alimentation."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\users.rst:32
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\users.rst:32
 msgid ""
 "If you are interested in keeping track of what this user does, go back to "
 "the previous page and click the :guilabel:`Follow` button."
@@ -360,31 +360,31 @@ msgstr ""
 "Si vous êtes intéressé à garder une trace de ce que fait cet utilisateur, "
 "revenir à la page précédente, puis cliquez sur le :guilabel:`bouton Suivre`."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\users.rst:34
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\users.rst:34
 msgid "A confirmation page will display. Click :guilabel:`Confirm`."
 msgstr ""
 "Une page de confirmation va apparaitre. Cliquez sur :guilabel:`Confirm`."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\users.rst:38
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\users.rst:38
 msgid "*Confirming following a user*"
 msgstr "*Confirmation de suivre un utilisateur*"
 
-#: ..\..\003_users_workshop\001_accounts_and_users\users.rst:40
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\users.rst:40
 msgid ""
 "You will now be following this user, and your profile page will note this."
 msgstr ""
 "Vous suivrons maintenant cet utilisateur, et votre page de profil cette note."
 
-#: ..\..\003_users_workshop\001_accounts_and_users\users.rst:44
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\001_accounts_and_users\users.rst:44
 msgid "*Success following a user*"
 msgstr "* Succès de suivre un utilisateur*"
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:4
 msgid "Document Types"
 msgstr "Types de Documents"
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:6
-#: ..\..\003_users_workshop\index.rst:44
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:44
 msgid ""
 "GeoNode welcome page shows a variety of information about the current "
 "GeoNode instance. At the top of the page is a toolbar showing quick links to "
@@ -394,11 +394,11 @@ msgstr ""
 "actuelle de la GeoNode. Au haut de la page est une barre d'outils Affichage "
 "de liens rapides à des types de document: couches, de cartes et de documents."
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:10
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:10
 msgid "*Document types in GeoNode welcome page*"
 msgstr "* Document types figurant dans la page Bienvenue de GeoNode*"
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:12
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:12
 msgid ""
 "Data management tools built into GeoNode allow for integrated creation of "
 "data, documents, link to external documents, and map visualizations. Each "
@@ -418,15 +418,15 @@ msgstr ""
 "gestion et le contrôle de la qualité des données que contient l'instance de "
 "GeoNode."
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:17
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:17
 msgid "Layers"
 msgstr "Couches"
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:19
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:19
 msgid "Layers are a primary component of GeoNode."
 msgstr "Les couches sont un composant principal de GeoNode ."
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:21
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:21
 msgid ""
 "Layers are publishable resources representing a raster or vector spatial "
 "data source. Layers also can be associated with metadata, ratings, and "
@@ -436,7 +436,7 @@ msgstr ""
 "spatiales raster ou vecteur. Couches peuvent également être associés avec "
 "les métadonnées, les évaluations et les commentaires."
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:23
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:23
 msgid ""
 "By clicking the Layers link you will get a list of all published layers. If "
 "logged in as an administrator, you will also see the unpublished layers in "
@@ -446,11 +446,11 @@ msgstr ""
 "couches de publiés. Si connecté tant qu'administrateur, vous pourrez "
 "également voir les couches non publiés dans la même liste."
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:27
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:27
 msgid "*Layers in GeoNode toolbar*"
 msgstr "*Couches dans la barre d'outils GeoNode*"
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:29
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:29
 msgid ""
 "GeoNode allows the user to upload vector (currently only Shapefiles) and "
 "raster data in their original projections using a web form."
@@ -459,7 +459,7 @@ msgstr ""
 "Shapefiles) et des données raster dans leurs projections originales à l'aide "
 "d'un formulaire web."
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:31
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:31
 msgid ""
 "Vector data is uploaded in ESRI Shapefile format and satellite imagery and "
 "other kinds of raster data are uploaded as GeoTIFFs."
@@ -468,19 +468,19 @@ msgstr ""
 "satellitaire et d'autres types de trame données sont téléchargées comme "
 "GeoTIFFs."
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:35
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:35
 msgid "*Layers list in GeoNode*"
 msgstr "*List des couches dans GeoNode*"
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:38
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:38
 msgid "Maps"
 msgstr "Cartes"
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:40
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:40
 msgid "Maps are a primary component of GeoNode."
 msgstr "Les cartes sont un composant principal de GeoNode."
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:42
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:42
 msgid ""
 "Maps are comprised of various layers and their styles. Layers can be both "
 "local layers in GeoNode as well as remote layers either served from other "
@@ -491,8 +491,8 @@ msgstr ""
 "distants que soit servi d'autres serveurs WMS ou par couches de service web "
 "comme Google ou MapQuest."
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:44
-#: ..\..\003_users_workshop\006_managing_maps\index.rst:8
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:44
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\index.rst:8
 msgid ""
 "GeoNode maps also contain other information such as map zoom and extent, "
 "layer ordering, and style."
@@ -500,17 +500,17 @@ msgstr ""
 "GeoNode cartes contiennent également d'autres informations telles que le "
 "zoom de la carte et dans quelle mesure, ordonnant de couche et style."
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:46
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:46
 msgid "By clicking the Map link you will get a list of all published maps."
 msgstr ""
 "En cliquant sur le lien de la carte, vous obtiendrez une liste de toutes les "
 "cartes publiées."
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:50
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:50
 msgid "*Maps in GeoNode toolbar*"
 msgstr "*Cartes dans le barre d'outils de GeoNode*"
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:52
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:52
 msgid ""
 "This toolbar allows you create a map based on the uploaded layers combine "
 "them with some existing layers and a remote web service layer, and then "
@@ -529,11 +529,11 @@ msgstr ""
 "l'affichage de cartes, ce qui permet d'utiliser les différentes couches de "
 "base populaires, comme Open Street Map, Google Satellite ou couches de Bing."
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:57
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:57
 msgid "Documents"
 msgstr "Documents"
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:59
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:59
 msgid ""
 "As for the layers and maps GeoNode allows to publish tabular and text data "
 "manage metadata and associated documents."
@@ -542,7 +542,7 @@ msgstr ""
 "forme de tableau et les données textuelles gérer les métadonnées et les "
 "documents associés."
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:61
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:61
 msgid ""
 "By clicking the Documents link you will be brought to the Documents menu "
 "where a new subtoolbar can be seen."
@@ -550,11 +550,11 @@ msgstr ""
 "En cliquant sur le lien Documents vous serez amené au menu Documents où l'on "
 "voit une nouvelle barre d'outils."
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:65
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:65
 msgid "*Documents in GeoNode toolbar*"
 msgstr "*Documents dans la barre d'outils de GeoNode*"
 
-#: ..\..\003_users_workshop\002_document_types\index.rst:67
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\002_document_types\index.rst:67
 msgid ""
 "Through the document datailed page is possible to view, download and manage "
 "a document."
@@ -562,22 +562,22 @@ msgstr ""
 "À travers le document page datailed est possible d'afficher, de télécharger "
 "et de gérer un document."
 
-#: ..\..\003_users_workshop\003_searching\index.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\003_searching\index.rst:4
 msgid "Searching"
 msgstr "Rechercher"
 
-#: ..\..\003_users_workshop\003_searching\index.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\003_searching\index.rst:6
 msgid ""
 "In GeoNode welcome page, click the Search button to bring up the Search page."
 msgstr ""
 "Dans la page d'accueil GeoNode, cliquez sur le bouton Rechercher pour "
 "afficher la page de recherche."
 
-#: ..\..\003_users_workshop\003_searching\index.rst:10
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\003_searching\index.rst:10
 msgid "*Search tool in GeoNode welcome page*"
 msgstr "* Outil de recherche dans la page Bienvenue de GeoNode*"
 
-#: ..\..\003_users_workshop\003_searching\index.rst:12
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\003_searching\index.rst:12
 msgid ""
 "This page contains a wealth of options for customizing a search for various "
 "information on GeoNode. This search form allows for much more fine-tuned "
@@ -588,7 +588,7 @@ msgstr ""
 "perfectionné permet de recherche dans la boîte de recherche simple est "
 "disponible en haut de chaque page."
 
-#: ..\..\003_users_workshop\003_searching\index.rst:15
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\003_searching\index.rst:15
 msgid ""
 "It is possible to search data by Text, Categories, Type, Keywords, Date, "
 "Regions or Extent."
@@ -596,15 +596,15 @@ msgstr ""
 "Il est possible de rechercher des données par un texte, des Catégories, un "
 "type , des mots clés, date, des Régions ou per l'étendue."
 
-#: ..\..\003_users_workshop\003_searching\index.rst:19
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\003_searching\index.rst:19
 msgid "*Search page*"
 msgstr "*Page de Recherche*"
 
-#: ..\..\003_users_workshop\004_managing_layers\index.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\index.rst:4
 msgid "Managing layers"
 msgstr "Gestion des couches"
 
-#: ..\..\003_users_workshop\004_managing_layers\index.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\index.rst:6
 msgid ""
 "After user accounts, the next primary component of GeoNode is the **layer**. "
 "Layers are a published resource representing a raster or vector spatial data "
@@ -615,7 +615,7 @@ msgstr ""
 "une source de données spatiales raster ou vecteur. Couches peuvent également "
 "être associés avec les métadonnées, les évaluations et les commentaires."
 
-#: ..\..\003_users_workshop\004_managing_layers\index.rst:8
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\index.rst:8
 msgid ""
 "In this section, you will learn how to create a new layer by uploading a "
 "local data set, add layer info, change the style of the layer, and share the "
@@ -625,11 +625,11 @@ msgstr ""
 "téléchargeant un ensemble de données local, ajouter couche info, changer le "
 "style de la couche et partager les résultats."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:4
 msgid "Layer information"
 msgstr "Information de Couche"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:6
 msgid ""
 "After upload, another form will displaying, containing metadata about the "
 "layer. Change any information as desired, and then click :guilabel:`Update` "
@@ -639,21 +639,21 @@ msgstr ""
 "métadonnées sur la couche. Modifier les informations comme vous le souhaitez "
 "et puis cliquez sur :guilabel:`Update` tout en bas du formulaire."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:10
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:10
 msgid "*Layer metadata*"
 msgstr "*Metadonnée de couche*"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:14
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:14
 msgid "After the update, the layer will display in a preview window."
 msgstr ""
 "Après la mise à jour , la couche sera visualisé dans une fenêtre de "
 "prévisualisation."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:18
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:18
 msgid "*Layer preview*"
 msgstr "*Aperçu de la couche*"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:20
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:20
 msgid ""
 "This page contains lots of options for managing this layer. Let's look at a "
 "few of them:"
@@ -661,11 +661,11 @@ msgstr ""
 "Cette page contient beaucoup d'options pour la gestion de cette couche. "
 "Regardons quelques-uns d'entre eux:"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:23
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:23
 msgid "Downloads"
 msgstr "Téléchargements"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:27
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:27
 msgid ""
 "At the top of the page there are two buttons titled :guilabel:`Download "
 "Layer` and :guilabel:`Download Metadata`. These buttons provide access to "
@@ -680,11 +680,11 @@ msgstr ""
 "manière dont les données et de métadonnées ; On peut importer mais aussi "
 "exporter des données."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:30
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:30
 msgid "Data"
 msgstr "Données"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:32
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:32
 msgid ""
 "Click the :guilabel:`Download Layer` button. You will see a list of options "
 "of the supported export formats."
@@ -692,15 +692,15 @@ msgstr ""
 "Cliquez sur le bouton :guilabel:`Télécharger la couche`. Vous verrez une "
 "liste d'options, les prise en charge des formats d'exportation."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:36
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:36
 msgid "*Available export formats*"
 msgstr "*Formats d'exportation disponibles*"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:38
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:38
 msgid "Click the option for :guilabel:`Zipped Shapefile`."
 msgstr "Cliquez sur l'option :guilabel:`Zipped Shapefile`."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:40
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:40
 msgid ""
 "GeoNode will process the request and bring up a Save As dialog. Save this "
 "file to your computer, and note how it is the same content as was uploaded."
@@ -709,11 +709,11 @@ msgstr ""
 "Enregistrer sous. Enregistrez ce fichier sur votre ordinateur et notez "
 "comment c'est le même contenu qu'a été transféré."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:45
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:45
 msgid "Metadata"
 msgstr "Metadonnée"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:47
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:47
 msgid ""
 "Click the :guilabel:`Download Metadata` button. You will see a list of "
 "options of the supported export formats."
@@ -721,15 +721,15 @@ msgstr ""
 "Cliquez sur le bouton :guilabel:`Télécharger Metadata`. Vous verrez une "
 "liste d'options, les prise en charge des formats d'exportation."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:51
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:51
 msgid "*Available metadata export formats*"
 msgstr "* Les formats d'exportation métadonnées disponibles*"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:53
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:53
 msgid "Click the option for :guilabel:`DUBLIN CORE`."
 msgstr "Cliquez sur l'option pour :guilabel:`DUBLIN CORE`."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:55
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:55
 msgid ""
 "GeoNode will process the request and display XML metadata.  Try clicking "
 "various metadata formats, and note how it is the same metadata content in "
@@ -740,11 +740,11 @@ msgstr ""
 "même contenu de métadonnées dans divers formats compatibles avec les "
 "métadonnées et les SIG."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:58
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:58
 msgid "Layer Detail Tabs"
 msgstr "Tabs de Détail des Couches"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:60
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:60
 msgid ""
 "Scroll down the page toward the bottom. Five tabs are available: :guilabel:"
 "`Info`, :guilabel:`Attributes`, :guilabel:`Share`, :guilabel:`Ratings`, and :"
@@ -758,11 +758,11 @@ msgstr ""
 "des informations de base sur la couche, du genre qui a été vu sur la page de "
 "liste de couche."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:64
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:64
 msgid "*Layer Info tab*"
 msgstr "* Couche Info onglet*"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:66
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:66
 msgid ""
 "Click the :guilabel:`Attributes` tab. This lists the attributes of the "
 "layer, including statistics (range, average, median and standard "
@@ -777,11 +777,11 @@ msgstr ""
 "cette couche ne sont pas numériques, donc aucuns statistiques ne sont "
 "calculées."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:70
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:70
 msgid "*Attributes tab*"
 msgstr "Onglet Attributs"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:72
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:72
 msgid ""
 "Click the :guilabel:`Ratings` tab. This tab allows you (and others viewing "
 "this page) to rate this layer. Ratings can be based on quality, accuracy, or "
@@ -792,11 +792,11 @@ msgstr ""
 "sur la qualité, l'exactitude ou toute autre mesure. Cliquez sur la star de "
 "coter cette couche."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:76
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:76
 msgid "*Layer Ratings tab*"
 msgstr "* Onglet de cotes couche*"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:78
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:78
 msgid ""
 "Click the :guilabel:`Comments` tab. This tab allows you to leave a comment "
 "for other viewing this layer."
@@ -804,33 +804,33 @@ msgstr ""
 "Cliquez sur le onglet :guilabel:`Commentaires`. Cet onglet vous permet de "
 "laisser un commentaire pour autre Regarde un de cette couche."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:82
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:82
 msgid "*Layer Comments tab*"
 msgstr "* Onglet de commentaires couche*"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:84
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:84
 msgid "Click the :guilabel:`Add Comment` button and enter a comment."
 msgstr ""
 "Cliquez sur le :guilabel:`Ajouter commentaire` et entrez un commentaire."
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:88
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:88
 msgid "*Adding a new comment*"
 msgstr "* Ajout d'un nouveau commentaire*"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:90
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:90
 msgid "When finished, click :guilabel:`Submit Comments`"
 msgstr ""
 "Lorsque vous avez terminé, cliquez sur :guilabel:`Soumettre commentaires`"
 
-#: ..\..\003_users_workshop\004_managing_layers\info.rst:94
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\info.rst:94
 msgid "*New comment posted*"
 msgstr "Nouveau commentaire posté"
 
-#: ..\..\003_users_workshop\004_managing_layers\more.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\more.rst:4
 msgid "Adding more layers"
 msgstr "Ajouter des calques"
 
-#: ..\..\003_users_workshop\004_managing_layers\more.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\more.rst:6
 msgid ""
 "We've uploaded one layer so far. There is one more layer in the :file:`data` "
 "directory associated with this workshop called :file:"
@@ -840,7 +840,7 @@ msgstr ""
 "file:`data` appelé répertoire associé à cet atelier :file:"
 "`san_andres_y_providencia_poi.shp`."
 
-#: ..\..\003_users_workshop\004_managing_layers\more.rst:8
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\more.rst:8
 msgid ""
 "Upload this layer, referring to the directions on :ref:`uploading a layer "
 "<layers.upload>`. As a difference, leave the permissions set to their "
@@ -850,19 +850,19 @@ msgstr ""
 "une couche <layers.upload>`. Comme une différence, laissez les autorisations "
 "définies sur leurs valeurs par défaut."
 
-#: ..\..\003_users_workshop\004_managing_layers\more.rst:12
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\more.rst:12
 msgid "*Uploading the layer*"
 msgstr "*Chargement de couche*"
 
-#: ..\..\003_users_workshop\004_managing_layers\more.rst:16
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\more.rst:16
 msgid "*Finished upload*"
 msgstr "* Chargement Fini*"
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:4
 msgid "Sharing layers"
 msgstr "Partage de couches"
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:6
 msgid ""
 "GeoNode has the ability to restrict or allow other users to access a layer "
 "and share on social media."
@@ -870,11 +870,11 @@ msgstr ""
 "GeoNode a la capacité de restreindre ou d'autoriser d'autres utilisateurs "
 "d'accéder à un calque et partager sur les médias sociaux."
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:9
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:9
 msgid "Anonymous access"
 msgstr "L'Accèss Anonyme"
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:11
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:11
 msgid ""
 "Go to the layer preview of the first layer uploaded, and copy the URL to "
 "that preview page."
@@ -882,7 +882,7 @@ msgstr ""
 "Aller à l'aperçu de calque de la première couche téléchargée et copiez l'URL "
 "de cette page d'aperçu."
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:13
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:13
 msgid ""
 "The URL should be something like: ``http://GEONODE/layers/geonode:"
 "san_andres_y_providencia_administrative``"
@@ -890,7 +890,7 @@ msgstr ""
 "L'URL doit être quelque chose comme: ``http://GEONODE/layers/geonode:"
 "san_andres_y_providencia_administrative.``"
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:15
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:15
 msgid ""
 "Now log out of GeoNode by clicking on your profile name and selecting :"
 "guilabel:`Log out`."
@@ -898,20 +898,20 @@ msgstr ""
 "Maintenant vous connecter sur GeoNode en cliquant sur le nom de votre profil "
 "et sélectionner :guilabel:`Fermer la session`."
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:19
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:19
 msgid "*Log out*"
 msgstr "*Se Déconnecter*"
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:21
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:21
 msgid "When asked for confirmation, click the :guilabel:`Log out` button."
 msgstr ""
 "Interrogé pour confirmation, cliquez sur le bouton :guilabel:`Déconnexion`."
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:25
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:25
 msgid "*Confirming log out*"
 msgstr "*Confirmationpar par se déconnecter*"
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:27
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:27
 msgid ""
 "Now paste the URL copied about into your browser address bar and navigate to "
 "that location."
@@ -919,7 +919,7 @@ msgstr ""
 "Maintenant, collez l'URL copiée sur dans la barre d'adresse de votre "
 "navigateur et accédez à cet emplacement."
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:29
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:29
 msgid ""
 "You will be redirected to the Log In form. This is because when this layer "
 "was first uploaded, we set the view properties to be any registered user. "
@@ -932,11 +932,11 @@ msgstr ""
 "n'est plus un utilisateur enregistré et donc ne sont pas en mesure de voir "
 "ou d'interagir avec la couche, sauf si nous vous connecter à GeoNode nouveau."
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:33
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:33
 msgid "*Unable to view this protected layer*"
 msgstr "* Impossibilité d'afficher cette couche protégée*"
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:35
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:35
 msgid ""
 "To stop this process from happening, you need to ensure that your "
 "permissions are set so *anyone* can view the layer for others to see it on "
@@ -946,7 +946,7 @@ msgstr ""
 "autorisations sont définies ainsi* personne* peut visualiser la couche pour "
 "d'autres de le voir sur les réseaux sociaux."
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:39
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:39
 msgid ""
 "This is done by selecting *anyone* in the layer permissions tab, be aware "
 "this now means your layer is public!"
@@ -954,11 +954,11 @@ msgstr ""
 "Cela se fait en sélectionnant* personne* dans l'onglet Autorisations de "
 "couche, sachez que cela signifie votre calque est public !"
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:42
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:42
 msgid "Sharing with social media"
 msgstr "Partage avec les médias sociaux"
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:44
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:44
 msgid ""
 "On the taskbar below your username and profile picture there are three links "
 "to social media services, Twitter, Google Plus and Facebook."
@@ -967,7 +967,7 @@ msgstr ""
 "y a trois liens vers des services de médias sociaux, Twitter, Google Plus et "
 "Facebook."
 
-#: ..\..\003_users_workshop\004_managing_layers\share.rst:48
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\share.rst:48
 msgid ""
 "Upon clicking on these icons you will be taken through the application's "
 "process for posting to the social network.  Ensure the permissions are set "
@@ -979,11 +979,11 @@ msgstr ""
 "autorisations sont définies ainsi* personne* peut afficher la couche si vous "
 "voulez non authentifié pour pouvoir y accéder."
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:4
 msgid "Uploading a layer"
 msgstr "Chargement de couche"
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:6
 msgid ""
 "Now that we have taken a tour of GeoNode and viewed existing layers, the "
 "next step is to upload our own."
@@ -991,7 +991,7 @@ msgstr ""
 "Maintenant que nous avons pris un tour de GeoNode et vu les couches "
 "existantes, la prochaine étape est de télécharger notre propre."
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:9
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:9
 msgid ""
 "In your data pack is a directory called :file:`data`. Inside that directory "
 "is a shapefile called :file:`san_andres_y_providencia_administrative.shp`. "
@@ -1004,11 +1004,11 @@ msgstr ""
 "données contenant les limites administratives de la Province de San Andres. "
 "Il s'agira de la première couche qui nous téléchargerons pour GeoNode."
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:16
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:16
 msgid "Navigate to the GeoNode welcome page."
 msgstr "Accédez à la page d'accueil de GeoNode."
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:20
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:20
 msgid ""
 "Click the :guilabel:`Layers` link on the top toolbar. This will bring up the "
 "Layers menu."
@@ -1016,15 +1016,15 @@ msgstr ""
 "Cliquez sur le :guilabel:`Couches` lien sur la barre d'outils supérieure. "
 "Cela fera apparaître le menu calques."
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:24
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:24
 msgid "*Main toolbar for GeoNode*"
 msgstr "* Barre d'outils principale pour les GeoNode"
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:28
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:28
 msgid "*Layers menu*"
 msgstr "*Menu de Couches*"
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:30
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:30
 msgid ""
 "Click :guilabel:`Upload Layers` in the Layers toolbar. This will bring up "
 "the upload form"
@@ -1032,19 +1032,19 @@ msgstr ""
 "Cliquez sur :guilabel:`Télécharger couches` dans la barre d'outils de "
 "calques. Cela fera apparaître le formulaire de téléchargement"
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:34
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:34
 msgid "*Layers toolbar*"
 msgstr "* Barre d'outils couches*"
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:38
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:38
 msgid "*Upload Layers form*"
 msgstr "* Télécharger couches forme*"
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:40
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:40
 msgid "Fill out the form."
 msgstr "Remplissez le formulaire."
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:42
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:42
 msgid ""
 "Click on the :guilabel:`Browse...` button. This will bring up a local file "
 "dialog. Navigate to your data folder and select all of the four files "
@@ -1064,16 +1064,16 @@ msgstr ""
 "pourriez glisser et déposer les quatre fichiers la zone :guilabel:`Drop "
 "files ici`."
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:44
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:44
 msgid "The upload form should appear like this now:"
 msgstr ""
 "Le formulaire de téléchargement devrait apparaître maintenant comme ceci :"
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:48
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:48
 msgid "*Files ready for upload*"
 msgstr "* Prêt à l'upload des fichiers"
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:50
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:50
 msgid ""
 "GeoNode has the ability to restrict who can view, edit, and manage layers. "
 "On the right side of the page, under :guilabel:`Who can view and download "
@@ -1085,7 +1085,7 @@ msgstr ""
 "télécharger ces données?`, sélectionnez :guilabel:`Aucun utilisateur "
 "enregistré`. Cela garantit que l'accès vue anonyme est désactivé."
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:52
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:52
 msgid ""
 "In the same area, under :guilabel:`Who can edit this data?`, select the :"
 "guilabel:`Only the following users or groups` option and type your username. "
@@ -1096,11 +1096,11 @@ msgstr ""
 "option et tapez votre nom d'utilisateur. Ceci assurera que vous êtes "
 "seulement capable de modifier les données dans la couche."
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:56
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:56
 msgid "*Permissions for new layer*"
 msgstr "* Les autorisations pour le nouveau calque*"
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:58
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:58
 msgid ""
 "Click :guilabel:`Upload` to upload the data and create a layer. A dialog "
 "will display showing the progress of the upload."
@@ -1109,11 +1109,11 @@ msgstr ""
 "calque. Une boîte de dialogue s'affiche indiquant l'état d'avancement du "
 "téléchargement."
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:62
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:62
 msgid "*Upload in progress*"
 msgstr "Téléchargement en cours"
 
-#: ..\..\003_users_workshop\004_managing_layers\upload.rst:64
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\004_managing_layers\upload.rst:64
 msgid ""
 "Your layer has been uploaded to GeoNode. Now you will be able to access to "
 "the its info page (clicking on the :guilabel:`Layer Info` button), access to "
@@ -1127,11 +1127,11 @@ msgstr ""
 "cliquant sur le bouton :guilabel:`Modifier les métadonnées`) ou gérer les "
 "styles pour qu'il (en cliquant sur le bouton :guilabel:`Gérer les Styles`)."
 
-#: ..\..\003_users_workshop\005_edit_style\index.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\005_edit_style\index.rst:4
 msgid "Edit Layer Style"
 msgstr "Modifier le Style de calque"
 
-#: ..\..\003_users_workshop\005_edit_style\index.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\005_edit_style\index.rst:6
 msgid ""
 "Edit style task can be performed only by the user who have the permission to "
 "do it."
@@ -1139,7 +1139,7 @@ msgstr ""
 "Modifier style tâche peut être effectuée que par l'utilisateur qui dispose "
 "de l'autorisation de le faire."
 
-#: ..\..\003_users_workshop\005_edit_style\index.rst:8
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\005_edit_style\index.rst:8
 msgid ""
 "In the Explore Layer page choose a Layer that you want to edit clicking over "
 "the name of layer or in the preview window."
@@ -1147,12 +1147,12 @@ msgstr ""
 "Dans la page de couche Explorer choisir une couche que vous voulez modifier "
 "en cliquant sur le nom du calque ou dans la fenêtre d'aperçu."
 
-#: ..\..\003_users_workshop\005_edit_style\index.rst:9
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\005_edit_style\index.rst:9
 msgid "In the Edit Layers page click the Edit Layer button."
 msgstr ""
 "Dans la page modifier les couches, cliquez sur le bouton Éditer une couche."
 
-#: ..\..\003_users_workshop\005_edit_style\index.rst:10
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\005_edit_style\index.rst:10
 msgid ""
 "In the Edit Layer window click Edit button under Style icon. In this "
 "interface is it possible to change the style of layers. GeoNode allows to "
@@ -1165,7 +1165,7 @@ msgstr ""
 "graphique, sans avoir besoin de recourir à la programmation ou exigeant une "
 "formation technique."
 
-#: ..\..\003_users_workshop\005_edit_style\index.rst:12
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\005_edit_style\index.rst:12
 msgid ""
 "In the following example the layer has one style and one rule in that style. "
 "Click Edit in Styles menu change Title and Abstract of the selected Style."
@@ -1174,15 +1174,15 @@ msgstr ""
 "style. Cliquez sur modifier dans le changement de menu Styles de titre et "
 "Résumé du Style sélectionné."
 
-#: ..\..\003_users_workshop\005_edit_style\index.rst:16
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\005_edit_style\index.rst:16
 msgid "*Layer Styles window*"
 msgstr "* Styles de calque fenêtre*"
 
-#: ..\..\003_users_workshop\005_edit_style\index.rst:20
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\005_edit_style\index.rst:20
 msgid "*User Styles window*"
 msgstr "* Fenêtre de Styles utilisateur*"
 
-#: ..\..\003_users_workshop\005_edit_style\index.rst:22
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\005_edit_style\index.rst:22
 msgid ""
 "Click the Rule (Untitled 1) to select it, and then click on Edit below it. "
 "Edit the style choosing Basic tab to edit symbology of layers, Labels to add "
@@ -1196,19 +1196,19 @@ msgstr ""
 "l'État. Une fois terminé, cliquez sur enregistrer, puis cliquez sur le mot "
 "couches pour revenir à la liste des calques."
 
-#: ..\..\003_users_workshop\005_edit_style\index.rst:28
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\005_edit_style\index.rst:28
 msgid "*Basic Style Rule window*"
 msgstr "* Fenêtre de règle de Style base*"
 
-#: ..\..\003_users_workshop\005_edit_style\index.rst:32
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\005_edit_style\index.rst:32
 msgid "*Labels Style Rule window*"
 msgstr "* Fenêtre de règle de Style étiquettes*"
 
-#: ..\..\003_users_workshop\005_edit_style\index.rst:36
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\005_edit_style\index.rst:36
 msgid "*Advanced Style Rule window*"
 msgstr "* Fenêtre de règle de Style avancé*"
 
-#: ..\..\003_users_workshop\005_edit_style\index.rst:38
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\005_edit_style\index.rst:38
 msgid ""
 "In the Edit Layer window click Manage button under Style icon. Manage Styles "
 "function allows to assign available style to selected layers."
@@ -1217,19 +1217,19 @@ msgstr ""
 "de Style. Gérer les Styles fonction permet d'assigner le style disponibles "
 "pour les calques sélectionnés."
 
-#: ..\..\003_users_workshop\005_edit_style\index.rst:42
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\005_edit_style\index.rst:42
 msgid "*Manage Layer Styles*"
 msgstr "* Gérer les Styles de calque*"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:4
 msgid "Creating a map"
 msgstr "Création d’une carte"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:7
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:7
 msgid "Adding layers"
 msgstr "Ajouter des calques"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:9
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:9
 msgid ""
 "Click the :guilabel:`Maps` link on the top toolbar. This will bring up the "
 "list of maps."
@@ -1237,11 +1237,11 @@ msgstr ""
 "Cliquez sur le :guilabel:`Maps` lien sur la barre d'outils supérieure. Cela "
 "fera apparaître la liste des cartes."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:13
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:13
 msgid "*Maps page*"
 msgstr "* Cartes page*"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:15
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:15
 msgid ""
 "Currently, there aren't any maps here, so let's add one. Click the :guilabel:"
 "`Create a New Map` button."
@@ -1249,15 +1249,15 @@ msgstr ""
 "Actuellement, il n'ya pas toutes les cartes ici, nous allons donc en ajouter "
 "un. Cliquez sur le bouton :guilabel:`Créer une nouvelle carte`."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:17
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:17
 msgid "A map composition interface will display."
 msgstr "Une interface de composition de carte s'affiche."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:21
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:21
 msgid "*Create maps interface*"
 msgstr "* Créer des cartes interface*"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:23
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:23
 msgid ""
 "In this interface there is a toolbar, layer list, and map window. The map "
 "window contains the MapQuest OpenStreetMap layer by default. There are other "
@@ -1269,18 +1269,18 @@ msgstr ""
 "MapQuest OpenStreetMap. Il ya aussi autres couches de service disponibles "
 "ici : Blue Marble, Bing aériennes avec étiquettes, MapQuest et OpenStreetMap."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:25
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:25
 msgid "Click on the New Layers button and select Add Layers."
 msgstr ""
 "Cliquez sur le bouton de nouveaux calques et sélectionnez l'option Ajouter "
 "des calques."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:29
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:52
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:29
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:52
 msgid "*Add layers link*"
 msgstr "* Ajouter des couches lien*"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:31
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:31
 msgid ""
 "Select all of the San Andreas layers by clicking the top entry and Shift-"
 "clicking the bottom one. Click :guilabel:`Add Layers` to add them all to the "
@@ -1290,11 +1290,11 @@ msgstr ""
 "verticale et Maj-clic sur le fond un. Cliquez sur :guilabel:`Ajouter des "
 "couches` pour les ajouter à la carte."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:35
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:35
 msgid "*Selecting layers*"
 msgstr "Sélection de calques"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:37
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:37
 msgid ""
 "This selection includes not only the two layers uploaded in the previous "
 "section, but also the layers that were already hosted on GeoNode at the "
@@ -1304,8 +1304,8 @@ msgstr ""
 "section précédente, mais aussi les couches qui étaient déjà hébergés sur "
 "GeoNode au début de l'atelier."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:39
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:74
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:39
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:74
 msgid ""
 "The layers will be added to the map. Click :guilabel:`Done` (right next to :"
 "guilabel:`Add Layers` at the bottom) to return to the main layers list."
@@ -1314,32 +1314,32 @@ msgstr ""
 "droite à côté de :guilabel:`Ajouter des couches` en bas) pour revenir à la "
 "liste des principales couches."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:43
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:78
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:43
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:78
 msgid "*Layers added to the map*"
 msgstr "* Les couches ajoutés à la carte*"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:46
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:46
 msgid "Adding external layers"
 msgstr "Ajouter des couches externes"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:48
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:48
 msgid "Once again, click on the New Layers button and select Add Layers."
 msgstr ""
 "Encore une fois, cliquez sur le bouton de nouveaux calques et sélectionnez "
 "l'option Ajouter des calques."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:54
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:54
 msgid "From the top dropdown list, select :guilabel:`Add a New Server...`"
 msgstr ""
 "Dans la liste déroulante supérieure, sélectionnez :guilabel:`Ajouter un "
 "nouveau serveur...`"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:58
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:58
 msgid "*Add a New Server*"
 msgstr "* Ajouter un nouveau serveur*"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:60
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:60
 msgid ""
 "Enter the URL of the server, and select the correct type of server from the "
 "dropdown (WMS, TMS, or ArcGIS).  For example, enter `http://e-atlas.org.au/"
@@ -1351,11 +1351,11 @@ msgstr ""
 "atlas.org.au/geoserver/wms` et sélectionnez`Service de cartographie Web` "
 "comme type.  Puis cliquez sur le bouton :guilabel:`Add Server`."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:64
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:64
 msgid "*New Server URL and Type*"
 msgstr "* Nouvelle URL du serveur et le Type*"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:66
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:66
 msgid ""
 "Note - for security purposes, the URL you enter must be on a list of pre-"
 "approved external services set up by the GeoNode admininistrator.  Otherwise "
@@ -1366,7 +1366,7 @@ msgstr ""
 "l'admininistrator GeoNode.  Dans le cas contraire, vous recevrez une erreur "
 "403 lorsque vous essayez d'ajouter le serveur."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:68
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:68
 msgid ""
 "A list of layers available from that server should appear momentarily.  The "
 "layers must be available in the Web Mercator projection or they will not "
@@ -1379,15 +1379,15 @@ msgstr ""
 "souhaitez ajouter à la carte.  Cliquez sur :guilabel:`Ajouter des couches` "
 "pour les ajouter à la carte."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:72
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:72
 msgid "*Add layers*"
 msgstr "Ajouter des calques"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:84
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:84
 msgid "Saving the map"
 msgstr "Enregistrer le plan"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:86
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:86
 msgid ""
 "While we still have some work to do on our map, let's save it so that we can "
 "come back to it later. Click on the :guilabel:`Map` button in the toolbar, "
@@ -1398,19 +1398,19 @@ msgstr ""
 "guilabel:`Carte` bouton dans la barre d'outils, puis sélectionnez :guilabel:"
 "`Sauver la carte`."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:90
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:90
 msgid "*Save map link*"
 msgstr "* Enregistrer lien carte*"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:92
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:92
 msgid "Enter a title and abstract for your map."
 msgstr "Entrez un titre et un résumé pour votre carte ."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:96
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:96
 msgid "*Save map dialog*"
 msgstr "* Enregistrer carte dialogue*"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:98
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:98
 msgid ""
 "Click :guilabel:`Save`. Notice that the link on the top right of the page "
 "changed to reflect the map's name."
@@ -1418,11 +1418,11 @@ msgstr ""
 "Cliquez sur :guilabel:`Enregistrer`. Notez que le lien en haut à droite de "
 "la page a changé afin de refléter le nom de la carte."
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:102
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:102
 msgid "*Saved map name*"
 msgstr "* Nom de carte enregistré*"
 
-#: ..\..\003_users_workshop\006_managing_maps\create.rst:104
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\create.rst:104
 msgid ""
 "This link contains a permalink to your map. If you open this link in a new "
 "window, your map will appear exactly as it was saved."
@@ -1431,11 +1431,11 @@ msgstr ""
 "nouvelle fenêtre , votre carte apparaîtra exactement comme elle a été "
 "enregistrée ."
 
-#: ..\..\003_users_workshop\006_managing_maps\index.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\index.rst:4
 msgid "Managing maps"
 msgstr "Gestion des cartes"
 
-#: ..\..\003_users_workshop\006_managing_maps\index.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\index.rst:6
 msgid ""
 "The next primary component of GeoNode is the **map**. Maps are comprised of "
 "various layers and their styles. Layers can be both local layers in GeoNode "
@@ -1448,7 +1448,7 @@ msgstr ""
 "servi d'autres serveurs WMS ou par couches de service web comme Google ou "
 "MapQuest."
 
-#: ..\..\003_users_workshop\006_managing_maps\index.rst:10
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\index.rst:10
 msgid ""
 "In this section, we'll create a map based on the layers uploaded in the "
 "previous section, combine them with some existing layers and a remote web "
@@ -1459,15 +1459,15 @@ msgstr ""
 "une couche de service web à distance et ensuite partager la carte obtenue "
 "par le public."
 
-#: ..\..\003_users_workshop\006_managing_maps\share.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\share.rst:4
 msgid "Share your map"
 msgstr "Partager votre carte"
 
-#: ..\..\003_users_workshop\006_managing_maps\share.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\share.rst:6
 msgid "Now let's finish our map."
 msgstr "Maintenant nous allons terminer notre carte."
 
-#: ..\..\003_users_workshop\006_managing_maps\share.rst:8
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\share.rst:8
 msgid ""
 "Check the box next to the :guilabel:`highway` layer to activate it.  If it "
 "is not below the :guilabel:`POI` layer in the list, click and drag it down."
@@ -1476,11 +1476,11 @@ msgstr ""
 "l'activer.  Si ce n'est pas ci-dessous la couche :guilabel:`POI` dans la "
 "liste, cliquez  puis faites-la glisser vers le bas."
 
-#: ..\..\003_users_workshop\006_managing_maps\share.rst:12
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\share.rst:12
 msgid "*Adjusting map composition*"
 msgstr "* Composition de carte réglage*"
 
-#: ..\..\003_users_workshop\006_managing_maps\share.rst:14
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\share.rst:14
 msgid ""
 "Make any final adjustments to the map composition as desired, including zoom "
 "and pan settings."
@@ -1488,7 +1488,7 @@ msgstr ""
 "Faites chaques modifications finale à la composition de la carte en incluant "
 "des zooms et des réglages du pan."
 
-#: ..\..\003_users_workshop\006_managing_maps\share.rst:16
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\share.rst:16
 msgid ""
 "Click the :guilabel:`Map` button in the toolbar, and then click :guilabel:"
 "`Publish Map`."
@@ -1496,11 +1496,11 @@ msgstr ""
 "Cliquez sur le :guilabel:`Carte` bouton dans la barre d'outils et puis "
 "cliquez sur :guilabel:`Feuille de publier`."
 
-#: ..\..\003_users_workshop\006_managing_maps\share.rst:20
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\share.rst:20
 msgid "*Publish map link*"
 msgstr "* Publier carte lien*"
 
-#: ..\..\003_users_workshop\006_managing_maps\share.rst:22
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\share.rst:22
 msgid ""
 "The title and abstract as previously created should still be there. Make any "
 "adjustments as necessary, and click :guilabel:`Save`."
@@ -1509,7 +1509,7 @@ msgstr ""
 "Faire des ajustements si nécessaire, puis cliquez sur :guilabel:"
 "`Enregistrer`."
 
-#: ..\..\003_users_workshop\006_managing_maps\share.rst:24
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\share.rst:24
 msgid ""
 "A new dialog will appear with instructions on how to embed this map in a "
 "webpage, including a code snippet. You can adjust the parameters as "
@@ -1519,19 +1519,19 @@ msgstr ""
 "d'intégrer cette carte dans une page Web, y compris un extrait de code. Vous "
 "pouvez régler les paramètres selon les besoins."
 
-#: ..\..\003_users_workshop\006_managing_maps\share.rst:28
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\share.rst:28
 msgid "*Map publishing options*"
 msgstr "* Carte d'édition options*"
 
-#: ..\..\003_users_workshop\006_managing_maps\share.rst:30
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\share.rst:30
 msgid "Your map can now be shared."
 msgstr "Votre carte peut maintenant être partagée."
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:4
 msgid "Styling layers"
 msgstr "Mise en plis couches"
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:8
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:8
 msgid ""
 "In this interface, we can pause in our map creation and change the style of "
 "one of our uploaded layers. GeoNode allows you to edit layer styles "
@@ -1543,11 +1543,11 @@ msgstr ""
 "permet de modifier les styles de calque graphiquement, sans avoir besoin de "
 "recourir à la programmation ou exigeant une formation technique."
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:10
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:10
 msgid "We'll be editing the :file:`san_andres_y_providencia_poi` layer."
 msgstr "Nous allons  éditer le :file:`san_andres_y_providencia_poi` couche."
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:12
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:12
 msgid ""
 "In the layer list, uncheck all of the layers except the above, so that only "
 "this one is visible (not including the base layer)."
@@ -1556,19 +1556,19 @@ msgstr ""
 "précèdent, de sorte que seulement celui-ci est visible (sans compter la "
 "couche de base)."
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:16
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:16
 msgid "*Only one layer visible*"
 msgstr "* Seulement une couche visible*"
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:18
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:18
 msgid "Zoom in closer using the toolbar or the mouse."
 msgstr "Zoom à l'aide de la souris ou la barre d'outils pour se rapprocher."
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:22
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:22
 msgid "*Zoomed in to see the layer better*"
 msgstr "* Zoomer pour voir la meilleure couche*"
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:24
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:24
 msgid ""
 "In the layer list, click to select the remaining layer and then click the "
 "palette icon (:guilabel:`Layer Styles`). This will bring up the style "
@@ -1578,11 +1578,11 @@ msgstr ""
 "cliquez sur l'icône palette (:guilabel:`Styles de calque`). Cela fera "
 "apparaître le gestionnaire des styles."
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:28
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:28
 msgid "*Styles manager*"
 msgstr "* Styles gestionnaire*"
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:30
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:30
 msgid ""
 "This layer has one style (named the same as the layer) and one rule in that "
 "style. Click the rule (:guilabel:`Untitled 1`) to select it, and then click "
@@ -1592,11 +1592,11 @@ msgstr ""
 "dans ce style. Cliquez sur la règle (:guilabel:`Sans titre 1`) pour le "
 "sélectionner et cliquez ensuite sur :guilabel:`Modifier` en dessous."
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:34
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:34
 msgid "*Edit style rule link*"
 msgstr "* Editer style rule link*"
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:36
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:36
 msgid ""
 "Edit the style. You can choose from simple shapes, add labels, and even "
 "adjust the look of the points based on attribute values and scale."
@@ -1605,15 +1605,15 @@ msgstr ""
 "étiquettes et même ajuster l'apparence de points fondés sur l'échelle et les "
 "valeurs d'attribut."
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:42
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:42
 msgid "*Editing basic style rules*"
 msgstr "* Règles de base style édition*"
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:46
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:46
 msgid "*Editing style labels*"
 msgstr "* Étiquettes de style édition*"
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:48
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:48
 msgid ""
 "When done, click :guilabel:`Save`, then click on the word :guilabel:`Layers` "
 "to return to the layer list."
@@ -1621,15 +1621,15 @@ msgstr ""
 "Une fois terminé, cliquez sur :guilabel:`Enregistrer`, puis cliquez sur le "
 "mot :guilabel:`Couches` pour revenir à la liste des calques."
 
-#: ..\..\003_users_workshop\006_managing_maps\style.rst:52
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\006_managing_maps\style.rst:52
 msgid "*Styled layer*"
 msgstr "* Couche style*"
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:4
 msgid "ArcGIS"
 msgstr "ArcGIS"
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:6
 msgid ""
 "ArcGIS Desktop (ArcMap) supports adding WMS layers to your map project. The "
 "following set of steps will walk you through how to configure a WMS Layer "
@@ -1639,7 +1639,7 @@ msgstr ""
 "projet de carte. L'ensemble des étapes suivantes, vous guidera dans la "
 "configuration d'une couche WMS de votre GeoNode dans ArcMap."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:8
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:8
 msgid ""
 "First, you can start with a new empty project or add these layers to your "
 "existing project."
@@ -1647,14 +1647,14 @@ msgstr ""
 "Tout d'abord, vous pouvez démarrer avec un nouveau projet vide ou ajouter "
 "ces couches à votre projet existant."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:12
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:12
 msgid ""
 "Next click the ArcCatalog button on the toolbar to bring up its interface."
 msgstr ""
 "Ensuite, cliquez sur le bouton d'ArcCatalog sur la barre d'outils pour faire "
 "apparaître son interface."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:16
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:16
 msgid ""
 "From there, double click the \"Add WMS Server\" item in the tree to bring up "
 "the dialog that lets you enter the details for your WMS."
@@ -1663,7 +1663,7 @@ msgstr ""
 "l'arbre pour faire apparaître la boîte de dialogue qui vous permet d'entrer "
 "les détails de votre WMS."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:20
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:20
 msgid ""
 "Next, enter the URL for your GeoNode's WMS endpoint which is the base url "
 "with /geoserver/wms appended to the end of the URL. You can also enter your "
@@ -1676,7 +1676,7 @@ msgstr ""
 "du compte de cette boîte de dialogue pour accéder aux couches non publicque "
 "que votre nom d'utilisateur peut avoir accès à."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:24
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:24
 msgid ""
 "Click the \"Get Layers\" button to ask ArcMap to query your WMS's "
 "GetCapabilities document to get the list of available layers."
@@ -1685,7 +1685,7 @@ msgstr ""
 "document GetCapabilities de votre WMS pour obtenir la liste des couches "
 "disponibles."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:28
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:28
 msgid ""
 "After you click the OK button, your GeoNode layers will appear in the "
 "ArcCatalog Interface."
@@ -1693,7 +1693,7 @@ msgstr ""
 "Après avoir cliqué sur le bouton OK, vos couches de GeoNode seront affichée "
 "dans l'Interface d'ArcCatalog."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:32
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:32
 msgid ""
 "Once your server is configured in ArcMap, you can right click on one of the "
 "layers and investigate its properties."
@@ -1701,7 +1701,7 @@ msgstr ""
 "Une fois que votre serveur est configuré dans ArcMap, vous pouvez faire un "
 "clic droit sur un des calques et enquêter sur ses propriétés."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:36
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:36
 msgid ""
 "In order to actually add the layer to your project, you can drag and drop it "
 "into the Table of Contents, or right click and select \"Create Layer\". Your "
@@ -1712,7 +1712,7 @@ msgstr ""
 "`Créer la couche`. Votre calque apparaît maintenant dans le panneau de la "
 "carte de votre projet."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:42
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:42
 msgid ""
 "Once the layer is in your projects Table of Contents, you can right click on "
 "it and select the Layer Properties option and select the Styles Tab to "
@@ -1723,7 +1723,7 @@ msgstr ""
 "calque et sélectionnez l'onglet Styles pour choisir des styles disponibles "
 "pour ce calque."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:47
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:47
 msgid ""
 "Now that we have seen how to add a WMS layer to our ArcMap project, lets "
 "walk through how to add the same layers as a WFS which retrieves the actual "
@@ -1740,7 +1740,7 @@ msgstr ""
 "rend disponibles d'autres outils ArcGIS comme la boîte à outils de "
 "géotraitement."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:49
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:49
 msgid ""
 "Adding WFS layers to ArcMap requires that you have the Data Interoperability "
 "Extension installed. This extension is not included in ArcMap by default and "
@@ -1750,7 +1750,7 @@ msgstr ""
 "l'interopérabilité des données installées. Cette extension n'est pas incluse "
 "par défaut dans ArcMap et est sous licence et installée séparément."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:51
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:51
 msgid ""
 "Start by opening up the ArcCatalog Interface within ArcMap and make sure "
 "that you have the \"Interoperability Connections\" option listed in the list."
@@ -1759,7 +1759,7 @@ msgstr ""
 "que vous avez la possibilité de`Connexions d'interopérabilité`  dans la "
 "liste."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:55
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:55
 msgid ""
 "Next select \"Add Interoperability Connection\" to bring up the dialog that "
 "lets you add the WFS endpoint from your GeoNode."
@@ -1768,7 +1768,7 @@ msgstr ""
 "apparaître la boîte de dialogue qui vous permet d'ajouter au point de "
 "terminaison WFS de votre GeoNode."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:59
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:59
 msgid ""
 "Select \"WFS (Web Feature Service)\" in the Format dropdown and enter the "
 "URL to the WFS endpoint for your GeoNode in the Dataset field. The WFS "
@@ -1779,7 +1779,7 @@ msgstr ""
 "champ de Dataset. Le point de terminaison WFS est votre base URL + /"
 "geoserver/wfs"
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:63
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:63
 msgid ""
 "You will need to click the \"Parameters\" button to supply more connection "
 "information including your credentials which will give you the ability to "
@@ -1790,7 +1790,7 @@ msgstr ""
 "vous donneront la possibilité d'utiliser des couches privées auxquels vous "
 "avez accès à."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:67
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:67
 msgid ""
 "Select the Feature Types button to have ArcMap get a list of layers from the "
 "WFS Service of your GeoNode."
@@ -1798,7 +1798,7 @@ msgstr ""
 "Cliquez sur Types de fonctions pour d'avoir ArcMap. Obtenir la liste des "
 "calques du Service WFS de votre GeoNode."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:71
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:71
 msgid ""
 "Select the layers that you want to add and click OK and ArcMap will import "
 "the features from your GeoNode into the system."
@@ -1806,7 +1806,7 @@ msgstr ""
 "Sélectionnez les calques que vous souhaitez ajouter, puis cliquez sur OK et "
 "ArcMap importera les caractéristiques de votre GeoNode dans le système."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:75
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:75
 msgid ""
 "Depending on the projection of your data, you may receive a warning about "
 "Alignment and Accuracy of data transformations. You can specify the "
@@ -1821,7 +1821,7 @@ msgstr ""
 "nouveau, utilisez les cases à cocher dans cette boîte de dialogue pour "
 "masquer ces avertissements temporairement ou définitifs"
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:79
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:79
 msgid ""
 "Your WFS Layer will be added to your map and you can view it in the Map "
 "Panel. If you need to, use the \"Zoom to Layer Extent\" or other zoom tools "
@@ -1832,7 +1832,7 @@ msgstr ""
 "mesure` ou autres outils de zoom pour effectuer un zoom sur les limites de "
 "votre couche."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:83
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:83
 msgid ""
 "You can now use the identify tool to inspect a feature in your layer, or "
 "perform any other function that you can normally use to work with Vector "
@@ -1843,7 +1843,7 @@ msgstr ""
 "pouvez normalement utiliser pour travailler avec des couches vectorielles "
 "dans ArcMap."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:87
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:87
 msgid ""
 "Since your layer was imported as actual vector features, you can use normal "
 "ArcMap styling tools to style the layer to match how you want it to be "
@@ -1853,7 +1853,7 @@ msgstr ""
 "vous pouvez utiliser ArcMap normal style outils pour coiffer la couche en "
 "fonction de comment vous voulez qu'il soit affichée."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:91
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\arcgis.rst:91
 msgid ""
 "Now that you have added layers from your GeoNode as both WMS and WFS, you "
 "can explore the other options available to you with these layers within "
@@ -1863,11 +1863,11 @@ msgstr ""
 "et WFS, vous pourrez explorer les autres options disponibles à vous avec ces "
 "couches dans ArcMap."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:4
 msgid "Google Earth"
 msgstr "Google Earth"
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:6
 msgid ""
 "GeoNode's built in map interface lets you look at your layers and maps in "
 "the Google Earth plugin directly in your browser. You can switch to this 3D "
@@ -1879,7 +1879,7 @@ msgstr ""
 "pouvez passer à cette visionneuse 3D directement dans GeoNode en cliquant "
 "sur l'icône de la terre de google dans le panneau de la carte."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:10
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:10
 msgid ""
 "GeoServer will render your layer as an image until you are zoomed in "
 "sufficiently, and then it will switch to rendering it as a vector overlay "
@@ -1890,7 +1890,7 @@ msgstr ""
 "recouvrement que vous pouvez cliquer sur Afficher les attributs de la "
 "fonction que vous avez cliqué sur."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:14
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:14
 msgid ""
 "You can also use this option in the GeoExplorer client by clicking the same "
 "button."
@@ -1898,7 +1898,7 @@ msgstr ""
 "Vous pouvez également utiliser cette option dans le GeoExplorer client en "
 "cliquant sur le bouton même."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:18
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:18
 msgid ""
 "Some of the GeoExplorer options will not be available to you when you are in "
 "this mode, they will be grayed out an inaccessible."
@@ -1906,7 +1906,7 @@ msgstr ""
 "Certaines des options GeoExplorer ne seront pas disponibles pour vous quand "
 "vous êtes dans ce mode, elles seront grisées et inaccessible."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:20
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:20
 msgid ""
 "If instead you want to use layers from your GeoNode in the Google Earth "
 "client itself, you have a few options available to you."
@@ -1915,7 +1915,7 @@ msgstr ""
 "client Google Earth proprement dit, vous avez quelques options qui s'offrent "
 "à vous."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:22
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:22
 msgid ""
 "First, you can select the KML option from the Download Layer menu to "
 "download the entire layer in a single KML file. Depending on the size of the "
@@ -1927,7 +1927,7 @@ msgstr ""
 "Selon la taille de la couche, votre GeoNode peut prendre quelques secondes "
 "ou plus pour générer ce KML et le renvoyer à vous."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:26
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:26
 msgid ""
 "When the layer is generated, it will be downloaded to your desktop machine "
 "and you can simply double click it to open it in Google Earth."
@@ -1936,7 +1936,7 @@ msgstr ""
 "bureau, vous pouvez simplement double-cliquer dessus pour l'ouvrir dans "
 "Google Earth."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:30
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:30
 msgid ""
 "Alternatively, you can use the \"View in Google Earth\" option in the Layer "
 "Download menu to view the layer in Google Earth using the same methodology "
@@ -1946,7 +1946,7 @@ msgstr ""
 "dans le menu couche Télécharger pour afficher le calque dans Google Earth en "
 "utilisant la même méthodologie décrite ci-dessus, selon le niveau de zoom."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:34
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:34
 msgid ""
 "This will download a small KMZ to your desktop that contains a reference to "
 "the layers on the server and you can double click it to open it in Google "
@@ -1956,7 +1956,7 @@ msgstr ""
 "vers les couches sur le serveur et vous pouvez double-cliquer dessus pour "
 "l'ouvrir dans Google Earth."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:38
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:38
 msgid ""
 "The basic difference between these two options is that the first downloads "
 "*all* of the data to your desktop at once and as such, the downloaded file "
@@ -1971,7 +1971,7 @@ msgstr ""
 "sur le serveur. Choisissez  qui la méthode est la meilleure pour vos propres "
 "besoins et objectifs."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:40
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\google_earth.rst:40
 msgid ""
 "Once you have added your layers to the Places panel in Google Earth, you can "
 "move them from the Temporary Places section into My Places if you wish to "
@@ -1988,12 +1988,12 @@ msgstr ""
 "sur disque. Pour plus d'informations sur comment procéder, consultez la "
 "documentation de Google Earths."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\index.rst:5
 msgid "Using GeoNode with other applications"
 msgstr "À l'aide de GeoNode avec d'autres applications"
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\index.rst:7
-#: ..\..\003_users_workshop\index.rst:59
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\index.rst:7
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:59
 msgid ""
 "Your GeoNode project is based on core components which are interoperable and "
 "as such, it is straightforward for you to integrate with external "
@@ -2019,11 +2019,11 @@ msgstr ""
 "bases, et se sentir confiants pour rejoindre la plus large communautée "
 "d'aide de Geonode."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\index.rst:10
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\index.rst:10
 msgid "OGC services"
 msgstr "Services OGC"
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\index.rst:11
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\index.rst:11
 msgid ""
 "Since GeoNode is built on GeoServer which is heavily based on OGC services, "
 "the main path for integration with external services is via OGC Standards. A "
@@ -2055,15 +2055,15 @@ msgstr ""
 "aussi OGC Conforme afin d'intégrer de manière aussi transparente que "
 "possible."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\index.rst:14
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\index.rst:14
 msgid "Use GeoNode with:"
 msgstr "Utiliser GeoNode avec :"
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:4
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:4
 msgid "QGIS"
 msgstr "QGIS"
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:6
 msgid ""
 "Quantum GIS or qGIS is an open source, cross platform desktop GIS app. It "
 "can also be used to add layers from your GeoNode instance as WMS or WFS. The "
@@ -2076,12 +2076,12 @@ msgstr ""
 "ces mêmes calques à ArcMap, et nous marcherons à travers les étapes "
 "nécessaires dans la section suivante."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:8
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:8
 msgid "First, select \"Add WMS Layer\" from the Layer menu."
 msgstr ""
 "Tout d'abord, sélectionnez`Ajouter des couche WMS` dans le menu Calque."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:12
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:12
 msgid ""
 "The Add WMS Layer Dialog will be displayed where you are able to specify the "
 "parameters to connect to your WMS server."
@@ -2089,7 +2089,7 @@ msgstr ""
 "Le dialogue des calques WMS  s'affiche lorsque vous êtes en mesure de "
 "spécifier les paramètres pour vous connecter à votre serveur WMS."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:16
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:16
 msgid ""
 "Next, you need to fill in the parameters to connect to your GeoNode "
 "instance. The URL for your GeoNode's WMS is the base URL + /geoserver/wms"
@@ -2098,7 +2098,7 @@ msgstr ""
 "instance de GeoNode. L'URL de votre GeoNode WMS est l'URL de base + / "
 "geoserver/wms"
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:20
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:20
 msgid ""
 "After clicking the OK button, your server will show up in the list of "
 "servers. Make sure its selected, then, click the connect button to have QGIS "
@@ -2109,22 +2109,22 @@ msgstr ""
 "sur le bouton connecter pour avoir QGIS. récupérer la liste des calques de "
 "votre GeoNode."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:24
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:24
 msgid ""
 "Select the layers you want to add to your QGIS project and click \"Add\"."
 msgstr ""
 "Sélectionnez les calques que vous souhaitez ajouter à votre projet QGIS et "
 "cliquez sur `Ajouter`."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:28
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:28
 msgid "Your layer will be displayed in the map panel."
 msgstr "Votre calque apparaît dans le panneau de la carte."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:32
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:32
 msgid "You can then zoom into your features in the Map."
 msgstr "Vous pouvez ensuite zoomer dans vos traits dans la carte."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:36
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:36
 msgid ""
 "From there, you can use the identify tool to inspect the attributes of one "
 "of the features on the map."
@@ -2132,7 +2132,7 @@ msgstr ""
 "A partir de là, vous pouvez utiliser l'outil d'identification pour inspecter "
 "les attributs de l'une des caractéristiques sur la carte."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:40
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:40
 msgid ""
 "Or, you can look at the layer metadata by right clicking on the layer and "
 "selecting Layer Properties and selecting the metadata tab."
@@ -2141,7 +2141,7 @@ msgstr ""
 "le calque  en sélectionnant Propriétés du calque et en sélectionnant "
 "l'onglet métadonnées."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:44
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:44
 msgid ""
 "Adding WFS servers and layers to your QGIS project is very similar to adding "
 "WMS. Depending on your version of QGIS, you may need to add the WFS plugin. "
@@ -2151,7 +2151,7 @@ msgstr ""
 "l'ajout de WMS. Selon votre version de QGIS, vous devrez peut-être ajouter "
 "le plugin WFS. Vous pouvez utiliser le gestionnaire de Plugin pour l'ajouter."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:48
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:48
 msgid ""
 "Once the plugin is installed, you can select the \"Add WFS Layer\" option "
 "from the Layer menu."
@@ -2159,7 +2159,7 @@ msgstr ""
 "Une fois le plugin installé, vous pouvez sélectionner l'option `Ajouter WFS "
 "couche` dans le menu Calque."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:52
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:52
 msgid ""
 "Step through the same process you did for WMS to create a new WFS "
 "connection. First specify server parameters and click OK."
@@ -2168,7 +2168,7 @@ msgstr ""
 "nouvelle connexion WFS. Tout d'abord spécifier les paramètres du serveur et "
 "cliquez sur OK."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:56
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:56
 msgid ""
 "Then click Connect to retrieve the list of layers on the server and select "
 "the layers you want to add and click Apply."
@@ -2177,19 +2177,19 @@ msgstr ""
 "serveur et sélectionnez les calques que vous souhaitez ajouter et cliquez "
 "sur appliquer."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:60
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:60
 msgid "The layer(s) you selected will be displayed in the map panel."
 msgstr ""
 "Les calques que vous avez sélectionné s'affiche dans le panneau de la carte."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:64
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:64
 msgid ""
 "You can use the same identify tool to inspect features in the map panel."
 msgstr ""
 "Vous pouvez utiliser l'outil identifier même pour inspecter les "
 "fonctionnalités dans le panneau de la carte."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:68
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:68
 msgid ""
 "To look at more information about your layer, right click the layer in the "
 "Table of Contents and select Layer Properties. You can look at the list of "
@@ -2199,13 +2199,13 @@ msgstr ""
 "calque dans la Table des matières et sélectionnez Propriétés du calque. Vous "
 "pouvez consulter la liste des champs."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:72
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:72
 msgid "... or set a style to match how you want your data to be displayed."
 msgstr ""
 "... ou définir un style en fonction de comment vous voulez que vos données "
 "soient affichées."
 
-#: ..\..\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:76
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\007_using_geonode_w_other_applications\qgis.rst:76
 msgid ""
 "You now know how to add layers from your GeoNode instance to a QGIS project. "
 "You can explore all of the other options available to you in QGIS by "
@@ -2215,18 +2215,18 @@ msgstr ""
 "GeoNode à un projet QGIS. Vous pouvez explorer toutes les autres options "
 "disponibles pour vous dans QGIS en consultant sa documentation."
 
-#: ..\..\003_users_workshop\index.rst:5
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:5
 msgid "Users Workshop"
 msgstr "Workshop pour les Utilisateurs"
 
-#: ..\..\003_users_workshop\index.rst:6
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:6
 msgid ""
 "Welcome to the GeoNode Training `Users Workshop` documentation v\\ |release|."
 msgstr ""
 "Bienvenue à la formation GeoNode documentation `Users Workshop` v\\ |"
 "release|."
 
-#: ..\..\003_users_workshop\index.rst:8
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:8
 msgid ""
 "This workshop will teach how to use the `GeoNode <http://geonode.org/>`_ "
 "going in depth into what we can do with software application. At the end of "
@@ -2238,39 +2238,39 @@ msgstr ""
 "logicielle. À la fin de cette section, vous serez maître de toutes les "
 "sections et entités GeoNode d'un point de vue utilisateur."
 
-#: ..\..\003_users_workshop\index.rst:11
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:11
 msgid "You will know how to:"
 msgstr "Vous saurez comment vous pourrez:"
 
-#: ..\..\003_users_workshop\index.rst:13
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:13
 msgid "Manage users accounts and how to modify them."
 msgstr "Gérer les permissions des utilisateurs"
 
-#: ..\..\003_users_workshop\index.rst:14
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:14
 msgid "Use and manage the different GeoNode basic resouces."
 msgstr "Utiliser et gérer les différents ressources de base de GeoNode."
 
-#: ..\..\003_users_workshop\index.rst:15
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:15
 msgid "Use the GeoNode searching tools to find your resources."
 msgstr ""
 "Comment on peut utiliser les outils de recherche de GeoNode pour trouver vos "
 "ressources."
 
-#: ..\..\003_users_workshop\index.rst:16
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:16
 msgid "Manage Layers and Maps, update the styles and publish them."
 msgstr ""
 "Gérer les calques et les cartes, mettre à jour les styles et les publier."
 
-#: ..\..\003_users_workshop\index.rst:17
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:17
 msgid "Load datasets into GeoNode and keep them synchronized with GeoServer."
 msgstr ""
 "Charger des données dans GeoNode et les garder synchronisés avec GeoServer."
 
-#: ..\..\003_users_workshop\index.rst:19
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:19
 msgid "*Prerequisites*"
 msgstr "*Prerequisites*"
 
-#: ..\..\003_users_workshop\index.rst:21
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:21
 msgid ""
 "Before proceeding with the reading, it is strongly recommended to be sure "
 "having clear the following concepts:"
@@ -2278,15 +2278,15 @@ msgstr ""
 "Avant de procéder avece le cours, il est fortement recommandé qui on est "
 "bien sûr d'avoir clairement compris les concepts suivants "
 
-#: ..\..\003_users_workshop\index.rst:23
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:23
 msgid "GeoNode and Django framework basic concepts"
 msgstr "Concepts de base sur GeoNode et sur Django "
 
-#: ..\..\003_users_workshop\index.rst:24
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:24
 msgid "What is Python"
 msgstr "Qu'est-ce que Python"
 
-#: ..\..\003_users_workshop\index.rst:25
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:25
 msgid ""
 "What is a geospatial server and a basic knowledge of the geospatial web "
 "services."
@@ -2294,55 +2294,55 @@ msgstr ""
 "Qu'est-ce qu'un serveur géospatial et une connaissance de base des services "
 "Web géospatiales."
 
-#: ..\..\003_users_workshop\index.rst:26
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:26
 msgid "What is a metadata and a catalog."
 msgstr "Qu'est-ce qu'un métadonnées et un catalogue."
 
-#: ..\..\003_users_workshop\index.rst:27
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:27
 msgid "What is a map and a legend."
 msgstr "Qu'est-ce qu'une carte et une légende."
 
-#: ..\..\003_users_workshop\index.rst:41
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:41
 msgid ":ref:`accounts_and_users`"
 msgstr ":ref:`accounts_and_users`"
 
-#: ..\..\003_users_workshop\index.rst:44
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:44
 msgid ":ref:`document_types`"
 msgstr ":ref:`document_types`"
 
-#: ..\..\003_users_workshop\index.rst:47
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:47
 msgid ":ref:`searching_docs`"
 msgstr ":ref:`searching_docs`"
 
-#: ..\..\003_users_workshop\index.rst:47
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:47
 msgid "GeoNode advanced Search tool."
 msgstr "GeoNode avancé outil de Recherche."
 
-#: ..\..\003_users_workshop\index.rst:50
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:50
 msgid ":ref:`layers`"
 msgstr ":ref:`layers`"
 
-#: ..\..\003_users_workshop\index.rst:50
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:50
 msgid "Create, delete, manage and share Layers on GeoNode."
 msgstr "Créer, supprimer, gérer et partager des calques sur GeoNode."
 
-#: ..\..\003_users_workshop\index.rst:53
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:53
 msgid ":ref:`styling_layers`"
 msgstr ":ref:`styling_layers`"
 
-#: ..\..\003_users_workshop\index.rst:53
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:53
 msgid "Beautify the Layer using the GeoNode Style editor."
 msgstr "Embellir la couche en utilisant l'éditeur GeoNode style."
 
-#: ..\..\003_users_workshop\index.rst:56
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:56
 msgid ":ref:`maps`"
 msgstr ":ref:`maps`"
 
-#: ..\..\003_users_workshop\index.rst:56
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:56
 msgid "Create, delete, manage and share Maps on GeoNode."
 msgstr "Créer, supprimer, gérer et partager Maps sur GeoNode."
 
-#: ..\..\003_users_workshop\index.rst:58
+#: C:\work\code\java\geonode\doc-geonode\003_users_workshop\index.rst:58
 msgid ":ref:`integration`"
 msgstr ":ref:`integration`"
 

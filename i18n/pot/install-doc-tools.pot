@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-17 13:10+0100\n"
+"POT-Creation-Date: 2016-01-15 18:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,175 +16,175 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ..\..\install-doc-tools.rst:3
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:3
 msgid "This section of the guide cover the installation process and basic usage of the tools needed in order to make changes to the documentation."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:6
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:6
 msgid "You are going to need the following tools:"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:8
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:8
 msgid "`Git <http://en.wikipedia.org/wiki/Git_(software)>`_"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:9
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:9
 msgid "`Python <https://www.python.org/>`_ and `pip <https://en.wikipedia.org/wiki/Pip_(package_manager)>`_ (recent versions of Python come bundled with pip)"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:10
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:10
 msgid "`Sphinx <http://sphinx-doc.org/index.html>`_"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:13
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:13
 msgid "Install Git"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:15
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:15
 msgid "To install Git on your machine refer to `this <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>`_ guide."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:18
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:18
 msgid "For a brief introduction to Git usage refer to `this <https://git-scm.com/book/en/v2/Getting-Started-Git-Basics>`_ guide"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:21
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:21
 msgid "Install Python"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:23
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:23
 msgid "Python installation is pretty straight forward, refer to the `official download page <https://www.python.org/downloads/>`_ and follow the instruction for your Operating System. As stated above from Python 2.7.9 onward pip comes bundled with Python."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:27
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:27
 msgid "Open the terminal on your machine and type  `python`, the output should resemble the following:::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:35
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:35
 msgid "Type `exit()` to exit the Python interpreter"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:37
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:37
 msgid "If you get and error back make sure the Python executable is in your `PATH`."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:39
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:39
 msgid "If you are on Windows follow `theese instructions <https://docs.python.org/2/using/windows.html#excursus-setting-environment-variables>`_"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:41
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:41
 msgid "If you are on Linux locate the Python binary and add it to your PATH, edit your `~/.bashrc` and add the following at the end of the file:::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:46
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:46
 msgid "restart your terminal to make the change effective"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:48
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:48
 msgid "Now check that you can invoke pip typing `pip --version`. The output should resemble the following:::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:52
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:52
 msgid "If you get and error back make sure the pip executable is in your `PATH`."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:55
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:55
 msgid "Install Sphinx"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:57
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:57
 msgid "To install Sphinx on your machine, type the following in your terminal:::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:61
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:61
 msgid "If you are on Linux you may need to prefix the command with `sudo`"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:63
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:63
 msgid "Now test your installation:::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:68
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:68
 msgid "For a more detailed installation guide refer to `this document <http://docs.geoserver.org/latest/en/docguide/install.html>`_"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:71
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:71
 msgid "Check out documentation source"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:73
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:73
 msgid "Since write acecss to the main documentation repository is restricted you may want to work on your personal `fork <https://help.github.com/articles/fork-a-repo/>`_. Login on Github with your account, navigate to the `documentation reposiroty <https://github.com/geosolutions-it/doc-geonode>`_ and click on `fork`. You will be redirected to your own fork of the documentation."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:78
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:78
 msgid "Make sure you already `configured your Git username and email address <https://help.github.com/articles/set-up-git/#setting-up-git>`_"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:80
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:80
 msgid "Now clone your repository locally:::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:84
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:84
 msgid "where `your-user` is your username on GitHub."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:86
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:86
 msgid "Now make the changes you want to the documentation."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:89
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:89
 msgid "Build the documentation"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:91
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:91
 msgid "To build the documentation locally on your machine, open the terminal and move to the project root directory, then run the following:::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:96
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:96
 msgid "The html version of the documentation will be build under the `build` subfolder. Use your favorite web browser to open the index file called `index.html`."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:99
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:99
 msgid "When you make changes to the documentation re-build it periodically to make sure the end result matches what you expect."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:103
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:103
 msgid "Edit the documentation"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:105
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:105
 msgid "The documentation is kept in reStructuredText format. For a quick reference refer to `this <http://docs.geoserver.org/latest/en/docguide/sphinx.html>`_ document. For a more in-depth document refer to the `official documentation <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:112
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:112
 msgid "Submit your changes to the main repository"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:114
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:114
 msgid "You are done making changes to the documentation and you are ready to submit your changes. If you are new to Git make sure you grasped the basics of it before moving on. There are many sources of information online, you can Google for it or read `this <https://git-scm.com/book/en/v2/Getting-Started-Git-Basics>`_ introduction."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:120
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:120
 msgid "Run `git status` and `git diff` to review the changes you made and re-build the documentation locally as explained above."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:123
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:123
 msgid "Add the files with the changes you want to submit to the staging area::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:127
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:127
 msgid "And commit the changes::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:131
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:131
 msgid "Then push them to your personal GitHub repository::"
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:135
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:135
 msgid "Open your favorite browser and navigate to your GitHub repository. You will be able to see your latest commit along with a message stating that your branch is ahead of the main repository. Click on the 'pull request' button to make a pull request against the official documentation repository."
 msgstr ""
 
-#: ..\..\install-doc-tools.rst:140
+#: C:\work\code\java\geonode\doc-geonode\install-doc-tools.rst:140
 msgid "Create a pull request with a brief description of what you did. The pull request will be reviewed and eventually merged into the official documentation repository."
 msgstr ""
 
