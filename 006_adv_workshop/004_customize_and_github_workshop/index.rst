@@ -1,4 +1,4 @@
-.. _customize_and_github_workshop:
+.. _geonode_customize_and_github_workshop:
 
 ======================================================
 GeoNode Customization and Source Code Revision Control
