@@ -1286,19 +1286,34 @@ See also `Serving Static Files <http://docs.geoserver.org/stable/en/user/tutoria
 
 Steps To Manually Migrate A Layer
 ---------------------------------
-TODO
+In this section we are going to save on the mass storage all the information from a GeoNode Layer needed to restore it back later on another GeoNode instance.
+
+Here below a quick summary of the actions to do in order to export manually a GeoNode Layer:
+
+- First of all it is necessary to store the Layer data in a portable format. Since we can't assume any specific configuration on the target GeoNode (we don't know if it has been attached to a Database or not, and the connection parameters neither), we need to save the Layer source data in a format feasable to be imported back on any GeoNode. The solution is to export the Layer as an **ESRI Shapefile**.
+- We may need to export also the SLD defined for the Layer. We must store back also the Layer Styles on the storage.
+- Once we got all the source data, the final step is to save the Layer Metadata. All the information defined for that Layer must be replicated back on the target instance.
 
 1. Download a Layer as ESRI Shapefile
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TODO
+
+.. note:: In order to execute this exercise, we assume that you have read all the previous sections and your source GeoNode has a Layer already configured as specified on the preliminary notes.
+
+
 
 2. Save and exrpot the Layer SLDs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TODO
 
-3. Import back the Layer through the "importlayers" GeoNode Management Command
+.. note:: In order to execute this exercise, we assume that you have read all the previous sections and your source GeoNode has a Layer already configured as specified on the preliminary notes.
+
+3. Save and exrpot the Layer Metadata
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note:: In order to execute this exercise, we assume that you have read all the previous sections and your source GeoNode has a Layer already configured as specified on the preliminary notes.
+
+4. Import back the Layer through the "importlayers" GeoNode Management Command
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TODO
+
 
 Final Checks And Hints
 ----------------------
