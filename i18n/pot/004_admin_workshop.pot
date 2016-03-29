@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-15 18:26+0100\n"
+"POT-Creation-Date: 2016-03-29 12:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -656,203 +656,203 @@ msgstr ""
 msgid "Upgrading from source code repo:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:4
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:4
 msgid "Theming your GeoNode project"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:6
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:6
 msgid "There are a range of options available to you if you want to change the default look and feel of your GeoNode project. Since GeoNode's style is based on `Bootstrap <http://twitter.github.com/bootstrap/>`_ you will be able to make use of all that Bootstrap has to offer in terms of theme customization. You should consult Bootstrap's documentation as your primary guide once you are familiar with how GeoNode implements Bootstrap and how you can override GeoNode's theme and templates in your own project."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:9
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:9
 msgid "Logos and graphics"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:11
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:11
 msgid "GeoNode intentionally does not include a large number of graphics files in its interface. This keeps page loading time to a minimum and makes for a more responsive interface. That said, you are free to customize your GeoNode's interface by simply changing the default logo, or by adding your own images and graphics to deliver a GeoNode experience the way you envision int."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:13
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:13
 msgid "Your GeoNode project has a directory already set up for storing your own images at :file:`<geonode_custom>/static/img`. You should place any image files that you intend to use for your project in this directory."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:15
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:15
 msgid "Let's walk through an example of the steps necessary to change the default logo."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:17
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:17
 msgid "Change to the :file:`img` directory:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:23
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:23
 msgid "If you haven't already, obtain your logo image. The URL below is just an example, so you will need to change this URL to match the location of your file or copy it to this location:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:30
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:30
 msgid "Change to the :file:`css` directory:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:36
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:36
 msgid "Override the CSS that displays the logo by editing :file:`<geonode_custom>/static/css/site_base.css` with your favorite editor and adding the following lines, making sure to update the width, height, and URL to match the specifications of your image."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:50
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:50
 msgid "Restart your GeoNode project and look at the page in your browser:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:60
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:60
 msgid "It is a good practice to cleanup the **static_folder** and the Browser Cache before reloading in order to be sure that the changes have been correctly taken and displayed on the screen."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:62
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:62
 msgid "Visit your site at http://localhost/ or the remote URL for your site."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:66
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:66
 msgid "*Custom logo*"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:68
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:68
 msgid "You can see that the header has been expanded to fit your graphic. In the following sections you will learn how to customize this header to make it look and function the way you want."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:70
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:70
 msgid "You should commit these changes to your repository as you progress through this section, and get in the habit of committing early and often so that you and others can track your project on GitHub. Making many atomic commits and staying in sync with a remote repository makes it easier to collaborate with others on your project."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:73
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:73
 msgid "Cascading Style Sheets"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:75
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:75
 msgid "In the last section you already learned how to override GeoNode's default CSS rules to include your own logo. You are able to customize any aspect of GeoNode's appearance this way. In the last screenshot, you saw that the main area in the homepage is covered up by the expanded header."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:77
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:77
 msgid "First, we'll walk through the steps necessary to displace it downward so it is no longer hidden, then change the background color of the header to match the color in our logo graphic."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:79
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:79
 msgid "Reopen :file:`<geonode_custom>/static/css/site_base.css` in your editor and add the following rule after the one added in the previous step:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:92
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:92
 msgid "Add a rule to change the background color of the header to match the logo graphic we used:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:100
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:100
 msgid "Your project CSS file should now look like this:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:118
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:118
 msgid "Restart the development server and reload the page:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:127
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:127
 msgid "*CSS overrides*"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:129
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:129
 msgid "You can continue adding rules to this file to override the styles that are in the GeoNode base CSS file which is built from `base.less <https://github.com/GeoNode/geonode/blob/master/geonode/static/geonode/less/base.less>`_. You may find it helpful to use your browser's development tools to inspect elements of your site that you want to override to determine which rules are already applied. See the screenshot below. Another section of this workshop covers this topic in much more detail."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:133
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:133
 msgid "*Screenshot of using Chrome's debugger to inspect the CSS overrides*"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:137
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:137
 msgid "Templates and static pages"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:139
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:139
 msgid "Now that we have changed the default logo and adjusted our main content area to fit the expanded header, the next step is to update the content of the homepage itself. Your GeoNode project includes two basic templates that you will use to change the content of your pages."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:141
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:141
 msgid "The file :file:`site_base.html` (in :file:`<geonode_custom>/templates/`) is the basic template that all other templates inherit from and you will use it to update things like the header, navbar, site-wide announcement, footer, and also to include your own JavaScript or other static content included in every page in your site. It's worth taking a look at `GeoNode's base file on GitHub <https://github.com/GeoNode/geonode/blob/master/geonode/templates/base.html>`_. You have several blocks available to you to for overriding, but since we will be revisiting this file in future sections of this workshop, let's just look at it for now and leave it unmodified."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:143
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:143
 msgid "Open :file:`<geonode_custom>/templates/site_base.html` in your editor:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:157
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:157
 msgid "You will see that it extends from :file:`base.html`, which is the GeoNode template referenced above and it currently only overrides the ``extra_head`` block to include our project's :file:`site_base.css` which we modified in the previous section. You can see on `line 22 of the GeoNode base.html template <https://github.com/GeoNode/geonode/blob/master/geonode/templates/base.html#L22>`_ that this block is included in an empty state and is set up specifically for you to include extra CSS files as your project is already set up to do."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:159
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:159
 msgid "Now that we have looked at :file:`site_base.html`, let's actually override a different template."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:161
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:161
 msgid "The file :file:`site_index.html` is the template used to define your GeoNode project's homepage. It extends GeoNode's default :file:`index.html` template and gives you the option to override specific areas of the homepage like the hero area, but also allows you leave area like the \"Latest Layers\" and \"Maps\" and the \"Contribute\" section as they are. You are of course free to override these sections if you choose and this section shows you the steps necessary to do that below."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:165
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:165
 msgid "Open :file:`<geonode_custom>/templates/site_index.html` in your editor."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:167
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:167
 msgid "Edit the ``<h1>`` element on line 9 to say something other than \"Welcome\":"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:173
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:173
 msgid "Edit the introductory paragraph to include something specific about your GeoNode project:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:185
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:185
 msgid "Change the :guilabel:`Getting Started` link to point to another website:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:194
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:194
 msgid "Add a graphic to the hero area above the paragraph replaced in step 3:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:200
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:200
 msgid "Your edited :file:`site_index.html` file should now look like this:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:232
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:232
 msgid "Refresh your GeoNode project and view the changes in your browser at http://localhost/ or the remote URL for your site:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:241
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:241
 msgid "From here you can continue to customize your :file:`site_index.html` template to suit your needs. This workshop will also cover how you can add new pages to your GeoNode project site."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:245
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:245
 msgid "Other theming options"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:247
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:247
 msgid "You are able to change any specific piece of your GeoNode project's style by adding CSS rules to :file:`site_base.css`, but since GeoNode is based on Bootstrap, there are many pre-defined themes that you can simply drop into your project to get a whole new look. This is very similar to `WordPress <http://wordpress.com>`_ themes and is a powerful and easy way to change the look of your site without much effort."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:250
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:250
 msgid "Bootswatch"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:252
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:252
 msgid "`Bootswatch <http://bootswatch.com>`_ is a site where you can download ready-to-use themes for your GeoNode project site. The following steps will show you how to use a theme from Bootswatch in your own GeoNode site."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:254
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:254
 msgid "Visit http://bootswatch.com and select a theme (we will use Sandstone for this example). Select the :guilabel:`download bootstrap.css option` in the menu:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:258
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:258
 msgid "Put this file into :file:`<geonode_custom>/static/css`."
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:264
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:264
 msgid "Update the :file:`site_base.html` template to include this file. It should now look like this:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:279
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:279
 msgid "Refresh the development server and visit your site:"
 msgstr ""
 
-#: ..\..\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:288
+#: H:\work\code\java\geonode\doc\doc-geonode\004_admin_workshop\004_customize_lookfeel\customize\theme_admin.rst:288
 msgid "Your GeoNode project site is now using the Sandstone theme in addition to the changes you have made."
 msgstr ""
 
