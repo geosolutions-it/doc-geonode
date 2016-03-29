@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: GeoNode -Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-29 12:40+0200\n"
-"PO-Revision-Date: 2016-03-29 16:00+0200\n"
+"PO-Revision-Date: 2016-03-29 16:03+0200\n"
 "Last-Translator: Alessio Fabiani <alessio.fabiani@geo-solutions.it>\n"
 "Language-Team: French (http://www.transifex.com/geosolutions/geonode-documentation/language/fr/)\n"
 "Language: fr\n"
@@ -13705,7 +13705,7 @@ msgstr ""
 
 #: C:\work\code\java\geonode\doc-geonode\006_adv_workshop\003_geonode_production\index.rst:4
 msgid "GeoNode on Production"
-msgstr ":ref:`geonode_production`"
+msgstr "GeoNode sur la production"
 
 #: C:\work\code\java\geonode\doc-geonode\006_adv_workshop\003_geonode_production\index.rst:6
 msgid ":ref:`production`"
