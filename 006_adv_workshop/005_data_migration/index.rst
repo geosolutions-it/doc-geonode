@@ -1294,28 +1294,376 @@ Here below a quick summary of the actions to do in order to export manually a Ge
 - We may need to export also the SLD defined for the Layer. We must store back also the Layer Styles on the storage.
 - Once we got all the source data, the final step is to save the Layer Metadata. All the information defined for that Layer must be replicated back on the target instance.
 
+The exercise we are going to execute in 4 steps, consists in:
+
+1. **Download a Layer as ESRI Shapefile**: We will download the Layer ``san_andres_y_providencia_coastline``, already configured in GeoNode, as an *ESRI ShapeFile*. This allows us to store the data in a portable format.
+
+2. **Save and exrpot the Layer SLDs**: We will check what are the Styles associated to the ``san_andres_y_providencia_coastline`` Layer, retrieve the corresponding ``SLD`` files on the ``GeoServer Data Dir`` and save them for a later import.
+
+3. **Save and exrpot the Layer Metadata**: We will save the ``san_andres_y_providencia_coastline`` Layer metadata as an *ISOTC211/19115* XML file for a later import.
+
+4. **Import back the Layer**: We will cleanup the GeoNode instance, being sure that also GeoServer will be cleaned, and then we will restore back the ``san_andres_y_providencia_coastline`` Layer using the fiels saved during the previous steps.
+
 1. Download a Layer as ESRI Shapefile
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. note:: In order to execute this exercise, we assume that you have read all the previous sections and your source GeoNode has a Layer already configured as specified on the preliminary notes.
 
+**Excercise**
 
+*Export A Layer As A SHAPEFILE*
 
+.. warning:: You must be GeoNode Administrator in order to successfully execute this exercise.
+
+1. Identify the real Layer name.
+
+   Connect to your local GeoNode instance and explore the available Layers.
+
+   .. figure:: img/migrate_mode1_001.jpg
+
+      *GeoNode Explore Layers*
+      
+   Select the Layer *San Andreas Coastlines* and click on **Metadata Edit**.
+   
+   .. figure:: img/migrate_mode1_002.jpg
+
+      *GeoNode Edit Metadata*
+
+   You will find the real Layer name as subtitle of the **Edit Metadada** page. Note it somewhere.
+   
+   .. figure:: img/migrate_mode1_003.jpg
+
+      *GeoNode Layer Real Name*
+
+2. Identify the GeoServer Endpoint.
+
+   Identify the GeoServer endpoint. Click on ``admin`` and the on ``GeoServer`` menù link.
+
+   .. figure:: img/migrate_mode1_004.jpg
+
+      *GeoServer Endpoint*
+      
+   In our case the GeoServer Endpoint is ``http://localhost/geoserver``.
+   
+   .. figure:: img/migrate_mode1_005.jpg
+
+      *GeoServer Web Page*
+
+3. Export the Layer as an *ESRI ShapeFile* file format.
+
+   Open a ``Terminal`` window and go to ``/home/geo/Desktop/``.
+   
+   .. code-block:: console
+   
+      $> cd /home/geo/Desktop/
+
+   .. figure:: img/migrate_mode1_006.jpg
+
+      *Terminal: Desktop Folder*
+
+   Create a new folder ``backup`` and enter it.
+   
+   .. code-block:: console
+   
+      $> mkdir backup
+      $> cd backup
+
+   .. figure:: img/migrate_mode1_007.jpg
+
+      *Terminal: Backup Folder*
+
+   Finally export the ``geonode:san_andres_y_providencia_coastline`` as *ShapeFile* from GeoServer using the ``WGET`` utility command.
+
+   .. code-block:: console
+   
+      $> wget --user=admin --password=admin -O san_andres_y_providencia_coastline.zip "http://localhost/geoserver/geonode/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=geonode:san_andres_y_providencia_coastline&outputFormat=SHAPE-ZIP"
+
+   .. figure:: img/migrate_mode1_008.jpg
+
+      *Terminal: Save* ``san_andres_y_providencia_coastline.zip``
+      
+   .. note:: Lets examine the command we just executed:
+   
+             .. code-block:: console
+                
+                # This is the executable
+                wget
+
+             .. code-block:: console
+                
+                # Those are the GeoNode credentials for the ``admin`` user. Yours maybe different.
+                --user=admin --password=admin
+                
+             .. code-block:: console
+                
+                # This is the name of the output file we want to create. It's not important, you can choose anyone.
+                -O san_andres_y_providencia_coastline.zip 
+
+             .. code-block:: console
+                
+                # This is the full URL to let GeoServer save the source data as ShapeFile ZIP.
+                "http://localhost/geoserver/geonode/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=geonode:san_andres_y_providencia_coastline&outputFormat=SHAPE-ZIP"
+                
+                # 1. It must be quoted ""
+                # 2. The first part is the GeoServer Endpoint "http://localhost/geoserver"
+                # 3. The "typename" is the real GeoNode Layer name "typeName=geonode:san_andres_y_providencia_coastline"
+                # 4. With "outputFormat" we say to GeoServer how to download data "outputFormat=SHAPE-ZIP"
+                
+
+   Unzip the file into the ``backup`` folder.
+
+   .. code-block:: console
+   
+      $> unzip san_andres_y_providencia_coastline.zip
+
+   .. figure:: img/migrate_mode1_009.jpg
+
+      *Terminal: Unzip* ``san_andres_y_providencia_coastline.zip``
+
+   Check that the ShapeFile has been correctly downloaded. You must see the 4 ``.dbf``, ``.prj``, ``.shp``, ``.shx`` files on the ``backup`` folder.
+
+   .. code-block:: console
+   
+      $> ls -la
+
+   .. figure:: img/migrate_mode1_010.jpg
+
+      *Terminal: Check* ``san_andres_y_providencia_coastline.zip``
+
+   .. note:: You can also delete the ``san_andres_y_providencia_coastline.zip`` file now. It won't be useful anymore in the future.
+   
 2. Save and exrpot the Layer SLDs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. note:: In order to execute this exercise, we assume that you have read all the previous sections and your source GeoNode has a Layer already configured as specified on the preliminary notes.
+
+**Excercise**
+
+*Export The Layer Default SLD*
+
+.. warning:: By default GeoNode creates an SLD on GeoServer with the same name of the imported Layer and use it as default style. In this exercise we will assume that the Layer uses only the default GeoNode SLD.
+
+1. Identify the full path of the ``GeoServer Data Dir``
+
+   Click on the ``GeoServer`` link of the GeoNode ``admin`` menu.
+
+   .. figure:: img/migrate_mode1_011.jpg
+
+      *GeoServer Admin Page*
+
+   Click on the ``Server Status`` link of the GeoServer ``admin`` page.
+
+   .. figure:: img/migrate_mode1_012.jpg
+
+      *GeoServer Admin Page* ``Server Status``
+
+   Copy the full path of the *GeoServer Data Dir* from the ``Server Status`` page.
+
+   .. figure:: img/migrate_mode1_013.jpg
+
+      *GeoServer Admin Page* ``GeoServer Data Dir``
+
+   From the Terminal window, copy the ``san_andres_y_providencia_coastline.sld`` into the ``backup`` folder.
+
+   .. code-block:: console
+   
+      $> cd /home/geo/Desktop/backup/
+      $> cp /var/lib/tomcat7/webapps/geoserver/data/styles/san_andres_y_providencia_coastline.sld .
+
+   .. figure:: img/migrate_mode1_014.jpg
+
+      *Terminal: Copy* ``san_andres_y_providencia_coastline.sld``
+
+   .. note:: Lets examine the command we just executed:
+   
+             .. code-block:: console
+                
+                # This is the executable
+                cp
+
+             .. code-block:: console
+                
+                # This is the full path of the ``san_andres_y_providencia_coastline.sld`` file
+                /var/lib/tomcat7/webapps/geoserver/data/styles/san_andres_y_providencia_coastline.sld
+                
+                # 1. Notice that the first part ``/var/lib/tomcat7/webapps/geoserver/data`` is the path of the GeoServer Data Dir
+                # 2. You must add the path ``/styles/`` to the path of the GeoServer Data Dir
+                # 3. The SLD file has the same prefix of the original Layer ``san_andres_y_providencia_coastline.sld``
+                
+
+   Check that the SLD has been correctly downloaded. You must see the ``.sld`` file on the ``backup`` folder.
+
+   .. code-block:: console
+   
+      $> ls -la
+
+   .. figure:: img/migrate_mode1_015.jpg
+
+      *Terminal: Check* ``san_andres_y_providencia_coastline.sld``
 
 3. Save and exrpot the Layer Metadata
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. note:: In order to execute this exercise, we assume that you have read all the previous sections and your source GeoNode has a Layer already configured as specified on the preliminary notes.
 
+**Excercise**
+
+*Export A Layer Metadata As An ISOTC211/19115 XML*
+
+.. warning:: You must be GeoNode Administrator in order to successfully execute this exercise.
+
+1. Get the ISOTC211/19115 XML URL.
+
+   Connect to your local GeoNode instance and explore the available Layers.
+
+   .. figure:: img/migrate_mode1_001.jpg
+
+      *GeoNode Explore Layers*
+      
+   Select the Layer *San Andreas Coastlines* and click on **Download Metadata**.
+   
+   .. figure:: img/migrate_mode1_016.jpg
+
+      *GeoNode Download Metadata*
+
+   Click with the **right mouse button** over the *ISO* link and then on ``Copy Link Location``.
+   
+   .. figure:: img/migrate_mode1_017.jpg
+
+      *Copy Link Location Of ISOTC211/19115 XML*
+
+2. Store the *ISOTC211/19115 XML* through the ``WGET`` command.
+
+   From the Terminal window, goto the ``backup`` folder of the ``san_andres_y_providencia_coastline`` file we created before.
+
+   .. code-block:: console
+   
+      $> cd /home/geo/Desktop/backup/
+
+   Finally export the ``san_andres_y_providencia_coastline.xml`` as *ISOTC211/19115 XML* from GeoNode using the ``WGET`` utility command.
+
+   .. code-block:: console
+   
+      $> wget --user=admin --password=admin -O san_andres_y_providencia_coastline.xml "http://localhost/catalogue/csw?outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&service=CSW&request=GetRecordById&version=2.0.2&elementsetname=full&id=3236a2e0-f023-11e5-86e3-08002779b53d"
+
+   .. figure:: img/migrate_mode1_018.jpg
+
+      *Terminal: Save* ``san_andres_y_providencia_coastline.xml``
+      
+   .. note:: Lets examine the command we just executed:
+   
+             .. code-block:: console
+                
+                # This is the executable
+                wget
+
+             .. code-block:: console
+                
+                # Those are the GeoNode credentials for the ``admin`` user. Yours maybe different.
+                --user=admin --password=admin
+                
+             .. code-block:: console
+                
+                # This is the name of the output file we want to create. **It's important** that the file has the same prefix of the ``san_andres_y_providencia_coastline`` Layer name.
+                -O san_andres_y_providencia_coastline.xml 
+
+             .. code-block:: console
+                
+                # This is the full URL of the ISOTC211/19115 XML.
+                "http://localhost/catalogue/csw?outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&service=CSW&request=GetRecordById&version=2.0.2&elementsetname=full&id=3236a2e0-f023-11e5-86e3-08002779b53d"
+                
+                # 1. It must be quoted ""
+                # 2. The first part is the GeoNode Catalogue Endpoint "http://localhost/catalogue"
+                # 3. With "outputschema" we say to GeoNode how to download metadata "outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd"
+                # 4. Notice that any Layer in GeoNode is identified by a unique ID "id=3236a2e0-f023-11e5-86e3-08002779b53d", which can be retrieved from the Layer Metadata panel.
+
+   Check that the XML has been correctly downloaded. You must see the ``.xml`` file on the ``backup`` folder.
+
+   .. code-block:: console
+   
+      $> ls -la
+
+   .. figure:: img/migrate_mode1_019.jpg
+
+      *Terminal: Check* ``san_andres_y_providencia_coastline.xml``
+
 4. Import back the Layer through the "importlayers" GeoNode Management Command
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+At this point we have everything we need to restore the Layer saved into the ``/home/geo/Desktop/backup/`` folder.
 
-Final Checks And Hints
-----------------------
-TODO
+What we are going to do now is:
 
+- Cleanup GeoNode and GeoServer, being sure that the ``san_andres_y_providencia_coastline`` has been completely removed from all instances.
+- Restore the ``san_andres_y_providencia_coastline`` and its *Metadata*
+- Restore the ``san_andres_y_providencia_coastline`` *SLD Style*
+
+**Exercise**
+
+*Cleanup The* ``san_andres_y_providencia_coastline`` *Layer*
+
+1. Delete The ``san_andres_y_providencia_coastline`` Layer.
+
+   Connect to your local GeoNode instance and explore the available Layers.
+
+   .. figure:: img/migrate_mode1_001.jpg
+
+      *GeoNode Explore Layers*
+      
+   Select the Layer *San Andreas Coastlines* and click on **Layer Remove**.
+   
+   .. figure:: img/migrate_mode1_002.jpg
+
+      *GeoNode Layer Remove*
+
+   Confirm that you want to remove the ``san_andres_y_providencia_coastline`` Layer.
+   
+   .. figure:: img/migrate_mode1_020.jpg
+
+      *GeoNode Layer Remove Confirm*
+
+2. Double check that the Layer has been removed from GeoServer also.
+
+   Connect to your local GeoServer instance Admin GUI, from GeoNode ``admin`` menu.
+
+   .. figure:: img/migrate_mode1_021.jpg
+
+      *GeoServer Admin GUI*
+
+   Double check that the Layer ``san_andres_y_providencia_coastline`` is no more present on GeoServer Layer list. If so delete it manually.
+
+   .. figure:: img/migrate_mode1_022.jpg
+
+      *GeoServer Admin GUI: Layers*
+
+   Double check that the Style ``san_andres_y_providencia_coastline`` is no more present on GeoServer Style list. If so delete it manually.
+
+   .. figure:: img/migrate_mode1_023.jpg
+
+      *GeoServer Admin GUI: Styles*
+
+3. Once GeoNode and GeoServer are cleared, import back the ``san_andres_y_providencia_coastline`` Layer through the "importlayers" GeoNode Management Command
+
+   From the Terminal window, goto the ``backup`` folder of the ``san_andres_y_providencia_coastline`` file we created before.
+
+   .. code-block:: console
+   
+      $> cd /home/geonode/geonode/
+
+   Finally import the ``san_andres_y_providencia_coastline`` Layer using the "importlayers" GeoNode Management Command.
+
+   .. code-block:: console
+   
+      $> python manage.py importlayers /home/geo/Desktop/backup/
+
+   .. figure:: img/migrate_mode1_024.jpg
+
+      *Terminal: Import* ``san_andres_y_providencia_coastline``
+
+   .. note:: Notice that
+   
+             - The "importlayers" GeoNode Management Command automatically imports all the ShapeFiles available into the ``backup`` folder
+             - The "importlayers" GeoNode Management Command automatically restores the Layer metadata **if the ISOTC211/19115 XML is available on the same folder and has the same layer previx**
+             - The "importlayers" GeoNode Management Command automatically restores the Layer styles **if the SLD is available on the same folder and has the same layer previx**
+             
+4. Double check that the ``san_andres_y_providencia_coastline`` Layer has been correctly restored into GeoNode.
