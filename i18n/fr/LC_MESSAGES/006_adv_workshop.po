@@ -15481,23 +15481,23 @@ msgstr "Et maintenant, vous devriez voir toutes les modifications que vous avez 
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:5
 msgid "Migrate Data Between GeoNode Instances"
-msgstr "Migrer des données entre les instances de GeoNode"
+msgstr "Migrer des données entre des instances de GeoNode"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:7
 msgid ""
 "This workshop shows how to migrate GeoNode Layers (along with GeoServer associated datasets and styles) "
 "from an instance to another."
 msgstr ""
-"Cet atelier montre comment migrer Layers GeoNode (avec des ensembles GeoServer associés de données et "
-"styles) à partir d'une instance à l'autre."
+"Cet atelier montre comment migrer des couches GeoNode (en incluant les "
+"données et styles associées à GeoServer) d'une instance à l'autre."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:9
 msgid ""
 "The whole tutorial is divided in different parts, each one showing a different methodology to perform the "
 "data migration:"
 msgstr ""
-"Le tout tutoriel est divisé en différentes parties, chacune montrant une méthodologie différente pour "
-"effectuer la migration des données:"
+"Le tutoriel est divisé en différentes parties, chacune montrant une "
+"méthodologie différente pour effectuer la migration des données:"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:11
 msgid "Manual migration of data between to GeoNode instances with same version"
@@ -15505,15 +15505,21 @@ msgstr "Migration manuelle des données entre deux instances de GeoNode avec la 
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:13
 msgid "Semi-automatic migration of data between GeoNode instances with same version"
-msgstr "migration semi-automatique de données entre les instances de GeoNode avec la même version"
+msgstr ""
+"Migration semi-automatique de données entre les instances de GeoNode avec la "
+"même version"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:15
 msgid "Automatic migration of data between GeoNode instances with same version"
-msgstr "la migration automatique des données entre les instances de GeoNode avec la même version"
+msgstr ""
+"Migration automatique de données entre instances de GeoNode avec la même "
+"version"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:17
 msgid "Automatic migration of data between GeoNode instances with different version"
-msgstr "la migration automatique des données entre les instances de GeoNode avec version différente"
+msgstr ""
+"Migration automatique des données entre instances de GeoNode avec des version "
+"différente"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:19
 msgid ""
@@ -15521,29 +15527,33 @@ msgid ""
 "available as soon as the \"**GeoNode Backup & Restore**\" `GNIP <https://github.com/GeoNode/geonode/"
 "issues/2401>`_ development will be ready and merged to the ``master`` branch."
 msgstr ""
-"Actuellement, les points de 2,3,4 ne sont pas encore faisable avec la version actuelle de GeoNode. Ceux "
-"section sera disponible dès que le \"**GeoNode Backup & Restore**\" `GNIP <https://github.com/GeoNode/"
-"geonode/issues/2401>`_  Développement sera prêt et fusionnée à la ``branche master``."
+"Actuellement, les méthodologies 2, 3, 4 ne sont pas encore faisable avec la "
+"version actuelle de GeoNode. Ces méthodologies seront disponibles dès que la "
+"branche de développement \"**GeoNode Backup & Restore**\" `GNIP "
+"<https://github.com/GeoNode/geonode/issues/2401>`_ sera prête et fusionnée à "
+"la ``branche master``."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:22
 msgid "Manual migration of data between GeoNode instances with same version"
-msgstr "Migration manuelle des données entre les instances de GeoNode avec la même version"
+msgstr ""
+"Migration manuelle de données entre instances de GeoNode avec la même version"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:24
 msgid ""
 "This section shows how to export a Layer from a GeoNode instance and import it back to another one with the "
 "same versions."
 msgstr ""
-"Cette section montre comment exporter une couche d'une instance GeoNode et l'importer vers un autre avec "
-"les mêmes versions."
+"Cette section montre comment exporter une couche d'une instance GeoNode et "
+"l'importer vers une autre instance avec la même version."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:26
 msgid ""
 "Before going through the commands and the operations to perform the export/import tasks, the tutorial will "
 "explain in details the structure of a GeoNode Layer."
 msgstr ""
-"Avant de passer les commandes et les opérations à effectuer les tâches d'import / export, le tutoriel vous "
-"expliquera en détail la structure d'une couche de GeoNode."
+"Avant de passer aux commandes et aux opérations pour effectuer les tâches "
+"d'import / export, le tutoriel vous expliquera en détail la structure d'une "
+"couche de GeoNode."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:28
 msgid ""
@@ -15554,34 +15564,37 @@ msgid ""
 "GeoNode instance to another one, means also move geospatial data and stylesheets between the related "
 "GeoServer instances."
 msgstr ""
-"Comme vous le savez déjà, les données physiques géospatiales, ainsi que ses feuilles de style graphiques "
-"(également connu sous le nom **SLD**), sont soutenus par GeoServer. Chaque version GeoNode est livré avec "
-"une version connexe GeoServer et GeoServer données Dir (nous verrons en détail plus tard, qu'est-ce que "
-"cela signifie). Pour le moment, la chose importante à savoir est que GeoNode ne peut pas vivre sans une "
-"exécution de GeoServer. Par conséquent, la migration des données à partir d'une instance GeoNode les uns "
-"aux autres, des moyens aussi transférer les données et les feuilles géospatiales entre les instances de "
-"GeoServer connexes."
+"Comme vous le savez déjà, les données physiques géospatiales, ainsi que ses "
+"feuilles de style graphiques (également connu sous le nom **SLD**), sont "
+"gérées par GeoServer. Chaque version de GeoNode est livrée avec une version "
+"correspondante de GeoServer et un répertoire de données GeoServer (nous "
+"verrons en détail plus tard qu'est-ce que cela signifie). Pour le moment, la "
+"chose importante à retenir est que GeoNode ne peut pas vivre sans une "
+"instance fonctionnelle de GeoServer. En conséquence, la migration des données "
+"entre deux instances de GeoNode implique aussi la migration des données "
+"géospatiales et des feuilles de style entre les instances de GeoServer "
+"connexes."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:34
 msgid "A GeoNode Layer Structure"
-msgstr "Une structure GeoNode Layer"
+msgstr "La structure d'une couche GeoNode"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:35
 msgid "Lets start anlysing deeply a GeoNode Layer structure."
-msgstr "Permet de démarrer anlysing profondément une structure GeoNode Layer."
+msgstr "Nous allons analyser en profondeur la structure d'une couche GeoNode."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:38
 msgid "Preparation Of The Webinar"
-msgstr "Préparation du webinaire"
+msgstr "Préparation de l'atelier"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:39
 msgid ""
 "This tutorial is generic and can be executed using any existing Layer of GeoNode, however in order to "
 "follow exactly the same passages, please execute this first simple exercise."
 msgstr ""
-"Ce tutoriel est générique et peut être exécuté en utilisant une quelconque couche existante de GeoNode, "
-"cependant, afin de suivre exactement les mêmes passages, s'il vous plaît exécuter ce premier exercice "
-"simple."
+"Ce tutoriel est générique et peut être exécuté en utilisant une quelconque "
+"couche existante de GeoNode, cependant, afin de suivre exactement les mêmes "
+"instructions, veuillez s'il vous plaît exécuter ce simple exercice em premier."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:41
 msgid "As a prerequisite, you must have access to a GeoNode instance with Admin rights."
@@ -15595,7 +15608,7 @@ msgstr "**Exercise**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:45
 msgid "*Add A Sample Layer To GeoNode*"
-msgstr "*Ajouter une couche de l'échantillon Pour GeoNode*"
+msgstr "*Ajouter une couche d'exemple à GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:47
 msgid "Log into GeoNode as ``Administrator``"
@@ -15608,16 +15621,16 @@ msgstr ""
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:53
 msgid "*GeoNode Add Layers Button*"
-msgstr "*GeoNode ajouter des couches Bouton*"
+msgstr "*Bouton qui permet d'ajouter des couches à GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:55
 msgid "Click on the ``Browse`` on the upload page"
-msgstr "Cliquez sur le ``Browse`` sur la page de téléchargement"
+msgstr "Cliquez sur le button ``Browse`` sur la page de téléchargement"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:59
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:74
 msgid "*GeoNode Upload Browse Button*"
-msgstr "*GeoNode Upload Bouton Parcourir*"
+msgstr "*Button de GeoNode qui permet d'importer un fichier*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:61
 msgid "Select from the folder ``gisdata/data/good/vector`` the **4** files"
@@ -15641,15 +15654,17 @@ msgstr "san_andres_y_providencia_coastline.shx"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:76
 msgid "Click on the ``Upload Files`` button and make sure the operation completes successfully"
-msgstr "Cliquez sur le bouton ``Ajouter Files`` et assurez-vous que l'opération se termine avec succès"
+msgstr ""
+"Cliquez sur le bouton ``Upload files`` et assurez-vous que l'opération se "
+"termine avec succès"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:80
 msgid "*GeoNode Upload Files Button*"
-msgstr "*GeoNode Upload Files Bouton*"
+msgstr "*Button de GeoNode qui permet de télécharger des fichiers*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:84
 msgid "Layer Metadata"
-msgstr "*Metadonnée de couche*"
+msgstr "*Metadonnées d'une couche*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:85
 msgid ""
@@ -15657,9 +15672,11 @@ msgid ""
 "application to describe, search and identify a resource. As an instance part the title, abstract, regions "
 "or keywords of a resource are all part of the metadata."
 msgstr ""
-"Chaque ressource GeoNode possède des métadonnées. Metadada dans GeoNode est très important, il est utilisé "
-"par l'application pour décrire, rechercher et identifier une ressource. En tant que partie de l'instance le "
-"titre, le résumé, les régions ou les mots-clés d'une ressource font partie des métadonnées."
+"Chaque ressource de GeoNode possède des métadonnées. Les métadonnées sont "
+"trés importantes dans GeoNode, elles sont utilisées par l'application pour "
+"décrire, rechercher et identifier une ressource. En tant que partie de "
+"l'instance le titre, le résumé, les régions ou les mots-clés d'une ressource "
+"font partie des métadonnées."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:88
 msgid ""
@@ -15668,38 +15685,42 @@ msgid ""
 "Those records can be used by external catalogiung applications, compliant with the standards supported by "
 "GeoNode, in order to automatically recognize and indexing the available resources on the server."
 msgstr ""
-"Métadonnées GeoNode est stocké sur la base de données d'arrière-plan comme un ensemble de champs associés à "
-"la ressource. Le service de catalogue puis, utilise ces informations pour générer dynamiquement ISO "
-"enregistrements XML conforme. Ces enregistrements peuvent être utilisés par des applications de catalogage "
-"externes, conformes aux normes soutenues par GeoNode, afin de reconnaître automatiquement et indexer les "
-"ressources disponibles sur le serveur."
+"Dans GeoNode les métadonnées sont stockées sur la base de données "
+"d'arrière-plan comme un ensemble de champs associés à la ressource. Puis le "
+"service de catalogue utilise ces informations pour générer dynamiquement des "
+"enregistrements XML ISO conforme. Ces enregistrements peuvent être utilisés "
+"par des applications de catalogue externes, conformes aux normes soutenues "
+"par GeoNode, afin de reconnaître automatiquement et indexer les ressources "
+"disponibles sur le serveur."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:91
 msgid ""
 "The GeoNode Layer info page makes use of some metadata fields to provide immediate description of the Layer."
 msgstr ""
-"La page info GeoNode Layer utilise certains champs de métadonnées à fournir une description immédiate de la "
-"couche."
+"La page d'information d'une couche de GeoNode utilise certains champs des "
+"métadonnées pour fournir une description immédiate de la couche."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:93
 msgid ""
 "As shown in the figure below, the GeoNode ``Info`` tab contains a table reporting basic information about "
 "the Layer, like the *Title*, the *Abstract*, the *Category* and others."
 msgstr ""
-"Comme le montre la figure ci-dessous, la GeoNode ``onglet Info`` contient un tableau présentant des "
-"informations de base sur la couche, comme le *Titre*, le *Résumé*, le *Catégorie* et d'autres."
+"Comme le montre la figure ci-dessous, l'onglet de GeoNode ``Info`` contient "
+"un tableau contenant des informations basiques sur la couche, comme le "
+"*Titre*, le *Résumé*, le *Catégorie* et d'autres."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:97
 msgid "*GeoNode Layer Info*"
-msgstr "*Infos Layer GeoNode*"
+msgstr "*Informations d'une couche GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:99
 msgid ""
 "The *Title* shown on the Layer Metadata **is not** the real Layer name. We will deepen the topic on the "
 "following sections of this tutorial."
 msgstr ""
-"Le *Titre* figurant sur les métadonnées de la couche **est pas** le nom de la couche réelle. Nous allons "
-"approfondir le sujet sur les sections suivantes de ce tutoriel."
+"Le *Titre* figurant sur les métadonnées de la couche **n'est pas** le nom de "
+"la couche réelle. Nous allons approfondir le sujet dans les sections "
+"suivantes de ce tutoriel."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:101
 msgid ""
@@ -15707,27 +15728,31 @@ msgid ""
 "huge and long XML), it is possible to click on the ``Download Metadada`` button on the right panel. GeoNode "
 "will present to the user a modal window with a list of permalinks to the dynamic XML supported formats."
 msgstr ""
-"Afin d'obtenir l'ensemble des métadonnées de la couche en un format standard (généralement pas tout à fait "
-"humain-amicale, un XML énorme et long), il est possible de cliquer sur le bouton ``Télécharger Metadada`` "
-"sur le panneau droit. GeoNode présentera à l'utilisateur une fenêtre modale avec une liste de permaliens "
-"aux formats XML dynamiques pris en charge."
+"Afin d'obtenir l'ensemble des métadonnées de la couche dans un format "
+"standard (généralement pas tout à fait lisible, un XML énorme et long), il "
+"est possible de cliquer sur le bouton ``Download Metadada`` sur le panneau "
+"droit. GeoNode présentera à l'utilisateur une fenêtre modale avec une liste "
+"de liens permanents aux formats XML dynamiques pris en charge."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:106
 msgid "*GeoNode Layer Download Metadada*"
-msgstr "*GeoNode couche Télécharger Metadada*"
+msgstr "*Téléchargement des métadonnées d'une couche GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:108
 msgid ""
 "As an instance, if you click on ``ISO``, you will get an XML containing all the Layer metadata fields in "
 "``ISOTC211/19115`` format."
 msgstr ""
-"À titre d'exemple, si vous cliquez sur ``ISO``, vous obtiendrez un fichier XML contenant tous les champs de "
-"métadonnées de la couche au format ``ISOTC211 / 19115``."
+"À titre d'exemple, si vous cliquez sur ``ISO``, vous obtiendrez un fichier "
+"XML contenant tous les champs des métadonnées de la couche au format "
+"``ISOTC211 / 19115``."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:112
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:178
 msgid "*GeoNode Layer Download Metadada ISOTC211/19115 Format*"
-msgstr "*GeoNode couche Télécharger Metadada ISOTC211 / 19115 Format*"
+msgstr ""
+"*Téléchargement des métadonnées d'une couche GeoNode au format ISOTC211 / "
+"19115*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:114
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:152
@@ -15745,14 +15770,14 @@ msgstr "**Excercise**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:116
 msgid "*Edit The Layer Metadada*"
-msgstr "*Modifier La couche Metadada*"
+msgstr "*Modifier les métadonnées d'une couche*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:118
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:156
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:220
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:261
 msgid "Go to the ``GeoNode Layer List``"
-msgstr "Allez à la ``couche d'GeoNode List``"
+msgstr "Allez à la liste de couches de GeoNode ``GeoNode Layer List``"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:122
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:160
@@ -15766,53 +15791,57 @@ msgstr "*Liste des couches de GeoNode*"
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:226
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:267
 msgid "Click on a ``Layer`` in order to go to the resource info page"
-msgstr "Cliquez sur un ``Layer`` afin d'aller à la page info de ressources"
+msgstr ""
+"Cliquez sur une ``Couche`` afin d'aller à la page d'information de cette "
+"ressource"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:128
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:166
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:230
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:271
 msgid "*GeoNode Layer Edit*"
-msgstr "*GeoNode couche Modifier*"
+msgstr "*Modification d'une couche GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:130
 msgid "Click on the ``Edit Layer`` button"
-msgstr "Cliquez sur le bouton ``Modifier Layer``"
+msgstr "Cliquez sur le bouton ``Edit Layer``"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:134
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:172
 msgid "*GeoNode Layer Download Metadada Button*"
-msgstr "*GeoNode couche Télécharger Metadada Bouton*"
+msgstr "*Button de téléchargement des métadonnées GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:136
 msgid "Click on the ``Edit`` button under the ``Metadada`` incon of the modal window"
-msgstr "Cliquez sur le bouton ``Edit`` sous le ``Metadada`` icon de la fenêtre modale"
+msgstr ""
+"Cliquez sur le bouton ``Edit`` sous l'icône ``Metadada`` de la fenêtre modale"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:140
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:146
 msgid "*GeoNode Metadada Edit*"
-msgstr "*GeoNode Metadada Modifier*"
+msgstr "*Modifications des métadonnées de GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:142
 msgid ""
 "Update the at least the ``Title``, the ``Abstract`` and the ``Category`` and finally click on the "
 "``Update`` button"
 msgstr ""
-"Mettre à jour au moins la ``Title``, le ``Abstract`` et ``Category`` et enfin cliquer sur le bouton "
-"``update``"
+"Mettre à jour au moins le ``Titre``, le ``Résumé`` et la ``Catégorie`` et "
+"enfin cliquer sur le bouton ``Update``"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:150
 msgid ""
 "**The export** of metadata is a foundamental task to achieve when moving a resource from a GeoNode instance "
 "to another."
 msgstr ""
-"**L'exportation** de métadonnées est une tâche foundamental à atteindre lors du déplacement d'une ressource "
-"à partir d'une instance GeoNode à l'autre."
+"**L'exportation** des métadonnées est une tâche fondamental à atteindre lors "
+"du déplacement d'une ressource d'une instance GeoNode à l'autre."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:154
 msgid "*Export the Layer Metadata as ISOTC211/19115 and save it to an XML files on the local storage*"
 msgstr ""
-"*Export de la Métadonnées Layer comme ISOTC211 / 19115 et enregistrez un fichier XML sur le stockage local*"
+"*Exporter les métadonnées de la couche au format ISOTC211 / 19115 et les "
+"enregistrer dans un fichier XML dans le système de fichiers local*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:168
 msgid "Click on the ``Download Metadada`` button"
@@ -15824,28 +15853,35 @@ msgstr "Dans la fenêtre modale, cliquez avec le bouton droit de la souris sur l
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:180
 msgid "From the context menù, select the voice **Save Link As**"
-msgstr "Dans le menu contextuel, sélectionnez la voix **Enregistrer le lien sous**"
+msgstr ""
+"Dans le menu contextuel, sélectionnez l'option **Enregistrer le lien sous**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:184
 msgid "*GeoNode Layer Download Metadada ISOTC211/19115 Save Link As*"
-msgstr "*GeoNode couche Télécharger Metadada ISOTC211 / 19115 Enregistrer le lien sous*"
+msgstr ""
+"*Lien enregistrer sous pour télécharger les métadonnées GeoNode au format XML "
+"ISOTC211 / 19115*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:186
 msgid "Store the xml into the hard disk and note the location for later use"
-msgstr "Stocker le xml dans le disque dur et notez l'emplacement pour une utilisation ultérieure"
+msgstr ""
+"Stocker le XML dans le disque dur et notez l'emplacement pour une utilisation "
+"ultérieure"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:190
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:207
 msgid "*GeoNode Layer Download Metadada ISOTC211/19115 XML*"
-msgstr "*GeoNode couche Télécharger Metadada ISOTC211 / 19115 XML*"
+msgstr "*Téléchargement des métadonnées GeoNode au format XML ISOTC211 / 19115*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:194
 msgid "Layer Styles"
-msgstr "Styles de calque"
+msgstr "Feuilles de styles de couche"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:195
 msgid "Each Layer in GeoNode has a representation style associated, or a ``Legend`` if you want."
-msgstr "Chaque couche de GeoNode a un style de représentation associée, ou ``Legend`` si vous voulez."
+msgstr ""
+"Chaque couche de GeoNode est associée a un style graphique ou ``Legend`` si "
+"vous voulez."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:197
 msgid ""
@@ -15853,9 +15889,11 @@ msgid ""
 "original data. The figure shown in the map is only one of the inifite possible representation of the data "
 "stored on the server."
 msgstr ""
-"Un style est essentiellement un ensemble de règles instruisant le serveur géospatial sur la façon de créer "
-"une représentation des données d'origine. Le chiffre indiqué sur la carte est seulement un de la "
-"représentation infinie possible des données stockées sur le serveur."
+"Un style est essentiellement un ensemble de règles instruisant le serveur "
+"géospatial sur la façon de créer une représentation graphique des données "
+"d'origine. L'image montrée dans la carte n'est qu'un exemple parmi l'infinité "
+"de façons possibles de représenter graphiquement les donnés stockées dans le "
+"serveur."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:199
 msgid ""
@@ -15863,10 +15901,11 @@ msgid ""
 "portrayal of data provides to the users an immediate understanding of the meaning (or at least of one "
 "possible meaning), but this is not suitable for data analysis or more sophisticated computational tasks."
 msgstr ""
-"Il est intéressant de souligner que **la visualisation des données** est sensiblement différent de "
-"**obtenir les données**. Une représentation de données fournit aux utilisateurs une compréhension immédiate "
-"du sens (ou du moins d'un sens possible), mais cela ne convient pas pour l'analyse des données ou des "
-"tâches de calcul plus sophistiquées."
+"Il est intéressant de souligner que **la visualisation des données** est "
+"sensiblement différent de **l'obtention des données**. Une représentation de "
+"données fournit aux utilisateurs une compréhension immédiate du sens des "
+"données (ou du moins d'un sens possible), mais cela ne convient pas pour "
+"l'analyse des données ou des tâches de calcul plus sophistiquées."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:201
 msgid ""
@@ -15881,34 +15920,36 @@ msgid ""
 "On GeoNode, if you move to a Layer info page, you can notice a small ``Legend`` panel on the right "
 "representing the style currently in use."
 msgstr ""
-"Sur GeoNode, si vous vous déplacez vers une page d'information de couche, vous pouvez remarquer un petit "
-"panneau ``Legend`` sur la droite représentant le style actuellement en cours d'utilisation."
+"Sur GeoNode, si vous vous déplacez vers la page d'information d'une couche, "
+"vous pouvez remarquer un petit panneau ``Legend`` sur la droite représentant "
+"le style actuellement en cours d'utilisation."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:210
 msgid ""
 "A Layer can have a lot of different styles associated, of course. Usually there is a ``Default Style`` "
 "which is the one presented to the users if not differently specified."
 msgstr ""
-"Une couche peut avoir beaucoup de différents styles associés, bien sûr. Habituellement, il est un ``défaut "
-"Style`` qui est celle présentée aux utilisateurs si pas différemment spécifié."
+"Une couche peut avoir beaucoup de différents styles associés. Normalement, il "
+"existe un style par défaut ``Default Style`` qui montré aux utilisateurs si "
+"aucun autre style est spécifié."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:212
 msgid ""
 "It is possible from the GeoNode interface to manage the styles associated to a Layer and also change its "
 "``Default Style``."
 msgstr ""
-"Il est possible de l'interface GeoNode pour gérer les styles associés à une couche et aussi changer son "
-"``Default Style``."
+"Il est possible de gérer les styles associées a une couche et aussi de "
+"changer le style par défaut ``Default Style`` à partir de l'interface GeoNode."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:214
 msgid "Only owners or users with write permissions on the Layer can update the styles."
 msgstr ""
-"Seuls les propriétaires d'utilisateurs avec des permissions d'écriture sur la couche peuvent mettre à jour "
-"les styles."
+"Seuls les propriétaires où les utilisateurs avec des permissions d'écriture "
+"sur la couche peuvent mettre à jour les styles."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:218
 msgid "*Layer Styles Management Panel*"
-msgstr "*Groupe de gestion des styles de calque*"
+msgstr "*Panneau de gestion des styles de la couche*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:232
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:273
@@ -15918,15 +15959,16 @@ msgstr "Cliquez sur le bouton ``Modifier Layer`` sur le panneau droit"
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:236
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:277
 msgid "*GeoNode Layer Edit Button*"
-msgstr "*GeoNode couche Bouton Edit*"
+msgstr "*Button de GeoNode qui permet d'éditer une couche*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:238
 msgid "Click on the ``Manage`` button under the ``Styles`` incon of the modal window"
-msgstr "Cliquez sur le bouton ``Manage`` sous le ``Styles`` icon de la fenêtre modale"
+msgstr ""
+"Cliquez sur le bouton ``Manage`` sous l'icône ``Styles`` de la fenêtre modale"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:242
 msgid "*GeoNode Layer Styles Manage*"
-msgstr "*Styles GeoNode Layer Gérer*"
+msgstr "*Gestion des styles d'une ouche GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:244
 msgid ""
@@ -15938,21 +15980,21 @@ msgstr ""
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:248
 msgid "*GeoNode Layer Styles Management Panel*"
-msgstr "*Groupe de gestion des styles de calque GeoNode*"
+msgstr "*Paneau de gestion des style d'une couche GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:250
 msgid ""
 "**Do not** click on ``Update Available Styles`` button, otherwise you will change the current Layer styles."
 msgstr ""
-"**Ne pas** cliquez sur ``Mise à jour disponible bouton Styles``, sinon vous allez changer les styles de "
-"calque courant."
+"**Ne pas** cliquez sur le button ``Update Available Styles``, sinon vous "
+"allez changer les styles de la couche actuelle."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:253
 msgid ""
 "**GeoNode also** provides a simple tool for the editing of the Layer style directly from the web interface."
 msgstr ""
-"**GeoNode également** fournit un outil simple pour l'édition du style de calque directement à partir de "
-"l'interface web."
+"**GeoNode** fournit aussi un outil simple pour l'édition du style de la "
+"couche directement à partir de l'interface web."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:255
 msgid ""
@@ -15960,22 +16002,26 @@ msgid ""
 "Also this tool may not work perfectly with complex layers. Further in the tutorial we will see how it is "
 "possible to edit directly the style using the ``SLD`` native format."
 msgstr ""
-"Il est intéressant de noter que l'éditeur de style GeoNode est très simple et ne permet pas d'éditer le "
-"style avancé. Aussi cet outil peut ne pas fonctionner parfaitement avec des couches complexes. Plus loin "
-"dans le tutoriel, nous allons voir comment il est possible d'éditer directement le style en utilisant le "
-"format ``SLD`` native."
+"Il est important de noter que l'éditeur de style GeoNode est très simple et "
+"ne permet pas d'éditions avancées du style. En conséquence cet outil peut ne "
+"pas fonctionner parfaitement avec des couches complexes. Plus loin dans le "
+"tutoriel, nous allons voir comment il est possible d'éditer directement le "
+"style en utilisant le format ``SLD`` natif."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:259
 msgid "*Update the default style through the GeoNode Style Editor tool*"
-msgstr "*Mettre à jour le style par défaut à travers l'outil Style Editor GeoNode*"
+msgstr ""
+"*Mettre à jour le style par défaut à travers l'outil d'édition de style de "
+"GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:279
 msgid "Click on the ``Edit`` button under the ``Styles`` incon of the modal window"
-msgstr "Cliquez sur le bouton ``Edit`` sous le ``Styles`` icon de la fenêtre modale"
+msgstr ""
+"Cliquez sur le bouton ``Edit`` sous l'icône ``Styles`` de la fenêtre modale"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:283
 msgid "*GeoNode Layer Styles Edit*"
-msgstr "*Styles GeoNode Layer Modifier*"
+msgstr "*Édition des styles d'une couche GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:285
 msgid "You should see a small window similar to the one depicted below"
@@ -15983,56 +16029,64 @@ msgstr "Vous devriez voir une petite fenêtre similaire à celle décrite ci-des
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:289
 msgid "*GeoNode Layer Styles Editor*"
-msgstr "*Styles GeoNode Layer Editor*"
+msgstr "*Éditeur des styles d'une couche GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:292
 msgid "Select the first ``Rule`` and click on the small ``Edit`` button below"
-msgstr "Sélectionnez le premier ``Rule`` et cliquez sur le petit bouton ``Edit`` ci-dessous"
+msgstr ""
+"Sélectionnez la première ``Rule`` et cliquez sur le petit bouton ``Edit`` "
+"en-dessous"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:298
 msgid "*GeoNode Layer Styles Edit Rules*"
-msgstr "*Styles GeoNode Layer Modifier les règles*"
+msgstr "*Édition des règles des styles d'une couche GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:300
 msgid "Modify the ``Name``, the ``Color`` and the ``Width`` of the stroke and click save"
-msgstr "Modifiez le ``name``, le ``Color`` et ``Width`` de la course et cliquez sur Enregistrer"
+msgstr ""
+"Modifiez le ``Nom``, la ``Couleur`` et la ``Largeur`` du trait et cliquez sur "
+"enregistrer"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:304
 msgid "*GeoNode Layer Styles Edit Stroke*"
-msgstr "*Styles GeoNode Layer Modifier Course*"
+msgstr "*Édition du trait des styles d'une couche GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:307
 msgid ""
 "**The GeoNode style** editor tool just simplifies the editing of a Layer style by providing a small graphic "
 "user interface to one of the GeoServer capabilities."
 msgstr ""
-"**Le style GeoNode** outil d'édition simplifie simplement le montage d'un style de calque en fournissant "
-"une petite interface graphique utilisateur à l'une des capacités de GeoServer."
+"L'outil d'édition de styles **GeoNode** permet de simplifier l'édition du "
+"style d'une couche en fournissant à l'utilisateur une interface graphique "
+"réduite des capacités de GeoServer."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:309
 msgid ""
 "Under the hood a Layer style is a special XML format defined from the Open Geospatial Consortium (OGC) as "
 "``Style Layer Descriptor`` or **SLD**."
 msgstr ""
-"Sous le capot d'un style de couche est un format XML spécial défini à partir de l'Open Geospatial "
-"Consortium (OGC) comme ``Style Layer Descriptor`` ou **SLD**."
+"Le style d'une couche n'est rien d'autre qu'un format XML spécial défini par "
+"l'Open Geospatial Consortium (OGC) comme ``Style Layer Descriptor`` ou "
+"**SLD**."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:311
 msgid ""
 "Advanced users can directly modify the SLD or use more advanced tools to create very complex and beautiful "
 "Layer styles."
 msgstr ""
-"Les utilisateurs avancés peuvent modifier directement le SLD ou utiliser des outils plus avancés pour créer "
-"des styles de calque très complexes et très belles."
+"Les utilisateurs avancés peuvent modifier directement le SLD ou utiliser des "
+"outils plus avancés pour créer des styles de couche très complexes et très "
+"beaux"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:313
 msgid "In order to do that, you will need to update the SLD source directly through the GeoServer interface."
 msgstr ""
-"Pour ce faire, vous aurez besoin de mettre à jour la source SLD directement via l'interface de GeoServer."
+"Pour faire ce-là, vous aurez besoin de mettre à jour la source de l'SLD "
+"directement via l'interface de GeoServer."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:317
 msgid "*Update the default style through the GeoServer interface*"
-msgstr "*Mettre à jour le style par défaut via l'interface GeoServer*"
+msgstr "*Mettre à jour le style par défaut via l'interface de GeoServer*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:319
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:638
@@ -16048,14 +16102,14 @@ msgstr ""
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:904
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:1258
 msgid "*GeoNode Admin*"
-msgstr "*GeoNode Administrateur*"
+msgstr "*Administrateur GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:325
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:644
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:906
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:1260
 msgid "From the menu, click on the ``GeoServer`` voice."
-msgstr "Dans le menu, cliquez sur le voix ``GeoServer``."
+msgstr "Dans le menu, cliquez sur le option ``GeoServer``."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:329
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:648
@@ -16069,53 +16123,54 @@ msgstr "*GeoNode Administrateur GeoServer*"
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:912
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:1266
 msgid "You will be redirected to the ``GeoServer`` admin interface."
-msgstr "Vous serez redirigé vers l'interface ``GeoServer`` admin."
+msgstr "Vous serez redirigé vers l'interface d'administration de ``GeoServer``."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:335
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:654
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:916
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:1270
 msgid "*GeoServer Admin Gui*"
-msgstr "*GeoServer Administrateur Gui*"
+msgstr "*Interface d'aministration de GeoServer*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:337
 msgid "Select the ``Styles`` topic from the left menu."
-msgstr "Sélectionnez le sujet ``Styles`` dans le menu de gauche."
+msgstr "Sélectionnez l'option ``Styles`` dans le menu de gauche."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:341
 msgid "*GeoServer Admin Styles*"
-msgstr "*Styles GeoServer Administrateur*"
+msgstr "*Administration de styles dans GeoServer*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:343
 msgid "Select the layer name from the list and click on it. You will be redirected to the SLD editor page."
 msgstr ""
-"Sélectionnez le nom de la couche dans la liste et cliquez dessus. Vous serez redirigé vers la page de "
-"l'éditeur SLD."
+"Sélectionnez le nom du style dans la liste et cliquez dessus. Vous serez "
+"redirigé vers la page de l'éditeur SLD."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:347
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:353
 msgid "*GeoServer Admin Style Editor*"
-msgstr "*GeoServer Administrateur Style Editor*"
+msgstr "*Editeur de styles de GeoServer*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:349
 msgid ""
 "Modify the ``Color`` and the ``Width`` of the ``External Border`` XML rule. Click on ``Preview legend`` to "
 "see the changes, and when you are happy ``Submit`` the SLD."
 msgstr ""
-"Modifiez le ``Color`` et ``Width`` du règle de XML ``Border externe``. Cliquez sur ``Aperçu legend`` pour "
-"voir les changements, et quand vous êtes heureux ``Submit`` le SLD."
+"Modifiez la ``Couleur`` et la ``Largeur`` de la règle XML ``External "
+"Border``. Cliquez sur ``Preview Legend`` pour voir les changements, et quand "
+"vous êtes heureux ``Submit`` le SLD."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:355
 msgid "Go back to GeoNode. Reload the Layer in order to see the changes."
-msgstr "Retour à GeoNode. Recharger la couche afin de voir les changements."
+msgstr "Retour à GeoNode. Rechargez la couche afin de voir les changements."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:359
 msgid "*GeoNode Updated Layer Style*"
-msgstr "*GeoNode Style de calque Mise à jour*"
+msgstr "*Le style de la couche GeoNode a été mis à jour*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:363
 msgid "GeoServer Web Interface Basics"
-msgstr "GeoServer Basics Interface Web"
+msgstr "Les bases de l'interface web de GeoServer"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:364
 msgid ""
@@ -16134,8 +16189,8 @@ msgid ""
 "For most installations, GeoServer will start a web server on localhost at port 8080, accessible at the "
 "following URL::"
 msgstr ""
-"Pour la plupart des installations, GeoServer va démarrer un serveur web sur localhost au port 8080, "
-"accessible à l'adresse suivante ::"
+"Pour la plupart des installations, GeoServer va démarrer un serveur web sous "
+"localhost associé au port 8080, accessible à l'adresse suivante ::"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:372
 msgid ""
@@ -16143,13 +16198,15 @@ msgid ""
 "URL will be dependent on your container setup. A **GeoNode/GeoServer** production environment, usually maps "
 "GeoServer un the same port 80 like the following"
 msgstr ""
-"Cette URL dépend de votre installation de GeoServer. Lors de l'utilisation de l'installation de WAR, par "
-"exemple, l'URL sera fonction de la configuration de votre conteneur. A **GeoNode / GeoServer** "
-"environnement de production, cartes habituellement GeoServer non le même port 80 comme ce qui suit"
+"Cette URL dépend de votre installation de GeoServer. Lors de l'utilisation "
+"d'une installation basée sur l'WAR, par exemple, l'URL dépendra de la "
+"configuration de votre conteneur. Dans un environnement de production "
+"**GeoNode / GeoServer**, GeoServer va être associé au port 80: "
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:378
 msgid "When correctly configured, a welcome page will open in your browser."
-msgstr "Lorsqu'il est correctement configuré, une page d'accueil est ouvert dans votre navigateur."
+msgstr ""
+"Si correctement configuré, une page d'accueil s'ouvrira dans votre navigateur."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:383
 msgid "*Welcome Page*"
@@ -16164,13 +16221,16 @@ msgid ""
 "username and password is ``admin`` and ``geoserver``. These can be changed only by editing the :file:"
 "`security/users.properties` file in the :ref:`data_directory`."
 msgstr ""
-"La page d'accueil contient des liens vers les différents domaines de la configuration GeoServer. Le :"
-"guilabel:`About GeoServer` section dans le: étiquette de le menu :guilabel:`Server`  fournit des liens "
-"externes à la documentation de GeoServer, page d'accueil, et bug tracker. La page fournit également un "
-"accès de connexion à la console geoserver. Cette mesure de sécurité empêche les utilisateurs non autorisés "
-"de modifier la configuration de votre GeoServer. Le nom d'utilisateur et mot de passe par défaut est "
-"``admin`` et ``geoserver``. Ceux-ci peuvent être modifiés que par la modification du fichier :file:"
-"`security/users.properties` de sécurité dans le :ref:`data_directory`."
+"La page d'accueil contient des liens vers les différents domaines de la "
+"configuration de GeoServer. Le section :guilabel:`About GeoServer` dans le "
+"menu :guilabel:`Server` fournit des liens externes vers la documentation, "
+"page principal, et bug tracker de GeoServer. La page fournit également un "
+"accès sécurisé à la console de GeoServer. Cette mesure de sécurité empêche "
+"les utilisateurs non autorisés de modifier la configuration de votre "
+"GeoServer. Le nom d'utilisateur et mot de passe par défaut sont ``admin`` et "
+"``geoserver``. Ceux-ci ne peuvent être modifiés que par la modification du "
+"fichier :file:`security/users.properties` dans le répertoire "
+":ref:`data_directory`."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:390
 msgid "*Login*"
@@ -16182,26 +16242,29 @@ msgid ""
 "Preview` portion of the console. The :ref:`webadmin_demos` page contains links to various information "
 "pages, while the :ref:`layerpreview` page provides spatial data in various output formats."
 msgstr ""
-"Indépendamment de l'accès d'autorisation, le menu liens web d'administration à l' :guilabel:`Demo` et "
-"couche portion :guilabel:`Preview` de la console. Le page :ref:`webadmin_demos` contient des liens vers "
-"différentes pages d'information, tandis que lela page :ref:`layerpreview` fournit des données spatiales "
-"dans différents formats de sortie."
+"Indépendamment de l'accès d'autorisation, le liens disponibles dans le menu "
+"d'administration donnent accès aux sections :guilabel:`Demo` et "
+":guilabel:`Layer Preview` de la console. Le page :ref:`webadmin_demos` "
+"contient des liens vers différentes pages d'information, tandis que la page "
+":ref:`layerpreview` fournit des données spatiales dans différents formats de "
+"sortie."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:394
 msgid ""
 "On a **GeoNode/GeoServer** environment, you need to login on GeoNode first. The authorization is "
 "automatically taken by GeoServer through your browser cookies."
 msgstr ""
-"Sur un **GeoNode / GeoServer** environnement, vous devez vous identifier sur GeoNode premier. "
-"L'autorisation est automatiquement prise par GeoServer à travers les cookies de votre navigateur."
+"Dans un environnement **GeoNode / GeoServer**, vous devez en premier vous "
+"identifier sur GeoNode. L'autorisation est automatiquement utilisé par "
+"GeoServer à travers les cookies de votre navigateur."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:396
 msgid ""
 "Once logged into GeoNode, going to ``http://<geonode_host>/geoserver/web`` will automatically log into "
 "GeoServer with the same rights."
 msgstr ""
-"Une fois connecté à GeoNode, aller ``http://<geonode_host>/geoserver/web`` se connectera automatiquement en "
-"GeoServer avec les mêmes droits."
+"Une fois connecté à GeoNode, aller sur ``http://<geonode_host>/geoserver/web``"
+" se connectera automatiquement en GeoServer avec les mêmes droits."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:398
 msgid ""
@@ -16210,11 +16273,12 @@ msgid ""
 "external applications or with another/specific GeoServer user. You **must** know the username and passowrd "
 "of the GeoServer user in this case."
 msgstr ""
-"Sur un **GeoNode / GeoServer** environnement, GeoServer permet encore ``FORM`` et mécanisme "
-"d'authentification ``BASIC`` (comme indiqué dans cette section). Mais cela est utile uniquement si vous "
-"avez besoin d'accéder à GeoServer depuis des applications externes ou avec un autre utilisateur / "
-"spécifique GeoServer. Vous devez connaître le nom d'utilisateur et passowrd de l'utilisateur GeoServer dans "
-"ce cas."
+"Dans un environnement **GeoNode / GeoServer**, GeoServer supporte aussi les "
+"mécanismes d'authentification ``FORM`` et ``BASIC`` (comme indiqué dans cette "
+"section). Mais cela est utile uniquement si vous avez besoin d'accéder à "
+"GeoServer depuis des applications externes ou avec un autre utilisateur / "
+"spécifique à GeoServer. Dans ce cas vous devez connaître le nom d'utilisateur "
+"et la passowrd de l'utilisateur GeoServer."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:400
 msgid "When logged on, additional options will be presented."
@@ -16222,19 +16286,20 @@ msgstr "Une fois connecté, des options supplémentaires seront présentées."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:405
 msgid "*Additional options when logged in*"
-msgstr "*D'autres options lorsque connecté*"
+msgstr "*Autres options lorsque connecté*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:407
 msgid ""
 "Geoserver Web Coverage Service (WCS), Web Feature Service (WFS), and Web Map Service (WMS) configuration "
 "specifications can be accessed from this welcome page as well."
 msgstr ""
-"Service de couverture Web Geoserver (WCS), Web Feature Services (WFS), et Web Map Service (WMS) "
-"spécifications de configuration est accessible à partir de cette page d'accueil ainsi."
+"Les configurations spécifiques des services Web Coverage Service (WCS), Web "
+"Feature Service (WFS), et Web Map Service (WMS) sont aussi accessibles à "
+"partir de la page d'accueil."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:411
 msgid "**List Pages**"
-msgstr "**Pages Liste**"
+msgstr "**Liste des pages**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:413
 msgid ""
@@ -16242,26 +16307,29 @@ msgid ""
 "The page displays links to the items, and where applicable their parent items as well. To facilitate "
 "working with large sets of items, list views allow sorting and searching across all items in the data type."
 msgstr ""
-"Certaines pages web admin montrent des vues de la liste d'éléments de type de données de configuration "
-"disponibles dans l'instance GeoServer. La page affiche des liens vers les articles, et le cas échéant leurs "
-"éléments parents aussi. Pour faciliter le travail avec de grands ensembles d'éléments, la liste des vues "
-"permettent de tri et de recherche dans tous les éléments dans le type de données."
+"Certaines pages de l'administration web montrent des vues contenant des liste "
+"avec des éléments qui permettent de configurer les données disponibles dans "
+"l'instance de GeoServer. La page affiche des liens vers ces éléments, et le "
+"cas échéant vers leurs éléments parents aussi. Pour faciliter le travail avec "
+"de grands ensembles d'éléments, les vues contenant des listes permettent le "
+"tri et la recherche dans tous les éléments disponibles sur la page."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:417
 msgid ""
 "In the example below, the GeoServer Layers page displays a list of layers along with links to their parent "
 "GeoServer Stores and GeoServer Workspaces."
 msgstr ""
-"Dans l'exemple ci-dessous, la page Layers GeoServer affiche une liste de couches avec des liens vers leurs "
-"parents GeoServer Stores et GeoServer Workspaces."
+"Dans l'exemple ci-dessous, la page de couches de GeoServer affiche une liste "
+"de couches disponibles avec des liens vers leurs parents: la source de "
+"données GeoServer et l'espace de travail GeoServer."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:422
 msgid "*Layers list page*"
-msgstr "*Liste Calques la page*"
+msgstr "*Page qui contient la listes des couches disponibles*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:424
 msgid "**Sorting**"
-msgstr "**Sorting**"
+msgstr "**Triage**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:426
 msgid "To sort a column alphabetically, click the column header."
@@ -16269,36 +16337,39 @@ msgstr "Pour trier une colonne par ordre alphabétique, cliquez sur l'en-tête d
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:431
 msgid "*Unsorted (left) and sorted (right) columns*"
-msgstr "*Celebres (à gauche) et triés (à droite) colonnes*"
+msgstr "*Non triées (à gauche) et triées (à droite) colonnes*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:433
 msgid "**Searching**"
-msgstr "**Rechercher**"
+msgstr "**Recherche**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:435
 msgid ""
 "Searching can be used to filter the number of items displayed.  This is useful for working with data types "
 "that contain a large number of items."
 msgstr ""
-"La recherche peut être utilisé pour filtrer le nombre d'éléments affichés. Ceci est utile pour travailler "
-"avec des types de données qui contiennent un grand nombre d'éléments."
+"La recherche peut être utilisée pour filtrer le nombre d'éléments affichés. "
+"Ceci est utile pour travailler avec des types de données qui contiennent un "
+"grand nombre d'éléments."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:437
 msgid ""
 "To search data type items, enter the search string in the search box and click Enter. GeoServer will search "
 "the data type for items that match your query, and display a list view showing the search results."
 msgstr ""
-"Pour rechercher des éléments de type de données, entrez la chaîne de recherche dans la zone de recherche et "
-"cliquez sur Entrée. GeoServer va rechercher le type de données pour les éléments qui répondent à votre "
-"requête, et afficher une vue de liste montrant les résultats de la recherche."
+"Pour rechercher des éléments de type de données, entrez le texte de recherche "
+"dans la zone de recherche et cliquez sur Enter. GeoServer va rechercher les "
+"type de données qui contiennent des éléments qui correspondent à votre "
+"requête, et afficher une vue contenant la liste des résultats de la recherche."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:443
 msgid "*Search results for the query \"coast\" on the Layers page*"
-msgstr "*Résultats de la recherche pour la requête «côte» sur la page Calques*"
+msgstr ""
+"*Résultats de la recherche pour la requête «coast» sur la page des couches*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:447
 msgid "GeoServer Workspaces"
-msgstr "GeoServer Workspaces"
+msgstr "Espaces de travail de GeoServer"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:448
 msgid ""
@@ -16308,12 +16379,14 @@ msgid ""
 "san_andres_y_providencia_coastline``). Two different layers can have the same name as long as they belong "
 "to different workspaces (for example ``sf:states`` and ``topp:states``)."
 msgstr ""
-"Cette section décrit comment visualiser et configurer des espaces de travail. Analogue à un espace de noms, "
-"un espace de travail est un conteneur qui organise d'autres articles. Dans GeoServer, un espace de travail "
-"est souvent utilisé pour regrouper des couches similaires. Les couches peuvent être désignés par leur nom "
-"d'espace de travail, du côlon, le nom de la couche (par exemple ``geonode:"
-"san_andres_y_providencia_coastline``). Deux couches différentes peuvent avoir le même nom tant qu'ils "
-"appartiennent à des espaces de travail (par exemple ``sf:states`` et ``topp:states``)."
+"Cette section décrit comment visualiser et configurer des espaces de travail. "
+"Analogue à un espace de noms, un espace de travail est un conteneur qui "
+"organise d'autres articles. Dans GeoServer, un espace de travail est souvent "
+"utilisé pour regrouper des couches similaires. Les couches peuvent être "
+"désignés par leur nom d'espace de travail, deux-points, le nom de la couche "
+"(par exemple ``geonode:san_andres_y_providencia_coastline``). Deux couches "
+"différentes peuvent avoir le même nom tant qu'elles appartiennent à des "
+"espaces de travail différents (par exemple ``sf:states`` et ``topp:states``)."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:450
 msgid ""
@@ -16321,13 +16394,14 @@ msgid ""
 "**geonode**. You can still define other workspaces, but GeoNode will work only with Layers under the "
 "**geonode** workspace."
 msgstr ""
-"Sur un **GeoNode / GeoServer** environnement, par défaut il n'y a qu'un seul espace de travail défini "
-"appelé **geonode**. Vous pouvez toujours définir d'autres espaces de travail, mais GeoNode ne fonctionnera "
-"qu'avec les couches sous la **geonode** espace de travail."
+"Dans un environnement **GeoNode / GeoServer**, par défaut il n'y a qu'un seul "
+"espace de travail défini appelé **geonode**. Vous pouvez toujours définir "
+"d'autres espaces de travail, mais GeoNode ne fonctionnera qu'avec les couches "
+"sous l'espace de travail **geonode**."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:455
 msgid "*Workspaces page*"
-msgstr "*Workspaces page*"
+msgstr "*Page des espaces de travail*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:457
 msgid "**Edit a Workspace**"
@@ -16337,8 +16411,9 @@ msgstr "**Modifier un espace de travail**"
 msgid ""
 "To view or edit a workspace, click the workspace name. A workspace configuration page will be displayed."
 msgstr ""
-"Pour afficher ou modifier un espace de travail, cliquez sur le nom de l'espace de travail. Une page de "
-"configuration de l'espace de travail sera affiché."
+"Pour afficher ou modifier un espace de travail, cliquez sur le nom de "
+"l'espace de travail. Une page de configuration de l'espace de travail sera "
+"affichée."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:464
 msgid "*Workspace named \"geonode\"*"
@@ -16353,13 +16428,15 @@ msgid ""
 "example, ``http://www.geonode.org/`` is the URI for the \"geonode\" workspace,  ``http://www.openplans.org/"
 "topp`` is the URI for the \"topp\" workspace."
 msgstr ""
-"Un espace de travail est défini par un nom et un espace de noms URI (Uniform Resource Identifier). Le nom "
-"de l'espace de travail est limité à dix caractères et ne peut pas contenir d'espace. Un URI est similaire à "
-"une URL, sauf URIs ne doivent pas pointer vers un emplacement réel sur le web, et seulement besoin d'être "
-"un identifiant unique. Pour un espace de travail URI, nous vous recommandons d'utiliser une URL associée à "
-"votre projet, avec peut-être un identificateur de suivi différent. Par exemple, ``http://www.geonode.org/`` "
-"est l'URI pour le \"geonode\" espace de travail, ``http://www.openplans.org/topp`` est l'URI pour le \"topp"
-"\" espace de travail."
+"Un espace de travail est défini par un nom et un espace de noms URI (Uniform "
+"Resource Identifier). Le nom de l'espace de travail est limité à dix "
+"caractères et ne peut pas contenir d'espace. Un URI est similaire à une URL, "
+"sauf que les URIs ne doivent pas pointer vers un emplacement réel sur le web, "
+"elles ont seulement besoin d'être un identifiant unique. Pour L'URI d'un "
+"espace de travail, nous vous recommandons d'utiliser une URL associée à votre "
+"projet, avec peut-être un identificateur en suffixe différent. Par exemple, "
+"``http://www.geonode.org/`` est l'URI pour l'espace de travail \"geonode\", "
+"``http://www.openplans.org/topp`` est l'URI pour l'espace de travail \"topp\"."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:468
 msgid "**Add a Workspace**"
@@ -16368,7 +16445,8 @@ msgstr "**Ajouter un espace de travail**"
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:470
 msgid "The buttons for adding and removing a workspace can be found at the top of the Workspaces view page."
 msgstr ""
-"Les boutons pour ajouter et supprimer un espace de travail se trouvent en haut de la page Workspaces vue."
+"Les boutons pour ajouter et supprimer un espace de travail se trouvent en "
+"haut de la page des espaces de travail."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:475
 msgid "*Buttons to add and remove*"
@@ -16379,12 +16457,12 @@ msgid ""
 "To add a workspace, select the :guilabel:`Add new workspace` button. You will be prompted to enter the the "
 "workspace name and URI."
 msgstr ""
-"Pour ajouter un espace de travail, sélectionnez le :guilabel:`Ajouter un nouveau bouton workspace`. Vous "
-"serez invité à entrer le nom d'espace de travail et URI."
+"Pour ajouter un espace de travail, cliques sur le button :guilabel:`Add new "
+"workspace`. Vous serez invité à entrer le nom de l'espace de travail et l'URI."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:482
 msgid "*New Workspace page with example*"
-msgstr "*Page Workspace Nouveau avec l'exemple*"
+msgstr "*Page de création d'un nouveau espace de travail avec un exemple*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:484
 msgid "**Remove a Workspace**"
@@ -16397,39 +16475,44 @@ msgid ""
 "selected workspaces(s)` button. You will be asked to confirm or cancel the removal. Clicking :guilabel:`OK` "
 "removes the selected workspace(s)."
 msgstr ""
-"Pour supprimer un espace de travail, sélectionnez-le en cliquant sur la case à côté de l'espace de travail. "
-"espaces de travail multiples peuvent être sélectionnés, ou tous peuvent être sélectionnés en cliquant sur "
-"la case à cocher dans l'en-tête. Cliquez sur le  :guilabel:`Supprimer` les espaces de travail sélectionnés "
-"(s) bouton. On vous demandera de confirmer ou d'annuler la suppression. En cliquant sur :guilabel:`OK` "
-"supprime l'espace de travail sélectionné (s)."
+"Pour supprimer un espace de travail, sélectionnez-le en cliquant sur la case "
+"à côté de l'espace de travail. Plusieurs espaces de travail peuvent être "
+"sélectionnés, ou tous peuvent être sélectionnés en cliquant sur la case à "
+"cocher dans l'en-tête. Cliquez sur le button :guilabel:`Remove selected "
+"workspaces(s)`. On vous demandera de confirmer ou d'annuler la suppression. "
+"En cliquant sur :guilabel:`OK` les espaces de travail sélectionnées seront "
+"éliminés."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:491
 msgid "*Workspace removal confirmation*"
-msgstr "*Workspace retrait confirmation*"
+msgstr "*Confirmation de l'élimination d'un espace de travail*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:493
 msgid "Removing a **workspace** will delete also all the **layers** associated with it."
-msgstr "Suppression d'un espace de travail sera également supprimer toutes les couches associées."
+msgstr ""
+"L'élimination d'un espace de travail va aussi supprimer toutes les couches "
+"qui lui sont associées."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:495
 msgid "**Workspaces On The GeoServer Data Dir**"
-msgstr "**Workspaces Sur La Dir GeoServer données**"
+msgstr "**Espaces de travail dans le répertoire de données de GeoServer**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:497
 msgid ""
 "All the configuration files of a **workspace** are stored into the GeoServer Data Dir. We will see later, "
 "on another section of the tutorial, how to access this folder."
 msgstr ""
-"Tous les fichiers de configuration d'un espace de travail sont stockées dans les données Dir GeoServer. "
-"Nous verrons plus loin, sur une autre section du tutoriel, comment accéder à ce dossier."
+"Tous les fichiers de configuration d'un espace de travail sont stockées dans "
+"le répertoire de données de GeoServer. Nous verrons plus loin, sur une autre "
+"section du tutoriel, comment accéder à ce dossier."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:499
 msgid ""
 "It is worth noting that there is also a **physical** dependency between **workspaces**, **stores** and "
 "**layers**."
 msgstr ""
-"Il est à noter qu'il existe également une dépendance physique entre les espaces de travail magasins et "
-"couches."
+"Il est à noter qu'il existe également une dépendance physique entre les "
+"espaces de travail, les sources de données et les couches."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:501
 msgid ""
@@ -16437,13 +16520,15 @@ msgid ""
 "**layer** definition is stored as a subdirectory of its **store**, the **store** definition is stored as a "
 "subdirectory of its **workspace**."
 msgstr ""
-"A GeoServer **couche** est toujours définie par son espace de travail et magasin. Dans les données Dir "
-"GeoServer la couche définition est stockée en tant que sous-répertoire de son **magasin**, le **magasin** "
-"définition est stockée en tant que sous-répertoire de son espace de travail."
+"Une **couche** de GeoServer est toujours définie par son espace de travail et "
+"sa source de données. Dans le répertoire de données de GeoServer la "
+"définition de la couche est stockée en tant que sous-répertoire de sa "
+"**source de données**, la définition de la **source de données** est stockée "
+"en tant que sous-répertoire de son espace de travail."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:521
 msgid "GeoServer Stores"
-msgstr "GeoServer Stores"
+msgstr "Entrepôts de données de GeoServer"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:522
 msgid ""
@@ -16452,37 +16537,41 @@ msgid ""
 "library). The store construct allows connection parameters to be defined once, rather than for each dataset "
 "in a source. As such, it is necessary to register a store before configuring datasets within it."
 msgstr ""
-"Un magasin se connecte à une source de données qui contient des données raster ou vectorielles. Une source "
-"de données peut être un fichier ou un groupe de fichiers, une table dans une base de données, un fichier "
-"raster unique, ou un répertoire (par exemple, une bibliothèque Format Vecteur de produit). La construction "
-"du magasin permet des paramètres de connexion à définir une fois, plutôt que pour chaque ensemble de "
-"données dans une source. En tant que tel, il est nécessaire d'enregistrer un magasin avant de configurer "
-"des ensembles de données à l'intérieur."
+"Un entrepôt de données se connecte à une source de données qui contient des "
+"données matricielles ou vectorielles. Une source de données peut être un "
+"fichier ou un groupe de fichiers, une table dans une base de données, un "
+"fichier matricielle unique ou un répertoire (par exemple, une bibliothèque "
+"Vector Product Format). La construction de l'entrepôt permet de définir les "
+"paramètres de connexion une seule fois, plutôt que de les définir pour chaque "
+"ensemble de données présentes dans la source de données. En conséquence, il "
+"est nécessaire d'enregistrer un entrepôt avant de pouvoir configurer des "
+"ensembles de données avec cet entrepôt."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:530
 msgid "*Stores View*"
-msgstr "*Magasins Voir*"
+msgstr "*Visualization des entrepôts*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:532
 msgid "**Store types**"
-msgstr "**types de magasins**"
+msgstr "**Types d'entrepôts**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:534
 msgid ""
 "While there are many potential formats for data sources, there are only four kinds of stores. For raster "
 "data, a store can be a file. For vector data, a store can be a file, database, or server."
 msgstr ""
-"Bien qu'il existe de nombreux formats possibles pour les sources de données, il y a seulement quatre types "
-"de magasins. Pour les données raster, un magasin peut être un fichier. Pour des données vectorielles, un "
-"magasin peut être un fichier, base de données ou un serveur."
+"Bien qu'il existe de nombreux formats possibles pour les sources de données, "
+"il y a seulement quatre types d'entrepôts. Pour les données matricielles, un "
+"entrepôt peut être un fichier. Pour des données vectorielles, un peut être un "
+"fichier, une base de données ou un serveur."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:540
 msgid "**Type Icon**"
-msgstr "**Icône Type**"
+msgstr "**Type d'icône**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:543
 msgid "raster data in a file"
-msgstr "données raster dans un fichier"
+msgstr "données matricielles dans un fichier"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:545
 msgid "vector data in a file"
@@ -16490,15 +16579,15 @@ msgstr "données vectorielles dans un fichier"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:547
 msgid "vector data in a database"
-msgstr "des données vectorielles dans une base de données"
+msgstr "données vectorielles dans une base de données"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:549
 msgid "vector server (web feature server)"
-msgstr "vector server (web feature server)"
+msgstr "serveur de données vectorielles (web feature server)"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:552
 msgid "**Edit a Store**"
-msgstr "**Modifier un magasin**"
+msgstr "**Modifier un entrepôt**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:554
 msgid ""
@@ -16510,21 +16599,24 @@ msgid ""
 "information about specific data formats. The example shows the configuration for the ``nurc:ArcGridSample`` "
 "store."
 msgstr ""
-"Pour afficher ou modifier un magasin, cliquez sur le nom du magasin. Une page de configuration du magasin "
-"sera affiché. Le contenu exact de cette page dépendent du format spécifique du magasin. Voir les sections "
-"`Working with Vector Data <http://docs.geoserver.org/stable/en/user/data/vector/index.html#data-vector>`_, "
-"`Working with Raster Data <http://docs.geoserver.org/stable/en/user/data/raster/index.html#data-raster>`_, "
-"and `Working with Databases <http://docs.geoserver.org/stable/en/user/data/database/index.html#data-"
-"database>`_ pour obtenir des informations sur les formats de données spécifiques. L'exemple montre la "
-"configuration pour le ``nurc:ArcGridSample`` magasin."
+"Pour afficher ou modifier un entrepôt, cliquez sur le nom de l'entrepôt. Une "
+"page de configuration de l'entrepôt sera affiché. Le contenu exact de cette "
+"page dépendendra du format spécifique de l'entrepôt. Voir les sections "
+"`Working with Vector Data <http://docs.geoserver.org/stable/en/user/data/vecto"
+"r/index.html#data-vector>`_, `Working with Raster Data "
+"<http://docs.geoserver.org/stable/en/user/data/raster/index.html#data-raster>`"
+"_, and `Working with Databases <http://docs.geoserver.org/stable/en/user/data/"
+"database/index.html#data-database>`_ pour obtenir des informations sur les "
+"formats de données spécifiques. L'exemple montre la configuration pour "
+"l'entrepôt ``nurc:ArcGridSample``."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:562
 msgid "*Editing a raster data store*"
-msgstr "*Modification d'un magasin de données raster*"
+msgstr "*Modification d'un entrepôt de données matricielles*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:564
 msgid "**Basic Store Info**"
-msgstr "**Magasin Information de base**"
+msgstr "**Information de base d'un entrepôt**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:566
 msgid "The basic information is common for all formats."
@@ -16532,21 +16624,26 @@ msgstr "L'information de base est commun pour tous les formats."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:568
 msgid "**Workspace** - the store is assigned to the selected workspace"
-msgstr "**Workspace** - le magasin est affecté à l'espace de travail sélectionné"
+msgstr ""
+"**Workspace** - l'entrepôt est affecté à l'espace de travail sélectionné"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:569
 msgid "**Data Source Name** - the store name as listed on the view page"
-msgstr "**Les données Nom de la source** - le nom du magasin comme indiqué sur la page de vue"
+msgstr ""
+"**Data Source Name** - le nom de l'entrepôt comme indiqué sur la page de "
+"visualisation"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:570
 msgid "**Description** - (optional) a description that displays in the administration interface"
-msgstr "**Description** - (en option) une description qui affiche dans l'interface d'administration"
+msgstr ""
+"**Description** - (optionel) une description qui sera affichée dans "
+"l'interface d'administration"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:571
 msgid "**Enabled** - enables or disables access to the store, along with all datasets defined for it"
 msgstr ""
-"**Activé** - active ou désactive l'accès au magasin, ainsi que tous les ensembles de données définis pour "
-"elle"
+"**Enabled** - active ou désactive l'accès à l'entrepôt, ainsi que les sources "
+"de données associées a cet entrepôt"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:573
 msgid "**Connection Parameters**"
@@ -16558,15 +16655,17 @@ msgstr "Les paramètres de connexion varient en fonction du format de données."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:577
 msgid "**Add a Store**"
-msgstr "**Ajouter un magasin**"
+msgstr "**Ajouter un entrepôt**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:579
 msgid "The buttons for adding and removing a store can be found at the top of the Stores page."
-msgstr "Les boutons pour ajouter et supprimer un magasin se trouvent en haut de la page Magasins."
+msgstr ""
+"Les boutons pour ajouter et supprimer un entrepôt se trouvent en haut de la "
+"page des entrepôts."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:584
 msgid "*Buttons to add and remove a Store*"
-msgstr "*Les boutons pour ajouter et supprimer un magasin*"
+msgstr "*Les boutons pour ajouter et supprimer un entrepôt*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:586
 msgid ""
@@ -16574,13 +16673,14 @@ msgid ""
 "GeoServer natively supports many formats (with more available via extensions). Click the appropriate data "
 "source to continue."
 msgstr ""
-"Pour ajouter un magasin, sélectionnez le :guilabel:`Ajouter un nouveau bouton Store`. Vous serez invité à "
-"choisir une source de données. GeoServer supporte nativement de nombreux formats (avec plus disponibles via "
-"des extensions). Cliquez sur la source de données appropriée pour continuer."
+"Pour ajouter un entrepôt, sélectionnez le :guilabel:`Add new Store`. Vous "
+"serez invité à choisir une source de données. GeoServer supporte nativement "
+"de nombreux formats (avec plus disponibles via des extensions). Cliquez sur "
+"la source de données appropriée pour continuer."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:591
 msgid "*Choosing the data source for a new store*"
-msgstr "*Le choix de la source de données pour un nouveau magasin*"
+msgstr "*Le choix de la source de données pour un nouveau entrepôt*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:593
 msgid ""
@@ -16589,30 +16689,33 @@ msgid ""
 "`data_raster`, and :ref:`data_database` for information on specific data formats. The example below shows "
 "the ArcGrid raster configuration page."
 msgstr ""
-"La page suivante configure le magasin. Puisque les paramètres de connexion varient selon les sources de "
-"données, le contenu exact de cette page dépendent format spécifique du magasin. Voir les sections :ref:"
-"`data_vector`, :ref:`data_raster` et :ref:`data_database` pour obtenir des informations sur les formats de "
-"données spécifiques. L'exemple ci-dessous montre la page de configuration raster ArcGrid."
+"La page suivante configure l'entrepôt. Puisque les paramètres de connexion "
+"varient selon les sources de données, le contenu exact de cette page "
+"dépendent du format spécifique de l'entrepôt. Voir les sections "
+":ref:`data_vector`, :ref:`data_raster` et :ref:`data_database` pour obtenir "
+"des informations sur les formats de données spécifiques. L'exemple ci-dessous "
+"montre la page de configuration de données matricielles ArcGrid."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:599
 msgid "*Configuration page for an ArcGrid raster data source*"
-msgstr "*Page de configuration pour une source de données raster ArcGrid*"
+msgstr "*Page de configuration pour une source de données matricielles ArcGrid*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:601
 msgid "**Remove a Store**"
-msgstr "**Supprimer un magasin**"
+msgstr "**Supprimer un entrepôt**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:603
 msgid ""
 "To remove a store, click the checkbox next to the store. Multiple stores can be selected, or all can be "
 "selected by clicking the checkbox in the header."
 msgstr ""
-"Pour retirer un magasin, cliquez sur la case à côté du magasin. magasins multiples peuvent être "
-"sélectionnés, ou tous peuvent être sélectionnés en cliquant sur la case à cocher dans l'en-tête."
+"Pour éliminer un entrepôt, cliquez sur la case à côté de l'entrepôt. "
+"Multiples entrepôts peuvent être sélectionnés, ou tous peuvent être "
+"sélectionnés en cliquant sur la case à cocher dans l'en-tête."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:608
 msgid "*Stores selected for removal*"
-msgstr "*Magasins sélectionnés pour l'enlèvement*"
+msgstr "*Entrepôts sélectionnés pour elimination*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:610
 msgid ""
@@ -16620,21 +16723,26 @@ msgid ""
 "configuration for the store(s) and all resources defined under them. Clicking :guilabel:`OK` removes the "
 "selected store(s), and returns to the Stores page."
 msgstr ""
-"Cliquez sur le bouton :guilabel:`Supprimer Stores` sélectionné. Vous serez invité à confirmer la "
-"suppression de la configuration pour le magasin (s) et toutes les ressources définies sous eux. En cliquant "
-"sur :guilabel:`OK` supprime le magasin (s) sélectionné et retourne à la page Magasins."
+"Cliquez sur le bouton :guilabel:`Remove selected Stores`. Vous serez invité à "
+"confirmer l'élimination de la configuration pour le entrepôt(s) et toutes les "
+"ressources associées a cet entrepôt. Cliquer sur :guilabel:`OK` supprime "
+"l'entrepôt (s) sélectionné et retourne à la page des entrepôts."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:615
 msgid "*Confirm removal of stores*"
-msgstr "*Confirmez la suppression des magasins*"
+msgstr "*Confirmez la suppression des entrepôts*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:618
 msgid "How GeoNode Automatically Configures Workspaces And Stores"
-msgstr "Comment GeoNode Configure automatiquement Workspaces et les magasins"
+msgstr ""
+"Comment GeoNode configure automatiquement les espaces de travail et les "
+"entrepôts"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:620
 msgid "**GeoNode currently** creates the **Stores** automatically on **Layer** upload."
-msgstr "**GeoNode actuellement** crée les magasins automatiquement Couche téléchargement."
+msgstr ""
+"**Actuellement GeoNode** crée les entrepôts automatiquement lors du "
+"téléchargement d'une couche."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:622
 msgid "Summarizing GeoNode does:"
@@ -16642,37 +16750,44 @@ msgstr "Résumer GeoNode fait:"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:624
 msgid "**GeoNode** uses always the **Workspace** **geonode** for each **Layer**"
-msgstr "**GeoNode** utilise toujours le **Workspace** **geonode** pour chaque **Couche**"
+msgstr ""
+"**GeoNode** utilise toujours l'**Espace de Travail** **geonode** pour chaque "
+"**Couche**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:626
 msgid "**GeoNode** configures automatically the **Stores** for the **Layers**"
-msgstr "**GeoNode** configure automatiquement les magasins pour les couches"
+msgstr ""
+"**GeoNode** configure automatiquement les **entrepôts** pour les **couches**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:628
 msgid ""
 "For **Raster** **Layers**; GeoNode creates a **Store** of type **GeoTIFF** with the same name of the "
 "**Layer**"
-msgstr "Pour **Raster Calques**; GeoNode crée un magasin **GeoTIFF** avec le même nom de la couche"
+msgstr ""
+"Pour des **Couches** **Matricielles**; GeoNode crée un entrepôt du type "
+"**GeoTIFF** avec le même nom de la **Couche**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:630
 msgid ""
 "For **Vectorial** **Layers**; GeoNode creates a **Store** of type **ESRI Shapefile** with the same name of "
 "the **Layer** only if not connected to a Database"
 msgstr ""
-"Pour **Vectorial** Couches; GeoNode crée un magasin de Type **ESRI Shapefile** avec le même nom de la "
-"couche seulement si non connecté à une base de données"
+"Pour des **Couches** **Vectorielles**; GeoNode crée un magasin du type **ESRI "
+"Shapefile** avec le même nom de la **Couche** seulement si non connecté à une "
+"base de données"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:632
 msgid ""
 "For **Vectorial** **Layers**; GeoNode uses always the same **Store** of type **Postgis** and convert the "
 "vectorial data into Database Tables"
 msgstr ""
-"Pour **Vectorial** Couches; GeoNode utilise toujours la même **magasin** de Type **Postgis** et convertir "
-"les données vectorielles dans les tableaux de base de données"
+"Pour des **Couches** **Vectorielles**; GeoNode utilise toujours la même type "
+"d'**Entrepôt** c'est à dire **Postgis** et insère les données vectorielles "
+"dans des tables de la base de données"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:636
 msgid "*GeoNode Workspace And Stores*"
-msgstr "*GeoNode Workspace Et les magasins*"
+msgstr "*Espaces de travail et entrepôts GeoNode*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:656
 msgid "Select the ``Workspaces`` topic from the left menu."
@@ -16684,19 +16799,19 @@ msgstr "*Menu GeoServer Workspace*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:662
 msgid "Select the ``geonode`` workspace from the list."
-msgstr "Sélectionnez l'espace de travail ``geonode`` de la liste."
+msgstr "Sélectionnez l'espace de travail ``geonode`` dans la liste."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:666
 msgid "*GeoServer Workspace List*"
-msgstr "*Espace de travail Liste GeoServer*"
+msgstr "*Listes des espaces de travail de GeoServer*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:668
 msgid "Edit the ``geonode`` workspace."
-msgstr "Modifiez le espace de travail ``geonode``."
+msgstr "Modifiez l'espace de travail ``geonode``."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:672
 msgid "*GeoServer Workspace* ``geonode``"
-msgstr "*GeoServer Workspace* ``geonode``"
+msgstr "*Espace de travail GeoServer* ``geonode``"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:674
 msgid "Select the ``Stores`` topic from the left menu."
@@ -16704,51 +16819,53 @@ msgstr "Sélectionnez le sujet ``Stores`` dans le menu de gauche."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:678
 msgid "*GeoServer Store Menu*"
-msgstr "*Menu GeoServer Store*"
+msgstr "*Menu d'entrepôts de GeoServer*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:680
 msgid ""
 "If GeoNode and GeoServer have been configured to use a **Database backend**, select the store ``datastore`` "
 "of type **PostGIS**."
 msgstr ""
-"Si GeoNode et GeoServer ont été configurés pour utiliser une base de données **backend**, sélectionnez le "
-"magasin ``datastore`` le type **PostGIS**."
+"Si GeoNode et GeoServer ont été configurés pour utiliser une **base de "
+"données** en arrière plan, sélectionnez l'entrepôt ``datastore`` du type "
+"**PostGIS**."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:684
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:696
 msgid "*GeoServer Store List*"
-msgstr "*GeoServer Store Liste*"
+msgstr "*Liste des entrepôts de GeoServer*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:688
 msgid "*GeoServer Store* ``datastore``"
-msgstr "*GeoServer Store* ``datastore``"
+msgstr "*Entrepôts GeoServer* ``datastore``"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:690
 msgid ""
 "The Datastore is confiugured by using the same connection parameters specified in the GeoNode "
 "``local_settings.py`` file."
 msgstr ""
-"Le Datastore est confiugured en utilisant les mêmes paramètres de connexion spécifiés dans le GeoNode  "
-"fichier ``local_settings.py``."
+"La source de données est configurée en utilisant les mêmes paramètres de "
+"connexion spécifiés dans le fichier de GeoNode ``local_settings.py``."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:692
 msgid ""
 "If GeoNode and GeoServer have been configured to use **Shapefiles**, select the store "
 "``san_andres_y_providencia_coastline`` of type **Shapefile**."
 msgstr ""
-"Si GeoNode et GeoServer ont été configurés pour utiliser ** Shapefiles**, sélectionnez le magasin "
-"``san_andres_y_providencia_coastline`` le type **Shapefile**."
+"Si GeoNode et GeoServer ont été configurés pour utiliser des **Shapefiles**, "
+"sélectionnez l'entrepôt ``san_andres_y_providencia_coastline`` du type "
+"**Shapefile**."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:700
 msgid "*GeoServer Store* ``san_andres_y_providencia_coastline``"
-msgstr "*GeoServer Store* ``san_andres_y_providencia_coastline``"
+msgstr "*Entrepôt GeoServer* ``san_andres_y_providencia_coastline``"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:702
 msgid ""
 "The Store is confiugured by pointing directly to the path of the ``san_andres_y_providencia_coastline.shp`` "
 "file."
 msgstr ""
-"Le magasin est configuré en pointant directement sur le chemin du fichier "
+"L'entrepôt est configuré en pointant directement sur le chemin du fichier "
 "``san_andres_y_providencia_coastline.shp``."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:705
@@ -16762,11 +16879,12 @@ msgid ""
 "\"coverages\". All layers have a source of data, known as a Store. The layer is associated with the "
 "Workspace in which the Store is defined."
 msgstr ""
-"Dans GeoServer, le terme \"couche\" fait référence à un ensemble de données raster ou vecteur qui "
-"représente un ensemble de caractéristiques géographiques. couches vectorielles sont analogues à "
-"\"featureTypes\" et les couches raster sont analogues aux \"coverages\". Toutes les couches ont une source "
-"de données, connus sous le nom d'un magasin. La couche est associée à l'espace de travail dans lequel le "
-"magasin est défini."
+"Dans GeoServer, le terme \"couche\" fait référence à un ensemble de données "
+"matricielles ou vectorielles qui représente un ensemble de traits "
+"géographiques. Les couches vectorielles sont analogues aux \"featureTypes\" "
+"et les couches matricielles sont analogues aux \"coverages\". Toutes les "
+"couches ont une source de données, connus sous le nom d'entrepôt. La couche "
+"est associée à l'espace de travail dans lequel l'entrepôt est défini."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:708
 msgid ""
@@ -16774,18 +16892,20 @@ msgid ""
 "layer, or remove (unregister) a layer. The Layers View page displays the list of layers, and the Store and "
 "Workspace in which each layer is contained. The View page also displays the layer's status and native SRS."
 msgstr ""
-"Dans la section Couches de l'interface Web, vous pouvez afficher et modifier les couches existantes, "
-"ajouter (enregistrer) une nouvelle couche, ou supprimer (désinscription) une couche. Les couches View page "
-"affiche la liste des couches, et le magasin et l'espace de travail dans lequel chaque couche est contenue. "
-"The View page affiche également l'état de la couche et SRS natif."
+"Dans la section Couches de l'interface Web, vous pouvez visualiser et "
+"modifier les couches existantes, ajouter une nouvelle couche, ou supprimer "
+"une couche. La page de visualisation des couches affiche la liste des "
+"couches, et l'entrepôt et l'espace de travail associées à chaque couche. "
+"Cette page affiche également l'état de la couche et sont SRS (système de "
+"coordonnées) natif."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:712
 msgid "*Layers View*"
-msgstr "*Calques Voir*"
+msgstr "*Visualisation de Couches*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:714
 msgid "**Layer types**"
-msgstr "**Layer types**"
+msgstr "**Types de couches**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:716
 msgid ""
@@ -16796,13 +16916,16 @@ msgid ""
 "earth surface. Each cell has a distinct value, and all cells with the same value represent a specific "
 "feature."
 msgstr ""
-"Les couches peuvent être divisés en deux types de données: raster et vecteur. Ces deux formats diffèrent "
-"dans leur façon de stocker l'information spatiale. types de vecteur stockent des informations sur les types "
-"d'entités comme les chemins-un mathématiques points en une seule coordonnée x, y, lignes comme une série de "
-"coordonnées x, y, et les polygones comme une série de coordonnées x, y qui commencent et se terminent à la "
-"même place. les données de format de trame est une représentation basée sur des cellules de "
-"caractéristiques sur la surface de la terre. Chaque cellule a une valeur distincte, et toutes les cellules "
-"ayant la même valeur représentent une caractéristique spécifique."
+"Les couches peuvent être divisés en deux types de données: matricielles et "
+"vectorielles. Ces deux formats diffèrent dans leur façon de stocker "
+"l'information spatiale. Les types vectorielles stockent l'information des "
+"objets géographiques dans des entités mathématiques. Les points en une seule "
+"coordonnée x,y, les lignes comme une série de coordonnées x,y et les "
+"polygones comme une série de coordonnées x,y qui commencent et se terminent à "
+"la même place. Les données de format de trame est une représentation basée "
+"sur des cellules de caractéristiques sur la surface de la terre. Chaque "
+"cellule a une valeur distincte, et toutes les cellules ayant la même valeur "
+"représentent une caractéristique spécifique."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:723
 msgid "Description"
@@ -16924,17 +17047,18 @@ msgid ""
 "To view or edit a layer, click the layer name.  A layer configuration page will be displayed. The :guilabel:"
 "`Data` tab, activated by default, allows you to define and change data parameters for a layer."
 msgstr ""
-"Pour afficher ou modifier une couche, cliquez sur le nom de la couche. Une page de configuration de la "
-"couche sera affichée. Le :guilabel:`data` onglet, activé par défaut, vous permet de définir et de modifier "
-"les paramètres de données pour une couche."
+"Pour afficher ou modifier une couche, cliquez sur le nom de la couche. Une "
+"page de configuration de la couche sera affichée. L'onglet :guilabel:`Data`, "
+"activé par défaut, vous permet de définir et de modifier les paramètres des "
+"données de la couche."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:781
 msgid "*Edit Layer: Data tab*"
-msgstr "*Modifier la couche: onglet Données*"
+msgstr "*Modifier la couche: onglet Data*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:783
 msgid "*Basic Info*"
-msgstr "*Basic Info*"
+msgstr "*Information de base*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:785
 msgid ""
@@ -16943,31 +17067,38 @@ msgid ""
 "textual information that make the layer data easier to understand and work with. The metadata information "
 "will appear in the capabilities documents which refer to the layer."
 msgstr ""
-"Les sections de base-commençant Information Resource, Mots-clés et de métadonnées liaison sont analogues à "
-"la section ``service Metadata`` pour WCS, WFS et WMS. Ces sections fournissent des données sur les données, "
-"informations spécifiquement textuelles qui rendent plus facile à comprendre et à travailler avec les "
-"données de la couche. Les informations de métadonnées apparaîtra dans les capacités des documents qui font "
-"référence à la couche."
+"Les sections de base comme: Basic Resource Info, Keywords et Metadata sont "
+"analogues à la section ``Service Metadata`` des services WCS, WFS et WMS. Ces "
+"sections fournissent \"des données sur les données\", spécifiquement elles "
+"donnent des informations textuelles qui nous permettent de mieux comprendre "
+"et de mieux travailler avec les données de la couche. Ces métadonnées "
+"apparaîtront dans les documents de capacités (GetCapabilities) associés à la "
+"couche."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:789
 msgid ""
 "**Name**—Identifier used to reference the layer in WMS requests.  (Note that for a new layer for an already-"
 "published resource, the name must be changed to avoid conflict.)"
 msgstr ""
-"**Nom** - Identificateur utilisé pour référencer la couche dans les requêtes WMS. (Notez que pour une "
-"nouvelle couche pour une ressource déjà publié, le nom doit être modifié pour éviter les conflits.)"
+"**Name** - Identificateur utilisé pour référencer la couche dans les requêtes "
+"WMS. (Notez que pour une nouvelle couche pour une ressource déjà publié, le "
+"nom doit être modifié pour éviter les conflits.)"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:790
 msgid "**Title**—Human-readable description to briefly identify the layer to clients (required)"
-msgstr "**Titre** - Human lisible description pour identifier brièvement la couche aux clients (obligatoire)"
+msgstr ""
+"**Title** - Description l'isible qui permettra brièvement d'identifier la "
+"couche aux clients (obligatoire)"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:791
 msgid "**Abstract**—Describes the layer in detail"
-msgstr "**Résumé** - Décrit la couche en détail"
+msgstr "**Abstract** - Décrit la couche en détail"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:792
 msgid "**Keywords**—List of short words associated with the layer to assist catalog searching"
-msgstr "**Mots-clés** - Liste des mots courts associés à la couche pour aider catalogue recherche"
+msgstr ""
+"**Keywords** - Liste des mots-clés associés à la couche pour aider une "
+"recherche dans le catalogue"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:793
 msgid ""
@@ -16977,11 +17108,13 @@ msgid ""
 "while FGDC refers to those set out by the `Federal Geographic Data Committee <http://www.fgdc.gov/>`_ "
 "(FGDC) of the United States."
 msgstr ""
-"**Métadonnées Links** - Permet un lien vers des documents externes qui décrivent la couche de données. "
-"Actuellement, seuls deux types de format standard sont valides: TC211 et FGDC. TC211 se réfère à la "
-"structure des métadonnées établie par le `ISO Technical Committee for Geographic Information/Geomatics "
-"<http://www.isotc211.org/>`_ (ISO/TC 211), tandis que FGDC fait référence à ceux qui sont énoncés par le "
-"`Federal Geographic Data Committee <http://www.fgdc.gov/>`_ (FGDC)  des États-Unis."
+"**Metadata Links** - Permet de créer un lien vers des documents externes qui "
+"décrivent les données de la couche. Actuellement, seulement deux types de "
+"format standard sont supportés: TC211 et FGDC. TC211 se réfère à la structure "
+"des métadonnées établie par le `ISO Technical Committee for Geographic "
+"Information/Geomatics <http://www.isotc211.org/>`_ (ISO/TC 211), tandis que "
+"FGDC fait référence à ceux qui sont énoncés par le `Federal Geographic Data "
+"Committee <http://www.fgdc.gov/>`_ (FGDC)  des États-Unis."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:797
 msgid "*Adding a metadata link in FGDC format*"
@@ -16989,7 +17122,7 @@ msgstr "*Ajout d'un lien de métadonnées au format FGDC*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:799
 msgid "*Coordinate Reference Systems*"
-msgstr "*Coordinate Reference Systems*"
+msgstr "*Système de coordonnées*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:801
 msgid ""
@@ -16999,33 +17132,39 @@ msgid ""
 "Reference System of your data. This information is used for computing the latitude/longitude bounding box "
 "and reprojecting the data during both WMS and WFS requests."
 msgstr ""
-"Un coordinate reference system (CRS) définit la façon dont les données spatiales géoréférencées concerne "
-"réels endroits sur la surface de la Terre. Cours font partie d'un modèle plus général appelé Systèmes de "
-"référence spatiale (SRS), qui comprend le référencement par des coordonnées et des identificateurs "
-"géographiques. GeoServer a besoin de connaître le système de coordonnées de référence de vos données. Cette "
-"information est utilisée pour calculer la / zone de délimitation de longitude de latitude et reprojeter les "
-"données au cours des deux WMS et WFS demandes."
+"Un système de coordonnées (CRS) définit comment situer les données spatiales "
+"géoréférencées sur la surface de la Terre. Les CRSs font partie d'un modèle "
+"plus général appelé Systèmes de Référence Spatiale (SRS), qui comprend le "
+"référencement par des coordonnées et des identificateurs géographiques. "
+"GeoServer a besoin de connaître le système de coordonnées de référence de vos "
+"données. Cette information est utilisée pour calculer la zone de délimitation "
+"en longitude et latitude et reprojeter les données au cours des deux WMS et "
+"WFS demandes."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:805
 msgid "*Coordinate reference system of a layer*"
-msgstr "*Système de coordonnées de référence d'une couche*"
+msgstr "*Système de coordonnées d'une couche*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:807
 msgid ""
 "**Native SRS**—Specifies the coordinate system the layer is stored in. Clicking the projection link "
 "displays a description of the SRS."
 msgstr ""
-"**Natif SRS** - Indique le système de coordonnées de la couche est stockée en cliquant sur le lien de "
-"projection affiche une description du SRS.."
+"**Native SRS** - Indique le système de coordonnées dans lequel la couche est "
+"stockée. En cliquant sur le lien de projection une description du SRS "
+"s'affiche."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:808
 msgid "**Declared SRS**—Specifies the coordinate system GeoServer publishes to clients"
-msgstr "**Déclaré SRS** - Indique le système de coordonnées GeoServer publie aux clients"
+msgstr ""
+"**Declared SRS** - Indique le système de coordonnées que GeoServer va publier "
+"aux clients"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:809
 msgid "**SRS Handling**—Determines how GeoServer should handle projection when the two SRSes differ"
 msgstr ""
-"**SRS Manipulation** - Détermine comment GeoServer doit gérer la projection lorsque les deux SRSes diffèrent"
+"**SRS Handling** - Détermine comment GeoServer doit gérer la projection "
+"lorsque les deux SRSs diffèrent"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:811
 msgid "*Bounding Boxes*"
@@ -17040,24 +17179,26 @@ msgid ""
 "**Native Bounding Box**—The bounds of the data specified in the Native SRS. These bounds can be generated "
 "by clicking the :guilabel:`Compute from data` button."
 msgstr ""
-"**Natif Bounding Box** - Les limites des données spécifiées dans le SRS natif. Ces limites peuvent être "
-"générés en cliquant sur le: guilabel: `Compute de data` bouton."
+"**Native Bounding Box** - Les limites des données spécifiées dans le SRS "
+"natif. Ces limites peuvent être générés en cliquant sur le button "
+":guilabel:`Compute from data`."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:816
 msgid ""
 "**Lat/Lon Bounding Box**—The bounds specified in geographic coordinates. These bounds can be calculated by "
 "clicking the :guilabel:`Compute from native bounds` button."
 msgstr ""
-"**Lat/Lon Bounding Box** - Les limites spécifiées dans les coordonnées géographiques. Ces limites peuvent "
-"être calculées en cliquant sur le :guilabel:`Compute du bouton natif de bounds`."
+"**Lat/Lon Bounding Box** - Les limites spécifiées dans des coordonnées "
+"géographiques. Ces limites peuvent être calculées en cliquant sur le button "
+":guilabel:`Compute from native bounds`."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:820
 msgid "*Bounding Boxes of a layer*"
-msgstr "*Boîtes englobantes d'une couche*"
+msgstr "*Cadre de délimitation d'une couche*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:822
 msgid "*Feature Type Details (Vector)*"
-msgstr "*Feature Type Details (Vector)*"
+msgstr "*Details d'une entité geographique (Vecteur)*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:824
 msgid ""
@@ -17065,13 +17206,14 @@ msgid ""
 "and :guilabel:`Type` of a data source. For example, the ``sf:archsites`` layer shown below includes a "
 "geometry (``the_geom``) of type \"point\"."
 msgstr ""
-"couches vectorielles ont une liste de :guilabel:`Feature Type Details`.. Ceux-ci comprennent: guilabel: "
-"`Property` et: guilabel:` Type` d'une source de données. Par exemple, le `` sf: archsites`` couche ci-"
-"dessous comprend une géométrie ( `` the_geom``) de type \"point\"."
+"Les couches vectorielles ont une liste de :guilabel:`Feature Type Details`. "
+"Ceux-ci comprennent la :guilabel:`Property` et le :guilabel:`Type` d'une "
+"source de données. Par exemple, la couche ``sf: archsites`` ci-dessous "
+"contient une géométrie (`` the_geom``) de type \"point\"."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:828
 msgid "*Feature Type Details*"
-msgstr "*Feature Type Details*"
+msgstr "*Détails d'une entité géographique*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:830
 msgid ""
@@ -17080,31 +17222,36 @@ msgid ""
 "Currently both :guilabel:`Nillable` and :guilabel:`Min/Max Occurrences` are set to ``true`` and ``0/1`` but "
 "may be extended with future work on complex features."
 msgstr ""
-"Le option :guilabel:`Nillable` indique si la propriété requiert une valeur ou peut être marqué comme étant "
-"nul. Pendant ce temps :guilabel:`Min / Max Occurrences` se réfère au nombre de valeurs d'un champ est "
-"autorisé à avoir. Actuellement à la fois :guilabel:`Nillable` et :guilabel:`Min / Max Occurrences` sont mis "
-"à ``True`` et ``0 / 1`` mais peuvent être prolongés avec les travaux futurs sur les fonctionnalités "
+"Le option :guilabel:`Nillable` indique si la propriété requiert une valeur ou "
+"peut être marqué comme étant nul. L'option :guilabel:`Min / Max Occurrences` "
+"se réfère au nombre de valeurs qu'un champ est autorisé à avoir. Actuellement "
+"les propriétés :guilabel:`Nillable` et :guilabel:`Min / Max Occurrences` ont "
+"respectivement les valeurs ``true`` et ``0 / 1`` dans le futur les valeurs "
+"possibles peuvent être étendus afin de supporter les éléments géographiques "
 "complexes."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:832
 msgid "**Edit Layer: Publishing**"
-msgstr "**Modifier couche: Publication**"
+msgstr "**Modifier la couche: Publication**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:834
 msgid "The Publishing tab configures HTTP and WMS/WFS/WCS settings."
-msgstr "L'onglet Publication configure HTTP et les paramètres WMS / WFS / WCS."
+msgstr ""
+"L'onglet :guilabel:`Publishing` configure HTTP et les paramètres des ervices "
+"WMS / WFS / WCS."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:838
 msgid "*Edit Layer: Publishing tab*"
-msgstr "*Modifier la couche: onglet Publication*"
+msgstr "*Modifier la couche: onglet :guilabel:`Publishing`*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:840
 msgid ""
 "**Enabled**—A layer that is not enabled won't be available to any kind of request, it will just show up in "
 "the configuration (and in REST config)"
 msgstr ""
-"**Activé** - Une couche non activé ne seront pas disponibles à tout type de demande, il suffit de se "
-"présenter dans la configuration (et REST config)"
+"**Enabled** - Une couche non activé ne sera pas disponible pour aucune "
+"requête, elle n'apparaîtra que dans la configuration (et la ressource REST "
+"config)"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:841
 msgid ""
@@ -17112,9 +17259,10 @@ msgid ""
 "access requests (for example, WMS GetMap, WMS GetFeature) but won't appear in any capabilities document or "
 "in the layer preview."
 msgstr ""
-"**Annoncé** - Une couche est annoncé par défaut. Une couche non annoncé sera disponible dans toutes les "
-"demandes d'accès aux données (par exemple, WMS GetMap, WMS GetFeature) mais ne sera pas apparaître dans un "
-"document de capacités ou dans la couche aperçu."
+"**Advertised** - Une couche est annoncé par défaut. Une couche non annoncé "
+"sera disponible dans toutes les demandes d'accès aux données (par exemple, "
+"WMS GetMap, WMS GetFeature) mais n'apparaîtra pas dans un document de "
+"capacités ou dans l'aperçu de couches."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:843
 msgid "*HTTP Settings*"
@@ -17122,7 +17270,9 @@ msgstr "*HTTP Settings*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:845
 msgid "Cache parameters that apply to the HTTP response from client requests."
-msgstr "paramètres de cache qui correspondent à la réponse HTTP à partir des demandes des clients."
+msgstr ""
+"Paramètres de cache qui devront être appliqués à la réponse HTTP d'une "
+"requête d'un client."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:847
 msgid ""
@@ -17130,38 +17280,41 @@ msgid ""
 "specified in :guilabel:`Cache Time`. One hour measured in seconds (3600), is the default value for :"
 "guilabel:`Cache Time`."
 msgstr ""
-"**Réponse Cache-têtes** - Si elle est sélectionnée, GeoServer ne demandera pas la même tuile deux fois dans "
-"le délai indiqué dans :guilabel:`Cache time`. Une heure mesurée en secondes (3600), est la valeur par "
-"défaut pour :guilabel:`Cache time`."
+"**Response Cache Headers** - Si cette option est sélectionnée, GeoServer ne "
+"demandera pas la même tuile deux fois dans le délai indiqué dans "
+":guilabel:`Cache time`. Une heure mesurée en secondes (3600), est la valeur "
+"par défaut pour :guilabel:`Cache time`."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:849
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:855
 msgid "*WMS Settings*"
-msgstr "*WMS Settings*"
+msgstr "*Paramètres du service WMS*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:851
 msgid "Sets the WMS specific publishing parameters."
-msgstr "Définit les paramètres d'édition spécifique WMS."
+msgstr "Définit les paramètres de publication spécifiques au service WMS."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:857
 msgid "**Queryable**—Controls whether the layer is queryable via WMS ``GetFeatureInfo`` requests."
-msgstr "**Queryable** - Contrôle si la couche est interrogeable via WMS ``GetFeatureInfo`` demandes."
+msgstr ""
+"**Queryable** - Contrôle si la couche est peut être interrogée via des "
+"requêtes WMS ``GetFeatureInfo``."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:858
 msgid ""
 "**Default style**—Style that will be used when the client does not specify a named style in GetMap requests."
 msgstr ""
-"**Style par défaut** - Style qui sera utilisé lorsque le client ne spécifie pas un style nommé dans les "
-"demandes GetMap."
+"**Default style** - Style qui sera utilisé lorsque le client ne spécifie pas "
+"un style nommé dans les demandes GetMap."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:859
 msgid ""
 "**Additional styles**—Other styles that can be associated with this layer. Some clients (and the GeoServer "
 "Layer Preview) will present those as styling alternatives for that layer to the user."
 msgstr ""
-"**Styles supplémentaires** - Autres styles qui peuvent être associés à cette couche. Certains clients (et "
-"la couche Preview GeoServer) présenteront les alternatives comme coiffants pour cette couche à "
-"l'utilisateur."
+"**Additional styles** - Autres styles qui peuvent être associés à cette "
+"couche. Certains clients (et la visualisation de couches de GeoServer) "
+"présenteront ces alternatives de style de la couche à l'utilisateur."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:860
 msgid ""
@@ -17169,17 +17322,19 @@ msgid ""
 "the `Wms Vendor Parameters <http://docs.geoserver.org/stable/en/user/services/wms/vendor.html#wms-vendor-"
 "parameters>`_ for more details."
 msgstr ""
-"**Tampon par défaut de rendu** - Valeur par défaut du paramètre fournisseur ``buffer`` GetMap / "
-"GetFeatureInfo. Voir les `Wms Vendor Parameters <http://docs.geoserver.org/stable/en/user/services/wms/"
-"vendor.html#wms-vendor-parameters>`_ Pour plus de détails."
+"**Default rendering buffer** - Valeur par défaut du paramètre non standard "
+"(vendor paramater) ``buffer`` pour les opérations GetMap / GetFeatureInfo. "
+"Voir les `Wms Vendor Parameters <http://docs.geoserver.org/stable/en/user/serv"
+"ices/wms/vendor.html#wms-vendor-parameters>`_ Pour plus de détails."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:861
 msgid ""
 "**Default WMS path**—Location of the layer in the WMS capabilities layer tree. Useful for building non-"
 "opaque layer groups"
 msgstr ""
-"**Par défaut chemin WMS** - Localisation de la couche dans l'arborescence des capacités de la couche WMS. "
-"Utile pour la construction de groupes de couches non-opaques"
+"**Default WMS path** - Localisation de la couche dans l'arborescence des "
+"couches du document des capacités WMS. Utile pour la construction de groupes "
+"de couches non-opaques"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:863
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:869
@@ -17188,23 +17343,27 @@ msgstr "*WMS Attribution*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:865
 msgid "Sets publishing information about data providers."
-msgstr "Définit la publication d'informations sur les fournisseurs de données."
+msgstr ""
+"Définit les informations qui devront être publiées sur les fournisseurs de "
+"données."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:871
 msgid ""
 "**Attribution Text**—Human-readable text describing the data provider. This might be used as the text for a "
 "hyperlink to the data provider's web site."
 msgstr ""
-"**Attribution texte** - texte lisible par l'homme décrivant le fournisseur de données. Cela pourrait être "
-"utilisé comme le texte d'un lien hypertexte vers le site Web du fournisseur de données."
+"**Attribution Text** - Texte lisible décrivant le fournisseur de données. "
+"Ceci peut être utilisé comme le texte d'un lien hypertexte vers le site web "
+"du fournisseur de données."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:872
 msgid "**Attribution Link**—URL to the data provider's website."
-msgstr "**Attribution de lien** - URL vers le site Web du fournisseur de données."
+msgstr "**Attribution Link** - URL vers le site Web du fournisseur de données."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:873
 msgid "**Logo URL**—URL to an image that serves as a logo for the data provider."
-msgstr "**Logo URL** - URL à une image qui sert de logo pour le fournisseur de données."
+msgstr ""
+"**Logo URL** - URL à l'image qui sert de logo au fournisseur de données."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:874
 msgid ""
@@ -17215,29 +17374,35 @@ msgid ""
 "advise users which providers provide a particular dataset. If you omit some of the fields, those that are "
 "provided will be published and those that are not will be omitted from the Capabilities document."
 msgstr ""
-"**Logo Type de contenu, Largeur et Hauteur** - Ces champs fournissent des informations sur l'image du logo "
-"que les clients peuvent utiliser pour aider à la mise en page. GeoServer détectera automatiquement ces "
-"valeurs si vous cliquez sur le :guilabel:`Auto-detect image size and type` lien au bas de la section. Le "
-"texte, lien, et l'URL sont chacun annoncés dans le document de capacités WMS si elles sont fournies. "
-"Certains clients WMS afficheront cette information pour conseiller les utilisateurs dont les fournisseurs "
-"fournissent un ensemble de données particulier. Si vous omettez certains des champs, ceux qui sont fournis "
-"seront publiés et ceux qui ne sont pas seront omis dans le document sur les capacités."
+"**Logo Content Type, Width, and Height** - Ces champs fournissent des "
+"informations sur l'image du logo que les clients peuvent utiliser pour aider "
+"à la mise en page. GeoServer détectera automatiquement ces valeurs si vous "
+"cliquez sur le lien :guilabel:`Auto-detect image size and type` au bas de la "
+"section. Le texte, lien, et l'URL seront annoncés dans le document de "
+"capacités WMS s'ils sont fournis. Certains clients WMS afficheront cette "
+"information pour conseiller les utilisateurs dont les fournisseurs "
+"fournissent un ensemble de données particulier. Si vous omettez certains des "
+"champs, ceux qui sont fournis seront publiés et ceux qui ne sont pas seront "
+"omis dans le document sur les capacités."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:876
 msgid "*WFS Settings*"
-msgstr "*WFS Settings*"
+msgstr "*Paramètres du service WFS*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:878
 msgid ""
 "**Per-Request Feature Limit**—Sets the maximum number of features for a layer a WFS GetFeature operation "
 "should generate (regardless of the actual number of query hits)"
 msgstr ""
-"**Par-Request Feature Limit** - Définit le nombre maximum de fonctionnalités pour une couche d'une "
-"opération WFS GetFeature devrait générer (quel que soit le nombre réel de requête frappe)"
+"**Par-Request Feature Limit** - Définit le nombre maximum d'éléments "
+"géographiques que devront être créés pour une couche lors d'une opération WFS "
+"GetFeature (indépendamment du nombre de requêtes)"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:879
 msgid "**Maximum number of decimals**—Sets the maximum number of decimals in GML output."
-msgstr "**Le nombre maximum de décimales** - Définit le nombre maximal de décimales en sortie GML."
+msgstr ""
+"**Maximum number of decimals** - Définit le nombre maximal de décimales en "
+"sortie GML."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:883
 msgid ""
@@ -17245,9 +17410,10 @@ msgid ""
 "overriding it with an empty list if need be. The input area will accept a comma separated list of EPSG "
 "codes:"
 msgstr ""
-"Il est également possible de remplacer le ``OtherSRS / OtherCRS`` liste configurée dans le service WFS, y "
-"compris remplaçant avec une liste vide si besoin est. La zone de saisie acceptera une virgule liste séparée "
-"de codes EPSG:"
+"Il est également possible de remplacer la liste ``OtherSRS / OtherCRS`` "
+"configurée dans le service WFS, et si nécessaire la replacer avec une liste "
+"vide. La zone de saisie acceptera une liste de codes EPSG séparés par deux "
+"points:"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:887
 msgid "*WFS otherSRS/otherCRS override*"
@@ -17258,24 +17424,25 @@ msgid ""
 "The list will be used only for the capabilities document generation, but will not be used to limit the "
 "actual target SRS usage in GetFeature requests."
 msgstr ""
-"La liste ne sera utilisée que pour la génération de documents de capacités, mais ne sera pas utilisé pour "
-"limiter la cible utilisation réelle SRS dans les demandes GetFeature."
+"La liste ne sera utilisée que pour la génération de documents de capacités, "
+"mais ne sera pas utilisé pour limiter les SRSs qui peuvent être utilisés dans "
+"les demandes GetFeature."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:893
 msgid "How GeoNode Automatically Configures Layers"
-msgstr "Comment GeoNode Configure automatiquement les calques"
+msgstr "Comment GeoNode configure automatiquement les couches"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:894
 msgid ""
 "GeoNode automatically sets and updates information on GeoServer every time a Layer is created or its "
 "metadata updated."
 msgstr ""
-"GeoNode définit automatiquement les mises à jour et des informations sur GeoServer chaque fois qu'une "
-"couche est créé ou mis à jour ses métadonnées."
+"GeoNode met à jour automatiquement les informations sur GeoServer chaque fois "
+"qu'une couche est créé ou que ses métadonnées sont mises à jour."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:898
 msgid "*Verify Information On GeoServer Side*"
-msgstr "*Vérifier les renseignements sur GeoServer Side*"
+msgstr "*Vérifier les informations dans GeoServer*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:918
 msgid "Select the ``Layers`` topic from the left menu."
@@ -17283,75 +17450,83 @@ msgstr "Sélectionnez le sujet ``Layers`` dans le menu de gauche."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:922
 msgid "*GeoServer Layers Menu*"
-msgstr "*Couches GeoServer Menu*"
+msgstr "*Menu des couches dans GeoServer*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:924
 msgid "Select the Layer ``san_andres_y_providencia_coastline`` from the list."
-msgstr "Sélectionnez la couche ``san_andres_y_providencia_coastline`` de la liste."
+msgstr ""
+"Sélectionnez la couche ``san_andres_y_providencia_coastline`` dans la liste."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:928
 msgid "*GeoServer Layers List*"
-msgstr "*Calques GeoServer List*"
+msgstr "*List des couches dans GeoServer*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:930
 msgid "Notice how the **Basic Resource Info** have been automatically configured by GeoNode."
-msgstr "Remarquez comment le **Infos ressources de base** ont été configurés automatiquement par GeoNode."
+msgstr ""
+"Remarquez comment le champs de **Basic Resource Info** ont été "
+"automatiquement configurés par GeoNode."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:932
 msgid "The **Name** reflects the original file name."
-msgstr "Le **Nom** reflète le nom du fichier d'origine."
+msgstr "Le champ **Name** reflète le nom du fichier d'origine."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:933
 msgid "The **Title** has been filled with the Metadata value"
-msgstr "Le titre a été rempli avec la valeur de métadonnées"
+msgstr "Le champ **Title** a été rempli avec la valeur de métadonnées"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:934
 msgid "The **Abstract** has been filled with the Metadata value"
-msgstr "Le **Résumé** a été rempli avec la valeur Métadonnées"
+msgstr "Le champ **Abstract**  a été rempli avec la valeur des métadonnées"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:935
 msgid "The **Keywords** have been added with the Metadata values"
-msgstr "Les **Mots-clés** ont été ajoutés avec les valeurs de métadonnées"
+msgstr ""
+"Les mot-clés **Keywords** ont été ajoutés avec les valeurs des métadonnées"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:940
 msgid "*GeoServer Layers Basic Resource Info*"
-msgstr "*Calques GeoServer Resource Information de base*"
+msgstr "*Information de base d'une couche dans GeoServer*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:942
 msgid ""
 "Notice how the **Metadata Links** reflect the Metadada Download options available on GeoNode, along with "
 "the URLs."
 msgstr ""
-"Remarquez comment les métadonnées **Links** reflètent les options Metadada de téléchargement disponibles "
-"sur GeoNode, ainsi que les URL."
+"Remarquez comment les liens des métadonnées **Metadata Links** reflètent les "
+"options de téléchargement de métadonnées disponibles dans GeoNode, ainsi que "
+"les URL."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:946
 msgid "*GeoServer Layers Metadata Links*"
-msgstr "*Couches GeoServer métadonnées Liens*"
+msgstr "*Liens pour les métadonnées d'une couche dans GeoServer*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:948
 msgid ""
 "Notice how the **Coordinate Reference System** and the **Bounding Boxes** have been automatically filled by "
 "GeoNode accordingly with the data source info."
 msgstr ""
-"Remarquez comment le **Coordonner le système de référence** et **les boîtes englobantes** ont été "
-"automatiquement remplis par GeoNode en conséquence avec les informations de source de données."
+"Remarquez comment le système de coordonnées **Coordinate Reference System** "
+"et les limites geographiques **Bounding Boxes** ont été automatiquement "
+"remplis par GeoNode en conformément aux information de la source de données."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:952
 msgid "*GeoServer Layers Coordinate Reference System*"
-msgstr "*Couches GeoServer Système de coordonnées de référence*"
+msgstr "*Système de cordonnées de la couche dans GeoServer*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:954
 msgid "On the **Publishing Section** the **Default Style** has been updated and configured by GeoNode."
-msgstr "Sur le de l'édition du style par défaut a été mis à jour et configuré par GeoNode."
+msgstr ""
+"Dans la section **Publishing Section** le style par défaut **Default Style** "
+"a été mis à jour et configuré par GeoNode."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:958
 msgid "*GeoServer Layers Publishing Section*"
-msgstr "*Couches GeoServer Section de la publication*"
+msgstr "*Section de publication d'une couche GeoServer*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:961
 msgid "GeoServer Stylesheets (SLD)"
-msgstr "GeoServer Stylesheets (SLD)"
+msgstr "Feuilles de style de GeoServer (SLD)"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:962
 msgid ""
@@ -17359,24 +17534,25 @@ msgid ""
 "Descriptor (SLD), a subset of XML. Please see the section on `Styling <http://docs.geoserver.org/stable/en/"
 "user/styling/index.html#styling>`_ for more information on working with styles."
 msgstr ""
-"Styles rendent, ou rendre disponible, des données géospatiales. Styles pour GeoServer sont écrits en Styled "
-"Layer Descriptor (SLD), un sous-ensemble de XML. S'il vous plaît voir la section sur `Styling <http://docs."
-"geoserver.org/stable/en/user/styling/index.html#styling>`_ pour plus d'informations sur le travail avec les "
-"styles."
+"Les styles permettent de définir la visualisation de données géospatiales. "
+"Les styles de GeoServer sont écrits en dans le format Styled Layer Descriptor "
+"(SLD), qui est un sous-ensemble de XML. Veuillez vous rendre à la section "
+"`Styling <http://docs.geoserver.org/stable/en/user/styling/index.html#styling>"
+"`_ pour plus d'informations sur comment travailler avec les styles."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:965
 msgid "On the Styles page, you can add a new style, view or edit an existing style, or remove a style."
 msgstr ""
-"Sur la page Styles, vous pouvez ajouter un nouveau style, afficher ou modifier un style existant ou "
-"supprimer un style."
+"Sur la page des Styles, vous pouvez ajouter un nouveau style, afficher ou "
+"modifier un style existant ou supprimer un style."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:970
 msgid "*Styles page*"
-msgstr "*Styles page*"
+msgstr "*Page des Styles*"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:972
 msgid "**Edit a Style**"
-msgstr "**Modifier le Style**"
+msgstr "**Edition d'un Style**"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:974
 msgid ""
@@ -17385,11 +17561,12 @@ msgid ""
 "the top in the name field. The style's workspace can be chosen using workspace selector. Styles are edited "
 "using a plain text editor with some basic utilities."
 msgstr ""
-"Pour afficher ou modifier un style, cliquez sur le nom du style. A la page :guilabel:`style Editor` sera "
-"affiché. La page présente les options de configuration du nom d'un style code, et d'autres attributs. Les "
-"noms de style sont spécifiées en haut dans le champ de nom. l'espace de travail Le style peut être choisi "
-"en utilisant le sélecteur d'espace de travail. Les styles sont modifiés à l'aide d'un éditeur de texte avec "
-"quelques services de base."
+"Pour afficher ou modifier un style, cliquez sur le nom du style. La page "
+":guilabel:`Style Editor` sera affichée. La page présentera des options qui "
+"permettent de configurer le nom, le code et d'autres attributs du style. Le "
+"nom du style sont spécifiées en haut dans le champ de nom. L'espace de "
+"travail du style peut être choisi en utilisant le sélecteur d'espace de "
+"travail. Les styles sont modifiés à l'aide d'un éditeur de texte basique."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:981
 msgid "*Style editor*"
@@ -17400,8 +17577,9 @@ msgid ""
 "The style editor supports line numbering, automatic indentation, and real-time syntax highlighting. You can "
 "also increase or decrease the font size of the editor."
 msgstr ""
-"L'éditeur de style prend en charge la numérotation des lignes, l'indentation automatique, en temps réel et "
-"la coloration syntaxique. Vous pouvez également augmenter ou diminuer la taille de la police de l'éditeur."
+"L'éditeur de style prend en charge la numérotation des lignes, l'indentation "
+"automatique et la coloration syntaxique en temps réel. Vous pouvez également "
+"augmenter ou diminuer la taille de la police de l'éditeur."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:988
 msgid "**Button**"
@@ -17437,7 +17615,9 @@ msgstr ""
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:1004
 msgid "GeoServer will sometimes render styles that fail validation, but this is not recommended."
-msgstr "GeoServer parfois rendre les styles dont la validation échoue, mais ce n'est pas recommandé."
+msgstr ""
+"Parfois GeoServer est capable d'utiliser des styles dont la validation "
+"échoue, mais ce n'est pas recommandé."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:1009
 msgid "*No validation errors*"
@@ -17452,8 +17632,9 @@ msgid ""
 "To view the `generated legend entry <http://docs.geoserver.org/stable/en/user/advanced/wmsdecoration."
 "html#decoration-types>`_ for the style, click the :guilabel:`Preview Legend` button."
 msgstr ""
-"Pour voir l'entrée `légende générée <http://docs.geoserver.org/stable/en/user/advanced/wmsdecoration."
-"html#decoration-types>`_ Pour le style, cliquez sur le bouton :guilabel:`Aperçu Legend`."
+"Pour voir la légende crée `generated legend entry "
+"<http://docs.geoserver.org/stable/en/user/advanced/wmsdecoration.html#decorati"
+"on-types>`_ pour le style, cliquez sur le bouton :guilabel:`Preview Legend`."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:1018
 msgid "**Add a Style**"
@@ -17462,8 +17643,8 @@ msgstr "**Ajouter un style**"
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:1020
 msgid "The buttons for adding and removing a style can be found at the top of the :guilabel:`Styles` page."
 msgstr ""
-"Les boutons pour ajouter et supprimer un style peut être trouvé à la partie supérieure du :guilabel:"
-"`Styles` la page."
+"Les boutons pour ajouter et supprimer un style pervent être trouvés dans la "
+"partie supérieure de la page de :guilabel:`Styles`."
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:1025
 msgid "*Adding or removing a style*"
@@ -17478,13 +17659,16 @@ msgid ""
 "several options for submitting a new style. You can paste the style directly into the editor contents. You "
 "can generate a new default style based on an internal template:"
 msgstr ""
-"Pour ajouter un nouveau style, sélectionnez le :guilabel:`Add a new style` button. Vous allez être redirigé "
-"vers une page d'éditeur. Entrez un nom pour le style. Vous pouvez également sélectionner le format de "
-"style. Dans une installation par défaut GeoServer seulement SLD est pris en charge, mais d'autres "
-"extensions (comme  `css <http://docs.geoserver.org/stable/en/user/extensions/css/index.html#extensions-"
-"css>`_) ajouter le support pour d'autres formats. La page de l'éditeur fournit plusieurs options pour la "
-"présentation d'un nouveau style. Vous pouvez coller le style directement dans le contenu de l'éditeur. Vous "
-"pouvez générer un nouveau style par défaut basé sur un modèle interne:"
+"Pour ajouter un nouveau style, ciquez sur le buton :guilabel:`Add a new "
+"style`. Vous allez être redirigé vers une page d'éditeur. Entrez un nom pour "
+"le style. Vous pouvez également sélectionner le format de style. Dans une "
+"installation par défaut GeoServer seulement SLD est pris en charge, mais "
+"d'autres extensions (comme  `css <http://docs.geoserver.org/stable/en/user/ext"
+"ensions/css/index.html#extensions-css>`_) ajouter le support pour d'autres "
+"formats. La page de l'éditeur fournit plusieurs options pour la présentation "
+"d'un nouveau style. Vous pouvez coller le style directement dans le contenu "
+"de l'éditeur. Vous pouvez générer un nouveau style par défaut basé sur un "
+"modèle interne:"
 
 #: ..\..\006_adv_workshop\005_data_migration\index.rst:1034
 msgid "*Generating a new default style.*"
