@@ -36,6 +36,7 @@ You will know how to:
     006_default_lang/index
     007_loading_data_into_geonode/index
     008_more_on_security_and_permissions/index
+    009_backup_restore/index
     
 :ref:`admin_panel`
     GeoNode has an administration panel based on the Django admin which can be used to do some database operations. Although most of the operations can and should be done through the normal GeoNode interface, the admin panel provides a quick overview and management tool over the database.
@@ -62,3 +63,6 @@ You will know how to:
     This tutorial will guide you through the steps that can be done in order to restrict the access on your data uploaded to geonode.
 
     First of all it will be shown how a user can be created and what permissions he can have. Secondly we will take a closer look on to layers, maps and documents and the different opportunities you have in order to ban certain users from viewing or editing your data.
+
+:ref:`backup_restore_geonode`
+    How to perform a full backup / restore of GeoNode and GeoServer catalogs and how to migrate data. Customization backup / restore fixtures and data manglers.
