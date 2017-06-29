@@ -4,15 +4,15 @@
 VM Setup with VirtualBox
 ========================
 
-In this section you will find instructions on how to setup an Ubuntu 14.04 VM in
-`VirtualBox`_
+In this section you will find instructions on how to setup an `Ubuntu 16.04 <http://releases.ubuntu.com/16.04/>`_ VM in
+`VirtualBox <http://download.virtualbox.org/virtualbox/5.1.22/>`_
 
-.. _VirtualBox: https://www.virtualbox.org/
+.. _VirtualBox: http://download.virtualbox.org/virtualbox/5.1.22/
 
 VirtualBox Setup
 ================
 
-Download Virtualbox from `official <https://www.virtualbox.org/wiki/Downloads>`_ web site. Choose the installer matching your
+Download VirtualBox from `official <http://download.virtualbox.org/virtualbox/5.1.22/>`_ web site. Choose the installer matching your
 operating system and architecture.
 
 Installation process is straightforward, refer to VirtualBox `official documentation
@@ -157,6 +157,10 @@ You will be prompted for confirmation.
 Now select the correct time zone for your location, then select the language for the VM
 and enter the details for the administrator user.
 
+.. image:: img/ubuntu_vm_setup_11a.png
+   :width: 600px
+   :alt: Ubuntu VM install
+
 .. image:: img/ubuntu_vm_setup_11.png
    :width: 600px
    :alt: Ubuntu VM install
@@ -174,5 +178,13 @@ a pop up window will ask you to restart the system to start using Ubuntu.
 Click on `Restart Now`
 
 .. image:: img/ubuntu_vm_setup_14.png
+   :width: 600px
+   :alt: Ubuntu VM install
+
+.. image:: img/ubuntu_vm_setup_15.png
+   :width: 600px
+   :alt: Ubuntu VM install
+
+.. image:: img/ubuntu_vm_setup_16.png
    :width: 600px
    :alt: Ubuntu VM install

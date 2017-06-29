@@ -11,4 +11,3 @@ and manages Virtual Machine.
     :maxdepth: 2
 
     ubuntu_basic_tutorial.rst
-    centos_basic_tutorial.rst

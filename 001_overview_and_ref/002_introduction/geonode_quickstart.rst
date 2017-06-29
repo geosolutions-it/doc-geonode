@@ -14,8 +14,20 @@ In this Quickstart guide you will learn the following:
     #. create a map using your new layer
     #. share your map with others
 
-Start GeoNode on your Live DVD or local VM and redirect your browser at `http://localhost:8000/ <http://localhost:8000/>`_ (this is the default port).
+Start GeoNode on your Live DVD or local VM and redirect your browser at `http://localhost/ <http://localhost/>`_ (this is the default port).
 The page will look like shown in the image below.
+
+    .. warning:: If GeoNode isn't available by default, you will need to start ``Apache2 HTTPD`` and ``Tomcat8`` Web Servers
+    
+        .. code::
+        
+                $> sudo service apache2 restart
+                $> sudo service tomcat8 restart
+
+        .. image:: img/services_start.png
+           :width: 600px
+           :alt: Services Start
+        *Services Start*
 
     .. image:: img/welcome.png
        :width: 600px
@@ -43,14 +55,9 @@ In order to create a map and add layers to it, you have to have create an accoun
            :alt: Register Form
         *Register Form*
 
-    #. You will be returned to the welcome page. An email will be sent confirming that you have signed up. While you are now logged in, you will need to confirm your account. Navigate to the link that was sent in the email.
+    #. By clicking *Sign up* you will be returned to the homepage. Now you’ve registered an account, you are able to add layers to it as well as create maps and share those with other users.
 
-        .. image:: img/confirm1.png
-           :width: 500px
-           :alt: Confirm
-        *Confirm*
-
-    #. By clicking *Confirm* you will be returned to the homepage. Now you’ve registered an account, you are able to add layers to it as well as create maps and share those with other users.
+    .. note:: In case e-mail confirmation has been enabled by configuration (see Advnaced Tutorial and GeoNode documentation for that), you will be returned to the welcome page. An email will be sent confirming that you have signed up. While you are now logged in, you will need to confirm your account. Navigate to the link that was sent in the email.
 
 
 2. Add a new layer
@@ -97,6 +104,25 @@ Layers are a published resource representing a raster or vector spatial data sou
 
     #. To upload data, click the *Upload* button at the bottom.
 
+    .. warning:: If the upload fails due to an e-mail issue, that means that the *GeoNode Notifications subsystem* must be disabled, since your VM most probably is not connected to the Internet and/or it is not able to send e-mail.
+    
+        .. code::
+            
+            $> cd /home/geonode/my_geonode/
+            $> vim my_geonode/local_settings.py
+            
+                ...
+                # notification settings
+                NOTIFICATION_ENABLED = False
+                ...
+                # INSTALLED_APPS += (NOTIFICATIONS_MODULE, )
+                ...
+                #Define email service on GeoNode
+                EMAIL_ENABLE = False
+                ...
+            
+            $> sudo service apache2 restart
+    
 3. Create a new map
 ===================
 
@@ -154,36 +180,6 @@ The next step for you is to create a map and add the newly created layers to thi
         *Save Map*
 
         This link contains a permalink to your map. If you open this link in a new window, your map will appear exactly as it was saved.
-
-4. Share your map
-=================
-
-Now let’s finish our map.
-
-    #. Check the box next to the **highway** layer to activate it. If it is not below the **POI** layer in the list, click and drag it down.
-
-        .. image:: img/maps_quickstart.png
-           :width: 500px
-           :alt: Activate Layers on Map
-        *Activate Layers on Map*
-
-    #. Make any final adjustments to the map composition as desired, including zoom and pan settings.
-
-    #. Click the *Map* button in the toolbar, and then click *Publish Map*.
-
-        .. image:: img/publishmaplink1.png
-           :alt: Publish Map button
-        *Publish Map button*
-
-    #. The title and abstract as previously created should still be there. Make any adjustments as necessary, and click *Save*.
-
-    #. A new dialog will appear with instructions on how to embed this map in a web page, including a code snippet. You can adjust the parameters as necessary.
-
-        .. image:: img/publishmap1.png
-           :alt: Publish the Map
-        *Publish the Map*
-
-Your map can now be shared!
 
 To be continued
 ===============
