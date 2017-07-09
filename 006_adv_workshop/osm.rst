@@ -10,245 +10,313 @@ The first step in this process is to get the data from OSM. We will be using the
 - http://wiki.openstreetmap.org/wiki/Overpass_API
 - http://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide
 
-In this example, we will be extracting building footprint data around Port au Prince in Haiti. To do this we will use an interactive tool that makes it easy construct a Query against the Overpass API. Point your browser at http://overpass-turbo.eu/ and use the search tools to zoom into Port Au Prince and Cite Soleil specifically. 
+In this example, we will see a couple of examples extracting:
 
-You will need to cut and paste the query specified below to get all of the appropriate data under the bbox::
+    - Southwest Platte River Road footprint, which runs through Denver
+    
+    - Building footprint data around Kampala, Uganda.
 
-    <osm-script>
-      <union into="_">
-        <bbox-query {{bbox}}/>
-        <recurse into="x" type="node-relation"/>
-        <query type="way">
-          <bbox-query {{bbox}}/>
-          <has-kv k="building" v="yes"></has-kv>
-        </query>
-        <recurse into="x" type="way-node"/>
-        <recurse type="way-relation"/>
-      </union>
-      <print mode="meta"/>
-    </osm-script>
-
-This should look like the following.
-
-.. figure:: img/overpass_turbo.png
-
-When you have the bbox and query set correctly, click the "Export" button on the menu to bring up the export menu, and then click the API interpreter link to download the OSM data base on the query you have specified. 
-
-.. figure:: img/overpass_export.png
-
-This will download a file named 'export.osm' on your file system. You will probably want to rename it something else more specific. You can do that by issuing the following command in the directory where it was downloaded::
-
-    $ mv export.osm cite_soleil_buildings.osm
-
-.. note:: You can also rename the file in your Operating Systems File management tool (Windows Explorer, Finder etc).
+To do this we will use an interactive tool that makes it easy construct a Query against the Overpass API.
 
 Exporting OSM data to shapefile using QGIS
 ------------------------------------------
 
-Now that we have osm data on our filesystem, we will need to convert it into a format suitable for uploading into your GeoNode. There are many ways to accomplish this, but for purposes of this example, we will use an OSM QGIS plugin that makes if fairly easy. Please consult the wiki page that explains how to install this plugin and make sure it is installed in your QGIS instance. Once its installed, you can use the Web Menu to load your file.
+#. First go to `openstreetmap.org <http://openstreetmap.org>`_, and search for "South Platte River, Denver"
 
-.. figure:: img/load_osm.png
+    .. image:: img/osm_river1.png
+       :width: 400px
+       :alt: Search on OpenStreetMap
+    *Search on OpenStreetMap*
 
-This will bring up a dialog box that you can use to find and convert the osm file we downloaded.
+#. Zoom in, until you see the features appearing
 
-.. figure:: img/load_osm_dialog.png
+    .. image:: img/osm_river2.png
+       :width: 400px
+       :alt: Features on OpenStreetMap
+    *Features on OpenStreetMap*
 
-When the process has completed,  you will see your layers in the Layer Tree in QGIS.
+#. Select a feature. In this example we selected *Way: Southwest Platte River Road (17082695)*
 
-.. figure:: img/qgis_layers.png
+    .. image:: img/osm_river3.png
+       :width: 400px
+       :alt: Southwest Platte River Road
+    *Southwest Platte River Road*
 
-Since we are only interested in the polygons, we can turn the other 2 layers off in the Layer Tree.
+#. Identify the tags and values of the features you're after by
 
-.. figure:: img/qgis_layer_off.png
+    - Zooming all the way into the map
+    - Click on the layers icon on the right (the three sheets of paper)
+    - Click on the last menu entry (``Map data`` or something similar in your language)
+    - The features on the map turn blue (make sure you're zoomed in far enough to see
+    - Click on the feature you're after
+    - The Tags and Values appear on left side of the screen, and you can proceed below...
+    
+    .. image:: img/osm_river4.png
+       :width: 400px
+       :alt: Southwest Platte River Road - Details
+    *Southwest Platte River Road - Details*
+    
+#. Point your browser at `overpass-turbo.eu <http://overpass-turbo.eu/>`_, and use the search box to zoom to the area of interest, in this case *Colorado*
 
-The next step is to use QGIS to convert this layer into a Shapefile so we can upload it into GeoNode. To do this, select the layer in the Layer tree, right click and then select the Save As option.
+    .. image:: img/osm_river5.png
+       :width: 400px
+       :alt: Colorado
+    *Colorado*
 
-.. figure:: img/qgis_save_as.png
+#. Click on the ``Wizard`` button, and enter the search text accordingly to the information retrieved from OpenStreetMap
 
-This will bring up the Save Vector Layer as Dialog.
+    .. image:: img/osm_river6.png
+       :width: 400px
+       :alt: Southwest Platte River Road
+    *Southwest Platte River Road*
 
-.. figure:: img/qgis_save_as_dialog.png
+    .. code::
+    
+        name="Southwest Platte River Road" and highway=tertiary and railway=abandoned
 
-Specify where on disk you want your file saved, and hit Save then OK.
+#. Click on the button ``Build and Run Query``, the map shows the selected data
 
-.. figure:: img/save_layer_path.png
+    .. image:: img/osm_river7.png
+       :width: 400px
+       :alt: Southwest Platte River Road Data
+    *Southwest Platte River Road Data*
 
-You now have a shapefile of the data you extracted from OSM that you can use to load into GeoNode. Use the GeoNode Layer Upload form to load the Shapefile parts into your GeoNode, and optionally edit the metadata and then you can view your layer in the Layer Info page in your geonode.
+#. Click on the button ``Export``, and download data as ``GeoJSON``
 
-.. figure:: img/buildings_layer_geonode.png
+    .. image:: img/osm_river8.png
+       :width: 400px
+       :alt: Southwest Platte River Road Export
+    *Southwest Platte River Road Export*
+
+#. Save it and confirm. The file ``export.geojson`` will be created into the ``Downloads`` folder
+
+    .. image:: img/osm_river9.png
+       :width: 400px
+       :alt: export.geojson
+    *export.geojson*
+
+#. Rename the file  to ``south_platte_river_road.geojson``
+
+    .. image:: img/osm_river10.png
+       :width: 400px
+       :alt: south_platte_river_road.geojson
+    *south_platte_river_road.geojson*
+
+#. Open *QGis Client* and import the layer into it
+
+    .. image:: img/osm_river11.png
+       :width: 400px
+       :alt: QGis Client
+    *QGis Client*
+
+#. Click with the right button over the layer and then click on ``Save As``
+
+    .. image:: img/osm_river12.png
+       :width: 400px
+       :alt: QGis Client - Save As
+    *QGis Client - Save As*
+
+#. Select ``ESRI Shapefile`` and click on ``Browse``
+
+    .. image:: img/osm_river13.png
+       :width: 400px
+       :alt: QGis Client - Save As SHP
+    *QGis Client - Save As SHP*
+
+#. Select the ``Downloads`` folder and name the file ``south_platte_river_road``
+
+    .. image:: img/osm_river14.png
+       :width: 400px
+       :alt: QGis Client - Save As SHP
+    *QGis Client - Save As SHP*
+
+#. This will save the layer as a Shapefile, which can be easily imported into GeoNode
+
+    .. image:: img/osm_river15.png
+       :width: 400px
+       :alt: South Platte River Road into GeoNode
+    *South Platte River Road into GeoNode*
+
+Let's see another example of export through the OverPass APIs.
+
+#. Point your browser at `overpass-turbo.eu <http://overpass-turbo.eu/>`_, and use the search box to zoom to the area of interest, in this case *Kampala*
+
+    .. image:: img/osm_kampala1.png
+       :width: 400px
+       :alt: Kampala
+    *Kampala*
+
+#. Zoom around *Nakasero* area
+
+    .. image:: img/osm_kampala2.png
+       :width: 400px
+       :alt: Nakasero
+    *Nakasero*
+
+#. Select the desired *Bounding Box* around the area to export
+
+    .. image:: img/osm_kampala3.png
+       :width: 400px
+       :alt: Nakasero BBOX
+
+    .. image:: img/osm_kampala4.png
+       :width: 400px
+       :alt: Nakasero BBOX
+    *Nakasero BBOX*
+   
+#. Run the ``Wizard`` and write ``building=* or highway=* in bbox`` on the text box.
+
+    .. image:: img/osm_kampala5.png
+       :width: 400px
+       :alt: Nakasero Query Builder
+    *Nakasero Query Builder*
+
+    This will result in a query like the following one
+    
+    .. code:: java
+
+        /*
+        This has been generated by the overpass-turbo wizard.
+        The original search was:
+        “building=* or highway=* in bbox”
+        */
+        [out:json][timeout:25];
+        // gather results
+        (
+          // query part for: “building=*”
+          node["building"]({{bbox}});
+          way["building"]({{bbox}});
+          relation["building"]({{bbox}});
+          // query part for: “highway=*”
+          node["highway"]({{bbox}});
+          way["highway"]({{bbox}});
+          relation["highway"]({{bbox}});
+        );
+        // print results
+        out body;
+        >;
+        out skel qt;
+
+#. Export data as ``GeoJSON`` like before, rename it and use QGis to export as a Shapefile
+
+    .. image:: img/osm_kampala6.png
+       :width: 400px
+       :alt: Nakasero Query Builder
+    *Nakasero Query Builder*
+
+#. This will allow you to save all the layers as a Shapefiles, which can be easily imported into GeoNode
+
+    .. image:: img/osm_kampala7.png
+       :width: 400px
+       :alt: Nakasero into GeoNode
+    *Nakasero into GeoNode*
+
+.. note:: You can also rename the file in your Operating Systems File management tool (Windows Explorer, Finder etc).
 
 .. note:: You may want to switch to an imagery layer in order to more easily see the buildings on the OSM background.
 
 Exporting OSM data to shapefile using GDAL
 ------------------------------------------
 
-An alternative way to export the .osm file to a shapefile is to use `ogr2ogr <http://www.gdal.org/ogr2ogr.html>`_ combined with the `GDAL osm driver <http://www.gdal.org/ogr/drv_osm.html>`_, available from GDAL version 1.10.
+An alternative way to export the ``.osm`` or ``.geojson`` file to a shapefile is to use `ogr2ogr <http://www.gdal.org/ogr2ogr.html>`_ combined with the `GDAL osm driver <http://www.gdal.org/ogr/drv_osm.html>`_, available from GDAL version 1.10.
+
 
 As a first step, inspect how the GDAL osm driver sees the .osm file using the ogrinfo command::
 
-    $ ogrinfo cite_soleil_buildings.osm
-    Had to open data source read-only.
-    INFO: Open of `cite_soleil_buildings.osm'
-          using driver `OSM' successful.
-    1: points (Point)
-    2: lines (Line String)
-    3: multilinestrings (Multi Line String)
-    4: multipolygons (Multi Polygon)
-    5: other_relations (Geometry Collection)
+    $ ogrinfo -al -so nakasero.geojson -where "OGR_GEOMETRY='Point'"
+    
+    INFO: Open of `nakasero.geojson'
+          using driver `GeoJSON' successful.
 
-ogrinfo has detected 5 different geometric layers inside the osm data source. As we are just interested in the buildings, you will just export to a new shapefile the multipolygons layer using the GDAL ogr2ogr command utility::
+    Layer name: OGRGeoJSON
+    Geometry: Unknown (any)
+    Feature Count: 142
+    Extent: (32.573864, 0.312602) - (32.593496, 0.331627)
+    Layer SRS WKT:
+    GEOGCS["WGS 84",
+        DATUM["WGS_1984",
+            SPHEROID["WGS 84",6378137,298.257223563,
+                AUTHORITY["EPSG","7030"]],
+            AUTHORITY["EPSG","6326"]],
+        PRIMEM["Greenwich",0,
+            AUTHORITY["EPSG","8901"]],
+        UNIT["degree",0.0174532925199433,
+            AUTHORITY["EPSG","9122"]],
+        AUTHORITY["EPSG","4326"]]
+    id: String (0.0)
+    ...
 
-    $ ogr2ogr cite_soleil_buildings cite_soleil_buildings.osm multipolygons
+    $ ogrinfo -al -so nakasero.geojson -where "OGR_GEOMETRY='LineString'"
+
+    INFO: Open of `nakasero.geojson'
+          using driver `GeoJSON' successful.
+
+    Layer name: OGRGeoJSON
+    Geometry: Unknown (any)
+    Feature Count: 928
+    Extent: (32.571923, 0.306984) - (32.597590, 0.338549)
+    Layer SRS WKT:
+    GEOGCS["WGS 84",
+        DATUM["WGS_1984",
+            SPHEROID["WGS 84",6378137,298.257223563,
+                AUTHORITY["EPSG","7030"]],
+            AUTHORITY["EPSG","6326"]],
+        PRIMEM["Greenwich",0,
+            AUTHORITY["EPSG","8901"]],
+        UNIT["degree",0.0174532925199433,
+            AUTHORITY["EPSG","9122"]],
+        AUTHORITY["EPSG","4326"]]
+    id: String (0.0)
+    ...
+    
+    $ ogrinfo -al -so nakasero.geojson -where "OGR_GEOMETRY='Polygon'"
+
+    INFO: Open of `nakasero.geojson'
+          using driver `GeoJSON' successful.
+
+    Layer name: OGRGeoJSON
+    Geometry: Unknown (any)
+    Feature Count: 2596
+    Extent: (32.572918, 0.311164) - (32.594049, 0.333597)
+    Layer SRS WKT:
+    GEOGCS["WGS 84",
+        DATUM["WGS_1984",
+            SPHEROID["WGS 84",6378137,298.257223563,
+                AUTHORITY["EPSG","7030"]],
+            AUTHORITY["EPSG","6326"]],
+        PRIMEM["Greenwich",0,
+            AUTHORITY["EPSG","8901"]],
+        UNIT["degree",0.0174532925199433,
+            AUTHORITY["EPSG","9122"]],
+        AUTHORITY["EPSG","4326"]]
+    id: String (0.0)
+    ...
+
+    $ ogrinfo -al -so nakasero.geojson -where "OGR_GEOMETRY='MultiPolygon'"
+    
+    INFO: Open of `nakasero.geojson'
+          using driver `GeoJSON' successful.
+
+    Layer name: OGRGeoJSON
+    Geometry: Unknown (any)
+    Feature Count: 3
+    Extent: (32.576421, 0.315224) - (32.590876, 0.330137)
+    Layer SRS WKT:
+    GEOGCS["WGS 84",
+        DATUM["WGS_1984",
+            SPHEROID["WGS 84",6378137,298.257223563,
+                AUTHORITY["EPSG","7030"]],
+            AUTHORITY["EPSG","6326"]],
+        PRIMEM["Greenwich",0,
+            AUTHORITY["EPSG","8901"]],
+        UNIT["degree",0.0174532925199433,
+            AUTHORITY["EPSG","9122"]],
+        AUTHORITY["EPSG","4326"]]
+    id: String (0.0)
+    ...
+
+ogrinfo has detected 4 different geometric layers inside the osm data source. As we are just interested in the buildings, you will just export to a new shapefile the polygons and multipolygons layer using the GDAL ogr2ogr command utility::
+
+    $ ogr2ogr nakasero_buildings nakasero.geojson -where "OGR_GEOMETRY='Polygon' or OGR_GEOMETRY='MultiPolygon'" -nln nakasero_buildings
 
 Now you can upload the shapefile to GeoNode using the GeoNode Upload form in the same manner as you did in the previous section.
-
-Using GeoGig to load OSM Data into Manage OSM Data
---------------------------------------------------
-
-Another alternative for working with OSM data in your GeoNode is to use `GeoGig <http://geogig.org/>`_. GeoGig is a tool that draws inspiration from Git but adapts its core concepts to handle distributed versioning of geospatial data. GeoGig allows you to load OpenStreetMap data into a repository on your server and either export that data into PostGIS for use in your GeoNode, or configure the GeoGig GeoServer extension and expose the repo directly from GeoServer. An article about this process can be found on the `Boundless Geo Blog <http://http://boundlessgeo.com/2014/03/geogit-and-openstreetmap-for-yolanda/>`_. and will be described below. Much of the impetus for GeoGig came from the ROGUE JCTD and the technology has been incorporated into the `GeoSHAPE project <http://http://geoshape.org/>`_.
-
-Much more information about how to perform the steps below can be found in the GeoGig documentation page on `Using GeoGig with OpenStreetMap data <http://geogig.org/docs/interaction/osm.html>`_. The instructions that follow are only a brief overview of the process.
-
-Getting Started
-+++++++++++++++
-
-You will first need to install the GeoGig command line tools. These can be found on the projects `SourceForge page <http://sourceforge.net/projects/geogig/files/latest/download>`_. Follow the instructions contained in the installation file in order to install the CLI tools on your GeoNode server. Once you have the tools installed and added to your path, the *geogig* command should be available::
-
-    $ geogig --version
-             Project Version : 1.0-SNAPSHOT
-                  Build Time : December 18, 2014 at 03:59:10 UTC
-             Build User Name : Unknown
-            Build User Email : Unknown
-                  Git Branch : master
-               Git Commit ID : a4a80a8dd853dfe497729b35399594947866e8ae
-             Git Commit Time : December 18, 2014 at 03:44:24 UTC
-      Git Commit Author Name : Gabriel Roldan
-     Git Commit Author Email : gabriel.roldan@gmail.com
-          Git Commit Message : Synchronize DefaultPlatform.getTempDir() to avoid false precondition check on concurrent access.
-
-Once the geogig command is available, you will need to create an empty repository to hold your data. Change directories to a suitable location on your servers filesystem and issue the following command substituting *my_repo* for whatever name you choose::
-
-    $ cd /somewhere/on/file/system
-    $ mkdir my_repo
-    $ geogig init
-    Initialized empty Geogig repository in /somewhere/on/filesystem/my_repo/.geogig
-
-Loading OSM Data into your Repository
-+++++++++++++++++++++++++++++++++++++
-
-Now that you have an empty repository to store our data, the next step is to load the current snapshot of OSM data into your repository using the *geogig osm download* command. At a minimum, you will want to use a bounding box filter to limit the downloaded data to the area of interest for your geonode installation. The example below is a bounding box that encompasses the country of Malawi. More information about the geogig osm download command can be found in the `geogig docs <http://geogig.org/manpages/osmdownload.html>`_.::
-
-    $ geogig osm download --bbox -17.129459 32.668991 -9.364680 35.920441 --saveto ./mw-osm-temp --keep-files
-
-    Connecting to http://overpass-api.de/api/interpreter...
-
-    Downloaded data will be kept in /somewhere/on/filesystem/my_repo/./mw-osm-temp
-
-    Importing into GeoGig repo...
-    1,164,420
-    1,164,420 entities processed in 5.892 min
-
-    Building trees for [node, way]
-
-    Trees built in 7.614 s
-    0%
-    Staging features...
-    100%
-
-    Committing features...
-    100%
-    Processed entities: 1,164,420.
-     Nodes: 1,091,572.
-     Ways: 72,848
-
-GeoGig stores data in *trees* which are basically equivalent to *layers* in a normal geospatial context. At this point in the process, your repo contains 2 trees for *ways* and *nodes* from OSM. In order to convert these into layers that may be more familiar to your users like *roads*, *buildings* or *medical facilities*, you will need to apply a mapping that filters the complete list of nodes and ways and converts the tags into attributes. There are a great set of sample mappings in the US State Departments CyberGIS project. You can find them `here <https://github.com/state-hiu/cybergis-osm-mappings/tree/master/mappings>`_. You should clone this repository along side your geogig repository and then apply them as shown below::
-
-    $ geogig osm map ../cybergis-osm-mappings/mappings/basic/buildings_and_roads.json
-
-    $ geogig osm map ../cybergis-osm-mappings/mappings/health/medical_centers.json
-
-    $ geogig osm map ../cybergis-osm-mappings/mappings/education/schools.json
-
-Now you can inspect the repository using the following commands::
-
-    $ geogig ls-tree
-    osm_roads
-    osm_buildings
-    node
-    way
-
-    $ geogig show osm_roads
-    TREE ID:  596a4f39ab9fadcbba6ffcaf5c135e29c2bc67d3
-    SIZE:  20288
-    NUMBER Of SUBTREES:  0
-    DEFAULT FEATURE TYPE ID:  0f7cbc6c114727858fb50668eb8a4448667bdc12
-
-    DEFAULT FEATURE TYPE ATTRIBUTES
-    id: <LONG>
-    geom: <LINESTRING>
-    status: <STRING>
-    media: <STRING>
-    name: <STRING>
-    ref: <STRING>
-    highway: <STRING>
-    lanes: <STRING>
-    oneway: <STRING>
-    surface: <STRING>
-    access: <STRING>
-    source: <STRING>
-    motor_vehicle: <STRING>
-    nodes: <STRING>
-
-Updating the OSM Data in your Repository
-++++++++++++++++++++++++++++++++++++++++
-
-As OpenStreetMap is a constantly changing dataset, you will want to periodically update your repo with the latest changes from OSM. GeoGig provides a way to do this using the *geogig osm download* command with the --update flag::
-
-    $ geogig osm download --update
-
-.. note:: If you get an error that looks like the error below, this means that there are no changes in OSM since your last update and it can be ignored.
-
-    Committing features...
-
-    An unhandled error occurred: Nothing to commit after f249200302d5e808fb1b04f329b39b5853ffb7d0. See the log for more details.
-
-Serving your GeoGig repository in GeoNode
-+++++++++++++++++++++++++++++++++++++++++
-
-At this point you have different options on how to serve this repository from your GeoNode. The most basic option is to *export* this data to PostGIS and configure the PostGIS database in GeoServer for use in GeoNode. First create a PostGIS database that will be used to store the data and then use the `geogig pg export command <http://geogig.org/manpages/pgexport.html>`_ to export the layers into this database for serving. Note you will need to replace the connection parameters below to match you r servers setup::
-
-    $ geogig pg export --host localhost --port 5432 -- schema myschema --database my_osm_database --user my_user --password my_password osm_train_stations osm_train_stations
-
-.. CAUTION::
-   You may encounter an error when performing this step. This issue has been documented `here <https://github.com/boundlessgeo/GeoGig/issues/356>`_ and is being investigated by the GeoGig team. You will need to create a primary key metadata table as described `here <http://docs.geoserver.org/stable/en/user/data/database/primarykey.html>`_ and then follow the steps below. If you have questions about this process, please ask for help on the developers mailing list. 
-
-Define your new primary key for the table we can't export (id is the osm id)::
-
-    INSERT INTO gt_pk_metadata_table (table_schema, table_name, pk_column) VALUES ('geogig_data','osm_train_stations','id'); 
-
-Next you need to alter your osm data table accordingly::
-
-    ALTER TABLE geogig_data.osm_train_stations DROP CONSTRAINT osm_train_stations_pkey;
-
-    ALTER TABLE geogig_data.osm_train_stations ADD PRIMARY KEY (id);
-
-    ALTER TABLE geogig_data.osm_train_stations DROP COLUMN fid;
-
-    ALTER TABLE geogig_data.osm_train_stations ADD COLUMN fid character varying(64);
-
-Then you can run the *geogig pg export* command with the -o option to overwrite the table::
-
-    $ geogig pg export -o --host localhost --port 5432 -- schema myschema --database my_osm_database --user my_user --password my_password osm_train_stations osm_train_stations
-
-At this point, you need to configure your PostGIS database connection in GeoServer. More information about this process can be found in the `GeoServer documentation <http://docs.geoserver.org/stable/en/user/data/database/postgis.html>`_. 
-
-Once the layers are configured in GeoServer. You want to issue the updatelayers to configure them in your GeoNode::
-
-    $ python manage.py updatelayers --store geogig_data --filter osm_train_stations
-
-Using the GeoGig GeoServer Extension
-++++++++++++++++++++++++++++++++++++
-
-The GeoGig project also contains a GeoServer extension that allows a GeoServer administrator to configure and serve the GeoGig store directly. This extension basically lets you treat your GeoGig repository as any other store of spatial data.
-
-.. note:: This section is still to be completed.
