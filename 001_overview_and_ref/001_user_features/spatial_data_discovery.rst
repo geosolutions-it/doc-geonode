@@ -10,8 +10,8 @@ Spatial datasets can be imported and shared, all through a non-technical user in
 
 Features include:
 
-* Powerful spatial search engine
+* Powerful spatial search engine (Elasticsearch)
 
-* Federated OGC services
+* Federated OGC services (OGC W*S)
 
-* Metadata catalogue
+* Metadata catalogue (OGC CSW)

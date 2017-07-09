@@ -10,7 +10,7 @@ Users can gain enhanced interactivity with GIS-specific tools such as querying a
 
 Features include:
 
-* GeoExplorer GIS client
+* GeoExplorer GIS client by default / Several pluggable clients available (Leaflet, REACT, ...)
 
 * Graphical style editor
 

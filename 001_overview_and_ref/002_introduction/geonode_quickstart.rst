@@ -181,6 +181,127 @@ The next step for you is to create a map and add the newly created layers to thi
 
         This link contains a permalink to your map. If you open this link in a new window, your map will appear exactly as it was saved.
 
+4. Share your map
+=================
+
+Now let’s publish our map and make it available to the world.
+
+    #. Click the *Maps* link on the top toolbar. This will bring up the list of maps.
+
+        .. image:: img/maps.png
+           :width: 500px
+           :alt: Explore Maps Button
+        *Create new Map Button*
+
+    #. Click on the *Map* To publish. Make any final adjustments to the map composition as desired, including zoom and pan settings.
+
+    #. To save the map click on the Map button in the toolbar, and select *Publish Map*.
+
+        .. image:: img/publishmap1.png
+           :alt: Publish Map
+        *Publish Map*
+    
+    #. The title and abstract as previously created should still be there. Make any adjustments as necessary, and click *Save*.
+
+        .. image:: img/savemapdialog1.png
+           :alt: Edit Map Metadata
+        *Edit Map Metadata*
+
+    #. A new dialog will appear with instructions on how to embed this map in a web page, including a code snippet. You can adjust the parameters as necessary.
+    
+        .. image:: img/publishmap2.png
+           :alt: Embed the Map
+        *Embed the Map*
+
+    *Your map can now be shared by embedding it on any HTML!*
+
+    .. note:: 
+    
+        Notice that you can easily retrieve the *full page* link of your *Map* by simply attaching the keyword ``embed`` at the end of the URL.
+        
+        As an instance if you open a *Map* and click on *View Map*, by just changing the URL
+        
+        from (this is just an example)
+        
+        .. code::
+        
+            http://localhost/maps/22/view
+            
+        to
+        
+        .. code::
+        
+            http://localhost/maps/22/embed
+           
+        You will get the full page view of your map
+
+        .. image:: img/embed1.png
+           :alt: Full Page View of the Map
+        *Full Page View of the Map*
+        
+Try a small Exercise with HTML
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+    #. Open a text editor like shown in the figure below
+
+        .. image:: img/html_embed1.png
+           :alt: GEdit Text Editor
+        *GEdit Text Editor*
+
+    #. Write some very basic ``HTML`` code using the snippet provided by the *Publish Map* action above
+
+        .. image:: img/html_embed2.png
+           :alt: HTML Embedding the Map
+        *HTML Embedding the Map*
+
+        .. code:: html
+        
+            <html>
+              <body>
+                <H1>This is my new Map!</H1>
+                <p align="center">
+                  <iframe 
+                       src="http://localhost/maps/22/embed"
+                       width=800 
+                       height=450
+                       style="border:0">
+                  </iframe>
+                  <br>
+                  <i>This is cool, isn't it?</i>
+                </p>
+              </body>
+            </html>
+
+    #. Click on *Save As* like shown in the figure below
+
+        .. image:: img/html_embed3.png
+           :alt: GEdit Text Editor - Save As
+        *GEdit Text Editor - Save As*
+
+    #. Save it to the *Desktop* by specifying a name and the extension ``.html``
+
+        .. image:: img/html_embed4.png
+           :alt: GEdit Text Editor - Save to Desktop
+        *GEdit Text Editor - Save to Desktop*
+
+    #. Click the *Show Desktop" button on the side bar, like shown below
+
+        .. image:: img/html_embed5.png
+           :alt: Show Desktop
+        *Show Desktop*
+
+    #. Double-Click on the file you just saved
+
+        .. image:: img/html_embed6.png
+           :alt: Double-Click on the HTML File
+        *Double-Click on the HTML File*
+
+    #. Look the results on the Web Browser, which will be automatically opened
+
+        .. image:: img/html_embed7.png
+           :alt: HTML Embedded Map
+        *HTML Embedded Map*
+
 To be continued
 ===============
 
