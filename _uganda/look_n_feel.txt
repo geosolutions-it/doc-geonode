@@ -1,0 +1,17 @@
+sudo wget http://www.newvision.co.ug/w-images/7f84cad5-1746-4d4f-a1d9-fa989602bb57/2/fill/UBOSLOGO-703x422.jpg
+
+.navbar-brand {
+    width: 150px;
+    height: 79px;
+    background: transparent url("../img/UBOSLOGO-703x422.jpg") no-repeat scroll 15px 0px;
+    background-size: 150px;
+}
+
+#wrap {
+    margin: 75px 75px;
+}
+
+.navbar-inverse {
+    background: #0e60c3;
+}
+

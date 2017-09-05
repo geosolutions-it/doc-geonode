@@ -72,7 +72,7 @@ And create a new configuration file for GeoNode:
 
 .. code-block:: bash
 
-    $ sudo gedit geonode.conf
+    $ sudo vim geonode.conf
 
 Place the following content inside the file
 
@@ -85,6 +85,9 @@ Place the following content inside the file
         ServerAdmin webmaster@localhost
         DocumentRoot /home/geonode/my_geonode/my_geonode
 
+        LimitRequestFieldSize 32760
+        LimitRequestLine 32760
+    
         ErrorLog /var/log/apache2/error.log
         LogLevel warn
         CustomLog /var/log/apache2/access.log combined
@@ -125,6 +128,38 @@ Place the following content inside the file
             IndexOptions FancyIndexing
         </Directory>
 
+        <Directory "/home/geonode/my_geonode/my_geonode/uploaded/avatars/">
+            Order allow,deny
+            Options Indexes FollowSymLinks
+            Allow from all
+            Require all granted
+            IndexOptions FancyIndexing
+        </Directory>
+
+        <Directory "/home/geonode/my_geonode/my_geonode/uploaded/people_group/">
+            Order allow,deny
+            Options Indexes FollowSymLinks
+            Allow from all
+            Require all granted
+            IndexOptions FancyIndexing
+        </Directory>
+
+        <Directory "/home/geonode/my_geonode/my_geonode/uploaded/group/">
+            Order allow,deny
+            Options Indexes FollowSymLinks
+            Allow from all
+            Require all granted
+            IndexOptions FancyIndexing
+        </Directory>
+
+        <Directory "/home/geonode/my_geonode/my_geonode/uploaded/documents/">
+            Order allow,deny
+            Options Indexes FollowSymLinks
+            Allow from all
+            Require all granted
+            IndexOptions FancyIndexing
+        </Directory>
+        
         <Directory "/home/geonode/my_geonode/my_geonode/uploaded/layers/">
             Order allow,deny
             Options Indexes FollowSymLinks

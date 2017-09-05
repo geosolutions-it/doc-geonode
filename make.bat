@@ -3,13 +3,13 @@
 REM Command file for Sphinx documentation
 
 if "%SPHINXBUILD%" == "" (
-	set SPHINXBUILD=sphinx-build
+    set SPHINXBUILD=sphinx-build
 )
 
-set ALLSPHINXOPTS=-d %BUILDDIR%/doctrees %SPHINXOPTS% .
+set ALLSPHINXOPTS=-Q -d %BUILDDIR%/doctrees %SPHINXOPTS% .
 set LANG=
 if NOT "%2" == "" (
-	set LANG=%2
+    set LANG=%2
 )
 
 if NOT "%LANG%" == "" (
@@ -29,6 +29,7 @@ if "%1" == "" goto help
 if "%1" == "help" (
 	:help
 	echo.Please use `make ^<target^>` where ^<target^> is one of
+	echo.  pdf        to make standalone PDF files - you need 'rst2pdf' package for this
 	echo.  html       to make standalone HTML files
 	echo.  dirhtml    to make HTML files named index.html in directories
 	echo.  singlehtml to make a single large HTML file
@@ -51,6 +52,16 @@ if "%1" == "clean" (
 	for /d %%i in (%BUILDDIR%\*) do rmdir /q /s %%i
 	del /q /s %BUILDDIR%\*
 	goto end
+)
+
+if "%1" == "pdf" (
+    rem echo %SPHINXBUILD% -b pdf %ALLSPHINXOPTS% %BUILDDIR%/pdf
+        echo %SPHINXBUILD% -b pdf %ALLSPHINXOPTS% %BUILDDIR%/pdf
+        %SPHINXBUILD% -b pdf %ALLSPHINXOPTS% %BUILDDIR%/pdf
+        if errorlevel 1 exit /b 1
+        echo.
+        echo.Build finished. The PDF Files are in %BUILDDIR%/pdf.
+        goto end
 )
 
 if "%1" == "html" (

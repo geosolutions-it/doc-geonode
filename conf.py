@@ -30,6 +30,25 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "geonode.settings")
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.todo']
 
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
+    'sphinx.ext.viewcode',
+    'rst2pdf.pdfbuilder'
+]
+
+# pdf_documents = [('index', u'rst2pdf', u'GeoNode Training', u'GeoNode'),]
+
+pdf_documents = [
+            ('index',
+             u'geonode-training',
+             u'GeoNode Training',
+             u'GeoSolutions S.A.S.'),
+            ]
+
+pdf_appendices = None
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 

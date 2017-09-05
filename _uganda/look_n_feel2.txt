@@ -1,0 +1,28 @@
+sudo wget http://www.ubos.org/wp-content/themes/twentytwelve/assets/img/temp55.gif
+
+{% extends 'index.html' %}
+{% load i18n %}
+{% comment %}
+This is where you can override the hero area block. You can simply modify the content below or replace it wholesale to meet your own needs. 
+{% endcomment %}
+  {% block hero %}
+  <div class="jumbotron">
+    <div class="container">
+      <h1>{% trans "UBOS GeoNode" %}</h1>
+      <div class="hero-unit-content"/>
+      <div class="intro">
+         <img src = '{{ STATIC_URL }}img/temp55.gif'>
+      </div>
+      <p>
+            {% blocktrans %}
+            The Uganda Bureau of Statistics (UBOS) is committed to the production and dissemination ofintegrated statistical information that meets the international standards quality requirements
+            {% endblocktrans %}
+        </p>
+        <span>
+            For more information about the Uganda Bureau of Statistics,
+            <a href="http://ubos.org/">visit our website</a>
+        </span>
+    </div>
+  </div>
+  {% endblock %}
+

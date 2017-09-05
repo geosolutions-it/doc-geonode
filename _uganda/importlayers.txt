@@ -1,0 +1,5 @@
+sudo usermod -a -G www-data geo
+sudo su - geo
+workon geonode
+cd /home/geonode/my_geonode/
+python manage.py importlayers -v 3 /home/geo/Desktop/gisdata/data/good/vector/

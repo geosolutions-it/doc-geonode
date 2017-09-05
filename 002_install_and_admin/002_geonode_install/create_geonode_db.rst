@@ -35,21 +35,15 @@ Switch to user `postgres` and create PostGIS extension
 
 .. code-block:: bash
 
-    $ sudo su postgres
-    $ psql -d geonode_data -c 'CREATE EXTENSION postgis;'
+    $ sudo -u postgres psql -d geonode_data -c 'CREATE EXTENSION postgis;'
 
 Then adjust permissions
 
 .. code-block:: bash
 
-    $ psql -d geonode_data -c 'GRANT ALL ON geometry_columns TO PUBLIC;'
-    $ psql -d geonode_data -c 'GRANT ALL ON spatial_ref_sys TO PUBLIC;'
-
-And switch back to the 'geo' user
-
-.. code-block:: bash
-
-    $ exit
+    $ sudo -u postgres psql -d geonode_data -c 'GRANT ALL ON geometry_columns TO PUBLIC;'
+    $ sudo -u postgres psql -d geonode_data -c 'GRANT ALL ON spatial_ref_sys TO PUBLIC;'
+    $ sudo -u postgres psql -d geonode_data -c 'GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO geonode;'
 
 Now we are going to change user access policy for local connections in file `pg_hba.conf`
 
@@ -113,50 +107,60 @@ Move into the ``my_geonode`` custom project base folder
     $ cd my_geonode
 
 First of all we need to tweak a bit the `my_geonode` ``local_settings``.
-In order to do that, edit the ``my_geonode/local_settings.py`` file:
+In order to do that, rename the ``my_geonode/local_settings.py.sample`` file to ``my_geonode/local_settings.py`` end edit it:
 
     .. code-block:: bash
 
+        $ cp my_geonode/local_settings.py.sample my_geonode/local_settings.py
         $ vim my_geonode/local_settings.py
     
-    Add the following section at the **end** of file
+    Update the following sections at the accordingly to your server configuration
     
     .. code-block:: python
     
         ...
-        # ########################################################################## #
-        ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '::1']
-        PROXY_ALLOWED_HOSTS = ("127.0.0.1", 'localhost', '::1')
+        SITE_HOST_NAME = os.getenv('SITE_HOST_NAME', "localhost")
+        SITE_HOST_PORT = os.getenv('SITE_HOST_PORT', "8000")
+        SITEURL = os.getenv('SITEURL', "http://%s:%s/" % (SITE_HOST_NAME, SITE_HOST_PORT))
+        
+        ...
+        
+        EMAIL_ENABLE = True
 
-        POSTGIS_VERSION = (2, 0, 7)
-
+        if EMAIL_ENABLE:
+            EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+            EMAIL_HOST = 'localhost'
+            EMAIL_PORT = 25
+            EMAIL_HOST_USER = ''
+            EMAIL_HOST_PASSWORD = ''
+            EMAIL_USE_TLS = False
+            DEFAULT_FROM_EMAIL = '{{ project_name }} <no-reply@{{ project_name }}>'
+        
+        ...
+        
         DATABASES = {
             'default': {
                  'ENGINE': 'django.db.backends.postgresql_psycopg2',
                  'NAME': 'geonode',
                  'USER': 'geonode',
                  'PASSWORD': 'geonode',
+                 'CONN_TOUT': 900,
              },
             # vector datastore for uploads
             'datastore' : {
                 'ENGINE': 'django.contrib.gis.db.backends.postgis',
+                'ENGINE': '', # Empty ENGINE name disables
                 'NAME': 'geonode_data',
                 'USER' : 'geonode',
                 'PASSWORD' : 'geonode',
                 'HOST' : 'localhost',
                 'PORT' : '5432',
+                'CONN_TOUT': 900,
             }
         }
-
-        GEOSERVER_LOCATION = os.getenv(
-            'GEOSERVER_LOCATION', 'http://localhost:8080/geoserver/'
-        )
-
-        GEOSERVER_PUBLIC_LOCATION = os.getenv(
-        #    'GEOSERVER_PUBLIC_LOCATION', '{}/geoserver/'.format(SITEURL)
-            'GEOSERVER_LOCATION', 'http://localhost:8080/geoserver/'
-        )
-
+        
+        ...
+        
         OGC_SERVER_DEFAULT_USER = os.getenv(
             'GEOSERVER_ADMIN_USER', 'admin'
         )
@@ -164,126 +168,113 @@ In order to do that, edit the ``my_geonode/local_settings.py`` file:
         OGC_SERVER_DEFAULT_PASSWORD = os.getenv(
             'GEOSERVER_ADMIN_PASSWORD', 'geoserver'
         )
+        
+        ...
 
-        # OGC (WMS/WFS/WCS) Server Settings
-        OGC_SERVER = {
-            'default': {
-                'BACKEND': 'geonode.geoserver',
-                'LOCATION': GEOSERVER_LOCATION,
-                'LOGIN_ENDPOINT': 'j_spring_oauth2_geonode_login',
-                'LOGOUT_ENDPOINT': 'j_spring_oauth2_geonode_logout',
-                # PUBLIC_LOCATION needs to be kept like this because in dev mode
-                # the proxy won't work and the integration tests will fail
-                # the entire block has to be overridden in the local_settings
-                'PUBLIC_LOCATION': GEOSERVER_PUBLIC_LOCATION,
-                'USER' : OGC_SERVER_DEFAULT_USER,
-                'PASSWORD' : OGC_SERVER_DEFAULT_PASSWORD,
-                'MAPFISH_PRINT_ENABLED' : True,
-                'PRINT_NG_ENABLED' : True,
-                'GEONODE_SECURITY_ENABLED' : True,
-                'GEOGIG_ENABLED' : False,
-                'WMST_ENABLED' : False,
-                'BACKEND_WRITE_ENABLED': True,
-                'WPS_ENABLED' : False,
-                'LOG_FILE': '%s/geoserver/data/logs/geoserver.log' % os.path.abspath(os.path.join(PROJECT_ROOT, os.pardir)),
-                # Set to dictionary identifier of database containing spatial data in DATABASES dictionary to enable
-                'DATASTORE': 'datastore',
-            }
-        }
+
+You may also want to tweak some configuration on `my_geonode` ``settings``.
+This file inherits `my_geonode` ``local_settings`` and set some GeoNode default settings:
+
+    .. code-block:: bash
+
+        $ vim my_geonode/settings.py
+    
+    Update the following sections at the accordingly to your server configuration
+    
+    .. code-block:: python
+    
+        ...
+        # Make sure GeoNode recognizes your servers
+        
+        ALLOWED_HOSTS = # Add here your hosts
+        
+        ...
+        # Modify time zone accordingly
+        
+        TIME_ZONE = os.getenv('TIME_ZONE', "America/Chicago")
+        
+        ...
+        # Tweak GeoNode behavior with the following settings
+        # (see GeoNode documentation for more details)
+        
+        CLIENT_RESULTS_LIMIT = 20
+        API_LIMIT_PER_PAGE = 1000
+        FREETEXT_KEYWORDS_READONLY = False
+        RESOURCE_PUBLISHING = False
+        ADMIN_MODERATE_UPLOADS = False
+        GROUP_PRIVATE_RESOURCES = False
+        GROUP_MANDATORY_RESOURCES = True
+        MODIFY_TOPICCATEGORY = True
+        USER_MESSAGES_ALLOW_MULTIPLE_RECIPIENTS = True
+        DISPLAY_WMS_LINKS = True
+
+        # prevent signing up by default
+        ACCOUNT_OPEN_SIGNUP = True
+        ACCOUNT_EMAIL_REQUIRED = True
+        ACCOUNT_EMAIL_VERIFICATION = 'optional'
+        ACCOUNT_EMAIL_CONFIRMATION_EMAIL = True
+        ACCOUNT_EMAIL_CONFIRMATION_REQUIRED = True
+        ACCOUNT_CONFIRM_EMAIL_ON_GET = True
+        ACCOUNT_APPROVAL_REQUIRED = True
+        
+        ...
+        # Modify your maps and backgrounds
+        
+        # default map projection
+        # Note: If set to EPSG:4326, then only EPSG:4326 basemaps will work.
+        DEFAULT_MAP_CRS = "EPSG:3857"
+
+        # Where should newly created maps be focused?
+        DEFAULT_MAP_CENTER = (0, 0)
+
+        # How tightly zoomed should newly created maps be?
+        # 0 = entire world;
+        # maximum zoom is between 12 and 15 (for Google Maps, coverage varies by area)
+        DEFAULT_MAP_ZOOM = 0
 
         ALT_OSM_BASEMAPS = os.environ.get('ALT_OSM_BASEMAPS', False)
         CARTODB_BASEMAPS = os.environ.get('CARTODB_BASEMAPS', False)
         STAMEN_BASEMAPS = os.environ.get('STAMEN_BASEMAPS', False)
         THUNDERFOREST_BASEMAPS = os.environ.get('THUNDERFOREST_BASEMAPS', False)
-        MAPBOX_ACCESS_TOKEN = os.environ.get('MAPBOX_ACCESS_TOKEN', None)
+        MAPBOX_ACCESS_TOKEN = os.environ.get('MAPBOX_ACCESS_TOKEN', '')
         BING_API_KEY = os.environ.get('BING_API_KEY', None)
 
         MAP_BASELAYERS = [{
-            "source": {"ptype": "gxp_olsource"},
-            "type": "OpenLayers.Layer",
-            "args": ["No background"],
-            "name": "background",
-            "visibility": False,
-            "fixed": True,
-            "group":"background"
-        },
-        # {
-        #     "source": {"ptype": "gxp_olsource"},
-        #     "type": "OpenLayers.Layer.XYZ",
-        #     "title": "TEST TILE",
-        #     "args": ["TEST_TILE", "http://test_tiles/tiles/${z}/${x}/${y}.png"],
-        #     "name": "background",
-        #     "attribution": "&copy; TEST TILE",
-        #     "visibility": False,
-        #     "fixed": True,
-        #     "group":"background"
-        # },
-        {
-            "source": {"ptype": "gxp_osmsource"},
-            "type": "OpenLayers.Layer.OSM",
-            "name": "mapnik",
-            "visibility": True,
-            "fixed": True,
-            "group": "background"
-        }]
+        ...
+        
+        # Enable/Disable the notification system
+        # (see GeoNode documentation for more details)
 
-        LOCAL_GEOSERVER = {
-            "source": {
-                "ptype": "gxp_wmscsource",
-                "url": OGC_SERVER['default']['PUBLIC_LOCATION'] + "wms",
-                "restUrl": "/gs/rest"
-            }
-        }
-        baselayers = MAP_BASELAYERS
-        MAP_BASELAYERS = [LOCAL_GEOSERVER]
-        MAP_BASELAYERS.extend(baselayers)
-
+        NOTIFICATION_ENABLED = True
+        
+        ...
+        
+        # Enable/Disable the integrated monitoring system
+        # (see GeoNode documentation for more details)
+        
+        MONITORING_ENABLED = False
+        
+        # Tweak the logging options
+        
         LOGGING = {
-            'version': 1,
-            'disable_existing_loggers': True,
-            'formatters': {
-                'verbose': {
-                    'format': '%(levelname)s %(asctime)s %(module)s %(process)d '
-                              '%(thread)d %(message)s'
-                },
-                'simple': {
-                    'format': '%(message)s',
-                },
-            },
-            'filters': {
-                'require_debug_false': {
-                    '()': 'django.utils.log.RequireDebugFalse'
-                }
-            },
-            'handlers': {
-                'null': {
-                    'level': 'ERROR',
-                    'class': 'django.utils.log.NullHandler',
-                },
-                'console': {
-                    'level': 'DEBUG',
-                    'class': 'logging.StreamHandler',
-                    'formatter': 'simple'
-                },
-                'mail_admins': {
-                    'level': 'ERROR', 'filters': ['require_debug_false'],
-                    'class': 'django.utils.log.AdminEmailHandler',
-                }
-            },
+        ...
             "loggers": {
-                "django": {
-                    "handlers": ["console"], "level": "ERROR", },
-                "geonode": {
-                    "handlers": ["console"], "level": "DEBUG", },
-                "gsconfig.catalog": {
-                    "handlers": ["console"], "level": "DEBUG", },
-                "owslib": {
-                    "handlers": ["console"], "level": "DEBUG", },
-                "pycsw": {
-                    "handlers": ["console"], "level": "ERROR", },
-                },
-            }
-        # ########################################################################## #
+            "django": {
+                "handlers": ["console"], "level": "INFO", },
+            "geonode": {
+                "handlers": ["console"], "level": "INFO", },
+            "gsconfig.catalog": {
+                "handlers": ["console"], "level": "INFO", },
+            "owslib": {
+                "handlers": ["console"], "level": "INFO", },
+            "pycsw": {
+                "handlers": ["console"], "level": "INFO", },
+            "{{ project_name }}": {
+                "handlers": ["console"], "level": "DEBUG", },
+            },
+        }
+
+
         
 Finalize GeoNode Setup & Test
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

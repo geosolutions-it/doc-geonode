@@ -27,8 +27,12 @@ Setup GeoServer
     .. code-block:: bash
 
         $ sudo mkdir -p /data/geoserver-data
+        $ sudo mkdir -p /data/geoserver-logs
+        $ sudo mkdir -p /data/gwc_cache_dir
         $ sudo cp -Rf /home/geonode/my_geonode/geoserver/data/* /data/geoserver-data/
         $ sudo chown -Rf tomcat8: /data/geoserver-data/
+        $ sudo chown -Rf tomcat8: /data/geoserver-logs/
+        $ sudo chown -Rf tomcat8: /data/gwc_cache_dir/
 
 #. Set default `Java` settings
 
@@ -43,7 +47,12 @@ Setup GeoServer
     .. code-block:: yaml
     
         #JAVA_OPTS="-Djava.awt.headless=true -Xmx128m -XX:+UseConcMarkSweepGC"
-        JAVA_OPTS="-Djava.awt.headless=true -XX:MaxPermSize=512m -XX:PermSize=128m -Duser.timezone=GMT -Dorg.geotools.shapefile.datetime=true -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:ParallelGCThreads=4 -Dfile.encoding=UTF8 -Duser.timezone=GMT -Xms512m -Xmx2048m -Djavax.servlet.request.encoding=UTF-8 -Djavax.servlet.response.encoding=UTF-8 -DGEOSERVER_DATA_DIR=/data/geoserver-data"
+        GEOSERVER_DATA_DIR="/data/geoserver-data"
+        GEOSERVER_LOG_LOCATION="/data/geoserver-logs/geoserver.log"
+        GEOWEBCACHE_CACHE_DIR="/data/gwc_cache_dir"
+        GEOFENCE_DIR="$GEOSERVER_DATA_DIR/geofence"
+
+        JAVA_OPTS="-Djava.awt.headless=true -XX:MaxPermSize=512m -XX:PermSize=128m -Xms512m -Xmx2048m -Duser.timezone=GMT -Dorg.geotools.shapefile.datetime=true -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:ParallelGCThreads=4 -Dfile.encoding=UTF8 -Duser.timezone=GMT -Djavax.servlet.request.encoding=UTF-8 -Djavax.servlet.response.encoding=UTF-8 -DGEOSERVER_DATA_DIR=$GEOSERVER_DATA_DIR -Dgeofence.dir=$GEOFENCE_DIR -DGEOSERVER_LOG_LOCATION=$GEOSERVER_LOG_LOCATION -DGEOWEBCACHE_CACHE_DIR=$GEOWEBCACHE_CACHE_DIR"
 
     .. warning:: Double check memory options ``-Xms512m -Xmx2048m`` are compatible with your VM available RAM
 

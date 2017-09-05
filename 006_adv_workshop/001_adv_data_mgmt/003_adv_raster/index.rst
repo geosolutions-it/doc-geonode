@@ -12,4 +12,4 @@ Advanced Raster Data Management
    Introduction To Processing With GDAL Utilities <processing>
    Advanced Mosaics and Pyramids Configuration <mosaic_pyramid>
    Using ImageMosaic with Footprint <imagemosaic_footprint>
-   advanced_gdal/index
+   advanced_gdal

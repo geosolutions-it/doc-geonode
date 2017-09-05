@@ -287,13 +287,11 @@ files provided.
 				
 #.	Displaying the result on GeoServer:
 
-		.. figure:: img/ctr_screen_pyr.png
-			:width: 90%
-			
+        .. figure:: img/ctr_screen_pyr.png
+
 		Result as a pyramid (Zoom on the image for seeing the result).
 		
-		.. figure:: img/ctr_screen_ovr.png
-			:width: 90%
+        .. figure:: img/ctr_screen_ovr.png
 
 		Result with overviews (Zoom on the image for seeing the result).
  
@@ -466,13 +464,11 @@ If the user wants to keep the palette the steps to achieve are quite similar.
 		
 #.	Displaying the result on GeoServer:
 
-		.. figure:: img/ctr_palette_pyr.png
-			:width: 90%
-			
+        .. figure:: img/ctr_palette_pyr.png
+
 		Result as a pyramid (Zoom on the image for seeing the result).
 		
-		.. figure:: img/ctr_palette_ovr.png
-			:width: 90%
+        .. figure:: img/ctr_palette_ovr.png
 
 		Result with overviews (Zoom on the image for seeing the result).
 	

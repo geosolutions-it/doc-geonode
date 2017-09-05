@@ -45,14 +45,16 @@ packages
     $ sudo apt-get update
     $ sudo apt-get install oracle-java8-installer
 
-    $ sudo add-apt-repository ppa:ubuntugis/ppa && sudo apt-get update
+    $ sudo apt-add-repository ppa:ubuntugis && sudo apt-get update && sudo apt-get upgrade
+    $ sudo apt-add-repository ppa:ubuntugis/ppa && sudo apt-get update && sudo apt-get upgrade
     $ sudo apt-get install gcc apache2 libapache2-mod-wsgi libgeos-dev libjpeg-dev libpng-dev libpq-dev libproj-dev libxml2-dev libxslt-dev
-    $ sudo apt-get install gdal-bin libgdal20* libgdal-dev
+    $ sudo apt-add-repository ppa:ubuntugis/ubuntugis-testing && sudo apt-get update && sudo apt-get upgrade
+    $ sudo apt-get install gdal-bin libgdal20 libgdal-dev
     $ sudo apt-get install python-gdal python-pycurl python-imaging python-pastescript python-psycopg2 python-urlgrabber  
     $ sudo apt-get install postgresql postgis postgresql-9.5-postgis-scripts postgresql-contrib
     $ sudo apt-get install tomcat8
 
-    $ sudo apt-get upgrade && sudo apt-get autoremove && sudo apt-get autoclean && sudo apt-get purge && sudo apt-get clean
+    $ sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove && sudo apt-get autoclean && sudo apt-get purge && sudo apt-get clean
 
 .. image:: img/install_packages.png
    :width: 600px
@@ -121,16 +123,21 @@ We are going to install GeoNode as a dependency of a **Customized DJango Project
 
 .. code-block:: bash
 
-    $ pip install Django==1.8.7
-    $ django-admin.py startproject --template=https://github.com/GeoNode/geonode-project/archive/master.zip -e py,rst,json,yml my_geonode
+    $ pip install Django==1.8.18
+    $ django-admin.py startproject --template=https://github.com/GeoNode/geonode-project/archive/2.9.x-rev.zip -e py,rst,json,yml my_geonode
 
 Let's install the GeoNode dependencies and packages into the Python Virtual Environment:
 
 .. code-block:: bash
 
     $ cd my_geonode
+    $ vim requirements.txt
+    # Make sure requirements contains reference to geonode master branch
+    -e git://github.com/GeoNode/geonode.git@master#egg=geonode
+
     $ pip install -r requirements.txt
     $ pip install -e .
-    $ pip install pygdal==2.1.0.3
+    $ pip install pygdal==2.2.1.3
+    # The closest to your `gdal-config --version`
 
 In the next section we are going to setup PostgreSQL Databases for GeoNode and finalize the setup
