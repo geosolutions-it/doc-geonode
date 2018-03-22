@@ -55,7 +55,7 @@ Backup of the old Environment
 
     tar czvf /tmp/geonode_media.tar.gz /home/geosolutions/geonode/gonode/uploaded
 
-- do the same for STATIC_ROOT, TEMPLATES (all folders listed), LOCALE (all folders listed)
+- do the same for ``STATIC_ROOT``, ``TEMPLATES`` (all folders listed), ``LOCALE`` (all folders listed)
 
 4. Backup of the original source code
 
