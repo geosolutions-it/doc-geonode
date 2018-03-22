@@ -28,6 +28,7 @@ At the end of this section you will be able to setup from scratch the whole GeoN
     vm_setup_virtualbox.rst
     vm_running_vagrant.rst
     002_geonode_install/index
+    003_geonode_update/index
 
 
 :ref:`linux_admin_intro`
@@ -35,3 +36,6 @@ At the end of this section you will be able to setup from scratch the whole GeoN
 
 :ref:`geonode_install`
     This section will guide the user through the steps necessary to install GeoNode on Ubuntu.
+
+:ref:`geonode_update`
+    This section will guide the user through the steps necessary to update GeoNode from old versions.
