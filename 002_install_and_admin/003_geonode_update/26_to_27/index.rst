@@ -138,17 +138,17 @@ Upgrade Development Environment
           # unzip the new GeoServer to the new folder
           unzip /home/geosolutions/Downloads/geoserver-2.12.x.war
       
-    * Delete the notifier configuration by deleting the content of the *GEOSERVER_DATA_DIR/notifier* folder
+    * Delete the notifier configuration by deleting the content of the ``GEOSERVER_DATA_DIR/notifier`` folder
     
-    * Delete the printing configuration by deleting the content of the *GEOSERVER_DATA_DIR/printing* folder
+    * Delete the printing configuration by deleting the content of the ``GEOSERVER_DATA_DIR/printing`` folder
     
     * Insert the content of the 2.12.x data dir (http://build.geonode.org/geoserver/latest/data-2.12.x.zip), 
       specifically:
       
-      - The content of data/notifier, into the GEOSERVER_DATA_DIR/notifier folder.
-      - The content of data/monitoring, into the GEOSERVER_DATA_DIR/monitoring folder.
-      - The content of data/styles, into the GEOSERVER_DATA_DIR/styles folder.
-      - The content of data/user_projections, into the GEOSERVER_DATA_DIR/user_projections folder.
+      - The content of ``data/notifier``, into the ``GEOSERVER_DATA_DIR/notifier folder``.
+      - The content of ``data/monitoring``, into the ``GEOSERVER_DATA_DIR/monitoring folder``.
+      - The content of ``data/styles``, into the ``GEOSERVER_DATA_DIR/styles folder``.
+      - The content of ``data/user_projections``, into the ``GEOSERVER_DATA_DIR/user_projections`` folder.
     
     * Update the GEOSERVER_DATA_DIR/geofence/geofence-server.properties as follows
     
@@ -173,7 +173,7 @@ Upgrade Development Environment
             24 org.geoserver.rest.DefaultUserGroupServiceName=geonode REST role service
             ------------------------------------------------------------------------
 
-    * Create/modify GEOSERVER_DATA_DIR/gwc/geowebcache-diskquota.xml as follows
+    * Create/modify ``GEOSERVER_DATA_DIR/gwc/geowebcache-diskquota.xml`` as follows
     
       .. code-block:: diff
       
@@ -192,7 +192,7 @@ Upgrade Development Environment
             12 </gwcQuotaConfiguration>
             ----------------------------------------------------------------------
 
-    * Create/modify GEOSERVER_DATA_DIR/logs/gwc-gs.xml as follows
+    * Create/modify ``GEOSERVER_DATA_DIR/logs/gwc-gs.xml`` as follows
     
       .. code-block:: diff
     
@@ -252,7 +252,7 @@ Upgrade Development Environment
             ------------------------------------------------------------------------
 
     
-    * Create/modify GEOSERVER_DATA_DIR/logs/QUIET_LOGGING.properties as follows
+    * Create/modify ``GEOSERVER_DATA_DIR/logs/QUIET_LOGGING.properties`` as follows
     
       .. code-block:: python
     
@@ -279,7 +279,7 @@ Upgrade Development Environment
             log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
             log4j.appender.stdout.layout.ConversionPattern=%d{dd MMM HH:mm:ss} %p [%c{2}] - %m%n
         
-    * Create/modify GEOSERVER_DATA_DIR/logs/TEST_LOGGING.properties as follows
+    * Create/modify ``GEOSERVER_DATA_DIR/logs/TEST_LOGGING.properties`` as follows
     
       .. code-block:: python
     
@@ -326,7 +326,7 @@ Upgrade Development Environment
             - GEOSERVER_DATA_DIR/security/filter/geonodeAnonymousFilter
             - GEOSERVER_DATA_DIR/security/filter/geonodeCookieFilter
         
-    * Update/modify the GEOSERVER_DATA_DIR/security as follows
+    * Update/modify the ``GEOSERVER_DATA_DIR/security`` as follows
     
         - ./filter/geonode-oauth2/config.xml
         
@@ -407,15 +407,15 @@ Upgrade Development Environment
     
     .. note:: In case of dubts you can always try to do a "diff" between your old GEOSERVER_DATA_DIR and http://build.geonode.org/geoserver/latest/data-2.12.x.zip
     
-    * Update/tweak GeoNode settings.py
+    * Update/tweak GeoNode ``settings.py``
     
-        - Add LOGIN_REDIRECT_URL
+        - Add ``LOGIN_REDIRECT_URL``
         
             .. code-block:: python
         
                 LOGIN_REDIRECT_URL = '/'
         
-        - Modify INSTALLED_APPS as follows
+        - Modify ``INSTALLED_APPS`` as follows
         
             .. code-block:: diff
 
@@ -517,7 +517,7 @@ Upgrade Development Environment
                 373 ) + GEONODE_APPS                                      =  352 ) + GEONODE_APPS
                 ------------------------------------------------------------------------
 
-        - Add MONITORING flags as follows
+        - Add ``MONITORING`` flags as follows
         
             .. code-block:: python
             
@@ -530,7 +530,7 @@ Upgrade Development Environment
                 # use with caution - for dev purpose only
                 MONITORING_DISABLE_CSRF = False
             
-        - Update LOGGING handlers as follows
+        - Update ``LOGGING`` handlers as follows
         
             .. code-block:: diff
             
@@ -577,7 +577,7 @@ Upgrade Development Environment
                 426 }                                                            398 }
                 ------------------------------------------------------------------------
 
-        - Update MIDDLEWARE and SECURITY flags as follows
+        - Update ``MIDDLEWARE`` and ``SECURITY`` flags as follows
         
             .. code-block:: diff
         
@@ -710,7 +710,7 @@ Upgrade Development Environment
                     ]
                 }
         
-        - Update/modify NOTIFICATIONS settings as follows
+        - Update/modify ``NOTIFICATIONS`` settings as follows
         
             .. code-block:: diff
         
@@ -756,7 +756,7 @@ Upgrade Development Environment
                 1125         INSTALLED_APPS += (NOTIFICATIONS_MODULE, )
                 ------------------------------------------------------------------------
 
-        - Update/modify CELERY settings as follows
+        - Update/modify ``CELERY`` settings as follows
         
             .. code-block:: diff
         
@@ -810,7 +810,7 @@ Upgrade Development Environment
                 1180                           =  1021
                 --------------------------------------------------------------
 
-        - Additional/new Geonode behavior settings
+        - Additional/new Geonode behavior ``settings``
         
             .. code-block:: python
             
@@ -859,7 +859,7 @@ Upgrade Development Environment
                     'False'
                 ))
 
-        - Update/modify THUMBNAIL GENERATOR
+        - Update/modify ``THUMBNAIL GENERATOR``
         
             .. code-block:: diff
             
@@ -872,7 +872,7 @@ Upgrade Development Environment
                 ------------------------------------------------------------------------
 
             
-     * Update/tweak GeoNode local_settings (for GeoServer)
+     * Update/tweak GeoNode ``local_settings`` (for GeoServer)
      
         .. code-block:: diff
         
