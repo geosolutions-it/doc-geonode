@@ -9,7 +9,7 @@ Backup of the old Environment
 
 *Backup of the DataBase*
 
-1. From "local_settings" or "settings" (vim geonode/local_settings.py) retrieve all the DB connection parameters
+1. From "local_settings" or "settings" (vim ``geonode/local_settings.py``) retrieve all the DB connection parameters
 
 .. image:: img/gn_up_0001.png
    :width: 600px
@@ -405,7 +405,7 @@ Upgrade Development Environment
                 21 /**;POST,DELETE,PUT=ROLE_AUTHENTICATED                                                             <> 4 /**;POST,DELETE,PUT=ROLE_ADMINISTRATOR
                 ------------------------------------------------------------------------
     
-    NOTE: In case of dubts you can always try to do a "diff" between your old GEOSERVER_DATA_DIR and http://build.geonode.org/geoserver/latest/data-2.12.x.zip
+    .. note:: In case of dubts you can always try to do a "diff" between your old GEOSERVER_DATA_DIR and http://build.geonode.org/geoserver/latest/data-2.12.x.zip
     
     * Update/tweak GeoNode settings.py
     
@@ -1337,3 +1337,28 @@ Upgrade Development Environment
             413     MONITORING_CONFIG = None
             414     MONITORING_SERVICE_NAME = 'local-geonode'
             ------------------------------------------------------------------------
+
+*Final Steps*
+
+    1. Run paver setup in order to download the latest Jetty Runner
+    
+        .. warning:: Don't do this if your GEOSERVER_DATA_DIR is located under ``geonode/geoserver/data``; it will be wiped out!!
+                     In this case download Jetty Runner manually from http://repo2.maven.org/maven2/org/eclipse/jetty/jetty-runner/9.4.7.v20170914/jetty-runner-9.4.7.v20170914.jar
+                     And put is under ``geonode/downloaded`` folder
+    
+        .. code-block:: bash
+
+          DJANGO_SETTINGS=geonode.local_settings; paver setup
+
+    2. Start the server
+    
+        .. code-block:: bash
+
+          DJANGO_SETTINGS=geonode.local_settings; paver start
+    
+    3. Re-sync GeoFence Security Rules
+    
+        .. code-block:: bash
+
+          DJANGO_SETTINGS=geonode.local_settings; paython manage.py sync_geofence
+    
