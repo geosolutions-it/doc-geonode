@@ -46,7 +46,7 @@ Backup of the old Environment
 
 .. code-block:: bash
 
-    DJANGO_SETTINGS=geonode.local_settings; python manage.py print_settings | grep MEDIA_ROOT
+    DJANGO_SETTINGS_MODULE=geonode.local_settings python manage.py print_settings | grep MEDIA_ROOT
    
 .. image:: img/gn_up_0003.png
    :width: 600px
@@ -115,7 +115,7 @@ Upgrade Development Environment
     
       .. code-block:: bash
 
-          DJANGO_SETTINGS=geonode.local_settings; paver sync
+          DJANGO_SETTINGS_MODULE=geonode.local_settings paver sync
 
     * Download the latest GeoServer WAR (http://build.geonode.org/geoserver/latest/geoserver-2.12.x.war)
 
@@ -150,7 +150,7 @@ Upgrade Development Environment
       - The content of ``data/styles``, into the ``GEOSERVER_DATA_DIR/styles folder``.
       - The content of ``data/user_projections``, into the ``GEOSERVER_DATA_DIR/user_projections`` folder.
     
-    * Update the GEOSERVER_DATA_DIR/geofence/geofence-server.properties as follows
+    * Update the ``GEOSERVER_DATA_DIR/geofence/geofence-server.properties as follows``
     
       .. code-block:: diff
       
@@ -328,7 +328,7 @@ Upgrade Development Environment
         
     * Update/modify the ``GEOSERVER_DATA_DIR/security`` as follows
     
-        - ./filter/geonode-oauth2/config.xml
+        - ``./filter/geonode-oauth2/config.xml``
         
             .. code-block:: diff
         
@@ -339,7 +339,7 @@ Upgrade Development Environment
                 18   <redirectUri>http://localhost:8080/geoserver/index.html</redirectUri>                                                                                         <> 18   <redirectUri>http://localhost:8080/geoserver</redirectUri>
                 ------------------------------------------------------------------------
 
-        - ./role/geonode REST role service/config.xml
+        - ``./role/geonode REST role service/config.xml``
         
             .. code-block:: diff
         
@@ -355,7 +355,7 @@ Upgrade Development Environment
                 17 </authKeyRESTRoleService>                                                               =  15 </authKeyRESTRoleService>
                 ------------------------------------------------------------------------
 
-        - ./config.xml
+        - ``./config.xml``
         
             .. code-block:: diff
             
@@ -391,7 +391,7 @@ Upgrade Development Environment
                 60   </bruteForcePrevention>
                 ------------------------------------------------------------------------
 
-        - ./rest.properties
+        - ``./rest.properties``
         
             .. code-block:: diff
         
@@ -1348,17 +1348,17 @@ Upgrade Development Environment
     
         .. code-block:: bash
 
-          DJANGO_SETTINGS=geonode.local_settings; paver setup
+          DJANGO_SETTINGS_MODULE=geonode.local_settings paver setup
 
     2. Start the server
     
         .. code-block:: bash
 
-          DJANGO_SETTINGS=geonode.local_settings; paver start
+          DJANGO_SETTINGS_MODULE=geonode.local_settings paver start
     
     3. Re-sync GeoFence Security Rules
     
         .. code-block:: bash
 
-          DJANGO_SETTINGS=geonode.local_settings; paython manage.py sync_geofence
+          DJANGO_SETTINGS_MODULE=geonode.local_settings paython manage.py sync_geofence
     
