@@ -35,7 +35,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.viewcode',
-    'rst2pdf.pdfbuilder'
+    # 'rst2pdf.pdfbuilder'
 ]
 
 # pdf_documents = [('index', u'rst2pdf', u'GeoNode Training', u'GeoNode'),]
