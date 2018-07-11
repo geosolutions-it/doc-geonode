@@ -11,14 +11,16 @@ From here you can browse the documentation relative to the GeoNode Training Docu
 .. hint:: An Ubuntu 18.04 Desktop 64-bit based Live ISO, containing the base packages and data for the execution of the workshop exercises, is available for download `here <https://goo.gl/ynKhuV>`_
     The Virtual Machine can also be launched through `VirtualBox <http://download.virtualbox.org/virtualbox/5.2.14/>`_ binaries.
     
+    .. note:: The ISO should be mounted ad Live CD and the Virtual Machine must enable EFI Boot options
+    
     The users to be used with the Virtual Machine are:
     
     .. code-block:: yaml
     
         geo/geo # principal user whith suoders privileges
-        /home/geo/ is the location where you can find sources, binaries and training data
-        /home/geo/my_geonode is the location of a materialized `geonode-project <https://github.com/geosolutions-it/geonode-project.git>`_ Django template
-        /home/geo/Envs/geonode/src/geonode is the location of the GeoNode core sources
+        /home/geo/ # is the location where you can find sources, binaries and training data
+        /home/geo/my_geonode # is the location of a materialized `geonode-project <https://github.com/geosolutions-it/geonode-project.git>`_ Django template
+        /home/geo/Envs/geonode/src/geonode # is the location of the GeoNode core sources
         postgres/postgres # system user for the management of the DBMS
         
 
