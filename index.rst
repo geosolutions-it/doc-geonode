@@ -8,8 +8,8 @@ Welcome to the GeoNode Training Documentation.
 
 From here you can browse the documentation relative to the GeoNode Training Documentation.
 
-.. hint:: An Ubuntu 16.04.2 Desktop 32-bit based Virtual Machine, containing the base packages and data for the execution of the workshop exercises, is available for download `here <https://www.dropbox.com/sh/c7ktjfb4puux058/AAClyyjj-QohuaZp6uy0sYDaa?dl=0>`_
-    The Virtual Machine can be launched through `VirtualBox <http://download.virtualbox.org/virtualbox/5.1.22/>`_ binaries.
+.. hint:: An Ubuntu 18.04 Desktop 64-bit based Live ISO, containing the base packages and data for the execution of the workshop exercises, is available for download `here <https://goo.gl/JErNrx>`_
+    The Virtual Machine can also be launched through `VirtualBox <http://download.virtualbox.org/virtualbox/5.2.14/>`_ binaries.
     
     The users to be used with the Virtual Machine are:
     
