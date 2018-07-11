@@ -26,7 +26,7 @@ From here you can browse the documentation relative to the GeoNode Training Docu
 
 The Documentation is divided in six main sections:
 
-.. hint:: The whole documentation for offline reading as a ZIP archive can be donwloaded `here <http://training.geonode.geo-solutions.it/doc_en.zip>`_
+.. hint:: The whole documentation for offline reading as a ZIP archive can be donwloaded `here <https://goo.gl/Z2fh4i>`_ The official GeoNode 2.8 documentation is also available for offline reading as a ZIP `here <here https://goo.gl/Unxcq2>`_
 
 .. toctree::
     :hidden:
